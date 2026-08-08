@@ -1,5 +1,5 @@
-# The Context Compiler — The Golden Document
-## Architecture Bible, Implementation Specification & Kimi Build Manual — All In One
+# The Context Compiler 
+
 
 **Version 1.0 · The single source of truth. If it is not in here, you do not need it.**
 
