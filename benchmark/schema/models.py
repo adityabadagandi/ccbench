@@ -2,7 +2,7 @@
 
 These models enforce the structure of every benchmark case.
 
-[SPEC] Frozen contract — version 1.0
+[SPEC] Frozen contract — version 1.1
     Changes to this file require a version bump because every component
     downstream (extract, harness, baselines) depends on these shapes.
 """
@@ -49,7 +49,188 @@ class GoldLabel(str, Enum):
 
 
 # ---------------------------------------------------------------------------
-# Domain types (the shapes every layer passes around)
+# Document sub-models (match case.schema.json and generators/*.py)
+# ---------------------------------------------------------------------------
+
+
+class Party(BaseModel):
+    """Seller or buyer on a GST invoice."""
+
+    name: str
+    gstin: str
+    address: str
+
+
+class InvoiceItem(BaseModel):
+    """Single line item on a GST invoice."""
+
+    description: str
+    hsn_code: str
+    quantity: float
+    unit: str
+    rate_per_unit: float
+    taxable_value: float
+    cgst_rate: float
+    sgst_rate: float
+    cgst_amount: float
+    sgst_amount: float
+
+
+class InvoiceDoc(BaseModel):
+    """GST-format invoice document (as stored in case JSON).
+
+    Note: this is the *raw document* shape, not the compiler's internal
+    Invoice dataclass. The extract layer maps one to the other.
+    """
+
+    invoice_no: str
+    date: str
+    seller: Party
+    buyer: Party
+    items: list[InvoiceItem]
+    total_taxable_value: float
+    total_cgst: float
+    total_sgst: float
+    invoice_total: float
+    eway_bill_ref: str | None = None
+    vehicle_no: str
+    consignment_ref: str
+
+
+class EWayItem(BaseModel):
+    """Single line item on an e-way bill."""
+
+    description: str
+    hsn_code: str
+    quantity: float
+    unit: str
+
+
+class EWayBillDoc(BaseModel):
+    """Government e-way bill document."""
+
+    ewb_no: str
+    generation_date: str
+    valid_until: str
+    from_gstin: str
+    from_address: str
+    to_gstin: str
+    to_address: str
+    transporter: str
+    vehicle_no: str
+    consignment_ref: str
+    items: list[EWayItem]
+    total_value: float
+    distance_km: float
+
+
+class ErpItem(BaseModel):
+    """Single line item on an ERP purchase order."""
+
+    item_code: str
+    description: str
+    quantity_ordered: float
+    unit: str
+    unit_price: float
+    total_value: float
+    expected_delivery: str
+
+
+class ErpOrderDoc(BaseModel):
+    """ERP purchase order document."""
+
+    po_no: str
+    po_date: str
+    buyer: str
+    vendor_code: str
+    vendor_name: str
+    items: list[ErpItem]
+    po_total: float
+    payment_terms: str
+    status: str
+    invoice_refs: list[str]
+    consignment_ref: str
+
+
+class WhatsAppMessage(BaseModel):
+    """Single message in a WhatsApp POD thread."""
+
+    timestamp: str
+    sender: str
+    text: str
+
+
+class WhatsAppPodDoc(BaseModel):
+    """WhatsApp proof-of-delivery thread document."""
+
+    thread_id: str
+    driver_name: str
+    driver_phone: str
+    messages: list[WhatsAppMessage]
+    delivery_confirmed: bool | None = None
+    pod_signed_by: str | None = None
+
+
+# ---------------------------------------------------------------------------
+# Document bundle
+# ---------------------------------------------------------------------------
+
+
+class Documents(BaseModel):
+    """Document bundle for a case.
+
+    Attributes:
+        invoice: GST-format invoice with HSN codes, GSTIN, totals.
+        eway_bill: E-way bill linked by consignment reference.
+        erp_order: Purchase order from ERP system.
+        whatsapp_pod: Optional WhatsApp proof-of-delivery thread.
+        flag: Optional compliance flag or annotation.
+    """
+
+    invoice: InvoiceDoc
+    eway_bill: EWayBillDoc | None = None
+    erp_order: ErpOrderDoc
+    whatsapp_pod: WhatsAppPodDoc | None = None
+    flag: dict[str, Any] | None = None
+
+
+class Case(BaseModel):
+    """Single benchmark case.
+
+    Design invariants (enforced by validator, non-negotiable):
+      * Every id in gold_facts must exist in documents.
+      * All identifiers drawn from reserved synthetic ranges — never real.
+      * must_not_appear populated for every compliance + EU case.
+      * Timestamps internally consistent (POD after invoice, etc.).
+      * No two cases share invoice_no or consignment_ref.
+
+    Attributes:
+        case_id: Unique identifier for this case.
+        bucket: Task bucket category.
+        jurisdiction: Legal jurisdiction (IN or EU).
+        documents: Bundle of related documents.
+        question: Natural-language question to answer.
+        gold_answer: Ground-truth answer.
+        gold_facts: List of required facts to support the answer.
+        gold_label: Label describing the challenge type.
+        difficulty: Optional difficulty rating.
+        must_not_appear: Values that must be absent in EU view (compliance).
+    """
+
+    case_id: str
+    bucket: Bucket
+    jurisdiction: Jurisdiction
+    documents: Documents
+    question: str
+    gold_answer: str
+    gold_facts: list[str]
+    gold_label: GoldLabel
+    difficulty: str | None = None
+    must_not_appear: list[str] = Field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# Domain types (the shapes every compiler layer passes around)
 # [SPEC] compiler/models.py — frozen dataclasses
 # ---------------------------------------------------------------------------
 
@@ -195,67 +376,3 @@ class Retriever(Protocol):
             A ContextBundle containing the compiled context.
         """
         ...
-
-
-# ---------------------------------------------------------------------------
-# Case schema (the benchmark's atomic unit)
-# [SPEC] benchmark/case.schema.json (enforced by Pydantic below)
-# ---------------------------------------------------------------------------
-
-
-class Documents(BaseModel):
-    """Document bundle for a case.
-
-    Attributes:
-        invoice: GST-format invoice with HSN codes, GSTIN, totals.
-        eway_bill: E-way bill linked by consignment reference.
-        erp_order: Purchase order from ERP system.
-        whatsapp_pod: Optional WhatsApp proof-of-delivery thread.
-        flag: Optional compliance flag or annotation.
-    """
-
-    invoice: dict[str, Any]
-    eway_bill: dict[str, Any] | None = None
-    erp_order: dict[str, Any]
-    whatsapp_pod: dict[str, Any] | None = None
-    flag: dict[str, Any] | None = None
-
-
-class Case(BaseModel):
-    """Single benchmark case.
-
-    Design invariants (enforced by validator, non-negotiable):
-      * Every id in gold_facts must exist in documents.
-      * All identifiers drawn from reserved synthetic ranges — never real.
-      * must_not_appear populated for every compliance + EU case.
-      * Timestamps internally consistent (POD after invoice, etc.).
-      * No two cases share invoice_no or consignment_ref.
-
-    Attributes:
-        case_id: Unique identifier for this case.
-        bucket: Task bucket category.
-        jurisdiction: Legal jurisdiction (IN or EU).
-        documents: Bundle of related documents.
-        question: Natural-language question to answer.
-        gold_answer: Ground-truth answer.
-        gold_facts: List of required facts to support the answer.
-        gold_label: Label describing the challenge type.
-        difficulty: Optional difficulty rating.
-        must_not_appear: Values that must be absent in EU view (compliance).
-    """
-
-    case_id: str
-    bucket: Bucket
-    jurisdiction: Jurisdiction
-    documents: Documents
-    question: str
-    gold_answer: str
-    gold_facts: list[str]
-    gold_label: GoldLabel
-    difficulty: str | None = None
-    must_not_appear: list[str] = Field(default_factory=list)
-
-    def model_post_init(self, __context: Any) -> None:
-        """Post-init validation hook."""
-        # TODO: move heavy validation to scripts/validate_cases.py
-        pass
