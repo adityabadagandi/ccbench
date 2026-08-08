@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CCBenchCase",
+  "type": "object",
+  "required": [
+    "case_id",
+    "bucket",
+    "jurisdiction",
+    "documents",
+    "question",
+    "gold_answer",
+    "gold_facts",
+    "gold_label"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "bucket": {
+      "enum": ["lookup", "multi-hop", "temporal", "cross-lingual", "compliance"]
+    },
+    "jurisdiction": {"enum": ["IN", "EU"]},
+    "documents": {
+      "type": "object",
+      "required": ["invoice", "erp_order"],
+      "properties": {
+        "invoice": {"type": "object"},
+        "eway_bill": {"type": ["object", "null"]},
+        "erp_order": {"type": "object"},
+        "whatsapp_pod": {"type": ["object", "null"]},
+        "flag": {"type": ["object", "null"]}
+      }
+    },
+    "question": {"type": "string"},
+    "gold_answer": {"type": "string"},
+    "gold_facts": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "gold_label": {
+      "enum": [
+        "clean",
+        "value_mismatch",
+        "missing_ewb",
+        "temporal_violation",
+        "compliance_case"
+      ]
+    },
+    "difficulty": {"enum": ["easy", "medium", "hard"]}
+  }
+}
