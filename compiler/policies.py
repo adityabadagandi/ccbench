@@ -41,11 +41,10 @@ from __future__ import annotations
 
 from benchmark.schema.models import Node
 
-
 POLICY = {
     # (field_name, jurisdiction) -> action
-    ("pan", "EU"): "deny",     # personal tax id: never leaves India
-    ("gstin", "EU"): "mask",   # business tax id: shown masked
+    ("pan", "EU"): "deny",  # personal tax id: never leaves India
+    ("gstin", "EU"): "mask",  # business tax id: shown masked
     # IN: allow all (implicit default)
 }
 

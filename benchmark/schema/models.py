@@ -10,18 +10,17 @@ These models enforce the structure of every benchmark case.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 from typing import Any, Protocol
 
 from pydantic import BaseModel, Field
-
 
 # ---------------------------------------------------------------------------
 # Domain enums (used in Case validation)
 # ---------------------------------------------------------------------------
 
 
-class Bucket(str, Enum):
+class Bucket(StrEnum):
     """Task bucket categories."""
 
     LOOKUP = "lookup"
@@ -31,14 +30,14 @@ class Bucket(str, Enum):
     COMPLIANCE = "compliance"
 
 
-class Jurisdiction(str, Enum):
+class Jurisdiction(StrEnum):
     """Supported jurisdictions."""
 
     IN = "IN"
     EU = "EU"
 
 
-class GoldLabel(str, Enum):
+class GoldLabel(StrEnum):
     """Gold labels describing case challenge type."""
 
     CLEAN = "clean"
@@ -243,10 +242,10 @@ class Invoice:
     consignment_ref: str
     value_eur: float
     vendor: str | None = None
-    gstin: str | None = None          # business tax id (mask for EU)
-    pan: str | None = None            # personal tax id (DENY for EU)
-    ts: str | None = None             # ISO-8601 timestamp
-    doc_ref: str | None = None        # provenance: source file/record id
+    gstin: str | None = None  # business tax id (mask for EU)
+    pan: str | None = None  # personal tax id (DENY for EU)
+    ts: str | None = None  # ISO-8601 timestamp
+    doc_ref: str | None = None  # provenance: source file/record id
 
 
 @dataclass
@@ -278,7 +277,7 @@ class Message:
     msg_id: str
     consignment_ref: str
     text: str
-    lang: str                         # 'hi' | 'en' | 'hi-en'
+    lang: str  # 'hi' | 'en' | 'hi-en'
     ts: str | None = None
     doc_ref: str | None = None
 
@@ -312,13 +311,13 @@ class Finding:
 class Node:
     """Single node in the context graph."""
 
-    id: str                           # e.g. 'INV-5567', 'F1'
-    type: str                         # 'Invoice'|'EWayBill'|'ErpOrder'|'Message'|'Flag'
+    id: str  # e.g. 'INV-5567', 'F1'
+    type: str  # 'Invoice'|'EWayBill'|'ErpOrder'|'Message'|'Flag'
     consignment_ref: str
     fields: dict[str, Any]
-    confidence: float                 # 0..1 (post-propagation)
-    ts: str | None                    # for temporal ordering
-    provenance: str                   # human-readable source
+    confidence: float  # 0..1 (post-propagation)
+    ts: str | None  # for temporal ordering
+    provenance: str  # human-readable source
 
 
 @dataclass
@@ -330,12 +329,30 @@ class ContextBundle:
     """
 
     query: str
-    nodes: list[Node]                 # selected connected subgraph, temporally ordered
-    llm_context: str                  # serialized, [ID]-tagged, citable block
-    citations: list[str]              # node ids present
-    tokens: int                       # budget used
-    budget: int                       # budget allowed
-    jurisdiction: str                 # 'IN'|'EU'
+    nodes: list[Node]  # selected connected subgraph, temporally ordered
+    llm_context: str  # serialized, [ID]-tagged, citable block
+    citations: list[str]  # node ids present
+    tokens: int  # budget used
+    budget: int  # budget allowed
+    jurisdiction: str  # 'IN'|'EU'
+
+
+# ---------------------------------------------------------------------------
+# Corpus type (forward reference placeholder)
+# [SPEC] A collection of benchmark cases passed to retrievers.
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class CaseCorpus:
+    """Collection of benchmark cases used by retrievers.
+
+    This is intentionally a thin placeholder; the harness will later
+    wrap loaded cases. It exists only to make the Retriever Protocol
+    type-check cleanly.
+    """
+
+    cases: list[Case] = field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -360,7 +377,7 @@ class Retriever(Protocol):
     def retrieve(
         self,
         question: str,
-        corpus: "CaseCorpus",
+        corpus: CaseCorpus,
         budget: int,
         jurisdiction: str = "IN",
     ) -> ContextBundle:

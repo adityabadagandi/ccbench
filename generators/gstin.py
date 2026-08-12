@@ -9,7 +9,6 @@ from __future__ import annotations
 import random
 import string
 
-
 # State codes under Indian GST (first 2 digits of GSTIN)
 STATE_CODES = {
     "07": "Delhi",
