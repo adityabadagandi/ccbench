@@ -51,7 +51,7 @@ def generate_erp_order(
         "vendor_name": invoice["seller"]["name"],
         "items": [
             {
-                "item_code": f"ITEM-{random.randint(1000,9999)}",
+                "item_code": f"ITEM-{random.randint(1000, 9999)}",
                 "description": invoice["items"][0]["description"],
                 "quantity_ordered": invoice["items"][0]["quantity"],
                 "unit": invoice["items"][0]["unit"],
@@ -61,7 +61,9 @@ def generate_erp_order(
             }
         ],
         "po_total": invoice["total_taxable_value"],
-        "payment_terms": random.choice(["Net 15 days", "Net 30 days", "Net 45 days", "Advance 50%"]),
+        "payment_terms": random.choice(
+            ["Net 15 days", "Net 30 days", "Net 45 days", "Advance 50%"]
+        ),
         "status": random.choice(["fulfilled", "partially_fulfilled", "pending"]),
         "invoice_refs": [invoice["invoice_no"]],
         "consignment_ref": invoice["consignment_ref"],

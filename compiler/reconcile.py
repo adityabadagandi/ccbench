@@ -30,7 +30,7 @@ Test contracts (write THESE FIRST, before implementation):
 
 from __future__ import annotations
 
-from benchmark.schema.models import Finding, Invoice, EWayBill, ErpOrder
+from benchmark.schema.models import ErpOrder, EWayBill, Finding, Invoice
 
 
 def reconcile(

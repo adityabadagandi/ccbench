@@ -8,7 +8,6 @@ from __future__ import annotations
 import random
 from datetime import datetime, timedelta
 
-
 # Common Hindi phrases mixed with English (logistics context)
 HINDI_PHRASES = {
     "departed": [
@@ -89,52 +88,60 @@ def generate_whatsapp(
 
     # Message 1: Departure
     msg1_time = inv_date + timedelta(hours=6)
-    messages.append({
-        "timestamp": msg1_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
-        "sender": driver,
-        "text": _format_message(
-            random.choice(HINDI_PHRASES["departed"]),
-            vehicle=vehicle,
-            from_city=from_city,
-        ),
-    })
+    messages.append(
+        {
+            "timestamp": msg1_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
+            "sender": driver,
+            "text": _format_message(
+                random.choice(HINDI_PHRASES["departed"]),
+                vehicle=vehicle,
+                from_city=from_city,
+            ),
+        }
+    )
 
     # Message 2: Arrival (only if e-way bill exists)
     if eway_bill:
         ewb_gen = datetime.fromisoformat(eway_bill["generation_date"].replace("+05:30", ""))
         msg2_time = ewb_gen + timedelta(hours=random.randint(18, 30))
-        messages.append({
-            "timestamp": msg2_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
-            "sender": driver,
-            "text": _format_message(
-                random.choice(HINDI_PHRASES["arrived"]),
-                to_city=to_city,
-            ),
-        })
+        messages.append(
+            {
+                "timestamp": msg2_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
+                "sender": driver,
+                "text": _format_message(
+                    random.choice(HINDI_PHRASES["arrived"]),
+                    to_city=to_city,
+                ),
+            }
+        )
 
         # Message 3: POD request from warehouse
         msg3_time = msg2_time + timedelta(hours=2)
-        messages.append({
-            "timestamp": msg3_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
-            "sender": f"{invoice['buyer']['name']} - Warehouse",
-            "text": _format_message(
-                random.choice(HINDI_PHRASES["pod_request"]),
-                driver_name=driver.split()[0],
-            ),
-        })
+        messages.append(
+            {
+                "timestamp": msg3_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
+                "sender": f"{invoice['buyer']['name']} - Warehouse",
+                "text": _format_message(
+                    random.choice(HINDI_PHRASES["pod_request"]),
+                    driver_name=driver.split()[0],
+                ),
+            }
+        )
 
         # Message 4: POD done
         msg4_time = msg3_time + timedelta(minutes=random.randint(30, 90))
-        messages.append({
-            "timestamp": msg4_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
-            "sender": driver,
-            "text": random.choice(HINDI_PHRASES["pod_done"]),
-        })
+        messages.append(
+            {
+                "timestamp": msg4_time.strftime("%Y-%m-%dT%H:%M:%S+05:30"),
+                "sender": driver,
+                "text": random.choice(HINDI_PHRASES["pod_done"]),
+            }
+        )
 
     return {
-        "thread_id": f"WA-{random.randint(1000,9999)}",
+        "thread_id": f"WA-{random.randint(1000, 9999)}",
         "driver_name": driver,
-        "driver_phone": f"+91-{random.randint(70000,99999)}-{random.randint(10000,99999)}",
+        "driver_phone": f"+91-{random.randint(70000, 99999)}-{random.randint(10000, 99999)}",
         "messages": messages,
         "delivery_confirmed": len(messages) >= 3,
         "pod_signed_by": f"Warehouse In-charge, {to_city}",

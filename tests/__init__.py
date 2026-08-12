@@ -1,2 +1,1 @@
-"""Test suite for CCBench and Context Compiler.
-"""
+"""Test suite for CCBench and Context Compiler."""

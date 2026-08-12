@@ -7,7 +7,6 @@ near-duplicate names, date format changes.
 from __future__ import annotations
 
 import random
-import string
 
 
 def _ocr_typo(text: str, probability: float = 0.05) -> str:
@@ -36,6 +35,7 @@ def _ocr_typo(text: str, probability: float = 0.05) -> str:
 def _date_format_variance(date_str: str) -> str:
     """Change date format randomly."""
     from datetime import datetime
+
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
     except ValueError:
@@ -64,8 +64,16 @@ def _currency_variance(amount: float) -> str:
 def _near_duplicate(name: str) -> str:
     """Create a near-duplicate company name."""
     variants = {
-        "Shree Ganesh Trading Co.": ["Sri Ganesh Trading Co.", "Shree Ganesh Traders", "Shree Ganesh Trading"],
-        "Patel Logistics Pvt. Ltd.": ["Patel Logistics Ltd.", "Patel Logistic Pvt Ltd", "Petal Logistics Pvt. Ltd."],
+        "Shree Ganesh Trading Co.": [
+            "Sri Ganesh Trading Co.",
+            "Shree Ganesh Traders",
+            "Shree Ganesh Trading",
+        ],
+        "Patel Logistics Pvt. Ltd.": [
+            "Patel Logistics Ltd.",
+            "Patel Logistic Pvt Ltd",
+            "Petal Logistics Pvt. Ltd.",
+        ],
     }
     if name in variants:
         return random.choice(variants[name] + [name])

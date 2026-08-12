@@ -9,13 +9,12 @@ import json
 import random
 from pathlib import Path
 
-from . import invoice, ewaybill, erp, whatsapp, noise, gstin
+from . import erp, ewaybill, invoice, noise, whatsapp
 
 
 def _question_for_bucket(bucket: str, documents: dict) -> str:
     """Generate a question based on the task bucket."""
     inv = documents["invoice"]
-    ewb = documents.get("eway_bill")
     erp_ord = documents.get("erp_order")
     cons_ref = inv["consignment_ref"]
 
@@ -166,7 +165,11 @@ def assemble_case(
     gold_facts = _gold_facts(documents)
 
     # Difficulty based on label
-    difficulty = "easy" if label == "clean" else ("hard" if label in ("temporal_violation", "compliance_case") else "medium")
+    difficulty = (
+        "easy"
+        if label == "clean"
+        else ("hard" if label in ("temporal_violation", "compliance_case") else "medium")
+    )
 
     return {
         "case_id": case_id,

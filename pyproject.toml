@@ -60,6 +60,7 @@ addopts = "-v --tb=short"
 [tool.ruff]
 target-version = "py312"
 line-length = 100
+exclude = ["*.md", "*.docx", "build", "dist", ".git", ".mypy_cache", ".pytest_cache", ".ruff_cache"]
 
 [tool.ruff.lint]
 select = [

@@ -29,7 +29,7 @@ def _vehicle_no() -> str:
     state = random.choice(states)
     series = "".join(random.choices("ABCDEFGHJKLMNPQRSTUVWXYZ", k=2))
     number = random.randint(1, 9999)
-    return f"{state}{random.randint(10,99)}{series}{number:04d}"
+    return f"{state}{random.randint(10, 99)}{series}{number:04d}"
 
 
 def _consignment_ref() -> str:
@@ -69,6 +69,7 @@ def generate_invoice(
         # Ensure different state code from seller
         seller_state = seller_gstin[:2]
         from .gstin import STATE_CODES
+
         other_states = [c for c in STATE_CODES if c != seller_state]
         buyer_gstin = gstin(state_code=random.choice(other_states))
     if consignment_ref is None:
@@ -144,7 +145,7 @@ def _random_company() -> str:
 
 
 def _random_address(state_code: str) -> str:
-    from .gstin import STATE_CODES
+
     cities = {
         "07": ["Karol Bagh, Delhi", "Connaught Place, Delhi", "Saket, Delhi"],
         "27": ["Andheri East, Mumbai", "Bandra, Mumbai", "Thane, Mumbai"],

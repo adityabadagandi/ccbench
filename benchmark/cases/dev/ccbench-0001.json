@@ -1,0 +1,129 @@
+{
+  "case_id": "ccbench-0001",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV-DL-MUM-2024-0347",
+      "date": "2024-03-15",
+      "seller": {
+        "name": "Shree Ganesh Trading Co.",
+        "gstin": "07AABCU9603R1ZX",
+        "address": "Karol Bagh, Delhi - 110005"
+      },
+      "buyer": {
+        "name": "Patel Logistics Pvt. Ltd.",
+        "gstin": "27AADFP1234H1Z5",
+        "address": "Andheri East, Mumbai - 400069"
+      },
+      "items": [
+        {
+          "description": "Industrial PVC Pipes (Schedule 40)",
+          "hsn_code": "3917",
+          "quantity": 500,
+          "unit": "meters",
+          "rate_per_unit": 45.00,
+          "taxable_value": 22500.00,
+          "cgst_rate": 9,
+          "sgst_rate": 9,
+          "cgst_amount": 2025.00,
+          "sgst_amount": 2025.00
+        }
+      ],
+      "total_taxable_value": 22500.00,
+      "total_cgst": 2025.00,
+      "total_sgst": 2025.00,
+      "invoice_total": 26550.00,
+      "eway_bill_ref": "EWB-131015456782-15-03-2024",
+      "vehicle_no": "DL01AB1234",
+      "consignment_ref": "CONS-SGC-PLP-150324-001"
+    },
+    "eway_bill": {
+      "ewb_no": "EWB-131015456782-15-03-2024",
+      "generation_date": "2024-03-15T08:32:00+05:30",
+      "valid_until": "2024-03-16T08:32:00+05:30",
+      "from_gstin": "07AABCU9603R1ZX",
+      "from_address": "Karol Bagh, Delhi - 110005",
+      "to_gstin": "27AADFP1234H1Z5",
+      "to_address": "Andheri East, Mumbai - 400069",
+      "transporter": "Patel Logistics Pvt. Ltd.",
+      "vehicle_no": "DL01AB1234",
+      "consignment_ref": "CONS-SGC-PLP-150324-001",
+      "items": [
+        {
+          "description": "Industrial PVC Pipes",
+          "hsn_code": "3917",
+          "quantity": 500,
+          "unit": "meters"
+        }
+      ],
+      "total_value": 25200.00,
+      "distance_km": 1412
+    },
+    "erp_order": {
+      "po_no": "PO-PLP-2024-0891",
+      "po_date": "2024-03-12",
+      "buyer": "Patel Logistics Pvt. Ltd.",
+      "vendor_code": "VND-SGC-1123",
+      "vendor_name": "Shree Ganesh Trading Co.",
+      "items": [
+        {
+          "item_code": "PVC-SCH40-50MM",
+          "description": "Industrial PVC Pipes Schedule 40",
+          "quantity_ordered": 500,
+          "unit": "meters",
+          "unit_price": 45.00,
+          "total_value": 22500.00,
+          "expected_delivery": "2024-03-18"
+        }
+      ],
+      "po_total": 22500.00,
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "invoice_refs": ["INV-DL-MUM-2024-0347"],
+      "consignment_ref": "CONS-SGC-PLP-150324-001"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-PLP-DRIVER-001",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91-98765-43210",
+      "messages": [
+        {
+          "timestamp": "2024-03-15T06:15:00+05:30",
+          "sender": "Ramesh Kumar",
+          "text": "Sir, truck DL01AB1234 nikli Delhi se. E-way bill check kar liya."
+        },
+        {
+          "timestamp": "2024-03-16T14:22:00+05:30",
+          "sender": "Ramesh Kumar",
+          "text": "Mumbai warehouse pahunch gaya. Samaan unload ho raha hai. 500 meter pipe sab sahi salamat."
+        },
+        {
+          "timestamp": "2024-03-16T16:45:00+05:30",
+          "sender": "Patel Logistics - Warehouse",
+          "text": "OK Ramesh bhai. POD sign karwa ke bhejo. Invoice match kar rahe hain."
+        },
+        {
+          "timestamp": "2024-03-16T17:30:00+05:30",
+          "sender": "Ramesh Kumar",
+          "text": "POD sign ho gaya. Yahan photo bhej raha hoon. [Image: signed_delivery_chit.jpg]"
+        }
+      ],
+      "delivery_confirmed": true,
+      "pod_signed_by": "Mahesh Patel (Warehouse In-charge)"
+    }
+  },
+  "question": "Does the invoice total match the e-way bill total for consignment CONS-SGC-PLP-150324-001? If not, what is the discrepancy and which document shows the higher amount?",
+  "gold_answer": "No, the totals do not match. The invoice total is ₹26,550 (including ₹2,250 CGST + ₹2,250 SGST), while the e-way bill shows a total value of ₹25,200. The invoice shows the higher amount by ₹1,350.",
+  "gold_facts": [
+    "invoice.invoice_no = INV-DL-MUM-2024-0347",
+    "invoice.eway_bill_ref = EWB-131015456782-15-03-2024",
+    "invoice.invoice_total = 26550.00",
+    "eway_bill.ewb_no = EWB-131015456782-15-03-2024",
+    "eway_bill.total_value = 25200.00",
+    "invoice.consignment_ref = CONS-SGC-PLP-150324-001",
+    "eway_bill.consignment_ref = CONS-SGC-PLP-150324-001"
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium"
+}
