@@ -31,6 +31,6 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Benchmark data (large files)
-benchmark/cases/**/*.json
-!benchmark/cases/**/.gitkeep
+# Benchmark data: dev split gold labels are public; test split is private.
+benchmark/cases/test/**/*.json
+!benchmark/cases/test/**/.gitkeep
