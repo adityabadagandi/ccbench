@@ -1,0 +1,393 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0035",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/64210",
+      "issued_at": "2026-02-07T17:12:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Supply Chain Pvt. Ltd.",
+        "legal_name": "Kulkarni Supply Chain Pvt. Ltd.",
+        "gstin": "19XQFPE7733J5ZR",
+        "pan": "XQFPE7733J",
+        "address": {
+          "line1": "Plot 168, Phase II",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "619399",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Iyer",
+          "email": "vijay.iyer@kulkarni.co.in",
+          "phone": "+91-90876-95854"
+        }
+      },
+      "buyer": {
+        "name": "Verma Trading Co",
+        "legal_name": "Verma Trading Co.",
+        "gstin": "29ZZKCW8068Y6ZA",
+        "pan": "ZZKCW8068Y",
+        "address": {
+          "line1": "Unit 53, Export Zone",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "373183",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Patel",
+          "email": "vijayp@verma.co.in",
+          "phone": "+91-80922-46809"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 8216.79,
+          "taxable_value": 2054197.5,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 575175.3
+        }
+      ],
+      "total_taxable_value": 2054197.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 575175.3,
+      "total_tax": 575175.3,
+      "invoice_total": 2629372.8,
+      "currency": "INR",
+      "eway_bill_ref": "210109210914",
+      "vehicle_no": "WB95MR2380",
+      "consignment_ref": "CONS-KUL-VER-260201-64210"
+    },
+    "eway_bill": {
+      "ewb_no": "210109210914",
+      "generated_at": "2026-02-08T01:18:07+05:30",
+      "valid_until": "2026-02-09T01:18:07+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/64210",
+      "doc_date": "2026-02-07",
+      "from_gstin": "19XQFPE7733J5ZR",
+      "from_address": "Plot 168, Phase II, Howrah, Howrah, West Bengal - 619399",
+      "to_gstin": "29ZZKCW8068Y6ZA",
+      "to_address": "Unit 53, Export Zone, Peenya, Peenya, Karnataka - 373183",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "09LLFXH5721V1ZT",
+      "mode": "road",
+      "vehicle_no": "WB95MR2380",
+      "consignment_ref": "CONS-KUL-VER-260201-64210",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 2054197.5,
+      "total_invoice_value": 2629372.8,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-64210",
+      "po_date": "2026-02-01",
+      "buyer_entity": "Verma Trading Co.",
+      "vendor_code": "VND-7860",
+      "vendor_name": "Kulkarni Supply Chain Pvt. Ltd.",
+      "vendor_gstin": "19XQFPE7733J5ZR",
+      "items": [
+        {
+          "item_code": "ITEM-85875",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 8216.79,
+          "line_total": 2054197.5,
+          "expected_delivery": "2026-02-14"
+        }
+      ],
+      "po_subtotal": 2054197.5,
+      "po_tax": 575175.3,
+      "po_total": 2629372.8,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Vijay Patel",
+        "approved_at": "2026-02-02T05:05:08+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/64210"
+      ],
+      "grn": {
+        "grn_no": "GRN-64210",
+        "received_at": "2026-02-08T01:38:07+05:30",
+        "received_by": "Vijay Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-85875",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-VER-260201-64210"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-84868",
+      "thread_name": "CONS-KUL-VER-260201-64210 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Reddy",
+          "role": "driver",
+          "phone": "+91-90876-95854"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Iyer",
+          "role": "dispatcher",
+          "phone": "+91-90876-95854"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Patel",
+          "role": "warehouse",
+          "phone": "+91-80922-46809"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Deepa Gupta",
+          "role": "accounts",
+          "phone": "+91-80922-46809"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-07T21:18:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Peenya गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-07T22:18:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-07T22:34:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-07T22:38:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-VER-260201-64210_11.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-08T04:18:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi-en",
+          "text": "WB95MR2380 dispatch ho gayi Howrah se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-08T04:38:07+05:30",
+          "sender_id": "P4",
+          "sender_name": "Deepa Gupta",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-08T15:38:07+05:30",
+          "sender_id": "P4",
+          "sender_name": "Deepa Gupta",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/64210.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-01T14:05:08+05:30",
+      "actor": "Verma Trading Co.",
+      "doc_ref": "ORD-2026-64210",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-02T05:05:08+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "ORD-2026-64210",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-07T17:12:07+05:30",
+      "actor": "Kulkarni Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/64210",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "arrived",
+      "ts": "2026-02-07T21:18:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB95MR2380",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "delivered",
+      "ts": "2026-02-07T22:18:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-KUL-VER-260201-64210",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "pod_signed",
+      "ts": "2026-02-07T22:38:07+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "ewb_generated",
+      "ts": "2026-02-08T01:18:07+05:30",
+      "actor": "Kulkarni Supply Chain Pvt. Ltd.",
+      "doc_ref": "210109210914",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-02-08T01:38:07+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "GRN-64210",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-02-08T04:18:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB95MR2380",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-KUL-VER-260201-64210 internally consistent?",
+  "question_lang": "en",
+  "gold_answer": "No — delivery for consignment CONS-KUL-VER-260201-64210 [INV] is recorded at 07 Feb 2026 at 22:18 but dispatch only at 08 Feb 2026 at 04:18, 6 hours later [TIMELINE], so the goods are logged as delivered before they left the origin and the proof of delivery is backdated. The accounts team queried the same ordering on the delivery thread [M-006].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-02-08T04:18:07+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-005.ts",
+      "value": "2026-02-07T22:18:07+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-KUL-VER-260201-64210",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-006.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-006",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264210,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

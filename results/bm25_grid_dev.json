@@ -1,0 +1,1295 @@
+{
+  "budget": 4000,
+  "best": {
+    "k1": 0.9,
+    "b": 0.3,
+    "top_k": 24,
+    "completeness": 0.965,
+    "leak_clean_rate": 0.53,
+    "eu_leak_clean_rate": 0.0408,
+    "mean_tokens": 3274.1,
+    "over_budget": 0
+  },
+  "grid": [
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 24,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3274.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 24,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3292.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 24,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3297.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 24,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3299.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 28,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3433.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 28,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3441.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 28,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3444.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 28,
+      "completeness": 0.965,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3447.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 28,
+      "completeness": 0.9617,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3377.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 28,
+      "completeness": 0.9617,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3377.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 28,
+      "completeness": 0.9617,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3378.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 28,
+      "completeness": 0.955,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3363.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 20,
+      "completeness": 0.9543,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2967.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 24,
+      "completeness": 0.9517,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3169.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 20,
+      "completeness": 0.9503,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2964.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 28,
+      "completeness": 0.9477,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3299.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 24,
+      "completeness": 0.9443,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3152.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 24,
+      "completeness": 0.9443,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3155.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 24,
+      "completeness": 0.9443,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3164.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 20,
+      "completeness": 0.9437,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2965.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 28,
+      "completeness": 0.9437,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3261.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 28,
+      "completeness": 0.9437,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3274.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 20,
+      "completeness": 0.9403,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2834.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 20,
+      "completeness": 0.9403,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2850.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 20,
+      "completeness": 0.9403,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2962.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 20,
+      "completeness": 0.9363,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2832.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 28,
+      "completeness": 0.9363,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3236.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 20,
+      "completeness": 0.933,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2812.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 24,
+      "completeness": 0.933,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3010.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 24,
+      "completeness": 0.933,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3058.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 24,
+      "completeness": 0.9297,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2972.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 24,
+      "completeness": 0.929,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2963.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2439.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2453.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2508.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2510.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2516.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 16,
+      "completeness": 0.9257,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2517.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 16,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2267.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 16,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2399.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 16,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2423.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 20,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2605.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 20,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2686.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 20,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2723.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 28,
+      "completeness": 0.9223,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3214.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 20,
+      "completeness": 0.919,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2653.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 16,
+      "completeness": 0.9157,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2078.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 16,
+      "completeness": 0.9157,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2173.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 24,
+      "completeness": 0.914,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2934.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 28,
+      "completeness": 0.913,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3192.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 24,
+      "completeness": 0.908,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2887.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 20,
+      "completeness": 0.9047,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2609.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 28,
+      "completeness": 0.9047,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 3108.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 16,
+      "completeness": 0.8997,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2140.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 20,
+      "completeness": 0.8997,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2507.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 24,
+      "completeness": 0.8947,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2789.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 12,
+      "completeness": 0.8915,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2099.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 12,
+      "completeness": 0.8915,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2116.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 12,
+      "completeness": 0.8915,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2125.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 20,
+      "completeness": 0.8872,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2408.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 12,
+      "completeness": 0.8815,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2048.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 28,
+      "completeness": 0.8762,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2995.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 16,
+      "completeness": 0.8737,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1975.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 24,
+      "completeness": 0.8702,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2677.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 12,
+      "completeness": 0.869,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1875.7,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 20,
+      "completeness": 0.8668,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 2298.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 16,
+      "completeness": 0.8627,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 2090.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 12,
+      "completeness": 0.859,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1889.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 12,
+      "completeness": 0.8522,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1854.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 16,
+      "completeness": 0.8375,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1933.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 12,
+      "completeness": 0.8322,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1834.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 12,
+      "completeness": 0.8272,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1628.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 10,
+      "completeness": 0.7938,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1748.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 10,
+      "completeness": 0.7888,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1694.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 16,
+      "completeness": 0.7857,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1865.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 10,
+      "completeness": 0.785,
+      "leak_clean_rate": 0.57,
+      "eu_leak_clean_rate": 0.1224,
+      "mean_tokens": 1771.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 10,
+      "completeness": 0.7845,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1755.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 12,
+      "completeness": 0.7837,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1557.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 12,
+      "completeness": 0.7753,
+      "leak_clean_rate": 0.53,
+      "eu_leak_clean_rate": 0.0408,
+      "mean_tokens": 1506.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 12,
+      "completeness": 0.752,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1438.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 12,
+      "completeness": 0.751,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1527.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 10,
+      "completeness": 0.74,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1476.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 10,
+      "completeness": 0.74,
+      "leak_clean_rate": 0.56,
+      "eu_leak_clean_rate": 0.102,
+      "mean_tokens": 1486.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 10,
+      "completeness": 0.7383,
+      "leak_clean_rate": 0.57,
+      "eu_leak_clean_rate": 0.1224,
+      "mean_tokens": 1491.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 10,
+      "completeness": 0.72,
+      "leak_clean_rate": 0.57,
+      "eu_leak_clean_rate": 0.1224,
+      "mean_tokens": 1262.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 10,
+      "completeness": 0.719,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1240.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 12,
+      "completeness": 0.7092,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1477.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 10,
+      "completeness": 0.704,
+      "leak_clean_rate": 0.6,
+      "eu_leak_clean_rate": 0.1837,
+      "mean_tokens": 1222.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 10,
+      "completeness": 0.702,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1458.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 12,
+      "completeness": 0.6947,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1407.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 12,
+      "completeness": 0.685,
+      "leak_clean_rate": 0.59,
+      "eu_leak_clean_rate": 0.1633,
+      "mean_tokens": 1383.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 10,
+      "completeness": 0.68,
+      "leak_clean_rate": 0.64,
+      "eu_leak_clean_rate": 0.2653,
+      "mean_tokens": 1222.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 10,
+      "completeness": 0.676,
+      "leak_clean_rate": 0.64,
+      "eu_leak_clean_rate": 0.2653,
+      "mean_tokens": 1187.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 10,
+      "completeness": 0.656,
+      "leak_clean_rate": 0.66,
+      "eu_leak_clean_rate": 0.3061,
+      "mean_tokens": 1200.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 8,
+      "completeness": 0.6497,
+      "leak_clean_rate": 0.65,
+      "eu_leak_clean_rate": 0.2857,
+      "mean_tokens": 1315.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 8,
+      "completeness": 0.6497,
+      "leak_clean_rate": 0.65,
+      "eu_leak_clean_rate": 0.2857,
+      "mean_tokens": 1317.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 8,
+      "completeness": 0.6495,
+      "leak_clean_rate": 0.66,
+      "eu_leak_clean_rate": 0.3061,
+      "mean_tokens": 1318.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 10,
+      "completeness": 0.6465,
+      "leak_clean_rate": 0.67,
+      "eu_leak_clean_rate": 0.3265,
+      "mean_tokens": 1153.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 8,
+      "completeness": 0.6387,
+      "leak_clean_rate": 0.65,
+      "eu_leak_clean_rate": 0.2857,
+      "mean_tokens": 1277.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 10,
+      "completeness": 0.6385,
+      "leak_clean_rate": 0.69,
+      "eu_leak_clean_rate": 0.3673,
+      "mean_tokens": 1126.3,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 8,
+      "completeness": 0.6212,
+      "leak_clean_rate": 0.67,
+      "eu_leak_clean_rate": 0.3265,
+      "mean_tokens": 1148.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 8,
+      "completeness": 0.6212,
+      "leak_clean_rate": 0.67,
+      "eu_leak_clean_rate": 0.3265,
+      "mean_tokens": 1150.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 8,
+      "completeness": 0.6122,
+      "leak_clean_rate": 0.66,
+      "eu_leak_clean_rate": 0.3061,
+      "mean_tokens": 1137.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 8,
+      "completeness": 0.6042,
+      "leak_clean_rate": 0.68,
+      "eu_leak_clean_rate": 0.3469,
+      "mean_tokens": 979.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 8,
+      "completeness": 0.5918,
+      "leak_clean_rate": 0.71,
+      "eu_leak_clean_rate": 0.4082,
+      "mean_tokens": 961.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 8,
+      "completeness": 0.5868,
+      "leak_clean_rate": 0.72,
+      "eu_leak_clean_rate": 0.4286,
+      "mean_tokens": 959.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 8,
+      "completeness": 0.5852,
+      "leak_clean_rate": 0.7,
+      "eu_leak_clean_rate": 0.3878,
+      "mean_tokens": 1131.5,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 8,
+      "completeness": 0.5828,
+      "leak_clean_rate": 0.7,
+      "eu_leak_clean_rate": 0.3878,
+      "mean_tokens": 936.4,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 8,
+      "completeness": 0.5818,
+      "leak_clean_rate": 0.72,
+      "eu_leak_clean_rate": 0.4286,
+      "mean_tokens": 921.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 8,
+      "completeness": 0.5652,
+      "leak_clean_rate": 0.73,
+      "eu_leak_clean_rate": 0.449,
+      "mean_tokens": 910.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 8,
+      "completeness": 0.5635,
+      "leak_clean_rate": 0.74,
+      "eu_leak_clean_rate": 0.4694,
+      "mean_tokens": 945.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.3,
+      "top_k": 6,
+      "completeness": 0.5503,
+      "leak_clean_rate": 0.7,
+      "eu_leak_clean_rate": 0.3878,
+      "mean_tokens": 967.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.3,
+      "top_k": 6,
+      "completeness": 0.5488,
+      "leak_clean_rate": 0.69,
+      "eu_leak_clean_rate": 0.3673,
+      "mean_tokens": 964.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.3,
+      "top_k": 6,
+      "completeness": 0.5488,
+      "leak_clean_rate": 0.69,
+      "eu_leak_clean_rate": 0.3673,
+      "mean_tokens": 965.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.3,
+      "top_k": 6,
+      "completeness": 0.5478,
+      "leak_clean_rate": 0.69,
+      "eu_leak_clean_rate": 0.3673,
+      "mean_tokens": 952.8,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 8,
+      "completeness": 0.5475,
+      "leak_clean_rate": 0.75,
+      "eu_leak_clean_rate": 0.4898,
+      "mean_tokens": 891.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.5,
+      "top_k": 6,
+      "completeness": 0.5288,
+      "leak_clean_rate": 0.7,
+      "eu_leak_clean_rate": 0.3878,
+      "mean_tokens": 861.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "top_k": 6,
+      "completeness": 0.5278,
+      "leak_clean_rate": 0.71,
+      "eu_leak_clean_rate": 0.4082,
+      "mean_tokens": 869.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "top_k": 6,
+      "completeness": 0.5228,
+      "leak_clean_rate": 0.71,
+      "eu_leak_clean_rate": 0.4082,
+      "mean_tokens": 874.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.9,
+      "top_k": 6,
+      "completeness": 0.5178,
+      "leak_clean_rate": 0.72,
+      "eu_leak_clean_rate": 0.4286,
+      "mean_tokens": 731.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 0.9,
+      "b": 0.75,
+      "top_k": 6,
+      "completeness": 0.5178,
+      "leak_clean_rate": 0.71,
+      "eu_leak_clean_rate": 0.4082,
+      "mean_tokens": 764.1,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "top_k": 6,
+      "completeness": 0.5128,
+      "leak_clean_rate": 0.74,
+      "eu_leak_clean_rate": 0.4694,
+      "mean_tokens": 752.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.5,
+      "top_k": 6,
+      "completeness": 0.5128,
+      "leak_clean_rate": 0.73,
+      "eu_leak_clean_rate": 0.449,
+      "mean_tokens": 869.9,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.2,
+      "b": 0.9,
+      "top_k": 6,
+      "completeness": 0.5028,
+      "leak_clean_rate": 0.75,
+      "eu_leak_clean_rate": 0.4898,
+      "mean_tokens": 719.2,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "top_k": 6,
+      "completeness": 0.5012,
+      "leak_clean_rate": 0.75,
+      "eu_leak_clean_rate": 0.4898,
+      "mean_tokens": 745.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.75,
+      "top_k": 6,
+      "completeness": 0.4782,
+      "leak_clean_rate": 0.78,
+      "eu_leak_clean_rate": 0.551,
+      "mean_tokens": 730.0,
+      "over_budget": 0
+    },
+    {
+      "k1": 1.5,
+      "b": 0.9,
+      "top_k": 6,
+      "completeness": 0.4765,
+      "leak_clean_rate": 0.78,
+      "eu_leak_clean_rate": 0.551,
+      "mean_tokens": 707.6,
+      "over_budget": 0
+    },
+    {
+      "k1": 2.0,
+      "b": 0.9,
+      "top_k": 6,
+      "completeness": 0.4588,
+      "leak_clean_rate": 0.79,
+      "eu_leak_clean_rate": 0.5714,
+      "mean_tokens": 690.1,
+      "over_budget": 0
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0200",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/80215",
+      "issued_at": "2026-02-09T17:05:01+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Trading Co.",
+        "legal_name": "Singh & Sons Trading Co.",
+        "gstin": "09ZZPPD3993T3ZS",
+        "pan": "ZZPPD3993T",
+        "address": {
+          "line1": "Shed 112, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "680376",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Yadav",
+          "email": "rameshy@singh.in",
+          "phone": "+91-90424-35422"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Engineering Works",
+        "legal_name": "Iyer Engineering Works",
+        "gstin": "06QQGCE9721M7Z1",
+        "pan": "QQGCE9721M",
+        "address": {
+          "line1": "Godown 210, Phase II",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "126174",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Reddy",
+          "email": "sreddy@iyer.in",
+          "phone": "+91-80679-89809"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 12307.75,
+          "taxable_value": 9230812.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1661546.25
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 43491.1,
+          "taxable_value": 10872775.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1957099.5
+        }
+      ],
+      "total_taxable_value": 20103587.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 3618645.75,
+      "total_tax": 3618645.75,
+      "invoice_total": 23722233.25,
+      "currency": "INR",
+      "eway_bill_ref": "215135883058",
+      "vehicle_no": "UP77LX1878",
+      "consignment_ref": "CONS-SIN-IYE-260129-80215"
+    },
+    "eway_bill": {
+      "ewb_no": "215135883058",
+      "generated_at": "2026-02-09T21:38:01+05:30",
+      "valid_until": "2026-02-10T21:38:01+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/80215",
+      "doc_date": "2026-02-09",
+      "from_gstin": "09ZZPPD3993T3ZS",
+      "from_address": "Shed 112, Phase II, Lucknow, Lucknow, Uttar Pradesh - 680376",
+      "to_gstin": "06QQGCE9721M7Z1",
+      "to_address": "Godown 210, Phase II, Faridabad, Faridabad, Haryana - 126174",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "19LZUDK6312L1ZT",
+      "mode": "road",
+      "vehicle_no": "UP77LX1878",
+      "consignment_ref": "CONS-SIN-IYE-260129-80215",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 20103587.5,
+      "total_invoice_value": 23722233.25,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-80215",
+      "po_date": "2026-01-29",
+      "buyer_entity": "Iyer Engineering Works",
+      "vendor_code": "VND-4260",
+      "vendor_name": "Singh & Sons Trading Co.",
+      "vendor_gstin": "09ZZPPD3993T3ZS",
+      "items": [
+        {
+          "item_code": "ITEM-54745",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 12307.75,
+          "line_total": 9230812.5,
+          "expected_delivery": "2026-02-16"
+        },
+        {
+          "item_code": "ITEM-93898",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 43491.1,
+          "line_total": 10872775.0,
+          "expected_delivery": "2026-02-17"
+        }
+      ],
+      "po_subtotal": 20103587.5,
+      "po_tax": 3618645.75,
+      "po_total": 23722233.25,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sameer Reddy",
+        "approved_at": "2026-01-30T11:12:49+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/80215"
+      ],
+      "grn": {
+        "grn_no": "GRN-80215",
+        "received_at": "2026-02-09T19:20:01+05:30",
+        "received_by": "Sameer Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-54745",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-93898",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-IYE-260129-80215"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-47898",
+      "thread_name": "CONS-SIN-IYE-260129-80215 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Gupta",
+          "role": "driver",
+          "phone": "+91-90424-35422"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Yadav",
+          "role": "dispatcher",
+          "phone": "+91-90424-35422"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Reddy",
+          "role": "warehouse",
+          "phone": "+91-80679-89809"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Zoya Mishra",
+          "role": "accounts",
+          "phone": "+91-80679-89809"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-09T15:38:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-09T16:38:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-09T17:04:01+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Reddy",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-09T17:20:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-IYE-260129-80215_27.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-09T18:18:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Faridabad pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-09T20:58:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_549.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-09T22:20:01+05:30",
+          "sender_id": "P4",
+          "sender_name": "Zoya Mishra",
+          "lang": "en",
+          "text": "The POD timestamp precedes the dispatch timestamp. Please verify the entry.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-09T23:38:01+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "en",
+          "text": "Vehicle UP77LX1878 dispatched from Lucknow. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-15804",
+      "raised_at": "2026-02-10T01:20:01+05:30",
+      "raised_by": "Sameer Reddy",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-29T11:12:49+05:30",
+      "actor": "Iyer Engineering Works",
+      "doc_ref": "PUR-2026-80215",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-30T11:12:49+05:30",
+      "actor": "Sameer Reddy",
+      "doc_ref": "PUR-2026-80215",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-02-09T15:38:01+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP77LX1878",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-02-09T16:38:01+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-SIN-IYE-260129-80215",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-02-09T17:05:01+05:30",
+      "actor": "Singh & Sons Trading Co.",
+      "doc_ref": "TAX/2026-27/80215",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "pod_signed",
+      "ts": "2026-02-09T17:20:01+05:30",
+      "actor": "Sameer Reddy",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-02-09T19:20:01+05:30",
+      "actor": "Sameer Reddy",
+      "doc_ref": "GRN-80215",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-02-09T21:38:01+05:30",
+      "actor": "Singh & Sons Trading Co.",
+      "doc_ref": "215135883058",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-02-09T23:38:01+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP77LX1878",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-SIN-IYE-260129-80215 internally consistent?",
+  "question_lang": "en",
+  "gold_answer": "No — delivery for consignment CONS-SIN-IYE-260129-80215 [INV] is recorded at 09 Feb 2026 at 16:38 but dispatch only at 09 Feb 2026 at 23:38, 7 hours later [TIMELINE], so the goods are logged as delivered before they left the origin and the proof of delivery is backdated. The accounts team queried the same ordering on the delivery thread [M-008].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-02-09T23:38:01+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-02-09T16:38:01+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-SIN-IYE-260129-80215",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "The POD timestamp precedes the dispatch timestamp. Please verify the entry.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "en",
+        "span": "POD timestamp precedes the dispatch timestamp",
+        "gloss_en": "POD timestamp precedes the dispatch timestamp"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-80679-89809",
+    "+91-90424-35422",
+    "QQGCE9721M",
+    "ZZPPD3993T",
+    "rameshy@singh.in",
+    "sreddy@iyer.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20280215,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

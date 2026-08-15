@@ -1,0 +1,373 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0095",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/70030",
+      "issued_at": "2026-06-15T18:18:53+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Enterprises",
+        "legal_name": "Iyer Enterprises",
+        "gstin": "27XQOPZ6686C8Z4",
+        "pan": "XQOPZ6686C",
+        "address": {
+          "line1": "Plot 22, MIDC",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "561367",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "rameshn@iyer.com",
+          "phone": "+91-90485-17414"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Distributors",
+        "legal_name": "Pillai Distributors",
+        "gstin": "27XQBCH0373G1ZK",
+        "pan": "XQBCH0373G",
+        "address": {
+          "line1": "Warehouse 164, Export Zone",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "461621",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Kumar",
+          "email": "skumar@pillai.co.in",
+          "phone": "+91-70154-11841"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 200.27,
+          "taxable_value": 80108.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 7209.72,
+          "sgst_amount": 7209.72,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 80108.0,
+      "total_cgst": 7209.72,
+      "total_sgst": 7209.72,
+      "total_igst": 0.0,
+      "total_tax": 14419.44,
+      "invoice_total": 94527.44,
+      "currency": "INR",
+      "eway_bill_ref": "030286048457",
+      "vehicle_no": "MH88UM4501",
+      "consignment_ref": "CONS-IYE-PIL-260610-70030"
+    },
+    "eway_bill": {
+      "ewb_no": "030286048457",
+      "generated_at": "2026-06-16T00:51:53+05:30",
+      "valid_until": "2026-06-24T00:51:53+05:30",
+      "status": "expired",
+      "extensions": [
+        {
+          "extended_at": "2026-06-23T21:51:53+05:30",
+          "new_valid_until": "2026-06-24T12:51:53+05:30",
+          "reason": "Transhipment delay"
+        }
+      ],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/70030",
+      "doc_date": "2026-06-15",
+      "from_gstin": "27XQOPZ6686C8Z4",
+      "from_address": "Plot 22, MIDC, Chakan, Chakan, Maharashtra - 561367",
+      "to_gstin": "27XQBCH0373G1ZK",
+      "to_address": "Warehouse 164, Export Zone, Thane, Thane, Maharashtra - 461621",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "09BZRXD1556T1ZT",
+      "mode": "road",
+      "vehicle_no": "MH88UM4501",
+      "consignment_ref": "CONS-IYE-PIL-260610-70030",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 400.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 80108.0,
+      "total_invoice_value": 94527.44,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-70030",
+      "po_date": "2026-06-10",
+      "buyer_entity": "Pillai Distributors",
+      "vendor_code": "VND-4980",
+      "vendor_name": "Iyer Enterprises",
+      "vendor_gstin": "27XQOPZ6686C8Z4",
+      "items": [
+        {
+          "item_code": "ITEM-32416",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 200.27,
+          "line_total": 80108.0,
+          "expected_delivery": "2026-06-23"
+        }
+      ],
+      "po_subtotal": 80108.0,
+      "po_tax": 14419.44,
+      "po_total": 94527.44,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Suresh Kumar",
+        "approved_at": "2026-06-10T16:18:20+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/70030"
+      ],
+      "grn": {
+        "grn_no": "GRN-70030",
+        "received_at": "2026-06-24T14:29:53+05:30",
+        "received_by": "Suresh Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-32416",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-PIL-260610-70030"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-18963",
+      "thread_name": "CONS-IYE-PIL-260610-70030 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Singh",
+          "role": "driver",
+          "phone": "+91-90485-17414"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Nair",
+          "role": "dispatcher",
+          "phone": "+91-90485-17414"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Suresh Kumar",
+          "role": "warehouse",
+          "phone": "+91-70154-11841"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Kumar",
+          "role": "accounts",
+          "phone": "+91-70154-11841"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-16T04:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "MH88UM4501 dispatch ho gayi Chakan se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-20T05:21:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Thane pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-24T04:51:53+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 24 Jun 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-24T05:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-24T09:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-24T10:23:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Kumar",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-24T12:29:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-PIL-260610-70030_53.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-51668",
+      "raised_at": "2026-06-25T01:29:53+05:30",
+      "raised_by": "Suresh Kumar",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-10T12:18:20+05:30",
+      "actor": "Pillai Distributors",
+      "doc_ref": "PUR-2026-70030",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-10T16:18:20+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "PUR-2026-70030",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-15T18:18:53+05:30",
+      "actor": "Iyer Enterprises",
+      "doc_ref": "INV/2026-27/70030",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-16T00:51:53+05:30",
+      "actor": "Iyer Enterprises",
+      "doc_ref": "030286048457",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-16T04:51:53+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH88UM4501",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "ewb_extended",
+      "ts": "2026-06-23T21:51:53+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "030286048457",
+      "note": "Transhipment delay"
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-06-24T05:51:53+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH88UM4501",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-06-24T09:51:53+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-IYE-PIL-260610-70030",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-06-24T12:29:53+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-06-24T14:29:53+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "GRN-70030",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-IYE-PIL-260610-70030 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270030,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

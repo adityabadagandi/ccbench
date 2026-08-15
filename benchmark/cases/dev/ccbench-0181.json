@@ -1,0 +1,448 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0181",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/78372",
+      "issued_at": "2026-07-01T18:41:59+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Supply Chain Pvt Ltd",
+        "legal_name": "Agarwal Supply Chain Pvt. Ltd.",
+        "gstin": "29XQYPI9856R9ZX",
+        "pan": "XQYPI9856R",
+        "address": {
+          "line1": "Godown 167, Industrial Area",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "135342",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Mishra",
+          "email": "dmishra@agarwal.com",
+          "phone": "+91-80264-26173"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Exports",
+        "legal_name": "Mehta Brothers Exports",
+        "gstin": "09QQLPY4305G2Z8",
+        "pan": "QQLPY4305G",
+        "address": {
+          "line1": "Plot 8, Export Zone",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "739989",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Yadav",
+          "email": "sameer.yadav@mehta.com",
+          "phone": "+91-70392-29304"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 89.44,
+          "taxable_value": 4472.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 536.64
+        }
+      ],
+      "total_taxable_value": 4472.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 536.64,
+      "total_tax": 536.64,
+      "invoice_total": 5008.64,
+      "currency": "INR",
+      "eway_bill_ref": "372642087264",
+      "vehicle_no": "KA14JX4578",
+      "consignment_ref": "CONS-AGA-MEH-260619-78372"
+    },
+    "eway_bill": {
+      "ewb_no": "372642087264",
+      "generated_at": "2026-07-02T00:00:59+05:30",
+      "valid_until": "2026-07-11T00:00:59+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/78372",
+      "doc_date": "2026-07-01",
+      "from_gstin": "29XQYPI9856R9ZX",
+      "from_address": "Godown 167, Industrial Area, Peenya, Peenya, Karnataka - 135342",
+      "to_gstin": "09QQLPY4305G2Z8",
+      "to_address": "Plot 8, Export Zone, Ghaziabad, Ghaziabad, Uttar Pradesh - 739989",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "07CURLA6440R1ZT",
+      "mode": "road",
+      "vehicle_no": "KA14JX4578",
+      "consignment_ref": "CONS-AGA-MEH-260619-78372",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 4472.0,
+      "total_invoice_value": 500.86,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-78372",
+      "po_date": "2026-06-19",
+      "buyer_entity": "Mehta Brothers Exports",
+      "vendor_code": "VND-4122",
+      "vendor_name": "Agarwal Supply Chain Pvt Ltd",
+      "vendor_gstin": "29XQYPI9856R9ZX",
+      "items": [
+        {
+          "item_code": "ITEM-65411",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 89.44,
+          "line_total": 4472.0,
+          "expected_delivery": "2026-07-03"
+        }
+      ],
+      "po_subtotal": 4472.0,
+      "po_tax": 536.64,
+      "po_total": 5008.64,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Sameer Yadav",
+        "approved_at": "2026-06-20T01:27:39+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/78372"
+      ],
+      "grn": {
+        "grn_no": "GRN-78372",
+        "received_at": "2026-07-04T15:11:59+05:30",
+        "received_by": "Sameer Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-65411",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-MEH-260619-78372"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-91931",
+      "thread_name": "CONS-AGA-MEH-260619-78372 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Singh",
+          "role": "driver",
+          "phone": "+91-80264-26173"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Mishra",
+          "role": "dispatcher",
+          "phone": "+91-80264-26173"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Yadav",
+          "role": "warehouse",
+          "phone": "+91-70392-29304"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Reddy",
+          "role": "accounts",
+          "phone": "+91-70392-29304"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-02T05:00:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "Sir KA14JX4578 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-02T05:24:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-02T19:00:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Ghaziabad.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-03T09:00:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Ghaziabad.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-03T23:00:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-04T01:00:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-04T01:29:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Yadav",
+          "lang": "hi-en",
+          "text": "Imran bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-04T03:11:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-MEH-260619-78372_94.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9714.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-07-04T16:11:59+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Reddy",
+          "lang": "en",
+          "text": "Flagging a mismatch: permit declares Rs. 500.86 against an invoice of Rs. 5,008.64. Please confirm which is correct.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-14177",
+      "raised_at": "2026-07-04T20:11:59+05:30",
+      "raised_by": "Sameer Yadav",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-19T16:27:39+05:30",
+      "actor": "Mehta Brothers Exports",
+      "doc_ref": "PO-2026-78372",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-20T01:27:39+05:30",
+      "actor": "Sameer Yadav",
+      "doc_ref": "PO-2026-78372",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-01T18:41:59+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/78372",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-02T00:00:59+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "372642087264",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-02T05:00:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA14JX4578",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-03T23:00:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA14JX4578",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-04T01:00:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-AGA-MEH-260619-78372",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-04T03:11:59+05:30",
+      "actor": "Sameer Yadav",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-04T15:11:59+05:30",
+      "actor": "Sameer Yadav",
+      "doc_ref": "GRN-78372",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-AGA-MEH-260619-78372?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice INV/2026-27/78372 totals Rs. 5,008.64 [INV] but e-way bill 372642087264 declares Rs. 500.86 [EWB], a discrepancy of Rs. 4,507.78. The accounts team raised the same discrepancy on the delivery thread [M-009].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/78372",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "5008.64",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "372642087264",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "500.86",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-AGA-MEH-260619-78372",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-009.text",
+      "value": "Flagging a mismatch: permit declares Rs. 500.86 against an invoice of Rs. 5,008.64. Please confirm which is correct.",
+      "evidence": {
+        "ref_id": "M-009",
+        "lang": "en",
+        "span": "permit declares Rs. 500.86 against an invoice of Rs. 5,008.64",
+        "gloss_en": "permit declares Rs. 500.86 against an invoice of Rs. 5,008.64"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-70392-29304",
+    "+91-80264-26173",
+    "QQLPY4305G",
+    "XQYPI9856R",
+    "dmishra@agarwal.com",
+    "sameer.yadav@mehta.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278372,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0085",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/69060",
+      "issued_at": "2026-03-31T17:27:20+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Trading & Co.",
+        "legal_name": "Iyer Trading Co.",
+        "gstin": "09ZZTCI9592B9Z0",
+        "pan": "ZZTCI9592B",
+        "address": {
+          "line1": "Unit 218, MIDC",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "556865",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Yadav",
+          "email": "suresh.yadav@iyer.in",
+          "phone": "+91-70824-78918"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Distributors",
+        "legal_name": "Pillai Distributors",
+        "gstin": "09XQMPY0262Z2ZC",
+        "pan": "XQMPY0262Z",
+        "address": {
+          "line1": "Warehouse 69, Export Zone",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "175744",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Iyer",
+          "email": "kavitai@pillai.in",
+          "phone": "+91-80547-88680"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 30417.41,
+          "taxable_value": 1520870.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 136878.35,
+          "sgst_amount": 136878.34,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1520870.5,
+      "total_cgst": 136878.35,
+      "total_sgst": 136878.34,
+      "total_igst": 0.0,
+      "total_tax": 273756.69,
+      "invoice_total": 1794627.19,
+      "currency": "INR",
+      "eway_bill_ref": "060992175223",
+      "vehicle_no": "UP84YV3019",
+      "consignment_ref": "CONS-IYE-PIL-260319-69060"
+    },
+    "eway_bill": {
+      "ewb_no": "060992175223",
+      "generated_at": "2026-03-31T22:46:20+05:30",
+      "valid_until": "2026-04-08T22:46:20+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/69060",
+      "doc_date": "2026-03-31",
+      "from_gstin": "09ZZTCI9592B9Z0",
+      "from_address": "Unit 218, MIDC, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 556865",
+      "to_gstin": "09XQMPY0262Z2ZC",
+      "to_address": "Warehouse 69, Export Zone, Ghaziabad, Ghaziabad, Uttar Pradesh - 175744",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23WXTZV7717K1ZT",
+      "mode": "road",
+      "vehicle_no": "UP84YV3019",
+      "consignment_ref": "CONS-IYE-PIL-260319-69060",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1520870.5,
+      "total_invoice_value": 1794627.19,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-69060",
+      "po_date": "2026-03-19",
+      "buyer_entity": "Pillai Distributors",
+      "vendor_code": "VND-5978",
+      "vendor_name": "Iyer Trading & Co.",
+      "vendor_gstin": "09ZZTCI9592B9Z0",
+      "items": [
+        {
+          "item_code": "ITEM-65075",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 30417.41,
+          "line_total": 1520870.5,
+          "expected_delivery": "2026-04-06"
+        }
+      ],
+      "po_subtotal": 1520870.5,
+      "po_tax": 273756.69,
+      "po_total": 1794627.19,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Kavita Iyer",
+        "approved_at": "2026-03-20T22:18:05+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/69060"
+      ],
+      "grn": {
+        "grn_no": "GRN-69060",
+        "received_at": "2026-04-02T16:55:20+05:30",
+        "received_by": "Kavita Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-65075",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-PIL-260319-69060"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-65565",
+      "thread_name": "CONS-IYE-PIL-260319-69060 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Gupta",
+          "role": "driver",
+          "phone": "+91-70824-78918"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70824-78918"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Iyer",
+          "role": "warehouse",
+          "phone": "+91-80547-88680"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Desai",
+          "role": "accounts",
+          "phone": "+91-80547-88680"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-01T02:46:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "सर UP84YV3019 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-01T04:16:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-01T16:16:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_579.json",
+              "caption": null
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-02T05:46:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Ghaziabad warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-02T06:00:20+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Iyer",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-02T06:46:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-02T07:19:20+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Iyer",
+          "lang": "hi-en",
+          "text": "Imran bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-02T07:55:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-PIL-260319-69060_36.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-3587.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-19T16:18:05+05:30",
+      "actor": "Pillai Distributors",
+      "doc_ref": "ORD-2026-69060",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-20T22:18:05+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "ORD-2026-69060",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-31T17:27:20+05:30",
+      "actor": "Iyer Trading Co.",
+      "doc_ref": "INV/2026-27/69060",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-31T22:46:20+05:30",
+      "actor": "Iyer Trading Co.",
+      "doc_ref": "060992175223",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-01T02:46:20+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "UP84YV3019",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-02T05:46:20+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "UP84YV3019",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-02T06:46:20+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-IYE-PIL-260319-69060",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-02T07:55:20+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-02T16:55:20+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "GRN-69060",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-IYE-PIL-260319-69060?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269060,
+    "notes": "task=mh_match defect=none"
+  }
+}

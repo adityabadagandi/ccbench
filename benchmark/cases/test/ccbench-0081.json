@@ -1,0 +1,366 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0081",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/68672",
+      "issued_at": "2026-01-30T09:41:04+05:30",
+      "revision_no": 1,
+      "supersedes": "GST/2026-27/4260",
+      "original_issued_at": "2026-01-28T09:41:04+05:30",
+      "seller": {
+        "name": "Rastogi Trading Co.",
+        "legal_name": "Rastogi Trading Co.",
+        "gstin": "07XQHPE6805P3ZO",
+        "pan": "XQHPE6805P",
+        "address": {
+          "line1": "Warehouse 19, Industrial Area",
+          "line2": "Connaught Place",
+          "city": "Connaught Place",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "526147",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Joshi",
+          "email": "zoya.joshi@rastogi.co.in",
+          "phone": "+91-80182-58751"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Manufacturing Pvt. Limited",
+        "legal_name": "Reddy Manufacturing Pvt. Ltd.",
+        "gstin": "29QQGPR4048K3ZL",
+        "pan": "QQGPR4048K",
+        "address": {
+          "line1": "Plot 218, Logistics Park",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "488713",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Patel",
+          "email": "ramesh.patel@reddy.com",
+          "phone": "+91-70329-87875"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 9158.5,
+          "taxable_value": 6868875.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1236397.5
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 220.28,
+          "taxable_value": 5507.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 991.26
+        }
+      ],
+      "total_taxable_value": 6874382.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1237388.76,
+      "total_tax": 1237388.76,
+      "invoice_total": 8111770.76,
+      "currency": "INR",
+      "eway_bill_ref": "672699248823",
+      "vehicle_no": "DL16QP1459",
+      "consignment_ref": "CONS-RAS-RED-260124-68672"
+    },
+    "eway_bill": {
+      "ewb_no": "672699248823",
+      "generated_at": "2026-01-30T14:14:04+05:30",
+      "valid_until": "2026-02-03T14:14:04+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/68672",
+      "doc_date": "2026-01-30",
+      "from_gstin": "07XQHPE6805P3ZO",
+      "from_address": "Warehouse 19, Industrial Area, Connaught Place, Connaught Place, Delhi - 526147",
+      "to_gstin": "29QQGPR4048K3ZL",
+      "to_address": "Plot 218, Logistics Park, Nelamangala, Nelamangala, Karnataka - 488713",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "29ULSBU7417G1ZT",
+      "mode": "road",
+      "vehicle_no": "DL16QP1459",
+      "consignment_ref": "CONS-RAS-RED-260124-68672",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 6874382.0,
+      "total_invoice_value": 8111770.76,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-68672",
+      "po_date": "2026-01-24",
+      "buyer_entity": "Reddy Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-7688",
+      "vendor_name": "Rastogi Trading Co.",
+      "vendor_gstin": "07XQHPE6805P3ZO",
+      "items": [
+        {
+          "item_code": "ITEM-56104",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 9158.5,
+          "line_total": 6868875.0,
+          "expected_delivery": "2026-02-01"
+        },
+        {
+          "item_code": "ITEM-86512",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 220.28,
+          "line_total": 5507.0,
+          "expected_delivery": "2026-02-03"
+        }
+      ],
+      "po_subtotal": 6874382.0,
+      "po_tax": 1237388.76,
+      "po_total": 8111770.76,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Patel",
+        "approved_at": "2026-01-25T20:18:24+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/68672"
+      ],
+      "grn": {
+        "grn_no": "GRN-68672",
+        "received_at": "2026-01-31T20:02:04+05:30",
+        "received_by": "Ramesh Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-56104",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-86512",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-RED-260124-68672"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-86767",
+      "thread_name": "CONS-RAS-RED-260124-68672 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Patel",
+          "role": "driver",
+          "phone": "+91-80182-58751"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Zoya Joshi",
+          "role": "dispatcher",
+          "phone": "+91-80182-58751"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Patel",
+          "role": "warehouse",
+          "phone": "+91-70329-87875"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-30T17:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "सर DL16QP1459 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-31T07:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "गाड़ी Nelamangala गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-31T08:14:04+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-31T08:26:04+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Imran bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-31T09:02:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-RED-260124-68672_74.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-24T18:18:24+05:30",
+      "actor": "Reddy Manufacturing Pvt. Ltd.",
+      "doc_ref": "PUR-2026-68672",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-25T20:18:24+05:30",
+      "actor": "Ramesh Patel",
+      "doc_ref": "PUR-2026-68672",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-28T09:41:04+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "GST/2026-27/4260",
+      "note": "original issue"
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_revised",
+      "ts": "2026-01-30T09:41:04+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "GST/2026-27/68672",
+      "note": "supersedes GST/2026-27/4260"
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-01-30T14:14:04+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "672699248823",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "dispatched",
+      "ts": "2026-01-30T17:14:04+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL16QP1459",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-01-31T07:14:04+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL16QP1459",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-01-31T08:14:04+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-RAS-RED-260124-68672",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-01-31T09:02:04+05:30",
+      "actor": "Ramesh Patel",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-01-31T20:02:04+05:30",
+      "actor": "Ramesh Patel",
+      "doc_ref": "GRN-68672",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RAS-RED-260124-68672 generated before or after the invoice was revised?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268672,
+    "notes": "task=tmp_revision defect=none"
+  }
+}

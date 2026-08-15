@@ -1,0 +1,406 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0084",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/68963",
+      "issued_at": "2026-04-26T09:05:41+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Polymers Limited",
+        "legal_name": "Singh & Sons Polymers Ltd.",
+        "gstin": "36ZZQPS4481F1Z9",
+        "pan": "ZZQPS4481F",
+        "address": {
+          "line1": "Shed 238, MIDC",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "527785",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Reddy",
+          "email": "rajeshr@singh.co.in",
+          "phone": "+91-80541-42980"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Polymers Ltd.",
+        "legal_name": "Bhatia Polymers Ltd.",
+        "gstin": "24ZZRPS1845T9ZN",
+        "pan": "ZZRPS1845T",
+        "address": {
+          "line1": "Warehouse 121, Phase II",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "326211",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Banerjee",
+          "email": "rekhab@bhatia.in",
+          "phone": "+91-80775-80867"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 296.84,
+          "taxable_value": 118736.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 21372.48
+        }
+      ],
+      "total_taxable_value": 118736.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 21372.48,
+      "total_tax": 21372.48,
+      "invoice_total": 140108.48,
+      "currency": "INR",
+      "eway_bill_ref": "963395579710",
+      "vehicle_no": "TS82MA1738",
+      "consignment_ref": "CONS-SIN-BHA-260419-68963"
+    },
+    "eway_bill": {
+      "ewb_no": "963395579710",
+      "generated_at": "2026-04-26T14:38:41+05:30",
+      "valid_until": "2026-05-05T14:38:41+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/68963",
+      "doc_date": "2026-04-26",
+      "from_gstin": "36ZZQPS4481F1Z9",
+      "from_address": "Shed 238, MIDC, Jeedimetla, Jeedimetla, Telangana - 527785",
+      "to_gstin": "24ZZRPS1845T9ZN",
+      "to_address": "Warehouse 121, Phase II, Rajkot, Rajkot, Gujarat - 326211",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "36PUEVW5622O1ZT",
+      "mode": "road",
+      "vehicle_no": "TS82MA1738",
+      "consignment_ref": "CONS-SIN-BHA-260419-68963",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 118736.0,
+      "total_invoice_value": 140108.48,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-68963",
+      "po_date": "2026-04-19",
+      "buyer_entity": "Bhatia Polymers Ltd.",
+      "vendor_code": "VND-7981",
+      "vendor_name": "Singh & Sons Polymers Limited",
+      "vendor_gstin": "36ZZQPS4481F1Z9",
+      "items": [
+        {
+          "item_code": "ITEM-85318",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 296.84,
+          "line_total": 118736.0,
+          "expected_delivery": "2026-04-30"
+        }
+      ],
+      "po_subtotal": 118736.0,
+      "po_tax": 21372.48,
+      "po_total": 140108.48,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Banerjee",
+        "approved_at": "2026-04-20T17:05:24+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/68963"
+      ],
+      "grn": {
+        "grn_no": "GRN-68963",
+        "received_at": "2026-05-06T03:28:41+05:30",
+        "received_by": "Rekha Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-85318",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-BHA-260419-68963"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-81124",
+      "thread_name": "CONS-SIN-BHA-260419-68963 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Kumar",
+          "role": "driver",
+          "phone": "+91-80541-42980"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rajesh Reddy",
+          "role": "dispatcher",
+          "phone": "+91-80541-42980"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Banerjee",
+          "role": "warehouse",
+          "phone": "+91-80775-80867"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sunita Reddy",
+          "role": "accounts",
+          "phone": "+91-80775-80867"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-26T19:38:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "TS82MA1738 dispatch ho gayi Jeedimetla se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-01T08:38:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Rajkot.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-05T20:38:41+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sunita Reddy",
+          "lang": "en",
+          "text": "Note: the permit lapsed on 05 May 2026 and the vehicle reached after that.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-05T21:38:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-05T23:38:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Banerjee",
+          "lang": "en",
+          "text": "Consignment received in full at our Rajkot warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-05T23:56:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Banerjee",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-06T01:28:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-BHA-260419-68963_85.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-16767",
+      "raised_at": "2026-05-06T14:28:41+05:30",
+      "raised_by": "Rekha Banerjee",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-19T17:05:24+05:30",
+      "actor": "Bhatia Polymers Ltd.",
+      "doc_ref": "PUR-2026-68963",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-20T17:05:24+05:30",
+      "actor": "Rekha Banerjee",
+      "doc_ref": "PUR-2026-68963",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-26T09:05:41+05:30",
+      "actor": "Singh & Sons Polymers Ltd.",
+      "doc_ref": "INV/2026-27/68963",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-26T14:38:41+05:30",
+      "actor": "Singh & Sons Polymers Ltd.",
+      "doc_ref": "963395579710",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-26T19:38:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS82MA1738",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-05T21:38:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS82MA1738",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-05T23:38:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-SIN-BHA-260419-68963",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-06T01:28:41+05:30",
+      "actor": "Rekha Banerjee",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-06T03:28:41+05:30",
+      "actor": "Rekha Banerjee",
+      "doc_ref": "GRN-68963",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-SIN-BHA-260419-68963 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "gold_answer": "No — e-way bill 963395579710 was valid until 05 May 2026 at 14:38 and is now marked expired [EWB], but delivery is recorded at 05 May 2026 at 23:38, 9 hours after expiry [TIMELINE]. The lapse was noted on the delivery thread at the time [M-003].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "963395579710",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "valid_until",
+      "value": "2026-05-05T14:38:41+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "status",
+      "value": "expired",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-007.ts",
+      "value": "2026-05-05T23:38:41+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "whatsapp_pod",
+      "path": "M-003.text",
+      "value": "Note: the permit lapsed on 05 May 2026 and the vehicle reached after that.",
+      "evidence": {
+        "ref_id": "M-003",
+        "lang": "en",
+        "span": "the permit lapsed on 05 May 2026",
+        "gloss_en": "the permit lapsed on 05 May 2026"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268963,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

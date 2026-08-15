@@ -1,0 +1,353 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0036",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/64307",
+      "issued_at": "2026-04-14T18:12:34+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Bhatia Exports",
+        "legal_name": "Bhatia Exports",
+        "gstin": "07QQXCZ2924W6ZR",
+        "pan": "QQXCZ2924W",
+        "address": {
+          "line1": "Unit 146, Phase II",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "377369",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Gupta",
+          "email": "imrang@bhatia.in",
+          "phone": "+91-70441-70964"
+        }
+      },
+      "buyer": {
+        "name": "Agarwal Exports",
+        "legal_name": "Agarwal Exports",
+        "gstin": "23XQMPZ8370V5ZP",
+        "pan": "XQMPZ8370V",
+        "address": {
+          "line1": "Warehouse 161, Phase II",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "273959",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Sharma",
+          "email": "ssharma@agarwal.com",
+          "phone": "+91-90915-61184"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 150.93,
+          "taxable_value": 3773.25,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 188.66
+        }
+      ],
+      "total_taxable_value": 3773.25,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 188.66,
+      "total_tax": 188.66,
+      "invoice_total": 3961.91,
+      "currency": "INR",
+      "eway_bill_ref": "307488593292",
+      "vehicle_no": "DL28FS9609",
+      "consignment_ref": "CONS-BHA-AGA-260407-64307"
+    },
+    "eway_bill": {
+      "ewb_no": "307488593292",
+      "generated_at": "2026-04-15T02:04:34+05:30",
+      "valid_until": "2026-04-16T02:04:34+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/64307",
+      "doc_date": "2026-04-14",
+      "from_gstin": "07QQXCZ2924W6ZR",
+      "from_address": "Unit 146, Phase II, Karol Bagh, Karol Bagh, Delhi - 377369",
+      "to_gstin": "23XQMPZ8370V5ZP",
+      "to_address": "Warehouse 161, Phase II, Pithampur, Pithampur, Madhya Pradesh - 273959",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "09YOPHN5809R1ZT",
+      "mode": "road",
+      "vehicle_no": "DL28FS9609",
+      "consignment_ref": "CONS-BHA-AGA-260407-64307",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 3773.25,
+      "total_invoice_value": 3961.91,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-64307",
+      "po_date": "2026-04-07",
+      "buyer_entity": "Agarwal Exports",
+      "vendor_code": "VND-1048",
+      "vendor_name": "Bhatia Exports",
+      "vendor_gstin": "07QQXCZ2924W6ZR",
+      "items": [
+        {
+          "item_code": "ITEM-43747",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 150.93,
+          "line_total": 3773.25,
+          "expected_delivery": "2026-04-19"
+        }
+      ],
+      "po_subtotal": 3773.25,
+      "po_tax": 188.66,
+      "po_total": 3961.91,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Suresh Sharma",
+        "approved_at": "2026-04-07T20:49:20+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/64307"
+      ],
+      "grn": {
+        "grn_no": "GRN-64307",
+        "received_at": "2026-04-16T01:03:34+05:30",
+        "received_by": "Suresh Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-43747",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-BHA-AGA-260407-64307"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-58040",
+      "thread_name": "CONS-BHA-AGA-260407-64307 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Reddy",
+          "role": "driver",
+          "phone": "+91-70441-70964"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Gupta",
+          "role": "dispatcher",
+          "phone": "+91-70441-70964"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Suresh Sharma",
+          "role": "warehouse",
+          "phone": "+91-90915-61184"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-15T04:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi",
+          "text": "सर DL28FS9609 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-15T10:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Pithampur गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-15T10:18:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-15T13:04:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Consignment received in full at our Pithampur warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-15T13:46:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-15T14:03:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-BHA-AGA-260407-64307_66.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-5841.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-16T12:03:34+05:30",
+          "sender_id": "P2",
+          "sender_name": "Imran Gupta",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read INV/2026-27/64307.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-07T13:49:20+05:30",
+      "actor": "Agarwal Exports",
+      "doc_ref": "PO-2026-64307",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-07T20:49:20+05:30",
+      "actor": "Suresh Sharma",
+      "doc_ref": "PO-2026-64307",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-14T18:12:34+05:30",
+      "actor": "Bhatia Exports",
+      "doc_ref": "INV/2026-27/64307",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-15T02:04:34+05:30",
+      "actor": "Bhatia Exports",
+      "doc_ref": "307488593292",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-15T04:04:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "DL28FS9609",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-15T10:04:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "DL28FS9609",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-15T13:04:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-BHA-AGA-260407-64307",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-15T14:03:34+05:30",
+      "actor": "Suresh Sharma",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-16T01:03:34+05:30",
+      "actor": "Suresh Sharma",
+      "doc_ref": "GRN-64307",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-BHA-AGA-260407-64307?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264307,
+    "notes": "task=mh_match defect=none"
+  }
+}

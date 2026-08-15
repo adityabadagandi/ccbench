@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0068",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/67411",
+      "issued_at": "2026-04-12T18:18:06+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Polymers Ltd.",
+        "legal_name": "Agarwal Polymers Ltd.",
+        "gstin": "19XQBCZ5699D2ZG",
+        "pan": "XQBCZ5699D",
+        "address": {
+          "line1": "Godown 127, Industrial Area",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "819548",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Rao",
+          "email": "arjunr@agarwal.co.in",
+          "phone": "+91-90647-90097"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Enterprises",
+        "legal_name": "Deshmukh Enterprises",
+        "gstin": "19QQIPA5395X6ZR",
+        "pan": "QQIPA5395X",
+        "address": {
+          "line1": "Unit 189, Export Zone",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "221660",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Patel",
+          "email": "npatel@deshmukh.co.in",
+          "phone": "+91-70832-75608"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 115.8,
+          "taxable_value": 115800.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 10422.0,
+          "sgst_amount": 10422.0,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 115800.0,
+      "total_cgst": 10422.0,
+      "total_sgst": 10422.0,
+      "total_igst": 0.0,
+      "total_tax": 20844.0,
+      "invoice_total": 136644.0,
+      "currency": "INR",
+      "eway_bill_ref": "411783575024",
+      "vehicle_no": "WB78BU8938",
+      "consignment_ref": "CONS-AGA-DES-260403-67411"
+    },
+    "eway_bill": {
+      "ewb_no": "411783575024",
+      "generated_at": "2026-04-12T22:51:06+05:30",
+      "valid_until": "2026-04-16T22:51:06+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/67411",
+      "doc_date": "2026-04-12",
+      "from_gstin": "19XQBCZ5699D2ZG",
+      "from_address": "Godown 127, Industrial Area, Howrah, Howrah, West Bengal - 819548",
+      "to_gstin": "19QQIPA5395X6ZR",
+      "to_address": "Unit 189, Export Zone, Salt Lake, Salt Lake, West Bengal - 221660",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "19HKIHQ1102F1ZT",
+      "mode": "road",
+      "vehicle_no": "WB78BU8938",
+      "consignment_ref": "CONS-AGA-DES-260403-67411",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 115800.0,
+      "total_invoice_value": 136644.0,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-67411",
+      "po_date": "2026-04-03",
+      "buyer_entity": "Deshmukh Enterprises",
+      "vendor_code": "VND-7080",
+      "vendor_name": "Agarwal Polymers Ltd.",
+      "vendor_gstin": "19XQBCZ5699D2ZG",
+      "items": [
+        {
+          "item_code": "ITEM-27537",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 115.8,
+          "line_total": 115800.0,
+          "expected_delivery": "2026-04-15"
+        }
+      ],
+      "po_subtotal": 115800.0,
+      "po_tax": 20844.0,
+      "po_total": 136644.0,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Patel",
+        "approved_at": "2026-04-04T08:27:19+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/67411"
+      ],
+      "grn": {
+        "grn_no": "GRN-67411",
+        "received_at": "2026-04-14T12:27:06+05:30",
+        "received_by": "Nikhil Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-27537",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-DES-260403-67411"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-62362",
+      "thread_name": "CONS-AGA-DES-260403-67411 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Patel",
+          "role": "driver",
+          "phone": "+91-90647-90097"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Rao",
+          "role": "dispatcher",
+          "phone": "+91-90647-90097"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Patel",
+          "role": "warehouse",
+          "phone": "+91-70832-75608"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Dinesh Khan",
+          "role": "accounts",
+          "phone": "+91-70832-75608"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-13T03:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "WB78BU8938 dispatch ho gayi Howrah se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-13T07:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Salt Lake pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-13T11:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_423.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-13T15:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-13T16:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-13T17:27:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-13T17:27:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-DES-260403-67411_36.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9186.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-03T19:27:19+05:30",
+      "actor": "Deshmukh Enterprises",
+      "doc_ref": "PO-2026-67411",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-04T08:27:19+05:30",
+      "actor": "Nikhil Patel",
+      "doc_ref": "PO-2026-67411",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-12T18:18:06+05:30",
+      "actor": "Agarwal Polymers Ltd.",
+      "doc_ref": "INV/2026-27/67411",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-12T22:51:06+05:30",
+      "actor": "Agarwal Polymers Ltd.",
+      "doc_ref": "411783575024",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-13T03:51:06+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB78BU8938",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-13T15:51:06+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB78BU8938",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-13T16:51:06+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-AGA-DES-260403-67411",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-13T17:27:06+05:30",
+      "actor": "Nikhil Patel",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-14T12:27:06+05:30",
+      "actor": "Nikhil Patel",
+      "doc_ref": "GRN-67411",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PO-2026-67411?",
+  "question_lang": "en",
+  "gold_answer": "Purchase order PO-2026-67411 carries payment terms of Net 45 days [ERP].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PO-2026-67411",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "erp_order",
+      "path": "payment_terms",
+      "value": "Net 45 days",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267411,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

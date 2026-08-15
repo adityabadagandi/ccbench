@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0054",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/66053",
+      "issued_at": "2026-04-26T13:18:03+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Trading Co",
+        "legal_name": "Gupta Trading Co.",
+        "gstin": "36XQFCC4477M5ZG",
+        "pan": "XQFCC4477M",
+        "address": {
+          "line1": "Shed 186, Export Zone",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "563809",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Yadav",
+          "email": "ayadav@gupta.co.in",
+          "phone": "+91-70441-77224"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Engineering Works",
+        "legal_name": "Pillai Engineering Works",
+        "gstin": "36ZZICU4108A4Z0",
+        "pan": "ZZICU4108A",
+        "address": {
+          "line1": "Unit 178, Logistics Park",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "131704",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Sharma",
+          "email": "sameers@pillai.com",
+          "phone": "+91-90643-24224"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 180.0,
+          "unit": "KGS",
+          "rate_per_unit": 134.76,
+          "taxable_value": 24256.8,
+          "tax_rate": 18.0,
+          "cgst_amount": 2183.11,
+          "sgst_amount": 2183.11,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 72.98,
+          "taxable_value": 7298.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 656.82,
+          "sgst_amount": 656.82,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 31554.8,
+      "total_cgst": 2839.93,
+      "total_sgst": 2839.93,
+      "total_igst": 0.0,
+      "total_tax": 5679.86,
+      "invoice_total": 37234.66,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "TS28HX3179",
+      "consignment_ref": "CONS-GUP-PIL-260422-66053"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-66053",
+      "po_date": "2026-04-22",
+      "buyer_entity": "Pillai Engineering Works",
+      "vendor_code": "VND-4512",
+      "vendor_name": "Gupta Trading Co",
+      "vendor_gstin": "36XQFCC4477M5ZG",
+      "items": [
+        {
+          "item_code": "ITEM-76364",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 180.0,
+          "unit": "KGS",
+          "unit_price": 134.76,
+          "line_total": 24256.8,
+          "expected_delivery": "2026-04-30"
+        },
+        {
+          "item_code": "ITEM-60454",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 72.98,
+          "line_total": 7298.0,
+          "expected_delivery": "2026-05-01"
+        }
+      ],
+      "po_subtotal": 31554.8,
+      "po_tax": 5679.86,
+      "po_total": 37234.66,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Sameer Sharma",
+        "approved_at": "2026-04-23T05:18:27+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/66053"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-GUP-PIL-260422-66053"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-62124",
+      "thread_name": "CONS-GUP-PIL-260422-66053 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Khan",
+          "role": "driver",
+          "phone": "+91-70441-77224"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Anita Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70441-77224"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Sharma",
+          "role": "warehouse",
+          "phone": "+91-90643-24224"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Lakshmi Khan",
+          "role": "accounts",
+          "phone": "+91-90643-24224"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-27T00:10:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Khan",
+          "lang": "hi",
+          "text": "सर TS28HX3179 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-27T04:10:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Khan",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-27T12:10:03+05:30",
+          "sender_id": "P2",
+          "sender_name": "Anita Yadav",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-27T16:10:03+05:30",
+          "sender_id": "P4",
+          "sender_name": "Lakshmi Khan",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-22T13:18:27+05:30",
+      "actor": "Pillai Engineering Works",
+      "doc_ref": "PO-2026-66053",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-23T05:18:27+05:30",
+      "actor": "Sameer Sharma",
+      "doc_ref": "PO-2026-66053",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-26T13:18:03+05:30",
+      "actor": "Gupta Trading Co.",
+      "doc_ref": "INV/2026-27/66053",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-04-27T00:10:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS28HX3179",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-04-28T11:10:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS28HX3179",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-04-28T12:10:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-GUP-PIL-260422-66053",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-04-28T14:49:03+05:30",
+      "actor": "Sameer Sharma",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-GUP-PIL-260422-66053 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266053,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

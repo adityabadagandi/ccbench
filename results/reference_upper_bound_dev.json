@@ -1,0 +1,1424 @@
+{
+  "summary": {
+    "method": "oracle",
+    "n": 100,
+    "context_completeness": 1.0,
+    "leak_clean_rate": 0.54,
+    "eu_leak_clean_rate": 0.0612,
+    "over_budget": 0,
+    "answer_correctness": 1,
+    "faithfulness": 1.0,
+    "benchmark_score": 0.54,
+    "completeness_by_bucket": {
+      "compliance": 1.0,
+      "cross-lingual": 1.0,
+      "lookup": 1.0,
+      "multi-hop": 1.0,
+      "temporal": 1.0
+    },
+    "completeness_by_label": {
+      "clean": 1.0,
+      "compliance_case": 1.0,
+      "missing_ewb": 1.0,
+      "temporal_violation": 1.0,
+      "value_mismatch": 1.0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "ccbench-0001",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70139-52771",
+        "+91-70585-67743",
+        "QQECH4056K",
+        "XQSPC3267W",
+        "ajayn@verma.in",
+        "maheshk@agarwal.com"
+      ],
+      "tokens": 810
+    },
+    {
+      "case_id": "ccbench-0003",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 371
+    },
+    {
+      "case_id": "ccbench-0006",
+      "bucket": "temporal",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 1114
+    },
+    {
+      "case_id": "ccbench-0008",
+      "bucket": "cross-lingual",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-90201-58520",
+        "+91-90530-81723",
+        "XQDCK4722U",
+        "XQLCD9034K",
+        "deepab@pillai.co.in",
+        "dineshk@nair.co.in"
+      ],
+      "tokens": 640
+    },
+    {
+      "case_id": "ccbench-0009",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 424
+    },
+    {
+      "case_id": "ccbench-0010",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70826-40477",
+        "+91-70952-49234",
+        "XQQPQ4101U",
+        "ZZGCT0371P",
+        "farhan.banerjee@singh.com",
+        "nikhilj@deshmukh.in"
+      ],
+      "tokens": 370
+    },
+    {
+      "case_id": "ccbench-0013",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70668-79473",
+        "+91-90906-44089",
+        "QQNPB4057D",
+        "ZZSCI9931B",
+        "dineshn@krishna.com",
+        "priyai@iyer.in"
+      ],
+      "tokens": 361
+    },
+    {
+      "case_id": "ccbench-0014",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70306-16798",
+        "+91-70477-60559",
+        "QQJPJ3244X",
+        "XQIPN5564F",
+        "maheshr@verma.com",
+        "priyas@chatterjee.co.in"
+      ],
+      "tokens": 499
+    },
+    {
+      "case_id": "ccbench-0016",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 423
+    },
+    {
+      "case_id": "ccbench-0017",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70987-31388",
+        "+91-80298-43784",
+        "XQNPP0213C",
+        "ZZAPR9092T",
+        "ajay.nair@rastogi.com",
+        "farhan.joshi@patel.in"
+      ],
+      "tokens": 753
+    },
+    {
+      "case_id": "ccbench-0018",
+      "bucket": "cross-lingual",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 434
+    },
+    {
+      "case_id": "ccbench-0020",
+      "bucket": "temporal",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80230-36463",
+        "+91-90294-72943",
+        "QQRPX9942N",
+        "XQYPT2187F",
+        "anitas@rastogi.com",
+        "sureshb@gupta.com"
+      ],
+      "tokens": 562
+    },
+    {
+      "case_id": "ccbench-0022",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 836
+    },
+    {
+      "case_id": "ccbench-0024",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80273-72656",
+        "+91-90958-12237",
+        "QQVPC1543N",
+        "XQBCC9713Z",
+        "imran.iyer@iyer.in",
+        "mmishra@reddy.co.in"
+      ],
+      "tokens": 440
+    },
+    {
+      "case_id": "ccbench-0025",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 746
+    },
+    {
+      "case_id": "ccbench-0026",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70322-23601",
+        "+91-90205-81735",
+        "XQNPP6146W",
+        "XQQCG2800V",
+        "spatel@mehta.in",
+        "zoyai@mehta.co.in"
+      ],
+      "tokens": 660
+    },
+    {
+      "case_id": "ccbench-0029",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80381-59144",
+        "+91-90193-34974",
+        "QQIPH6632Q",
+        "ZZICC7163J",
+        "farhann@reddy.com",
+        "rsharma@shree.com"
+      ],
+      "tokens": 819
+    },
+    {
+      "case_id": "ccbench-0031",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 375
+    },
+    {
+      "case_id": "ccbench-0034",
+      "bucket": "cross-lingual",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 387
+    },
+    {
+      "case_id": "ccbench-0035",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 759
+    },
+    {
+      "case_id": "ccbench-0037",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 425
+    },
+    {
+      "case_id": "ccbench-0040",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 541
+    },
+    {
+      "case_id": "ccbench-0043",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 567
+    },
+    {
+      "case_id": "ccbench-0046",
+      "bucket": "cross-lingual",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70424-12731",
+        "+91-80969-28465",
+        "QQUPR1992L",
+        "ZZUPD9986R",
+        "adesai@deshmukh.com",
+        "priyak@patel.co.in"
+      ],
+      "tokens": 422
+    },
+    {
+      "case_id": "ccbench-0047",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80153-62663",
+        "+91-90718-87516",
+        "QQPCP4803Y",
+        "XQBPX8839M",
+        "farhan.reddy@krishna.in",
+        "lyadav@krishna.in"
+      ],
+      "tokens": 371
+    },
+    {
+      "case_id": "ccbench-0048",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 740
+    },
+    {
+      "case_id": "ccbench-0049",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 564
+    },
+    {
+      "case_id": "ccbench-0052",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 376
+    },
+    {
+      "case_id": "ccbench-0053",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70734-26116",
+        "+91-90219-49355",
+        "QQUCO5376H",
+        "ZZXCQ5191N",
+        "fkumar@rastogi.com",
+        "lreddy@rastogi.co.in"
+      ],
+      "tokens": 582
+    },
+    {
+      "case_id": "ccbench-0057",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70539-36998",
+        "+91-80566-63735",
+        "QQWCD9241N",
+        "XQIPX9710T",
+        "farhanj@mehta.com",
+        "kavitar@iyer.com"
+      ],
+      "tokens": 555
+    },
+    {
+      "case_id": "ccbench-0059",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 893
+    },
+    {
+      "case_id": "ccbench-0060",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "XQLPH5386R"
+      ],
+      "tokens": 352
+    },
+    {
+      "case_id": "ccbench-0061",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-90313-29036",
+        "+91-90719-58581",
+        "QQBCJ1217P",
+        "XQMCE1657I",
+        "dkumar@mehta.com",
+        "meenaj@iyer.co.in"
+      ],
+      "tokens": 588
+    },
+    {
+      "case_id": "ccbench-0062",
+      "bucket": "cross-lingual",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-90671-96109",
+        "+91-90796-69613",
+        "QQRPK8901I",
+        "XQCCR7638J",
+        "mdesai@bhatia.in",
+        "suresh.iyer@mehta.co.in"
+      ],
+      "tokens": 440
+    },
+    {
+      "case_id": "ccbench-0063",
+      "bucket": "cross-lingual",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 426
+    },
+    {
+      "case_id": "ccbench-0064",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 417
+    },
+    {
+      "case_id": "ccbench-0068",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 217
+    },
+    {
+      "case_id": "ccbench-0072",
+      "bucket": "cross-lingual",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 385
+    },
+    {
+      "case_id": "ccbench-0073",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70864-17513",
+        "+91-80216-70015",
+        "QQOCU0217G",
+        "ZZZCN2802T",
+        "dsharma@rastogi.co.in",
+        "nikhilj@singh.in"
+      ],
+      "tokens": 641
+    },
+    {
+      "case_id": "ccbench-0075",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 569
+    },
+    {
+      "case_id": "ccbench-0076",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 429
+    },
+    {
+      "case_id": "ccbench-0078",
+      "bucket": "cross-lingual",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-90501-30146",
+        "+91-90560-72902",
+        "QQFCE2341X",
+        "QQVCS6334C",
+        "arao@rastogi.com",
+        "arjun.banerjee@gupta.in"
+      ],
+      "tokens": 440
+    },
+    {
+      "case_id": "ccbench-0079",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "QQBCF0162Y",
+        "XQDPG7648B"
+      ],
+      "tokens": 588
+    },
+    {
+      "case_id": "ccbench-0082",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70541-51055",
+        "+91-70623-66087",
+        "XQAPQ0703F",
+        "XQHCK7890D",
+        "fyadav@gupta.co.in",
+        "rajeshp@mehta.in"
+      ],
+      "tokens": 486
+    },
+    {
+      "case_id": "ccbench-0084",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 587
+    },
+    {
+      "case_id": "ccbench-0089",
+      "bucket": "cross-lingual",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80448-96208",
+        "+91-90914-80572",
+        "ZZBPV6412U",
+        "ZZQCM9104B",
+        "priyab@rastogi.in",
+        "rpatel@patel.in"
+      ],
+      "tokens": 836
+    },
+    {
+      "case_id": "ccbench-0090",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "XQPCW1697I"
+      ],
+      "tokens": 217
+    },
+    {
+      "case_id": "ccbench-0094",
+      "bucket": "cross-lingual",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 435
+    },
+    {
+      "case_id": "ccbench-0096",
+      "bucket": "cross-lingual",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 384
+    },
+    {
+      "case_id": "ccbench-0097",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70281-72825",
+        "+91-80129-88912",
+        "QQDPQ0890S",
+        "ZZCPX3297S",
+        "deepas@sharma.co.in",
+        "zrao@nair.com"
+      ],
+      "tokens": 366
+    },
+    {
+      "case_id": "ccbench-0099",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70893-60324",
+        "+91-90275-17160",
+        "XQWCX7192G",
+        "ZZFCW3318M",
+        "arjun.banerjee@nair.co.in",
+        "fgupta@pillai.in"
+      ],
+      "tokens": 361
+    },
+    {
+      "case_id": "ccbench-0100",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80275-71326",
+        "+91-90642-65267",
+        "QQYCV9106N",
+        "XQKCA6291T",
+        "lakshmik@kulkarni.in",
+        "sgupta@singh.in"
+      ],
+      "tokens": 374
+    },
+    {
+      "case_id": "ccbench-0104",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80848-82235",
+        "+91-90980-31999",
+        "QQWCC9916D",
+        "XQQPY9696F",
+        "nikhiln@chatterjee.in",
+        "niyer@shree.co.in"
+      ],
+      "tokens": 731
+    },
+    {
+      "case_id": "ccbench-0105",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 562
+    },
+    {
+      "case_id": "ccbench-0106",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70448-70058",
+        "+91-90837-95721",
+        "XQSCU5446S",
+        "ZZJCF5380D",
+        "ikhan@verma.in",
+        "maheshd@verma.in"
+      ],
+      "tokens": 493
+    },
+    {
+      "case_id": "ccbench-0107",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 503
+    },
+    {
+      "case_id": "ccbench-0108",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 654
+    },
+    {
+      "case_id": "ccbench-0109",
+      "bucket": "cross-lingual",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 633
+    },
+    {
+      "case_id": "ccbench-0112",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70729-71969",
+        "+91-90120-67171",
+        "XQGPU1441S",
+        "ZZCCR4475K",
+        "dsingh@krishna.co.in",
+        "smishra@gupta.com"
+      ],
+      "tokens": 438
+    },
+    {
+      "case_id": "ccbench-0113",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70955-29781",
+        "+91-90998-45426",
+        "QQKCB1185W",
+        "ZZTCB3699R",
+        "anita.singh@chatterjee.co.in",
+        "lreddy@rastogi.in"
+      ],
+      "tokens": 742
+    },
+    {
+      "case_id": "ccbench-0115",
+      "bucket": "cross-lingual",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70844-48715",
+        "+91-80341-52453",
+        "XQBCM1526R",
+        "XQVCU5403S",
+        "meenar@bhatia.in",
+        "rajesh.reddy@patel.com"
+      ],
+      "tokens": 496
+    },
+    {
+      "case_id": "ccbench-0118",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 484
+    },
+    {
+      "case_id": "ccbench-0120",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 496
+    },
+    {
+      "case_id": "ccbench-0123",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70669-43552",
+        "+91-80327-89775",
+        "QQJCI5520P",
+        "ZZPCG1629A",
+        "rameshk@mehta.co.in",
+        "sameerd@verma.com"
+      ],
+      "tokens": 441
+    },
+    {
+      "case_id": "ccbench-0124",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70835-77015",
+        "+91-80451-31742",
+        "XQSCI8808L",
+        "XQZPL7196K",
+        "rameshb@rastogi.com",
+        "vijay.patel@sharma.in"
+      ],
+      "tokens": 430
+    },
+    {
+      "case_id": "ccbench-0125",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 370
+    },
+    {
+      "case_id": "ccbench-0127",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 562
+    },
+    {
+      "case_id": "ccbench-0128",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 488
+    },
+    {
+      "case_id": "ccbench-0129",
+      "bucket": "multi-hop",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80775-73080",
+        "+91-90135-11768",
+        "QQTCA1533Z",
+        "ZZLPJ7441E",
+        "farhanm@sharma.in",
+        "rekha.kumar@krishna.com"
+      ],
+      "tokens": 722
+    },
+    {
+      "case_id": "ccbench-0130",
+      "bucket": "cross-lingual",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70387-25963",
+        "+91-70449-73627",
+        "QQCCK1592G",
+        "QQKCB3667V",
+        "dnair@chatterjee.com",
+        "fbanerjee@mehta.com"
+      ],
+      "tokens": 450
+    },
+    {
+      "case_id": "ccbench-0132",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70667-83942",
+        "+91-90168-27105",
+        "QQEPO7728C",
+        "XQYCM2676L",
+        "anita.khan@singh.in",
+        "vijayp@verma.in"
+      ],
+      "tokens": 429
+    },
+    {
+      "case_id": "ccbench-0133",
+      "bucket": "temporal",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 740
+    },
+    {
+      "case_id": "ccbench-0135",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 439
+    },
+    {
+      "case_id": "ccbench-0138",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 503
+    },
+    {
+      "case_id": "ccbench-0142",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 358
+    },
+    {
+      "case_id": "ccbench-0146",
+      "bucket": "temporal",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80973-62531",
+        "+91-90161-12894",
+        "QQCCC9688D",
+        "XQUPN5851M",
+        "knair@reddy.com",
+        "rdesai@nair.in"
+      ],
+      "tokens": 995
+    },
+    {
+      "case_id": "ccbench-0149",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70630-94404",
+        "+91-90422-44029",
+        "XQIPR0357N",
+        "XQVPG8343L",
+        "ajoshi@gupta.com",
+        "prao@rastogi.com"
+      ],
+      "tokens": 428
+    },
+    {
+      "case_id": "ccbench-0151",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 500
+    },
+    {
+      "case_id": "ccbench-0154",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 369
+    },
+    {
+      "case_id": "ccbench-0156",
+      "bucket": "cross-lingual",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 384
+    },
+    {
+      "case_id": "ccbench-0157",
+      "bucket": "temporal",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 1018
+    },
+    {
+      "case_id": "ccbench-0161",
+      "bucket": "cross-lingual",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 560
+    },
+    {
+      "case_id": "ccbench-0162",
+      "bucket": "cross-lingual",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 442
+    },
+    {
+      "case_id": "ccbench-0163",
+      "bucket": "cross-lingual",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 390
+    },
+    {
+      "case_id": "ccbench-0165",
+      "bucket": "cross-lingual",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70368-57445",
+        "+91-70476-56317",
+        "QQUPO2065F",
+        "ZZYCY9046G",
+        "dyadav@kulkarni.in",
+        "maheshs@krishna.com"
+      ],
+      "tokens": 809
+    },
+    {
+      "case_id": "ccbench-0166",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "QQBCI8421U",
+        "XQBPD1349N"
+      ],
+      "tokens": 663
+    },
+    {
+      "case_id": "ccbench-0168",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 754
+    },
+    {
+      "case_id": "ccbench-0169",
+      "bucket": "multi-hop",
+      "gold_label": "missing_ewb",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70504-43798",
+        "+91-70853-82257",
+        "XQDCG6904I",
+        "XQQCC0714C",
+        "rameshs@singh.in",
+        "snair@pillai.in"
+      ],
+      "tokens": 559
+    },
+    {
+      "case_id": "ccbench-0170",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 418
+    },
+    {
+      "case_id": "ccbench-0174",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 360
+    },
+    {
+      "case_id": "ccbench-0175",
+      "bucket": "cross-lingual",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 739
+    },
+    {
+      "case_id": "ccbench-0178",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 738
+    },
+    {
+      "case_id": "ccbench-0180",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 547
+    },
+    {
+      "case_id": "ccbench-0181",
+      "bucket": "multi-hop",
+      "gold_label": "value_mismatch",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70392-29304",
+        "+91-80264-26173",
+        "QQLPY4305G",
+        "XQYPI9856R",
+        "dmishra@agarwal.com",
+        "sameer.yadav@mehta.com"
+      ],
+      "tokens": 646
+    },
+    {
+      "case_id": "ccbench-0182",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 503
+    },
+    {
+      "case_id": "ccbench-0183",
+      "bucket": "compliance",
+      "gold_label": "compliance_case",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-70458-28487",
+        "+91-90367-12469",
+        "QQBCI9812L",
+        "QQICJ0126V",
+        "lakshmi.joshi@verma.com",
+        "vpatel@singh.co.in"
+      ],
+      "tokens": 429
+    },
+    {
+      "case_id": "ccbench-0187",
+      "bucket": "lookup",
+      "gold_label": "clean",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "XQTCH5058L"
+      ],
+      "tokens": 288
+    },
+    {
+      "case_id": "ccbench-0192",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "IN",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": true,
+      "leaked": [],
+      "tokens": 871
+    },
+    {
+      "case_id": "ccbench-0194",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "XQKCK0225D",
+        "XQVCD9109Q"
+      ],
+      "tokens": 650
+    },
+    {
+      "case_id": "ccbench-0200",
+      "bucket": "temporal",
+      "gold_label": "temporal_violation",
+      "jurisdiction": "EU",
+      "completeness": 1.0,
+      "missing_facts": [],
+      "leak_clean": false,
+      "leaked": [
+        "+91-80679-89809",
+        "+91-90424-35422",
+        "QQGCE9721M",
+        "ZZPPD3993T",
+        "rameshy@singh.in",
+        "sreddy@iyer.in"
+      ],
+      "tokens": 816
+    }
+  ]
+}

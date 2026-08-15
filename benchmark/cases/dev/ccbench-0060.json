@@ -1,0 +1,447 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0060",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/66635",
+      "issued_at": "2026-07-22T15:05:08+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Manufacturing Pvt. Limited",
+        "legal_name": "Verma Manufacturing Pvt. Ltd.",
+        "gstin": "06XQLPH5386R1Z6",
+        "pan": "XQLPH5386R",
+        "address": {
+          "line1": "Plot 167, Export Zone",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "384723",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Sharma",
+          "email": "suresh.sharma@verma.co.in",
+          "phone": "+91-90602-74832"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Logistics Pvt. Ltd.",
+        "legal_name": "Mehta Brothers Logistics Pvt. Ltd.",
+        "gstin": "33QQLCP5683I8ZC",
+        "pan": "QQLCP5683I",
+        "address": {
+          "line1": "Warehouse 152, Logistics Park",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "698560",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Mishra",
+          "email": "rajesh.mishra@mehta.com",
+          "phone": "+91-80989-55809"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 43.99,
+          "taxable_value": 1099.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 197.96
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 37.04,
+          "taxable_value": 14816.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2666.88
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 170.72,
+          "taxable_value": 42680.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7682.4
+        }
+      ],
+      "total_taxable_value": 58595.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 10547.24,
+      "total_tax": 10547.24,
+      "invoice_total": 69142.99,
+      "currency": "INR",
+      "eway_bill_ref": "635792744504",
+      "vehicle_no": "HR64TJ9105",
+      "consignment_ref": "CONS-VER-MEH-260715-66635"
+    },
+    "eway_bill": {
+      "ewb_no": "635792744504",
+      "generated_at": "2026-07-22T22:11:08+05:30",
+      "valid_until": "2026-08-02T22:11:08+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/66635",
+      "doc_date": "2026-07-22",
+      "from_gstin": "06XQLPH5386R1Z6",
+      "from_address": "Plot 167, Export Zone, Faridabad, Faridabad, Haryana - 384723",
+      "to_gstin": "33QQLCP5683I8ZC",
+      "to_address": "Warehouse 152, Logistics Park, Hosur Road, Hosur Road, Tamil Nadu - 698560",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "09BERUG4188P1ZT",
+      "mode": "road",
+      "vehicle_no": "HR64TJ9105",
+      "consignment_ref": "CONS-VER-MEH-260715-66635",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 400.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 58595.75,
+      "total_invoice_value": 69142.99,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-66635",
+      "po_date": "2026-07-15",
+      "buyer_entity": "Mehta Brothers Logistics Pvt. Ltd.",
+      "vendor_code": "VND-6353",
+      "vendor_name": "Verma Manufacturing Pvt. Limited",
+      "vendor_gstin": "06XQLPH5386R1Z6",
+      "items": [
+        {
+          "item_code": "ITEM-52914",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 43.99,
+          "line_total": 1099.75,
+          "expected_delivery": "2026-07-31"
+        },
+        {
+          "item_code": "ITEM-28622",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 37.04,
+          "line_total": 14816.0,
+          "expected_delivery": "2026-07-24"
+        },
+        {
+          "item_code": "ITEM-53589",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 170.72,
+          "line_total": 42680.0,
+          "expected_delivery": "2026-07-27"
+        }
+      ],
+      "po_subtotal": 58595.75,
+      "po_tax": 10547.24,
+      "po_total": 69142.99,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Mishra",
+        "approved_at": "2026-07-16T18:27:32+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/66635"
+      ],
+      "grn": {
+        "grn_no": "GRN-66635",
+        "received_at": "2026-07-25T11:41:08+05:30",
+        "received_by": "Rajesh Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-52914",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-28622",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-53589",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-MEH-260715-66635"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-16339",
+      "thread_name": "CONS-VER-MEH-260715-66635 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Kumar",
+          "role": "driver",
+          "phone": "+91-90602-74832"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Sharma",
+          "role": "dispatcher",
+          "phone": "+91-90602-74832"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Mishra",
+          "role": "warehouse",
+          "phone": "+91-80989-55809"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Khan",
+          "role": "accounts",
+          "phone": "+91-80989-55809"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-23T01:11:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "HR64TJ9105 dispatch ho gayi Faridabad se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-23T01:50:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-23T21:11:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-24T17:11:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Hosur Road गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-24T21:11:08+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Mishra",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-24T21:37:08+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Mishra",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-24T22:41:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-MEH-260715-66635_30.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-15T14:27:32+05:30",
+      "actor": "Mehta Brothers Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-66635",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-16T18:27:32+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "PUR-2026-66635",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-22T15:05:08+05:30",
+      "actor": "Verma Manufacturing Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/66635",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-22T22:11:08+05:30",
+      "actor": "Verma Manufacturing Pvt. Ltd.",
+      "doc_ref": "635792744504",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-23T01:11:08+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "HR64TJ9105",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-24T17:11:08+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "HR64TJ9105",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-24T21:11:08+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-VER-MEH-260715-66635",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-24T22:41:08+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-25T11:41:08+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "GRN-66635",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PUR-2026-66635?",
+  "question_lang": "en",
+  "gold_answer": "Purchase order PUR-2026-66635 carries payment terms of Advance 50% [ERP].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PUR-2026-66635",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "erp_order",
+      "path": "payment_terms",
+      "value": "Advance 50%",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-80989-55809",
+    "+91-90602-74832",
+    "QQLCP5683I",
+    "XQLPH5386R",
+    "rajesh.mishra@mehta.com",
+    "suresh.sharma@verma.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266635,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

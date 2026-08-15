@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0046",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/65277",
+      "issued_at": "2026-06-05T09:18:15+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Engineering Works",
+        "legal_name": "Patel Engineering Works",
+        "gstin": "36ZZUPD9986R9ZW",
+        "pan": "ZZUPD9986R",
+        "address": {
+          "line1": "Unit 194, Phase II",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "896280",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Kumar",
+          "email": "priyak@patel.co.in",
+          "phone": "+91-80969-28465"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Exports",
+        "legal_name": "Deshmukh Exports",
+        "gstin": "19QQUPR1992L8ZC",
+        "pan": "QQUPR1992L",
+        "address": {
+          "line1": "Unit 22, MIDC",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "449887",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Desai",
+          "email": "adesai@deshmukh.com",
+          "phone": "+91-70424-12731"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 139.13,
+          "taxable_value": 6956.5,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 347.82
+        }
+      ],
+      "total_taxable_value": 6956.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 347.82,
+      "total_tax": 347.82,
+      "invoice_total": 7304.32,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "TS51ZM4591",
+      "consignment_ref": "CONS-PAT-DES-260525-65277"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-65277",
+      "po_date": "2026-05-25",
+      "buyer_entity": "Deshmukh Exports",
+      "vendor_code": "VND-1241",
+      "vendor_name": "Patel Engineering Works",
+      "vendor_gstin": "36ZZUPD9986R9ZW",
+      "items": [
+        {
+          "item_code": "ITEM-54493",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 139.13,
+          "line_total": 6956.5,
+          "expected_delivery": "2026-06-13"
+        }
+      ],
+      "po_subtotal": 6956.5,
+      "po_tax": 347.82,
+      "po_total": 7304.32,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Ajay Desai",
+        "approved_at": "2026-05-26T21:56:33+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/65277"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-PAT-DES-260525-65277"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-52506",
+      "thread_name": "CONS-PAT-DES-260525-65277 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-80969-28465"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Kumar",
+          "role": "dispatcher",
+          "phone": "+91-80969-28465"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Desai",
+          "role": "warehouse",
+          "phone": "+91-70424-12731"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-05T19:10:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "सर TS51ZM4591 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-05T20:29:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-06T01:10:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-06T05:10:15+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Kumar",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-54989",
+      "raised_at": "2026-06-08T12:16:15+05:30",
+      "raised_by": "Ajay Desai",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-25T19:56:33+05:30",
+      "actor": "Deshmukh Exports",
+      "doc_ref": "PO-2026-65277",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-26T21:56:33+05:30",
+      "actor": "Ajay Desai",
+      "doc_ref": "PO-2026-65277",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-05T09:18:15+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "INV/2026-27/65277",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-06-05T19:10:15+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS51ZM4591",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-06-07T16:10:15+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS51ZM4591",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-06-07T20:10:15+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-PAT-DES-260525-65277",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-06-07T21:16:15+05:30",
+      "actor": "Ajay Desai",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "What did the driver report about consignment CONS-PAT-DES-260525-65277 while in transit?",
+  "question_lang": "en",
+  "gold_answer": "The driver, Mahesh Khan, reported in message M-003 that the vehicle was stopped at a check post because no e-way bill had been generated: \"ई-वे बिल बना ही नहीं था\" [M-003]. The invoice confirms it, carrying no e-way bill reference for consignment CONS-PAT-DES-260525-65277 [INV], and the consignment did not complete delivery.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-003.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-003",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70424-12731",
+    "+91-80969-28465",
+    "QQUPR1992L",
+    "ZZUPD9986R",
+    "adesai@deshmukh.com",
+    "priyak@patel.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265277,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0127",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/73134",
+      "issued_at": "2026-06-06T14:12:56+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Manufacturing Private Limited",
+        "legal_name": "Patel Manufacturing Pvt. Ltd.",
+        "gstin": "27ZZDPC3887T8ZR",
+        "pan": "ZZDPC3887T",
+        "address": {
+          "line1": "Unit 238, Export Zone",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "647680",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Kumar",
+          "email": "maheshk@patel.in",
+          "phone": "+91-80407-76072"
+        }
+      },
+      "buyer": {
+        "name": "Agarwal Distributors",
+        "legal_name": "Agarwal Distributors",
+        "gstin": "27XQGCP1450E7ZY",
+        "pan": "XQGCP1450E",
+        "address": {
+          "line1": "Plot 52, Logistics Park",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "843921",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Mishra",
+          "email": "smishra@agarwal.co.in",
+          "phone": "+91-90511-97233"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 88.59,
+          "taxable_value": 35436.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 3189.24,
+          "sgst_amount": 3189.24,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 35436.0,
+      "total_cgst": 3189.24,
+      "total_sgst": 3189.24,
+      "total_igst": 0.0,
+      "total_tax": 6378.48,
+      "invoice_total": 41814.48,
+      "currency": "INR",
+      "eway_bill_ref": "134129877666",
+      "vehicle_no": "MH99HB5348",
+      "consignment_ref": "CONS-PAT-AGA-260527-73134"
+    },
+    "eway_bill": {
+      "ewb_no": "134129877666",
+      "generated_at": "2026-06-06T08:01:56+05:30",
+      "valid_until": "2026-06-17T08:01:56+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/73134",
+      "doc_date": "2026-06-06",
+      "from_gstin": "27ZZDPC3887T8ZR",
+      "from_address": "Unit 238, Export Zone, Chakan, Chakan, Maharashtra - 647680",
+      "to_gstin": "27XQGCP1450E7ZY",
+      "to_address": "Plot 52, Logistics Park, Thane, Thane, Maharashtra - 843921",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "07CNACM6398O1ZT",
+      "mode": "road",
+      "vehicle_no": "MH99HB5348",
+      "consignment_ref": "CONS-PAT-AGA-260527-73134",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 35436.0,
+      "total_invoice_value": 41814.48,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-73134",
+      "po_date": "2026-05-27",
+      "buyer_entity": "Agarwal Distributors",
+      "vendor_code": "VND-3171",
+      "vendor_name": "Patel Manufacturing Private Limited",
+      "vendor_gstin": "27ZZDPC3887T8ZR",
+      "items": [
+        {
+          "item_code": "ITEM-51202",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 88.59,
+          "line_total": 35436.0,
+          "expected_delivery": "2026-06-15"
+        }
+      ],
+      "po_subtotal": 35436.0,
+      "po_tax": 6378.48,
+      "po_total": 41814.48,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Sameer Mishra",
+        "approved_at": "2026-05-27T21:05:02+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/73134"
+      ],
+      "grn": {
+        "grn_no": "GRN-73134",
+        "received_at": "2026-06-09T03:29:56+05:30",
+        "received_by": "Sameer Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-51202",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-AGA-260527-73134"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-14355",
+      "thread_name": "CONS-PAT-AGA-260527-73134 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Singh",
+          "role": "driver",
+          "phone": "+91-80407-76072"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Mahesh Kumar",
+          "role": "dispatcher",
+          "phone": "+91-80407-76072"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Mishra",
+          "role": "warehouse",
+          "phone": "+91-90511-97233"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-06T10:01:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "en",
+          "text": "Vehicle MH99HB5348 dispatched from Chakan. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-06T10:26:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-06T23:41:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-07T13:21:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_252.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-08T03:01:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-08T07:01:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Mishra",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-08T07:44:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Mishra",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-08T08:29:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-AGA-260527-73134_16.jpg",
+              "caption": null
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-87099",
+      "raised_at": "2026-06-09T13:29:56+05:30",
+      "raised_by": "Sameer Mishra",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-27T18:05:02+05:30",
+      "actor": "Agarwal Distributors",
+      "doc_ref": "ORD-2026-73134",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-27T21:05:02+05:30",
+      "actor": "Sameer Mishra",
+      "doc_ref": "ORD-2026-73134",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-06-06T08:01:56+05:30",
+      "actor": "Patel Manufacturing Pvt. Ltd.",
+      "doc_ref": "134129877666",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-06-06T10:01:56+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MH99HB5348",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-06-06T14:12:56+05:30",
+      "actor": "Patel Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/73134",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-08T03:01:56+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MH99HB5348",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-08T07:01:56+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-PAT-AGA-260527-73134",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-08T08:29:56+05:30",
+      "actor": "Sameer Mishra",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-09T03:29:56+05:30",
+      "actor": "Sameer Mishra",
+      "doc_ref": "GRN-73134",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-PAT-AGA-260527-73134 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "Before, which is a sequence violation: e-way bill 134129877666 was generated on 06 Jun 2026 at 08:01 citing invoice GST/2026-27/73134 [EWB], but that invoice was only issued 6.2 hours later, on 06 Jun 2026 at 14:12 [INV]. The permit therefore references a document that did not yet exist [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-06-06T14:12:56+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/73134",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-06-06T08:01:56+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "GST/2026-27/73134",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273134,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

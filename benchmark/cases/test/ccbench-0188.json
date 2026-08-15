@@ -1,0 +1,428 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0188",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/79051",
+      "issued_at": "2026-05-24T15:41:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Engineering Works",
+        "legal_name": "Iyer Engineering Works",
+        "gstin": "19XQTPN4538K8ZG",
+        "pan": "XQTPN4538K",
+        "address": {
+          "line1": "Warehouse 10, MIDC",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "627222",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Joshi",
+          "email": "sunitaj@iyer.com",
+          "phone": "+91-70482-13808"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Enterprises",
+        "legal_name": "Kulkarni Enterprises",
+        "gstin": "29XQNCJ6715O3Z5",
+        "pan": "XQNCJ6715O",
+        "address": {
+          "line1": "Warehouse 17, MIDC",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "861473",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Rao",
+          "email": "imran.rao@kulkarni.in",
+          "phone": "+91-90756-25089"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 167.38,
+          "taxable_value": 16738.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3012.84
+        },
+        {
+          "line_no": 2,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 3644.01,
+          "taxable_value": 1822005.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 510161.4
+        }
+      ],
+      "total_taxable_value": 1838743.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 513174.24,
+      "total_tax": 513174.24,
+      "invoice_total": 2351917.24,
+      "currency": "INR",
+      "eway_bill_ref": "051376485260",
+      "vehicle_no": "WB21BY5802",
+      "consignment_ref": "CONS-IYE-KUL-260517-79051"
+    },
+    "eway_bill": {
+      "ewb_no": "051376485260",
+      "generated_at": "2026-05-24T20:14:07+05:30",
+      "valid_until": "2026-05-30T20:14:07+05:30",
+      "status": "expired",
+      "extensions": [
+        {
+          "extended_at": "2026-05-30T18:14:07+05:30",
+          "new_valid_until": "2026-05-31T08:14:07+05:30",
+          "reason": "Natural calamity — road closure"
+        }
+      ],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/79051",
+      "doc_date": "2026-05-24",
+      "from_gstin": "19XQTPN4538K8ZG",
+      "from_address": "Warehouse 10, MIDC, Salt Lake, Salt Lake, West Bengal - 627222",
+      "to_gstin": "29XQNCJ6715O3Z5",
+      "to_address": "Warehouse 17, MIDC, Electronic City, Electronic City, Karnataka - 861473",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "24CMBXJ9711R1ZT",
+      "mode": "road",
+      "vehicle_no": "WB21BY5802",
+      "consignment_ref": "CONS-IYE-KUL-260517-79051",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 100.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1838743.0,
+      "total_invoice_value": 2351917.24,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-79051",
+      "po_date": "2026-05-17",
+      "buyer_entity": "Kulkarni Enterprises",
+      "vendor_code": "VND-1962",
+      "vendor_name": "Iyer Engineering Works",
+      "vendor_gstin": "19XQTPN4538K8ZG",
+      "items": [
+        {
+          "item_code": "ITEM-31280",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 167.38,
+          "line_total": 16738.0,
+          "expected_delivery": "2026-06-02"
+        },
+        {
+          "item_code": "ITEM-24282",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 3644.01,
+          "line_total": 1822005.0,
+          "expected_delivery": "2026-06-02"
+        }
+      ],
+      "po_subtotal": 1838743.0,
+      "po_tax": 513174.24,
+      "po_total": 2351917.24,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Imran Rao",
+        "approved_at": "2026-05-18T02:27:36+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/79051"
+      ],
+      "grn": {
+        "grn_no": "GRN-79051",
+        "received_at": "2026-06-02T03:02:07+05:30",
+        "received_by": "Imran Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-31280",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-24282",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-KUL-260517-79051"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51090",
+      "thread_name": "CONS-IYE-KUL-260517-79051 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Khan",
+          "role": "driver",
+          "phone": "+91-70482-13808"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sunita Joshi",
+          "role": "dispatcher",
+          "phone": "+91-70482-13808"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Rao",
+          "role": "warehouse",
+          "phone": "+91-90756-25089"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-25T00:14:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi-en",
+          "text": "WB21BY5802 dispatch ho gayi Salt Lake se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-27T11:34:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-29T22:54:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Electronic City.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-01T09:14:07+05:30",
+          "sender_id": "P2",
+          "sender_name": "Sunita Joshi",
+          "lang": "en",
+          "text": "Note: the permit lapsed on 30 May 2026 and the vehicle reached after that.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-01T10:14:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-01T13:14:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Rao",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-01T13:39:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Rao",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-01T16:02:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-KUL-260517-79051_70.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-7724.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-06-02T21:02:07+05:30",
+          "sender_id": "P2",
+          "sender_name": "Sunita Joshi",
+          "lang": "en",
+          "text": "Correction to my earlier message — pls read GST/2026-27/79051.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-86745",
+      "raised_at": "2026-06-02T04:02:07+05:30",
+      "raised_by": "Imran Rao",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-17T12:27:36+05:30",
+      "actor": "Kulkarni Enterprises",
+      "doc_ref": "PUR-2026-79051",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-18T02:27:36+05:30",
+      "actor": "Imran Rao",
+      "doc_ref": "PUR-2026-79051",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-24T15:41:07+05:30",
+      "actor": "Iyer Engineering Works",
+      "doc_ref": "GST/2026-27/79051",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-24T20:14:07+05:30",
+      "actor": "Iyer Engineering Works",
+      "doc_ref": "051376485260",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-25T00:14:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB21BY5802",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "ewb_extended",
+      "ts": "2026-05-30T18:14:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "051376485260",
+      "note": "Natural calamity — road closure"
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-06-01T10:14:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB21BY5802",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-06-01T13:14:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-IYE-KUL-260517-79051",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-06-01T16:02:07+05:30",
+      "actor": "Imran Rao",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-06-02T03:02:07+05:30",
+      "actor": "Imran Rao",
+      "doc_ref": "GRN-79051",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-IYE-KUL-260517-79051 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279051,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

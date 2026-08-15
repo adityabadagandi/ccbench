@@ -1,129 +1,494 @@
 {
+  "schema_version": "0.2",
   "case_id": "ccbench-0001",
-  "bucket": "multi-hop",
-  "jurisdiction": "IN",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
   "documents": {
     "invoice": {
-      "invoice_no": "INV-DL-MUM-2024-0347",
-      "date": "2024-03-15",
+      "invoice_no": "GST/2026-27/60912",
+      "issued_at": "2026-02-16T10:27:37+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
       "seller": {
-        "name": "Shree Ganesh Trading Co.",
-        "gstin": "07AABCU9603R1ZX",
-        "address": "Karol Bagh, Delhi - 110005"
+        "name": "Verma Trading Co.",
+        "legal_name": "Verma Trading Co.",
+        "gstin": "07XQSPC3267W8Z9",
+        "pan": "XQSPC3267W",
+        "address": {
+          "line1": "Warehouse 17, MIDC",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "815860",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Nair",
+          "email": "ajayn@verma.in",
+          "phone": "+91-70585-67743"
+        }
       },
       "buyer": {
-        "name": "Patel Logistics Pvt. Ltd.",
-        "gstin": "27AADFP1234H1Z5",
-        "address": "Andheri East, Mumbai - 400069"
+        "name": "Agarwal Enterprises",
+        "legal_name": "Agarwal Enterprises",
+        "gstin": "06QQECH4056K6ZI",
+        "pan": "QQECH4056K",
+        "address": {
+          "line1": "Unit 177, Phase II",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "824313",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Khan",
+          "email": "maheshk@agarwal.com",
+          "phone": "+91-70139-52771"
+        }
       },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
       "items": [
         {
-          "description": "Industrial PVC Pipes (Schedule 40)",
-          "hsn_code": "3917",
-          "quantity": 500,
-          "unit": "meters",
-          "rate_per_unit": 45.00,
-          "taxable_value": 22500.00,
-          "cgst_rate": 9,
-          "sgst_rate": 9,
-          "cgst_amount": 2025.00,
-          "sgst_amount": 2025.00
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 132.43,
+          "taxable_value": 23837.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1191.87
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 59079.94,
+          "taxable_value": 5907994.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1063438.92
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 180.0,
+          "unit": "KGS",
+          "rate_per_unit": 114.66,
+          "taxable_value": 20638.8,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3714.98
+        },
+        {
+          "line_no": 4,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 130.8,
+          "taxable_value": 6540.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1177.2
         }
       ],
-      "total_taxable_value": 22500.00,
-      "total_cgst": 2025.00,
-      "total_sgst": 2025.00,
-      "invoice_total": 26550.00,
-      "eway_bill_ref": "EWB-131015456782-15-03-2024",
-      "vehicle_no": "DL01AB1234",
-      "consignment_ref": "CONS-SGC-PLP-150324-001"
+      "total_taxable_value": 5959010.2,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1069522.97,
+      "total_tax": 1069522.97,
+      "invoice_total": 7028533.17,
+      "currency": "INR",
+      "eway_bill_ref": "912669343271",
+      "vehicle_no": "DL32WF8200",
+      "consignment_ref": "CONS-VER-AGA-260213-60912"
     },
     "eway_bill": {
-      "ewb_no": "EWB-131015456782-15-03-2024",
-      "generation_date": "2024-03-15T08:32:00+05:30",
-      "valid_until": "2024-03-16T08:32:00+05:30",
-      "from_gstin": "07AABCU9603R1ZX",
-      "from_address": "Karol Bagh, Delhi - 110005",
-      "to_gstin": "27AADFP1234H1Z5",
-      "to_address": "Andheri East, Mumbai - 400069",
-      "transporter": "Patel Logistics Pvt. Ltd.",
-      "vehicle_no": "DL01AB1234",
-      "consignment_ref": "CONS-SGC-PLP-150324-001",
+      "ewb_no": "912669343271",
+      "generated_at": "2026-02-16T04:04:37+05:30",
+      "valid_until": "2026-02-22T04:04:37+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/60912",
+      "doc_date": "2026-02-16",
+      "from_gstin": "07XQSPC3267W8Z9",
+      "from_address": "Warehouse 17, MIDC, Karol Bagh, Karol Bagh, Delhi - 815860",
+      "to_gstin": "06QQECH4056K6ZI",
+      "to_address": "Unit 177, Phase II, Manesar, Manesar, Haryana - 824313",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "06RPDBG1787P1ZT",
+      "mode": "road",
+      "vehicle_no": "DL32WF8200",
+      "consignment_ref": "CONS-VER-AGA-260213-60912",
       "items": [
         {
-          "description": "Industrial PVC Pipes",
-          "hsn_code": "3917",
-          "quantity": 500,
-          "unit": "meters"
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 180.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS"
         }
       ],
-      "total_value": 25200.00,
-      "distance_km": 1412
+      "taxable_value": 5959010.2,
+      "total_invoice_value": 7028533.17,
+      "distance_km": 1150.0
     },
     "erp_order": {
-      "po_no": "PO-PLP-2024-0891",
-      "po_date": "2024-03-12",
-      "buyer": "Patel Logistics Pvt. Ltd.",
-      "vendor_code": "VND-SGC-1123",
-      "vendor_name": "Shree Ganesh Trading Co.",
+      "po_no": "ORD-2026-60912",
+      "po_date": "2026-02-13",
+      "buyer_entity": "Agarwal Enterprises",
+      "vendor_code": "VND-2228",
+      "vendor_name": "Verma Trading Co.",
+      "vendor_gstin": "07XQSPC3267W8Z9",
       "items": [
         {
-          "item_code": "PVC-SCH40-50MM",
-          "description": "Industrial PVC Pipes Schedule 40",
-          "quantity_ordered": 500,
-          "unit": "meters",
-          "unit_price": 45.00,
-          "total_value": 22500.00,
-          "expected_delivery": "2024-03-18"
+          "item_code": "ITEM-19126",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 132.43,
+          "line_total": 23837.4,
+          "expected_delivery": "2026-02-22"
+        },
+        {
+          "item_code": "ITEM-83945",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 59079.94,
+          "line_total": 5907994.0,
+          "expected_delivery": "2026-02-19"
+        },
+        {
+          "item_code": "ITEM-64803",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 180.0,
+          "unit": "KGS",
+          "unit_price": 114.66,
+          "line_total": 20638.8,
+          "expected_delivery": "2026-02-21"
+        },
+        {
+          "item_code": "ITEM-35492",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 130.8,
+          "line_total": 6540.0,
+          "expected_delivery": "2026-02-23"
         }
       ],
-      "po_total": 22500.00,
-      "payment_terms": "Net 30 days",
+      "po_subtotal": 5959010.2,
+      "po_tax": 1069522.97,
+      "po_total": 7028533.17,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
       "status": "partially_fulfilled",
-      "invoice_refs": ["INV-DL-MUM-2024-0347"],
-      "consignment_ref": "CONS-SGC-PLP-150324-001"
+      "approval": {
+        "approved_by": "Mahesh Khan",
+        "approved_at": "2026-02-14T04:27:26+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/60912"
+      ],
+      "grn": {
+        "grn_no": "GRN-60912",
+        "received_at": "2026-02-17T14:58:37+05:30",
+        "received_by": "Mahesh Khan",
+        "lines": [
+          {
+            "item_code": "ITEM-19126",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-83945",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-64803",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-35492",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-AGA-260213-60912"
     },
     "whatsapp_pod": {
-      "thread_id": "WA-PLP-DRIVER-001",
-      "driver_name": "Ramesh Kumar",
-      "driver_phone": "+91-98765-43210",
-      "messages": [
+      "thread_id": "WA-58774",
+      "thread_name": "CONS-VER-AGA-260213-60912 — Dispatch",
+      "participants": [
         {
-          "timestamp": "2024-03-15T06:15:00+05:30",
-          "sender": "Ramesh Kumar",
-          "text": "Sir, truck DL01AB1234 nikli Delhi se. E-way bill check kar liya."
+          "participant_id": "P1",
+          "name": "Balwinder Yadav",
+          "role": "driver",
+          "phone": "+91-70585-67743"
         },
         {
-          "timestamp": "2024-03-16T14:22:00+05:30",
-          "sender": "Ramesh Kumar",
-          "text": "Mumbai warehouse pahunch gaya. Samaan unload ho raha hai. 500 meter pipe sab sahi salamat."
+          "participant_id": "P2",
+          "name": "Ajay Nair",
+          "role": "dispatcher",
+          "phone": "+91-70585-67743"
         },
         {
-          "timestamp": "2024-03-16T16:45:00+05:30",
-          "sender": "Patel Logistics - Warehouse",
-          "text": "OK Ramesh bhai. POD sign karwa ke bhejo. Invoice match kar rahe hain."
-        },
-        {
-          "timestamp": "2024-03-16T17:30:00+05:30",
-          "sender": "Ramesh Kumar",
-          "text": "POD sign ho gaya. Yahan photo bhej raha hoon. [Image: signed_delivery_chit.jpg]"
+          "participant_id": "P3",
+          "name": "Mahesh Khan",
+          "role": "warehouse",
+          "phone": "+91-70139-52771"
         }
       ],
-      "delivery_confirmed": true,
-      "pod_signed_by": "Mahesh Patel (Warehouse In-charge)"
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-16T05:04:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "en",
+          "text": "Vehicle DL32WF8200 dispatched from Karol Bagh. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-16T16:34:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Manesar pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-17T04:04:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Manesar गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-17T04:12:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sunday ko warehse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-17T07:04:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-17T07:24:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Balwinder bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-17T08:58:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-AGA-260213-60912_16.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-98135",
+      "raised_at": "2026-02-17T18:58:37+05:30",
+      "raised_by": "Mahesh Khan",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
     }
   },
-  "question": "Does the invoice total match the e-way bill total for consignment CONS-SGC-PLP-150324-001? If not, what is the discrepancy and which document shows the higher amount?",
-  "gold_answer": "No, the totals do not match. The invoice total is ₹26,550 (including ₹2,250 CGST + ₹2,250 SGST), while the e-way bill shows a total value of ₹25,200. The invoice shows the higher amount by ₹1,350.",
-  "gold_facts": [
-    "invoice.invoice_no = INV-DL-MUM-2024-0347",
-    "invoice.eway_bill_ref = EWB-131015456782-15-03-2024",
-    "invoice.invoice_total = 26550.00",
-    "eway_bill.ewb_no = EWB-131015456782-15-03-2024",
-    "eway_bill.total_value = 25200.00",
-    "invoice.consignment_ref = CONS-SGC-PLP-150324-001",
-    "eway_bill.consignment_ref = CONS-SGC-PLP-150324-001"
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-13T10:27:26+05:30",
+      "actor": "Agarwal Enterprises",
+      "doc_ref": "ORD-2026-60912",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-14T04:27:26+05:30",
+      "actor": "Mahesh Khan",
+      "doc_ref": "ORD-2026-60912",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-02-16T04:04:37+05:30",
+      "actor": "Verma Trading Co.",
+      "doc_ref": "912669343271",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-02-16T05:04:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "DL32WF8200",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-02-16T10:27:37+05:30",
+      "actor": "Verma Trading Co.",
+      "doc_ref": "GST/2026-27/60912",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-17T04:04:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "DL32WF8200",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-17T07:04:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-VER-AGA-260213-60912",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-17T08:58:37+05:30",
+      "actor": "Mahesh Khan",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-17T14:58:37+05:30",
+      "actor": "Mahesh Khan",
+      "doc_ref": "GRN-60912",
+      "note": null
+    }
   ],
-  "gold_label": "value_mismatch",
-  "difficulty": "medium"
+  "question": "Was the e-way bill for consignment CONS-VER-AGA-260213-60912 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "Before, which is a sequence violation: e-way bill 912669343271 was generated on 16 Feb 2026 at 04:04 citing invoice GST/2026-27/60912 [EWB], but that invoice was only issued 6.4 hours later, on 16 Feb 2026 at 10:27 [INV]. The permit therefore references a document that did not yet exist [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-02-16T10:27:37+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/60912",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-02-16T04:04:37+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "GST/2026-27/60912",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70139-52771",
+    "+91-70585-67743",
+    "QQECH4056K",
+    "XQSPC3267W",
+    "ajayn@verma.in",
+    "maheshk@agarwal.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20260912,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
 }

@@ -1,0 +1,490 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0017",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/62464",
+      "issued_at": "2026-03-15T19:27:02+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Enterprises",
+        "legal_name": "Patel Enterprises",
+        "gstin": "19ZZAPR9092T8ZH",
+        "pan": "ZZAPR9092T",
+        "address": {
+          "line1": "Shed 19, Industrial Area",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "868616",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Joshi",
+          "email": "farhan.joshi@patel.in",
+          "phone": "+91-70987-31388"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Distributors",
+        "legal_name": "Rastogi Distributors",
+        "gstin": "19XQNPP0213C5ZH",
+        "pan": "XQNPP0213C",
+        "address": {
+          "line1": "Shed 169, Export Zone",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "534890",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Nair",
+          "email": "ajay.nair@rastogi.com",
+          "phone": "+91-80298-43784"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 7553.36,
+          "taxable_value": 1888340.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 264367.6,
+          "sgst_amount": 264367.6,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 312.06,
+          "taxable_value": 7801.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 702.13,
+          "sgst_amount": 702.14,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 300.33,
+          "taxable_value": 75082.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 6757.43,
+          "sgst_amount": 6757.42,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1971224.0,
+      "total_cgst": 271827.16,
+      "total_sgst": 271827.16,
+      "total_igst": 0.0,
+      "total_tax": 543654.32,
+      "invoice_total": 2514878.32,
+      "currency": "INR",
+      "eway_bill_ref": "464268152648",
+      "vehicle_no": "WB10PW1867",
+      "consignment_ref": "CONS-PAT-RAS-260305-62464"
+    },
+    "eway_bill": {
+      "ewb_no": "464268152648",
+      "generated_at": "2026-03-15T23:19:02+05:30",
+      "valid_until": "2026-03-16T23:19:02+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/62464",
+      "doc_date": "2026-03-15",
+      "from_gstin": "19ZZAPR9092T8ZH",
+      "from_address": "Shed 19, Industrial Area, Salt Lake, Salt Lake, West Bengal - 868616",
+      "to_gstin": "19XQNPP0213C5ZH",
+      "to_address": "Shed 169, Export Zone, Salt Lake, Salt Lake, West Bengal - 534890",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "29WJVAA3148I1ZT",
+      "mode": "road",
+      "vehicle_no": "WB10PW1867",
+      "consignment_ref": "CONS-PAT-RAS-260305-62464",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 25.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1971224.0,
+      "total_invoice_value": 2514878.32,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-62464",
+      "po_date": "2026-03-05",
+      "buyer_entity": "Rastogi Distributors",
+      "vendor_code": "VND-8796",
+      "vendor_name": "Patel Enterprises",
+      "vendor_gstin": "19ZZAPR9092T8ZH",
+      "items": [
+        {
+          "item_code": "ITEM-93925",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 7553.36,
+          "line_total": 1888340.0,
+          "expected_delivery": "2026-03-21"
+        },
+        {
+          "item_code": "ITEM-41146",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 312.06,
+          "line_total": 7801.5,
+          "expected_delivery": "2026-03-22"
+        },
+        {
+          "item_code": "ITEM-37097",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 300.33,
+          "line_total": 75082.5,
+          "expected_delivery": "2026-03-24"
+        }
+      ],
+      "po_subtotal": 1971224.0,
+      "po_tax": 543654.32,
+      "po_total": 2514878.32,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ajay Nair",
+        "approved_at": "2026-03-06T05:34:51+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/62464"
+      ],
+      "grn": {
+        "grn_no": "GRN-62464",
+        "received_at": "2026-03-16T17:54:02+05:30",
+        "received_by": "Ajay Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-93925",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-41146",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-37097",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-RAS-260305-62464"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-94387",
+      "thread_name": "CONS-PAT-RAS-260305-62464 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Gupta",
+          "role": "driver",
+          "phone": "+91-70987-31388"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Joshi",
+          "role": "dispatcher",
+          "phone": "+91-70987-31388"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Nair",
+          "role": "warehouse",
+          "phone": "+91-80298-43784"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-16T03:19:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "WB10PW1867 dispatch ho gayi Salt Lake se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-16T04:34:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-16T05:19:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-16T07:19:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Salt Lake pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-16T09:19:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-16T10:19:02+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Nair",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-16T10:32:02+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Nair",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-16T10:54:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-RAS-260305-62464_92.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-2273.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-03-17T06:54:02+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Joshi",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number TAX/2026-27/62464 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-05T19:34:51+05:30",
+      "actor": "Rastogi Distributors",
+      "doc_ref": "PO-2026-62464",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-06T05:34:51+05:30",
+      "actor": "Ajay Nair",
+      "doc_ref": "PO-2026-62464",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-15T19:27:02+05:30",
+      "actor": "Patel Enterprises",
+      "doc_ref": "TAX/2026-27/62464",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-15T23:19:02+05:30",
+      "actor": "Patel Enterprises",
+      "doc_ref": "464268152648",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-16T03:19:02+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB10PW1867",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-16T09:19:02+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB10PW1867",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-16T10:19:02+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-PAT-RAS-260305-62464",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-16T10:54:02+05:30",
+      "actor": "Ajay Nair",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-16T17:54:02+05:30",
+      "actor": "Ajay Nair",
+      "doc_ref": "GRN-62464",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-PAT-RAS-260305-62464?",
+  "question_lang": "en",
+  "gold_answer": "Yes, the two agree: e-way bill 464268152648 declares Rs. 2,514,878.32 [EWB] and invoice TAX/2026-27/62464 totals the same Rs. 2,514,878.32 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/62464",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "2514878.32",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "464268152648",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "2514878.32",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-PAT-RAS-260305-62464",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-70987-31388",
+    "+91-80298-43784",
+    "XQNPP0213C",
+    "ZZAPR9092T",
+    "ajay.nair@rastogi.com",
+    "farhan.joshi@patel.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262464,
+    "notes": "task=mh_match defect=none"
+  }
+}

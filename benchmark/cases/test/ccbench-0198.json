@@ -1,0 +1,347 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0198",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/80021",
+      "issued_at": "2026-06-20T16:34:11+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Industries",
+        "legal_name": "Agarwal Industries",
+        "gstin": "06QQDPT2148F2ZU",
+        "pan": "QQDPT2148F",
+        "address": {
+          "line1": "Godown 233, Logistics Park",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "774917",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Rao",
+          "email": "deepa.rao@agarwal.com",
+          "phone": "+91-80922-90404"
+        }
+      },
+      "buyer": {
+        "name": "Nair Enterprises",
+        "legal_name": "Nair Enterprises",
+        "gstin": "06QQTPT8699S1ZG",
+        "pan": "QQTPT8699S",
+        "address": {
+          "line1": "Unit 89, Industrial Area",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "421982",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Nair",
+          "email": "nikhil.nair@nair.com",
+          "phone": "+91-70701-28301"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 375.64,
+          "taxable_value": 450768.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 40569.12,
+          "sgst_amount": 40569.12,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 450768.0,
+      "total_cgst": 40569.12,
+      "total_sgst": 40569.12,
+      "total_igst": 0.0,
+      "total_tax": 81138.24,
+      "invoice_total": 531906.24,
+      "currency": "INR",
+      "eway_bill_ref": "021526305159",
+      "vehicle_no": "HR76PJ1245",
+      "consignment_ref": "CONS-AGA-NAI-260610-80021"
+    },
+    "eway_bill": {
+      "ewb_no": "021526305159",
+      "generated_at": "2026-06-21T00:26:11+05:30",
+      "valid_until": "2026-06-30T00:26:11+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/80021",
+      "doc_date": "2026-06-20",
+      "from_gstin": "06QQDPT2148F2ZU",
+      "from_address": "Godown 233, Logistics Park, Faridabad, Faridabad, Haryana - 774917",
+      "to_gstin": "06QQTPT8699S1ZG",
+      "to_address": "Unit 89, Industrial Area, Faridabad, Faridabad, Haryana - 421982",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "33QIXFV3954Z1ZT",
+      "mode": "road",
+      "vehicle_no": "HR76PJ1245",
+      "consignment_ref": "CONS-AGA-NAI-260610-80021",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 450768.0,
+      "total_invoice_value": 531906.24,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-80021",
+      "po_date": "2026-06-10",
+      "buyer_entity": "Nair Enterprises",
+      "vendor_code": "VND-4003",
+      "vendor_name": "Agarwal Industries",
+      "vendor_gstin": "06QQDPT2148F2ZU",
+      "items": [
+        {
+          "item_code": "ITEM-99911",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 375.64,
+          "line_total": 450768.0,
+          "expected_delivery": "2026-06-27"
+        }
+      ],
+      "po_subtotal": 450768.0,
+      "po_tax": 81138.24,
+      "po_total": 531906.24,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Nair",
+        "approved_at": "2026-06-10T21:12:39+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/80021"
+      ],
+      "grn": {
+        "grn_no": "GRN-80021",
+        "received_at": "2026-06-30T20:52:11+05:30",
+        "received_by": "Nikhil Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-99911",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-NAI-260610-80021"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-30934",
+      "thread_name": "CONS-AGA-NAI-260610-80021 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Patel",
+          "role": "driver",
+          "phone": "+91-80922-90404"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Rao",
+          "role": "dispatcher",
+          "phone": "+91-80922-90404"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Nair",
+          "role": "warehouse",
+          "phone": "+91-70701-28301"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-21T04:26:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi",
+          "text": "सर HR76PJ1245 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-25T18:56:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-30T08:26:11+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Rao",
+          "lang": "en",
+          "text": "Note: the permit lapsed on 30 Jun 2026 and the vehicle reached after that.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-30T09:26:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "hi-en",
+          "text": "Faridabad warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-30T10:26:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-30T10:52:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Patel",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-NAI-260610-80021_14.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-30T10:56:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-10T11:12:39+05:30",
+      "actor": "Nair Enterprises",
+      "doc_ref": "ORD-2026-80021",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-10T21:12:39+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "ORD-2026-80021",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-20T16:34:11+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "TAX/2026-27/80021",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-21T00:26:11+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "021526305159",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-21T04:26:11+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR76PJ1245",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-30T09:26:11+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR76PJ1245",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-30T10:26:11+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-AGA-NAI-260610-80021",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-30T10:52:11+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-30T20:52:11+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "GRN-80021",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-AGA-NAI-260610-80021 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20280021,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

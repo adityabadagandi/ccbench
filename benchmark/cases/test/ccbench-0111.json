@@ -1,0 +1,408 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0111",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/71582",
+      "issued_at": "2026-06-08T11:41:06+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Logistics Pvt. Ltd.",
+        "legal_name": "Kulkarni Logistics Pvt. Ltd.",
+        "gstin": "23XQBPU9807D2Z4",
+        "pan": "XQBPU9807D",
+        "address": {
+          "line1": "Warehouse 19, Industrial Area",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "277047",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Gupta",
+          "email": "pgupta@kulkarni.co.in",
+          "phone": "+91-80671-78739"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Industries",
+        "legal_name": "Krishna Industries",
+        "gstin": "24XQSPX9357H6ZT",
+        "pan": "XQSPX9357H",
+        "address": {
+          "line1": "Shed 69, Phase II",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "429375",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Singh",
+          "email": "meena.singh@krishna.co.in",
+          "phone": "+91-80836-94337"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 10731.91,
+          "taxable_value": 2682977.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 482935.95
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 84.8,
+          "taxable_value": 84800.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10176.0
+        }
+      ],
+      "total_taxable_value": 2767777.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 493111.95,
+      "total_tax": 493111.95,
+      "invoice_total": 3260889.45,
+      "currency": "INR",
+      "eway_bill_ref": "582932401017",
+      "vehicle_no": "MP37ZD7162",
+      "consignment_ref": "CONS-KUL-KRI-260603-71582"
+    },
+    "eway_bill": {
+      "ewb_no": "582932401017",
+      "generated_at": "2026-06-08T12:47:06+05:30",
+      "valid_until": "2026-06-09T12:47:06+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/71582",
+      "doc_date": "2026-06-08",
+      "from_gstin": "23XQBPU9807D2Z4",
+      "from_address": "Warehouse 19, Industrial Area, Mandideep, Mandideep, Madhya Pradesh - 277047",
+      "to_gstin": "24XQSPX9357H6ZT",
+      "to_address": "Shed 69, Phase II, Rajkot, Rajkot, Gujarat - 429375",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "33JUKMN8474Q1ZT",
+      "mode": "road",
+      "vehicle_no": "MP37ZD7162",
+      "consignment_ref": "CONS-KUL-KRI-260603-71582",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1000.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 2767777.5,
+      "total_invoice_value": 3260889.45,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-71582",
+      "po_date": "2026-06-03",
+      "buyer_entity": "Krishna Industries",
+      "vendor_code": "VND-9752",
+      "vendor_name": "Kulkarni Logistics Pvt. Ltd.",
+      "vendor_gstin": "23XQBPU9807D2Z4",
+      "items": [
+        {
+          "item_code": "ITEM-52559",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 10731.91,
+          "line_total": 2682977.5,
+          "expected_delivery": "2026-06-12"
+        },
+        {
+          "item_code": "ITEM-85109",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 84.8,
+          "line_total": 84800.0,
+          "expected_delivery": "2026-06-14"
+        }
+      ],
+      "po_subtotal": 2767777.5,
+      "po_tax": 493111.95,
+      "po_total": 3260889.45,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Meena Singh",
+        "approved_at": "2026-06-04T03:49:01+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/71582"
+      ],
+      "grn": {
+        "grn_no": "GRN-71582",
+        "received_at": "2026-06-08T15:09:06+05:30",
+        "received_by": "Meena Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-52559",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-85109",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-KRI-260603-71582"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-16667",
+      "thread_name": "CONS-KUL-KRI-260603-71582 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Patel",
+          "role": "driver",
+          "phone": "+91-80671-78739"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80671-78739"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Singh",
+          "role": "warehouse",
+          "phone": "+91-80836-94337"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rajesh Yadav",
+          "role": "accounts",
+          "phone": "+91-80836-94337"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-08T06:47:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "गाड़ी Rajkot गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-08T06:57:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Singh",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-08T07:47:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Singh",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-08T08:06:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Singh",
+          "lang": "hi-en",
+          "text": "Imran bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-08T09:09:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-KRI-260603-71582_75.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-08T11:17:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Rajkot pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-08T15:47:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Sir MP37ZD7162 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-08T18:09:06+05:30",
+          "sender_id": "P4",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "The POD timestamp precedes the dispatch timestamp. Please verify the entry.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-06-09T10:09:06+05:30",
+          "sender_id": "P4",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/71582 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-03T11:49:01+05:30",
+      "actor": "Krishna Industries",
+      "doc_ref": "PO-2026-71582",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-04T03:49:01+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "PO-2026-71582",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-06-08T06:47:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MP37ZD7162",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-06-08T07:47:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-KUL-KRI-260603-71582",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-06-08T09:09:06+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-06-08T11:41:06+05:30",
+      "actor": "Kulkarni Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/71582",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "ewb_generated",
+      "ts": "2026-06-08T12:47:06+05:30",
+      "actor": "Kulkarni Logistics Pvt. Ltd.",
+      "doc_ref": "582932401017",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-06-08T15:09:06+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "GRN-71582",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-08T15:47:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MP37ZD7162",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-KUL-KRI-260603-71582 internally consistent?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271582,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

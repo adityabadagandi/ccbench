@@ -1,0 +1,309 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0138",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/74201",
+      "issued_at": "2026-01-22T15:05:44+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Industries",
+        "legal_name": "Rastogi Industries",
+        "gstin": "36ZZPCA8704I3Z9",
+        "pan": "ZZPCA8704I",
+        "address": {
+          "line1": "Shed 160, Phase II",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "538758",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Mishra",
+          "email": "smishra@rastogi.in",
+          "phone": "+91-80278-76739"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Distributors",
+        "legal_name": "Gupta Distributors",
+        "gstin": "29XQGPR5697M9Z0",
+        "pan": "XQGPR5697M",
+        "address": {
+          "line1": "Godown 97, Industrial Area",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "466404",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "rameshn@gupta.com",
+          "phone": "+91-70447-51277"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 7456.78,
+          "taxable_value": 2982712.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 835159.36
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 11959.42,
+          "taxable_value": 14351304.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2583234.72
+        }
+      ],
+      "total_taxable_value": 17334016.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 3418394.08,
+      "total_tax": 3418394.08,
+      "invoice_total": 20752410.08,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "TS45KU5991",
+      "consignment_ref": "CONS-RAS-GUP-260113-74201"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-74201",
+      "po_date": "2026-01-13",
+      "buyer_entity": "Gupta Distributors",
+      "vendor_code": "VND-6421",
+      "vendor_name": "Rastogi Industries",
+      "vendor_gstin": "36ZZPCA8704I3Z9",
+      "items": [
+        {
+          "item_code": "ITEM-58026",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 7456.78,
+          "line_total": 2982712.0,
+          "expected_delivery": "2026-01-30"
+        },
+        {
+          "item_code": "ITEM-10287",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 11959.42,
+          "line_total": 14351304.0,
+          "expected_delivery": "2026-01-25"
+        }
+      ],
+      "po_subtotal": 17334016.0,
+      "po_tax": 3418394.08,
+      "po_total": 20752410.08,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Ramesh Nair",
+        "approved_at": "2026-01-14T09:18:23+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/74201"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-RAS-GUP-260113-74201"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-93209",
+      "thread_name": "CONS-RAS-GUP-260113-74201 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-80278-76739"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Mishra",
+          "role": "dispatcher",
+          "phone": "+91-80278-76739"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Nair",
+          "role": "warehouse",
+          "phone": "+91-70447-51277"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-23T00:24:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "सर TS45KU5991 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-23T08:24:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Sir gaadi check post pe rok di hain. E-way bill nahi bana tha, ab problem ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-23T12:24:44+05:30",
+          "sender_id": "P2",
+          "sender_name": "Suresh Mishra",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-97231",
+      "raised_at": "2026-01-24T06:53:44+05:30",
+      "raised_by": "Ramesh Nair",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-13T12:18:23+05:30",
+      "actor": "Gupta Distributors",
+      "doc_ref": "PO-2026-74201",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-14T09:18:23+05:30",
+      "actor": "Ramesh Nair",
+      "doc_ref": "PO-2026-74201",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-22T15:05:44+05:30",
+      "actor": "Rastogi Industries",
+      "doc_ref": "INV/2026-27/74201",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-01-23T00:24:44+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TS45KU5991",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-01-23T20:24:44+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TS45KU5991",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-01-23T23:24:44+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-RAS-GUP-260113-74201",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-01-24T00:53:44+05:30",
+      "actor": "Ramesh Nair",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-RAS-GUP-260113-74201 before it moved?",
+  "question_lang": "en",
+  "gold_answer": "No — invoice INV/2026-27/74201 carries no e-way bill reference and none exists for consignment CONS-RAS-GUP-260113-74201 [INV], so the vehicle moved without a permit. The driver confirmed on the thread that the vehicle was stopped at the check post for exactly this reason [M-002].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/74201",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-RAS-GUP-260113-74201",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "Sir gaadi check post pe rok di hain. E-way bill nahi bana tha, ab problem ho rahi hai.",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi-en",
+        "span": "E-way bill nahi bana tha",
+        "gloss_en": "the e-way bill was never generated"
+      }
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274201,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

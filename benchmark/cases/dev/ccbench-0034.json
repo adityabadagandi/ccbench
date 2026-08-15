@@ -1,0 +1,482 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0034",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/64113",
+      "issued_at": "2026-07-01T09:56:29+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Engineering Works",
+        "legal_name": "Rastogi Engineering Works",
+        "gstin": "06ZZRPO1193U2ZN",
+        "pan": "ZZRPO1193U",
+        "address": {
+          "line1": "Unit 106, MIDC",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "233712",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "ramesh.nair@rastogi.co.in",
+          "phone": "+91-90598-24294"
+        }
+      },
+      "buyer": {
+        "name": "Singh & Sons Trading Co.",
+        "legal_name": "Singh & Sons Trading Co.",
+        "gstin": "36QQJPT1346Z7ZL",
+        "pan": "QQJPT1346Z",
+        "address": {
+          "line1": "Shed 173, Industrial Area",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "343181",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Mishra",
+          "email": "amishra@singh.in",
+          "phone": "+91-70276-10764"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 5932.69,
+          "taxable_value": 593269.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 106788.42
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 91.94,
+          "taxable_value": 9194.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1654.92
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 76.09,
+          "taxable_value": 38045.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6848.1
+        }
+      ],
+      "total_taxable_value": 640508.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 115291.44,
+      "total_tax": 115291.44,
+      "invoice_total": 755799.44,
+      "currency": "INR",
+      "eway_bill_ref": "113219361951",
+      "vehicle_no": "HR23NF4066",
+      "consignment_ref": "CONS-RAS-SIN-260620-64113"
+    },
+    "eway_bill": {
+      "ewb_no": "113219361951",
+      "generated_at": "2026-07-01T12:29:29+05:30",
+      "valid_until": "2026-07-04T12:29:29+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/64113",
+      "doc_date": "2026-07-01",
+      "from_gstin": "06ZZRPO1193U2ZN",
+      "from_address": "Unit 106, MIDC, Bahadurgarh, Bahadurgarh, Haryana - 233712",
+      "to_gstin": "36QQJPT1346Z7ZL",
+      "to_address": "Shed 173, Industrial Area, Jeedimetla, Jeedimetla, Telangana - 343181",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "19EFUCU4593Y1ZT",
+      "mode": "road",
+      "vehicle_no": "HR23NF4066",
+      "consignment_ref": "CONS-RAS-SIN-260620-64113",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 640508.0,
+      "total_invoice_value": 755799.44,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-64113",
+      "po_date": "2026-06-20",
+      "buyer_entity": "Singh & Sons Trading Co.",
+      "vendor_code": "VND-9085",
+      "vendor_name": "Rastogi Engineering Works",
+      "vendor_gstin": "06ZZRPO1193U2ZN",
+      "items": [
+        {
+          "item_code": "ITEM-30988",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 5932.69,
+          "line_total": 593269.0,
+          "expected_delivery": "2026-07-09"
+        },
+        {
+          "item_code": "ITEM-23051",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 91.94,
+          "line_total": 9194.0,
+          "expected_delivery": "2026-07-07"
+        },
+        {
+          "item_code": "ITEM-96501",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 76.09,
+          "line_total": 38045.0,
+          "expected_delivery": "2026-07-10"
+        }
+      ],
+      "po_subtotal": 640508.0,
+      "po_tax": 115291.44,
+      "po_total": 755799.44,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ajay Mishra",
+        "approved_at": "2026-06-21T13:27:11+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/64113"
+      ],
+      "grn": {
+        "grn_no": "GRN-64113",
+        "received_at": "2026-07-01T11:47:29+05:30",
+        "received_by": "Ajay Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-30988",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-23051",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-96501",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-SIN-260620-64113"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-49778",
+      "thread_name": "CONS-RAS-SIN-260620-64113 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Patel",
+          "role": "driver",
+          "phone": "+91-90598-24294"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Nair",
+          "role": "dispatcher",
+          "phone": "+91-90598-24294"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Mishra",
+          "role": "warehouse",
+          "phone": "+91-70276-10764"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Farhan Sharma",
+          "role": "accounts",
+          "phone": "+91-70276-10764"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-01T05:29:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Jeedimetla warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-01T06:29:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-01T07:06:29+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Mishra",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-01T07:47:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-SIN-260620-64113_94.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-01T09:29:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_975.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-01T13:29:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Sir HR23NF4066 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-01T14:24:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-01T17:47:29+05:30",
+          "sender_id": "P4",
+          "sender_name": "Farhan Sharma",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-43097",
+      "raised_at": "2026-07-01T14:47:29+05:30",
+      "raised_by": "Ajay Mishra",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-20T15:27:11+05:30",
+      "actor": "Singh & Sons Trading Co.",
+      "doc_ref": "PUR-2026-64113",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-21T13:27:11+05:30",
+      "actor": "Ajay Mishra",
+      "doc_ref": "PUR-2026-64113",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-07-01T05:29:29+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR23NF4066",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-07-01T06:29:29+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-RAS-SIN-260620-64113",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-07-01T07:47:29+05:30",
+      "actor": "Ajay Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-07-01T09:56:29+05:30",
+      "actor": "Rastogi Engineering Works",
+      "doc_ref": "GST/2026-27/64113",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-07-01T11:47:29+05:30",
+      "actor": "Ajay Mishra",
+      "doc_ref": "GRN-64113",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-07-01T12:29:29+05:30",
+      "actor": "Rastogi Engineering Works",
+      "doc_ref": "113219361951",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-07-01T13:29:29+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR23NF4066",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread question the timeline for consignment CONS-RAS-SIN-260620-64113, and were they right?",
+  "question_lang": "en",
+  "gold_answer": "Yes, and they were right: in message M-008, Farhan Sharma noted \"POD ka time dispatch se pehle ka lag raha hai\" [M-008]. The timeline confirms it — delivery is recorded at 01 Jul 2026 at 06:29 but dispatch only at 01 Jul 2026 at 13:29 [TIMELINE].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-07-01T13:29:29+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-07-01T06:29:29+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70276-10764",
+    "+91-90598-24294",
+    "QQJPT1346Z",
+    "ZZRPO1193U",
+    "amishra@singh.in",
+    "ramesh.nair@rastogi.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264113,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

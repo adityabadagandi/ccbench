@@ -1,0 +1,465 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0192",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/79439",
+      "issued_at": "2026-01-06T18:41:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Pillai Polymers Ltd",
+        "legal_name": "Pillai Polymers Ltd.",
+        "gstin": "33QQYCE1994I5ZK",
+        "pan": "QQYCE1994I",
+        "address": {
+          "line1": "Shed 100, Phase II",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "144960",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Desai",
+          "email": "ajayd@pillai.com",
+          "phone": "+91-90536-34704"
+        }
+      },
+      "buyer": {
+        "name": "Verma Logistics Pvt. Ltd.",
+        "legal_name": "Verma Logistics Pvt. Ltd.",
+        "gstin": "07XQHCT7071E5Z5",
+        "pan": "XQHCT7071E",
+        "address": {
+          "line1": "Shed 119, MIDC",
+          "line2": "Saket",
+          "city": "Saket",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "866114",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Iyer",
+          "email": "dinesh.iyer@verma.com",
+          "phone": "+91-70196-22982"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 368.01,
+          "taxable_value": 184005.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 33120.9
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 193.58,
+          "taxable_value": 232296.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 41813.28
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 3190.7,
+          "taxable_value": 2393025.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 430744.5
+        }
+      ],
+      "total_taxable_value": 2809326.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 505678.68,
+      "total_tax": 505678.68,
+      "invoice_total": 3315004.68,
+      "currency": "INR",
+      "eway_bill_ref": "439997728811",
+      "vehicle_no": "TN41TC8206",
+      "consignment_ref": "CONS-PIL-VER-260101-79439"
+    },
+    "eway_bill": {
+      "ewb_no": "439997728811",
+      "generated_at": "2026-01-06T21:14:07+05:30",
+      "valid_until": "2026-01-08T21:14:07+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/79439",
+      "doc_date": "2026-01-06",
+      "from_gstin": "33QQYCE1994I5ZK",
+      "from_address": "Shed 100, Phase II, Ambattur, Ambattur, Tamil Nadu - 144960",
+      "to_gstin": "07XQHCT7071E5Z5",
+      "to_address": "Shed 119, MIDC, Saket, Saket, Delhi - 866114",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "23CZQNL7584L1ZT",
+      "mode": "road",
+      "vehicle_no": "TN41TC8206",
+      "consignment_ref": "CONS-PIL-VER-260101-79439",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 2809326.0,
+      "total_invoice_value": 3315004.68,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-79439",
+      "po_date": "2026-01-01",
+      "buyer_entity": "Verma Logistics Pvt. Ltd.",
+      "vendor_code": "VND-7199",
+      "vendor_name": "Pillai Polymers Ltd",
+      "vendor_gstin": "33QQYCE1994I5ZK",
+      "items": [
+        {
+          "item_code": "ITEM-71843",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 368.01,
+          "line_total": 184005.0,
+          "expected_delivery": "2026-01-11"
+        },
+        {
+          "item_code": "ITEM-99041",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 193.58,
+          "line_total": 232296.0,
+          "expected_delivery": "2026-01-14"
+        },
+        {
+          "item_code": "ITEM-82210",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 3190.7,
+          "line_total": 2393025.0,
+          "expected_delivery": "2026-01-09"
+        }
+      ],
+      "po_subtotal": 2809326.0,
+      "po_tax": 505678.68,
+      "po_total": 3315004.68,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Iyer",
+        "approved_at": "2026-01-02T19:05:52+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/79439"
+      ],
+      "grn": {
+        "grn_no": "GRN-79439",
+        "received_at": "2026-01-06T21:35:07+05:30",
+        "received_by": "Dinesh Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-71843",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-99041",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-82210",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PIL-VER-260101-79439"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-70109",
+      "thread_name": "CONS-PIL-VER-260101-79439 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Sharma",
+          "role": "driver",
+          "phone": "+91-90536-34704"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ajay Desai",
+          "role": "dispatcher",
+          "phone": "+91-90536-34704"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Iyer",
+          "role": "warehouse",
+          "phone": "+91-70196-22982"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rekha Sharma",
+          "role": "accounts",
+          "phone": "+91-70196-22982"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-06T16:14:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hain. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-06T16:51:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Iyer",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-06T17:14:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Sharma",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-06T17:45:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-06T18:35:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Sharma",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PIL-VER-260101-79439_21.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-7023.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-06T23:14:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Sharma",
+          "lang": "hi",
+          "text": "सर TN41TC8206 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-07T02:35:07+05:30",
+          "sender_id": "P4",
+          "sender_name": "Rekha Sharma",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-01T15:05:52+05:30",
+      "actor": "Verma Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-79439",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-02T19:05:52+05:30",
+      "actor": "Dinesh Iyer",
+      "doc_ref": "PUR-2026-79439",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-01-06T16:14:07+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN41TC8206",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-01-06T17:14:07+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-PIL-VER-260101-79439",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-01-06T18:35:07+05:30",
+      "actor": "Dinesh Iyer",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-01-06T18:41:07+05:30",
+      "actor": "Pillai Polymers Ltd.",
+      "doc_ref": "INV/2026-27/79439",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "ewb_generated",
+      "ts": "2026-01-06T21:14:07+05:30",
+      "actor": "Pillai Polymers Ltd.",
+      "doc_ref": "439997728811",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-01-06T21:35:07+05:30",
+      "actor": "Dinesh Iyer",
+      "doc_ref": "GRN-79439",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-01-06T23:14:07+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN41TC8206",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-PIL-VER-260101-79439 internally consistent?",
+  "question_lang": "en",
+  "gold_answer": "No — delivery for consignment CONS-PIL-VER-260101-79439 [INV] is recorded at 06 Jan 2026 at 17:14 but dispatch only at 06 Jan 2026 at 23:14, 6 hours later [TIMELINE], so the goods are logged as delivered before they left the origin and the proof of delivery is backdated. The accounts team queried the same ordering on the delivery thread [M-007].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-01-06T23:14:07+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-01-06T17:14:07+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-PIL-VER-260101-79439",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279439,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0098",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/70321",
+      "issued_at": "2026-04-21T15:56:29+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Exports",
+        "legal_name": "Rastogi Exports",
+        "gstin": "06QQDCN7538O8Z8",
+        "pan": "QQDCN7538O",
+        "address": {
+          "line1": "Godown 62, MIDC",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "310694",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Sharma",
+          "email": "priyas@rastogi.in",
+          "phone": "+91-70889-81547"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Engineering Works",
+        "legal_name": "Krishna Engineering Works",
+        "gstin": "24ZZCPV8174J5ZO",
+        "pan": "ZZCPV8174J",
+        "address": {
+          "line1": "Godown 215, Phase II",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "877797",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Joshi",
+          "email": "ajoshi@krishna.in",
+          "phone": "+91-90255-32792"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 227.23,
+          "taxable_value": 170422.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 30676.05
+        }
+      ],
+      "total_taxable_value": 170422.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 30676.05,
+      "total_tax": 30676.05,
+      "invoice_total": 201098.55,
+      "currency": "INR",
+      "eway_bill_ref": "321289177012",
+      "vehicle_no": "HR85GM4009",
+      "consignment_ref": "CONS-RAS-KRI-260417-70321"
+    },
+    "eway_bill": {
+      "ewb_no": "321289177012",
+      "generated_at": "2026-04-22T00:02:29+05:30",
+      "valid_until": "2026-04-23T00:02:29+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/70321",
+      "doc_date": "2026-04-21",
+      "from_gstin": "06QQDCN7538O8Z8",
+      "from_address": "Godown 62, MIDC, Panipat, Panipat, Haryana - 310694",
+      "to_gstin": "24ZZCPV8174J5ZO",
+      "to_address": "Godown 215, Phase II, Vatva, Ahmedabad, Ahmedabad, Gujarat - 877797",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "23GUHUK9837J1ZT",
+      "mode": "road",
+      "vehicle_no": "HR85GM4009",
+      "consignment_ref": "CONS-RAS-KRI-260417-70321",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 170422.5,
+      "total_invoice_value": 201098.55,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-70321",
+      "po_date": "2026-04-17",
+      "buyer_entity": "Krishna Engineering Works",
+      "vendor_code": "VND-9448",
+      "vendor_name": "Rastogi Exports",
+      "vendor_gstin": "06QQDCN7538O8Z8",
+      "items": [
+        {
+          "item_code": "ITEM-66434",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 227.23,
+          "line_total": 170422.5,
+          "expected_delivery": "2026-04-23"
+        }
+      ],
+      "po_subtotal": 170422.5,
+      "po_tax": 30676.05,
+      "po_total": 201098.55,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Anita Joshi",
+        "approved_at": "2026-04-18T06:49:09+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/70321"
+      ],
+      "grn": {
+        "grn_no": "GRN-70321",
+        "received_at": "2026-04-22T16:54:29+05:30",
+        "received_by": "Anita Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-66434",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-KRI-260417-70321"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-56451",
+      "thread_name": "CONS-RAS-KRI-260417-70321 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Kumar",
+          "role": "driver",
+          "phone": "+91-70889-81547"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Sharma",
+          "role": "dispatcher",
+          "phone": "+91-70889-81547"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Joshi",
+          "role": "warehouse",
+          "phone": "+91-90255-32792"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Kavita Mishra",
+          "role": "accounts",
+          "phone": "+91-90255-32792"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-22T01:02:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "HR85GM4009 dispatch ho gayi Panipat se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-22T01:47:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-22T04:02:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Ahmedabad pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-22T07:02:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-22T07:21:29+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Joshi",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-22T08:02:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-22T08:41:29+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-22T09:54:29+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-KRI-260417-70321_36.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-17T19:49:09+05:30",
+      "actor": "Krishna Engineering Works",
+      "doc_ref": "ORD-2026-70321",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-18T06:49:09+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "ORD-2026-70321",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-21T15:56:29+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "GST/2026-27/70321",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-22T00:02:29+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "321289177012",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-22T01:02:29+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR85GM4009",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-22T07:02:29+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR85GM4009",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-22T08:02:29+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-RAS-KRI-260417-70321",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-22T09:54:29+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-22T16:54:29+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "GRN-70321",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice GST/2026-27/70321 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270321,
+    "notes": "task=comp_fields defect=none"
+  }
+}

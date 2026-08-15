@@ -1,0 +1,403 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0187",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/78954",
+      "issued_at": "2026-03-14T16:12:13+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Supply Chain P Ltd",
+        "legal_name": "Singh & Sons Supply Chain Pvt. Ltd.",
+        "gstin": "36XQTCH5058L5Z7",
+        "pan": "XQTCH5058L",
+        "address": {
+          "line1": "Unit 105, Export Zone",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "748617",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Khan",
+          "email": "imran.khan@singh.co.in",
+          "phone": "+91-70198-83767"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Supply Chain Pvt. Ltd",
+        "legal_name": "Pillai Supply Chain Pvt. Ltd.",
+        "gstin": "36QQOCS8496G2Z5",
+        "pan": "QQOCS8496G",
+        "address": {
+          "line1": "Godown 218, MIDC",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "273070",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Kumar",
+          "email": "nikhilk@pillai.co.in",
+          "phone": "+91-90973-63632"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 99.52,
+          "taxable_value": 49760.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4478.4,
+          "sgst_amount": 4478.4,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 335.2,
+          "taxable_value": 402240.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 36201.6,
+          "sgst_amount": 36201.6,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 452000.0,
+      "total_cgst": 40680.0,
+      "total_sgst": 40680.0,
+      "total_igst": 0.0,
+      "total_tax": 81360.0,
+      "invoice_total": 533360.0,
+      "currency": "INR",
+      "eway_bill_ref": "954250821263",
+      "vehicle_no": "TS36SZ9450",
+      "consignment_ref": "CONS-SIN-PIL-260311-78954"
+    },
+    "eway_bill": {
+      "ewb_no": "954250821263",
+      "generated_at": "2026-03-14T21:18:13+05:30",
+      "valid_until": "2026-03-23T21:18:13+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/78954",
+      "doc_date": "2026-03-14",
+      "from_gstin": "36XQTCH5058L5Z7",
+      "from_address": "Unit 105, Export Zone, Jeedimetla, Jeedimetla, Telangana - 748617",
+      "to_gstin": "36QQOCS8496G2Z5",
+      "to_address": "Godown 218, MIDC, Gachibowli, Gachibowli, Telangana - 273070",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "27LTEWZ6948E1ZT",
+      "mode": "road",
+      "vehicle_no": "TS36SZ9450",
+      "consignment_ref": "CONS-SIN-PIL-260311-78954",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 452000.0,
+      "total_invoice_value": 533360.0,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-78954",
+      "po_date": "2026-03-11",
+      "buyer_entity": "Pillai Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-7212",
+      "vendor_name": "Singh & Sons Supply Chain P Ltd",
+      "vendor_gstin": "36XQTCH5058L5Z7",
+      "items": [
+        {
+          "item_code": "ITEM-63760",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 99.52,
+          "line_total": 49760.0,
+          "expected_delivery": "2026-03-18"
+        },
+        {
+          "item_code": "ITEM-53392",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 335.2,
+          "line_total": 402240.0,
+          "expected_delivery": "2026-03-20"
+        }
+      ],
+      "po_subtotal": 452000.0,
+      "po_tax": 81360.0,
+      "po_total": 533360.0,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Kumar",
+        "approved_at": "2026-03-12T18:56:04+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/78954"
+      ],
+      "grn": {
+        "grn_no": "GRN-78954",
+        "received_at": "2026-03-17T08:18:13+05:30",
+        "received_by": "Nikhil Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-63760",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-53392",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-PIL-260311-78954"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51453",
+      "thread_name": "CONS-SIN-PIL-260311-78954 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Patel",
+          "role": "driver",
+          "phone": "+91-70198-83767"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Khan",
+          "role": "dispatcher",
+          "phone": "+91-70198-83767"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Kumar",
+          "role": "warehouse",
+          "phone": "+91-90973-63632"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Priya Khan",
+          "role": "accounts",
+          "phone": "+91-90973-63632"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-14T22:18:13+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Patel",
+          "lang": "hi-en",
+          "text": "TS36SZ9450 dispatch ho gayi Jeedimetla se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-15T19:18:13+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Gachibowli pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-16T16:18:13+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Patel",
+          "lang": "hi-en",
+          "text": "Gachibowli warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-16T20:18:13+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Kumar",
+          "lang": "en",
+          "text": "Consignment received in full at our Gachibowli warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-16T20:53:13+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Kumar",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-16T21:18:13+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Patel",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-PIL-260311-78954_39.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-11T17:56:04+05:30",
+      "actor": "Pillai Supply Chain Pvt. Ltd.",
+      "doc_ref": "PUR-2026-78954",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-12T18:56:04+05:30",
+      "actor": "Nikhil Kumar",
+      "doc_ref": "PUR-2026-78954",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-14T16:12:13+05:30",
+      "actor": "Singh & Sons Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/78954",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-14T21:18:13+05:30",
+      "actor": "Singh & Sons Supply Chain Pvt. Ltd.",
+      "doc_ref": "954250821263",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-14T22:18:13+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TS36SZ9450",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-16T16:18:13+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TS36SZ9450",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-16T20:18:13+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SIN-PIL-260311-78954",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-16T21:18:13+05:30",
+      "actor": "Nikhil Kumar",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-17T08:18:13+05:30",
+      "actor": "Nikhil Kumar",
+      "doc_ref": "GRN-78954",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PUR-2026-78954?",
+  "question_lang": "en",
+  "gold_answer": "Purchase order PUR-2026-78954 carries payment terms of Net 30 days [ERP].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PUR-2026-78954",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "erp_order",
+      "path": "payment_terms",
+      "value": "Net 30 days",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-70198-83767",
+    "+91-90973-63632",
+    "QQOCS8496G",
+    "XQTCH5058L",
+    "imran.khan@singh.co.in",
+    "nikhilk@pillai.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278954,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0143",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/74686",
+      "issued_at": "2026-04-20T13:56:52+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Supply Chain Pvt Ltd",
+        "legal_name": "Iyer Supply Chain Pvt. Ltd.",
+        "gstin": "29XQIPU9842C8Z8",
+        "pan": "XQIPU9842C",
+        "address": {
+          "line1": "Unit 173, Export Zone",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "530716",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Reddy",
+          "email": "kavitar@iyer.com",
+          "phone": "+91-70204-74998"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Logistics Pvt. Ltd.",
+        "legal_name": "Deshmukh Logistics Pvt. Ltd.",
+        "gstin": "23XQKPX9840K6ZK",
+        "pan": "XQKPX9840K",
+        "address": {
+          "line1": "Warehouse 208, Export Zone",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "672455",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Kumar",
+          "email": "lkumar@deshmukh.com",
+          "phone": "+91-70366-20801"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 51.89,
+          "taxable_value": 5189.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 934.02
+        },
+        {
+          "line_no": 2,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 4400.91,
+          "taxable_value": 220045.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 39608.19
+        },
+        {
+          "line_no": 3,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 3722.47,
+          "taxable_value": 3722470.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 670044.6
+        }
+      ],
+      "total_taxable_value": 3947704.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 710586.81,
+      "total_tax": 710586.81,
+      "invoice_total": 4658291.31,
+      "currency": "INR",
+      "eway_bill_ref": "686686593423",
+      "vehicle_no": "KA71DH2914",
+      "consignment_ref": "CONS-IYE-DES-260408-74686"
+    },
+    "eway_bill": {
+      "ewb_no": "686686593423",
+      "generated_at": "2026-04-20T19:15:52+05:30",
+      "valid_until": "2026-04-22T19:15:52+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/74686",
+      "doc_date": "2026-04-20",
+      "from_gstin": "29XQIPU9842C8Z8",
+      "from_address": "Unit 173, Export Zone, Electronic City, Electronic City, Karnataka - 530716",
+      "to_gstin": "23XQKPX9840K6ZK",
+      "to_address": "Warehouse 208, Export Zone, Dewas, Dewas, Madhya Pradesh - 672455",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "29DGYEC8836E1ZT",
+      "mode": "road",
+      "vehicle_no": "KA71DH2914",
+      "consignment_ref": "CONS-IYE-DES-260408-74686",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3947704.5,
+      "total_invoice_value": 4658291.31,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-74686",
+      "po_date": "2026-04-08",
+      "buyer_entity": "Deshmukh Logistics Pvt. Ltd.",
+      "vendor_code": "VND-2646",
+      "vendor_name": "Iyer Supply Chain Pvt Ltd",
+      "vendor_gstin": "29XQIPU9842C8Z8",
+      "items": [
+        {
+          "item_code": "ITEM-96096",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 51.89,
+          "line_total": 5189.0,
+          "expected_delivery": "2026-04-26"
+        },
+        {
+          "item_code": "ITEM-90260",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 4400.91,
+          "line_total": 220045.5,
+          "expected_delivery": "2026-04-23"
+        },
+        {
+          "item_code": "ITEM-26376",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 3722.47,
+          "line_total": 3722470.0,
+          "expected_delivery": "2026-04-28"
+        }
+      ],
+      "po_subtotal": 3947704.5,
+      "po_tax": 710586.81,
+      "po_total": 4658291.31,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Kumar",
+        "approved_at": "2026-04-09T22:27:33+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/74686"
+      ],
+      "grn": {
+        "grn_no": "GRN-74686",
+        "received_at": "2026-04-22T03:00:52+05:30",
+        "received_by": "Lakshmi Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-96096",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-90260",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-26376",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-DES-260408-74686"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-74908",
+      "thread_name": "CONS-IYE-DES-260408-74686 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Sharma",
+          "role": "driver",
+          "phone": "+91-70204-74998"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70204-74998"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Kumar",
+          "role": "warehouse",
+          "phone": "+91-70366-20801"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Singh",
+          "role": "accounts",
+          "phone": "+91-70366-20801"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-20T21:15:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "en",
+          "text": "Vehicle KA71DH2914 dispatched from Electronic City. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-20T22:11:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-20T23:15:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_604.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-21T01:15:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-21T03:15:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "गाड़ी Dewas गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-21T07:15:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-21T07:32:52+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Kumar",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-21T08:00:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-DES-260408-74686_50.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9098.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-08T17:27:33+05:30",
+      "actor": "Deshmukh Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-74686",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-09T22:27:33+05:30",
+      "actor": "Lakshmi Kumar",
+      "doc_ref": "ORD-2026-74686",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-20T13:56:52+05:30",
+      "actor": "Iyer Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/74686",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-20T19:15:52+05:30",
+      "actor": "Iyer Supply Chain Pvt. Ltd.",
+      "doc_ref": "686686593423",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-20T21:15:52+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "KA71DH2914",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-21T03:15:52+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "KA71DH2914",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-21T07:15:52+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-IYE-DES-260408-74686",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-21T08:00:52+05:30",
+      "actor": "Lakshmi Kumar",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-22T03:00:52+05:30",
+      "actor": "Lakshmi Kumar",
+      "doc_ref": "GRN-74686",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-IYE-DES-260408-74686?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274686,
+    "notes": "task=lookup_total defect=none"
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0108",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/71291",
+      "issued_at": "2026-05-24T09:27:50+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Polymers Limited",
+        "legal_name": "Chatterjee Polymers Ltd.",
+        "gstin": "09XQEPV3477V5ZX",
+        "pan": "XQEPV3477V",
+        "address": {
+          "line1": "Shed 129, Logistics Park",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "876798",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Yadav",
+          "email": "fyadav@chatterjee.in",
+          "phone": "+91-90159-95194"
+        }
+      },
+      "buyer": {
+        "name": "Agarwal Distributors",
+        "legal_name": "Agarwal Distributors",
+        "gstin": "27ZZGPU9084G5Z3",
+        "pan": "ZZGPU9084G",
+        "address": {
+          "line1": "Godown 68, Phase II",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "840650",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Gupta",
+          "email": "igupta@agarwal.in",
+          "phone": "+91-90181-71108"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 184.27,
+          "taxable_value": 18427.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3316.86
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 153.12,
+          "taxable_value": 27561.6,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1378.08
+        }
+      ],
+      "total_taxable_value": 45988.6,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 4694.94,
+      "total_tax": 4694.94,
+      "invoice_total": 50683.54,
+      "currency": "INR",
+      "eway_bill_ref": "291220599088",
+      "vehicle_no": "UP75PM4728",
+      "consignment_ref": "CONS-CHA-AGA-260513-71291"
+    },
+    "eway_bill": {
+      "ewb_no": "291220599088",
+      "generated_at": "2026-05-24T01:40:50+05:30",
+      "valid_until": "2026-06-04T01:40:50+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/71291",
+      "doc_date": "2026-05-24",
+      "from_gstin": "09XQEPV3477V5ZX",
+      "from_address": "Shed 129, Logistics Park, Lucknow, Lucknow, Uttar Pradesh - 876798",
+      "to_gstin": "27ZZGPU9084G5Z3",
+      "to_address": "Godown 68, Phase II, Andheri East, Andheri East, Maharashtra - 840650",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "07URHUW1881Y1ZT",
+      "mode": "road",
+      "vehicle_no": "UP75PM4728",
+      "consignment_ref": "CONS-CHA-AGA-260513-71291",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 45988.6,
+      "total_invoice_value": 50683.54,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-71291",
+      "po_date": "2026-05-13",
+      "buyer_entity": "Agarwal Distributors",
+      "vendor_code": "VND-7191",
+      "vendor_name": "Chatterjee Polymers Limited",
+      "vendor_gstin": "09XQEPV3477V5ZX",
+      "items": [
+        {
+          "item_code": "ITEM-64796",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 184.27,
+          "line_total": 18427.0,
+          "expected_delivery": "2026-06-01"
+        },
+        {
+          "item_code": "ITEM-79302",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 153.12,
+          "line_total": 27561.6,
+          "expected_delivery": "2026-05-26"
+        }
+      ],
+      "po_subtotal": 45988.6,
+      "po_tax": 4694.94,
+      "po_total": 50683.54,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Imran Gupta",
+        "approved_at": "2026-05-14T08:05:46+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/71291"
+      ],
+      "grn": {
+        "grn_no": "GRN-71291",
+        "received_at": "2026-05-26T19:41:50+05:30",
+        "received_by": "Imran Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-64796",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-79302",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-AGA-260513-71291"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-32813",
+      "thread_name": "CONS-CHA-AGA-260513-71291 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Reddy",
+          "role": "driver",
+          "phone": "+91-90159-95194"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Yadav",
+          "role": "dispatcher",
+          "phone": "+91-90159-95194"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Gupta",
+          "role": "warehouse",
+          "phone": "+91-90181-71108"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-24T04:40:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "en",
+          "text": "Vehicle UP75PM4728 dispatched from Lucknow. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-24T05:41:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-26T10:40:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-26T12:40:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-26T13:18:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-26T13:41:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-AGA-260513-71291_36.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-7330.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-66529",
+      "raised_at": "2026-05-26T22:41:50+05:30",
+      "raised_by": "Imran Gupta",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-13T09:05:46+05:30",
+      "actor": "Agarwal Distributors",
+      "doc_ref": "ORD-2026-71291",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-14T08:05:46+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "ORD-2026-71291",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-05-24T01:40:50+05:30",
+      "actor": "Chatterjee Polymers Ltd.",
+      "doc_ref": "291220599088",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-05-24T04:40:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP75PM4728",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-05-24T09:27:50+05:30",
+      "actor": "Chatterjee Polymers Ltd.",
+      "doc_ref": "INV/2026-27/71291",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-26T10:40:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP75PM4728",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-26T12:40:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-CHA-AGA-260513-71291",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-26T13:41:50+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-26T19:41:50+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "GRN-71291",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-CHA-AGA-260513-71291 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "Before, which is a sequence violation: e-way bill 291220599088 was generated on 24 May 2026 at 01:40 citing invoice INV/2026-27/71291 [EWB], but that invoice was only issued 7.8 hours later, on 24 May 2026 at 09:27 [INV]. The permit therefore references a document that did not yet exist [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-05-24T09:27:50+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/71291",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-05-24T01:40:50+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "INV/2026-27/71291",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271291,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

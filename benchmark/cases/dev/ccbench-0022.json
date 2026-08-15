@@ -1,0 +1,476 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0022",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/62949",
+      "issued_at": "2026-07-10T14:49:18+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Supply Chain Pvt Ltd",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "36QQYPB8737L5ZY",
+        "pan": "QQYPB8737L",
+        "address": {
+          "line1": "Shed 142, Industrial Area",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "254654",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Rao",
+          "email": "rrao@rastogi.com",
+          "phone": "+91-90455-33747"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Enterprises",
+        "legal_name": "Sharma Enterprises",
+        "gstin": "23QQTPK8780V2ZH",
+        "pan": "QQTPK8780V",
+        "address": {
+          "line1": "Warehouse 16, Industrial Area",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "712331",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Joshi",
+          "email": "priyaj@sharma.co.in",
+          "phone": "+91-80301-41275"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 90.22,
+          "taxable_value": 4511.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 811.98
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 24867.79,
+          "taxable_value": 4476202.2,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 805716.4
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 134.72,
+          "taxable_value": 134720.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6736.0
+        }
+      ],
+      "total_taxable_value": 4615433.2,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 813264.38,
+      "total_tax": 813264.38,
+      "invoice_total": 5428697.58,
+      "currency": "INR",
+      "eway_bill_ref": "949749042094",
+      "vehicle_no": "TS80NW6903",
+      "consignment_ref": "CONS-RAS-SHA-260703-62949"
+    },
+    "eway_bill": {
+      "ewb_no": "949749042094",
+      "generated_at": "2026-07-10T19:41:18+05:30",
+      "valid_until": "2026-07-13T19:41:18+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/62949",
+      "doc_date": "2026-07-10",
+      "from_gstin": "36QQYPB8737L5ZY",
+      "from_address": "Shed 142, Industrial Area, Jeedimetla, Jeedimetla, Telangana - 254654",
+      "to_gstin": "23QQTPK8780V2ZH",
+      "to_address": "Warehouse 16, Industrial Area, Mandideep, Mandideep, Madhya Pradesh - 712331",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "27YWSYI1187I1ZT",
+      "mode": "road",
+      "vehicle_no": "TS80NW6903",
+      "consignment_ref": "CONS-RAS-SHA-260703-62949",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 180.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 4615433.2,
+      "total_invoice_value": 5428697.58,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-62949",
+      "po_date": "2026-07-03",
+      "buyer_entity": "Sharma Enterprises",
+      "vendor_code": "VND-1150",
+      "vendor_name": "Rastogi Supply Chain Pvt Ltd",
+      "vendor_gstin": "36QQYPB8737L5ZY",
+      "items": [
+        {
+          "item_code": "ITEM-99379",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 90.22,
+          "line_total": 4511.0,
+          "expected_delivery": "2026-07-14"
+        },
+        {
+          "item_code": "ITEM-72443",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 24867.79,
+          "line_total": 4476202.2,
+          "expected_delivery": "2026-07-12"
+        },
+        {
+          "item_code": "ITEM-38270",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 134.72,
+          "line_total": 134720.0,
+          "expected_delivery": "2026-07-13"
+        }
+      ],
+      "po_subtotal": 4615433.2,
+      "po_tax": 813264.38,
+      "po_total": 5428697.58,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Priya Joshi",
+        "approved_at": "2026-07-03T11:12:29+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/62949"
+      ],
+      "grn": {
+        "grn_no": "GRN-62949",
+        "received_at": "2026-07-12T00:49:18+05:30",
+        "received_by": "Priya Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-99379",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-72443",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-38270",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-SHA-260703-62949"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-12916",
+      "thread_name": "CONS-RAS-SHA-260703-62949 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Reddy",
+          "role": "driver",
+          "phone": "+91-90455-33747"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Rao",
+          "role": "dispatcher",
+          "phone": "+91-90455-33747"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Priya Joshi",
+          "role": "warehouse",
+          "phone": "+91-80301-41275"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-11T00:41:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "en",
+          "text": "Vehicle TS80NW6903 dispatched from Jeedimetla. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-11T03:41:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Mandideep.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-11T06:41:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-11T09:41:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Mandideep गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-11T12:41:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-11T13:12:18+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Joshi",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-11T14:49:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-SHA-260703-62949_87.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-03T09:12:29+05:30",
+      "actor": "Sharma Enterprises",
+      "doc_ref": "PO-2026-62949",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-03T11:12:29+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "PO-2026-62949",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-10T14:49:18+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/62949",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-10T19:41:18+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "949749042094",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-11T00:41:18+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TS80NW6903",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-11T09:41:18+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TS80NW6903",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-11T12:41:18+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-RAS-SHA-260703-62949",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-11T14:49:18+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-12T00:49:18+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "GRN-62949",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under GST/2026-27/62949 the same as the quantity ordered on PO-2026-62949?",
+  "question_lang": "en",
+  "gold_answer": "Yes, all 3 line(s) agree: 1230 units were ordered on PO-2026-62949 [ERP] and 1230 units were invoiced on GST/2026-27/62949 [INV] for consignment CONS-RAS-SHA-260703-62949.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PO-2026-62949",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/62949",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].quantity",
+      "value": "50.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "erp_order",
+      "path": "items[0].quantity_ordered",
+      "value": "50.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "items[1].quantity",
+      "value": "180.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "erp_order",
+      "path": "items[1].quantity_ordered",
+      "value": "180.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F7",
+      "doc": "invoice",
+      "path": "items[2].quantity",
+      "value": "1000.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F8",
+      "doc": "erp_order",
+      "path": "items[2].quantity_ordered",
+      "value": "1000.0",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262949,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

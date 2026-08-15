@@ -1,0 +1,367 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0075",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/68090",
+      "issued_at": "2026-06-24T13:18:00+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Manufacturing Pvt. Ltd.",
+        "legal_name": "Krishna Manufacturing Pvt. Ltd.",
+        "gstin": "29ZZTPI8932Z5Z8",
+        "pan": "ZZTPI8932Z",
+        "address": {
+          "line1": "Shed 205, MIDC",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "249686",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Banerjee",
+          "email": "lbanerjee@krishna.com",
+          "phone": "+91-90389-21056"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Enterprises",
+        "legal_name": "Deshmukh Enterprises",
+        "gstin": "29XQWCZ0068M9ZQ",
+        "pan": "XQWCZ0068M",
+        "address": {
+          "line1": "Shed 148, Logistics Park",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "289904",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Rao",
+          "email": "srao@deshmukh.co.in",
+          "phone": "+91-70815-86164"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 137.68,
+          "taxable_value": 24782.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 619.56,
+          "sgst_amount": 619.56,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 24782.4,
+      "total_cgst": 619.56,
+      "total_sgst": 619.56,
+      "total_igst": 0.0,
+      "total_tax": 1239.12,
+      "invoice_total": 26021.52,
+      "currency": "INR",
+      "eway_bill_ref": "090805198824",
+      "vehicle_no": "KA84QY8230",
+      "consignment_ref": "CONS-KRI-DES-260612-68090"
+    },
+    "eway_bill": {
+      "ewb_no": "090805198824",
+      "generated_at": "2026-06-24T18:10:00+05:30",
+      "valid_until": "2026-06-25T18:10:00+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/68090",
+      "doc_date": "2026-06-24",
+      "from_gstin": "29ZZTPI8932Z5Z8",
+      "from_address": "Shed 205, MIDC, Electronic City, Electronic City, Karnataka - 249686",
+      "to_gstin": "29XQWCZ0068M9ZQ",
+      "to_address": "Shed 148, Logistics Park, Nelamangala, Nelamangala, Karnataka - 289904",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "19HDQDO2234O1ZT",
+      "mode": "road",
+      "vehicle_no": "KA84QY8230",
+      "consignment_ref": "CONS-KRI-DES-260612-68090",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 24782.4,
+      "total_invoice_value": 26021.52,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-68090",
+      "po_date": "2026-06-12",
+      "buyer_entity": "Deshmukh Enterprises",
+      "vendor_code": "VND-6692",
+      "vendor_name": "Krishna Manufacturing Pvt. Ltd.",
+      "vendor_gstin": "29ZZTPI8932Z5Z8",
+      "items": [
+        {
+          "item_code": "ITEM-96778",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 137.68,
+          "line_total": 24782.4,
+          "expected_delivery": "2026-07-01"
+        }
+      ],
+      "po_subtotal": 24782.4,
+      "po_tax": 1239.12,
+      "po_total": 26021.52,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Suresh Rao",
+        "approved_at": "2026-06-13T06:41:43+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/68090"
+      ],
+      "grn": {
+        "grn_no": "GRN-68090",
+        "received_at": "2026-06-25T09:21:00+05:30",
+        "received_by": "Suresh Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-96778",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KRI-DES-260612-68090"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-26729",
+      "thread_name": "CONS-KRI-DES-260612-68090 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Yadav",
+          "role": "driver",
+          "phone": "+91-90389-21056"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90389-21056"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Suresh Rao",
+          "role": "warehouse",
+          "phone": "+91-70815-86164"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-24T22:10:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "en",
+          "text": "Vehicle KA84QY8230 dispatched from Electronic City. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-25T04:10:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "Nelamangala warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-25T06:10:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "en",
+          "text": "Consignment received in full at our Nelamangala warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-25T06:40:00+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Rao",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-25T08:21:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KRI-DES-260612-68090_73.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-12T18:41:43+05:30",
+      "actor": "Deshmukh Enterprises",
+      "doc_ref": "ORD-2026-68090",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-13T06:41:43+05:30",
+      "actor": "Suresh Rao",
+      "doc_ref": "ORD-2026-68090",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-24T13:18:00+05:30",
+      "actor": "Krishna Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/68090",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-24T18:10:00+05:30",
+      "actor": "Krishna Manufacturing Pvt. Ltd.",
+      "doc_ref": "090805198824",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-24T22:10:00+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA84QY8230",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-25T04:10:00+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA84QY8230",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-25T06:10:00+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-KRI-DES-260612-68090",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-25T08:21:00+05:30",
+      "actor": "Suresh Rao",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-25T09:21:00+05:30",
+      "actor": "Suresh Rao",
+      "doc_ref": "GRN-68090",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-KRI-DES-260612-68090?",
+  "question_lang": "en",
+  "gold_answer": "Yes, the two agree: e-way bill 090805198824 declares Rs. 26,021.52 [EWB] and invoice GST/2026-27/68090 totals the same Rs. 26,021.52 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/68090",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "26021.52",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "090805198824",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "26021.52",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-KRI-DES-260612-68090",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268090,
+    "notes": "task=mh_match defect=none"
+  }
+}

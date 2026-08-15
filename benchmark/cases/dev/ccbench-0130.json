@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0130",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/73425",
+      "issued_at": "2026-07-26T16:05:32+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Logistics Private Limited",
+        "legal_name": "Mehta Brothers Logistics Pvt. Ltd.",
+        "gstin": "36QQCCK1592G4ZW",
+        "pan": "QQCCK1592G",
+        "address": {
+          "line1": "Plot 144, Industrial Area",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "475384",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Banerjee",
+          "email": "fbanerjee@mehta.com",
+          "phone": "+91-70449-73627"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "36QQKCB3667V4ZP",
+        "pan": "QQKCB3667V",
+        "address": {
+          "line1": "Warehouse 73, Export Zone",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "595742",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Nair",
+          "email": "dnair@chatterjee.com",
+          "phone": "+91-70387-25963"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 94.86,
+          "taxable_value": 94860.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 8537.4,
+          "sgst_amount": 8537.4,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 94860.0,
+      "total_cgst": 8537.4,
+      "total_sgst": 8537.4,
+      "total_igst": 0.0,
+      "total_tax": 17074.8,
+      "invoice_total": 111934.8,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "TS11SL2600",
+      "consignment_ref": "CONS-MEH-CHA-260715-73425"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-73425",
+      "po_date": "2026-07-15",
+      "buyer_entity": "Chatterjee Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-8675",
+      "vendor_name": "Mehta Brothers Logistics Private Limited",
+      "vendor_gstin": "36QQCCK1592G4ZW",
+      "items": [
+        {
+          "item_code": "ITEM-81197",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 94.86,
+          "line_total": 94860.0,
+          "expected_delivery": "2026-07-28"
+        }
+      ],
+      "po_subtotal": 94860.0,
+      "po_tax": 17074.8,
+      "po_total": 111934.8,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Deepa Nair",
+        "approved_at": "2026-07-16T18:12:43+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/73425"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-MEH-CHA-260715-73425"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-65934",
+      "thread_name": "CONS-MEH-CHA-260715-73425 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Yadav",
+          "role": "driver",
+          "phone": "+91-70449-73627"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70449-73627"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Nair",
+          "role": "warehouse",
+          "phone": "+91-70387-25963"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Zoya Rao",
+          "role": "accounts",
+          "phone": "+91-70387-25963"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-26T21:57:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Yadav",
+          "lang": "hi-en",
+          "text": "TS11SL2600 dispatch ho gayi Patancheru se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-26T23:57:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Yadav",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-27T10:57:32+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Banerjee",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-89445",
+      "raised_at": "2026-07-28T10:23:32+05:30",
+      "raised_by": "Deepa Nair",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-15T19:12:43+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-73425",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-16T18:12:43+05:30",
+      "actor": "Deepa Nair",
+      "doc_ref": "PO-2026-73425",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-26T16:05:32+05:30",
+      "actor": "Mehta Brothers Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/73425",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-07-26T21:57:32+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS11SL2600",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-07-27T09:57:32+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS11SL2600",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-07-27T13:57:32+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-MEH-CHA-260715-73425",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-07-27T14:23:32+05:30",
+      "actor": "Deepa Nair",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-MEH-CHA-260715-73425 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "gold_answer": "The driver, Dinesh Yadav, reported in message M-002 that the vehicle was stopped at a check post because no e-way bill had been generated: \"ई-वे बिल बना ही नहीं था\" [M-002]. The invoice confirms it, carrying no e-way bill reference for consignment CONS-MEH-CHA-260715-73425 [INV], and the consignment did not complete delivery.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70387-25963",
+    "+91-70449-73627",
+    "QQCCK1592G",
+    "QQKCB3667V",
+    "dnair@chatterjee.com",
+    "fbanerjee@mehta.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273425,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

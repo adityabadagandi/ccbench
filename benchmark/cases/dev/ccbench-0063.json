@@ -1,0 +1,295 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0063",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/66926",
+      "issued_at": "2026-04-29T09:05:10+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Industries",
+        "legal_name": "Agarwal Industries",
+        "gstin": "29QQSCK8042N9Z7",
+        "pan": "QQSCK8042N",
+        "address": {
+          "line1": "Shed 239, Phase II",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "545676",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Iyer",
+          "email": "diyer@agarwal.com",
+          "phone": "+91-80506-79197"
+        }
+      },
+      "buyer": {
+        "name": "Nair Industries",
+        "legal_name": "Nair Industries",
+        "gstin": "07XQJPK7792R3ZX",
+        "pan": "XQJPK7792R",
+        "address": {
+          "line1": "Warehouse 193, Industrial Area",
+          "line2": "Connaught Place",
+          "city": "Connaught Place",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "376985",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Khan",
+          "email": "lkhan@nair.in",
+          "phone": "+91-90121-96055"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 335.45,
+          "taxable_value": 134180.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 24152.4
+        }
+      ],
+      "total_taxable_value": 134180.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 24152.4,
+      "total_tax": 24152.4,
+      "invoice_total": 158332.4,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "KA43GG1270",
+      "consignment_ref": "CONS-AGA-NAI-260424-66926"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-66926",
+      "po_date": "2026-04-24",
+      "buyer_entity": "Nair Industries",
+      "vendor_code": "VND-7181",
+      "vendor_name": "Agarwal Industries",
+      "vendor_gstin": "29QQSCK8042N9Z7",
+      "items": [
+        {
+          "item_code": "ITEM-38147",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 335.45,
+          "line_total": 134180.0,
+          "expected_delivery": "2026-05-07"
+        }
+      ],
+      "po_subtotal": 134180.0,
+      "po_tax": 24152.4,
+      "po_total": 158332.4,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Lakshmi Khan",
+        "approved_at": "2026-04-25T00:27:09+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/66926"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-AGA-NAI-260424-66926"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-13888",
+      "thread_name": "CONS-AGA-NAI-260424-66926 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Singh",
+          "role": "driver",
+          "phone": "+91-80506-79197"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Iyer",
+          "role": "dispatcher",
+          "phone": "+91-80506-79197"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Khan",
+          "role": "warehouse",
+          "phone": "+91-90121-96055"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-29T19:38:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Singh",
+          "lang": "hi-en",
+          "text": "KA43GG1270 loading complete sir, nikal rahe hain Nelamangala se.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-29T20:27:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Singh",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-29T21:38:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Singh",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-30T06:38:10+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Iyer",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-30T14:38:10+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Iyer",
+          "lang": "hi-en",
+          "text": "Sunday ko warehse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-90835",
+      "raised_at": "2026-05-01T19:06:10+05:30",
+      "raised_by": "Lakshmi Khan",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-24T13:27:09+05:30",
+      "actor": "Nair Industries",
+      "doc_ref": "PO-2026-66926",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-25T00:27:09+05:30",
+      "actor": "Lakshmi Khan",
+      "doc_ref": "PO-2026-66926",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-29T09:05:10+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "INV/2026-27/66926",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-04-29T19:38:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA43GG1270",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-04-30T15:38:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA43GG1270",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-04-30T19:38:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-AGA-NAI-260424-66926",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-04-30T21:06:10+05:30",
+      "actor": "Lakshmi Khan",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-AGA-NAI-260424-66926 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "gold_answer": "The driver, Rajesh Singh, reported in message M-003 that the vehicle was stopped at a check post because no e-way bill had been generated: \"ई-वे बिल बना ही नहीं था\" [M-003]. The invoice confirms it, carrying no e-way bill reference for consignment CONS-AGA-NAI-260424-66926 [INV], and the consignment did not complete delivery.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-003.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-003",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266926,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

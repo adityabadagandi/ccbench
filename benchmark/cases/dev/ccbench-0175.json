@@ -1,0 +1,441 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0175",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77790",
+      "issued_at": "2026-05-28T17:27:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Manufacturing Pvt. Limited",
+        "legal_name": "Gupta Manufacturing Pvt. Ltd.",
+        "gstin": "33ZZNPJ9176N3Z1",
+        "pan": "ZZNPJ9176N",
+        "address": {
+          "line1": "Shed 5, Export Zone",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "829981",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Mishra",
+          "email": "lakshmim@gupta.co.in",
+          "phone": "+91-90111-90627"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Manufacturing P Ltd",
+        "legal_name": "Mehta Brothers Manufacturing Pvt. Ltd.",
+        "gstin": "19XQOCK4640U6ZV",
+        "pan": "XQOCK4640U",
+        "address": {
+          "line1": "Shed 35, MIDC",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "460356",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Joshi",
+          "email": "rjoshi@mehta.com",
+          "phone": "+91-70543-61115"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 85.34,
+          "taxable_value": 4267.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 213.35
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 13724.54,
+          "taxable_value": 343113.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 61760.43
+        }
+      ],
+      "total_taxable_value": 347380.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 61973.78,
+      "total_tax": 61973.78,
+      "invoice_total": 409354.28,
+      "currency": "INR",
+      "eway_bill_ref": "790952441368",
+      "vehicle_no": "TN21WH4243",
+      "consignment_ref": "CONS-GUP-MEH-260523-77790"
+    },
+    "eway_bill": {
+      "ewb_no": "790952441368",
+      "generated_at": "2026-05-28T22:00:21+05:30",
+      "valid_until": "2026-05-30T22:00:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/77790",
+      "doc_date": "2026-05-28",
+      "from_gstin": "33ZZNPJ9176N3Z1",
+      "from_address": "Shed 5, Export Zone, Hosur Road, Hosur Road, Tamil Nadu - 829981",
+      "to_gstin": "19XQOCK4640U6ZV",
+      "to_address": "Shed 35, MIDC, Salt Lake, Salt Lake, West Bengal - 460356",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "19JGBYB4559W1ZT",
+      "mode": "road",
+      "vehicle_no": "TN21WH4243",
+      "consignment_ref": "CONS-GUP-MEH-260523-77790",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 50.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 347380.5,
+      "total_invoice_value": 408854.28,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-77790",
+      "po_date": "2026-05-23",
+      "buyer_entity": "Mehta Brothers Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-2147",
+      "vendor_name": "Gupta Manufacturing Pvt. Limited",
+      "vendor_gstin": "33ZZNPJ9176N3Z1",
+      "items": [
+        {
+          "item_code": "ITEM-27369",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 85.34,
+          "line_total": 4267.0,
+          "expected_delivery": "2026-06-05"
+        },
+        {
+          "item_code": "ITEM-60637",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 13724.54,
+          "line_total": 343113.5,
+          "expected_delivery": "2026-06-02"
+        }
+      ],
+      "po_subtotal": 347380.5,
+      "po_tax": 61973.78,
+      "po_total": 409354.28,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Joshi",
+        "approved_at": "2026-05-24T04:49:18+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77790"
+      ],
+      "grn": {
+        "grn_no": "GRN-77790",
+        "received_at": "2026-05-30T00:56:21+05:30",
+        "received_by": "Rajesh Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-27369",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-60637",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-MEH-260523-77790"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-42637",
+      "thread_name": "CONS-GUP-MEH-260523-77790 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-90111-90627"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Mishra",
+          "role": "dispatcher",
+          "phone": "+91-90111-90627"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Joshi",
+          "role": "warehouse",
+          "phone": "+91-70543-61115"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-29T03:00:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "TN21WH4243 dispatch ho gayi Hosur Road se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-29T04:04:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-29T05:00:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Salt Lake pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-29T07:00:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Salt Lake pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-29T09:00:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Salt Lake warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-29T13:00:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-29T13:12:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Joshi",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-29T15:56:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-MEH-260523-77790_52.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-05-30T07:56:21+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Mishra",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 408,854.28 likhi hai par invoice Rs. 409,354.28 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-13001",
+      "raised_at": "2026-05-30T08:56:21+05:30",
+      "raised_by": "Rajesh Joshi",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-23T17:49:18+05:30",
+      "actor": "Mehta Brothers Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-77790",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-24T04:49:18+05:30",
+      "actor": "Rajesh Joshi",
+      "doc_ref": "ORD-2026-77790",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-28T17:27:21+05:30",
+      "actor": "Gupta Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/77790",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-28T22:00:21+05:30",
+      "actor": "Gupta Manufacturing Pvt. Ltd.",
+      "doc_ref": "790952441368",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-29T03:00:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN21WH4243",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-29T09:00:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN21WH4243",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-29T13:00:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-GUP-MEH-260523-77790",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-29T15:56:21+05:30",
+      "actor": "Rajesh Joshi",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-30T00:56:21+05:30",
+      "actor": "Rajesh Joshi",
+      "doc_ref": "GRN-77790",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread raise a concern about the paperwork for consignment CONS-GUP-MEH-260523-77790, and was it justified?",
+  "question_lang": "en",
+  "gold_answer": "Yes, and it was justified: in message M-009, Lakshmi Mishra flagged that \"e-way bill pe value Rs. 408,854.28 likhi hai par invoice Rs. 409,354.28 ka hai\" [M-009]. The documents confirm it — invoice GST/2026-27/77790 totals Rs. 409,354.28 [INV] while e-way bill 790952441368 declares Rs. 408,854.28 [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-009.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 408,854.28 likhi hai par invoice Rs. 409,354.28 ka hai.",
+      "evidence": {
+        "ref_id": "M-009",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 408,854.28 likhi hai par invoice Rs. 409,354.28 ka hai",
+        "gloss_en": "the e-way bill states Rs. 408,854.28 but the invoice is for Rs. 409,354.28"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "409354.28",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "408854.28",
+      "evidence": null
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277790,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

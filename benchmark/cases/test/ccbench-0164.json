@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0164",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/76723",
+      "issued_at": "2026-04-26T18:56:59+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Industries",
+        "legal_name": "Deshmukh Industries",
+        "gstin": "24QQJPX3045F8ZU",
+        "pan": "QQJPX3045F",
+        "address": {
+          "line1": "Plot 17, MIDC",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "495569",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Banerjee",
+          "email": "priyab@deshmukh.com",
+          "phone": "+91-90583-61819"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Polymers Ltd.",
+        "legal_name": "Reddy Polymers Ltd.",
+        "gstin": "07ZZGPI1307P9ZZ",
+        "pan": "ZZGPI1307P",
+        "address": {
+          "line1": "Unit 230, Industrial Area",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "844345",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Patel",
+          "email": "ajay.patel@reddy.co.in",
+          "phone": "+91-90558-76461"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 83.27,
+          "taxable_value": 8327.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1498.86
+        }
+      ],
+      "total_taxable_value": 8327.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1498.86,
+      "total_tax": 1498.86,
+      "invoice_total": 9825.86,
+      "currency": "INR",
+      "eway_bill_ref": "723874777372",
+      "vehicle_no": "GJ96NW2281",
+      "consignment_ref": "CONS-DES-RED-260421-76723"
+    },
+    "eway_bill": {
+      "ewb_no": "723874777372",
+      "generated_at": "2026-04-26T23:48:59+05:30",
+      "valid_until": "2026-05-05T23:48:59+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/76723",
+      "doc_date": "2026-04-26",
+      "from_gstin": "24QQJPX3045F8ZU",
+      "from_address": "Plot 17, MIDC, Vadodara, Vadodara, Gujarat - 495569",
+      "to_gstin": "07ZZGPI1307P9ZZ",
+      "to_address": "Unit 230, Industrial Area, Okhla Phase II, Okhla Phase II, Delhi - 844345",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "24FCOUL1358B1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ96NW2281",
+      "consignment_ref": "CONS-DES-RED-260421-76723",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 8327.0,
+      "total_invoice_value": 9825.86,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-76723",
+      "po_date": "2026-04-21",
+      "buyer_entity": "Reddy Polymers Ltd.",
+      "vendor_code": "VND-1298",
+      "vendor_name": "Deshmukh Industries",
+      "vendor_gstin": "24QQJPX3045F8ZU",
+      "items": [
+        {
+          "item_code": "ITEM-43037",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 83.27,
+          "line_total": 8327.0,
+          "expected_delivery": "2026-04-29"
+        }
+      ],
+      "po_subtotal": 8327.0,
+      "po_tax": 1498.86,
+      "po_total": 9825.86,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ajay Patel",
+        "approved_at": "2026-04-21T23:18:03+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/76723"
+      ],
+      "grn": {
+        "grn_no": "GRN-76723",
+        "received_at": "2026-04-28T22:13:59+05:30",
+        "received_by": "Ajay Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-43037",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-RED-260421-76723"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-48310",
+      "thread_name": "CONS-DES-RED-260421-76723 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Singh",
+          "role": "driver",
+          "phone": "+91-90583-61819"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90583-61819"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Patel",
+          "role": "warehouse",
+          "phone": "+91-90558-76461"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-27T02:48:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "GJ96NW2281 dispatch ho gayi Vadodara se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-28T15:48:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hain. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-28T18:48:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Patel",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-28T19:00:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-28T20:13:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-RED-260421-76723_20.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-21T10:18:03+05:30",
+      "actor": "Reddy Polymers Ltd.",
+      "doc_ref": "ORD-2026-76723",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-21T23:18:03+05:30",
+      "actor": "Ajay Patel",
+      "doc_ref": "ORD-2026-76723",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-26T18:56:59+05:30",
+      "actor": "Deshmukh Industries",
+      "doc_ref": "TAX/2026-27/76723",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-26T23:48:59+05:30",
+      "actor": "Deshmukh Industries",
+      "doc_ref": "723874777372",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-27T02:48:59+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ96NW2281",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-28T15:48:59+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ96NW2281",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-28T18:48:59+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-DES-RED-260421-76723",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-28T20:13:59+05:30",
+      "actor": "Ajay Patel",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-28T22:13:59+05:30",
+      "actor": "Ajay Patel",
+      "doc_ref": "GRN-76723",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under TAX/2026-27/76723 the same as the quantity ordered on ORD-2026-76723?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276723,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

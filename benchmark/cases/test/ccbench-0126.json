@@ -1,0 +1,435 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0126",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/73037",
+      "issued_at": "2026-02-23T18:12:26+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Enterprises",
+        "legal_name": "Reddy Enterprises",
+        "gstin": "33ZZQPS9858F5ZC",
+        "pan": "ZZQPS9858F",
+        "address": {
+          "line1": "Shed 77, MIDC",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "584933",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "ramesh.nair@reddy.co.in",
+          "phone": "+91-80944-65341"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Enterprises",
+        "legal_name": "Chatterjee Enterprises",
+        "gstin": "33XQVCY5572K8Z4",
+        "pan": "XQVCY5572K",
+        "address": {
+          "line1": "Unit 153, MIDC",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "135952",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Iyer",
+          "email": "rekha.iyer@chatterjee.co.in",
+          "phone": "+91-70614-39065"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 83.33,
+          "taxable_value": 8333.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 749.97,
+          "sgst_amount": 749.97,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 83.14,
+          "taxable_value": 33256.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 2993.04,
+          "sgst_amount": 2993.04,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 7676.32,
+          "taxable_value": 7676320.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 690868.8,
+          "sgst_amount": 690868.8,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 4253.85,
+          "taxable_value": 4253850.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 595539.0,
+          "sgst_amount": 595539.0,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 11971759.0,
+      "total_cgst": 1290150.81,
+      "total_sgst": 1290150.81,
+      "total_igst": 0.0,
+      "total_tax": 2580301.62,
+      "invoice_total": 14552060.62,
+      "currency": "INR",
+      "eway_bill_ref": "037697897965",
+      "vehicle_no": "TN13ZE4052",
+      "consignment_ref": "CONS-RED-CHA-260216-73037"
+    },
+    "eway_bill": {
+      "ewb_no": "037697897965",
+      "generated_at": "2026-02-23T20:04:26+05:30",
+      "valid_until": "2026-03-06T20:04:26+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/73037",
+      "doc_date": "2026-02-23",
+      "from_gstin": "33ZZQPS9858F5ZC",
+      "from_address": "Shed 77, MIDC, Guindy, Guindy, Tamil Nadu - 584933",
+      "to_gstin": "33XQVCY5572K8Z4",
+      "to_address": "Unit 153, MIDC, Sriperumbudur, Sriperumbudur, Tamil Nadu - 135952",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "07HGYLF1505K1ZT",
+      "mode": "road",
+      "vehicle_no": "TN13ZE4052",
+      "consignment_ref": "CONS-RED-CHA-260216-73037",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 11971759.0,
+      "total_invoice_value": 14552060.62,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-73037",
+      "po_date": "2026-02-16",
+      "buyer_entity": "Chatterjee Enterprises",
+      "vendor_code": "VND-9588",
+      "vendor_name": "Reddy Enterprises",
+      "vendor_gstin": "33ZZQPS9858F5ZC",
+      "items": [
+        {
+          "item_code": "ITEM-35629",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 83.33,
+          "line_total": 8333.0,
+          "expected_delivery": "2026-02-27"
+        },
+        {
+          "item_code": "ITEM-69635",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 83.14,
+          "line_total": 33256.0,
+          "expected_delivery": "2026-02-26"
+        },
+        {
+          "item_code": "ITEM-77545",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 7676.32,
+          "line_total": 7676320.0,
+          "expected_delivery": "2026-03-03"
+        },
+        {
+          "item_code": "ITEM-73773",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 4253.85,
+          "line_total": 4253850.0,
+          "expected_delivery": "2026-02-25"
+        }
+      ],
+      "po_subtotal": 11971759.0,
+      "po_tax": 2580301.62,
+      "po_total": 14552060.62,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Iyer",
+        "approved_at": "2026-02-17T14:18:48+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/73037"
+      ],
+      "grn": {
+        "grn_no": "GRN-73037",
+        "received_at": "2026-02-26T18:35:26+05:30",
+        "received_by": "Rekha Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-35629",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-69635",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-77545",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-73773",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-CHA-260216-73037"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-62856",
+      "thread_name": "CONS-RED-CHA-260216-73037 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-80944-65341"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Nair",
+          "role": "dispatcher",
+          "phone": "+91-80944-65341"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Iyer",
+          "role": "warehouse",
+          "phone": "+91-70614-39065"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-23T22:04:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sir TN13ZE4052 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-25T21:04:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Sriperumbudur गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-25T23:04:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-25T23:20:26+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Iyer",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-26T01:35:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-CHA-260216-73037_40.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-27T05:35:26+05:30",
+          "sender_id": "P2",
+          "sender_name": "Ramesh Nair",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/73037 hai.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-16T11:18:48+05:30",
+      "actor": "Chatterjee Enterprises",
+      "doc_ref": "ORD-2026-73037",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-17T14:18:48+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "ORD-2026-73037",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-23T18:12:26+05:30",
+      "actor": "Reddy Enterprises",
+      "doc_ref": "INV/2026-27/73037",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-23T20:04:26+05:30",
+      "actor": "Reddy Enterprises",
+      "doc_ref": "037697897965",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-23T22:04:26+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN13ZE4052",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-25T21:04:26+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN13ZE4052",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-25T23:04:26+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-RED-CHA-260216-73037",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-26T01:35:26+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-26T18:35:26+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "GRN-73037",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice INV/2026-27/73037 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273037,
+    "notes": "task=comp_contact defect=none"
+  }
+}

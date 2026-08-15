@@ -1,0 +1,478 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0113",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/71776",
+      "issued_at": "2026-03-17T14:56:45+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Supply Chain Pvt. Ltd.",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "33QQKCB1185W7ZI",
+        "pan": "QQKCB1185W",
+        "address": {
+          "line1": "Godown 160, Industrial Area",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "561409",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Reddy",
+          "email": "lreddy@rastogi.in",
+          "phone": "+91-70955-29781"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Trading Co.",
+        "legal_name": "Chatterjee Trading Co.",
+        "gstin": "29ZZTCB3699R6ZU",
+        "pan": "ZZTCB3699R",
+        "address": {
+          "line1": "Godown 232, Industrial Area",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "234659",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Singh",
+          "email": "anita.singh@chatterjee.co.in",
+          "phone": "+91-90998-45426"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 119.92,
+          "taxable_value": 89940.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10792.8
+        },
+        {
+          "line_no": 2,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 8084.83,
+          "taxable_value": 1455269.4,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 407475.43
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 65.57,
+          "taxable_value": 11802.6,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2124.47
+        }
+      ],
+      "total_taxable_value": 1557012.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 420392.7,
+      "total_tax": 420392.7,
+      "invoice_total": 1977404.7,
+      "currency": "INR",
+      "eway_bill_ref": "776498533279",
+      "vehicle_no": "TN28BZ4639",
+      "consignment_ref": "CONS-RAS-CHA-260314-71776"
+    },
+    "eway_bill": {
+      "ewb_no": "776498533279",
+      "generated_at": "2026-03-17T08:45:45+05:30",
+      "valid_until": "2026-03-18T08:45:45+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/71776",
+      "doc_date": "2026-03-17",
+      "from_gstin": "33QQKCB1185W7ZI",
+      "from_address": "Godown 160, Industrial Area, Ambattur, Ambattur, Tamil Nadu - 561409",
+      "to_gstin": "29ZZTCB3699R6ZU",
+      "to_address": "Godown 232, Industrial Area, Peenya, Peenya, Karnataka - 234659",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "23BNIAI3381H1ZT",
+      "mode": "road",
+      "vehicle_no": "TN28BZ4639",
+      "consignment_ref": "CONS-RAS-CHA-260314-71776",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 750.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 180.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 180.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 1557012.0,
+      "total_invoice_value": 1977404.7,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-71776",
+      "po_date": "2026-03-14",
+      "buyer_entity": "Chatterjee Trading Co.",
+      "vendor_code": "VND-4675",
+      "vendor_name": "Rastogi Supply Chain Pvt. Ltd.",
+      "vendor_gstin": "33QQKCB1185W7ZI",
+      "items": [
+        {
+          "item_code": "ITEM-61592",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 119.92,
+          "line_total": 89940.0,
+          "expected_delivery": "2026-03-26"
+        },
+        {
+          "item_code": "ITEM-69668",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 8084.83,
+          "line_total": 1455269.4,
+          "expected_delivery": "2026-03-25"
+        },
+        {
+          "item_code": "ITEM-74355",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 65.57,
+          "line_total": 11802.6,
+          "expected_delivery": "2026-03-25"
+        }
+      ],
+      "po_subtotal": 1557012.0,
+      "po_tax": 420392.7,
+      "po_total": 1977404.7,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Anita Singh",
+        "approved_at": "2026-03-15T02:41:07+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/71776"
+      ],
+      "grn": {
+        "grn_no": "GRN-71776",
+        "received_at": "2026-03-18T13:54:45+05:30",
+        "received_by": "Anita Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-61592",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-69668",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-74355",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-CHA-260314-71776"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-97170",
+      "thread_name": "CONS-RAS-CHA-260314-71776 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Patel",
+          "role": "driver",
+          "phone": "+91-70955-29781"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70955-29781"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Singh",
+          "role": "warehouse",
+          "phone": "+91-90998-45426"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-17T13:45:45+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Patel",
+          "lang": "en",
+          "text": "Vehicle TN28BZ4639 dispatched from Ambattur. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-17T16:45:45+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_642.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-17T19:45:45+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Patel",
+          "lang": "hi",
+          "text": "गाड़ी Peenya गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-17T20:16:45+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-17T20:45:45+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-17T21:30:45+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-17T22:54:45+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-CHA-260314-71776_58.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-19T04:54:45+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Reddy",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read TAX/2026-27/71776.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-16229",
+      "raised_at": "2026-03-18T23:54:45+05:30",
+      "raised_by": "Anita Singh",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-14T12:41:07+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "PUR-2026-71776",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-15T02:41:07+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "PUR-2026-71776",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-03-17T08:45:45+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "776498533279",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-03-17T13:45:45+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "TN28BZ4639",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-03-17T14:56:45+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/71776",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-17T19:45:45+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "TN28BZ4639",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-17T20:45:45+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-RAS-CHA-260314-71776",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-17T22:54:45+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-18T13:54:45+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "GRN-71776",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RAS-CHA-260314-71776 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "Before, which is a sequence violation: e-way bill 776498533279 was generated on 17 Mar 2026 at 08:45 citing invoice TAX/2026-27/71776 [EWB], but that invoice was only issued 6.2 hours later, on 17 Mar 2026 at 14:56 [INV]. The permit therefore references a document that did not yet exist [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-03-17T14:56:45+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/71776",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-03-17T08:45:45+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "TAX/2026-27/71776",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70955-29781",
+    "+91-90998-45426",
+    "QQKCB1185W",
+    "ZZTCB3699R",
+    "anita.singh@chatterjee.co.in",
+    "lreddy@rastogi.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271776,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

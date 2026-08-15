@@ -1,0 +1,435 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0033",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/64016",
+      "issued_at": "2026-03-10T12:41:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Exports",
+        "legal_name": "Chatterjee Exports",
+        "gstin": "24QQOPP5952T5ZE",
+        "pan": "QQOPP5952T",
+        "address": {
+          "line1": "Godown 110, Export Zone",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "515256",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Joshi",
+          "email": "rekha.joshi@chatterjee.in",
+          "phone": "+91-80246-81275"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Industries",
+        "legal_name": "Gupta Industries",
+        "gstin": "06XQPCJ9342A5ZQ",
+        "pan": "XQPCJ9342A",
+        "address": {
+          "line1": "Unit 29, Industrial Area",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "426165",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Joshi",
+          "email": "ajoshi@gupta.co.in",
+          "phone": "+91-70420-73588"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 67.77,
+          "taxable_value": 33885.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6099.3
+        },
+        {
+          "line_no": 2,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 8885.69,
+          "taxable_value": 888569.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 159942.42
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 8087.32,
+          "taxable_value": 4043660.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 727858.8
+        }
+      ],
+      "total_taxable_value": 4966114.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 893900.52,
+      "total_tax": 893900.52,
+      "invoice_total": 5860014.52,
+      "currency": "INR",
+      "eway_bill_ref": "016664530311",
+      "vehicle_no": "GJ78YP4098",
+      "consignment_ref": "CONS-CHA-GUP-260307-64016"
+    },
+    "eway_bill": {
+      "ewb_no": "016664530311",
+      "generated_at": "2026-03-10T20:14:21+05:30",
+      "valid_until": "2026-03-11T20:14:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/64016",
+      "doc_date": "2026-03-10",
+      "from_gstin": "24QQOPP5952T5ZE",
+      "from_address": "Godown 110, Export Zone, Vadodara, Vadodara, Gujarat - 515256",
+      "to_gstin": "06XQPCJ9342A5ZQ",
+      "to_address": "Unit 29, Industrial Area, Panipat, Panipat, Haryana - 426165",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "06EUJEF5428S1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ78YP4098",
+      "consignment_ref": "CONS-CHA-GUP-260307-64016",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 4966114.0,
+      "total_invoice_value": 5860014.52,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-64016",
+      "po_date": "2026-03-07",
+      "buyer_entity": "Gupta Industries",
+      "vendor_code": "VND-3363",
+      "vendor_name": "Chatterjee Exports",
+      "vendor_gstin": "24QQOPP5952T5ZE",
+      "items": [
+        {
+          "item_code": "ITEM-46364",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 67.77,
+          "line_total": 33885.0,
+          "expected_delivery": "2026-03-13"
+        },
+        {
+          "item_code": "ITEM-41352",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 8885.69,
+          "line_total": 888569.0,
+          "expected_delivery": "2026-03-19"
+        },
+        {
+          "item_code": "ITEM-58429",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 8087.32,
+          "line_total": 4043660.0,
+          "expected_delivery": "2026-03-17"
+        }
+      ],
+      "po_subtotal": 4966114.0,
+      "po_tax": 893900.52,
+      "po_total": 5860014.52,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Anita Joshi",
+        "approved_at": "2026-03-08T06:34:23+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/64016"
+      ],
+      "grn": {
+        "grn_no": "GRN-64016",
+        "received_at": "2026-03-11T17:32:21+05:30",
+        "received_by": "Anita Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-46364",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-41352",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-58429",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-GUP-260307-64016"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-69704",
+      "thread_name": "CONS-CHA-GUP-260307-64016 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Gupta",
+          "role": "driver",
+          "phone": "+91-80246-81275"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Joshi",
+          "role": "dispatcher",
+          "phone": "+91-80246-81275"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Joshi",
+          "role": "warehouse",
+          "phone": "+91-70420-73588"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-11T00:14:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "सर GJ78YP4098 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-11T01:37:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-11T02:14:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-11T04:14:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-11T06:14:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Panipat warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-11T06:23:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Joshi",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-11T07:14:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Joshi",
+          "lang": "en",
+          "text": "Consignment received in full at our Panipat warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-11T07:24:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Joshi",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-03-11T08:32:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-008",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-GUP-260307-64016_60.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-07T10:34:23+05:30",
+      "actor": "Gupta Industries",
+      "doc_ref": "PUR-2026-64016",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-08T06:34:23+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "PUR-2026-64016",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-10T12:41:21+05:30",
+      "actor": "Chatterjee Exports",
+      "doc_ref": "TAX/2026-27/64016",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-10T20:14:21+05:30",
+      "actor": "Chatterjee Exports",
+      "doc_ref": "016664530311",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-11T00:14:21+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "GJ78YP4098",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-11T06:14:21+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "GJ78YP4098",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-11T07:14:21+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-CHA-GUP-260307-64016",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-11T08:32:21+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-11T17:32:21+05:30",
+      "actor": "Anita Joshi",
+      "doc_ref": "GRN-64016",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice TAX/2026-27/64016?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264016,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0025",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/63240",
+      "issued_at": "2026-05-31T12:05:06+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Enterprises",
+        "legal_name": "Gupta Enterprises",
+        "gstin": "36QQJPX5584M5ZS",
+        "pan": "QQJPX5584M",
+        "address": {
+          "line1": "Plot 229, Export Zone",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "642553",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Banerjee",
+          "email": "meena.banerjee@gupta.co.in",
+          "phone": "+91-90809-82437"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Manufacturing Pvt. Ltd",
+        "legal_name": "Sharma Manufacturing Pvt. Ltd.",
+        "gstin": "19XQVCU4690V8ZE",
+        "pan": "XQVCU4690V",
+        "address": {
+          "line1": "Godown 48, Export Zone",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "436512",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Mishra",
+          "email": "arjun.mishra@sharma.co.in",
+          "phone": "+91-90133-11589"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 7304.31,
+          "taxable_value": 7304310.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2045206.8
+        },
+        {
+          "line_no": 2,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 8912.12,
+          "taxable_value": 1604181.6,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 288752.69
+        }
+      ],
+      "total_taxable_value": 8908491.6,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2333959.49,
+      "total_tax": 2333959.49,
+      "invoice_total": 11242451.09,
+      "currency": "INR",
+      "eway_bill_ref": "240299978799",
+      "vehicle_no": "TS34QP1051",
+      "consignment_ref": "CONS-GUP-SHA-260528-63240"
+    },
+    "eway_bill": {
+      "ewb_no": "240299978799",
+      "generated_at": "2026-05-31T15:11:06+05:30",
+      "valid_until": "2026-06-06T15:11:06+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/63240",
+      "doc_date": "2026-05-31",
+      "from_gstin": "36QQJPX5584M5ZS",
+      "from_address": "Plot 229, Export Zone, Medchal, Medchal, Telangana - 642553",
+      "to_gstin": "19XQVCU4690V8ZE",
+      "to_address": "Godown 48, Export Zone, Durgapur, Durgapur, West Bengal - 436512",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23GKQEJ5256P1ZT",
+      "mode": "road",
+      "vehicle_no": "TS34QP1051",
+      "consignment_ref": "CONS-GUP-SHA-260528-63240",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 180.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 8908491.6,
+      "total_invoice_value": 11241451.09,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-63240",
+      "po_date": "2026-05-28",
+      "buyer_entity": "Sharma Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-1575",
+      "vendor_name": "Gupta Enterprises",
+      "vendor_gstin": "36QQJPX5584M5ZS",
+      "items": [
+        {
+          "item_code": "ITEM-37188",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 7304.31,
+          "line_total": 7304310.0,
+          "expected_delivery": "2026-06-03"
+        },
+        {
+          "item_code": "ITEM-85587",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 8912.12,
+          "line_total": 1604181.6,
+          "expected_delivery": "2026-06-03"
+        }
+      ],
+      "po_subtotal": 8908491.6,
+      "po_tax": 2333959.49,
+      "po_total": 11242451.09,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Arjun Mishra",
+        "approved_at": "2026-05-28T18:27:13+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/63240"
+      ],
+      "grn": {
+        "grn_no": "GRN-63240",
+        "received_at": "2026-06-02T17:25:06+05:30",
+        "received_by": "Arjun Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-37188",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-85587",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-SHA-260528-63240"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-97136",
+      "thread_name": "CONS-GUP-SHA-260528-63240 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Gupta",
+          "role": "driver",
+          "phone": "+91-90809-82437"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90809-82437"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Mishra",
+          "role": "warehouse",
+          "phone": "+91-90133-11589"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-31T18:11:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi-en",
+          "text": "Sir TS34QP1051 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-01T08:11:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Durgapur pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_771.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-01T22:11:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-02T02:11:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-02T02:34:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Mishra",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-02T03:25:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-SHA-260528-63240_16.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-02T21:25:06+05:30",
+          "sender_id": "P2",
+          "sender_name": "Meena Banerjee",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 11,241,451.09 likhi hai par invoice Rs. 11,242,451.09 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-28T09:27:13+05:30",
+      "actor": "Sharma Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-63240",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-28T18:27:13+05:30",
+      "actor": "Arjun Mishra",
+      "doc_ref": "ORD-2026-63240",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-31T12:05:06+05:30",
+      "actor": "Gupta Enterprises",
+      "doc_ref": "TAX/2026-27/63240",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-31T15:11:06+05:30",
+      "actor": "Gupta Enterprises",
+      "doc_ref": "240299978799",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-31T18:11:06+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS34QP1051",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-01T22:11:06+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS34QP1051",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-02T02:11:06+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-GUP-SHA-260528-63240",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-02T03:25:06+05:30",
+      "actor": "Arjun Mishra",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-02T17:25:06+05:30",
+      "actor": "Arjun Mishra",
+      "doc_ref": "GRN-63240",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-GUP-SHA-260528-63240?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice TAX/2026-27/63240 totals Rs. 11,242,451.09 [INV] but e-way bill 240299978799 declares Rs. 11,241,451.09 [EWB], a discrepancy of Rs. 1,000.00. The accounts team raised the same discrepancy on the delivery thread [M-007].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/63240",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "11242451.09",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "240299978799",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "11241451.09",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-GUP-SHA-260528-63240",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 11,241,451.09 likhi hai par invoice Rs. 11,242,451.09 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 11,241,451.09 likhi hai par invoice Rs. 11,242,451.09 ka hai",
+        "gloss_en": "the e-way bill states Rs. 11,241,451.09 but the invoice is for Rs. 11,242,451.09"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263240,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

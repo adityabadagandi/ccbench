@@ -1,0 +1,359 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0172",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/77499",
+      "issued_at": "2026-05-30T18:05:22+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Distributors",
+        "legal_name": "Verma Distributors",
+        "gstin": "27QQDPD0200G2ZR",
+        "pan": "QQDPD0200G",
+        "address": {
+          "line1": "Unit 18, Export Zone",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "813913",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Banerjee",
+          "email": "farhan.banerjee@verma.in",
+          "phone": "+91-80203-80945"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Exports",
+        "legal_name": "Deshmukh Exports",
+        "gstin": "19XQIPN2084M5ZZ",
+        "pan": "XQIPN2084M",
+        "address": {
+          "line1": "Plot 63, Industrial Area",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "139779",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Reddy",
+          "email": "imranr@deshmukh.in",
+          "phone": "+91-70100-45380"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 110.08,
+          "taxable_value": 11008.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 550.4
+        }
+      ],
+      "total_taxable_value": 11008.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 550.4,
+      "total_tax": 550.4,
+      "invoice_total": 11558.4,
+      "currency": "INR",
+      "eway_bill_ref": "499332594099",
+      "vehicle_no": "MH48WE5970",
+      "consignment_ref": "CONS-VER-DES-260527-77499"
+    },
+    "eway_bill": {
+      "ewb_no": "499332594099",
+      "generated_at": "2026-05-30T21:38:22+05:30",
+      "valid_until": "2026-05-31T21:38:22+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/77499",
+      "doc_date": "2026-05-30",
+      "from_gstin": "27QQDPD0200G2ZR",
+      "from_address": "Unit 18, Export Zone, Andheri East, Andheri East, Maharashtra - 813913",
+      "to_gstin": "19XQIPN2084M5ZZ",
+      "to_address": "Plot 63, Industrial Area, Durgapur, Durgapur, West Bengal - 139779",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "09JJCQN6729A1ZT",
+      "mode": "road",
+      "vehicle_no": "MH48WE5970",
+      "consignment_ref": "CONS-VER-DES-260527-77499",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 11008.0,
+      "total_invoice_value": 11558.4,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-77499",
+      "po_date": "2026-05-27",
+      "buyer_entity": "Deshmukh Exports",
+      "vendor_code": "VND-7089",
+      "vendor_name": "Verma Distributors",
+      "vendor_gstin": "27QQDPD0200G2ZR",
+      "items": [
+        {
+          "item_code": "ITEM-51695",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 110.08,
+          "line_total": 11008.0,
+          "expected_delivery": "2026-06-03"
+        }
+      ],
+      "po_subtotal": 11008.0,
+      "po_tax": 550.4,
+      "po_total": 11558.4,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Imran Reddy",
+        "approved_at": "2026-05-28T19:34:23+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/77499"
+      ],
+      "grn": {
+        "grn_no": "GRN-77499",
+        "received_at": "2026-06-01T08:33:22+05:30",
+        "received_by": "Imran Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-51695",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-DES-260527-77499"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-36550",
+      "thread_name": "CONS-VER-DES-260527-77499 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Yadav",
+          "role": "driver",
+          "phone": "+91-80203-80945"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-80203-80945"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Reddy",
+          "role": "warehouse",
+          "phone": "+91-70100-45380"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-31T01:38:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Sir MH48WE5970 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-31T03:38:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-31T05:38:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Durgapur pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_244.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-31T07:38:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Durgapur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-31T11:38:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "Consignment received in full at our Durgapur warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-31T12:02:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Reddy",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-31T12:33:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-DES-260527-77499_50.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-5601.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-27T17:34:23+05:30",
+      "actor": "Deshmukh Exports",
+      "doc_ref": "PO-2026-77499",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-28T19:34:23+05:30",
+      "actor": "Imran Reddy",
+      "doc_ref": "PO-2026-77499",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-30T18:05:22+05:30",
+      "actor": "Verma Distributors",
+      "doc_ref": "INV/2026-27/77499",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-30T21:38:22+05:30",
+      "actor": "Verma Distributors",
+      "doc_ref": "499332594099",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-31T01:38:22+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH48WE5970",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-31T07:38:22+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH48WE5970",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-31T11:38:22+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-VER-DES-260527-77499",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-31T12:33:22+05:30",
+      "actor": "Imran Reddy",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-01T08:33:22+05:30",
+      "actor": "Imran Reddy",
+      "doc_ref": "GRN-77499",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-VER-DES-260527-77499?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277499,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

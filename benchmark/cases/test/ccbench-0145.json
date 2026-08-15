@@ -1,0 +1,376 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0145",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/74880",
+      "issued_at": "2026-01-07T13:05:32+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Industries",
+        "legal_name": "Verma Industries",
+        "gstin": "27XQGCN6939G6ZT",
+        "pan": "XQGCN6939G",
+        "address": {
+          "line1": "Shed 119, Industrial Area",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "497400",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Yadav",
+          "email": "syadav@verma.in",
+          "phone": "+91-70189-90972"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Logistics Pvt Ltd",
+        "legal_name": "Sharma Logistics Pvt. Ltd.",
+        "gstin": "27ZZVCY9932W4ZN",
+        "pan": "ZZVCY9932W",
+        "address": {
+          "line1": "Plot 121, Logistics Park",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "255632",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Iyer",
+          "email": "kavita.iyer@sharma.com",
+          "phone": "+91-70856-38398"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 39.75,
+          "taxable_value": 9937.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 894.38,
+          "sgst_amount": 894.37,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 9937.5,
+      "total_cgst": 894.38,
+      "total_sgst": 894.37,
+      "total_igst": 0.0,
+      "total_tax": 1788.75,
+      "invoice_total": 11726.25,
+      "currency": "INR",
+      "eway_bill_ref": "880568621614",
+      "vehicle_no": "MH19PL6164",
+      "consignment_ref": "CONS-VER-SHA-260101-74880"
+    },
+    "eway_bill": {
+      "ewb_no": "880568621614",
+      "generated_at": "2026-01-07T21:38:32+05:30",
+      "valid_until": "2026-01-12T21:38:32+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/74880",
+      "doc_date": "2026-01-07",
+      "from_gstin": "27XQGCN6939G6ZT",
+      "from_address": "Shed 119, Industrial Area, Andheri East, Andheri East, Maharashtra - 497400",
+      "to_gstin": "27ZZVCY9932W4ZN",
+      "to_address": "Plot 121, Logistics Park, Chakan, Chakan, Maharashtra - 255632",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "19CKVFE7231H1ZT",
+      "mode": "road",
+      "vehicle_no": "MH19PL6164",
+      "consignment_ref": "CONS-VER-SHA-260101-74880",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 250.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 9937.5,
+      "total_invoice_value": 9067.08,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-74880",
+      "po_date": "2026-01-01",
+      "buyer_entity": "Sharma Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5694",
+      "vendor_name": "Verma Industries",
+      "vendor_gstin": "27XQGCN6939G6ZT",
+      "items": [
+        {
+          "item_code": "ITEM-26496",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 39.75,
+          "line_total": 9937.5,
+          "expected_delivery": "2026-01-11"
+        }
+      ],
+      "po_subtotal": 9937.5,
+      "po_tax": 1788.75,
+      "po_total": 11726.25,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Kavita Iyer",
+        "approved_at": "2026-01-02T09:56:52+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/74880"
+      ],
+      "grn": {
+        "grn_no": "GRN-74880",
+        "received_at": "2026-01-09T02:50:32+05:30",
+        "received_by": "Kavita Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-26496",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-SHA-260101-74880"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-19889",
+      "thread_name": "CONS-VER-SHA-260101-74880 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Reddy",
+          "role": "driver",
+          "phone": "+91-70189-90972"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70189-90972"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Iyer",
+          "role": "warehouse",
+          "phone": "+91-70856-38398"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Dinesh Reddy",
+          "role": "accounts",
+          "phone": "+91-70856-38398"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-07T23:38:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "MH19PL6164 dispatch ho gayi Andheri East se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-07T23:59:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-08T09:08:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_786.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-08T18:38:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-08T20:38:32+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Iyer",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-08T20:52:32+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-08T22:50:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-SHA-260101-74880_14.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-01-09T10:50:32+05:30",
+          "sender_id": "P4",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 9,067.08 likhi hai par invoice Rs. 11,726.25 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-11310",
+      "raised_at": "2026-01-09T09:50:32+05:30",
+      "raised_by": "Kavita Iyer",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-01T11:56:52+05:30",
+      "actor": "Sharma Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-74880",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-02T09:56:52+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "PO-2026-74880",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-07T13:05:32+05:30",
+      "actor": "Verma Industries",
+      "doc_ref": "TAX/2026-27/74880",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-07T21:38:32+05:30",
+      "actor": "Verma Industries",
+      "doc_ref": "880568621614",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-07T23:38:32+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH19PL6164",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-08T18:38:32+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH19PL6164",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-08T20:38:32+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-VER-SHA-260101-74880",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-08T22:50:32+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-09T02:50:32+05:30",
+      "actor": "Kavita Iyer",
+      "doc_ref": "GRN-74880",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने खेप CONS-VER-SHA-260101-74880 के कागज़ात पर सवाल उठाया था, और क्या वह सही था?",
+  "question_lang": "hi",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274880,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

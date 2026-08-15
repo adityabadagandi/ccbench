@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0196",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/79827",
+      "issued_at": "2026-04-29T11:34:30+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Polymers Ltd.",
+        "legal_name": "Verma Polymers Ltd.",
+        "gstin": "06XQXCN8056O8ZH",
+        "pan": "XQXCN8056O",
+        "address": {
+          "line1": "Godown 203, Industrial Area",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "846984",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Iyer",
+          "email": "diyer@verma.in",
+          "phone": "+91-80349-14774"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Manufacturing Private Limited",
+        "legal_name": "Gupta Manufacturing Pvt. Ltd.",
+        "gstin": "19XQICN3163P4ZU",
+        "pan": "XQICN3163P",
+        "address": {
+          "line1": "Warehouse 91, Phase II",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "598967",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Khan",
+          "email": "akhan@gupta.co.in",
+          "phone": "+91-70571-91106"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 11842.3,
+          "taxable_value": 1184230.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 213161.4
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 159.65,
+          "taxable_value": 15965.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2873.7
+        }
+      ],
+      "total_taxable_value": 1200195.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 216035.1,
+      "total_tax": 216035.1,
+      "invoice_total": 1416230.1,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "HR13QQ7650",
+      "consignment_ref": "CONS-VER-GUP-260422-79827"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-79827",
+      "po_date": "2026-04-22",
+      "buyer_entity": "Gupta Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-9181",
+      "vendor_name": "Verma Polymers Ltd.",
+      "vendor_gstin": "06XQXCN8056O8ZH",
+      "items": [
+        {
+          "item_code": "ITEM-76373",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 11842.3,
+          "line_total": 1184230.0,
+          "expected_delivery": "2026-05-06"
+        },
+        {
+          "item_code": "ITEM-80848",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 159.65,
+          "line_total": 15965.0,
+          "expected_delivery": "2026-05-04"
+        }
+      ],
+      "po_subtotal": 1200195.0,
+      "po_tax": 216035.1,
+      "po_total": 1416230.1,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Anita Khan",
+        "approved_at": "2026-04-23T05:56:09+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/79827"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-VER-GUP-260422-79827"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-16530",
+      "thread_name": "CONS-VER-GUP-260422-79827 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Singh",
+          "role": "driver",
+          "phone": "+91-80349-14774"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Iyer",
+          "role": "dispatcher",
+          "phone": "+91-80349-14774"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Khan",
+          "role": "warehouse",
+          "phone": "+91-70571-91106"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-29T18:26:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "en",
+          "text": "Vehicle HR13QQ7650 has left Faridabad.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-29T19:52:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi-en",
+          "text": "Bhain khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-30T00:26:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-30T04:26:30+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Iyer",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-30T14:26:30+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Iyer",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-69466",
+      "raised_at": "2026-05-02T13:12:30+05:30",
+      "raised_by": "Anita Khan",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-22T19:56:09+05:30",
+      "actor": "Gupta Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-79827",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-23T05:56:09+05:30",
+      "actor": "Anita Khan",
+      "doc_ref": "ORD-2026-79827",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-29T11:34:30+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/79827",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-04-29T18:26:30+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR13QQ7650",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-05-01T16:26:30+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR13QQ7650",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-05-01T20:26:30+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-VER-GUP-260422-79827",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-05-01T23:12:30+05:30",
+      "actor": "Anita Khan",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-VER-GUP-260422-79827 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279827,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0178",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/78081",
+      "issued_at": "2026-06-29T19:18:53+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Engineering Works",
+        "legal_name": "Deshmukh Engineering Works",
+        "gstin": "33XQCCY5178A5Z4",
+        "pan": "XQCCY5178A",
+        "address": {
+          "line1": "Godown 233, Industrial Area",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "165448",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Gupta",
+          "email": "arjung@deshmukh.in",
+          "phone": "+91-70265-18161"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Polymers Ltd.",
+        "legal_name": "Iyer Polymers Ltd.",
+        "gstin": "07QQCCB3783L8ZD",
+        "pan": "QQCCB3783L",
+        "address": {
+          "line1": "Shed 102, Industrial Area",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "794471",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Rao",
+          "email": "priyar@iyer.com",
+          "phone": "+91-80923-32398"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 101.47,
+          "taxable_value": 40588.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2029.4
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 170.99,
+          "taxable_value": 128242.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 23083.65
+        }
+      ],
+      "total_taxable_value": 168830.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 25113.05,
+      "total_tax": 25113.05,
+      "invoice_total": 193943.55,
+      "currency": "INR",
+      "eway_bill_ref": "081412949263",
+      "vehicle_no": "TN60WF7281",
+      "consignment_ref": "CONS-DES-IYE-260619-78081"
+    },
+    "eway_bill": {
+      "ewb_no": "081412949263",
+      "generated_at": "2026-06-29T22:51:53+05:30",
+      "valid_until": "2026-07-05T22:51:53+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/78081",
+      "doc_date": "2026-06-29",
+      "from_gstin": "33XQCCY5178A5Z4",
+      "from_address": "Godown 233, Industrial Area, Hosur Road, Hosur Road, Tamil Nadu - 165448",
+      "to_gstin": "07QQCCB3783L8ZD",
+      "to_address": "Shed 102, Industrial Area, Okhla Phase II, Okhla Phase II, Delhi - 794471",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "29ZGHJB2776V1ZT",
+      "mode": "road",
+      "vehicle_no": "TN60WF7281",
+      "consignment_ref": "CONS-DES-IYE-260619-78081",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 168830.5,
+      "total_invoice_value": 139943.0,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-78081",
+      "po_date": "2026-06-19",
+      "buyer_entity": "Iyer Polymers Ltd.",
+      "vendor_code": "VND-8716",
+      "vendor_name": "Deshmukh Engineering Works",
+      "vendor_gstin": "33XQCCY5178A5Z4",
+      "items": [
+        {
+          "item_code": "ITEM-48149",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 101.47,
+          "line_total": 40588.0,
+          "expected_delivery": "2026-07-05"
+        },
+        {
+          "item_code": "ITEM-18133",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 170.99,
+          "line_total": 128242.5,
+          "expected_delivery": "2026-07-07"
+        }
+      ],
+      "po_subtotal": 168830.5,
+      "po_tax": 25113.05,
+      "po_total": 193943.55,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Priya Rao",
+        "approved_at": "2026-06-20T06:49:13+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/78081"
+      ],
+      "grn": {
+        "grn_no": "GRN-78081",
+        "received_at": "2026-07-01T16:30:53+05:30",
+        "received_by": "Priya Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-48149",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-18133",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-IYE-260619-78081"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-83280",
+      "thread_name": "CONS-DES-IYE-260619-78081 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Singh",
+          "role": "driver",
+          "phone": "+91-70265-18161"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Gupta",
+          "role": "dispatcher",
+          "phone": "+91-70265-18161"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Priya Rao",
+          "role": "warehouse",
+          "phone": "+91-80923-32398"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-30T03:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Singh",
+          "lang": "hi-en",
+          "text": "TN60WF7281 dispatch ho gayi Hosur Road se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-30T16:21:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-01T04:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Singh",
+          "lang": "hi-en",
+          "text": "Okhla Phase II warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-01T05:22:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Rao",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-01T05:51:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Singh",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-01T06:28:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Rao",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-01T08:30:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-IYE-260619-78081_88.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-01T17:30:53+05:30",
+          "sender_id": "P2",
+          "sender_name": "Arjun Gupta",
+          "lang": "en",
+          "text": "Flagging a mismatch: permit declares Rs. 139,943.00 against an invoice of Rs. 193,943.55. Please confirm which is correct.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-19T17:49:13+05:30",
+      "actor": "Iyer Polymers Ltd.",
+      "doc_ref": "PO-2026-78081",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-20T06:49:13+05:30",
+      "actor": "Priya Rao",
+      "doc_ref": "PO-2026-78081",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-29T19:18:53+05:30",
+      "actor": "Deshmukh Engineering Works",
+      "doc_ref": "INV/2026-27/78081",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-29T22:51:53+05:30",
+      "actor": "Deshmukh Engineering Works",
+      "doc_ref": "081412949263",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-30T03:51:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN60WF7281",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-01T04:51:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN60WF7281",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-01T05:51:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-DES-IYE-260619-78081",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-01T08:30:53+05:30",
+      "actor": "Priya Rao",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-01T16:30:53+05:30",
+      "actor": "Priya Rao",
+      "doc_ref": "GRN-78081",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-DES-IYE-260619-78081?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice INV/2026-27/78081 totals Rs. 193,943.55 [INV] but e-way bill 081412949263 declares Rs. 139,943.00 [EWB], a discrepancy of Rs. 54,000.55. The accounts team raised the same discrepancy on the delivery thread [M-008].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/78081",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "193943.55",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "081412949263",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "139943.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-DES-IYE-260619-78081",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Flagging a mismatch: permit declares Rs. 139,943.00 against an invoice of Rs. 193,943.55. Please confirm which is correct.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "en",
+        "span": "permit declares Rs. 139,943.00 against an invoice of Rs. 193,943.55",
+        "gloss_en": "permit declares Rs. 139,943.00 against an invoice of Rs. 193,943.55"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278081,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

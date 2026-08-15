@@ -1,0 +1,408 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0173",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77596",
+      "issued_at": "2026-02-17T11:05:58+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Distributors",
+        "legal_name": "Chatterjee Distributors",
+        "gstin": "24QQZPU3293P4ZP",
+        "pan": "QQZPU3293P",
+        "address": {
+          "line1": "Warehouse 66, Industrial Area",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "481381",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Sharma",
+          "email": "rekha.sharma@chatterjee.com",
+          "phone": "+91-90753-90855"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Trading Co.",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "29XQLCN3600G6Z1",
+        "pan": "XQLCN3600G",
+        "address": {
+          "line1": "Plot 98, Export Zone",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "141078",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Khan",
+          "email": "sameerk@krishna.in",
+          "phone": "+91-70928-34525"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 102.12,
+          "taxable_value": 5106.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 919.08
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 58926.91,
+          "taxable_value": 2946345.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 530342.19
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 3149.88,
+          "taxable_value": 3149880.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 566978.4
+        }
+      ],
+      "total_taxable_value": 6101331.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1098239.67,
+      "total_tax": 1098239.67,
+      "invoice_total": 7199571.17,
+      "currency": "INR",
+      "eway_bill_ref": "596708492973",
+      "vehicle_no": "GJ28DL4752",
+      "consignment_ref": "CONS-CHA-KRI-260213-77596"
+    },
+    "eway_bill": {
+      "ewb_no": "596708492973",
+      "generated_at": "2026-02-17T12:38:58+05:30",
+      "valid_until": "2026-02-21T12:38:58+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/77596",
+      "doc_date": "2026-02-17",
+      "from_gstin": "24QQZPU3293P4ZP",
+      "from_address": "Warehouse 66, Industrial Area, Rajkot, Rajkot, Gujarat - 481381",
+      "to_gstin": "29XQLCN3600G6Z1",
+      "to_address": "Plot 98, Export Zone, Electronic City, Electronic City, Karnataka - 141078",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "19GFNBV9643T1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ28DL4752",
+      "consignment_ref": "CONS-CHA-KRI-260213-77596",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 6101331.5,
+      "total_invoice_value": 7199571.17,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-77596",
+      "po_date": "2026-02-13",
+      "buyer_entity": "Krishna Trading Co.",
+      "vendor_code": "VND-2008",
+      "vendor_name": "Chatterjee Distributors",
+      "vendor_gstin": "24QQZPU3293P4ZP",
+      "items": [
+        {
+          "item_code": "ITEM-99530",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 102.12,
+          "line_total": 5106.0,
+          "expected_delivery": "2026-02-20"
+        },
+        {
+          "item_code": "ITEM-36065",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 58926.91,
+          "line_total": 2946345.5,
+          "expected_delivery": "2026-02-25"
+        },
+        {
+          "item_code": "ITEM-80763",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 3149.88,
+          "line_total": 3149880.0,
+          "expected_delivery": "2026-02-26"
+        }
+      ],
+      "po_subtotal": 6101331.5,
+      "po_tax": 1098239.67,
+      "po_total": 7199571.17,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Sameer Khan",
+        "approved_at": "2026-02-14T15:05:59+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77596"
+      ],
+      "grn": {
+        "grn_no": "GRN-77596",
+        "received_at": "2026-02-18T12:02:58+05:30",
+        "received_by": "Sameer Khan",
+        "lines": [
+          {
+            "item_code": "ITEM-99530",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-36065",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-80763",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-KRI-260213-77596"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-15042",
+      "thread_name": "CONS-CHA-KRI-260213-77596 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-90753-90855"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Sharma",
+          "role": "dispatcher",
+          "phone": "+91-90753-90855"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Khan",
+          "role": "warehouse",
+          "phone": "+91-70928-34525"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Singh",
+          "role": "accounts",
+          "phone": "+91-70928-34525"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-17T13:38:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "सर GJ28DL4752 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-17T20:38:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Electronic City.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-18T03:38:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-18T06:38:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Consignment received in full at our Electronic City warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-18T07:00:58+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Khan",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-18T09:02:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-KRI-260213-77596_44.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-13T16:05:59+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "PO-2026-77596",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-14T15:05:59+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "PO-2026-77596",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-17T11:05:58+05:30",
+      "actor": "Chatterjee Distributors",
+      "doc_ref": "GST/2026-27/77596",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-17T12:38:58+05:30",
+      "actor": "Chatterjee Distributors",
+      "doc_ref": "596708492973",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-17T13:38:58+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "GJ28DL4752",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-18T03:38:58+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "GJ28DL4752",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-18T06:38:58+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-CHA-KRI-260213-77596",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-18T09:02:58+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-18T12:02:58+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "GRN-77596",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice GST/2026-27/77596 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277596,
+    "notes": "task=comp_pan defect=none"
+  }
+}

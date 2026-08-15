@@ -1,0 +1,358 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0065",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/67120",
+      "issued_at": "2026-04-05T18:05:24+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Supply Chain Pvt. Limited",
+        "legal_name": "Shree Ganesh Supply Chain Pvt. Ltd.",
+        "gstin": "29QQECO5616N8ZY",
+        "pan": "QQECO5616N",
+        "address": {
+          "line1": "Unit 185, Phase II",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "457614",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Gupta",
+          "email": "vijay.gupta@shree.co.in",
+          "phone": "+91-80466-78081"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Logistics P Ltd",
+        "legal_name": "Mehta Brothers Logistics Pvt. Ltd.",
+        "gstin": "27QQWPJ0210J5Z7",
+        "pan": "QQWPJ0210J",
+        "address": {
+          "line1": "Warehouse 105, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "359910",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Desai",
+          "email": "sureshd@mehta.com",
+          "phone": "+91-70715-53861"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 240.47,
+          "taxable_value": 60117.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10821.15
+        }
+      ],
+      "total_taxable_value": 60117.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 10821.15,
+      "total_tax": 10821.15,
+      "invoice_total": 70938.65,
+      "currency": "INR",
+      "eway_bill_ref": "120210722111",
+      "vehicle_no": "KA36GN1384",
+      "consignment_ref": "CONS-SHR-MEH-260328-67120"
+    },
+    "eway_bill": {
+      "ewb_no": "120210722111",
+      "generated_at": "2026-04-05T22:24:24+05:30",
+      "valid_until": "2026-04-10T22:24:24+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/67120",
+      "doc_date": "2026-04-05",
+      "from_gstin": "29QQECO5616N8ZY",
+      "from_address": "Unit 185, Phase II, Nelamangala, Nelamangala, Karnataka - 457614",
+      "to_gstin": "27QQWPJ0210J5Z7",
+      "to_address": "Warehouse 105, Industrial Area, Thane, Thane, Maharashtra - 359910",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "09HAFPE2936F1ZT",
+      "mode": "road",
+      "vehicle_no": "KA36GN1384",
+      "consignment_ref": "CONS-SHR-MEH-260328-67120",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 60117.5,
+      "total_invoice_value": 70938.65,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-67120",
+      "po_date": "2026-03-28",
+      "buyer_entity": "Mehta Brothers Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5056",
+      "vendor_name": "Shree Ganesh Supply Chain Pvt. Limited",
+      "vendor_gstin": "29QQECO5616N8ZY",
+      "items": [
+        {
+          "item_code": "ITEM-86454",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 240.47,
+          "line_total": 60117.5,
+          "expected_delivery": "2026-04-09"
+        }
+      ],
+      "po_subtotal": 60117.5,
+      "po_tax": 10821.15,
+      "po_total": 70938.65,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Suresh Desai",
+        "approved_at": "2026-03-29T21:34:43+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/67120"
+      ],
+      "grn": {
+        "grn_no": "GRN-67120",
+        "received_at": "2026-04-06T22:58:24+05:30",
+        "received_by": "Suresh Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-86454",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-MEH-260328-67120"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-38258",
+      "thread_name": "CONS-SHR-MEH-260328-67120 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-80466-78081"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80466-78081"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Suresh Desai",
+          "role": "warehouse",
+          "phone": "+91-70715-53861"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-06T00:24:24+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "KA36GN1384 dispatch ho gayi Nelamangala se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-06T01:17:24+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-06T09:24:24+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-06T18:24:24+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "गाड़ी Thane गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-06T20:24:24+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Desai",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-06T20:38:24+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Desai",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-06T20:58:24+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-MEH-260328-67120_79.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-07T12:58:24+05:30",
+          "sender_id": "P2",
+          "sender_name": "Vijay Gupta",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/67120.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-28T16:34:43+05:30",
+      "actor": "Mehta Brothers Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-67120",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-29T21:34:43+05:30",
+      "actor": "Suresh Desai",
+      "doc_ref": "ORD-2026-67120",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-05T18:05:24+05:30",
+      "actor": "Shree Ganesh Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/67120",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-05T22:24:24+05:30",
+      "actor": "Shree Ganesh Supply Chain Pvt. Ltd.",
+      "doc_ref": "120210722111",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-06T00:24:24+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "KA36GN1384",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-06T18:24:24+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "KA36GN1384",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-06T20:24:24+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-SHR-MEH-260328-67120",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-06T20:58:24+05:30",
+      "actor": "Suresh Desai",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-06T22:58:24+05:30",
+      "actor": "Suresh Desai",
+      "doc_ref": "GRN-67120",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice GST/2026-27/67120?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267120,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

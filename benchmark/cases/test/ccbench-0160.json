@@ -1,0 +1,397 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0160",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/76335",
+      "issued_at": "2026-05-07T12:12:06+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Industries",
+        "legal_name": "Shree Ganesh Industries",
+        "gstin": "07XQIPW2935C1ZB",
+        "pan": "XQIPW2935C",
+        "address": {
+          "line1": "Shed 3, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "422334",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Patel",
+          "email": "kavita.patel@shree.co.in",
+          "phone": "+91-70464-45451"
+        }
+      },
+      "buyer": {
+        "name": "Patel Distributors",
+        "legal_name": "Patel Distributors",
+        "gstin": "23QQVPH3533S6ZC",
+        "pan": "QQVPH3533S",
+        "address": {
+          "line1": "Unit 62, Export Zone",
+          "line2": "Govindpura, Bhopal",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "622622",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Gupta",
+          "email": "kavitag@patel.co.in",
+          "phone": "+91-70505-65203"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 112.93,
+          "taxable_value": 20327.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1016.37
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 38.69,
+          "taxable_value": 967.25,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 174.1
+        }
+      ],
+      "total_taxable_value": 21294.65,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1190.47,
+      "total_tax": 1190.47,
+      "invoice_total": 22485.12,
+      "currency": "INR",
+      "eway_bill_ref": "335944437991",
+      "vehicle_no": "DL82LW6480",
+      "consignment_ref": "CONS-SHR-PAT-260426-76335"
+    },
+    "eway_bill": {
+      "ewb_no": "335944437991",
+      "generated_at": "2026-05-07T18:31:06+05:30",
+      "valid_until": "2026-05-18T18:31:06+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/76335",
+      "doc_date": "2026-05-07",
+      "from_gstin": "07XQIPW2935C1ZB",
+      "from_address": "Shed 3, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 422334",
+      "to_gstin": "23QQVPH3533S6ZC",
+      "to_address": "Unit 62, Export Zone, Govindpura, Bhopal, Bhopal, Madhya Pradesh - 622622",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "29XXBMU7537A1ZT",
+      "mode": "road",
+      "vehicle_no": "DL82LW6480",
+      "consignment_ref": "CONS-SHR-PAT-260426-76335",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 21294.65,
+      "total_invoice_value": 22485.12,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-76335",
+      "po_date": "2026-04-26",
+      "buyer_entity": "Patel Distributors",
+      "vendor_code": "VND-7672",
+      "vendor_name": "Shree Ganesh Industries",
+      "vendor_gstin": "07XQIPW2935C1ZB",
+      "items": [
+        {
+          "item_code": "ITEM-83932",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 112.93,
+          "line_total": 20327.4,
+          "expected_delivery": "2026-05-13"
+        },
+        {
+          "item_code": "ITEM-79033",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 38.69,
+          "line_total": 967.25,
+          "expected_delivery": "2026-05-16"
+        }
+      ],
+      "po_subtotal": 21294.65,
+      "po_tax": 1190.47,
+      "po_total": 22485.12,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Kavita Gupta",
+        "approved_at": "2026-04-27T18:05:15+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/76335"
+      ],
+      "grn": {
+        "grn_no": "GRN-76335",
+        "received_at": "2026-05-10T09:58:06+05:30",
+        "received_by": "Kavita Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-83932",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-79033",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-PAT-260426-76335"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-95559",
+      "thread_name": "CONS-SHR-PAT-260426-76335 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Singh",
+          "role": "driver",
+          "phone": "+91-70464-45451"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Patel",
+          "role": "dispatcher",
+          "phone": "+91-70464-45451"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Gupta",
+          "role": "warehouse",
+          "phone": "+91-70505-65203"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Priya Mishra",
+          "role": "accounts",
+          "phone": "+91-70505-65203"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-07T20:31:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "en",
+          "text": "Vehicle DL82LW6480 dispatched from Okhla Phase II. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-08T12:11:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Bhopal pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-09T03:51:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-09T19:31:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Bhopal warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-09T21:31:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-09T21:46:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Gupta",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-09T23:58:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-PAT-260426-76335_15.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-10T18:58:06+05:30",
+          "sender_id": "P4",
+          "sender_name": "Priya Mishra",
+          "lang": "en",
+          "text": "Correction to my earlier message — pls read TAX/2026-27/76335.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-26T19:05:15+05:30",
+      "actor": "Patel Distributors",
+      "doc_ref": "PO-2026-76335",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-27T18:05:15+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "PO-2026-76335",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-07T12:12:06+05:30",
+      "actor": "Shree Ganesh Industries",
+      "doc_ref": "TAX/2026-27/76335",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-07T18:31:06+05:30",
+      "actor": "Shree Ganesh Industries",
+      "doc_ref": "335944437991",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-07T20:31:06+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "DL82LW6480",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-09T19:31:06+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "DL82LW6480",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-09T21:31:06+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-SHR-PAT-260426-76335",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-09T23:58:06+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-10T09:58:06+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "GRN-76335",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-SHR-PAT-260426-76335 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276335,
+    "notes": "task=tmp_ok defect=none"
+  }
+}

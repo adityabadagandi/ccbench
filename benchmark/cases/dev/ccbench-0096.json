@@ -1,0 +1,403 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0096",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/70127",
+      "issued_at": "2026-06-16T17:49:30+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Polymers Ltd.",
+        "legal_name": "Gupta Polymers Ltd.",
+        "gstin": "27XQNPE0293J2ZU",
+        "pan": "XQNPE0293J",
+        "address": {
+          "line1": "Shed 82, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "194347",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Sharma",
+          "email": "rsharma@gupta.co.in",
+          "phone": "+91-90925-14878"
+        }
+      },
+      "buyer": {
+        "name": "Patel Exports",
+        "legal_name": "Patel Exports",
+        "gstin": "19XQECY9261R5ZC",
+        "pan": "XQECY9261R",
+        "address": {
+          "line1": "Warehouse 235, Logistics Park",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "347463",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Sharma",
+          "email": "rameshs@patel.com",
+          "phone": "+91-90222-50964"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 92.17,
+          "taxable_value": 23042.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4147.65
+        }
+      ],
+      "total_taxable_value": 23042.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 4147.65,
+      "total_tax": 4147.65,
+      "invoice_total": 27190.15,
+      "currency": "INR",
+      "eway_bill_ref": "127612337805",
+      "vehicle_no": "MH32WE6867",
+      "consignment_ref": "CONS-GUP-PAT-260605-70127"
+    },
+    "eway_bill": {
+      "ewb_no": "127612337805",
+      "generated_at": "2026-06-16T21:08:30+05:30",
+      "valid_until": "2026-06-27T21:08:30+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/70127",
+      "doc_date": "2026-06-16",
+      "from_gstin": "27XQNPE0293J2ZU",
+      "from_address": "Shed 82, Industrial Area, Thane, Thane, Maharashtra - 194347",
+      "to_gstin": "19XQECY9261R5ZC",
+      "to_address": "Warehouse 235, Logistics Park, Dankuni, Dankuni, West Bengal - 347463",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "36XKZRV1048H1ZT",
+      "mode": "road",
+      "vehicle_no": "MH32WE6867",
+      "consignment_ref": "CONS-GUP-PAT-260605-70127",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 250.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 23042.5,
+      "total_invoice_value": 27190.15,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-70127",
+      "po_date": "2026-06-05",
+      "buyer_entity": "Patel Exports",
+      "vendor_code": "VND-2613",
+      "vendor_name": "Gupta Polymers Ltd.",
+      "vendor_gstin": "27XQNPE0293J2ZU",
+      "items": [
+        {
+          "item_code": "ITEM-27017",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 92.17,
+          "line_total": 23042.5,
+          "expected_delivery": "2026-06-23"
+        }
+      ],
+      "po_subtotal": 23042.5,
+      "po_tax": 4147.65,
+      "po_total": 27190.15,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Sharma",
+        "approved_at": "2026-06-06T00:12:13+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/70127"
+      ],
+      "grn": {
+        "grn_no": "GRN-70127",
+        "received_at": "2026-06-16T19:37:30+05:30",
+        "received_by": "Ramesh Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-27017",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-PAT-260605-70127"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-87119",
+      "thread_name": "CONS-GUP-PAT-260605-70127 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Yadav",
+          "role": "driver",
+          "phone": "+91-90925-14878"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Sharma",
+          "role": "dispatcher",
+          "phone": "+91-90925-14878"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Sharma",
+          "role": "warehouse",
+          "phone": "+91-90222-50964"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ajay Sharma",
+          "role": "accounts",
+          "phone": "+91-90222-50964"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-16T14:08:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Dankuni warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-16T15:08:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-16T15:34:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-16T16:37:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-PAT-260605-70127_44.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-16T17:28:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Dankuni.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-16T20:48:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-16T21:37:30+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-17T00:08:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi",
+          "text": "सर MH32WE6867 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-59911",
+      "raised_at": "2026-06-17T00:37:30+05:30",
+      "raised_by": "Ramesh Sharma",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-05T09:12:13+05:30",
+      "actor": "Patel Exports",
+      "doc_ref": "PO-2026-70127",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-06T00:12:13+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "PO-2026-70127",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-06-16T14:08:30+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH32WE6867",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-06-16T15:08:30+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-GUP-PAT-260605-70127",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-06-16T16:37:30+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-06-16T17:49:30+05:30",
+      "actor": "Gupta Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/70127",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-06-16T19:37:30+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "GRN-70127",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-06-16T21:08:30+05:30",
+      "actor": "Gupta Polymers Ltd.",
+      "doc_ref": "127612337805",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-17T00:08:30+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH32WE6867",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread question the timeline for consignment CONS-GUP-PAT-260605-70127, and were they right?",
+  "question_lang": "en",
+  "gold_answer": "Yes, and they were right: in message M-008, Ajay Sharma noted \"POD ka time dispatch se pehle ka lag raha hai\" [M-008]. The timeline confirms it — delivery is recorded at 16 Jun 2026 at 15:08 but dispatch only at 17 Jun 2026 at 00:08 [TIMELINE].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-06-17T00:08:30+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-06-16T15:08:30+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270127,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

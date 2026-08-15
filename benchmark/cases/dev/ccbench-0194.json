@@ -1,0 +1,438 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0194",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/79633",
+      "issued_at": "2026-05-19T16:56:39+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Enterprises",
+        "legal_name": "Iyer Enterprises",
+        "gstin": "24XQKCK0225D8Z3",
+        "pan": "XQKCK0225D",
+        "address": {
+          "line1": "Plot 106, Phase II",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "851703",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Nair",
+          "email": "sureshn@iyer.com",
+          "phone": "+91-70960-83196"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Polymers Ltd.",
+        "legal_name": "Pillai Polymers Ltd.",
+        "gstin": "29XQVCD9109Q7ZO",
+        "pan": "XQVCD9109Q",
+        "address": {
+          "line1": "Godown 66, Export Zone",
+          "line2": "Whitefield",
+          "city": "Whitefield",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "122554",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Kumar",
+          "email": "skumar@pillai.in",
+          "phone": "+91-80242-90924"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 209.13,
+          "taxable_value": 10456.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1882.17
+        }
+      ],
+      "total_taxable_value": 10456.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1882.17,
+      "total_tax": 1882.17,
+      "invoice_total": 12338.67,
+      "currency": "INR",
+      "eway_bill_ref": "633887345666",
+      "vehicle_no": "GJ49ZK1579",
+      "consignment_ref": "CONS-IYE-PIL-260511-79633"
+    },
+    "eway_bill": {
+      "ewb_no": "633887345666",
+      "generated_at": "2026-05-19T23:48:39+05:30",
+      "valid_until": "2026-05-22T23:48:39+05:30",
+      "status": "expired",
+      "extensions": [
+        {
+          "extended_at": "2026-05-22T21:48:39+05:30",
+          "new_valid_until": "2026-05-23T11:48:39+05:30",
+          "reason": "Transhipment delay"
+        }
+      ],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/79633",
+      "doc_date": "2026-05-19",
+      "from_gstin": "24XQKCK0225D8Z3",
+      "from_address": "Plot 106, Phase II, Sachin, Surat, Surat, Gujarat - 851703",
+      "to_gstin": "29XQVCD9109Q7ZO",
+      "to_address": "Godown 66, Export Zone, Whitefield, Whitefield, Karnataka - 122554",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "06IGJOP4596G1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ49ZK1579",
+      "consignment_ref": "CONS-IYE-PIL-260511-79633",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 10456.5,
+      "total_invoice_value": 12338.67,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-79633",
+      "po_date": "2026-05-11",
+      "buyer_entity": "Pillai Polymers Ltd.",
+      "vendor_code": "VND-1304",
+      "vendor_name": "Iyer Enterprises",
+      "vendor_gstin": "24XQKCK0225D8Z3",
+      "items": [
+        {
+          "item_code": "ITEM-15173",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 209.13,
+          "line_total": 10456.5,
+          "expected_delivery": "2026-05-25"
+        }
+      ],
+      "po_subtotal": 10456.5,
+      "po_tax": 1882.17,
+      "po_total": 12338.67,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Suresh Kumar",
+        "approved_at": "2026-05-11T19:12:37+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/79633"
+      ],
+      "grn": {
+        "grn_no": "GRN-79633",
+        "received_at": "2026-05-25T01:50:39+05:30",
+        "received_by": "Suresh Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-15173",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-PIL-260511-79633"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-26553",
+      "thread_name": "CONS-IYE-PIL-260511-79633 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Singh",
+          "role": "driver",
+          "phone": "+91-70960-83196"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Nair",
+          "role": "dispatcher",
+          "phone": "+91-70960-83196"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Suresh Kumar",
+          "role": "warehouse",
+          "phone": "+91-80242-90924"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Deepa Iyer",
+          "role": "accounts",
+          "phone": "+91-80242-90924"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-20T00:48:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "सर GJ49ZK1579 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-20T02:17:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-22T05:18:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-24T08:48:39+05:30",
+          "sender_id": "P4",
+          "sender_name": "Deepa Iyer",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 22 May 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-24T09:48:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "गाड़ी Whitefield गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-24T11:48:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-24T11:58:39+05:30",
+          "sender_id": "P3",
+          "sender_name": "Suresh Kumar",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-24T13:50:39+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-PIL-260511-79633_85.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-5131.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-11T15:12:37+05:30",
+      "actor": "Pillai Polymers Ltd.",
+      "doc_ref": "PO-2026-79633",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-11T19:12:37+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "PO-2026-79633",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-19T16:56:39+05:30",
+      "actor": "Iyer Enterprises",
+      "doc_ref": "INV/2026-27/79633",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-19T23:48:39+05:30",
+      "actor": "Iyer Enterprises",
+      "doc_ref": "633887345666",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-20T00:48:39+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ49ZK1579",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "ewb_extended",
+      "ts": "2026-05-22T21:48:39+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "633887345666",
+      "note": "Transhipment delay"
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-05-24T09:48:39+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ49ZK1579",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-05-24T11:48:39+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-IYE-PIL-260511-79633",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-05-24T13:50:39+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-05-25T01:50:39+05:30",
+      "actor": "Suresh Kumar",
+      "doc_ref": "GRN-79633",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-IYE-PIL-260511-79633 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "gold_answer": "No — e-way bill 633887345666 was valid until 22 May 2026 at 23:48 and is now marked expired [EWB], but delivery is recorded at 24 May 2026 at 11:48, 36 hours after expiry [TIMELINE]. One extension was recorded on 22 May 2026 at 21:48 for transhipment delay, which was still insufficient [EWB]. The lapse was noted on the delivery thread at the time [M-004].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "633887345666",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "valid_until",
+      "value": "2026-05-22T23:48:39+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "status",
+      "value": "expired",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-008.ts",
+      "value": "2026-05-24T11:48:39+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "whatsapp_pod",
+      "path": "M-004.text",
+      "value": "Sir e-way bill ki validity 22 May 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+      "evidence": {
+        "ref_id": "M-004",
+        "lang": "hi-en",
+        "span": "validity 22 May 2026 ko khatam ho gayi thi",
+        "gloss_en": "validity expired on 22 May 2026"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70960-83196",
+    "+91-80242-90924",
+    "XQKCK0225D",
+    "XQVCD9109Q",
+    "skumar@pillai.in",
+    "sureshn@iyer.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279633,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

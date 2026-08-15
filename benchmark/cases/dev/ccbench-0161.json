@@ -1,0 +1,323 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0161",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/76432",
+      "issued_at": "2026-02-07T17:27:33+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "09ZZRPI8870L5ZQ",
+        "pan": "ZZRPI8870L",
+        "address": {
+          "line1": "Godown 239, Logistics Park",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "266484",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Rao",
+          "email": "dineshr@chatterjee.com",
+          "phone": "+91-70347-68541"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Polymers Ltd.",
+        "legal_name": "Pillai Polymers Ltd.",
+        "gstin": "09QQLCH4987Y6ZK",
+        "pan": "QQLCH4987Y",
+        "address": {
+          "line1": "Godown 39, Industrial Area",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "467298",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Rao",
+          "email": "zoya.rao@pillai.in",
+          "phone": "+91-80432-17162"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 269.22,
+          "taxable_value": 6730.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 605.75,
+          "sgst_amount": 605.74,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 151.93,
+          "taxable_value": 15193.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 379.82,
+          "sgst_amount": 379.83,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 750.0,
+          "unit": "MTR",
+          "rate_per_unit": 147.38,
+          "taxable_value": 110535.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 2763.38,
+          "sgst_amount": 2763.37,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 132458.5,
+      "total_cgst": 3748.95,
+      "total_sgst": 3748.94,
+      "total_igst": 0.0,
+      "total_tax": 7497.89,
+      "invoice_total": 139956.39,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP48UZ3011",
+      "consignment_ref": "CONS-CHA-PIL-260126-76432"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-76432",
+      "po_date": "2026-01-26",
+      "buyer_entity": "Pillai Polymers Ltd.",
+      "vendor_code": "VND-6514",
+      "vendor_name": "Chatterjee Supply Chain Pvt. Ltd.",
+      "vendor_gstin": "09ZZRPI8870L5ZQ",
+      "items": [
+        {
+          "item_code": "ITEM-84437",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 269.22,
+          "line_total": 6730.5,
+          "expected_delivery": "2026-02-13"
+        },
+        {
+          "item_code": "ITEM-37000",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 151.93,
+          "line_total": 15193.0,
+          "expected_delivery": "2026-02-15"
+        },
+        {
+          "item_code": "ITEM-50303",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 750.0,
+          "unit": "MTR",
+          "unit_price": 147.38,
+          "line_total": 110535.0,
+          "expected_delivery": "2026-02-13"
+        }
+      ],
+      "po_subtotal": 132458.5,
+      "po_tax": 7497.89,
+      "po_total": 139956.39,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Zoya Rao",
+        "approved_at": "2026-01-26T17:05:43+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/76432"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-CHA-PIL-260126-76432"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-77123",
+      "thread_name": "CONS-CHA-PIL-260126-76432 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-70347-68541"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Rao",
+          "role": "dispatcher",
+          "phone": "+91-70347-68541"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Rao",
+          "role": "warehouse",
+          "phone": "+91-80432-17162"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Desai",
+          "role": "accounts",
+          "phone": "+91-80432-17162"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-08T03:19:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "सर UP48UZ3011 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-08T08:19:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-08T13:19:33+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Rao",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-15821",
+      "raised_at": "2026-02-09T14:05:33+05:30",
+      "raised_by": "Zoya Rao",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-26T15:05:43+05:30",
+      "actor": "Pillai Polymers Ltd.",
+      "doc_ref": "PO-2026-76432",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-26T17:05:43+05:30",
+      "actor": "Zoya Rao",
+      "doc_ref": "PO-2026-76432",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-07T17:27:33+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/76432",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-02-08T03:19:33+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP48UZ3011",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-02-08T15:19:33+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP48UZ3011",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-02-08T17:19:33+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-CHA-PIL-260126-76432",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-02-08T19:05:33+05:30",
+      "actor": "Zoya Rao",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-CHA-PIL-260126-76432 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "gold_answer": "The driver, Rajesh Patel, reported in message M-002 that the vehicle was stopped at a check post because no e-way bill had been generated: \"ई-वे बिल बना ही नहीं था\" [M-002]. The invoice confirms it, carrying no e-way bill reference for consignment CONS-CHA-PIL-260126-76432 [INV], and the consignment did not complete delivery.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276432,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

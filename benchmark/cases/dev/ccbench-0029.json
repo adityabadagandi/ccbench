@@ -1,0 +1,450 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0029",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/63628",
+      "issued_at": "2026-03-03T10:56:32+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Supply Chain Pvt. Ltd",
+        "legal_name": "Reddy Supply Chain Pvt. Ltd.",
+        "gstin": "09ZZICC7163J5Z6",
+        "pan": "ZZICC7163J",
+        "address": {
+          "line1": "Shed 9, Export Zone",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "677954",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Nair",
+          "email": "farhann@reddy.com",
+          "phone": "+91-90193-34974"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Polymers Ltd.",
+        "legal_name": "Shree Ganesh Polymers Ltd.",
+        "gstin": "07QQIPH6632Q7ZC",
+        "pan": "QQIPH6632Q",
+        "address": {
+          "line1": "Shed 133, Industrial Area",
+          "line2": "Saket",
+          "city": "Saket",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "235899",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Sharma",
+          "email": "rsharma@shree.com",
+          "phone": "+91-80381-59144"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 137.96,
+          "taxable_value": 34490.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6208.2
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 69.05,
+          "taxable_value": 12429.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2237.22
+        }
+      ],
+      "total_taxable_value": 46919.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 8445.42,
+      "total_tax": 8445.42,
+      "invoice_total": 55364.42,
+      "currency": "INR",
+      "eway_bill_ref": "628138648132",
+      "vehicle_no": "UP69XL7638",
+      "consignment_ref": "CONS-RED-SHR-260219-63628"
+    },
+    "eway_bill": {
+      "ewb_no": "628138648132",
+      "generated_at": "2026-03-03T19:15:32+05:30",
+      "valid_until": "2026-03-04T19:15:32+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/63628",
+      "doc_date": "2026-03-03",
+      "from_gstin": "09ZZICC7163J5Z6",
+      "from_address": "Shed 9, Export Zone, Lucknow, Lucknow, Uttar Pradesh - 677954",
+      "to_gstin": "07QQIPH6632Q7ZC",
+      "to_address": "Shed 133, Industrial Area, Saket, Saket, Delhi - 235899",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "06SYGCD4187R1ZT",
+      "mode": "road",
+      "vehicle_no": "UP69XL7638",
+      "consignment_ref": "CONS-RED-SHR-260219-63628",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 180.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 46919.0,
+      "total_invoice_value": 55364.42,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-63628",
+      "po_date": "2026-02-19",
+      "buyer_entity": "Shree Ganesh Polymers Ltd.",
+      "vendor_code": "VND-5020",
+      "vendor_name": "Reddy Supply Chain Pvt. Ltd",
+      "vendor_gstin": "09ZZICC7163J5Z6",
+      "items": [
+        {
+          "item_code": "ITEM-17430",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 137.96,
+          "line_total": 34490.0,
+          "expected_delivery": "2026-03-06"
+        },
+        {
+          "item_code": "ITEM-70705",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 69.05,
+          "line_total": 12429.0,
+          "expected_delivery": "2026-03-09"
+        }
+      ],
+      "po_subtotal": 46919.0,
+      "po_tax": 8445.42,
+      "po_total": 55364.42,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Sharma",
+        "approved_at": "2026-02-20T04:12:14+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/63628"
+      ],
+      "grn": {
+        "grn_no": "GRN-63628",
+        "received_at": "2026-03-03T19:36:32+05:30",
+        "received_by": "Ramesh Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-17430",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-70705",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-SHR-260219-63628"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-53874",
+      "thread_name": "CONS-RED-SHR-260219-63628 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Sharma",
+          "role": "driver",
+          "phone": "+91-90193-34974"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Nair",
+          "role": "dispatcher",
+          "phone": "+91-90193-34974"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Sharma",
+          "role": "warehouse",
+          "phone": "+91-80381-59144"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-03T15:15:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-03T16:15:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "en",
+          "text": "Consignment received in full at our Saket warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-03T16:36:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-SHR-260219-63628_50.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-03T16:59:32+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-03T17:55:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Saket pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-03T20:35:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Saket pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_271.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-03T22:36:32+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Nair",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-03T23:15:32+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "UP69XL7638 dispatch ho gayi Lucknow se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-13549",
+      "raised_at": "2026-03-04T07:36:32+05:30",
+      "raised_by": "Ramesh Sharma",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-19T10:12:14+05:30",
+      "actor": "Shree Ganesh Polymers Ltd.",
+      "doc_ref": "ORD-2026-63628",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-20T04:12:14+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "ORD-2026-63628",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-03T10:56:32+05:30",
+      "actor": "Reddy Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/63628",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "arrived",
+      "ts": "2026-03-03T15:15:32+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP69XL7638",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "delivered",
+      "ts": "2026-03-03T16:15:32+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-RED-SHR-260219-63628",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "pod_signed",
+      "ts": "2026-03-03T16:36:32+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "ewb_generated",
+      "ts": "2026-03-03T19:15:32+05:30",
+      "actor": "Reddy Supply Chain Pvt. Ltd.",
+      "doc_ref": "628138648132",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-03-03T19:36:32+05:30",
+      "actor": "Ramesh Sharma",
+      "doc_ref": "GRN-63628",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-03-03T23:15:32+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP69XL7638",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-RED-SHR-260219-63628 internally consistent?",
+  "question_lang": "en",
+  "gold_answer": "No — delivery for consignment CONS-RED-SHR-260219-63628 [INV] is recorded at 03 Mar 2026 at 16:15 but dispatch only at 03 Mar 2026 at 23:15, 7 hours later [TIMELINE], so the goods are logged as delivered before they left the origin and the proof of delivery is backdated. The accounts team queried the same ordering on the delivery thread [M-008].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-03-03T23:15:32+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-005.ts",
+      "value": "2026-03-03T16:15:32+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-RED-SHR-260219-63628",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-80381-59144",
+    "+91-90193-34974",
+    "QQIPH6632Q",
+    "ZZICC7163J",
+    "farhann@reddy.com",
+    "rsharma@shree.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263628,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

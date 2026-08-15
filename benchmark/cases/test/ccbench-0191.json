@@ -1,0 +1,358 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0191",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/79342",
+      "issued_at": "2026-07-22T16:12:38+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Supply Chain Pvt. Ltd.",
+        "legal_name": "Iyer Supply Chain Pvt. Ltd.",
+        "gstin": "09QQPPF0225S7ZW",
+        "pan": "QQPPF0225S",
+        "address": {
+          "line1": "Shed 122, Logistics Park",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "513109",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Joshi",
+          "email": "ramesh.joshi@iyer.in",
+          "phone": "+91-90110-37587"
+        }
+      },
+      "buyer": {
+        "name": "Nair Exports",
+        "legal_name": "Nair Exports",
+        "gstin": "27ZZZPP0698X5ZE",
+        "pan": "ZZZPP0698X",
+        "address": {
+          "line1": "Godown 201, Export Zone",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "889001",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Mishra",
+          "email": "deepam@nair.in",
+          "phone": "+91-90909-42453"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 9129.82,
+          "taxable_value": 912982.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 164336.76
+        }
+      ],
+      "total_taxable_value": 912982.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 164336.76,
+      "total_tax": 164336.76,
+      "invoice_total": 1077318.76,
+      "currency": "INR",
+      "eway_bill_ref": "342272342534",
+      "vehicle_no": "UP87HJ7151",
+      "consignment_ref": "CONS-IYE-NAI-260711-79342"
+    },
+    "eway_bill": {
+      "ewb_no": "342272342534",
+      "generated_at": "2026-07-22T20:45:38+05:30",
+      "valid_until": "2026-07-25T20:45:38+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/79342",
+      "doc_date": "2026-07-22",
+      "from_gstin": "09QQPPF0225S7ZW",
+      "from_address": "Shed 122, Logistics Park, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 513109",
+      "to_gstin": "27ZZZPP0698X5ZE",
+      "to_address": "Godown 201, Export Zone, Thane, Thane, Maharashtra - 889001",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "06YXREM6249L1ZT",
+      "mode": "road",
+      "vehicle_no": "UP87HJ7151",
+      "consignment_ref": "CONS-IYE-NAI-260711-79342",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 912982.0,
+      "total_invoice_value": 1077318.76,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-79342",
+      "po_date": "2026-07-11",
+      "buyer_entity": "Nair Exports",
+      "vendor_code": "VND-6503",
+      "vendor_name": "Iyer Supply Chain Pvt. Ltd.",
+      "vendor_gstin": "09QQPPF0225S7ZW",
+      "items": [
+        {
+          "item_code": "ITEM-45960",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 9129.82,
+          "line_total": 912982.0,
+          "expected_delivery": "2026-07-24"
+        }
+      ],
+      "po_subtotal": 912982.0,
+      "po_tax": 164336.76,
+      "po_total": 1077318.76,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Mishra",
+        "approved_at": "2026-07-12T09:12:28+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/79342"
+      ],
+      "grn": {
+        "grn_no": "GRN-79342",
+        "received_at": "2026-07-24T02:54:38+05:30",
+        "received_by": "Deepa Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-45960",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-NAI-260711-79342"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-69727",
+      "thread_name": "CONS-IYE-NAI-260711-79342 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Yadav",
+          "role": "driver",
+          "phone": "+91-90110-37587"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Joshi",
+          "role": "dispatcher",
+          "phone": "+91-90110-37587"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Mishra",
+          "role": "warehouse",
+          "phone": "+91-90909-42453"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-22T21:45:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "en",
+          "text": "Vehicle UP87HJ7151 dispatched from Noida Sector 63. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-23T00:25:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-23T03:05:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Thane pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-23T05:45:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Thane गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-23T08:45:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-23T08:57:38+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Mishra",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-23T10:54:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-NAI-260711-79342_64.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-24T21:54:38+05:30",
+          "sender_id": "P2",
+          "sender_name": "Ramesh Joshi",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/79342 hain.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-11T16:12:28+05:30",
+      "actor": "Nair Exports",
+      "doc_ref": "PO-2026-79342",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-12T09:12:28+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "PO-2026-79342",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-22T16:12:38+05:30",
+      "actor": "Iyer Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/79342",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-22T20:45:38+05:30",
+      "actor": "Iyer Supply Chain Pvt. Ltd.",
+      "doc_ref": "342272342534",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-22T21:45:38+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP87HJ7151",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-23T05:45:38+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP87HJ7151",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-23T08:45:38+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-IYE-NAI-260711-79342",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-23T10:54:38+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-24T02:54:38+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "GRN-79342",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice GST/2026-27/79342 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279342,
+    "notes": "task=comp_pan defect=none"
+  }
+}

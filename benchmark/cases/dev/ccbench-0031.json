@@ -1,0 +1,421 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0031",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/63822",
+      "issued_at": "2026-07-15T10:56:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Supply Chain Pvt. Ltd",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "23QQFCL0086I7Z6",
+        "pan": "QQFCL0086I",
+        "address": {
+          "line1": "Shed 88, Industrial Area",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "833435",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Joshi",
+          "email": "sameerj@chatterjee.com",
+          "phone": "+91-90140-30128"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Engineering Works",
+        "legal_name": "Bhatia Engineering Works",
+        "gstin": "27XQYPJ7595F3ZI",
+        "pan": "XQYPJ7595F",
+        "address": {
+          "line1": "Shed 188, Industrial Area",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "191642",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Mishra",
+          "email": "mahesh.mishra@bhatia.co.in",
+          "phone": "+91-70182-19442"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 81.59,
+          "taxable_value": 4079.5,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 489.54
+        }
+      ],
+      "total_taxable_value": 4079.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 489.54,
+      "total_tax": 489.54,
+      "invoice_total": 4569.04,
+      "currency": "INR",
+      "eway_bill_ref": "822984545564",
+      "vehicle_no": "MP84DV5933",
+      "consignment_ref": "CONS-CHA-BHA-260706-63822"
+    },
+    "eway_bill": {
+      "ewb_no": "822984545564",
+      "generated_at": "2026-07-15T17:02:17+05:30",
+      "valid_until": "2026-07-18T17:02:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/63822",
+      "doc_date": "2026-07-15",
+      "from_gstin": "23QQFCL0086I7Z6",
+      "from_address": "Shed 88, Industrial Area, Mandideep, Mandideep, Madhya Pradesh - 833435",
+      "to_gstin": "27XQYPJ7595F3ZI",
+      "to_address": "Shed 188, Industrial Area, Chakan, Chakan, Maharashtra - 191642",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "24NAYMI9593L1ZT",
+      "mode": "road",
+      "vehicle_no": "MP84DV5933",
+      "consignment_ref": "CONS-CHA-BHA-260706-63822",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 4079.5,
+      "total_invoice_value": 4569.04,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-63822",
+      "po_date": "2026-07-06",
+      "buyer_entity": "Bhatia Engineering Works",
+      "vendor_code": "VND-8198",
+      "vendor_name": "Chatterjee Supply Chain Pvt. Ltd",
+      "vendor_gstin": "23QQFCL0086I7Z6",
+      "items": [
+        {
+          "item_code": "ITEM-30517",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 81.59,
+          "line_total": 4079.5,
+          "expected_delivery": "2026-07-20"
+        }
+      ],
+      "po_subtotal": 4079.5,
+      "po_tax": 489.54,
+      "po_total": 4569.04,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Mahesh Mishra",
+        "approved_at": "2026-07-06T22:27:18+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/63822"
+      ],
+      "grn": {
+        "grn_no": "GRN-63822",
+        "received_at": "2026-07-17T03:25:17+05:30",
+        "received_by": "Mahesh Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-30517",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-BHA-260706-63822"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-37292",
+      "thread_name": "CONS-CHA-BHA-260706-63822 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-90140-30128"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sameer Joshi",
+          "role": "dispatcher",
+          "phone": "+91-90140-30128"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Mahesh Mishra",
+          "role": "warehouse",
+          "phone": "+91-70182-19442"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Kumar",
+          "role": "accounts",
+          "phone": "+91-70182-19442"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-15T21:02:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Vehicle MP84DV5933 dispatched from Mandideep. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-15T22:28:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-16T00:02:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-16T03:02:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Chakan.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-16T06:02:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Chakan warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-16T06:08:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Mishra",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-16T08:02:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-16T08:36:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Mishra",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-07-16T10:25:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-008",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-BHA-260706-63822_53.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-010",
+          "ts": "2026-07-17T21:25:17+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Kumar",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/63822.",
+          "reply_to": "M-009",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-06T19:27:18+05:30",
+      "actor": "Bhatia Engineering Works",
+      "doc_ref": "PUR-2026-63822",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-06T22:27:18+05:30",
+      "actor": "Mahesh Mishra",
+      "doc_ref": "PUR-2026-63822",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-15T10:56:17+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/63822",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-15T17:02:17+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "822984545564",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-15T21:02:17+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP84DV5933",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-16T06:02:17+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP84DV5933",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-16T08:02:17+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-CHA-BHA-260706-63822",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-16T10:25:17+05:30",
+      "actor": "Mahesh Mishra",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-17T03:25:17+05:30",
+      "actor": "Mahesh Mishra",
+      "doc_ref": "GRN-63822",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-CHA-BHA-260706-63822?",
+  "question_lang": "en",
+  "gold_answer": "Invoice GST/2026-27/63822 totals Rs. 4,569.04 [INV], comprising Rs. 4,079.50 taxable value and Rs. 489.54 GST [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/63822",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "4569.04",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "total_taxable_value",
+      "value": "4079.5",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "total_tax",
+      "value": "489.54",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263822,
+    "notes": "task=lookup_total defect=none"
+  }
+}

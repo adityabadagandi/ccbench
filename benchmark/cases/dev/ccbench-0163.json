@@ -1,0 +1,463 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0163",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/76626",
+      "issued_at": "2026-01-28T11:27:58+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Supply Chain Private Limited",
+        "legal_name": "Gupta Supply Chain Pvt. Ltd.",
+        "gstin": "36ZZRPO9570B5ZN",
+        "pan": "ZZRPO9570B",
+        "address": {
+          "line1": "Warehouse 134, Phase II",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "143524",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Kumar",
+          "email": "kavitak@gupta.co.in",
+          "phone": "+91-90146-52319"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Enterprises",
+        "legal_name": "Mehta Brothers Enterprises",
+        "gstin": "36XQQPJ2040U9Z5",
+        "pan": "XQQPJ2040U",
+        "address": {
+          "line1": "Godown 68, Industrial Area",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "692704",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Reddy",
+          "email": "vijay.reddy@mehta.in",
+          "phone": "+91-70794-82706"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 164.44,
+          "taxable_value": 164440.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 4111.0,
+          "sgst_amount": 4111.0,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 97.66,
+          "taxable_value": 117192.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 10547.28,
+          "sgst_amount": 10547.28,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 8343.9,
+          "taxable_value": 10012680.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 901141.2,
+          "sgst_amount": 901141.2,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 10294312.0,
+      "total_cgst": 915799.48,
+      "total_sgst": 915799.48,
+      "total_igst": 0.0,
+      "total_tax": 1831598.96,
+      "invoice_total": 12125910.96,
+      "currency": "INR",
+      "eway_bill_ref": "626114012481",
+      "vehicle_no": "TS45HZ1266",
+      "consignment_ref": "CONS-GUP-MEH-260120-76626"
+    },
+    "eway_bill": {
+      "ewb_no": "626114012481",
+      "generated_at": "2026-01-28T17:46:58+05:30",
+      "valid_until": "2026-01-30T17:46:58+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/76626",
+      "doc_date": "2026-01-28",
+      "from_gstin": "36ZZRPO9570B5ZN",
+      "from_address": "Warehouse 134, Phase II, Patancheru, Patancheru, Telangana - 143524",
+      "to_gstin": "36XQQPJ2040U9Z5",
+      "to_address": "Godown 68, Industrial Area, Medchal, Medchal, Telangana - 692704",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "19TXXNX3359J1ZT",
+      "mode": "road",
+      "vehicle_no": "TS45HZ1266",
+      "consignment_ref": "CONS-GUP-MEH-260120-76626",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 10294312.0,
+      "total_invoice_value": 12125910.96,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-76626",
+      "po_date": "2026-01-20",
+      "buyer_entity": "Mehta Brothers Enterprises",
+      "vendor_code": "VND-9186",
+      "vendor_name": "Gupta Supply Chain Private Limited",
+      "vendor_gstin": "36ZZRPO9570B5ZN",
+      "items": [
+        {
+          "item_code": "ITEM-12651",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 164.44,
+          "line_total": 164440.0,
+          "expected_delivery": "2026-02-02"
+        },
+        {
+          "item_code": "ITEM-56896",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 97.66,
+          "line_total": 117192.0,
+          "expected_delivery": "2026-02-06"
+        },
+        {
+          "item_code": "ITEM-87007",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 8343.9,
+          "line_total": 10012680.0,
+          "expected_delivery": "2026-02-01"
+        }
+      ],
+      "po_subtotal": 10294312.0,
+      "po_tax": 1831598.96,
+      "po_total": 12125910.96,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Vijay Reddy",
+        "approved_at": "2026-01-21T15:41:43+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/76626"
+      ],
+      "grn": {
+        "grn_no": "GRN-76626",
+        "received_at": "2026-01-28T17:08:58+05:30",
+        "received_by": "Vijay Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-12651",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-56896",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-87007",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-MEH-260120-76626"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-99717",
+      "thread_name": "CONS-GUP-MEH-260120-76626 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-90146-52319"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90146-52319"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Reddy",
+          "role": "warehouse",
+          "phone": "+91-70794-82706"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-28T09:46:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-28T10:46:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-28T10:56:58+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Reddy",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-28T12:08:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-MEH-260120-76626_28.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-28T13:26:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-28T17:06:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Medchal.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-28T20:46:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Sir TS45HZ1266 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-01-28T22:08:58+05:30",
+          "sender_id": "P2",
+          "sender_name": "Kavita Kumar",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-61207",
+      "raised_at": "2026-01-29T00:08:58+05:30",
+      "raised_by": "Vijay Reddy",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-20T15:41:43+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "ORD-2026-76626",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-21T15:41:43+05:30",
+      "actor": "Vijay Reddy",
+      "doc_ref": "ORD-2026-76626",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-01-28T09:46:58+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS45HZ1266",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-01-28T10:46:58+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-GUP-MEH-260120-76626",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-01-28T11:27:58+05:30",
+      "actor": "Gupta Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/76626",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "pod_signed",
+      "ts": "2026-01-28T12:08:58+05:30",
+      "actor": "Vijay Reddy",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-01-28T17:08:58+05:30",
+      "actor": "Vijay Reddy",
+      "doc_ref": "GRN-76626",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-01-28T17:46:58+05:30",
+      "actor": "Gupta Supply Chain Pvt. Ltd.",
+      "doc_ref": "626114012481",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-01-28T20:46:58+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS45HZ1266",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-GUP-MEH-260120-76626 ki timeline pe sawaal uthaya tha? Aur kya wo sahi the?",
+  "question_lang": "hi-en",
+  "gold_answer": "Yes, and they were right: in message M-008, Kavita Kumar noted \"POD ka time dispatch se pehle ka lag raha hai\" [M-008]. The timeline confirms it — delivery is recorded at 28 Jan 2026 at 10:46 but dispatch only at 28 Jan 2026 at 20:46 [TIMELINE].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-01-28T20:46:58+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-01-28T10:46:58+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276626,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0003",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/61106",
+      "issued_at": "2026-05-02T14:49:06+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Distributors",
+        "legal_name": "Shree Ganesh Distributors",
+        "gstin": "07ZZMPV0190U2ZN",
+        "pan": "ZZMPV0190U",
+        "address": {
+          "line1": "Unit 44, MIDC",
+          "line2": "Saket",
+          "city": "Saket",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "354430",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Banerjee",
+          "email": "rbanerjee@shree.co.in",
+          "phone": "+91-70831-76345"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Logistics Pvt. Ltd.",
+        "legal_name": "Shree Ganesh Logistics Pvt. Ltd.",
+        "gstin": "06XQPCW3294C7Z8",
+        "pan": "XQPCW3294C",
+        "address": {
+          "line1": "Plot 41, Export Zone",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "284242",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Khan",
+          "email": "meenak@shree.co.in",
+          "phone": "+91-90501-67052"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 8019.29,
+          "taxable_value": 3207716.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 577388.88
+        }
+      ],
+      "total_taxable_value": 3207716.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 577388.88,
+      "total_tax": 577388.88,
+      "invoice_total": 3785104.88,
+      "currency": "INR",
+      "eway_bill_ref": "106742040051",
+      "vehicle_no": "DL70AB4353",
+      "consignment_ref": "CONS-SHR-SHR-260426-61106"
+    },
+    "eway_bill": {
+      "ewb_no": "106742040051",
+      "generated_at": "2026-05-02T23:22:06+05:30",
+      "valid_until": "2026-05-03T23:22:06+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/61106",
+      "doc_date": "2026-05-02",
+      "from_gstin": "07ZZMPV0190U2ZN",
+      "from_address": "Unit 44, MIDC, Saket, Saket, Delhi - 354430",
+      "to_gstin": "06XQPCW3294C7Z8",
+      "to_address": "Plot 41, Export Zone, Bahadurgarh, Bahadurgarh, Haryana - 284242",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "07MVHIO6648J1ZT",
+      "mode": "road",
+      "vehicle_no": "DL70AB4353",
+      "consignment_ref": "CONS-SHR-SHR-260426-61106",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3207716.0,
+      "total_invoice_value": 3785104.88,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61106",
+      "po_date": "2026-04-26",
+      "buyer_entity": "Shree Ganesh Logistics Pvt. Ltd.",
+      "vendor_code": "VND-8850",
+      "vendor_name": "Shree Ganesh Distributors",
+      "vendor_gstin": "07ZZMPV0190U2ZN",
+      "items": [
+        {
+          "item_code": "ITEM-37741",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 8019.29,
+          "line_total": 3207716.0,
+          "expected_delivery": "2026-05-11"
+        }
+      ],
+      "po_subtotal": 3207716.0,
+      "po_tax": 577388.88,
+      "po_total": 3785104.88,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Meena Khan",
+        "approved_at": "2026-04-26T23:05:42+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/61106"
+      ],
+      "grn": {
+        "grn_no": "GRN-61106",
+        "received_at": "2026-05-03T14:53:06+05:30",
+        "received_by": "Meena Khan",
+        "lines": [
+          {
+            "item_code": "ITEM-37741",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-SHR-260426-61106"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-61992",
+      "thread_name": "CONS-SHR-SHR-260426-61106 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Kumar",
+          "role": "driver",
+          "phone": "+91-70831-76345"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70831-76345"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Khan",
+          "role": "warehouse",
+          "phone": "+91-90501-67052"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-03T01:22:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "en",
+          "text": "Vehicle DL70AB4353 dispatched from Saket. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-03T04:22:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Bahadurgarh pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-03T07:22:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Bahadurgarh गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-03T11:22:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-03T11:53:06+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-SHR-260426-61106_57.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-03T12:05:06+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Khan",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-04T09:53:06+05:30",
+          "sender_id": "P2",
+          "sender_name": "Ramesh Banerjee",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read TAX/2026-27/61106.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-26T17:05:42+05:30",
+      "actor": "Shree Ganesh Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-61106",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-26T23:05:42+05:30",
+      "actor": "Meena Khan",
+      "doc_ref": "PUR-2026-61106",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-02T14:49:06+05:30",
+      "actor": "Shree Ganesh Distributors",
+      "doc_ref": "TAX/2026-27/61106",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-02T23:22:06+05:30",
+      "actor": "Shree Ganesh Distributors",
+      "doc_ref": "106742040051",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-03T01:22:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL70AB4353",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-03T07:22:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL70AB4353",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-03T11:22:06+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-SHR-SHR-260426-61106",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-03T11:53:06+05:30",
+      "actor": "Meena Khan",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-03T14:53:06+05:30",
+      "actor": "Meena Khan",
+      "doc_ref": "GRN-61106",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice TAX/2026-27/61106?",
+  "question_lang": "en",
+  "gold_answer": "Line 1 of invoice TAX/2026-27/61106 declares HSN code 85176290, described as Machines for reception/transmission of data [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/61106",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "items[0].hsn_code",
+      "value": "85176290",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].description",
+      "value": "Machines for reception/transmission of data",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261106,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

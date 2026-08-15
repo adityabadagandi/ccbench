@@ -1,0 +1,422 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0009",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/61688",
+      "issued_at": "2026-05-06T18:18:57+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Distributors",
+        "legal_name": "Rastogi Distributors",
+        "gstin": "27XQRPE3386Y6ZT",
+        "pan": "XQRPE3386Y",
+        "address": {
+          "line1": "Warehouse 117, Export Zone",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "275320",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Rao",
+          "email": "vijayr@rastogi.in",
+          "phone": "+91-80837-62801"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Logistics Pvt. Ltd",
+        "legal_name": "Sharma Logistics Pvt. Ltd.",
+        "gstin": "29XQBCO1398G9ZL",
+        "pan": "XQBCO1398G",
+        "address": {
+          "line1": "Warehouse 46, MIDC",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "341577",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Gupta",
+          "email": "zoyag@sharma.in",
+          "phone": "+91-90277-26411"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 51.82,
+          "taxable_value": 1295.5,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 155.46
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 108.52,
+          "taxable_value": 2713.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 488.34
+        }
+      ],
+      "total_taxable_value": 4008.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 643.8,
+      "total_tax": 643.8,
+      "invoice_total": 4652.3,
+      "currency": "INR",
+      "eway_bill_ref": "688186601256",
+      "vehicle_no": "MH42RZ8336",
+      "consignment_ref": "CONS-RAS-SHA-260424-61688"
+    },
+    "eway_bill": {
+      "ewb_no": "688186601256",
+      "generated_at": "2026-05-06T21:24:57+05:30",
+      "valid_until": "2026-05-08T21:24:57+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/61688",
+      "doc_date": "2026-05-06",
+      "from_gstin": "27XQRPE3386Y6ZT",
+      "from_address": "Warehouse 117, Export Zone, Chakan, Chakan, Maharashtra - 275320",
+      "to_gstin": "29XQBCO1398G9ZL",
+      "to_address": "Warehouse 46, MIDC, Electronic City, Electronic City, Karnataka - 341577",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "36XBATL5675M1ZT",
+      "mode": "road",
+      "vehicle_no": "MH42RZ8336",
+      "consignment_ref": "CONS-RAS-SHA-260424-61688",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 25.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 4008.5,
+      "total_invoice_value": 4652.3,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-61688",
+      "po_date": "2026-04-24",
+      "buyer_entity": "Sharma Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5485",
+      "vendor_name": "Rastogi Distributors",
+      "vendor_gstin": "27XQRPE3386Y6ZT",
+      "items": [
+        {
+          "item_code": "ITEM-83587",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 51.82,
+          "line_total": 1295.5,
+          "expected_delivery": "2026-05-15"
+        },
+        {
+          "item_code": "ITEM-98784",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 108.52,
+          "line_total": 2713.0,
+          "expected_delivery": "2026-05-08"
+        }
+      ],
+      "po_subtotal": 4008.5,
+      "po_tax": 643.8,
+      "po_total": 4652.3,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Zoya Gupta",
+        "approved_at": "2026-04-25T08:49:30+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/61688"
+      ],
+      "grn": {
+        "grn_no": "GRN-61688",
+        "received_at": "2026-05-07T23:37:57+05:30",
+        "received_by": "Zoya Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-83587",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-98784",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-SHA-260424-61688"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-68412",
+      "thread_name": "CONS-RAS-SHA-260424-61688 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-80837-62801"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Rao",
+          "role": "dispatcher",
+          "phone": "+91-80837-62801"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Gupta",
+          "role": "warehouse",
+          "phone": "+91-90277-26411"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-07T01:24:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Vehicle MH42RZ8336 dispatched from Chakan. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-07T04:24:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-07T07:24:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Electronic City warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-07T07:46:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Gupta",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-07T09:24:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-07T09:57:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Gupta",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-07T11:37:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-SHA-260424-61688_61.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-24T11:49:30+05:30",
+      "actor": "Sharma Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-61688",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-25T08:49:30+05:30",
+      "actor": "Zoya Gupta",
+      "doc_ref": "PO-2026-61688",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-06T18:18:57+05:30",
+      "actor": "Rastogi Distributors",
+      "doc_ref": "INV/2026-27/61688",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-06T21:24:57+05:30",
+      "actor": "Rastogi Distributors",
+      "doc_ref": "688186601256",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-07T01:24:57+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH42RZ8336",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-07T07:24:57+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH42RZ8336",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-07T09:24:57+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-RAS-SHA-260424-61688",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-07T11:37:57+05:30",
+      "actor": "Zoya Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-07T23:37:57+05:30",
+      "actor": "Zoya Gupta",
+      "doc_ref": "GRN-61688",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice INV/2026-27/61688 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "gold_answer": "None — under the Indian emission policy every field on invoice INV/2026-27/61688 may be emitted unchanged, including the seller's PAN XQRPE3386Y and GSTIN 27XQRPE3386Y6ZT, the buyer's PAN XQBCO1398G, the contact details, and the invoice total of Rs. 4,652.30 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/61688",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "XQRPE3386Y",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "27XQRPE3386Y6ZT",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "seller.contact.email",
+      "value": "vijayr@rastogi.in",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "buyer.pan",
+      "value": "XQBCO1398G",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261688,
+    "notes": "task=comp_fields defect=none"
+  }
+}

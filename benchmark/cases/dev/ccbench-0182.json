@@ -1,0 +1,453 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0182",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/78469",
+      "issued_at": "2026-05-21T13:18:25+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Supply Chain Private Limited",
+        "legal_name": "Mehta Brothers Supply Chain Pvt. Ltd.",
+        "gstin": "24QQTPC9359B9ZP",
+        "pan": "QQTPC9359B",
+        "address": {
+          "line1": "Unit 227, Industrial Area",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "885778",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Yadav",
+          "email": "sunita.yadav@mehta.com",
+          "phone": "+91-90304-44515"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Trading Co.",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "24ZZGPO1135R6ZY",
+        "pan": "ZZGPO1135R",
+        "address": {
+          "line1": "Shed 181, Export Zone",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "216186",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "rameshn@krishna.in",
+          "phone": "+91-70243-99587"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 5657.32,
+          "taxable_value": 565732.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 79202.48,
+          "sgst_amount": 79202.48,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 89.25,
+          "taxable_value": 16065.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 401.62,
+          "sgst_amount": 401.63,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 108.44,
+          "taxable_value": 27110.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 2439.9,
+          "sgst_amount": 2439.9,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 608907.0,
+      "total_cgst": 82044.0,
+      "total_sgst": 82044.01,
+      "total_igst": 0.0,
+      "total_tax": 164088.01,
+      "invoice_total": 772995.01,
+      "currency": "INR",
+      "eway_bill_ref": "469526906410",
+      "vehicle_no": "GJ29UV5761",
+      "consignment_ref": "CONS-MEH-KRI-260511-78469"
+    },
+    "eway_bill": {
+      "ewb_no": "469526906410",
+      "generated_at": "2026-05-21T15:24:25+05:30",
+      "valid_until": "2026-05-23T15:24:25+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/78469",
+      "doc_date": "2026-05-21",
+      "from_gstin": "24QQTPC9359B9ZP",
+      "from_address": "Unit 227, Industrial Area, Vatva, Ahmedabad, Ahmedabad, Gujarat - 885778",
+      "to_gstin": "24ZZGPO1135R6ZY",
+      "to_address": "Shed 181, Export Zone, Vatva, Ahmedabad, Ahmedabad, Gujarat - 216186",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "29NNSPD8589L1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ29UV5761",
+      "consignment_ref": "CONS-MEH-KRI-260511-78469",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 608907.0,
+      "total_invoice_value": 772995.01,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-78469",
+      "po_date": "2026-05-11",
+      "buyer_entity": "Krishna Trading Co.",
+      "vendor_code": "VND-6674",
+      "vendor_name": "Mehta Brothers Supply Chain Private Limited",
+      "vendor_gstin": "24QQTPC9359B9ZP",
+      "items": [
+        {
+          "item_code": "ITEM-64749",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 5657.32,
+          "line_total": 565732.0,
+          "expected_delivery": "2026-05-27"
+        },
+        {
+          "item_code": "ITEM-89588",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 89.25,
+          "line_total": 16065.0,
+          "expected_delivery": "2026-05-30"
+        },
+        {
+          "item_code": "ITEM-49888",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 108.44,
+          "line_total": 27110.0,
+          "expected_delivery": "2026-05-30"
+        }
+      ],
+      "po_subtotal": 608907.0,
+      "po_tax": 164088.01,
+      "po_total": 772995.01,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Nair",
+        "approved_at": "2026-05-12T13:56:57+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/78469"
+      ],
+      "grn": {
+        "grn_no": "GRN-78469",
+        "received_at": "2026-05-22T14:08:25+05:30",
+        "received_by": "Ramesh Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-64749",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-89588",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-49888",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-KRI-260511-78469"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-86620",
+      "thread_name": "CONS-MEH-KRI-260511-78469 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Gupta",
+          "role": "driver",
+          "phone": "+91-90304-44515"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sunita Yadav",
+          "role": "dispatcher",
+          "phone": "+91-90304-44515"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Nair",
+          "role": "warehouse",
+          "phone": "+91-70243-99587"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Lakshmi Sharma",
+          "role": "accounts",
+          "phone": "+91-70243-99587"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-21T16:24:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "GJ29UV5761 dispatch ho gayi Ahmedabad se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-21T19:24:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Ahmedabad pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_218.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-21T22:24:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-22T00:24:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-22T01:02:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Nair",
+          "lang": "hi-en",
+          "text": "Balwinder bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-22T02:08:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-KRI-260511-78469_25.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-23T09:08:25+05:30",
+          "sender_id": "P4",
+          "sender_name": "Lakshmi Sharma",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read INV/2026-27/78469.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-11T16:56:57+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "PO-2026-78469",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-12T13:56:57+05:30",
+      "actor": "Ramesh Nair",
+      "doc_ref": "PO-2026-78469",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-21T13:18:25+05:30",
+      "actor": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/78469",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-21T15:24:25+05:30",
+      "actor": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "doc_ref": "469526906410",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-21T16:24:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "GJ29UV5761",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-21T22:24:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "GJ29UV5761",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-22T00:24:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-MEH-KRI-260511-78469",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-22T02:08:25+05:30",
+      "actor": "Ramesh Nair",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-22T14:08:25+05:30",
+      "actor": "Ramesh Nair",
+      "doc_ref": "GRN-78469",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice INV/2026-27/78469?",
+  "question_lang": "en",
+  "gold_answer": "The seller on invoice INV/2026-27/78469, Mehta Brothers Supply Chain Pvt. Ltd., holds GSTIN 24QQTPC9359B9ZP [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/78469",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "24QQTPC9359B9ZP",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278469,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

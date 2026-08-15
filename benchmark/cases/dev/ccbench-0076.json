@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0076",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/68187",
+      "issued_at": "2026-02-21T13:49:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Exports",
+        "legal_name": "Shree Ganesh Exports",
+        "gstin": "09ZZLPA7310Y9Z7",
+        "pan": "ZZLPA7310Y",
+        "address": {
+          "line1": "Unit 57, Industrial Area",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "856920",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Khan",
+          "email": "ramesh.khan@shree.in",
+          "phone": "+91-90894-58307"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Trading Co.",
+        "legal_name": "Bhatia Trading Co.",
+        "gstin": "24QQOCP6087L8Z3",
+        "pan": "QQOCP6087L",
+        "address": {
+          "line1": "Plot 87, Industrial Area",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "720494",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Yadav",
+          "email": "ryadav@bhatia.co.in",
+          "phone": "+91-80769-95630"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 229.43,
+          "taxable_value": 5735.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1032.43
+        }
+      ],
+      "total_taxable_value": 5735.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1032.43,
+      "total_tax": 1032.43,
+      "invoice_total": 6768.18,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP75ZK9842",
+      "consignment_ref": "CONS-SHR-BHA-260217-68187"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-68187",
+      "po_date": "2026-02-17",
+      "buyer_entity": "Bhatia Trading Co.",
+      "vendor_code": "VND-2642",
+      "vendor_name": "Shree Ganesh Exports",
+      "vendor_gstin": "09ZZLPA7310Y9Z7",
+      "items": [
+        {
+          "item_code": "ITEM-68840",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 229.43,
+          "line_total": 5735.75,
+          "expected_delivery": "2026-02-25"
+        }
+      ],
+      "po_subtotal": 5735.75,
+      "po_tax": 1032.43,
+      "po_total": 6768.18,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Rajesh Yadav",
+        "approved_at": "2026-02-18T04:27:39+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/68187"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-SHR-BHA-260217-68187"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-53700",
+      "thread_name": "CONS-SHR-BHA-260217-68187 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Sharma",
+          "role": "driver",
+          "phone": "+91-90894-58307"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Khan",
+          "role": "dispatcher",
+          "phone": "+91-90894-58307"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Yadav",
+          "role": "warehouse",
+          "phone": "+91-80769-95630"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Iyer",
+          "role": "accounts",
+          "phone": "+91-80769-95630"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-22T02:41:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi-en",
+          "text": "UP75ZK9842 dispatch ho gayi Lucknow se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-22T10:41:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-22T13:41:07+05:30",
+          "sender_id": "P2",
+          "sender_name": "Ramesh Khan",
+          "lang": "hi-en",
+          "text": "Ruko wahin. Main abhi portal se e-way bill generate karwata hoon.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-17T10:27:39+05:30",
+      "actor": "Bhatia Trading Co.",
+      "doc_ref": "ORD-2026-68187",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-18T04:27:39+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "ORD-2026-68187",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-21T13:49:07+05:30",
+      "actor": "Shree Ganesh Exports",
+      "doc_ref": "GST/2026-27/68187",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-02-22T02:41:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP75ZK9842",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-02-23T04:41:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP75ZK9842",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-02-23T05:41:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-SHR-BHA-260217-68187",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-02-23T08:01:07+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-SHR-BHA-260217-68187 before it moved?",
+  "question_lang": "en",
+  "gold_answer": "No — invoice GST/2026-27/68187 carries no e-way bill reference and none exists for consignment CONS-SHR-BHA-260217-68187 [INV], so the vehicle moved without a permit. The driver confirmed on the thread that the vehicle was stopped at the check post for exactly this reason [M-002].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/68187",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-SHR-BHA-260217-68187",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268187,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0074",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/67993",
+      "issued_at": "2026-04-26T11:41:44+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Trading Co.",
+        "legal_name": "Singh & Sons Trading Co.",
+        "gstin": "09ZZYCJ6089Y9ZO",
+        "pan": "ZZYCJ6089Y",
+        "address": {
+          "line1": "Godown 68, Logistics Park",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "249672",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Reddy",
+          "email": "priyar@singh.co.in",
+          "phone": "+91-70621-81898"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Supply Chain P Ltd",
+        "legal_name": "Mehta Brothers Supply Chain Pvt. Ltd.",
+        "gstin": "09XQHPZ0107N3ZK",
+        "pan": "XQHPZ0107N",
+        "address": {
+          "line1": "Shed 240, Logistics Park",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "631501",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Patel",
+          "email": "rajesh.patel@mehta.in",
+          "phone": "+91-90985-86789"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 36342.82,
+          "taxable_value": 1817141.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 163542.69,
+          "sgst_amount": 163542.69,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 331.73,
+          "taxable_value": 82932.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 7463.93,
+          "sgst_amount": 7463.92,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1900073.5,
+      "total_cgst": 171006.62,
+      "total_sgst": 171006.61,
+      "total_igst": 0.0,
+      "total_tax": 342013.23,
+      "invoice_total": 2242086.73,
+      "currency": "INR",
+      "eway_bill_ref": "993164841344",
+      "vehicle_no": "UP92GK7909",
+      "consignment_ref": "CONS-SIN-MEH-260414-67993"
+    },
+    "eway_bill": {
+      "ewb_no": "993164841344",
+      "generated_at": "2026-04-26T13:33:44+05:30",
+      "valid_until": "2026-04-30T13:33:44+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/67993",
+      "doc_date": "2026-04-26",
+      "from_gstin": "09ZZYCJ6089Y9ZO",
+      "from_address": "Godown 68, Logistics Park, Ghaziabad, Ghaziabad, Uttar Pradesh - 249672",
+      "to_gstin": "09XQHPZ0107N3ZK",
+      "to_address": "Shed 240, Logistics Park, Ghaziabad, Ghaziabad, Uttar Pradesh - 631501",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "06LUHRV2187C1ZT",
+      "mode": "road",
+      "vehicle_no": "UP92GK7909",
+      "consignment_ref": "CONS-SIN-MEH-260414-67993",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 1900073.5,
+      "total_invoice_value": 2242086.73,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-67993",
+      "po_date": "2026-04-14",
+      "buyer_entity": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-1462",
+      "vendor_name": "Singh & Sons Trading Co.",
+      "vendor_gstin": "09ZZYCJ6089Y9ZO",
+      "items": [
+        {
+          "item_code": "ITEM-89998",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 36342.82,
+          "line_total": 1817141.0,
+          "expected_delivery": "2026-04-30"
+        },
+        {
+          "item_code": "ITEM-85473",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 331.73,
+          "line_total": 82932.5,
+          "expected_delivery": "2026-05-01"
+        }
+      ],
+      "po_subtotal": 1900073.5,
+      "po_tax": 342013.23,
+      "po_total": 2242086.73,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Patel",
+        "approved_at": "2026-04-15T01:12:20+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/67993"
+      ],
+      "grn": {
+        "grn_no": "GRN-67993",
+        "received_at": "2026-04-26T15:57:44+05:30",
+        "received_by": "Rajesh Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-89998",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-85473",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-MEH-260414-67993"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-10778",
+      "thread_name": "CONS-SIN-MEH-260414-67993 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Sharma",
+          "role": "driver",
+          "phone": "+91-70621-81898"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70621-81898"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Patel",
+          "role": "warehouse",
+          "phone": "+91-90985-86789"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-26T12:33:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-26T12:41:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-26T13:33:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-26T14:07:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-26T14:57:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-MEH-260414-67993_15.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-4817.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-26T15:33:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-26T16:57:44+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Reddy",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-26T18:33:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "en",
+          "text": "Vehicle UP92GK7909 dispatched from Ghaziabad. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-26T19:55:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-24529",
+      "raised_at": "2026-04-27T01:57:44+05:30",
+      "raised_by": "Rajesh Patel",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-14T18:12:20+05:30",
+      "actor": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "doc_ref": "PUR-2026-67993",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-15T01:12:20+05:30",
+      "actor": "Rajesh Patel",
+      "doc_ref": "PUR-2026-67993",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-26T11:41:44+05:30",
+      "actor": "Singh & Sons Trading Co.",
+      "doc_ref": "TAX/2026-27/67993",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "arrived",
+      "ts": "2026-04-26T12:33:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "UP92GK7909",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-04-26T13:33:44+05:30",
+      "actor": "Singh & Sons Trading Co.",
+      "doc_ref": "993164841344",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-04-26T13:33:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-SIN-MEH-260414-67993",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-04-26T14:57:44+05:30",
+      "actor": "Rajesh Patel",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-04-26T15:57:44+05:30",
+      "actor": "Rajesh Patel",
+      "doc_ref": "GRN-67993",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-04-26T18:33:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "UP92GK7909",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread question the timeline for consignment CONS-SIN-MEH-260414-67993, and were they right?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267993,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

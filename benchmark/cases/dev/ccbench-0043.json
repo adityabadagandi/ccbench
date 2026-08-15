@@ -1,0 +1,406 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0043",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/64986",
+      "issued_at": "2026-05-22T10:56:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Polymers Ltd",
+        "legal_name": "Iyer Polymers Ltd.",
+        "gstin": "07XQDCJ6894D6ZV",
+        "pan": "XQDCJ6894D",
+        "address": {
+          "line1": "Warehouse 211, Industrial Area",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "710755",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Patel",
+          "email": "mahesh.patel@iyer.in",
+          "phone": "+91-70812-29321"
+        }
+      },
+      "buyer": {
+        "name": "Nair Distributors",
+        "legal_name": "Nair Distributors",
+        "gstin": "07XQNPA5686G2Z0",
+        "pan": "XQNPA5686G",
+        "address": {
+          "line1": "Godown 192, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "848286",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Iyer",
+          "email": "diyer@nair.co.in",
+          "phone": "+91-80797-44486"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 6930.48,
+          "taxable_value": 173262.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 24256.68,
+          "sgst_amount": 24256.68,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 173262.0,
+      "total_cgst": 24256.68,
+      "total_sgst": 24256.68,
+      "total_igst": 0.0,
+      "total_tax": 48513.36,
+      "invoice_total": 221775.36,
+      "currency": "INR",
+      "eway_bill_ref": "986117314583",
+      "vehicle_no": "DL18CM6406",
+      "consignment_ref": "CONS-IYE-NAI-260513-64986"
+    },
+    "eway_bill": {
+      "ewb_no": "986117314583",
+      "generated_at": "2026-05-22T19:15:21+05:30",
+      "valid_until": "2026-05-23T19:15:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/64986",
+      "doc_date": "2026-05-22",
+      "from_gstin": "07XQDCJ6894D6ZV",
+      "from_address": "Warehouse 211, Industrial Area, Karol Bagh, Karol Bagh, Delhi - 710755",
+      "to_gstin": "07XQNPA5686G2Z0",
+      "to_address": "Godown 192, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 848286",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "33WCKUS4593A1ZT",
+      "mode": "road",
+      "vehicle_no": "DL18CM6406",
+      "consignment_ref": "CONS-IYE-NAI-260513-64986",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 173262.0,
+      "total_invoice_value": 221775.36,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-64986",
+      "po_date": "2026-05-13",
+      "buyer_entity": "Nair Distributors",
+      "vendor_code": "VND-1461",
+      "vendor_name": "Iyer Polymers Ltd",
+      "vendor_gstin": "07XQDCJ6894D6ZV",
+      "items": [
+        {
+          "item_code": "ITEM-92559",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 6930.48,
+          "line_total": 173262.0,
+          "expected_delivery": "2026-05-29"
+        }
+      ],
+      "po_subtotal": 173262.0,
+      "po_tax": 48513.36,
+      "po_total": 221775.36,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Deepa Iyer",
+        "approved_at": "2026-05-14T11:56:21+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/64986"
+      ],
+      "grn": {
+        "grn_no": "GRN-64986",
+        "received_at": "2026-05-23T19:06:21+05:30",
+        "received_by": "Deepa Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-92559",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-NAI-260513-64986"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-81715",
+      "thread_name": "CONS-IYE-NAI-260513-64986 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Reddy",
+          "role": "driver",
+          "phone": "+91-70812-29321"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Mahesh Patel",
+          "role": "dispatcher",
+          "phone": "+91-70812-29321"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Iyer",
+          "role": "warehouse",
+          "phone": "+91-80797-44486"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Dinesh Joshi",
+          "role": "accounts",
+          "phone": "+91-80797-44486"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-23T00:15:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "hi-en",
+          "text": "DL18CM6406 dispatch ho gayi Karol Bagh se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-23T01:12:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-23T02:15:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Okhla Phase II.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-23T04:15:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Okhla Phase II.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-23T06:15:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Okhla Phase II गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-23T10:15:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Iyer",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-23T10:37:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Iyer",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-23T13:06:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-NAI-260513-64986_23.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-13T18:56:21+05:30",
+      "actor": "Nair Distributors",
+      "doc_ref": "PO-2026-64986",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-14T11:56:21+05:30",
+      "actor": "Deepa Iyer",
+      "doc_ref": "PO-2026-64986",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-22T10:56:21+05:30",
+      "actor": "Iyer Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/64986",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-22T19:15:21+05:30",
+      "actor": "Iyer Polymers Ltd.",
+      "doc_ref": "986117314583",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-23T00:15:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL18CM6406",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-23T06:15:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "DL18CM6406",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-23T10:15:21+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-IYE-NAI-260513-64986",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-23T13:06:21+05:30",
+      "actor": "Deepa Iyer",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-23T19:06:21+05:30",
+      "actor": "Deepa Iyer",
+      "doc_ref": "GRN-64986",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-IYE-NAI-260513-64986?",
+  "question_lang": "en",
+  "gold_answer": "Yes, the two agree: e-way bill 986117314583 declares Rs. 221,775.36 [EWB] and invoice TAX/2026-27/64986 totals the same Rs. 221,775.36 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/64986",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "221775.36",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "986117314583",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "221775.36",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-IYE-NAI-260513-64986",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264986,
+    "notes": "task=mh_match defect=none"
+  }
+}

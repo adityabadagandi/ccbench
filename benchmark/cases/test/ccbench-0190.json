@@ -1,0 +1,342 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0190",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/79245",
+      "issued_at": "2026-04-14T09:27:50+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Manufacturing P Ltd",
+        "legal_name": "Iyer Manufacturing Pvt. Ltd.",
+        "gstin": "23XQWCH6793J7ZQ",
+        "pan": "XQWCH6793J",
+        "address": {
+          "line1": "Godown 219, Phase II",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "675345",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Banerjee",
+          "email": "dinesh.banerjee@iyer.in",
+          "phone": "+91-90265-34422"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Distributors",
+        "legal_name": "Pillai Distributors",
+        "gstin": "36QQOPF1531U9ZM",
+        "pan": "QQOPF1531U",
+        "address": {
+          "line1": "Shed 62, Logistics Park",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "276972",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Joshi",
+          "email": "farhan.joshi@pillai.in",
+          "phone": "+91-90967-41912"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 4627.71,
+          "taxable_value": 115692.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 20824.69
+        }
+      ],
+      "total_taxable_value": 115692.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 20824.69,
+      "total_tax": 20824.69,
+      "invoice_total": 136517.44,
+      "currency": "INR",
+      "eway_bill_ref": "245266066959",
+      "vehicle_no": "MP99QY5964",
+      "consignment_ref": "CONS-IYE-PIL-260411-79245"
+    },
+    "eway_bill": {
+      "ewb_no": "245266066959",
+      "generated_at": "2026-04-14T16:19:50+05:30",
+      "valid_until": "2026-04-18T16:19:50+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/79245",
+      "doc_date": "2026-04-14",
+      "from_gstin": "23XQWCH6793J7ZQ",
+      "from_address": "Godown 219, Phase II, Mandideep, Mandideep, Madhya Pradesh - 675345",
+      "to_gstin": "36QQOPF1531U9ZM",
+      "to_address": "Shed 62, Logistics Park, Medchal, Medchal, Telangana - 276972",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "29UTMJA2855M1ZT",
+      "mode": "road",
+      "vehicle_no": "MP99QY5964",
+      "consignment_ref": "CONS-IYE-PIL-260411-79245",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 115692.75,
+      "total_invoice_value": 136517.44,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-79245",
+      "po_date": "2026-04-11",
+      "buyer_entity": "Pillai Distributors",
+      "vendor_code": "VND-8594",
+      "vendor_name": "Iyer Manufacturing P Ltd",
+      "vendor_gstin": "23XQWCH6793J7ZQ",
+      "items": [
+        {
+          "item_code": "ITEM-88124",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 4627.71,
+          "line_total": 115692.75,
+          "expected_delivery": "2026-04-16"
+        }
+      ],
+      "po_subtotal": 115692.75,
+      "po_tax": 20824.69,
+      "po_total": 136517.44,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Farhan Joshi",
+        "approved_at": "2026-04-11T18:27:59+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/79245"
+      ],
+      "grn": {
+        "grn_no": "GRN-79245",
+        "received_at": "2026-04-16T04:42:50+05:30",
+        "received_by": "Farhan Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-88124",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-PIL-260411-79245"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-61842",
+      "thread_name": "CONS-IYE-PIL-260411-79245 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Singh",
+          "role": "driver",
+          "phone": "+91-90265-34422"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90265-34422"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Joshi",
+          "role": "warehouse",
+          "phone": "+91-90967-41912"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rajesh Rao",
+          "role": "accounts",
+          "phone": "+91-90967-41912"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-14T21:19:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "en",
+          "text": "Vehicle MP99QY5964 dispatched from Mandideep. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-15T03:49:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-15T10:19:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-15T14:19:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-15T14:48:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-15T16:42:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-PIL-260411-79245_93.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-11T15:27:59+05:30",
+      "actor": "Pillai Distributors",
+      "doc_ref": "PUR-2026-79245",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-11T18:27:59+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "PUR-2026-79245",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-14T09:27:50+05:30",
+      "actor": "Iyer Manufacturing Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/79245",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-14T16:19:50+05:30",
+      "actor": "Iyer Manufacturing Pvt. Ltd.",
+      "doc_ref": "245266066959",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-14T21:19:50+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MP99QY5964",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-15T10:19:50+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MP99QY5964",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-15T14:19:50+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-IYE-PIL-260411-79245",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-15T16:42:50+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-16T04:42:50+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "GRN-79245",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-IYE-PIL-260411-79245?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279245,
+    "notes": "task=lookup_total defect=none"
+  }
+}

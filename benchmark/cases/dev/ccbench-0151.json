@@ -1,0 +1,450 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0151",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/75462",
+      "issued_at": "2026-07-24T17:34:41+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Trading Co.",
+        "legal_name": "Shree Ganesh Trading Co.",
+        "gstin": "07ZZKPS3641O9ZS",
+        "pan": "ZZKPS3641O",
+        "address": {
+          "line1": "Godown 86, Phase II",
+          "line2": "Connaught Place",
+          "city": "Connaught Place",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "524656",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Kumar",
+          "email": "imran.kumar@shree.co.in",
+          "phone": "+91-70281-87535"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Supply Chain Pvt. Limited",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "07ZZUCC7096J9ZQ",
+        "pan": "ZZUCC7096J",
+        "address": {
+          "line1": "Warehouse 60, Logistics Park",
+          "line2": "Saket",
+          "city": "Saket",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "192078",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Singh",
+          "email": "lsingh@rastogi.in",
+          "phone": "+91-70886-92662"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 49042.82,
+          "taxable_value": 36782115.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 3310390.35,
+          "sgst_amount": 3310390.35,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 93.27,
+          "taxable_value": 46635.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4197.15,
+          "sgst_amount": 4197.15,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 205.77,
+          "taxable_value": 20577.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 514.42,
+          "sgst_amount": 514.43,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 36849327.0,
+      "total_cgst": 3315101.92,
+      "total_sgst": 3315101.93,
+      "total_igst": 0.0,
+      "total_tax": 6630203.85,
+      "invoice_total": 43479530.85,
+      "currency": "INR",
+      "eway_bill_ref": "462905084246",
+      "vehicle_no": "DL98HX7043",
+      "consignment_ref": "CONS-SHR-RAS-260712-75462"
+    },
+    "eway_bill": {
+      "ewb_no": "462905084246",
+      "generated_at": "2026-07-25T02:26:41+05:30",
+      "valid_until": "2026-07-30T02:26:41+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/75462",
+      "doc_date": "2026-07-24",
+      "from_gstin": "07ZZKPS3641O9ZS",
+      "from_address": "Godown 86, Phase II, Connaught Place, Connaught Place, Delhi - 524656",
+      "to_gstin": "07ZZUCC7096J9ZQ",
+      "to_address": "Warehouse 60, Logistics Park, Saket, Saket, Delhi - 192078",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "24GAJRI8545J1ZT",
+      "mode": "road",
+      "vehicle_no": "DL98HX7043",
+      "consignment_ref": "CONS-SHR-RAS-260712-75462",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 36849327.0,
+      "total_invoice_value": 43479530.85,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-75462",
+      "po_date": "2026-07-12",
+      "buyer_entity": "Rastogi Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-2002",
+      "vendor_name": "Shree Ganesh Trading Co.",
+      "vendor_gstin": "07ZZKPS3641O9ZS",
+      "items": [
+        {
+          "item_code": "ITEM-85899",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 49042.82,
+          "line_total": 36782115.0,
+          "expected_delivery": "2026-07-28"
+        },
+        {
+          "item_code": "ITEM-29446",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 93.27,
+          "line_total": 46635.0,
+          "expected_delivery": "2026-07-28"
+        },
+        {
+          "item_code": "ITEM-54999",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 205.77,
+          "line_total": 20577.0,
+          "expected_delivery": "2026-07-29"
+        }
+      ],
+      "po_subtotal": 36849327.0,
+      "po_tax": 6630203.85,
+      "po_total": 43479530.85,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Singh",
+        "approved_at": "2026-07-13T11:41:39+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/75462"
+      ],
+      "grn": {
+        "grn_no": "GRN-75462",
+        "received_at": "2026-07-26T03:35:41+05:30",
+        "received_by": "Lakshmi Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-85899",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-29446",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-54999",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-RAS-260712-75462"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-64308",
+      "thread_name": "CONS-SHR-RAS-260712-75462 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-70281-87535"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Kumar",
+          "role": "dispatcher",
+          "phone": "+91-70281-87535"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Singh",
+          "role": "warehouse",
+          "phone": "+91-70886-92662"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-25T06:26:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sir DL98HX7043 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-25T14:56:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Saket pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_618.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-25T23:26:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Saket warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-26T01:26:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Singh",
+          "lang": "en",
+          "text": "Consignment received in full at our Saket warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-26T02:08:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Singh",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-26T02:35:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-RAS-260712-75462_96.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-12T18:41:39+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-75462",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-13T11:41:39+05:30",
+      "actor": "Lakshmi Singh",
+      "doc_ref": "PO-2026-75462",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-24T17:34:41+05:30",
+      "actor": "Shree Ganesh Trading Co.",
+      "doc_ref": "GST/2026-27/75462",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-25T02:26:41+05:30",
+      "actor": "Shree Ganesh Trading Co.",
+      "doc_ref": "462905084246",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-25T06:26:41+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "DL98HX7043",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-25T23:26:41+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "DL98HX7043",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-26T01:26:41+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-SHR-RAS-260712-75462",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-26T02:35:41+05:30",
+      "actor": "Lakshmi Singh",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-26T03:35:41+05:30",
+      "actor": "Lakshmi Singh",
+      "doc_ref": "GRN-75462",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice GST/2026-27/75462 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "gold_answer": "None — under the Indian emission policy every field on invoice GST/2026-27/75462 may be emitted unchanged, including the seller's PAN ZZKPS3641O and GSTIN 07ZZKPS3641O9ZS, the buyer's PAN ZZUCC7096J, the contact details, and the invoice total of Rs. 43,479,530.85 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/75462",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "ZZKPS3641O",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "07ZZKPS3641O9ZS",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "seller.contact.email",
+      "value": "imran.kumar@shree.co.in",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "buyer.pan",
+      "value": "ZZUCC7096J",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275462,
+    "notes": "task=comp_fields defect=none"
+  }
+}

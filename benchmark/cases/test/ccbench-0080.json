@@ -1,0 +1,480 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0080",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/68575",
+      "issued_at": "2026-02-21T14:05:50+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Manufacturing Private Limited",
+        "legal_name": "Verma Manufacturing Pvt. Ltd.",
+        "gstin": "06QQEPU0805Z8ZT",
+        "pan": "QQEPU0805Z",
+        "address": {
+          "line1": "Unit 7, Industrial Area",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "185934",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Khan",
+          "email": "arjun.khan@verma.in",
+          "phone": "+91-90958-62952"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Distributors",
+        "legal_name": "Reddy Distributors",
+        "gstin": "06XQACR5409X9Z3",
+        "pan": "XQACR5409X",
+        "address": {
+          "line1": "Unit 106, Phase II",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "427822",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Rao",
+          "email": "rrao@reddy.com",
+          "phone": "+91-70652-48541"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 48.82,
+          "taxable_value": 4882.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 292.92,
+          "sgst_amount": 292.92,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 43237.54,
+          "taxable_value": 17295016.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 1556551.44,
+          "sgst_amount": 1556551.44,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 122.55,
+          "taxable_value": 49020.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4411.8,
+          "sgst_amount": 4411.8,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 6486.26,
+          "taxable_value": 648626.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 58376.34,
+          "sgst_amount": 58376.34,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 17997544.0,
+      "total_cgst": 1619632.5,
+      "total_sgst": 1619632.5,
+      "total_igst": 0.0,
+      "total_tax": 3239265.0,
+      "invoice_total": 21236809.0,
+      "currency": "INR",
+      "eway_bill_ref": "575700702368",
+      "vehicle_no": "HR19TV8964",
+      "consignment_ref": "CONS-VER-RED-260216-68575"
+    },
+    "eway_bill": {
+      "ewb_no": "575700702368",
+      "generated_at": "2026-02-21T20:57:50+05:30",
+      "valid_until": "2026-02-27T20:57:50+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/68575",
+      "doc_date": "2026-02-21",
+      "from_gstin": "06QQEPU0805Z8ZT",
+      "from_address": "Unit 7, Industrial Area, Bahadurgarh, Bahadurgarh, Haryana - 185934",
+      "to_gstin": "06XQACR5409X9Z3",
+      "to_address": "Unit 106, Phase II, Manesar, Manesar, Haryana - 427822",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "27EMIKG3282Q1ZT",
+      "mode": "road",
+      "vehicle_no": "HR19TV8964",
+      "consignment_ref": "CONS-VER-RED-260216-68575",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 100.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 100.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 17997544.0,
+      "total_invoice_value": 21236709.0,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-68575",
+      "po_date": "2026-02-16",
+      "buyer_entity": "Reddy Distributors",
+      "vendor_code": "VND-5215",
+      "vendor_name": "Verma Manufacturing Private Limited",
+      "vendor_gstin": "06QQEPU0805Z8ZT",
+      "items": [
+        {
+          "item_code": "ITEM-50220",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 48.82,
+          "line_total": 4882.0,
+          "expected_delivery": "2026-03-02"
+        },
+        {
+          "item_code": "ITEM-75969",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 43237.54,
+          "line_total": 17295016.0,
+          "expected_delivery": "2026-02-24"
+        },
+        {
+          "item_code": "ITEM-92007",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 122.55,
+          "line_total": 49020.0,
+          "expected_delivery": "2026-03-01"
+        },
+        {
+          "item_code": "ITEM-31446",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 6486.26,
+          "line_total": 648626.0,
+          "expected_delivery": "2026-02-27"
+        }
+      ],
+      "po_subtotal": 17997544.0,
+      "po_tax": 3239265.0,
+      "po_total": 21236809.0,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Rao",
+        "approved_at": "2026-02-16T21:56:13+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/68575"
+      ],
+      "grn": {
+        "grn_no": "GRN-68575",
+        "received_at": "2026-02-23T20:39:50+05:30",
+        "received_by": "Ramesh Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-50220",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-75969",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-92007",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-31446",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-RED-260216-68575"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-66537",
+      "thread_name": "CONS-VER-RED-260216-68575 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-90958-62952"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Khan",
+          "role": "dispatcher",
+          "phone": "+91-90958-62952"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Rao",
+          "role": "warehouse",
+          "phone": "+91-70652-48541"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sunita Sharma",
+          "role": "accounts",
+          "phone": "+91-70652-48541"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-22T01:57:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "सर HR19TV8964 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-22T02:33:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-23T06:57:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-23T07:18:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Rao",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-23T07:57:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Rao",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-23T08:16:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Rao",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-23T10:39:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-RED-260216-68575_68.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-23T23:39:50+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sunita Sharma",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 21,236,709.00 likhi hai par invoice Rs. 21,236,809.00 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-02-24T05:39:50+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sunita Sharma",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/68575 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-62520",
+      "raised_at": "2026-02-24T04:39:50+05:30",
+      "raised_by": "Ramesh Rao",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-16T19:56:13+05:30",
+      "actor": "Reddy Distributors",
+      "doc_ref": "PO-2026-68575",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-16T21:56:13+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "PO-2026-68575",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-21T14:05:50+05:30",
+      "actor": "Verma Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/68575",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-21T20:57:50+05:30",
+      "actor": "Verma Manufacturing Pvt. Ltd.",
+      "doc_ref": "575700702368",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-22T01:57:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR19TV8964",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-23T06:57:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR19TV8964",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-23T07:57:50+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-VER-RED-260216-68575",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-23T10:39:50+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-23T20:39:50+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "GRN-68575",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread raise a concern about the paperwork for consignment CONS-VER-RED-260216-68575, and was it justified?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268575,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

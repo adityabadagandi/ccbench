@@ -1,0 +1,449 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0156",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/75947",
+      "issued_at": "2026-06-06T09:34:43+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Trading Co",
+        "legal_name": "Gupta Trading Co.",
+        "gstin": "19QQDPC9526U1Z2",
+        "pan": "QQDPC9526U",
+        "address": {
+          "line1": "Warehouse 31, Industrial Area",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "785211",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Joshi",
+          "email": "rekhaj@gupta.com",
+          "phone": "+91-80936-78302"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Trading Co.",
+        "legal_name": "Reddy Trading Co.",
+        "gstin": "19ZZXPD9546K5ZT",
+        "pan": "ZZXPD9546K",
+        "address": {
+          "line1": "Godown 197, Logistics Park",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "849308",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Rao",
+          "email": "rrao@reddy.in",
+          "phone": "+91-70837-79073"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 142.67,
+          "taxable_value": 3566.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 321.0,
+          "sgst_amount": 321.01,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 95.02,
+          "taxable_value": 47510.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4275.9,
+          "sgst_amount": 4275.9,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 51076.75,
+      "total_cgst": 4596.9,
+      "total_sgst": 4596.91,
+      "total_igst": 0.0,
+      "total_tax": 9193.81,
+      "invoice_total": 60270.56,
+      "currency": "INR",
+      "eway_bill_ref": "947143654354",
+      "vehicle_no": "WB98WM7249",
+      "consignment_ref": "CONS-GUP-RED-260529-75947"
+    },
+    "eway_bill": {
+      "ewb_no": "947143654354",
+      "generated_at": "2026-06-06T15:53:43+05:30",
+      "valid_until": "2026-06-10T15:53:43+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/75947",
+      "doc_date": "2026-06-06",
+      "from_gstin": "19QQDPC9526U1Z2",
+      "from_address": "Warehouse 31, Industrial Area, Howrah, Howrah, West Bengal - 785211",
+      "to_gstin": "19ZZXPD9546K5ZT",
+      "to_address": "Godown 197, Logistics Park, Howrah, Howrah, West Bengal - 849308",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "24LIGTE9068E1ZT",
+      "mode": "road",
+      "vehicle_no": "WB98WM7249",
+      "consignment_ref": "CONS-GUP-RED-260529-75947",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 51076.75,
+      "total_invoice_value": 60270.56,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-75947",
+      "po_date": "2026-05-29",
+      "buyer_entity": "Reddy Trading Co.",
+      "vendor_code": "VND-5611",
+      "vendor_name": "Gupta Trading Co",
+      "vendor_gstin": "19QQDPC9526U1Z2",
+      "items": [
+        {
+          "item_code": "ITEM-77635",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 142.67,
+          "line_total": 3566.75,
+          "expected_delivery": "2026-06-10"
+        },
+        {
+          "item_code": "ITEM-10756",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 95.02,
+          "line_total": 47510.0,
+          "expected_delivery": "2026-06-15"
+        }
+      ],
+      "po_subtotal": 51076.75,
+      "po_tax": 9193.81,
+      "po_total": 60270.56,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Rao",
+        "approved_at": "2026-05-29T12:18:44+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/75947"
+      ],
+      "grn": {
+        "grn_no": "GRN-75947",
+        "received_at": "2026-06-06T12:22:43+05:30",
+        "received_by": "Ramesh Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-77635",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-10756",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-RED-260529-75947"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-42391",
+      "thread_name": "CONS-GUP-RED-260529-75947 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Yadav",
+          "role": "driver",
+          "phone": "+91-80936-78302"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Joshi",
+          "role": "dispatcher",
+          "phone": "+91-80936-78302"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Rao",
+          "role": "warehouse",
+          "phone": "+91-70837-79073"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Meena Kumar",
+          "role": "accounts",
+          "phone": "+91-70837-79073"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-06T07:53:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "Howrah warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-06T08:53:43+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Rao",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-06T09:06:43+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Rao",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-06T09:22:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-RED-260529-75947_11.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-06T12:23:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Howrah pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_412.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-06T13:22:43+05:30",
+          "sender_id": "P4",
+          "sender_name": "Meena Kumar",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-06T16:53:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "WB98WM7249 dispatch ho gayi Howrah se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-06T17:40:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Yadav",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-85221",
+      "raised_at": "2026-06-06T13:22:43+05:30",
+      "raised_by": "Ramesh Rao",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-29T09:18:44+05:30",
+      "actor": "Reddy Trading Co.",
+      "doc_ref": "PO-2026-75947",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-29T12:18:44+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "PO-2026-75947",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-06-06T07:53:43+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB98WM7249",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-06-06T08:53:43+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-GUP-RED-260529-75947",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-06-06T09:22:43+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-06-06T09:34:43+05:30",
+      "actor": "Gupta Trading Co.",
+      "doc_ref": "INV/2026-27/75947",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-06-06T12:22:43+05:30",
+      "actor": "Ramesh Rao",
+      "doc_ref": "GRN-75947",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-06-06T15:53:43+05:30",
+      "actor": "Gupta Trading Co.",
+      "doc_ref": "947143654354",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-06T16:53:43+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB98WM7249",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-GUP-RED-260529-75947 ki timeline pe sawaal uthaya tha? Aur kya wo sahi the?",
+  "question_lang": "hi-en",
+  "gold_answer": "Yes, and they were right: in message M-008, Meena Kumar noted \"POD ka time dispatch se pehle ka lag raha hai\" [M-008]. The timeline confirms it — delivery is recorded at 06 Jun 2026 at 08:53 but dispatch only at 06 Jun 2026 at 16:53 [TIMELINE].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-06-06T16:53:43+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-06-06T08:53:43+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70837-79073",
+    "+91-80936-78302",
+    "QQDPC9526U",
+    "ZZXPD9546K",
+    "rekhaj@gupta.com",
+    "rrao@reddy.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275947,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

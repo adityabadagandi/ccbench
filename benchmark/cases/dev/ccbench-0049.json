@@ -1,0 +1,395 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0049",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/65568",
+      "issued_at": "2026-06-24T16:18:43+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Supply Chain Private Limited",
+        "legal_name": "Verma Supply Chain Pvt. Ltd.",
+        "gstin": "19ZZPCX9477J5ZF",
+        "pan": "ZZPCX9477J",
+        "address": {
+          "line1": "Unit 67, MIDC",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "323261",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Desai",
+          "email": "nikhild@verma.in",
+          "phone": "+91-70245-73928"
+        }
+      },
+      "buyer": {
+        "name": "Verma Manufacturing Pvt Ltd",
+        "legal_name": "Verma Manufacturing Pvt. Ltd.",
+        "gstin": "33XQQPK4416A8ZE",
+        "pan": "XQQPK4416A",
+        "address": {
+          "line1": "Unit 43, Export Zone",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "869679",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Banerjee",
+          "email": "rbanerjee@verma.in",
+          "phone": "+91-90221-60043"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 3999.01,
+          "taxable_value": 399901.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 71982.18
+        }
+      ],
+      "total_taxable_value": 399901.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 71982.18,
+      "total_tax": 71982.18,
+      "invoice_total": 471883.18,
+      "currency": "INR",
+      "eway_bill_ref": "568110906493",
+      "vehicle_no": "WB56PM7894",
+      "consignment_ref": "CONS-VER-VER-260612-65568"
+    },
+    "eway_bill": {
+      "ewb_no": "568110906493",
+      "generated_at": "2026-06-24T11:55:43+05:30",
+      "valid_until": "2026-06-27T11:55:43+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/65568",
+      "doc_date": "2026-06-24",
+      "from_gstin": "19ZZPCX9477J5ZF",
+      "from_address": "Unit 67, MIDC, Salt Lake, Salt Lake, West Bengal - 323261",
+      "to_gstin": "33XQQPK4416A8ZE",
+      "to_address": "Unit 43, Export Zone, Guindy, Guindy, Tamil Nadu - 869679",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "27UAPCA7495V1ZT",
+      "mode": "road",
+      "vehicle_no": "WB56PM7894",
+      "consignment_ref": "CONS-VER-VER-260612-65568",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 399901.0,
+      "total_invoice_value": 471883.18,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-65568",
+      "po_date": "2026-06-12",
+      "buyer_entity": "Verma Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-4304",
+      "vendor_name": "Verma Supply Chain Private Limited",
+      "vendor_gstin": "19ZZPCX9477J5ZF",
+      "items": [
+        {
+          "item_code": "ITEM-62542",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 3999.01,
+          "line_total": 399901.0,
+          "expected_delivery": "2026-07-02"
+        }
+      ],
+      "po_subtotal": 399901.0,
+      "po_tax": 71982.18,
+      "po_total": 471883.18,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Banerjee",
+        "approved_at": "2026-06-12T22:18:47+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/65568"
+      ],
+      "grn": {
+        "grn_no": "GRN-65568",
+        "received_at": "2026-06-25T08:29:43+05:30",
+        "received_by": "Rajesh Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-62542",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-VER-260612-65568"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-61087",
+      "thread_name": "CONS-VER-VER-260612-65568 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Gupta",
+          "role": "driver",
+          "phone": "+91-70245-73928"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Desai",
+          "role": "dispatcher",
+          "phone": "+91-70245-73928"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Banerjee",
+          "role": "warehouse",
+          "phone": "+91-90221-60043"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rajesh Rao",
+          "role": "accounts",
+          "phone": "+91-90221-60043"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-24T16:55:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi",
+          "text": "सर WB56PM7894 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-24T20:55:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Guindy pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_371.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-25T00:55:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Guindy गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-25T01:55:43+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Banerjee",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-25T02:40:43+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Banerjee",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-25T03:29:43+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-VER-260612-65568_61.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-2497.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-91697",
+      "raised_at": "2026-06-25T13:29:43+05:30",
+      "raised_by": "Rajesh Banerjee",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-12T15:18:47+05:30",
+      "actor": "Verma Manufacturing Pvt. Ltd.",
+      "doc_ref": "PUR-2026-65568",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-12T22:18:47+05:30",
+      "actor": "Rajesh Banerjee",
+      "doc_ref": "PUR-2026-65568",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-06-24T11:55:43+05:30",
+      "actor": "Verma Supply Chain Pvt. Ltd.",
+      "doc_ref": "568110906493",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_issued",
+      "ts": "2026-06-24T16:18:43+05:30",
+      "actor": "Verma Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/65568",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-24T16:55:43+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB56PM7894",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-25T00:55:43+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB56PM7894",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-25T01:55:43+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-VER-VER-260612-65568",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-25T03:29:43+05:30",
+      "actor": "Rajesh Banerjee",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-25T08:29:43+05:30",
+      "actor": "Rajesh Banerjee",
+      "doc_ref": "GRN-65568",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-VER-VER-260612-65568 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "Before, which is a sequence violation: e-way bill 568110906493 was generated on 24 Jun 2026 at 11:55 citing invoice GST/2026-27/65568 [EWB], but that invoice was only issued 4.4 hours later, on 24 Jun 2026 at 16:18 [INV]. The permit therefore references a document that did not yet exist [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-06-24T16:18:43+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/65568",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-06-24T11:55:43+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "GST/2026-27/65568",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265568,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

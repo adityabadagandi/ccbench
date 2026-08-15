@@ -1,0 +1,324 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0070",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/67605",
+      "issued_at": "2026-05-21T12:27:53+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Manufacturing Pvt Ltd",
+        "legal_name": "Reddy Manufacturing Pvt. Ltd.",
+        "gstin": "09ZZDPG7933A4ZF",
+        "pan": "ZZDPG7933A",
+        "address": {
+          "line1": "Godown 27, Export Zone",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "778659",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Sharma",
+          "email": "fsharma@reddy.com",
+          "phone": "+91-80350-26188"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Industries",
+        "legal_name": "Kulkarni Industries",
+        "gstin": "29XQCPL3629P8Z3",
+        "pan": "XQCPL3629P",
+        "address": {
+          "line1": "Godown 113, Export Zone",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "497254",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Banerjee",
+          "email": "sbanerjee@kulkarni.co.in",
+          "phone": "+91-80962-42481"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 112.64,
+          "taxable_value": 135168.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 16220.16
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 134.33,
+          "taxable_value": 24179.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1208.97
+        },
+        {
+          "line_no": 3,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 334.31,
+          "taxable_value": 401172.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 72210.96
+        },
+        {
+          "line_no": 4,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 273.03,
+          "taxable_value": 327636.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 58974.48
+        }
+      ],
+      "total_taxable_value": 888155.4,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 148614.57,
+      "total_tax": 148614.57,
+      "invoice_total": 1036769.97,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP41SY5156",
+      "consignment_ref": "CONS-RED-KUL-260515-67605"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PUR-2026-67605",
+      "po_date": "2026-05-15",
+      "buyer_entity": "Kulkarni Industries",
+      "vendor_code": "VND-5372",
+      "vendor_name": "Reddy Manufacturing Pvt Ltd",
+      "vendor_gstin": "09ZZDPG7933A4ZF",
+      "items": [
+        {
+          "item_code": "ITEM-34832",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 112.64,
+          "line_total": 135168.0,
+          "expected_delivery": "2026-05-28"
+        },
+        {
+          "item_code": "ITEM-31553",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 134.33,
+          "line_total": 24179.4,
+          "expected_delivery": "2026-05-23"
+        },
+        {
+          "item_code": "ITEM-28352",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 334.31,
+          "line_total": 401172.0,
+          "expected_delivery": "2026-05-27"
+        },
+        {
+          "item_code": "ITEM-58510",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 273.03,
+          "line_total": 327636.0,
+          "expected_delivery": "2026-05-26"
+        }
+      ],
+      "po_subtotal": 888155.4,
+      "po_tax": 148614.57,
+      "po_total": 1036769.97,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Sameer Banerjee",
+        "approved_at": "2026-05-16T18:05:05+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/67605"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-RED-KUL-260515-67605"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-18248",
+      "thread_name": "CONS-RED-KUL-260515-67605 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Reddy",
+          "role": "driver",
+          "phone": "+91-80350-26188"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Sharma",
+          "role": "dispatcher",
+          "phone": "+91-80350-26188"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Banerjee",
+          "role": "warehouse",
+          "phone": "+91-80962-42481"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Nikhil Kumar",
+          "role": "accounts",
+          "phone": "+91-80962-42481"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-21T22:19:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Reddy",
+          "lang": "hi-en",
+          "text": "UP41SY5156 dispatch ho gayi Lucknow se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-21T22:53:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Reddy",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-22T06:19:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Reddy",
+          "lang": "hi-en",
+          "text": "Inspector ne gaadi rok li. Bol rahe hainn e-way bill ke bina aage nahi ja sakti.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-22T11:19:53+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Sharma",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-15T13:05:05+05:30",
+      "actor": "Kulkarni Industries",
+      "doc_ref": "PUR-2026-67605",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-16T18:05:05+05:30",
+      "actor": "Sameer Banerjee",
+      "doc_ref": "PUR-2026-67605",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-21T12:27:53+05:30",
+      "actor": "Reddy Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/67605",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-05-21T22:19:53+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP41SY5156",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-05-22T04:19:53+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP41SY5156",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-05-22T05:19:53+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-RED-KUL-260515-67605",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-05-22T08:07:53+05:30",
+      "actor": "Sameer Banerjee",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-RED-KUL-260515-67605 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267605,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

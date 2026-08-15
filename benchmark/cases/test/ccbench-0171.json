@@ -1,0 +1,409 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0171",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77402",
+      "issued_at": "2026-07-07T11:56:37+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Exports",
+        "legal_name": "Chatterjee Exports",
+        "gstin": "23XQVCD3076P8Z3",
+        "pan": "XQVCD3076P",
+        "address": {
+          "line1": "Unit 231, Phase II",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "823968",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Kumar",
+          "email": "zoya.kumar@chatterjee.com",
+          "phone": "+91-90690-99223"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Trading & Co.",
+        "legal_name": "Rastogi Trading Co.",
+        "gstin": "23QQGCS1125G2Z5",
+        "pan": "QQGCS1125G",
+        "address": {
+          "line1": "Plot 17, Logistics Park",
+          "line2": "Govindpura, Bhopal",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "873964",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Iyer",
+          "email": "meena.iyer@rastogi.in",
+          "phone": "+91-70118-22980"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 132.57,
+          "taxable_value": 99427.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 8948.48,
+          "sgst_amount": 8948.470000000001,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 303.5,
+          "taxable_value": 30350.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 2731.5,
+          "sgst_amount": 2731.5,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 129777.5,
+      "total_cgst": 11679.98,
+      "total_sgst": 11679.97,
+      "total_igst": 0.0,
+      "total_tax": 23359.95,
+      "invoice_total": 153137.45,
+      "currency": "INR",
+      "eway_bill_ref": "402577053178",
+      "vehicle_no": "MP33JF3639",
+      "consignment_ref": "CONS-CHA-RAS-260704-77402"
+    },
+    "eway_bill": {
+      "ewb_no": "402577053178",
+      "generated_at": "2026-07-07T20:29:37+05:30",
+      "valid_until": "2026-07-18T20:29:37+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/77402",
+      "doc_date": "2026-07-07",
+      "from_gstin": "23XQVCD3076P8Z3",
+      "from_address": "Unit 231, Phase II, Mandideep, Mandideep, Madhya Pradesh - 823968",
+      "to_gstin": "23QQGCS1125G2Z5",
+      "to_address": "Plot 17, Logistics Park, Govindpura, Bhopal, Bhopal, Madhya Pradesh - 873964",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "33DJBZY1451V1ZT",
+      "mode": "road",
+      "vehicle_no": "MP33JF3639",
+      "consignment_ref": "CONS-CHA-RAS-260704-77402",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 129777.5,
+      "total_invoice_value": 153137.45,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-77402",
+      "po_date": "2026-07-04",
+      "buyer_entity": "Rastogi Trading Co.",
+      "vendor_code": "VND-2802",
+      "vendor_name": "Chatterjee Exports",
+      "vendor_gstin": "23XQVCD3076P8Z3",
+      "items": [
+        {
+          "item_code": "ITEM-14439",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 132.57,
+          "line_total": 99427.5,
+          "expected_delivery": "2026-07-09"
+        },
+        {
+          "item_code": "ITEM-87920",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 303.5,
+          "line_total": 30350.0,
+          "expected_delivery": "2026-07-09"
+        }
+      ],
+      "po_subtotal": 129777.5,
+      "po_tax": 23359.95,
+      "po_total": 153137.45,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Meena Iyer",
+        "approved_at": "2026-07-05T04:56:58+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77402"
+      ],
+      "grn": {
+        "grn_no": "GRN-77402",
+        "received_at": "2026-07-11T02:31:37+05:30",
+        "received_by": "Meena Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-14439",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-87920",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-RAS-260704-77402"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-19633",
+      "thread_name": "CONS-CHA-RAS-260704-77402 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-90690-99223"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Zoya Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90690-99223"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Iyer",
+          "role": "warehouse",
+          "phone": "+91-70118-22980"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Arjun Rao",
+          "role": "accounts",
+          "phone": "+91-70118-22980"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-08T01:29:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "सर MP33JF3639 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-08T19:09:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_831.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-09T12:49:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_646.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-10T06:29:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "गाड़ी Bhopal गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-10T06:38:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Iyer",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-10T09:29:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Iyer",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-10T09:58:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Iyer",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-10T11:31:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-RAS-260704-77402_42.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-04T09:56:58+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "PO-2026-77402",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-05T04:56:58+05:30",
+      "actor": "Meena Iyer",
+      "doc_ref": "PO-2026-77402",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-07T11:56:37+05:30",
+      "actor": "Chatterjee Exports",
+      "doc_ref": "GST/2026-27/77402",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-07T20:29:37+05:30",
+      "actor": "Chatterjee Exports",
+      "doc_ref": "402577053178",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-08T01:29:37+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP33JF3639",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-10T06:29:37+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP33JF3639",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-10T09:29:37+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-CHA-RAS-260704-77402",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-10T11:31:37+05:30",
+      "actor": "Meena Iyer",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-11T02:31:37+05:30",
+      "actor": "Meena Iyer",
+      "doc_ref": "GRN-77402",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under GST/2026-27/77402 the same as the quantity ordered on PO-2026-77402?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277402,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

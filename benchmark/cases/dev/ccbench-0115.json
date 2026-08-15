@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0115",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/71970",
+      "issued_at": "2026-05-29T12:34:25+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Bhatia Industries",
+        "legal_name": "Bhatia Industries",
+        "gstin": "19XQVCU5403S3Z5",
+        "pan": "XQVCU5403S",
+        "address": {
+          "line1": "Shed 164, Export Zone",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "512541",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Rao",
+          "email": "meenar@bhatia.in",
+          "phone": "+91-70844-48715"
+        }
+      },
+      "buyer": {
+        "name": "Patel Engineering Works",
+        "legal_name": "Patel Engineering Works",
+        "gstin": "19XQBCM1526R2ZU",
+        "pan": "XQBCM1526R",
+        "address": {
+          "line1": "Warehouse 118, Phase II",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "693812",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Reddy",
+          "email": "rajesh.reddy@patel.com",
+          "phone": "+91-80341-52453"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 8244.96,
+          "taxable_value": 412248.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 37102.32,
+          "sgst_amount": 37102.32,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 95.18,
+          "taxable_value": 38072.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 3426.48,
+          "sgst_amount": 3426.48,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 450320.0,
+      "total_cgst": 40528.8,
+      "total_sgst": 40528.8,
+      "total_igst": 0.0,
+      "total_tax": 81057.6,
+      "invoice_total": 531377.6,
+      "currency": "INR",
+      "eway_bill_ref": "970810729088",
+      "vehicle_no": "WB25MQ4486",
+      "consignment_ref": "CONS-BHA-PAT-260520-71970"
+    },
+    "eway_bill": {
+      "ewb_no": "970810729088",
+      "generated_at": "2026-05-29T21:07:25+05:30",
+      "valid_until": "2026-06-04T21:07:25+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/71970",
+      "doc_date": "2026-05-29",
+      "from_gstin": "19XQVCU5403S3Z5",
+      "from_address": "Shed 164, Export Zone, Salt Lake, Salt Lake, West Bengal - 512541",
+      "to_gstin": "19XQBCM1526R2ZU",
+      "to_address": "Warehouse 118, Phase II, Dankuni, Dankuni, West Bengal - 693812",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "07BRYJE1352D1ZT",
+      "mode": "road",
+      "vehicle_no": "WB25MQ4486",
+      "consignment_ref": "CONS-BHA-PAT-260520-71970",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 450320.0,
+      "total_invoice_value": 531377.6,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-71970",
+      "po_date": "2026-05-20",
+      "buyer_entity": "Patel Engineering Works",
+      "vendor_code": "VND-3765",
+      "vendor_name": "Bhatia Industries",
+      "vendor_gstin": "19XQVCU5403S3Z5",
+      "items": [
+        {
+          "item_code": "ITEM-75888",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 8244.96,
+          "line_total": 412248.0,
+          "expected_delivery": "2026-06-07"
+        },
+        {
+          "item_code": "ITEM-86831",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 95.18,
+          "line_total": 38072.0,
+          "expected_delivery": "2026-06-06"
+        }
+      ],
+      "po_subtotal": 450320.0,
+      "po_tax": 81057.6,
+      "po_total": 531377.6,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Reddy",
+        "approved_at": "2026-05-21T12:27:05+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/71970"
+      ],
+      "grn": {
+        "grn_no": "GRN-71970",
+        "received_at": "2026-05-31T20:51:25+05:30",
+        "received_by": "Rajesh Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-75888",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-86831",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-BHA-PAT-260520-71970"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-26224",
+      "thread_name": "CONS-BHA-PAT-260520-71970 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Gupta",
+          "role": "driver",
+          "phone": "+91-70844-48715"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Rao",
+          "role": "dispatcher",
+          "phone": "+91-70844-48715"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Reddy",
+          "role": "warehouse",
+          "phone": "+91-80341-52453"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-29T23:07:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Sir WB25MQ4486 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-30T13:37:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-31T04:07:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Dankuni गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-31T04:43:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-31T07:07:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-31T07:28:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-31T08:51:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-BHA-PAT-260520-71970_59.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-8351.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-20T11:27:05+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "PUR-2026-71970",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-21T12:27:05+05:30",
+      "actor": "Rajesh Reddy",
+      "doc_ref": "PUR-2026-71970",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-29T12:34:25+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "INV/2026-27/71970",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-29T21:07:25+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "970810729088",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-29T23:07:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB25MQ4486",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-31T04:07:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB25MQ4486",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-31T07:07:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-BHA-PAT-260520-71970",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-31T08:51:25+05:30",
+      "actor": "Rajesh Reddy",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-31T20:51:25+05:30",
+      "actor": "Rajesh Reddy",
+      "doc_ref": "GRN-71970",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने पुष्टि की है कि खेप CONS-BHA-PAT-260520-71970 पहुँच गई?",
+  "question_lang": "hi",
+  "gold_answer": "Yes — in message M-005 on the thread for consignment CONS-BHA-PAT-260520-71970 [INV], Rajesh Reddy states \"डिलीवरी हो गई है\", confirming the goods were received [M-005].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-005.text",
+      "value": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+      "evidence": {
+        "ref_id": "M-005",
+        "lang": "hi",
+        "span": "डिलीवरी हो गई है",
+        "gloss_en": "the delivery has been completed"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-BHA-PAT-260520-71970",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70844-48715",
+    "+91-80341-52453",
+    "XQBCM1526R",
+    "XQVCU5403S",
+    "meenar@bhatia.in",
+    "rajesh.reddy@patel.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271970,
+    "notes": "task=xl_delivered_hi defect=none"
+  }
+}

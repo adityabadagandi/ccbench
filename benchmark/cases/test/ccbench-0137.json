@@ -1,0 +1,381 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0137",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/74104",
+      "issued_at": "2026-03-15T15:34:10+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Logistics Pvt Ltd",
+        "legal_name": "Gupta Logistics Pvt. Ltd.",
+        "gstin": "23ZZBPU5878P1ZV",
+        "pan": "ZZBPU5878P",
+        "address": {
+          "line1": "Unit 126, MIDC",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "646489",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Sharma",
+          "email": "farhan.sharma@gupta.com",
+          "phone": "+91-80626-88909"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Trading Co.",
+        "legal_name": "Shree Ganesh Trading Co.",
+        "gstin": "23XQZCX3944W2Z2",
+        "pan": "XQZCX3944W",
+        "address": {
+          "line1": "Unit 237, Logistics Park",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "459147",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Khan",
+          "email": "sameer.khan@shree.co.in",
+          "phone": "+91-90185-43218"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 45.05,
+          "taxable_value": 1126.25,
+          "tax_rate": 18.0,
+          "cgst_amount": 101.36,
+          "sgst_amount": 101.36,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1126.25,
+      "total_cgst": 101.36,
+      "total_sgst": 101.36,
+      "total_igst": 0.0,
+      "total_tax": 202.72,
+      "invoice_total": 1328.97,
+      "currency": "INR",
+      "eway_bill_ref": "104178289134",
+      "vehicle_no": "MP30RW6793",
+      "consignment_ref": "CONS-GUP-SHR-260308-74104"
+    },
+    "eway_bill": {
+      "ewb_no": "104178289134",
+      "generated_at": "2026-03-15T20:26:10+05:30",
+      "valid_until": "2026-03-23T20:26:10+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/74104",
+      "doc_date": "2026-03-15",
+      "from_gstin": "23ZZBPU5878P1ZV",
+      "from_address": "Unit 126, MIDC, Dewas, Dewas, Madhya Pradesh - 646489",
+      "to_gstin": "23XQZCX3944W2Z2",
+      "to_address": "Unit 237, Logistics Park, Dewas, Dewas, Madhya Pradesh - 459147",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "36ULMRY8152M1ZT",
+      "mode": "road",
+      "vehicle_no": "MP30RW6793",
+      "consignment_ref": "CONS-GUP-SHR-260308-74104",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 1126.25,
+      "total_invoice_value": 1328.97,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-74104",
+      "po_date": "2026-03-08",
+      "buyer_entity": "Shree Ganesh Trading Co.",
+      "vendor_code": "VND-2044",
+      "vendor_name": "Gupta Logistics Pvt Ltd",
+      "vendor_gstin": "23ZZBPU5878P1ZV",
+      "items": [
+        {
+          "item_code": "ITEM-32655",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 45.05,
+          "line_total": 1126.25,
+          "expected_delivery": "2026-03-21"
+        }
+      ],
+      "po_subtotal": 1126.25,
+      "po_tax": 202.72,
+      "po_total": 1328.97,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Sameer Khan",
+        "approved_at": "2026-03-09T15:49:40+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/74104"
+      ],
+      "grn": {
+        "grn_no": "GRN-74104",
+        "received_at": "2026-03-17T16:29:10+05:30",
+        "received_by": "Sameer Khan",
+        "lines": [
+          {
+            "item_code": "ITEM-32655",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-SHR-260308-74104"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-76368",
+      "thread_name": "CONS-GUP-SHR-260308-74104 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Gupta",
+          "role": "driver",
+          "phone": "+91-80626-88909"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Sharma",
+          "role": "dispatcher",
+          "phone": "+91-80626-88909"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Khan",
+          "role": "warehouse",
+          "phone": "+91-90185-43218"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Iyer",
+          "role": "accounts",
+          "phone": "+91-90185-43218"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-16T00:26:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "सर MP30RW6793 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-16T10:06:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Dewas.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_257.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-16T19:46:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-17T05:26:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-17T05:42:10+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Khan",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-17T06:26:10+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Khan",
+          "lang": "en",
+          "text": "Consignment received in full at our Dewas warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-17T06:56:10+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Khan",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-17T07:29:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-SHR-260308-74104_32.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-03-18T09:29:10+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Iyer",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number TAX/2026-27/74104 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-08T15:49:40+05:30",
+      "actor": "Shree Ganesh Trading Co.",
+      "doc_ref": "PO-2026-74104",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-09T15:49:40+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "PO-2026-74104",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-15T15:34:10+05:30",
+      "actor": "Gupta Logistics Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/74104",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-15T20:26:10+05:30",
+      "actor": "Gupta Logistics Pvt. Ltd.",
+      "doc_ref": "104178289134",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-16T00:26:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "MP30RW6793",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-17T05:26:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "MP30RW6793",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-17T06:26:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-GUP-SHR-260308-74104",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-17T07:29:10+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-17T16:29:10+05:30",
+      "actor": "Sameer Khan",
+      "doc_ref": "GRN-74104",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice TAX/2026-27/74104?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274104,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

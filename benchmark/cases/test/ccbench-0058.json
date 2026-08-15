@@ -1,0 +1,424 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0058",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/66441",
+      "issued_at": "2026-05-18T16:12:08+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Supply Chain Private Limited",
+        "legal_name": "Deshmukh Supply Chain Pvt. Ltd.",
+        "gstin": "06QQECM0631C6Z5",
+        "pan": "QQECM0631C",
+        "address": {
+          "line1": "Warehouse 80, MIDC",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "496453",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Mishra",
+          "email": "farhan.mishra@deshmukh.in",
+          "phone": "+91-80158-57439"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Supply Chain Private Limited",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "06ZZCPY6544I2ZU",
+        "pan": "ZZCPY6544I",
+        "address": {
+          "line1": "Plot 214, Phase II",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "158071",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Desai",
+          "email": "zoya.desai@rastogi.com",
+          "phone": "+91-70401-21586"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 6693.63,
+          "taxable_value": 669363.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 93710.82,
+          "sgst_amount": 93710.82,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 118.45,
+          "taxable_value": 5922.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 533.02,
+          "sgst_amount": 533.03,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 12824.74,
+          "taxable_value": 15389688.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 1385071.92,
+          "sgst_amount": 1385071.92,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 16064973.5,
+      "total_cgst": 1479315.76,
+      "total_sgst": 1479315.77,
+      "total_igst": 0.0,
+      "total_tax": 2958631.53,
+      "invoice_total": 19023605.03,
+      "currency": "INR",
+      "eway_bill_ref": "441304752349",
+      "vehicle_no": "HR35ST1312",
+      "consignment_ref": "CONS-DES-RAS-260508-66441"
+    },
+    "eway_bill": {
+      "ewb_no": "441304752349",
+      "generated_at": "2026-05-18T22:45:08+05:30",
+      "valid_until": "2026-05-23T22:45:08+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/66441",
+      "doc_date": "2026-05-18",
+      "from_gstin": "06QQECM0631C6Z5",
+      "from_address": "Warehouse 80, MIDC, Bahadurgarh, Bahadurgarh, Haryana - 496453",
+      "to_gstin": "06ZZCPY6544I2ZU",
+      "to_address": "Plot 214, Phase II, Bahadurgarh, Bahadurgarh, Haryana - 158071",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "36IQXST7532S1ZT",
+      "mode": "road",
+      "vehicle_no": "HR35ST1312",
+      "consignment_ref": "CONS-DES-RAS-260508-66441",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 16064973.5,
+      "total_invoice_value": 19023605.03,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-66441",
+      "po_date": "2026-05-08",
+      "buyer_entity": "Rastogi Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-4708",
+      "vendor_name": "Deshmukh Supply Chain Private Limited",
+      "vendor_gstin": "06QQECM0631C6Z5",
+      "items": [
+        {
+          "item_code": "ITEM-20880",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 6693.63,
+          "line_total": 669363.0,
+          "expected_delivery": "2026-05-22"
+        },
+        {
+          "item_code": "ITEM-92980",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 118.45,
+          "line_total": 5922.5,
+          "expected_delivery": "2026-05-20"
+        },
+        {
+          "item_code": "ITEM-24154",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 12824.74,
+          "line_total": 15389688.0,
+          "expected_delivery": "2026-05-20"
+        }
+      ],
+      "po_subtotal": 16064973.5,
+      "po_tax": 2958631.53,
+      "po_total": 19023605.03,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Zoya Desai",
+        "approved_at": "2026-05-09T13:34:09+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/66441"
+      ],
+      "grn": {
+        "grn_no": "GRN-66441",
+        "received_at": "2026-05-19T22:40:08+05:30",
+        "received_by": "Zoya Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-20880",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-92980",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-24154",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-RAS-260508-66441"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-50371",
+      "thread_name": "CONS-DES-RAS-260508-66441 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Gupta",
+          "role": "driver",
+          "phone": "+91-80158-57439"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Mishra",
+          "role": "dispatcher",
+          "phone": "+91-80158-57439"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Desai",
+          "role": "warehouse",
+          "phone": "+91-70401-21586"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-18T23:45:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "सर HR35ST1312 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-19T00:50:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-19T09:15:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-19T18:45:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Bahadurgarh गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-19T19:45:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "en",
+          "text": "Consignment received in full at our Bahadurgarh warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-19T20:05:08+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Desai",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-19T21:40:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-RAS-260508-66441_12.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-20T15:40:08+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Mishra",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/66441 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-08T10:34:09+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "ORD-2026-66441",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-09T13:34:09+05:30",
+      "actor": "Zoya Desai",
+      "doc_ref": "ORD-2026-66441",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-18T16:12:08+05:30",
+      "actor": "Deshmukh Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/66441",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-18T22:45:08+05:30",
+      "actor": "Deshmukh Supply Chain Pvt. Ltd.",
+      "doc_ref": "441304752349",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-18T23:45:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR35ST1312",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-19T18:45:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR35ST1312",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-19T19:45:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-DES-RAS-260508-66441",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-19T21:40:08+05:30",
+      "actor": "Zoya Desai",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-19T22:40:08+05:30",
+      "actor": "Zoya Desai",
+      "doc_ref": "GRN-66441",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-DES-RAS-260508-66441?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266441,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

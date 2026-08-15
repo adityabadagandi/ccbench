@@ -1,0 +1,480 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0005",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/61300",
+      "issued_at": "2026-04-06T10:05:14+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Polymers Ltd",
+        "legal_name": "Deshmukh Polymers Ltd.",
+        "gstin": "27ZZHPH9352Y7ZI",
+        "pan": "ZZHPH9352Y",
+        "address": {
+          "line1": "Godown 65, Industrial Area",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "727597",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Nair",
+          "email": "rnair@deshmukh.in",
+          "phone": "+91-70692-34375"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Exports",
+        "legal_name": "Rastogi Exports",
+        "gstin": "27QQFPG7332T3ZK",
+        "pan": "QQFPG7332T",
+        "address": {
+          "line1": "Warehouse 171, Phase II",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "797324",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Nair",
+          "email": "lakshmi.nair@rastogi.co.in",
+          "phone": "+91-90799-76646"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 157.72,
+          "taxable_value": 78860.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 7097.4,
+          "sgst_amount": 7097.4,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 87.88,
+          "taxable_value": 105456.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 2636.4,
+          "sgst_amount": 2636.4,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 67.12,
+          "taxable_value": 33560.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 2013.6,
+          "sgst_amount": 2013.6,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 750.0,
+          "unit": "MTR",
+          "rate_per_unit": 85.26,
+          "taxable_value": 63945.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 5755.05,
+          "sgst_amount": 5755.05,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 281821.0,
+      "total_cgst": 17502.45,
+      "total_sgst": 17502.45,
+      "total_igst": 0.0,
+      "total_tax": 35004.9,
+      "invoice_total": 316825.9,
+      "currency": "INR",
+      "eway_bill_ref": "300814140604",
+      "vehicle_no": "MH44UK5192",
+      "consignment_ref": "CONS-DES-RAS-260401-61300"
+    },
+    "eway_bill": {
+      "ewb_no": "300814140604",
+      "generated_at": "2026-04-06T18:38:14+05:30",
+      "valid_until": "2026-04-07T18:38:14+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/61300",
+      "doc_date": "2026-04-06",
+      "from_gstin": "27ZZHPH9352Y7ZI",
+      "from_address": "Godown 65, Industrial Area, Bhiwandi, Bhiwandi, Maharashtra - 727597",
+      "to_gstin": "27QQFPG7332T3ZK",
+      "to_address": "Warehouse 171, Phase II, Andheri East, Andheri East, Maharashtra - 797324",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "07UYBMJ4998H1ZT",
+      "mode": "road",
+      "vehicle_no": "MH44UK5192",
+      "consignment_ref": "CONS-DES-RAS-260401-61300",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 750.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 281821.0,
+      "total_invoice_value": 283539.37,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61300",
+      "po_date": "2026-04-01",
+      "buyer_entity": "Rastogi Exports",
+      "vendor_code": "VND-6170",
+      "vendor_name": "Deshmukh Polymers Ltd",
+      "vendor_gstin": "27ZZHPH9352Y7ZI",
+      "items": [
+        {
+          "item_code": "ITEM-19072",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 157.72,
+          "line_total": 78860.0,
+          "expected_delivery": "2026-04-12"
+        },
+        {
+          "item_code": "ITEM-13128",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 87.88,
+          "line_total": 105456.0,
+          "expected_delivery": "2026-04-12"
+        },
+        {
+          "item_code": "ITEM-13187",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 67.12,
+          "line_total": 33560.0,
+          "expected_delivery": "2026-04-15"
+        },
+        {
+          "item_code": "ITEM-40627",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 750.0,
+          "unit": "MTR",
+          "unit_price": 85.26,
+          "line_total": 63945.0,
+          "expected_delivery": "2026-04-09"
+        }
+      ],
+      "po_subtotal": 281821.0,
+      "po_tax": 35004.9,
+      "po_total": 316825.9,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Nair",
+        "approved_at": "2026-04-02T02:49:20+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/61300"
+      ],
+      "grn": {
+        "grn_no": "GRN-61300",
+        "received_at": "2026-04-08T03:13:14+05:30",
+        "received_by": "Lakshmi Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-19072",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-13128",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-13187",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-40627",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-RAS-260401-61300"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-85655",
+      "thread_name": "CONS-DES-RAS-260401-61300 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Sharma",
+          "role": "driver",
+          "phone": "+91-70692-34375"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Nair",
+          "role": "dispatcher",
+          "phone": "+91-70692-34375"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Nair",
+          "role": "warehouse",
+          "phone": "+91-90799-76646"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Mishra",
+          "role": "accounts",
+          "phone": "+91-90799-76646"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-06T20:38:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Sir MH44UK5192 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-06T21:28:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-06T22:38:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Andheri East pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-07T00:38:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Andheri East.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-07T02:38:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-07T06:38:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "en",
+          "text": "Consignment received in full at our Andheri East warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-07T07:03:14+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Nair",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-07T09:13:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-RAS-260401-61300_80.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-08T04:13:14+05:30",
+          "sender_id": "P4",
+          "sender_name": "Anita Mishra",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 283,539.37 likhi hai par invoice Rs. 316,825.90 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-72758",
+      "raised_at": "2026-04-08T14:13:14+05:30",
+      "raised_by": "Lakshmi Nair",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-01T12:49:20+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "PUR-2026-61300",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-02T02:49:20+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "PUR-2026-61300",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-06T10:05:14+05:30",
+      "actor": "Deshmukh Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/61300",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-06T18:38:14+05:30",
+      "actor": "Deshmukh Polymers Ltd.",
+      "doc_ref": "300814140604",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-06T20:38:14+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH44UK5192",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-07T02:38:14+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH44UK5192",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-07T06:38:14+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-DES-RAS-260401-61300",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-07T09:13:14+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-08T03:13:14+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "GRN-61300",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-DES-RAS-260401-61300?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261300,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

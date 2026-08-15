@@ -1,0 +1,353 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0050",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/65665",
+      "issued_at": "2026-04-03T15:27:59+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Logistics Pvt. Ltd.",
+        "legal_name": "Reddy Logistics Pvt. Ltd.",
+        "gstin": "23ZZCCI3028A1ZI",
+        "pan": "ZZCCI3028A",
+        "address": {
+          "line1": "Unit 101, Industrial Area",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "789594",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Banerjee",
+          "email": "suresh.banerjee@reddy.co.in",
+          "phone": "+91-90565-30899"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Industries",
+        "legal_name": "Bhatia Industries",
+        "gstin": "23XQGPZ2653Z4ZS",
+        "pan": "XQGPZ2653Z",
+        "address": {
+          "line1": "Warehouse 87, Logistics Park",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "218112",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Mishra",
+          "email": "sunita.mishra@bhatia.co.in",
+          "phone": "+91-80607-36790"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 50.05,
+          "taxable_value": 25025.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 2252.25,
+          "sgst_amount": 2252.25,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 25025.0,
+      "total_cgst": 2252.25,
+      "total_sgst": 2252.25,
+      "total_igst": 0.0,
+      "total_tax": 4504.5,
+      "invoice_total": 29529.5,
+      "currency": "INR",
+      "eway_bill_ref": "665912797385",
+      "vehicle_no": "MP98XN9786",
+      "consignment_ref": "CONS-RED-BHA-260323-65665"
+    },
+    "eway_bill": {
+      "ewb_no": "665912797385",
+      "generated_at": "2026-04-03T22:33:59+05:30",
+      "valid_until": "2026-04-07T22:33:59+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/65665",
+      "doc_date": "2026-04-03",
+      "from_gstin": "23ZZCCI3028A1ZI",
+      "from_address": "Unit 101, Industrial Area, Dewas, Dewas, Madhya Pradesh - 789594",
+      "to_gstin": "23XQGPZ2653Z4ZS",
+      "to_address": "Warehouse 87, Logistics Park, Dewas, Dewas, Madhya Pradesh - 218112",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "24XLDAS2255K1ZT",
+      "mode": "road",
+      "vehicle_no": "MP98XN9786",
+      "consignment_ref": "CONS-RED-BHA-260323-65665",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 25025.0,
+      "total_invoice_value": 29529.5,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-65665",
+      "po_date": "2026-03-23",
+      "buyer_entity": "Bhatia Industries",
+      "vendor_code": "VND-5124",
+      "vendor_name": "Reddy Logistics Pvt. Ltd.",
+      "vendor_gstin": "23ZZCCI3028A1ZI",
+      "items": [
+        {
+          "item_code": "ITEM-98652",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 50.05,
+          "line_total": 25025.0,
+          "expected_delivery": "2026-04-09"
+        }
+      ],
+      "po_subtotal": 25025.0,
+      "po_tax": 4504.5,
+      "po_total": 29529.5,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sunita Mishra",
+        "approved_at": "2026-03-24T18:56:39+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/65665"
+      ],
+      "grn": {
+        "grn_no": "GRN-65665",
+        "received_at": "2026-04-05T09:50:59+05:30",
+        "received_by": "Sunita Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-98652",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-BHA-260323-65665"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-56250",
+      "thread_name": "CONS-RED-BHA-260323-65665 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Khan",
+          "role": "driver",
+          "phone": "+91-90565-30899"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90565-30899"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Mishra",
+          "role": "warehouse",
+          "phone": "+91-80607-36790"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Kavita Banerjee",
+          "role": "accounts",
+          "phone": "+91-80607-36790"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-03T23:33:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi",
+          "text": "सर MP98XN9786 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-04T00:57:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-04T07:03:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Dewas pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-04T14:33:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-04T18:33:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Mishra",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-04T19:11:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Mishra",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-04T19:50:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-BHA-260323-65665_16.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-23T13:56:39+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "PO-2026-65665",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-24T18:56:39+05:30",
+      "actor": "Sunita Mishra",
+      "doc_ref": "PO-2026-65665",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-03T15:27:59+05:30",
+      "actor": "Reddy Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/65665",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-03T22:33:59+05:30",
+      "actor": "Reddy Logistics Pvt. Ltd.",
+      "doc_ref": "665912797385",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-03T23:33:59+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP98XN9786",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-04T14:33:59+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP98XN9786",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-04T18:33:59+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-RED-BHA-260323-65665",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-04T19:50:59+05:30",
+      "actor": "Sunita Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-05T09:50:59+05:30",
+      "actor": "Sunita Mishra",
+      "doc_ref": "GRN-65665",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PO-2026-65665?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265665,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

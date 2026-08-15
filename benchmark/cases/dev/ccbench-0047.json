@@ -1,0 +1,366 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0047",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/65374",
+      "issued_at": "2026-05-24T15:18:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Engineering Works",
+        "legal_name": "Krishna Engineering Works",
+        "gstin": "27XQBPX8839M2ZZ",
+        "pan": "XQBPX8839M",
+        "address": {
+          "line1": "Warehouse 170, Phase II",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "662105",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Reddy",
+          "email": "farhan.reddy@krishna.in",
+          "phone": "+91-80153-62663"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Enterprises",
+        "legal_name": "Krishna Enterprises",
+        "gstin": "07QQPCP4803Y6Z9",
+        "pan": "QQPCP4803Y",
+        "address": {
+          "line1": "Unit 135, Export Zone",
+          "line2": "Connaught Place",
+          "city": "Connaught Place",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "350336",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Yadav",
+          "email": "lyadav@krishna.in",
+          "phone": "+91-90718-87516"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 59423.77,
+          "taxable_value": 44567827.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8022208.95
+        }
+      ],
+      "total_taxable_value": 44567827.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 8022208.95,
+      "total_tax": 8022208.95,
+      "invoice_total": 52590036.45,
+      "currency": "INR",
+      "eway_bill_ref": "374107206324",
+      "vehicle_no": "MH72AV6102",
+      "consignment_ref": "CONS-KRI-KRI-260518-65374"
+    },
+    "eway_bill": {
+      "ewb_no": "374107206324",
+      "generated_at": "2026-05-24T23:24:21+05:30",
+      "valid_until": "2026-05-27T23:24:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/65374",
+      "doc_date": "2026-05-24",
+      "from_gstin": "27XQBPX8839M2ZZ",
+      "from_address": "Warehouse 170, Phase II, Bhiwandi, Bhiwandi, Maharashtra - 662105",
+      "to_gstin": "07QQPCP4803Y6Z9",
+      "to_address": "Unit 135, Export Zone, Connaught Place, Connaught Place, Delhi - 350336",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "24MEIVT5987O1ZT",
+      "mode": "road",
+      "vehicle_no": "MH72AV6102",
+      "consignment_ref": "CONS-KRI-KRI-260518-65374",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 750.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 44567827.5,
+      "total_invoice_value": 52590036.45,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-65374",
+      "po_date": "2026-05-18",
+      "buyer_entity": "Krishna Enterprises",
+      "vendor_code": "VND-1271",
+      "vendor_name": "Krishna Engineering Works",
+      "vendor_gstin": "27XQBPX8839M2ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-75128",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 59423.77,
+          "line_total": 44567827.5,
+          "expected_delivery": "2026-05-29"
+        }
+      ],
+      "po_subtotal": 44567827.5,
+      "po_tax": 8022208.95,
+      "po_total": 52590036.45,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Yadav",
+        "approved_at": "2026-05-19T14:56:12+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/65374"
+      ],
+      "grn": {
+        "grn_no": "GRN-65374",
+        "received_at": "2026-05-26T04:11:21+05:30",
+        "received_by": "Lakshmi Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-75128",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KRI-KRI-260518-65374"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-39934",
+      "thread_name": "CONS-KRI-KRI-260518-65374 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Gupta",
+          "role": "driver",
+          "phone": "+91-80153-62663"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Reddy",
+          "role": "dispatcher",
+          "phone": "+91-80153-62663"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Yadav",
+          "role": "warehouse",
+          "phone": "+91-90718-87516"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Patel",
+          "role": "accounts",
+          "phone": "+91-90718-87516"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-25T01:24:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "MH72AV6102 dispatch ho gayi Bhiwandi se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-25T10:24:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "Connaught Place warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-25T12:24:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "en",
+          "text": "Consignment received in full at our Connaught Place warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-25T12:59:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Yadav",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-25T14:11:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KRI-KRI-260518-65374_92.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-18T18:56:12+05:30",
+      "actor": "Krishna Enterprises",
+      "doc_ref": "PUR-2026-65374",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-19T14:56:12+05:30",
+      "actor": "Lakshmi Yadav",
+      "doc_ref": "PUR-2026-65374",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-24T15:18:21+05:30",
+      "actor": "Krishna Engineering Works",
+      "doc_ref": "TAX/2026-27/65374",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-24T23:24:21+05:30",
+      "actor": "Krishna Engineering Works",
+      "doc_ref": "374107206324",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-25T01:24:21+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH72AV6102",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-25T10:24:21+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH72AV6102",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-25T12:24:21+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-KRI-KRI-260518-65374",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-25T14:11:21+05:30",
+      "actor": "Lakshmi Yadav",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-26T04:11:21+05:30",
+      "actor": "Lakshmi Yadav",
+      "doc_ref": "GRN-65374",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice TAX/2026-27/65374?",
+  "question_lang": "en",
+  "gold_answer": "Line 1 of invoice TAX/2026-27/65374 declares HSN code 84714110, described as Automatic data processing machines [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/65374",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "items[0].hsn_code",
+      "value": "84714110",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].description",
+      "value": "Automatic data processing machines",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-80153-62663",
+    "+91-90718-87516",
+    "QQPCP4803Y",
+    "XQBPX8839M",
+    "farhan.reddy@krishna.in",
+    "lyadav@krishna.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265374,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

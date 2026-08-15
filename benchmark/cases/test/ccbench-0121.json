@@ -1,0 +1,402 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0121",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/72552",
+      "issued_at": "2026-01-20T18:27:42+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Trading & Co.",
+        "legal_name": "Chatterjee Trading Co.",
+        "gstin": "27XQHCB5311F4ZB",
+        "pan": "XQHCB5311F",
+        "address": {
+          "line1": "Warehouse 150, MIDC",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "364048",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Rao",
+          "email": "deepa.rao@chatterjee.com",
+          "phone": "+91-70675-70296"
+        }
+      },
+      "buyer": {
+        "name": "Patel Logistics Pvt. Limited",
+        "legal_name": "Patel Logistics Pvt. Ltd.",
+        "gstin": "27XQJPD4868G4ZC",
+        "pan": "XQJPD4868G",
+        "address": {
+          "line1": "Unit 15, Logistics Park",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "264452",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Rao",
+          "email": "meena.rao@patel.co.in",
+          "phone": "+91-70557-41760"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 131.16,
+          "taxable_value": 6558.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 590.22,
+          "sgst_amount": 590.22,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 355.23,
+          "taxable_value": 177615.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 15985.35,
+          "sgst_amount": 15985.35,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 184173.0,
+      "total_cgst": 16575.57,
+      "total_sgst": 16575.57,
+      "total_igst": 0.0,
+      "total_tax": 33151.14,
+      "invoice_total": 217324.14,
+      "currency": "INR",
+      "eway_bill_ref": "552181161878",
+      "vehicle_no": "MH72KQ5502",
+      "consignment_ref": "CONS-CHA-PAT-260117-72552"
+    },
+    "eway_bill": {
+      "ewb_no": "552181161878",
+      "generated_at": "2026-01-20T22:33:42+05:30",
+      "valid_until": "2026-01-28T22:33:42+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/72552",
+      "doc_date": "2026-01-20",
+      "from_gstin": "27XQHCB5311F4ZB",
+      "from_address": "Warehouse 150, MIDC, Chakan, Chakan, Maharashtra - 364048",
+      "to_gstin": "27XQJPD4868G4ZC",
+      "to_address": "Unit 15, Logistics Park, Chakan, Chakan, Maharashtra - 264452",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "24ZRHWV3554M1ZT",
+      "mode": "road",
+      "vehicle_no": "MH72KQ5502",
+      "consignment_ref": "CONS-CHA-PAT-260117-72552",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 184173.0,
+      "total_invoice_value": 217324.14,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-72552",
+      "po_date": "2026-01-17",
+      "buyer_entity": "Patel Logistics Pvt. Ltd.",
+      "vendor_code": "VND-3993",
+      "vendor_name": "Chatterjee Trading & Co.",
+      "vendor_gstin": "27XQHCB5311F4ZB",
+      "items": [
+        {
+          "item_code": "ITEM-27328",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 131.16,
+          "line_total": 6558.0,
+          "expected_delivery": "2026-01-26"
+        },
+        {
+          "item_code": "ITEM-67200",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 355.23,
+          "line_total": 177615.0,
+          "expected_delivery": "2026-01-23"
+        }
+      ],
+      "po_subtotal": 184173.0,
+      "po_tax": 33151.14,
+      "po_total": 217324.14,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Meena Rao",
+        "approved_at": "2026-01-17T19:12:54+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/72552"
+      ],
+      "grn": {
+        "grn_no": "GRN-72552",
+        "received_at": "2026-01-23T06:17:42+05:30",
+        "received_by": "Meena Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-27328",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-67200",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-PAT-260117-72552"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51871",
+      "thread_name": "CONS-CHA-PAT-260117-72552 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Patel",
+          "role": "driver",
+          "phone": "+91-70675-70296"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Rao",
+          "role": "dispatcher",
+          "phone": "+91-70675-70296"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Rao",
+          "role": "warehouse",
+          "phone": "+91-70557-41760"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-21T01:33:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Vehicle MH72KQ5502 dispatched from Chakan. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-21T12:13:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Chakan.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-21T22:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-22T09:33:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Chakan warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-22T09:44:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Rao",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-22T10:33:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-22T10:45:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Rao",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-01-22T11:17:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-PAT-260117-72552_56.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-01-23T18:17:42+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Rao",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read TAX/2026-27/72552.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-17T10:12:54+05:30",
+      "actor": "Patel Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-72552",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-17T19:12:54+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "ORD-2026-72552",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-20T18:27:42+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "TAX/2026-27/72552",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-20T22:33:42+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "552181161878",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-21T01:33:42+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH72KQ5502",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-22T09:33:42+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH72KQ5502",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-22T10:33:42+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-CHA-PAT-260117-72552",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-22T11:17:42+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-23T06:17:42+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "GRN-72552",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-CHA-PAT-260117-72552?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272552,
+    "notes": "task=lookup_total defect=none"
+  }
+}

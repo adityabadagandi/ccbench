@@ -1,0 +1,408 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0073",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/67896",
+      "issued_at": "2026-03-30T15:27:40+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Exports",
+        "legal_name": "Singh & Sons Exports",
+        "gstin": "06ZZZCN2802T2ZX",
+        "pan": "ZZZCN2802T",
+        "address": {
+          "line1": "Plot 146, MIDC",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "567104",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Joshi",
+          "email": "nikhilj@singh.in",
+          "phone": "+91-80216-70015"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Supply Chain Private Limited",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "19QQOCU0217G6ZT",
+        "pan": "QQOCU0217G",
+        "address": {
+          "line1": "Godown 132, MIDC",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "669651",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Sharma",
+          "email": "dsharma@rastogi.co.in",
+          "phone": "+91-70864-17513"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 61002.43,
+          "taxable_value": 30501215.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5490218.7
+        }
+      ],
+      "total_taxable_value": 30501215.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5490218.7,
+      "total_tax": 5490218.7,
+      "invoice_total": 35991433.7,
+      "currency": "INR",
+      "eway_bill_ref": "896511584691",
+      "vehicle_no": "HR82LA7507",
+      "consignment_ref": "CONS-SIN-RAS-260318-67896"
+    },
+    "eway_bill": {
+      "ewb_no": "896511584691",
+      "generated_at": "2026-03-30T20:46:40+05:30",
+      "valid_until": "2026-04-07T20:46:40+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/67896",
+      "doc_date": "2026-03-30",
+      "from_gstin": "06ZZZCN2802T2ZX",
+      "from_address": "Plot 146, MIDC, Panipat, Panipat, Haryana - 567104",
+      "to_gstin": "19QQOCU0217G6ZT",
+      "to_address": "Godown 132, MIDC, Dankuni, Dankuni, West Bengal - 669651",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "07NDEYW8687K1ZT",
+      "mode": "road",
+      "vehicle_no": "HR82LA7507",
+      "consignment_ref": "CONS-SIN-RAS-260318-67896",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 30501215.0,
+      "total_invoice_value": 33066171.67,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-67896",
+      "po_date": "2026-03-18",
+      "buyer_entity": "Rastogi Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-2043",
+      "vendor_name": "Singh & Sons Exports",
+      "vendor_gstin": "06ZZZCN2802T2ZX",
+      "items": [
+        {
+          "item_code": "ITEM-53522",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 61002.43,
+          "line_total": 30501215.0,
+          "expected_delivery": "2026-04-02"
+        }
+      ],
+      "po_subtotal": 30501215.0,
+      "po_tax": 5490218.7,
+      "po_total": 35991433.7,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Sharma",
+        "approved_at": "2026-03-18T20:27:09+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/67896"
+      ],
+      "grn": {
+        "grn_no": "GRN-67896",
+        "received_at": "2026-04-01T23:32:40+05:30",
+        "received_by": "Deepa Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-53522",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-RAS-260318-67896"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-36148",
+      "thread_name": "CONS-SIN-RAS-260318-67896 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Singh",
+          "role": "driver",
+          "phone": "+91-80216-70015"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Joshi",
+          "role": "dispatcher",
+          "phone": "+91-80216-70015"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Sharma",
+          "role": "warehouse",
+          "phone": "+91-70864-17513"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-31T01:46:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Singh",
+          "lang": "hi",
+          "text": "सर HR82LA7507 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-31T15:46:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Singh",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Dankuni pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-01T05:46:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Singh",
+          "lang": "hi",
+          "text": "गाड़ी Dankuni गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-01T07:46:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Singh",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-01T07:57:40+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Sharma",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-01T08:32:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-RAS-260318-67896_46.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-02T05:32:40+05:30",
+          "sender_id": "P2",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 33,066,171.67 likhi hai par invoice Rs. 35,991,433.70 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-18T17:27:09+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "ORD-2026-67896",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-18T20:27:09+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "ORD-2026-67896",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-30T15:27:40+05:30",
+      "actor": "Singh & Sons Exports",
+      "doc_ref": "TAX/2026-27/67896",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-30T20:46:40+05:30",
+      "actor": "Singh & Sons Exports",
+      "doc_ref": "896511584691",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-31T01:46:40+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "HR82LA7507",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-01T05:46:40+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "HR82LA7507",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-01T07:46:40+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-SIN-RAS-260318-67896",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-01T08:32:40+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-01T23:32:40+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "GRN-67896",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-SIN-RAS-260318-67896?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice TAX/2026-27/67896 totals Rs. 35,991,433.70 [INV] but e-way bill 896511584691 declares Rs. 33,066,171.67 [EWB], a discrepancy of Rs. 2,925,262.03. The accounts team raised the same discrepancy on the delivery thread [M-007].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/67896",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "35991433.7",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "896511584691",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "33066171.67",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-SIN-RAS-260318-67896",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 33,066,171.67 likhi hai par invoice Rs. 35,991,433.70 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 33,066,171.67 likhi hai par invoice Rs. 35,991,433.70 ka hai",
+        "gloss_en": "the e-way bill states Rs. 33,066,171.67 but the invoice is for Rs. 35,991,433.70"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-70864-17513",
+    "+91-80216-70015",
+    "QQOCU0217G",
+    "ZZZCN2802T",
+    "dsharma@rastogi.co.in",
+    "nikhilj@singh.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267896,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

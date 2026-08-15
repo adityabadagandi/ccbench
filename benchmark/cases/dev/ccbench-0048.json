@@ -1,0 +1,445 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0048",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/65471",
+      "issued_at": "2026-07-05T18:27:36+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Trading Company",
+        "legal_name": "Chatterjee Trading Co.",
+        "gstin": "23ZZPPA2637O8ZV",
+        "pan": "ZZPPA2637O",
+        "address": {
+          "line1": "Plot 84, Logistics Park",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "448108",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Yadav",
+          "email": "priyay@chatterjee.com",
+          "phone": "+91-80520-32064"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Supply Chain Pvt. Ltd.",
+        "legal_name": "Sharma Supply Chain Pvt. Ltd.",
+        "gstin": "24ZZQCH6706D8ZN",
+        "pan": "ZZQCH6706D",
+        "address": {
+          "line1": "Shed 46, MIDC",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "590864",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Singh",
+          "email": "arjuns@sharma.com",
+          "phone": "+91-80504-80221"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 297.63,
+          "taxable_value": 148815.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 26786.7
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 83.54,
+          "taxable_value": 33416.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4009.92
+        },
+        {
+          "line_no": 3,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 7992.97,
+          "taxable_value": 799297.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 223803.16
+        }
+      ],
+      "total_taxable_value": 981528.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 254599.78,
+      "total_tax": 254599.78,
+      "invoice_total": 1236127.78,
+      "currency": "INR",
+      "eway_bill_ref": "471163104413",
+      "vehicle_no": "MP44EV2854",
+      "consignment_ref": "CONS-CHA-SHA-260623-65471"
+    },
+    "eway_bill": {
+      "ewb_no": "471163104413",
+      "generated_at": "2026-07-06T01:19:36+05:30",
+      "valid_until": "2026-07-09T01:19:36+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/65471",
+      "doc_date": "2026-07-05",
+      "from_gstin": "23ZZPPA2637O8ZV",
+      "from_address": "Plot 84, Logistics Park, Pithampur, Pithampur, Madhya Pradesh - 448108",
+      "to_gstin": "24ZZQCH6706D8ZN",
+      "to_address": "Shed 46, MIDC, Vatva, Ahmedabad, Ahmedabad, Gujarat - 590864",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "27SACAQ7167T1ZT",
+      "mode": "road",
+      "vehicle_no": "MP44EV2854",
+      "consignment_ref": "CONS-CHA-SHA-260623-65471",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 981528.0,
+      "total_invoice_value": 1236127.78,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-65471",
+      "po_date": "2026-06-23",
+      "buyer_entity": "Sharma Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-7267",
+      "vendor_name": "Chatterjee Trading Company",
+      "vendor_gstin": "23ZZPPA2637O8ZV",
+      "items": [
+        {
+          "item_code": "ITEM-61484",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 297.63,
+          "line_total": 148815.0,
+          "expected_delivery": "2026-07-07"
+        },
+        {
+          "item_code": "ITEM-72036",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 83.54,
+          "line_total": 33416.0,
+          "expected_delivery": "2026-07-08"
+        },
+        {
+          "item_code": "ITEM-81202",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 7992.97,
+          "line_total": 799297.0,
+          "expected_delivery": "2026-07-08"
+        }
+      ],
+      "po_subtotal": 981528.0,
+      "po_tax": 254599.78,
+      "po_total": 1236127.78,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Arjun Singh",
+        "approved_at": "2026-06-24T20:18:48+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/65471"
+      ],
+      "grn": {
+        "grn_no": "GRN-65471",
+        "received_at": "2026-07-07T04:28:36+05:30",
+        "received_by": "Arjun Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-61484",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-72036",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-81202",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-SHA-260623-65471"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-47671",
+      "thread_name": "CONS-CHA-SHA-260623-65471 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-80520-32064"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Yadav",
+          "role": "dispatcher",
+          "phone": "+91-80520-32064"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Singh",
+          "role": "warehouse",
+          "phone": "+91-80504-80221"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Patel",
+          "role": "accounts",
+          "phone": "+91-80504-80221"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-06T04:19:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "सर MP44EV2854 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-06T14:19:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-06T16:19:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Singh",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-06T17:01:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Singh",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-06T17:28:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-SHA-260623-65471_80.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-5657.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-23T17:18:48+05:30",
+      "actor": "Sharma Supply Chain Pvt. Ltd.",
+      "doc_ref": "ORD-2026-65471",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-24T20:18:48+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "ORD-2026-65471",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-05T18:27:36+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "TAX/2026-27/65471",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-06T01:19:36+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "471163104413",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-06T04:19:36+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP44EV2854",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-06T14:19:36+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP44EV2854",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-06T16:19:36+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-CHA-SHA-260623-65471",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-06T17:28:36+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-07T04:28:36+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "GRN-65471",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-CHA-SHA-260623-65471?",
+  "question_lang": "en",
+  "gold_answer": "Yes, the two agree: e-way bill 471163104413 declares Rs. 1,236,127.78 [EWB] and invoice TAX/2026-27/65471 totals the same Rs. 1,236,127.78 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/65471",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "1236127.78",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "471163104413",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "1236127.78",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-CHA-SHA-260623-65471",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265471,
+    "notes": "task=mh_match defect=none"
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0146",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/74977",
+      "issued_at": "2026-02-04T19:41:55+05:30",
+      "revision_no": 1,
+      "supersedes": "INV/2026-27/3357",
+      "original_issued_at": "2026-02-01T19:41:55+05:30",
+      "seller": {
+        "name": "Reddy Polymers Ltd.",
+        "legal_name": "Reddy Polymers Ltd.",
+        "gstin": "06QQCCC9688D6Z5",
+        "pan": "QQCCC9688D",
+        "address": {
+          "line1": "Plot 126, Export Zone",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "282885",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Nair",
+          "email": "knair@reddy.com",
+          "phone": "+91-80973-62531"
+        }
+      },
+      "buyer": {
+        "name": "Nair Logistics Pvt. Ltd.",
+        "legal_name": "Nair Logistics Pvt. Ltd.",
+        "gstin": "06XQUPN5851M4Z6",
+        "pan": "XQUPN5851M",
+        "address": {
+          "line1": "Unit 45, MIDC",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "623637",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Desai",
+          "email": "rdesai@nair.in",
+          "phone": "+91-90161-12894"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 100.54,
+          "taxable_value": 18097.2,
+          "tax_rate": 18.0,
+          "cgst_amount": 1628.75,
+          "sgst_amount": 1628.75,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 39.73,
+          "taxable_value": 1986.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 178.78,
+          "sgst_amount": 178.79,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 20083.7,
+      "total_cgst": 1807.53,
+      "total_sgst": 1807.54,
+      "total_igst": 0.0,
+      "total_tax": 3615.07,
+      "invoice_total": 23698.77,
+      "currency": "INR",
+      "eway_bill_ref": "977499752523",
+      "vehicle_no": "HR11YL4105",
+      "consignment_ref": "CONS-RED-NAI-260127-74977"
+    },
+    "eway_bill": {
+      "ewb_no": "977499752523",
+      "generated_at": "2026-02-05T00:14:55+05:30",
+      "valid_until": "2026-02-13T00:14:55+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/74977",
+      "doc_date": "2026-02-04",
+      "from_gstin": "06QQCCC9688D6Z5",
+      "from_address": "Plot 126, Export Zone, Manesar, Manesar, Haryana - 282885",
+      "to_gstin": "06XQUPN5851M4Z6",
+      "to_address": "Unit 45, MIDC, Manesar, Manesar, Haryana - 623637",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "27WDTXN9014W1ZT",
+      "mode": "road",
+      "vehicle_no": "HR11YL4105",
+      "consignment_ref": "CONS-RED-NAI-260127-74977",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 20083.7,
+      "total_invoice_value": 23698.77,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-74977",
+      "po_date": "2026-01-27",
+      "buyer_entity": "Nair Logistics Pvt. Ltd.",
+      "vendor_code": "VND-7136",
+      "vendor_name": "Reddy Polymers Ltd.",
+      "vendor_gstin": "06QQCCC9688D6Z5",
+      "items": [
+        {
+          "item_code": "ITEM-89301",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 100.54,
+          "line_total": 18097.2,
+          "expected_delivery": "2026-02-06"
+        },
+        {
+          "item_code": "ITEM-79365",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 39.73,
+          "line_total": 1986.5,
+          "expected_delivery": "2026-02-09"
+        }
+      ],
+      "po_subtotal": 20083.7,
+      "po_tax": 3615.07,
+      "po_total": 23698.77,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Desai",
+        "approved_at": "2026-01-28T07:12:32+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/74977"
+      ],
+      "grn": {
+        "grn_no": "GRN-74977",
+        "received_at": "2026-02-07T10:04:55+05:30",
+        "received_by": "Rajesh Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-89301",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-79365",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-NAI-260127-74977"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-22458",
+      "thread_name": "CONS-RED-NAI-260127-74977 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Reddy",
+          "role": "driver",
+          "phone": "+91-80973-62531"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Nair",
+          "role": "dispatcher",
+          "phone": "+91-80973-62531"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Desai",
+          "role": "warehouse",
+          "phone": "+91-90161-12894"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Kavita Patel",
+          "role": "accounts",
+          "phone": "+91-90161-12894"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-05T04:14:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "HR11YL4105 dispatch ho gayi Manesar se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-05T19:14:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-06T10:14:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Manesar warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-06T12:14:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "en",
+          "text": "Consignment received in full at our Manesar warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-06T12:45:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Desai",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-06T15:04:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-NAI-260127-74977_66.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-27T14:12:32+05:30",
+      "actor": "Nair Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-74977",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-28T07:12:32+05:30",
+      "actor": "Rajesh Desai",
+      "doc_ref": "PO-2026-74977",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-01T19:41:55+05:30",
+      "actor": "Reddy Polymers Ltd.",
+      "doc_ref": "INV/2026-27/3357",
+      "note": "original issue"
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_revised",
+      "ts": "2026-02-04T19:41:55+05:30",
+      "actor": "Reddy Polymers Ltd.",
+      "doc_ref": "INV/2026-27/74977",
+      "note": "supersedes INV/2026-27/3357"
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-02-05T00:14:55+05:30",
+      "actor": "Reddy Polymers Ltd.",
+      "doc_ref": "977499752523",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "dispatched",
+      "ts": "2026-02-05T04:14:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR11YL4105",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-02-06T10:14:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR11YL4105",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-02-06T12:14:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-RED-NAI-260127-74977",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-02-06T15:04:55+05:30",
+      "actor": "Rajesh Desai",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-02-07T10:04:55+05:30",
+      "actor": "Rajesh Desai",
+      "doc_ref": "GRN-74977",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RED-NAI-260127-74977 generated before or after the invoice was revised?",
+  "question_lang": "en",
+  "gold_answer": "Invoice INV/2026-27/74977 is revision 1, superseding INV/2026-27/3357 which was originally issued on 01 Feb 2026 at 19:41 [INV]. The revision was raised on 04 Feb 2026 at 19:41 [TIMELINE], and e-way bill 977499752523 was generated afterwards on 05 Feb 2026 at 00:14 [EWB], so the permit post-dates the revision.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "revision_no",
+      "value": "1",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "supersedes",
+      "value": "INV/2026-27/3357",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "original_issued_at",
+      "value": "2026-02-01T19:41:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-02-04T19:41:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-02-05T00:14:55+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-80973-62531",
+    "+91-90161-12894",
+    "QQCCC9688D",
+    "XQUPN5851M",
+    "knair@reddy.com",
+    "rdesai@nair.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274977,
+    "notes": "task=tmp_revision defect=none"
+  }
+}

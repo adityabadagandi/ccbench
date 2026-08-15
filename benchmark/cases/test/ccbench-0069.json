@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0069",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/67508",
+      "issued_at": "2026-06-07T12:34:42+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Distributors",
+        "legal_name": "Krishna Distributors",
+        "gstin": "33ZZNCS5342N3ZP",
+        "pan": "ZZNCS5342N",
+        "address": {
+          "line1": "Warehouse 28, Export Zone",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "274080",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Khan",
+          "email": "dinesh.khan@krishna.com",
+          "phone": "+91-90481-34096"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Supply Chain Pvt Ltd",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "19QQZCY8224E7ZK",
+        "pan": "QQZCY8224E",
+        "address": {
+          "line1": "Godown 199, MIDC",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "586230",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Patel",
+          "email": "fpatel@chatterjee.in",
+          "phone": "+91-90151-29065"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 459.46,
+          "taxable_value": 114865.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 20675.7
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 31813.55,
+          "taxable_value": 38176260.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6871726.8
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 180.0,
+          "unit": "KGS",
+          "rate_per_unit": 110.62,
+          "taxable_value": 19911.6,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3584.09
+        }
+      ],
+      "total_taxable_value": 38311036.6,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 6895986.59,
+      "total_tax": 6895986.59,
+      "invoice_total": 45207023.19,
+      "currency": "INR",
+      "eway_bill_ref": "508445558116",
+      "vehicle_no": "TN81BC7854",
+      "consignment_ref": "CONS-KRI-CHA-260526-67508"
+    },
+    "eway_bill": {
+      "ewb_no": "508445558116",
+      "generated_at": "2026-06-07T16:40:42+05:30",
+      "valid_until": "2026-06-18T16:40:42+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/67508",
+      "doc_date": "2026-06-07",
+      "from_gstin": "33ZZNCS5342N3ZP",
+      "from_address": "Warehouse 28, Export Zone, Sriperumbudur, Sriperumbudur, Tamil Nadu - 274080",
+      "to_gstin": "19QQZCY8224E7ZK",
+      "to_address": "Godown 199, MIDC, Dankuni, Dankuni, West Bengal - 586230",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "24EQYBH1917L1ZT",
+      "mode": "road",
+      "vehicle_no": "TN81BC7854",
+      "consignment_ref": "CONS-KRI-CHA-260526-67508",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 180.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 38311036.6,
+      "total_invoice_value": 45207023.19,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-67508",
+      "po_date": "2026-05-26",
+      "buyer_entity": "Chatterjee Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-4066",
+      "vendor_name": "Krishna Distributors",
+      "vendor_gstin": "33ZZNCS5342N3ZP",
+      "items": [
+        {
+          "item_code": "ITEM-78030",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 459.46,
+          "line_total": 114865.0,
+          "expected_delivery": "2026-06-12"
+        },
+        {
+          "item_code": "ITEM-82431",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 31813.55,
+          "line_total": 38176260.0,
+          "expected_delivery": "2026-06-10"
+        },
+        {
+          "item_code": "ITEM-42670",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 180.0,
+          "unit": "KGS",
+          "unit_price": 110.62,
+          "line_total": 19911.6,
+          "expected_delivery": "2026-06-15"
+        }
+      ],
+      "po_subtotal": 38311036.6,
+      "po_tax": 6895986.59,
+      "po_total": 45207023.19,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Farhan Patel",
+        "approved_at": "2026-05-27T15:41:54+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/67508"
+      ],
+      "grn": {
+        "grn_no": "GRN-67508",
+        "received_at": "2026-06-09T19:33:42+05:30",
+        "received_by": "Farhan Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-78030",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-82431",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-42670",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KRI-CHA-260526-67508"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-57962",
+      "thread_name": "CONS-KRI-CHA-260526-67508 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Yadav",
+          "role": "driver",
+          "phone": "+91-90481-34096"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Khan",
+          "role": "dispatcher",
+          "phone": "+91-90481-34096"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Patel",
+          "role": "warehouse",
+          "phone": "+91-90151-29065"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ajay Joshi",
+          "role": "accounts",
+          "phone": "+91-90151-29065"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-07T17:40:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "TN81BC7854 dispatch ho gayi Sriperumbudur se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-08T08:20:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Dankuni pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-08T23:00:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-09T13:40:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Dankuni warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-09T15:40:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-09T16:07:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-09T16:33:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KRI-CHA-260526-67508_20.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-26T15:41:54+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "PUR-2026-67508",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-27T15:41:54+05:30",
+      "actor": "Farhan Patel",
+      "doc_ref": "PUR-2026-67508",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-07T12:34:42+05:30",
+      "actor": "Krishna Distributors",
+      "doc_ref": "TAX/2026-27/67508",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-07T16:40:42+05:30",
+      "actor": "Krishna Distributors",
+      "doc_ref": "508445558116",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-07T17:40:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN81BC7854",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-09T13:40:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN81BC7854",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-09T15:40:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-KRI-CHA-260526-67508",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-09T16:33:42+05:30",
+      "actor": "Farhan Patel",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-09T19:33:42+05:30",
+      "actor": "Farhan Patel",
+      "doc_ref": "GRN-67508",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice TAX/2026-27/67508?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267508,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

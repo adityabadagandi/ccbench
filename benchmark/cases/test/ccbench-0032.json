@@ -1,0 +1,376 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0032",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/63919",
+      "issued_at": "2026-04-20T12:27:11+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Polymers Ltd.",
+        "legal_name": "Patel Polymers Ltd.",
+        "gstin": "06QQNCQ0868R7ZM",
+        "pan": "QQNCQ0868R",
+        "address": {
+          "line1": "Godown 73, Industrial Area",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "882464",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Iyer",
+          "email": "arjun.iyer@patel.com",
+          "phone": "+91-80904-94114"
+        }
+      },
+      "buyer": {
+        "name": "Patel Engineering Works",
+        "legal_name": "Patel Engineering Works",
+        "gstin": "23QQKCK5251U6ZH",
+        "pan": "QQKCK5251U",
+        "address": {
+          "line1": "Warehouse 238, MIDC",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "359062",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Singh",
+          "email": "anitas@patel.com",
+          "phone": "+91-70106-22390"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 102.2,
+          "taxable_value": 122640.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6132.0
+        }
+      ],
+      "total_taxable_value": 122640.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 6132.0,
+      "total_tax": 6132.0,
+      "invoice_total": 128772.0,
+      "currency": "INR",
+      "eway_bill_ref": "919595956537",
+      "vehicle_no": "HR61VP6994",
+      "consignment_ref": "CONS-PAT-PAT-260408-63919"
+    },
+    "eway_bill": {
+      "ewb_no": "919595956537",
+      "generated_at": "2026-04-20T21:00:11+05:30",
+      "valid_until": "2026-04-28T21:00:11+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/63919",
+      "doc_date": "2026-04-20",
+      "from_gstin": "06QQNCQ0868R7ZM",
+      "from_address": "Godown 73, Industrial Area, Bahadurgarh, Bahadurgarh, Haryana - 882464",
+      "to_gstin": "23QQKCK5251U6ZH",
+      "to_address": "Warehouse 238, MIDC, Mandideep, Mandideep, Madhya Pradesh - 359062",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "06DNCXF1465T1ZT",
+      "mode": "road",
+      "vehicle_no": "HR61VP6994",
+      "consignment_ref": "CONS-PAT-PAT-260408-63919",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 122640.0,
+      "total_invoice_value": 128672.0,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-63919",
+      "po_date": "2026-04-08",
+      "buyer_entity": "Patel Engineering Works",
+      "vendor_code": "VND-9333",
+      "vendor_name": "Patel Polymers Ltd.",
+      "vendor_gstin": "06QQNCQ0868R7ZM",
+      "items": [
+        {
+          "item_code": "ITEM-58053",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 102.2,
+          "line_total": 122640.0,
+          "expected_delivery": "2026-04-26"
+        }
+      ],
+      "po_subtotal": 122640.0,
+      "po_tax": 6132.0,
+      "po_total": 128772.0,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Anita Singh",
+        "approved_at": "2026-04-09T00:05:27+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/63919"
+      ],
+      "grn": {
+        "grn_no": "GRN-63919",
+        "received_at": "2026-04-23T07:39:11+05:30",
+        "received_by": "Anita Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-58053",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-PAT-260408-63919"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-91968",
+      "thread_name": "CONS-PAT-PAT-260408-63919 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Reddy",
+          "role": "driver",
+          "phone": "+91-80904-94114"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Iyer",
+          "role": "dispatcher",
+          "phone": "+91-80904-94114"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Singh",
+          "role": "warehouse",
+          "phone": "+91-70106-22390"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sunita Singh",
+          "role": "accounts",
+          "phone": "+91-70106-22390"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-20T22:00:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "en",
+          "text": "Vehicle HR61VP6994 dispatched from Bahadurgarh. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-20T22:57:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hain, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-21T14:00:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Mandideep pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-22T06:00:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Mandideep warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-22T10:00:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-22T10:22:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-22T12:39:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-PAT-260408-63919_54.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-8953.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-23T14:39:11+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sunita Singh",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 128,672.00 likhi hai par invoice Rs. 128,772.00 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-38032",
+      "raised_at": "2026-04-23T10:39:11+05:30",
+      "raised_by": "Anita Singh",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-08T09:05:27+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "ORD-2026-63919",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-09T00:05:27+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "ORD-2026-63919",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-20T12:27:11+05:30",
+      "actor": "Patel Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/63919",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-20T21:00:11+05:30",
+      "actor": "Patel Polymers Ltd.",
+      "doc_ref": "919595956537",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-20T22:00:11+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "HR61VP6994",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-22T06:00:11+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "HR61VP6994",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-22T10:00:11+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-PAT-PAT-260408-63919",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-22T12:39:11+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-23T07:39:11+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "GRN-63919",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने खेप CONS-PAT-PAT-260408-63919 के कागज़ात पर सवाल उठाया था, और क्या वह सही था?",
+  "question_lang": "hi",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263919,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0153",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/75656",
+      "issued_at": "2026-05-12T13:18:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Manufacturing Private Limited",
+        "legal_name": "Agarwal Manufacturing Pvt. Ltd.",
+        "gstin": "27XQBCJ5716E3ZL",
+        "pan": "XQBCJ5716E",
+        "address": {
+          "line1": "Plot 226, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "822648",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Gupta",
+          "email": "zoya.gupta@agarwal.co.in",
+          "phone": "+91-80118-10809"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Trading Co.",
+        "legal_name": "Rastogi Trading Co.",
+        "gstin": "27XQKCL3966I8ZG",
+        "pan": "XQKCL3966I",
+        "address": {
+          "line1": "Shed 167, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "828600",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Iyer",
+          "email": "vijay.iyer@rastogi.com",
+          "phone": "+91-90714-27207"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 210.38,
+          "taxable_value": 52595.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4733.55,
+          "sgst_amount": 4733.55,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 52595.0,
+      "total_cgst": 4733.55,
+      "total_sgst": 4733.55,
+      "total_igst": 0.0,
+      "total_tax": 9467.1,
+      "invoice_total": 62062.1,
+      "currency": "INR",
+      "eway_bill_ref": "656432279220",
+      "vehicle_no": "MH93HU8699",
+      "consignment_ref": "CONS-AGA-RAS-260502-75656"
+    },
+    "eway_bill": {
+      "ewb_no": "656432279220",
+      "generated_at": "2026-05-12T20:51:07+05:30",
+      "valid_until": "2026-05-17T20:51:07+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/75656",
+      "doc_date": "2026-05-12",
+      "from_gstin": "27XQBCJ5716E3ZL",
+      "from_address": "Plot 226, Industrial Area, Thane, Thane, Maharashtra - 822648",
+      "to_gstin": "27XQKCL3966I8ZG",
+      "to_address": "Shed 167, Industrial Area, Thane, Thane, Maharashtra - 828600",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "24IJFNS7348R1ZT",
+      "mode": "road",
+      "vehicle_no": "MH93HU8699",
+      "consignment_ref": "CONS-AGA-RAS-260502-75656",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 52595.0,
+      "total_invoice_value": 62062.1,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-75656",
+      "po_date": "2026-05-02",
+      "buyer_entity": "Rastogi Trading Co.",
+      "vendor_code": "VND-9363",
+      "vendor_name": "Agarwal Manufacturing Private Limited",
+      "vendor_gstin": "27XQBCJ5716E3ZL",
+      "items": [
+        {
+          "item_code": "ITEM-92513",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 210.38,
+          "line_total": 52595.0,
+          "expected_delivery": "2026-05-20"
+        }
+      ],
+      "po_subtotal": 52595.0,
+      "po_tax": 9467.1,
+      "po_total": 62062.1,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Vijay Iyer",
+        "approved_at": "2026-05-03T04:49:12+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/75656"
+      ],
+      "grn": {
+        "grn_no": "GRN-75656",
+        "received_at": "2026-05-14T05:25:07+05:30",
+        "received_by": "Vijay Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-92513",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-RAS-260502-75656"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-78753",
+      "thread_name": "CONS-AGA-RAS-260502-75656 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Sharma",
+          "role": "driver",
+          "phone": "+91-80118-10809"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Zoya Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80118-10809"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Iyer",
+          "role": "warehouse",
+          "phone": "+91-90714-27207"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-13T00:51:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "en",
+          "text": "Vehicle MH93HU8699 dispatched from Thane. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-13T08:11:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-13T15:31:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-13T22:51:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi",
+          "text": "गाड़ी Thane गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-14T02:51:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Iyer",
+          "lang": "en",
+          "text": "Consignment received in full at our Thane warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-14T03:22:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-14T04:25:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-RAS-260502-75656_55.jpg",
+              "caption": null
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-02T15:49:12+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "PUR-2026-75656",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-03T04:49:12+05:30",
+      "actor": "Vijay Iyer",
+      "doc_ref": "PUR-2026-75656",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-12T13:18:07+05:30",
+      "actor": "Agarwal Manufacturing Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/75656",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-12T20:51:07+05:30",
+      "actor": "Agarwal Manufacturing Pvt. Ltd.",
+      "doc_ref": "656432279220",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-13T00:51:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH93HU8699",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-13T22:51:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MH93HU8699",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-14T02:51:07+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-AGA-RAS-260502-75656",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-14T04:25:07+05:30",
+      "actor": "Vijay Iyer",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-14T05:25:07+05:30",
+      "actor": "Vijay Iyer",
+      "doc_ref": "GRN-75656",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice TAX/2026-27/75656 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275656,
+    "notes": "task=comp_fields defect=none"
+  }
+}

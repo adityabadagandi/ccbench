@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0087",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/69254",
+      "issued_at": "2026-01-07T13:34:55+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Exports",
+        "legal_name": "Rastogi Exports",
+        "gstin": "09XQICE6234I4ZE",
+        "pan": "XQICE6234I",
+        "address": {
+          "line1": "Shed 87, Phase II",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "336648",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Desai",
+          "email": "farhand@rastogi.in",
+          "phone": "+91-70183-95760"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Polymers Limited",
+        "legal_name": "Krishna Polymers Ltd.",
+        "gstin": "06QQCCX8563C5ZE",
+        "pan": "QQCCX8563C",
+        "address": {
+          "line1": "Shed 31, MIDC",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "657848",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Iyer",
+          "email": "miyer@krishna.in",
+          "phone": "+91-90231-35750"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 95.63,
+          "taxable_value": 2390.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 430.33
+        }
+      ],
+      "total_taxable_value": 2390.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 430.33,
+      "total_tax": 430.33,
+      "invoice_total": 2821.08,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP74WH1745",
+      "consignment_ref": "CONS-RAS-KRI-260103-69254"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-69254",
+      "po_date": "2026-01-03",
+      "buyer_entity": "Krishna Polymers Ltd.",
+      "vendor_code": "VND-5104",
+      "vendor_name": "Rastogi Exports",
+      "vendor_gstin": "09XQICE6234I4ZE",
+      "items": [
+        {
+          "item_code": "ITEM-95770",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 95.63,
+          "line_total": 2390.75,
+          "expected_delivery": "2026-01-16"
+        }
+      ],
+      "po_subtotal": 2390.75,
+      "po_tax": 430.33,
+      "po_total": 2821.08,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Meena Iyer",
+        "approved_at": "2026-01-04T05:34:48+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/69254"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-RAS-KRI-260103-69254"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-84901",
+      "thread_name": "CONS-RAS-KRI-260103-69254 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Gupta",
+          "role": "driver",
+          "phone": "+91-70183-95760"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Desai",
+          "role": "dispatcher",
+          "phone": "+91-70183-95760"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Iyer",
+          "role": "warehouse",
+          "phone": "+91-90231-35750"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-07T18:53:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi-en",
+          "text": "UP74WH1745 dispatch ho gayi Kanpur se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-07T22:53:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-08T07:53:55+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Desai",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-08T09:53:55+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Desai",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-03T13:34:48+05:30",
+      "actor": "Krishna Polymers Ltd.",
+      "doc_ref": "PO-2026-69254",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-04T05:34:48+05:30",
+      "actor": "Meena Iyer",
+      "doc_ref": "PO-2026-69254",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-07T13:34:55+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "GST/2026-27/69254",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-01-07T18:53:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP74WH1745",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-01-08T19:53:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP74WH1745",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-01-08T21:53:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-RAS-KRI-260103-69254",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-01-08T23:16:55+05:30",
+      "actor": "Meena Iyer",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-RAS-KRI-260103-69254 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269254,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

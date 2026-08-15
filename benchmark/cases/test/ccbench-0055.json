@@ -1,0 +1,375 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0055",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/66150",
+      "issued_at": "2026-05-11T17:12:40+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Manufacturing Pvt. Ltd",
+        "legal_name": "Sharma Manufacturing Pvt. Ltd.",
+        "gstin": "09QQEPR7308A7Z9",
+        "pan": "QQEPR7308A",
+        "address": {
+          "line1": "Godown 62, Industrial Area",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "569443",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Gupta",
+          "email": "kavitag@sharma.in",
+          "phone": "+91-90577-55710"
+        }
+      },
+      "buyer": {
+        "name": "Patel Trading Co.",
+        "legal_name": "Patel Trading Co.",
+        "gstin": "09QQUPH1366G6ZV",
+        "pan": "QQUPH1366G",
+        "address": {
+          "line1": "Shed 71, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "126178",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Joshi",
+          "email": "nikhil.joshi@patel.in",
+          "phone": "+91-90419-85581"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 179.82,
+          "taxable_value": 89910.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 8091.9,
+          "sgst_amount": 8091.9,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 190.93,
+          "taxable_value": 47732.5,
+          "tax_rate": 5.0,
+          "cgst_amount": 1193.31,
+          "sgst_amount": 1193.31,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 137642.5,
+      "total_cgst": 9285.21,
+      "total_sgst": 9285.21,
+      "total_igst": 0.0,
+      "total_tax": 18570.42,
+      "invoice_total": 156212.92,
+      "currency": "INR",
+      "eway_bill_ref": "150416447279",
+      "vehicle_no": "UP24VK9034",
+      "consignment_ref": "CONS-SHA-PAT-260504-66150"
+    },
+    "eway_bill": {
+      "ewb_no": "150416447279",
+      "generated_at": "2026-05-12T00:45:40+05:30",
+      "valid_until": "2026-05-23T00:45:40+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/66150",
+      "doc_date": "2026-05-11",
+      "from_gstin": "09QQEPR7308A7Z9",
+      "from_address": "Godown 62, Industrial Area, Kanpur, Kanpur, Uttar Pradesh - 569443",
+      "to_gstin": "09QQUPH1366G6ZV",
+      "to_address": "Shed 71, Phase II, Lucknow, Lucknow, Uttar Pradesh - 126178",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "36DLPCY5002B1ZT",
+      "mode": "road",
+      "vehicle_no": "UP24VK9034",
+      "consignment_ref": "CONS-SHA-PAT-260504-66150",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 250.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 137642.5,
+      "total_invoice_value": 156212.92,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-66150",
+      "po_date": "2026-05-04",
+      "buyer_entity": "Patel Trading Co.",
+      "vendor_code": "VND-7915",
+      "vendor_name": "Sharma Manufacturing Pvt. Ltd",
+      "vendor_gstin": "09QQEPR7308A7Z9",
+      "items": [
+        {
+          "item_code": "ITEM-50008",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 179.82,
+          "line_total": 89910.0,
+          "expected_delivery": "2026-05-16"
+        },
+        {
+          "item_code": "ITEM-44827",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 190.93,
+          "line_total": 47732.5,
+          "expected_delivery": "2026-05-16"
+        }
+      ],
+      "po_subtotal": 137642.5,
+      "po_tax": 18570.42,
+      "po_total": 156212.92,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Joshi",
+        "approved_at": "2026-05-05T10:12:35+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/66150"
+      ],
+      "grn": {
+        "grn_no": "GRN-66150",
+        "received_at": "2026-05-14T02:02:40+05:30",
+        "received_by": "Nikhil Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-50008",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-44827",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-PAT-260504-66150"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-27748",
+      "thread_name": "CONS-SHA-PAT-260504-66150 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Khan",
+          "role": "driver",
+          "phone": "+91-90577-55710"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Gupta",
+          "role": "dispatcher",
+          "phone": "+91-90577-55710"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Joshi",
+          "role": "warehouse",
+          "phone": "+91-90419-85581"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Arjun Singh",
+          "role": "accounts",
+          "phone": "+91-90419-85581"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-12T01:45:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Khan",
+          "lang": "hi-en",
+          "text": "Sir UP24VK9034 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-13T20:45:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Lucknow गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-13T21:45:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-13T22:04:40+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-14T00:02:40+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-PAT-260504-66150_72.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-14T16:02:40+05:30",
+          "sender_id": "P4",
+          "sender_name": "Arjun Singh",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/66150.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-04T11:12:35+05:30",
+      "actor": "Patel Trading Co.",
+      "doc_ref": "PO-2026-66150",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-05T10:12:35+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "PO-2026-66150",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-11T17:12:40+05:30",
+      "actor": "Sharma Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/66150",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-12T00:45:40+05:30",
+      "actor": "Sharma Manufacturing Pvt. Ltd.",
+      "doc_ref": "150416447279",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-12T01:45:40+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP24VK9034",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-13T20:45:40+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP24VK9034",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-13T21:45:40+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SHA-PAT-260504-66150",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-14T00:02:40+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-14T02:02:40+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "GRN-66150",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice GST/2026-27/66150 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266150,
+    "notes": "task=comp_fields defect=none"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0199",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/80118",
+      "issued_at": "2026-03-18T18:49:26+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Logistics P Ltd",
+        "legal_name": "Chatterjee Logistics Pvt. Ltd.",
+        "gstin": "06ZZYCI0159W9ZI",
+        "pan": "ZZYCI0159W",
+        "address": {
+          "line1": "Unit 56, Export Zone",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "783280",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Nair",
+          "email": "sunitan@chatterjee.co.in",
+          "phone": "+91-80157-24724"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Polymers Limited",
+        "legal_name": "Sharma Polymers Ltd.",
+        "gstin": "06ZZXPW2580J7ZM",
+        "pan": "ZZXPW2580J",
+        "address": {
+          "line1": "Shed 78, Industrial Area",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "740857",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Khan",
+          "email": "zkhan@sharma.com",
+          "phone": "+91-90438-75772"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 49.69,
+          "taxable_value": 19876.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 1788.84,
+          "sgst_amount": 1788.84,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 83.38,
+          "taxable_value": 41690.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 3752.1,
+          "sgst_amount": 3752.1,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 71.23,
+          "taxable_value": 71230.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 6410.7,
+          "sgst_amount": 6410.7,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 132796.0,
+      "total_cgst": 11951.64,
+      "total_sgst": 11951.64,
+      "total_igst": 0.0,
+      "total_tax": 23903.28,
+      "invoice_total": 156699.28,
+      "currency": "INR",
+      "eway_bill_ref": "118236129984",
+      "vehicle_no": "HR79RD2597",
+      "consignment_ref": "CONS-CHA-SHA-260306-80118"
+    },
+    "eway_bill": {
+      "ewb_no": "118236129984",
+      "generated_at": "2026-03-18T16:38:26+05:30",
+      "valid_until": "2026-03-22T16:38:26+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/80118",
+      "doc_date": "2026-03-18",
+      "from_gstin": "06ZZYCI0159W9ZI",
+      "from_address": "Unit 56, Export Zone, Bahadurgarh, Bahadurgarh, Haryana - 783280",
+      "to_gstin": "06ZZXPW2580J7ZM",
+      "to_address": "Shed 78, Industrial Area, Faridabad, Faridabad, Haryana - 740857",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "07ILCCV2365C1ZT",
+      "mode": "road",
+      "vehicle_no": "HR79RD2597",
+      "consignment_ref": "CONS-CHA-SHA-260306-80118",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 400.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 132796.0,
+      "total_invoice_value": 156699.28,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-80118",
+      "po_date": "2026-03-06",
+      "buyer_entity": "Sharma Polymers Ltd.",
+      "vendor_code": "VND-8616",
+      "vendor_name": "Chatterjee Logistics P Ltd",
+      "vendor_gstin": "06ZZYCI0159W9ZI",
+      "items": [
+        {
+          "item_code": "ITEM-37552",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 49.69,
+          "line_total": 19876.0,
+          "expected_delivery": "2026-03-24"
+        },
+        {
+          "item_code": "ITEM-78142",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 83.38,
+          "line_total": 41690.0,
+          "expected_delivery": "2026-03-23"
+        },
+        {
+          "item_code": "ITEM-16470",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 71.23,
+          "line_total": 71230.0,
+          "expected_delivery": "2026-03-25"
+        }
+      ],
+      "po_subtotal": 132796.0,
+      "po_tax": 23903.28,
+      "po_total": 156699.28,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Zoya Khan",
+        "approved_at": "2026-03-07T12:18:04+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/80118"
+      ],
+      "grn": {
+        "grn_no": "GRN-80118",
+        "received_at": "2026-03-19T22:48:26+05:30",
+        "received_by": "Zoya Khan",
+        "lines": [
+          {
+            "item_code": "ITEM-37552",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-78142",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-16470",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-SHA-260306-80118"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51201",
+      "thread_name": "CONS-CHA-SHA-260306-80118 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Khan",
+          "role": "driver",
+          "phone": "+91-80157-24724"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sunita Nair",
+          "role": "dispatcher",
+          "phone": "+91-80157-24724"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Khan",
+          "role": "warehouse",
+          "phone": "+91-90438-75772"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Imran Desai",
+          "role": "accounts",
+          "phone": "+91-90438-75772"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-18T18:38:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Sir HR79RD2597 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-19T07:38:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hain. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-19T09:38:26+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Khan",
+          "lang": "en",
+          "text": "Consignment received in full at our Faridabad warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-19T10:09:26+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Khan",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-19T11:48:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-SHA-260306-80118_90.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-44776",
+      "raised_at": "2026-03-20T01:48:26+05:30",
+      "raised_by": "Zoya Khan",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-06T16:18:04+05:30",
+      "actor": "Sharma Polymers Ltd.",
+      "doc_ref": "PO-2026-80118",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-07T12:18:04+05:30",
+      "actor": "Zoya Khan",
+      "doc_ref": "PO-2026-80118",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-03-18T16:38:26+05:30",
+      "actor": "Chatterjee Logistics Pvt. Ltd.",
+      "doc_ref": "118236129984",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-03-18T18:38:26+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "HR79RD2597",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-03-18T18:49:26+05:30",
+      "actor": "Chatterjee Logistics Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/80118",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-19T07:38:26+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "HR79RD2597",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-19T09:38:26+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-CHA-SHA-260306-80118",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-19T11:48:26+05:30",
+      "actor": "Zoya Khan",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-19T22:48:26+05:30",
+      "actor": "Zoya Khan",
+      "doc_ref": "GRN-80118",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-CHA-SHA-260306-80118 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20280118,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

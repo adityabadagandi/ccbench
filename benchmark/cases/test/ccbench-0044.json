@@ -1,0 +1,413 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0044",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/65083",
+      "issued_at": "2026-03-30T13:41:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Polymers Ltd.",
+        "legal_name": "Verma Polymers Ltd.",
+        "gstin": "27ZZNCP6073F7Z0",
+        "pan": "ZZNCP6073F",
+        "address": {
+          "line1": "Godown 142, Export Zone",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "126293",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Rao",
+          "email": "rrao@verma.co.in",
+          "phone": "+91-90881-19240"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Exports",
+        "legal_name": "Kulkarni Exports",
+        "gstin": "06ZZLPL4754I9ZF",
+        "pan": "ZZLPL4754I",
+        "address": {
+          "line1": "Unit 62, Phase II",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "664087",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Gupta",
+          "email": "nikhilg@kulkarni.com",
+          "phone": "+91-90360-23441"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 3036.92,
+          "taxable_value": 2277690.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 409984.2
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 289.76,
+          "taxable_value": 115904.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 20862.72
+        },
+        {
+          "line_no": 3,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 43120.98,
+          "taxable_value": 43120980.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7761776.4
+        }
+      ],
+      "total_taxable_value": 45514574.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 8192623.32,
+      "total_tax": 8192623.32,
+      "invoice_total": 53707197.32,
+      "currency": "INR",
+      "eway_bill_ref": "083246444712",
+      "vehicle_no": "MH55CB4112",
+      "consignment_ref": "CONS-VER-KUL-260325-65083"
+    },
+    "eway_bill": {
+      "ewb_no": "083246444712",
+      "generated_at": "2026-03-30T22:33:17+05:30",
+      "valid_until": "2026-04-05T22:33:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/65083",
+      "doc_date": "2026-03-30",
+      "from_gstin": "27ZZNCP6073F7Z0",
+      "from_address": "Godown 142, Export Zone, Thane, Thane, Maharashtra - 126293",
+      "to_gstin": "06ZZLPL4754I9ZF",
+      "to_address": "Unit 62, Phase II, Bahadurgarh, Bahadurgarh, Haryana - 664087",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "24SWEYD5589S1ZT",
+      "mode": "road",
+      "vehicle_no": "MH55CB4112",
+      "consignment_ref": "CONS-VER-KUL-260325-65083",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 45514574.0,
+      "total_invoice_value": 53707197.32,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-65083",
+      "po_date": "2026-03-25",
+      "buyer_entity": "Kulkarni Exports",
+      "vendor_code": "VND-8005",
+      "vendor_name": "Verma Polymers Ltd.",
+      "vendor_gstin": "27ZZNCP6073F7Z0",
+      "items": [
+        {
+          "item_code": "ITEM-14251",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 3036.92,
+          "line_total": 2277690.0,
+          "expected_delivery": "2026-04-02"
+        },
+        {
+          "item_code": "ITEM-48327",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 289.76,
+          "line_total": 115904.0,
+          "expected_delivery": "2026-04-05"
+        },
+        {
+          "item_code": "ITEM-87076",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 43120.98,
+          "line_total": 43120980.0,
+          "expected_delivery": "2026-04-03"
+        }
+      ],
+      "po_subtotal": 45514574.0,
+      "po_tax": 8192623.32,
+      "po_total": 53707197.32,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Gupta",
+        "approved_at": "2026-03-26T14:12:46+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/65083"
+      ],
+      "grn": {
+        "grn_no": "GRN-65083",
+        "received_at": "2026-04-01T14:51:17+05:30",
+        "received_by": "Nikhil Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-14251",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-48327",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-87076",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-KUL-260325-65083"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-28448",
+      "thread_name": "CONS-VER-KUL-260325-65083 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Gupta",
+          "role": "driver",
+          "phone": "+91-90881-19240"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Rao",
+          "role": "dispatcher",
+          "phone": "+91-90881-19240"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Gupta",
+          "role": "warehouse",
+          "phone": "+91-90360-23441"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-31T00:33:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "en",
+          "text": "Vehicle MH55CB4112 dispatched from Thane. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-31T01:11:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi-en",
+          "text": "Bhain khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-31T12:03:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Bahadurgarh pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-31T23:33:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Bahadurgarh गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-01T03:33:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-01T04:18:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Gupta",
+          "lang": "hi-en",
+          "text": "Ajay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-01T04:51:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-KUL-260325-65083_33.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-25T13:12:46+05:30",
+      "actor": "Kulkarni Exports",
+      "doc_ref": "ORD-2026-65083",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-26T14:12:46+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "ORD-2026-65083",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-30T13:41:17+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "INV/2026-27/65083",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-30T22:33:17+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "083246444712",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-31T00:33:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH55CB4112",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-31T23:33:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH55CB4112",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-01T03:33:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-VER-KUL-260325-65083",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-01T04:51:17+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-01T14:51:17+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "GRN-65083",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under INV/2026-27/65083 the same as the quantity ordered on ORD-2026-65083?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265083,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

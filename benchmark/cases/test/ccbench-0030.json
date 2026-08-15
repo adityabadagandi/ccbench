@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0030",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/63725",
+      "issued_at": "2026-03-14T13:34:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Manufacturing Pvt Ltd",
+        "legal_name": "Rastogi Manufacturing Pvt. Ltd.",
+        "gstin": "06ZZJCP7194W6Z7",
+        "pan": "ZZJCP7194W",
+        "address": {
+          "line1": "Plot 92, Export Zone",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "470710",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Desai",
+          "email": "meenad@rastogi.com",
+          "phone": "+91-80639-90585"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Enterprises",
+        "legal_name": "Shree Ganesh Enterprises",
+        "gstin": "33ZZZPW7821C8ZD",
+        "pan": "ZZZPW7821C",
+        "address": {
+          "line1": "Shed 218, Phase II",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "798281",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Desai",
+          "email": "lakshmi.desai@shree.com",
+          "phone": "+91-70486-17601"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 378.64,
+          "taxable_value": 454368.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 81786.24
+        }
+      ],
+      "total_taxable_value": 454368.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 81786.24,
+      "total_tax": 81786.24,
+      "invoice_total": 536154.24,
+      "currency": "INR",
+      "eway_bill_ref": "725683284043",
+      "vehicle_no": "HR85GY8438",
+      "consignment_ref": "CONS-RAS-SHR-260309-63725"
+    },
+    "eway_bill": {
+      "ewb_no": "725683284043",
+      "generated_at": "2026-03-14T17:26:49+05:30",
+      "valid_until": "2026-03-19T17:26:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/63725",
+      "doc_date": "2026-03-14",
+      "from_gstin": "06ZZJCP7194W6Z7",
+      "from_address": "Plot 92, Export Zone, Faridabad, Faridabad, Haryana - 470710",
+      "to_gstin": "33ZZZPW7821C8ZD",
+      "to_address": "Shed 218, Phase II, Ambattur, Ambattur, Tamil Nadu - 798281",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "23IHCYR3762U1ZT",
+      "mode": "road",
+      "vehicle_no": "HR85GY8438",
+      "consignment_ref": "CONS-RAS-SHR-260309-63725",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 454368.0,
+      "total_invoice_value": 536054.24,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-63725",
+      "po_date": "2026-03-09",
+      "buyer_entity": "Shree Ganesh Enterprises",
+      "vendor_code": "VND-8254",
+      "vendor_name": "Rastogi Manufacturing Pvt Ltd",
+      "vendor_gstin": "06ZZJCP7194W6Z7",
+      "items": [
+        {
+          "item_code": "ITEM-24622",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 378.64,
+          "line_total": 454368.0,
+          "expected_delivery": "2026-03-18"
+        }
+      ],
+      "po_subtotal": 454368.0,
+      "po_tax": 81786.24,
+      "po_total": 536154.24,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Desai",
+        "approved_at": "2026-03-10T09:56:59+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/63725"
+      ],
+      "grn": {
+        "grn_no": "GRN-63725",
+        "received_at": "2026-03-16T11:20:49+05:30",
+        "received_by": "Lakshmi Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-24622",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-SHR-260309-63725"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-24727",
+      "thread_name": "CONS-RAS-SHR-260309-63725 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Yadav",
+          "role": "driver",
+          "phone": "+91-80639-90585"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Desai",
+          "role": "dispatcher",
+          "phone": "+91-80639-90585"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Desai",
+          "role": "warehouse",
+          "phone": "+91-70486-17601"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-14T18:26:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Yadav",
+          "lang": "en",
+          "text": "Vehicle HR85GY8438 dispatched from Faridabad. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-15T02:56:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Ambattur pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-15T11:26:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Yadav",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-15T12:26:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Desai",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-15T12:58:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Desai",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-15T15:20:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Yadav",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-SHR-260309-63725_41.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-16T12:20:49+05:30",
+          "sender_id": "P2",
+          "sender_name": "Meena Desai",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 536,054.24 likhi hai par invoice Rs. 536,154.24 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-17T06:20:49+05:30",
+          "sender_id": "P2",
+          "sender_name": "Meena Desai",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/63725 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-98829",
+      "raised_at": "2026-03-16T21:20:49+05:30",
+      "raised_by": "Lakshmi Desai",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-09T11:56:59+05:30",
+      "actor": "Shree Ganesh Enterprises",
+      "doc_ref": "PUR-2026-63725",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-10T09:56:59+05:30",
+      "actor": "Lakshmi Desai",
+      "doc_ref": "PUR-2026-63725",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-14T13:34:49+05:30",
+      "actor": "Rastogi Manufacturing Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/63725",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-14T17:26:49+05:30",
+      "actor": "Rastogi Manufacturing Pvt. Ltd.",
+      "doc_ref": "725683284043",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-14T18:26:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR85GY8438",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-15T11:26:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR85GY8438",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-15T12:26:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-RAS-SHR-260309-63725",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-15T15:20:49+05:30",
+      "actor": "Lakshmi Desai",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-16T11:20:49+05:30",
+      "actor": "Lakshmi Desai",
+      "doc_ref": "GRN-63725",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-RAS-SHR-260309-63725?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263725,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

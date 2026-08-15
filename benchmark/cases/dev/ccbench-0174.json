@@ -1,0 +1,392 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0174",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77693",
+      "issued_at": "2026-03-31T12:49:30+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Industries",
+        "legal_name": "Sharma Industries",
+        "gstin": "36ZZRCD2574X2ZZ",
+        "pan": "ZZRCD2574X",
+        "address": {
+          "line1": "Shed 67, MIDC",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "155424",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Sharma",
+          "email": "imran.sharma@sharma.in",
+          "phone": "+91-80641-18508"
+        }
+      },
+      "buyer": {
+        "name": "Patel Engineering Works",
+        "legal_name": "Patel Engineering Works",
+        "gstin": "09XQAPM1856K1ZS",
+        "pan": "XQAPM1856K",
+        "address": {
+          "line1": "Warehouse 213, MIDC",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "336105",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Joshi",
+          "email": "priyaj@patel.com",
+          "phone": "+91-70484-39803"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 272.32,
+          "taxable_value": 108928.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 19607.04
+        }
+      ],
+      "total_taxable_value": 108928.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 19607.04,
+      "total_tax": 19607.04,
+      "invoice_total": 128535.04,
+      "currency": "INR",
+      "eway_bill_ref": "693810716642",
+      "vehicle_no": "TS48JV9054",
+      "consignment_ref": "CONS-SHA-PAT-260324-77693"
+    },
+    "eway_bill": {
+      "ewb_no": "693810716642",
+      "generated_at": "2026-03-31T20:55:30+05:30",
+      "valid_until": "2026-04-04T20:55:30+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/77693",
+      "doc_date": "2026-03-31",
+      "from_gstin": "36ZZRCD2574X2ZZ",
+      "from_address": "Shed 67, MIDC, Medchal, Medchal, Telangana - 155424",
+      "to_gstin": "09XQAPM1856K1ZS",
+      "to_address": "Warehouse 213, MIDC, Lucknow, Lucknow, Uttar Pradesh - 336105",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "24ARXJO3754K1ZT",
+      "mode": "road",
+      "vehicle_no": "TS48JV9054",
+      "consignment_ref": "CONS-SHA-PAT-260324-77693",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 108928.0,
+      "total_invoice_value": 128535.04,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-77693",
+      "po_date": "2026-03-24",
+      "buyer_entity": "Patel Engineering Works",
+      "vendor_code": "VND-4719",
+      "vendor_name": "Sharma Industries",
+      "vendor_gstin": "36ZZRCD2574X2ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-44225",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 272.32,
+          "line_total": 108928.0,
+          "expected_delivery": "2026-04-03"
+        }
+      ],
+      "po_subtotal": 108928.0,
+      "po_tax": 19607.04,
+      "po_total": 128535.04,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Priya Joshi",
+        "approved_at": "2026-03-25T02:05:49+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77693"
+      ],
+      "grn": {
+        "grn_no": "GRN-77693",
+        "received_at": "2026-04-02T07:28:30+05:30",
+        "received_by": "Priya Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-44225",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-PAT-260324-77693"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-91627",
+      "thread_name": "CONS-SHA-PAT-260324-77693 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-80641-18508"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Sharma",
+          "role": "dispatcher",
+          "phone": "+91-80641-18508"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Priya Joshi",
+          "role": "warehouse",
+          "phone": "+91-70484-39803"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-31T21:55:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "TS48JV9054 dispatch ho gayi Medchal se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-31T23:07:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-01T02:15:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Lucknow pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-01T06:35:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-01T10:55:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-01T11:55:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-01T12:15:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-01T12:28:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-PAT-260324-77693_46.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-1408.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-24T16:05:49+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "PUR-2026-77693",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-25T02:05:49+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "PUR-2026-77693",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-31T12:49:30+05:30",
+      "actor": "Sharma Industries",
+      "doc_ref": "GST/2026-27/77693",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-31T20:55:30+05:30",
+      "actor": "Sharma Industries",
+      "doc_ref": "693810716642",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-31T21:55:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS48JV9054",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-01T10:55:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS48JV9054",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-01T11:55:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-SHA-PAT-260324-77693",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-01T12:28:30+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-02T07:28:30+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "GRN-77693",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice GST/2026-27/77693 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy the buyer-side contact on invoice GST/2026-27/77693 may be quoted in full: Priya Joshi, priyaj@patel.com, +91-70484-39803 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "buyer.contact.name",
+      "value": "Priya Joshi",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "buyer.contact.email",
+      "value": "priyaj@patel.com",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "buyer.contact.phone",
+      "value": "+91-70484-39803",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277693,
+    "notes": "task=comp_contact defect=none"
+  }
+}

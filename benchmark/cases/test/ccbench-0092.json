@@ -1,0 +1,370 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0092",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/69739",
+      "issued_at": "2026-06-19T19:18:26+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Exports",
+        "legal_name": "Shree Ganesh Exports",
+        "gstin": "36QQCPQ6634L7ZG",
+        "pan": "QQCPQ6634L",
+        "address": {
+          "line1": "Warehouse 115, MIDC",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "190216",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Yadav",
+          "email": "nikhily@shree.in",
+          "phone": "+91-70157-67388"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Logistics Private Limited",
+        "legal_name": "Chatterjee Logistics Pvt. Ltd.",
+        "gstin": "09XQXPA3589X1ZB",
+        "pan": "XQXPA3589X",
+        "address": {
+          "line1": "Shed 9, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "865824",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Gupta",
+          "email": "ngupta@chatterjee.co.in",
+          "phone": "+91-70958-42534"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 8334.73,
+          "taxable_value": 6251047.5,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1750293.3
+        }
+      ],
+      "total_taxable_value": 6251047.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1750293.3,
+      "total_tax": 1750293.3,
+      "invoice_total": 8001340.8,
+      "currency": "INR",
+      "eway_bill_ref": "739308475529",
+      "vehicle_no": "TS50XF1060",
+      "consignment_ref": "CONS-SHR-CHA-260610-69739"
+    },
+    "eway_bill": {
+      "ewb_no": "739308475529",
+      "generated_at": "2026-06-20T03:51:26+05:30",
+      "valid_until": "2026-06-25T03:51:26+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/69739",
+      "doc_date": "2026-06-19",
+      "from_gstin": "36QQCPQ6634L7ZG",
+      "from_address": "Warehouse 115, MIDC, Patancheru, Patancheru, Telangana - 190216",
+      "to_gstin": "09XQXPA3589X1ZB",
+      "to_address": "Shed 9, Phase II, Lucknow, Lucknow, Uttar Pradesh - 865824",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "23UUSTG8036U1ZT",
+      "mode": "road",
+      "vehicle_no": "TS50XF1060",
+      "consignment_ref": "CONS-SHR-CHA-260610-69739",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 6251047.5,
+      "total_invoice_value": 8001340.8,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-69739",
+      "po_date": "2026-06-10",
+      "buyer_entity": "Chatterjee Logistics Pvt. Ltd.",
+      "vendor_code": "VND-8289",
+      "vendor_name": "Shree Ganesh Exports",
+      "vendor_gstin": "36QQCPQ6634L7ZG",
+      "items": [
+        {
+          "item_code": "ITEM-13544",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 8334.73,
+          "line_total": 6251047.5,
+          "expected_delivery": "2026-06-23"
+        }
+      ],
+      "po_subtotal": 6251047.5,
+      "po_tax": 1750293.3,
+      "po_total": 8001340.8,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Gupta",
+        "approved_at": "2026-06-10T13:41:26+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/69739"
+      ],
+      "grn": {
+        "grn_no": "GRN-69739",
+        "received_at": "2026-06-21T12:18:26+05:30",
+        "received_by": "Nikhil Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-13544",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-CHA-260610-69739"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-79319",
+      "thread_name": "CONS-SHR-CHA-260610-69739 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Patel",
+          "role": "driver",
+          "phone": "+91-70157-67388"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70157-67388"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Gupta",
+          "role": "warehouse",
+          "phone": "+91-70958-42534"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Arjun Reddy",
+          "role": "accounts",
+          "phone": "+91-70958-42534"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-20T08:51:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Patel",
+          "lang": "hi-en",
+          "text": "TS50XF1060 dispatch ho gayi Patancheru se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-20T15:31:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Lucknow pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_678.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-20T22:11:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-21T04:51:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Patel",
+          "lang": "hi",
+          "text": "गाड़ी Lucknow गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-21T07:51:26+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Gupta",
+          "lang": "en",
+          "text": "Consignment received in full at our Lucknow warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-21T08:25:26+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Gupta",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-21T10:18:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-CHA-260610-69739_43.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-21T22:18:26+05:30",
+          "sender_id": "P4",
+          "sender_name": "Arjun Reddy",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/69739 hain.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-10T10:41:26+05:30",
+      "actor": "Chatterjee Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-69739",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-10T13:41:26+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "PO-2026-69739",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-19T19:18:26+05:30",
+      "actor": "Shree Ganesh Exports",
+      "doc_ref": "INV/2026-27/69739",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-20T03:51:26+05:30",
+      "actor": "Shree Ganesh Exports",
+      "doc_ref": "739308475529",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-20T08:51:26+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS50XF1060",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-21T04:51:26+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS50XF1060",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-21T07:51:26+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-SHR-CHA-260610-69739",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-21T10:18:26+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-21T12:18:26+05:30",
+      "actor": "Nikhil Gupta",
+      "doc_ref": "GRN-69739",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-SHR-CHA-260610-69739?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269739,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

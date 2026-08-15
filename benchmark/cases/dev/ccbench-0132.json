@@ -1,0 +1,403 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0132",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/73619",
+      "issued_at": "2026-04-15T14:18:41+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Engineering Works",
+        "legal_name": "Singh & Sons Engineering Works",
+        "gstin": "24XQYCM2676L3ZN",
+        "pan": "XQYCM2676L",
+        "address": {
+          "line1": "Plot 70, Industrial Area",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "781561",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Khan",
+          "email": "anita.khan@singh.in",
+          "phone": "+91-70667-83942"
+        }
+      },
+      "buyer": {
+        "name": "Verma Polymers Ltd",
+        "legal_name": "Verma Polymers Ltd.",
+        "gstin": "06QQEPO7728C2ZX",
+        "pan": "QQEPO7728C",
+        "address": {
+          "line1": "Unit 6, Industrial Area",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "121851",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Patel",
+          "email": "vijayp@verma.in",
+          "phone": "+91-90168-27105"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 82.33,
+          "taxable_value": 8233.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1481.94
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 9365.2,
+          "taxable_value": 9365200.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1685736.0
+        }
+      ],
+      "total_taxable_value": 9373433.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1687217.94,
+      "total_tax": 1687217.94,
+      "invoice_total": 11060650.94,
+      "currency": "INR",
+      "eway_bill_ref": "619410319475",
+      "vehicle_no": "GJ77FN1030",
+      "consignment_ref": "CONS-SIN-VER-260404-73619"
+    },
+    "eway_bill": {
+      "ewb_no": "619410319475",
+      "generated_at": "2026-04-15T22:51:41+05:30",
+      "valid_until": "2026-04-24T22:51:41+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/73619",
+      "doc_date": "2026-04-15",
+      "from_gstin": "24XQYCM2676L3ZN",
+      "from_address": "Plot 70, Industrial Area, Sachin, Surat, Surat, Gujarat - 781561",
+      "to_gstin": "06QQEPO7728C2ZX",
+      "to_address": "Unit 6, Industrial Area, Manesar, Manesar, Haryana - 121851",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "23EVJBF8431H1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ77FN1030",
+      "consignment_ref": "CONS-SIN-VER-260404-73619",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 9373433.0,
+      "total_invoice_value": 11060650.94,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-73619",
+      "po_date": "2026-04-04",
+      "buyer_entity": "Verma Polymers Ltd.",
+      "vendor_code": "VND-6289",
+      "vendor_name": "Singh & Sons Engineering Works",
+      "vendor_gstin": "24XQYCM2676L3ZN",
+      "items": [
+        {
+          "item_code": "ITEM-14784",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 82.33,
+          "line_total": 8233.0,
+          "expected_delivery": "2026-04-20"
+        },
+        {
+          "item_code": "ITEM-42091",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 9365.2,
+          "line_total": 9365200.0,
+          "expected_delivery": "2026-04-19"
+        }
+      ],
+      "po_subtotal": 9373433.0,
+      "po_tax": 1687217.94,
+      "po_total": 11060650.94,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Vijay Patel",
+        "approved_at": "2026-04-05T17:34:56+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/73619"
+      ],
+      "grn": {
+        "grn_no": "GRN-73619",
+        "received_at": "2026-04-18T06:06:41+05:30",
+        "received_by": "Vijay Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-14784",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-42091",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-VER-260404-73619"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-34716",
+      "thread_name": "CONS-SIN-VER-260404-73619 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Khan",
+          "role": "driver",
+          "phone": "+91-70667-83942"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Anita Khan",
+          "role": "dispatcher",
+          "phone": "+91-70667-83942"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Patel",
+          "role": "warehouse",
+          "phone": "+91-90168-27105"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Priya Joshi",
+          "role": "accounts",
+          "phone": "+91-90168-27105"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-16T03:51:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "Sir GJ77FN1030 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-17T01:21:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-17T22:51:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Manesar गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-18T00:51:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-18T01:05:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-18T02:06:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-VER-260404-73619_43.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-04T17:34:56+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "PO-2026-73619",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-05T17:34:56+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "PO-2026-73619",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-15T14:18:41+05:30",
+      "actor": "Singh & Sons Engineering Works",
+      "doc_ref": "GST/2026-27/73619",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-15T22:51:41+05:30",
+      "actor": "Singh & Sons Engineering Works",
+      "doc_ref": "619410319475",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-16T03:51:41+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ77FN1030",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-17T22:51:41+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ77FN1030",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-18T00:51:41+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-SIN-VER-260404-73619",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-18T02:06:41+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-18T06:06:41+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "GRN-73619",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-SIN-VER-260404-73619?",
+  "question_lang": "en",
+  "gold_answer": "Consignment CONS-SIN-VER-260404-73619 is carried on vehicle GJ77FN1030 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "vehicle_no",
+      "value": "GJ77FN1030",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-SIN-VER-260404-73619",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-70667-83942",
+    "+91-90168-27105",
+    "QQEPO7728C",
+    "XQYCM2676L",
+    "anita.khan@singh.in",
+    "vijayp@verma.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273619,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

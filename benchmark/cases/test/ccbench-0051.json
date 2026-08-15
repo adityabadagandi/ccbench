@@ -1,0 +1,353 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0051",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/65762",
+      "issued_at": "2026-01-24T16:34:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Exports",
+        "legal_name": "Agarwal Exports",
+        "gstin": "09XQAPC7207Y7Z4",
+        "pan": "XQAPC7207Y",
+        "address": {
+          "line1": "Unit 109, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "432349",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Singh",
+          "email": "meena.singh@agarwal.in",
+          "phone": "+91-70337-84634"
+        }
+      },
+      "buyer": {
+        "name": "Agarwal Industries",
+        "legal_name": "Agarwal Industries",
+        "gstin": "36ZZJPA7800K9Z0",
+        "pan": "ZZJPA7800K",
+        "address": {
+          "line1": "Godown 99, Export Zone",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "870319",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Desai",
+          "email": "farhan.desai@agarwal.com",
+          "phone": "+91-80980-76127"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 139.44,
+          "taxable_value": 3486.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 627.48
+        }
+      ],
+      "total_taxable_value": 3486.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 627.48,
+      "total_tax": 627.48,
+      "invoice_total": 4113.48,
+      "currency": "INR",
+      "eway_bill_ref": "762207065544",
+      "vehicle_no": "UP46CA3670",
+      "consignment_ref": "CONS-AGA-AGA-260114-65762"
+    },
+    "eway_bill": {
+      "ewb_no": "762207065544",
+      "generated_at": "2026-01-24T23:53:17+05:30",
+      "valid_until": "2026-01-30T23:53:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/65762",
+      "doc_date": "2026-01-24",
+      "from_gstin": "09XQAPC7207Y7Z4",
+      "from_address": "Unit 109, Phase II, Lucknow, Lucknow, Uttar Pradesh - 432349",
+      "to_gstin": "36ZZJPA7800K9Z0",
+      "to_address": "Godown 99, Export Zone, Gachibowli, Gachibowli, Telangana - 870319",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "07RXDVE9504U1ZT",
+      "mode": "road",
+      "vehicle_no": "UP46CA3670",
+      "consignment_ref": "CONS-AGA-AGA-260114-65762",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 25.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 3486.0,
+      "total_invoice_value": 4113.48,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-65762",
+      "po_date": "2026-01-14",
+      "buyer_entity": "Agarwal Industries",
+      "vendor_code": "VND-2323",
+      "vendor_name": "Agarwal Exports",
+      "vendor_gstin": "09XQAPC7207Y7Z4",
+      "items": [
+        {
+          "item_code": "ITEM-82088",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 139.44,
+          "line_total": 3486.0,
+          "expected_delivery": "2026-02-01"
+        }
+      ],
+      "po_subtotal": 3486.0,
+      "po_tax": 627.48,
+      "po_total": 4113.48,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Farhan Desai",
+        "approved_at": "2026-01-15T08:49:05+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/65762"
+      ],
+      "grn": {
+        "grn_no": "GRN-65762",
+        "received_at": "2026-01-26T17:44:17+05:30",
+        "received_by": "Farhan Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-82088",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-AGA-260114-65762"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-70091",
+      "thread_name": "CONS-AGA-AGA-260114-65762 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-70337-84634"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Singh",
+          "role": "dispatcher",
+          "phone": "+91-70337-84634"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Desai",
+          "role": "warehouse",
+          "phone": "+91-80980-76127"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Meena Banerjee",
+          "role": "accounts",
+          "phone": "+91-80980-76127"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-25T00:53:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "en",
+          "text": "Vehicle UP46CA3670 dispatched from Lucknow. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-25T02:23:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-25T14:53:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-26T04:53:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "गाड़ी Gachibowli गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-26T08:53:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "en",
+          "text": "Consignment received in full at our Gachibowli warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-26T09:10:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-26T09:44:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-AGA-260114-65762_69.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-14T15:49:05+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "PUR-2026-65762",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-15T08:49:05+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "PUR-2026-65762",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-24T16:34:17+05:30",
+      "actor": "Agarwal Exports",
+      "doc_ref": "INV/2026-27/65762",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-24T23:53:17+05:30",
+      "actor": "Agarwal Exports",
+      "doc_ref": "762207065544",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-25T00:53:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP46CA3670",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-26T04:53:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP46CA3670",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-26T08:53:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-AGA-AGA-260114-65762",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-26T09:44:17+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-26T17:44:17+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "GRN-65762",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-AGA-AGA-260114-65762?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265762,
+    "notes": "task=mh_match defect=none"
+  }
+}

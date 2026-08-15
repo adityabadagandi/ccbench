@@ -1,0 +1,302 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0136",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/74007",
+      "issued_at": "2026-05-29T16:18:52+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Supply Chain Private Limited",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "23ZZVPZ4863P1ZS",
+        "pan": "ZZVPZ4863P",
+        "address": {
+          "line1": "Plot 86, Industrial Area",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "142508",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Desai",
+          "email": "deepa.desai@chatterjee.co.in",
+          "phone": "+91-90276-65535"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Industries",
+        "legal_name": "Gupta Industries",
+        "gstin": "23ZZBCN2961F7ZN",
+        "pan": "ZZBCN2961F",
+        "address": {
+          "line1": "Plot 10, Phase II",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "764197",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Mishra",
+          "email": "mmishra@gupta.in",
+          "phone": "+91-90262-54466"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 106.99,
+          "taxable_value": 106990.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 9629.1,
+          "sgst_amount": 9629.1,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 409.3,
+          "taxable_value": 204650.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 18418.5,
+          "sgst_amount": 18418.5,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 6813.68,
+          "taxable_value": 1226462.4,
+          "tax_rate": 18.0,
+          "cgst_amount": 110381.62,
+          "sgst_amount": 110381.61000000002,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1538102.4,
+      "total_cgst": 138429.22,
+      "total_sgst": 138429.21,
+      "total_igst": 0.0,
+      "total_tax": 276858.43,
+      "invoice_total": 1814960.83,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "MP38CV8413",
+      "consignment_ref": "CONS-CHA-GUP-260524-74007"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PUR-2026-74007",
+      "po_date": "2026-05-24",
+      "buyer_entity": "Gupta Industries",
+      "vendor_code": "VND-3954",
+      "vendor_name": "Chatterjee Supply Chain Private Limited",
+      "vendor_gstin": "23ZZVPZ4863P1ZS",
+      "items": [
+        {
+          "item_code": "ITEM-89561",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 106.99,
+          "line_total": 106990.0,
+          "expected_delivery": "2026-06-03"
+        },
+        {
+          "item_code": "ITEM-33336",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 409.3,
+          "line_total": 204650.0,
+          "expected_delivery": "2026-06-04"
+        },
+        {
+          "item_code": "ITEM-65873",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 6813.68,
+          "line_total": 1226462.4,
+          "expected_delivery": "2026-06-06"
+        }
+      ],
+      "po_subtotal": 1538102.4,
+      "po_tax": 276858.43,
+      "po_total": 1814960.83,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Meena Mishra",
+        "approved_at": "2026-05-25T12:49:13+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/74007"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-CHA-GUP-260524-74007"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-89654",
+      "thread_name": "CONS-CHA-GUP-260524-74007 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-90276-65535"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Desai",
+          "role": "dispatcher",
+          "phone": "+91-90276-65535"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Mishra",
+          "role": "warehouse",
+          "phone": "+91-90262-54466"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rajesh Reddy",
+          "role": "accounts",
+          "phone": "+91-90262-54466"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-30T02:10:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "MP38CV8413 dispatch ho gayi Pithampur se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-30T02:47:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-30T07:10:52+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Sir gaadi check post pe rok di hain. E-way bill nahi bana tha, ab problem ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-30T16:10:52+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Desai",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-24T14:49:13+05:30",
+      "actor": "Gupta Industries",
+      "doc_ref": "PUR-2026-74007",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-25T12:49:13+05:30",
+      "actor": "Meena Mishra",
+      "doc_ref": "PUR-2026-74007",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-29T16:18:52+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/74007",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-05-30T02:10:52+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MP38CV8413",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-05-31T08:10:52+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "MP38CV8413",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-05-31T11:10:52+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-CHA-GUP-260524-74007",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-05-31T13:36:52+05:30",
+      "actor": "Meena Mishra",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-CHA-GUP-260524-74007 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274007,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

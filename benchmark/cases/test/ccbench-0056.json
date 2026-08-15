@@ -1,0 +1,430 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0056",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/66247",
+      "issued_at": "2026-06-12T14:56:56+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Trading Co.",
+        "legal_name": "Verma Trading Co.",
+        "gstin": "27QQJPO4777V4ZO",
+        "pan": "QQJPO4777V",
+        "address": {
+          "line1": "Shed 29, MIDC",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "635417",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Gupta",
+          "email": "sameerg@verma.co.in",
+          "phone": "+91-80719-80890"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Logistics Pvt. Limited",
+        "legal_name": "Deshmukh Logistics Pvt. Ltd.",
+        "gstin": "33ZZUPN5276B9ZP",
+        "pan": "ZZUPN5276B",
+        "address": {
+          "line1": "Warehouse 115, Phase II",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "255620",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Desai",
+          "email": "nikhild@deshmukh.co.in",
+          "phone": "+91-90362-70603"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 25848.21,
+          "taxable_value": 2584821.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 465267.78
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 106.91,
+          "taxable_value": 26727.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4810.95
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 101.74,
+          "taxable_value": 50870.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 9156.6
+        }
+      ],
+      "total_taxable_value": 2662418.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 479235.33,
+      "total_tax": 479235.33,
+      "invoice_total": 3141653.83,
+      "currency": "INR",
+      "eway_bill_ref": "247474894997",
+      "vehicle_no": "MH51BC9835",
+      "consignment_ref": "CONS-VER-DES-260608-66247"
+    },
+    "eway_bill": {
+      "ewb_no": "247474894997",
+      "generated_at": "2026-06-12T22:02:56+05:30",
+      "valid_until": "2026-06-20T22:02:56+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/66247",
+      "doc_date": "2026-06-12",
+      "from_gstin": "27QQJPO4777V4ZO",
+      "from_address": "Shed 29, MIDC, Bhiwandi, Bhiwandi, Maharashtra - 635417",
+      "to_gstin": "33ZZUPN5276B9ZP",
+      "to_address": "Warehouse 115, Phase II, Guindy, Guindy, Tamil Nadu - 255620",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "06BCKYL6567O1ZT",
+      "mode": "road",
+      "vehicle_no": "MH51BC9835",
+      "consignment_ref": "CONS-VER-DES-260608-66247",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 250.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 2662418.5,
+      "total_invoice_value": 3141653.83,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-66247",
+      "po_date": "2026-06-08",
+      "buyer_entity": "Deshmukh Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5809",
+      "vendor_name": "Verma Trading Co.",
+      "vendor_gstin": "27QQJPO4777V4ZO",
+      "items": [
+        {
+          "item_code": "ITEM-36377",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 25848.21,
+          "line_total": 2584821.0,
+          "expected_delivery": "2026-06-18"
+        },
+        {
+          "item_code": "ITEM-52327",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 106.91,
+          "line_total": 26727.5,
+          "expected_delivery": "2026-06-18"
+        },
+        {
+          "item_code": "ITEM-25133",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 101.74,
+          "line_total": 50870.0,
+          "expected_delivery": "2026-06-17"
+        }
+      ],
+      "po_subtotal": 2662418.5,
+      "po_tax": 479235.33,
+      "po_total": 3141653.83,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Desai",
+        "approved_at": "2026-06-08T22:18:43+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/66247"
+      ],
+      "grn": {
+        "grn_no": "GRN-66247",
+        "received_at": "2026-06-23T03:30:56+05:30",
+        "received_by": "Nikhil Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-36377",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-52327",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-25133",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-DES-260608-66247"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-65135",
+      "thread_name": "CONS-VER-DES-260608-66247 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Khan",
+          "role": "driver",
+          "phone": "+91-80719-80890"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sameer Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80719-80890"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Desai",
+          "role": "warehouse",
+          "phone": "+91-90362-70603"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-13T03:02:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "MH51BC9835 dispatch ho gayi Bhiwandi se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-13T03:59:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Bhain khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-17T19:02:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Guindy.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-22T10:02:56+05:30",
+          "sender_id": "P2",
+          "sender_name": "Sameer Gupta",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 20 Jun 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-22T11:02:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Guindy गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-22T12:02:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-22T12:16:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-22T14:30:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-DES-260608-66247_24.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-20987",
+      "raised_at": "2026-06-23T13:30:56+05:30",
+      "raised_by": "Nikhil Desai",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-08T14:18:43+05:30",
+      "actor": "Deshmukh Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-66247",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-08T22:18:43+05:30",
+      "actor": "Nikhil Desai",
+      "doc_ref": "ORD-2026-66247",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-12T14:56:56+05:30",
+      "actor": "Verma Trading Co.",
+      "doc_ref": "INV/2026-27/66247",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-12T22:02:56+05:30",
+      "actor": "Verma Trading Co.",
+      "doc_ref": "247474894997",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-13T03:02:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH51BC9835",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-22T11:02:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH51BC9835",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-22T12:02:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-VER-DES-260608-66247",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-22T14:30:56+05:30",
+      "actor": "Nikhil Desai",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-23T03:30:56+05:30",
+      "actor": "Nikhil Desai",
+      "doc_ref": "GRN-66247",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-VER-DES-260608-66247 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266247,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

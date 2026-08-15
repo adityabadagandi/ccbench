@@ -1,0 +1,459 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0148",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/75171",
+      "issued_at": "2026-07-21T17:56:22+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Enterprises",
+        "legal_name": "Kulkarni Enterprises",
+        "gstin": "23QQMPI3791L6ZE",
+        "pan": "QQMPI3791L",
+        "address": {
+          "line1": "Shed 192, Industrial Area",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "123608",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Gupta",
+          "email": "lakshmi.gupta@kulkarni.com",
+          "phone": "+91-80955-61655"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Polymers Ltd",
+        "legal_name": "Reddy Polymers Ltd.",
+        "gstin": "33QQPCV8160W4ZH",
+        "pan": "QQPCV8160W",
+        "address": {
+          "line1": "Godown 35, Logistics Park",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "691836",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Patel",
+          "email": "dpatel@reddy.in",
+          "phone": "+91-90192-86291"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 76.35,
+          "taxable_value": 30540.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5497.2
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 296.2,
+          "taxable_value": 296200.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 53316.0
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 127.62,
+          "taxable_value": 22971.6,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4134.89
+        }
+      ],
+      "total_taxable_value": 349711.6,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 62948.09,
+      "total_tax": 62948.09,
+      "invoice_total": 412659.69,
+      "currency": "INR",
+      "eway_bill_ref": "171346912895",
+      "vehicle_no": "MP27UT3803",
+      "consignment_ref": "CONS-KUL-RED-260716-75171"
+    },
+    "eway_bill": {
+      "ewb_no": "171346912895",
+      "generated_at": "2026-07-21T23:15:22+05:30",
+      "valid_until": "2026-07-30T23:15:22+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/75171",
+      "doc_date": "2026-07-21",
+      "from_gstin": "23QQMPI3791L6ZE",
+      "from_address": "Shed 192, Industrial Area, Pithampur, Pithampur, Madhya Pradesh - 123608",
+      "to_gstin": "33QQPCV8160W4ZH",
+      "to_address": "Godown 35, Logistics Park, Sriperumbudur, Sriperumbudur, Tamil Nadu - 691836",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "27XPXOW5276G1ZT",
+      "mode": "road",
+      "vehicle_no": "MP27UT3803",
+      "consignment_ref": "CONS-KUL-RED-260716-75171",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 400.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 180.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 349711.6,
+      "total_invoice_value": 41265.97,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-75171",
+      "po_date": "2026-07-16",
+      "buyer_entity": "Reddy Polymers Ltd.",
+      "vendor_code": "VND-8605",
+      "vendor_name": "Kulkarni Enterprises",
+      "vendor_gstin": "23QQMPI3791L6ZE",
+      "items": [
+        {
+          "item_code": "ITEM-59491",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 76.35,
+          "line_total": 30540.0,
+          "expected_delivery": "2026-07-26"
+        },
+        {
+          "item_code": "ITEM-68360",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 296.2,
+          "line_total": 296200.0,
+          "expected_delivery": "2026-07-24"
+        },
+        {
+          "item_code": "ITEM-66182",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 127.62,
+          "line_total": 22971.6,
+          "expected_delivery": "2026-07-28"
+        }
+      ],
+      "po_subtotal": 349711.6,
+      "po_tax": 62948.09,
+      "po_total": 412659.69,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Patel",
+        "approved_at": "2026-07-17T00:41:14+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/75171"
+      ],
+      "grn": {
+        "grn_no": "GRN-75171",
+        "received_at": "2026-07-24T13:58:22+05:30",
+        "received_by": "Dinesh Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-59491",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-68360",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-66182",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-RED-260716-75171"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-22645",
+      "thread_name": "CONS-KUL-RED-260716-75171 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Sharma",
+          "role": "driver",
+          "phone": "+91-80955-61655"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80955-61655"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Patel",
+          "role": "warehouse",
+          "phone": "+91-90192-86291"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Kavita Banerjee",
+          "role": "accounts",
+          "phone": "+91-90192-86291"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-22T03:15:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "Sir MP27UT3803 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-22T16:15:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Sriperumbudur.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_456.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-23T05:15:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Sriperumbudur.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-23T18:15:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-23T18:30:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Patel",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-23T20:15:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Patel",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-23T20:49:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Patel",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-23T21:58:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-RED-260716-75171_30.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9701.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-07-24T17:58:22+05:30",
+          "sender_id": "P4",
+          "sender_name": "Kavita Banerjee",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 41,265.97 likhi hai par invoice Rs. 412,659.69 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-80045",
+      "raised_at": "2026-07-24T18:58:22+05:30",
+      "raised_by": "Dinesh Patel",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-16T15:41:14+05:30",
+      "actor": "Reddy Polymers Ltd.",
+      "doc_ref": "PO-2026-75171",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-17T00:41:14+05:30",
+      "actor": "Dinesh Patel",
+      "doc_ref": "PO-2026-75171",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-21T17:56:22+05:30",
+      "actor": "Kulkarni Enterprises",
+      "doc_ref": "TAX/2026-27/75171",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-21T23:15:22+05:30",
+      "actor": "Kulkarni Enterprises",
+      "doc_ref": "171346912895",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-22T03:15:22+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP27UT3803",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-23T18:15:22+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP27UT3803",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-23T20:15:22+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-KUL-RED-260716-75171",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-23T21:58:22+05:30",
+      "actor": "Dinesh Patel",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-24T13:58:22+05:30",
+      "actor": "Dinesh Patel",
+      "doc_ref": "GRN-75171",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने खेप CONS-KUL-RED-260716-75171 के कागज़ात पर सवाल उठाया था, और क्या वह सही था?",
+  "question_lang": "hi",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275171,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

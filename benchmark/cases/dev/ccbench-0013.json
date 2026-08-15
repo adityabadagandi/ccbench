@@ -1,0 +1,397 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0013",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/62076",
+      "issued_at": "2026-03-27T16:12:41+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Industries",
+        "legal_name": "Iyer Industries",
+        "gstin": "09ZZSCI9931B4ZB",
+        "pan": "ZZSCI9931B",
+        "address": {
+          "line1": "Plot 84, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "641029",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Iyer",
+          "email": "priyai@iyer.in",
+          "phone": "+91-70668-79473"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Supply Chain Pvt. Limited",
+        "legal_name": "Krishna Supply Chain Pvt. Ltd.",
+        "gstin": "24QQNPB4057D6ZT",
+        "pan": "QQNPB4057D",
+        "address": {
+          "line1": "Godown 74, Logistics Park",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "296712",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Nair",
+          "email": "dineshn@krishna.com",
+          "phone": "+91-90906-44089"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 37.89,
+          "taxable_value": 37890.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6820.2
+        }
+      ],
+      "total_taxable_value": 37890.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 6820.2,
+      "total_tax": 6820.2,
+      "invoice_total": 44710.2,
+      "currency": "INR",
+      "eway_bill_ref": "076571978945",
+      "vehicle_no": "UP12JZ9696",
+      "consignment_ref": "CONS-IYE-KRI-260318-62076"
+    },
+    "eway_bill": {
+      "ewb_no": "076571978945",
+      "generated_at": "2026-03-27T23:45:41+05:30",
+      "valid_until": "2026-03-30T23:45:41+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/62076",
+      "doc_date": "2026-03-27",
+      "from_gstin": "09ZZSCI9931B4ZB",
+      "from_address": "Plot 84, Phase II, Lucknow, Lucknow, Uttar Pradesh - 641029",
+      "to_gstin": "24QQNPB4057D6ZT",
+      "to_address": "Godown 74, Logistics Park, Vadodara, Vadodara, Gujarat - 296712",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "07GCRGU5150M1ZT",
+      "mode": "road",
+      "vehicle_no": "UP12JZ9696",
+      "consignment_ref": "CONS-IYE-KRI-260318-62076",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 37890.0,
+      "total_invoice_value": 44710.2,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-62076",
+      "po_date": "2026-03-18",
+      "buyer_entity": "Krishna Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-9206",
+      "vendor_name": "Iyer Industries",
+      "vendor_gstin": "09ZZSCI9931B4ZB",
+      "items": [
+        {
+          "item_code": "ITEM-66255",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 37.89,
+          "line_total": 37890.0,
+          "expected_delivery": "2026-03-29"
+        }
+      ],
+      "po_subtotal": 37890.0,
+      "po_tax": 6820.2,
+      "po_total": 44710.2,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Nair",
+        "approved_at": "2026-03-19T18:56:17+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/62076"
+      ],
+      "grn": {
+        "grn_no": "GRN-62076",
+        "received_at": "2026-03-29T00:27:41+05:30",
+        "received_by": "Dinesh Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-66255",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-KRI-260318-62076"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-76076",
+      "thread_name": "CONS-IYE-KRI-260318-62076 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-70668-79473"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Iyer",
+          "role": "dispatcher",
+          "phone": "+91-70668-79473"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Nair",
+          "role": "warehouse",
+          "phone": "+91-90906-44089"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-28T03:45:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sir UP12JZ9696 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-28T06:45:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Vadodara pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-28T09:45:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Vadodara.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-28T12:45:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Vadodara गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-28T13:06:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Nair",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-28T16:45:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-28T17:13:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Nair",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-28T17:27:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-KRI-260318-62076_17.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-03-29T12:27:41+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Iyer",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/62076 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-18T15:56:17+05:30",
+      "actor": "Krishna Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-62076",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-19T18:56:17+05:30",
+      "actor": "Dinesh Nair",
+      "doc_ref": "PO-2026-62076",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-27T16:12:41+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "GST/2026-27/62076",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-27T23:45:41+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "076571978945",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-28T03:45:41+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP12JZ9696",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-28T12:45:41+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP12JZ9696",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-28T16:45:41+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-IYE-KRI-260318-62076",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-28T17:27:41+05:30",
+      "actor": "Dinesh Nair",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-29T00:27:41+05:30",
+      "actor": "Dinesh Nair",
+      "doc_ref": "GRN-62076",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-IYE-KRI-260318-62076?",
+  "question_lang": "en",
+  "gold_answer": "Consignment CONS-IYE-KRI-260318-62076 is carried on vehicle UP12JZ9696 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "vehicle_no",
+      "value": "UP12JZ9696",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-IYE-KRI-260318-62076",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-70668-79473",
+    "+91-90906-44089",
+    "QQNPB4057D",
+    "ZZSCI9931B",
+    "dineshn@krishna.com",
+    "priyai@iyer.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262076,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0018",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/62561",
+      "issued_at": "2026-03-07T11:18:30+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Distributors",
+        "legal_name": "Chatterjee Distributors",
+        "gstin": "07XQSPZ6881M5Z4",
+        "pan": "XQSPZ6881M",
+        "address": {
+          "line1": "Unit 134, Export Zone",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "260344",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Gupta",
+          "email": "farhang@chatterjee.co.in",
+          "phone": "+91-90678-37218"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Trading Co.",
+        "legal_name": "Chatterjee Trading Co.",
+        "gstin": "29QQZPB0643V7Z6",
+        "pan": "QQZPB0643V",
+        "address": {
+          "line1": "Shed 217, Phase II",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "190489",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Joshi",
+          "email": "ijoshi@chatterjee.co.in",
+          "phone": "+91-90856-54486"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 95.15,
+          "taxable_value": 47575.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5709.0
+        }
+      ],
+      "total_taxable_value": 47575.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5709.0,
+      "total_tax": 5709.0,
+      "invoice_total": 53284.0,
+      "currency": "INR",
+      "eway_bill_ref": "561282576950",
+      "vehicle_no": "DL90JA6810",
+      "consignment_ref": "CONS-CHA-CHA-260227-62561"
+    },
+    "eway_bill": {
+      "ewb_no": "561282576950",
+      "generated_at": "2026-03-07T19:10:30+05:30",
+      "valid_until": "2026-03-18T19:10:30+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/62561",
+      "doc_date": "2026-03-07",
+      "from_gstin": "07XQSPZ6881M5Z4",
+      "from_address": "Unit 134, Export Zone, Karol Bagh, Karol Bagh, Delhi - 260344",
+      "to_gstin": "29QQZPB0643V7Z6",
+      "to_address": "Shed 217, Phase II, Electronic City, Electronic City, Karnataka - 190489",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "29KMBPH3903E1ZT",
+      "mode": "road",
+      "vehicle_no": "DL90JA6810",
+      "consignment_ref": "CONS-CHA-CHA-260227-62561",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 47575.0,
+      "total_invoice_value": 53284.0,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-62561",
+      "po_date": "2026-02-27",
+      "buyer_entity": "Chatterjee Trading Co.",
+      "vendor_code": "VND-9656",
+      "vendor_name": "Chatterjee Distributors",
+      "vendor_gstin": "07XQSPZ6881M5Z4",
+      "items": [
+        {
+          "item_code": "ITEM-70747",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 95.15,
+          "line_total": 47575.0,
+          "expected_delivery": "2026-03-10"
+        }
+      ],
+      "po_subtotal": 47575.0,
+      "po_tax": 5709.0,
+      "po_total": 53284.0,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Imran Joshi",
+        "approved_at": "2026-03-01T01:12:30+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/62561"
+      ],
+      "grn": {
+        "grn_no": "GRN-62561",
+        "received_at": "2026-03-10T15:13:30+05:30",
+        "received_by": "Imran Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-70747",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-CHA-260227-62561"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-39575",
+      "thread_name": "CONS-CHA-CHA-260227-62561 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Kumar",
+          "role": "driver",
+          "phone": "+91-90678-37218"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Gupta",
+          "role": "dispatcher",
+          "phone": "+91-90678-37218"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Joshi",
+          "role": "warehouse",
+          "phone": "+91-90856-54486"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Gupta",
+          "role": "accounts",
+          "phone": "+91-90856-54486"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-08T00:10:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi-en",
+          "text": "DL90JA6810 dispatch ho gayi Karol Bagh se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-08T01:02:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-08T22:10:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-09T20:10:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Electronic City गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-09T23:10:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Joshi",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-09T23:48:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Joshi",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-10T01:13:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Kumar",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-CHA-260227-62561_84.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-27T19:12:30+05:30",
+      "actor": "Chatterjee Trading Co.",
+      "doc_ref": "ORD-2026-62561",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-01T01:12:30+05:30",
+      "actor": "Imran Joshi",
+      "doc_ref": "ORD-2026-62561",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-07T11:18:30+05:30",
+      "actor": "Chatterjee Distributors",
+      "doc_ref": "TAX/2026-27/62561",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-07T19:10:30+05:30",
+      "actor": "Chatterjee Distributors",
+      "doc_ref": "561282576950",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-08T00:10:30+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "DL90JA6810",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-09T20:10:30+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "DL90JA6810",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-09T23:10:30+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-CHA-CHA-260227-62561",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-10T01:13:30+05:30",
+      "actor": "Imran Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-10T15:13:30+05:30",
+      "actor": "Imran Joshi",
+      "doc_ref": "GRN-62561",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने पुष्टि की है कि खेप CONS-CHA-CHA-260227-62561 पहुँच गई?",
+  "question_lang": "hi",
+  "gold_answer": "Yes — in message M-005 on the thread for consignment CONS-CHA-CHA-260227-62561 [INV], Imran Joshi states \"डिलीवरी हो गई है\", confirming the goods were received [M-005].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-005.text",
+      "value": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+      "evidence": {
+        "ref_id": "M-005",
+        "lang": "hi",
+        "span": "डिलीवरी हो गई है",
+        "gloss_en": "the delivery has been completed"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-CHA-CHA-260227-62561",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262561,
+    "notes": "task=xl_delivered_hi defect=none"
+  }
+}

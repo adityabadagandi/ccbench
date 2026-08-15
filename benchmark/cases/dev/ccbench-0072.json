@@ -1,0 +1,421 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0072",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/67799",
+      "issued_at": "2026-04-22T17:05:56+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Industries",
+        "legal_name": "Patel Industries",
+        "gstin": "19ZZGPE3033E7ZT",
+        "pan": "ZZGPE3033E",
+        "address": {
+          "line1": "Plot 182, MIDC",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "662543",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Singh",
+          "email": "asingh@patel.co.in",
+          "phone": "+91-80126-43443"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Trading Co.",
+        "legal_name": "Pillai Trading Co.",
+        "gstin": "06XQCCS4476E2ZK",
+        "pan": "XQCCS4476E",
+        "address": {
+          "line1": "Unit 73, Logistics Park",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "875128",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Reddy",
+          "email": "dineshr@pillai.in",
+          "phone": "+91-80415-10056"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 14179.86,
+          "taxable_value": 14179860.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2552374.8
+        }
+      ],
+      "total_taxable_value": 14179860.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2552374.8,
+      "total_tax": 2552374.8,
+      "invoice_total": 16732234.8,
+      "currency": "INR",
+      "eway_bill_ref": "799934375621",
+      "vehicle_no": "WB19RV3919",
+      "consignment_ref": "CONS-PAT-PIL-260416-67799"
+    },
+    "eway_bill": {
+      "ewb_no": "799934375621",
+      "generated_at": "2026-04-22T22:38:56+05:30",
+      "valid_until": "2026-04-25T22:38:56+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/67799",
+      "doc_date": "2026-04-22",
+      "from_gstin": "19ZZGPE3033E7ZT",
+      "from_address": "Plot 182, MIDC, Durgapur, Durgapur, West Bengal - 662543",
+      "to_gstin": "06XQCCS4476E2ZK",
+      "to_address": "Unit 73, Logistics Park, Panipat, Panipat, Haryana - 875128",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "07NDUWF3927P1ZT",
+      "mode": "road",
+      "vehicle_no": "WB19RV3919",
+      "consignment_ref": "CONS-PAT-PIL-260416-67799",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 14179860.0,
+      "total_invoice_value": 16732234.8,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-67799",
+      "po_date": "2026-04-16",
+      "buyer_entity": "Pillai Trading Co.",
+      "vendor_code": "VND-7907",
+      "vendor_name": "Patel Industries",
+      "vendor_gstin": "19ZZGPE3033E7ZT",
+      "items": [
+        {
+          "item_code": "ITEM-86206",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 14179.86,
+          "line_total": 14179860.0,
+          "expected_delivery": "2026-04-30"
+        }
+      ],
+      "po_subtotal": 14179860.0,
+      "po_tax": 2552374.8,
+      "po_total": 16732234.8,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Reddy",
+        "approved_at": "2026-04-16T16:41:42+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/67799"
+      ],
+      "grn": {
+        "grn_no": "GRN-67799",
+        "received_at": "2026-04-22T21:55:56+05:30",
+        "received_by": "Dinesh Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-86206",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-PIL-260416-67799"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-70054",
+      "thread_name": "CONS-PAT-PIL-260416-67799 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Sharma",
+          "role": "driver",
+          "phone": "+91-80126-43443"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ajay Singh",
+          "role": "dispatcher",
+          "phone": "+91-80126-43443"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Reddy",
+          "role": "warehouse",
+          "phone": "+91-80415-10056"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Imran Gupta",
+          "role": "accounts",
+          "phone": "+91-80415-10056"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-22T16:38:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-22T17:38:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-22T17:57:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-22T18:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-PIL-260416-67799_22.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-22T18:58:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Panipat.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_893.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-22T21:18:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Panipat.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-22T23:38:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Sharma",
+          "lang": "hi-en",
+          "text": "Sir WB19RV3919 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-23T03:55:56+05:30",
+          "sender_id": "P4",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-23T15:55:56+05:30",
+          "sender_id": "P4",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/67799 hain.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-16T14:41:42+05:30",
+      "actor": "Pillai Trading Co.",
+      "doc_ref": "PUR-2026-67799",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-16T16:41:42+05:30",
+      "actor": "Dinesh Reddy",
+      "doc_ref": "PUR-2026-67799",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-04-22T16:38:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB19RV3919",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_issued",
+      "ts": "2026-04-22T17:05:56+05:30",
+      "actor": "Patel Industries",
+      "doc_ref": "INV/2026-27/67799",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "delivered",
+      "ts": "2026-04-22T17:38:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-PAT-PIL-260416-67799",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "pod_signed",
+      "ts": "2026-04-22T18:55:56+05:30",
+      "actor": "Dinesh Reddy",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-04-22T21:55:56+05:30",
+      "actor": "Dinesh Reddy",
+      "doc_ref": "GRN-67799",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-04-22T22:38:56+05:30",
+      "actor": "Patel Industries",
+      "doc_ref": "799934375621",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-04-22T23:38:56+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB19RV3919",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-PAT-PIL-260416-67799 ki timeline pe sawaal uthaya tha? Aur kya wo sahi the?",
+  "question_lang": "hi-en",
+  "gold_answer": "Yes, and they were right: in message M-008, Imran Gupta noted \"POD ka time dispatch se pehle ka lag raha hai\" [M-008]. The timeline confirms it — delivery is recorded at 22 Apr 2026 at 17:38 but dispatch only at 22 Apr 2026 at 23:38 [TIMELINE].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-04-22T23:38:56+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "events",
+      "path": "E-005.ts",
+      "value": "2026-04-22T17:38:56+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-80126-43443",
+    "+91-80415-10056",
+    "XQCCS4476E",
+    "ZZGPE3033E",
+    "asingh@patel.co.in",
+    "dineshr@pillai.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267799,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}
