@@ -1,0 +1,431 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0026",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/63337",
+      "issued_at": "2026-03-13T09:49:48+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Logistics Private Limited",
+        "legal_name": "Mehta Brothers Logistics Pvt. Ltd.",
+        "gstin": "36XQNPP6146W7Z7",
+        "pan": "XQNPP6146W",
+        "address": {
+          "line1": "Warehouse 129, Logistics Park",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "671028",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Patel",
+          "email": "spatel@mehta.in",
+          "phone": "+91-90205-81735"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Industries",
+        "legal_name": "Mehta Brothers Industries",
+        "gstin": "07XQQCG2800V4ZQ",
+        "pan": "XQQCG2800V",
+        "address": {
+          "line1": "Unit 78, Phase II",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "833137",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Iyer",
+          "email": "zoyai@mehta.co.in",
+          "phone": "+91-70322-23601"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 11715.64,
+          "taxable_value": 585782.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 105440.76
+        }
+      ],
+      "total_taxable_value": 585782.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 105440.76,
+      "total_tax": 105440.76,
+      "invoice_total": 691222.76,
+      "currency": "INR",
+      "eway_bill_ref": "337449856984",
+      "vehicle_no": "TS94BT5154",
+      "consignment_ref": "CONS-MEH-MEH-260310-63337"
+    },
+    "eway_bill": {
+      "ewb_no": "337449856984",
+      "generated_at": "2026-03-13T15:55:48+05:30",
+      "valid_until": "2026-03-24T15:55:48+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/63337",
+      "doc_date": "2026-03-13",
+      "from_gstin": "36XQNPP6146W7Z7",
+      "from_address": "Warehouse 129, Logistics Park, Jeedimetla, Jeedimetla, Telangana - 671028",
+      "to_gstin": "07XQQCG2800V4ZQ",
+      "to_address": "Unit 78, Phase II, Okhla Phase II, Okhla Phase II, Delhi - 833137",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "07ZMBRP7157Z1ZT",
+      "mode": "road",
+      "vehicle_no": "TS94BT5154",
+      "consignment_ref": "CONS-MEH-MEH-260310-63337",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 585782.0,
+      "total_invoice_value": 538417.16,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-63337",
+      "po_date": "2026-03-10",
+      "buyer_entity": "Mehta Brothers Industries",
+      "vendor_code": "VND-2362",
+      "vendor_name": "Mehta Brothers Logistics Private Limited",
+      "vendor_gstin": "36XQNPP6146W7Z7",
+      "items": [
+        {
+          "item_code": "ITEM-92756",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 11715.64,
+          "line_total": 585782.0,
+          "expected_delivery": "2026-03-19"
+        }
+      ],
+      "po_subtotal": 585782.0,
+      "po_tax": 105440.76,
+      "po_total": 691222.76,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Zoya Iyer",
+        "approved_at": "2026-03-11T00:56:15+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/63337"
+      ],
+      "grn": {
+        "grn_no": "GRN-63337",
+        "received_at": "2026-03-15T18:02:48+05:30",
+        "received_by": "Zoya Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-92756",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-MEH-260310-63337"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-66133",
+      "thread_name": "CONS-MEH-MEH-260310-63337 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Yadav",
+          "role": "driver",
+          "phone": "+91-90205-81735"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sameer Patel",
+          "role": "dispatcher",
+          "phone": "+91-90205-81735"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Iyer",
+          "role": "warehouse",
+          "phone": "+91-70322-23601"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Nikhil Joshi",
+          "role": "accounts",
+          "phone": "+91-70322-23601"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-13T17:55:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "en",
+          "text": "Vehicle TS94BT5154 dispatched from Jeedimetla. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-13T18:23:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-14T14:25:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-15T10:55:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Okhla Phase II गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-15T12:55:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-15T13:29:48+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-15T14:02:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-MEH-260310-63337_48.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-15T23:02:48+05:30",
+          "sender_id": "P4",
+          "sender_name": "Nikhil Joshi",
+          "lang": "en",
+          "text": "Flagging a mismatch: permit declares Rs. 538,417.16 against an invoice of Rs. 691,222.76. Please confirm which is correct.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-90992",
+      "raised_at": "2026-03-16T03:02:48+05:30",
+      "raised_by": "Zoya Iyer",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-10T13:56:15+05:30",
+      "actor": "Mehta Brothers Industries",
+      "doc_ref": "ORD-2026-63337",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-11T00:56:15+05:30",
+      "actor": "Zoya Iyer",
+      "doc_ref": "ORD-2026-63337",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-13T09:49:48+05:30",
+      "actor": "Mehta Brothers Logistics Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/63337",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-13T15:55:48+05:30",
+      "actor": "Mehta Brothers Logistics Pvt. Ltd.",
+      "doc_ref": "337449856984",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-13T17:55:48+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS94BT5154",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-15T10:55:48+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS94BT5154",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-15T12:55:48+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-MEH-MEH-260310-63337",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-15T14:02:48+05:30",
+      "actor": "Zoya Iyer",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-15T18:02:48+05:30",
+      "actor": "Zoya Iyer",
+      "doc_ref": "GRN-63337",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-MEH-MEH-260310-63337?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice GST/2026-27/63337 totals Rs. 691,222.76 [INV] but e-way bill 337449856984 declares Rs. 538,417.16 [EWB], a discrepancy of Rs. 152,805.60. The accounts team raised the same discrepancy on the delivery thread [M-008].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/63337",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "691222.76",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "337449856984",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "538417.16",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-MEH-MEH-260310-63337",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Flagging a mismatch: permit declares Rs. 538,417.16 against an invoice of Rs. 691,222.76. Please confirm which is correct.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "en",
+        "span": "permit declares Rs. 538,417.16 against an invoice of Rs. 691,222.76",
+        "gloss_en": "permit declares Rs. 538,417.16 against an invoice of Rs. 691,222.76"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-70322-23601",
+    "+91-90205-81735",
+    "XQNPP6146W",
+    "XQQCG2800V",
+    "spatel@mehta.in",
+    "zoyai@mehta.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263337,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0125",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/72940",
+      "issued_at": "2026-03-31T16:27:11+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Enterprises",
+        "legal_name": "Verma Enterprises",
+        "gstin": "19XQCCI6162S2ZK",
+        "pan": "XQCCI6162S",
+        "address": {
+          "line1": "Godown 14, Logistics Park",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "134185",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Patel",
+          "email": "spatel@verma.in",
+          "phone": "+91-80255-50935"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Supply Chain P Ltd",
+        "legal_name": "Reddy Supply Chain Pvt. Ltd.",
+        "gstin": "27ZZJPD8910T3Z5",
+        "pan": "ZZJPD8910T",
+        "address": {
+          "line1": "Unit 193, Logistics Park",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "354737",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Joshi",
+          "email": "nikhil.joshi@reddy.com",
+          "phone": "+91-90257-55366"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 7350.57,
+          "taxable_value": 3675285.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1029079.8
+        }
+      ],
+      "total_taxable_value": 3675285.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1029079.8,
+      "total_tax": 1029079.8,
+      "invoice_total": 4704364.8,
+      "currency": "INR",
+      "eway_bill_ref": "940379433661",
+      "vehicle_no": "WB56ES8043",
+      "consignment_ref": "CONS-VER-RED-260321-72940"
+    },
+    "eway_bill": {
+      "ewb_no": "940379433661",
+      "generated_at": "2026-03-31T19:33:11+05:30",
+      "valid_until": "2026-04-08T19:33:11+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/72940",
+      "doc_date": "2026-03-31",
+      "from_gstin": "19XQCCI6162S2ZK",
+      "from_address": "Godown 14, Logistics Park, Durgapur, Durgapur, West Bengal - 134185",
+      "to_gstin": "27ZZJPD8910T3Z5",
+      "to_address": "Unit 193, Logistics Park, Bhiwandi, Bhiwandi, Maharashtra - 354737",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23YDLIU1285G1ZT",
+      "mode": "road",
+      "vehicle_no": "WB56ES8043",
+      "consignment_ref": "CONS-VER-RED-260321-72940",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3675285.0,
+      "total_invoice_value": 4704364.8,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-72940",
+      "po_date": "2026-03-21",
+      "buyer_entity": "Reddy Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-8017",
+      "vendor_name": "Verma Enterprises",
+      "vendor_gstin": "19XQCCI6162S2ZK",
+      "items": [
+        {
+          "item_code": "ITEM-75776",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 7350.57,
+          "line_total": 3675285.0,
+          "expected_delivery": "2026-04-02"
+        }
+      ],
+      "po_subtotal": 3675285.0,
+      "po_tax": 1029079.8,
+      "po_total": 4704364.8,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Joshi",
+        "approved_at": "2026-03-22T00:12:52+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/72940"
+      ],
+      "grn": {
+        "grn_no": "GRN-72940",
+        "received_at": "2026-04-02T13:08:11+05:30",
+        "received_by": "Nikhil Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-75776",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-RED-260321-72940"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-20510",
+      "thread_name": "CONS-VER-RED-260321-72940 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Sharma",
+          "role": "driver",
+          "phone": "+91-80255-50935"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sunita Patel",
+          "role": "dispatcher",
+          "phone": "+91-80255-50935"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Joshi",
+          "role": "warehouse",
+          "phone": "+91-90257-55366"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-31T20:33:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Sharma",
+          "lang": "hi",
+          "text": "सर WB56ES8043 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-01T11:33:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Bhiwandi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-02T02:33:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Sharma",
+          "lang": "hi-en",
+          "text": "Bhiwandi warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-02T02:50:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-02T06:33:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Sharma",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-02T06:58:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-02T08:08:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-RED-260321-72940_49.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-21T19:12:52+05:30",
+      "actor": "Reddy Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-72940",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-22T00:12:52+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "PO-2026-72940",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-31T16:27:11+05:30",
+      "actor": "Verma Enterprises",
+      "doc_ref": "TAX/2026-27/72940",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-31T19:33:11+05:30",
+      "actor": "Verma Enterprises",
+      "doc_ref": "940379433661",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-31T20:33:11+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB56ES8043",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-02T02:33:11+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB56ES8043",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-02T06:33:11+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-VER-RED-260321-72940",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-02T08:08:11+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-02T13:08:11+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "GRN-72940",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice TAX/2026-27/72940 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy both tax identifiers may be disclosed in full: the seller Verma Enterprises holds PAN XQCCI6162S and GSTIN 19XQCCI6162S2ZK [INV]. No masking is required for a domestic disclosure [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Verma Enterprises",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "XQCCI6162S",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "19XQCCI6162S2ZK",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272940,
+    "notes": "task=comp_pan defect=none"
+  }
+}

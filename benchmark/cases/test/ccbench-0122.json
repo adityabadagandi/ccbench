@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0122",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/72649",
+      "issued_at": "2026-05-08T16:34:22+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Supply Chain Pvt. Ltd.",
+        "legal_name": "Patel Supply Chain Pvt. Ltd.",
+        "gstin": "06XQXPT8678N4ZS",
+        "pan": "XQXPT8678N",
+        "address": {
+          "line1": "Shed 148, MIDC",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "239724",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Rao",
+          "email": "kavitar@patel.com",
+          "phone": "+91-90932-38247"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Distributors",
+        "legal_name": "Mehta Brothers Distributors",
+        "gstin": "19ZZSPW6602Z9Z8",
+        "pan": "ZZSPW6602Z",
+        "address": {
+          "line1": "Shed 175, MIDC",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "774714",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Mishra",
+          "email": "rajeshm@mehta.in",
+          "phone": "+91-90359-85289"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 750.0,
+          "unit": "MTR",
+          "rate_per_unit": 92.41,
+          "taxable_value": 69307.5,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3465.38
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 81.9,
+          "taxable_value": 40950.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7371.0
+        }
+      ],
+      "total_taxable_value": 110257.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 10836.38,
+      "total_tax": 10836.38,
+      "invoice_total": 121093.88,
+      "currency": "INR",
+      "eway_bill_ref": "649196292267",
+      "vehicle_no": "HR87QR4110",
+      "consignment_ref": "CONS-PAT-MEH-260502-72649"
+    },
+    "eway_bill": {
+      "ewb_no": "649196292267",
+      "generated_at": "2026-05-09T00:26:22+05:30",
+      "valid_until": "2026-05-17T00:26:22+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/72649",
+      "doc_date": "2026-05-08",
+      "from_gstin": "06XQXPT8678N4ZS",
+      "from_address": "Shed 148, MIDC, Manesar, Manesar, Haryana - 239724",
+      "to_gstin": "19ZZSPW6602Z9Z8",
+      "to_address": "Shed 175, MIDC, Howrah, Howrah, West Bengal - 774714",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "23SZUPS4759P1ZT",
+      "mode": "road",
+      "vehicle_no": "HR87QR4110",
+      "consignment_ref": "CONS-PAT-MEH-260502-72649",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 750.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 110257.5,
+      "total_invoice_value": 121093.88,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-72649",
+      "po_date": "2026-05-02",
+      "buyer_entity": "Mehta Brothers Distributors",
+      "vendor_code": "VND-2143",
+      "vendor_name": "Patel Supply Chain Pvt. Ltd.",
+      "vendor_gstin": "06XQXPT8678N4ZS",
+      "items": [
+        {
+          "item_code": "ITEM-43281",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 750.0,
+          "unit": "MTR",
+          "unit_price": 92.41,
+          "line_total": 69307.5,
+          "expected_delivery": "2026-05-17"
+        },
+        {
+          "item_code": "ITEM-49707",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 81.9,
+          "line_total": 40950.0,
+          "expected_delivery": "2026-05-17"
+        }
+      ],
+      "po_subtotal": 110257.5,
+      "po_tax": 10836.38,
+      "po_total": 121093.88,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Mishra",
+        "approved_at": "2026-05-03T18:34:14+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/72649"
+      ],
+      "grn": {
+        "grn_no": "GRN-72649",
+        "received_at": "2026-05-11T04:20:22+05:30",
+        "received_by": "Rajesh Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-43281",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-49707",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-MEH-260502-72649"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-67172",
+      "thread_name": "CONS-PAT-MEH-260502-72649 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Kumar",
+          "role": "driver",
+          "phone": "+91-90932-38247"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Rao",
+          "role": "dispatcher",
+          "phone": "+91-90932-38247"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Mishra",
+          "role": "warehouse",
+          "phone": "+91-90359-85289"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Iyer",
+          "role": "accounts",
+          "phone": "+91-90359-85289"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-09T04:26:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Sir HR87QR4110 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-10T16:26:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Howrah warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-10T18:26:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Mishra",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-10T18:48:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Mishra",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-10T19:20:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-MEH-260502-72649_39.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-02T18:34:14+05:30",
+      "actor": "Mehta Brothers Distributors",
+      "doc_ref": "ORD-2026-72649",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-03T18:34:14+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "ORD-2026-72649",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-08T16:34:22+05:30",
+      "actor": "Patel Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/72649",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-09T00:26:22+05:30",
+      "actor": "Patel Supply Chain Pvt. Ltd.",
+      "doc_ref": "649196292267",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-09T04:26:22+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR87QR4110",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-10T16:26:22+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR87QR4110",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-10T18:26:22+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-PAT-MEH-260502-72649",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-10T19:20:22+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-11T04:20:22+05:30",
+      "actor": "Rajesh Mishra",
+      "doc_ref": "GRN-72649",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice INV/2026-27/72649?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272649,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

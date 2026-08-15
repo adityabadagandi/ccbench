@@ -1,0 +1,435 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0152",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/75559",
+      "issued_at": "2026-02-23T16:12:48+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Exports",
+        "legal_name": "Mehta Brothers Exports",
+        "gstin": "36XQCCM3252M1ZA",
+        "pan": "XQCCM3252M",
+        "address": {
+          "line1": "Warehouse 145, Export Zone",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "291191",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Kumar",
+          "email": "mahesh.kumar@mehta.co.in",
+          "phone": "+91-70230-22651"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Manufacturing Pvt Ltd",
+        "legal_name": "Iyer Manufacturing Pvt. Ltd.",
+        "gstin": "27QQKPC9535X8ZW",
+        "pan": "QQKPC9535X",
+        "address": {
+          "line1": "Plot 99, MIDC",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "185140",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Singh",
+          "email": "arjun.singh@iyer.com",
+          "phone": "+91-80985-92304"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 229.69,
+          "taxable_value": 57422.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10336.05
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 56631.48,
+          "taxable_value": 67957776.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 12232399.68
+        },
+        {
+          "line_no": 3,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 11072.41,
+          "taxable_value": 13286892.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2391640.56
+        },
+        {
+          "line_no": 4,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 4324.81,
+          "taxable_value": 1729924.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 484378.72
+        }
+      ],
+      "total_taxable_value": 83032014.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 15118755.01,
+      "total_tax": 15118755.01,
+      "invoice_total": 98150769.51,
+      "currency": "INR",
+      "eway_bill_ref": "559469216334",
+      "vehicle_no": "TS19TX3389",
+      "consignment_ref": "CONS-MEH-IYE-260215-75559"
+    },
+    "eway_bill": {
+      "ewb_no": "559469216334",
+      "generated_at": "2026-02-23T18:45:48+05:30",
+      "valid_until": "2026-03-04T18:45:48+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/75559",
+      "doc_date": "2026-02-23",
+      "from_gstin": "36XQCCM3252M1ZA",
+      "from_address": "Warehouse 145, Export Zone, Jeedimetla, Jeedimetla, Telangana - 291191",
+      "to_gstin": "27QQKPC9535X8ZW",
+      "to_address": "Plot 99, MIDC, Andheri East, Andheri East, Maharashtra - 185140",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "09IAHPQ1908K1ZT",
+      "mode": "road",
+      "vehicle_no": "TS19TX3389",
+      "consignment_ref": "CONS-MEH-IYE-260215-75559",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 83032014.5,
+      "total_invoice_value": 98150769.51,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-75559",
+      "po_date": "2026-02-15",
+      "buyer_entity": "Iyer Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-7647",
+      "vendor_name": "Mehta Brothers Exports",
+      "vendor_gstin": "36XQCCM3252M1ZA",
+      "items": [
+        {
+          "item_code": "ITEM-68773",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 229.69,
+          "line_total": 57422.5,
+          "expected_delivery": "2026-03-02"
+        },
+        {
+          "item_code": "ITEM-40840",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 56631.48,
+          "line_total": 67957776.0,
+          "expected_delivery": "2026-03-04"
+        },
+        {
+          "item_code": "ITEM-26864",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 11072.41,
+          "line_total": 13286892.0,
+          "expected_delivery": "2026-03-03"
+        },
+        {
+          "item_code": "ITEM-33358",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 4324.81,
+          "line_total": 1729924.0,
+          "expected_delivery": "2026-02-25"
+        }
+      ],
+      "po_subtotal": 83032014.5,
+      "po_tax": 15118755.01,
+      "po_total": 98150769.51,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Arjun Singh",
+        "approved_at": "2026-02-16T10:41:32+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/75559"
+      ],
+      "grn": {
+        "grn_no": "GRN-75559",
+        "received_at": "2026-02-25T17:20:48+05:30",
+        "received_by": "Arjun Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-68773",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-40840",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-26864",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-33358",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-IYE-260215-75559"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-82492",
+      "thread_name": "CONS-MEH-IYE-260215-75559 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Gupta",
+          "role": "driver",
+          "phone": "+91-70230-22651"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Mahesh Kumar",
+          "role": "dispatcher",
+          "phone": "+91-70230-22651"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Singh",
+          "role": "warehouse",
+          "phone": "+91-80985-92304"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-23T20:45:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi-en",
+          "text": "Sir TS19TX3389 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-24T13:45:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-25T06:45:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-25T10:45:48+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-25T10:55:48+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Singh",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-25T12:20:48+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-IYE-260215-75559_76.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-15T11:41:32+05:30",
+      "actor": "Iyer Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-75559",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-16T10:41:32+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "ORD-2026-75559",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-23T16:12:48+05:30",
+      "actor": "Mehta Brothers Exports",
+      "doc_ref": "INV/2026-27/75559",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-23T18:45:48+05:30",
+      "actor": "Mehta Brothers Exports",
+      "doc_ref": "559469216334",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-23T20:45:48+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS19TX3389",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-25T06:45:48+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS19TX3389",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-25T10:45:48+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-MEH-IYE-260215-75559",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-25T12:20:48+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-25T17:20:48+05:30",
+      "actor": "Arjun Singh",
+      "doc_ref": "GRN-75559",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order ORD-2026-75559?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275559,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

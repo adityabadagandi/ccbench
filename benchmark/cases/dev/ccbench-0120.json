@@ -1,0 +1,320 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0120",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/72455",
+      "issued_at": "2026-01-19T12:41:37+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Trading Co.",
+        "legal_name": "Kulkarni Trading Co.",
+        "gstin": "23XQXPC4522O1Z6",
+        "pan": "XQXPC4522O",
+        "address": {
+          "line1": "Godown 93, Industrial Area",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "595359",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Kumar",
+          "email": "dineshk@kulkarni.co.in",
+          "phone": "+91-80851-48297"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Trading Co.",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "29ZZBPX7074M1ZH",
+        "pan": "ZZBPX7074M",
+        "address": {
+          "line1": "Godown 135, Logistics Park",
+          "line2": "Whitefield",
+          "city": "Whitefield",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "134469",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Patel",
+          "email": "sunitap@krishna.in",
+          "phone": "+91-90447-62246"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 54.63,
+          "taxable_value": 13657.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2458.35
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 116.35,
+          "taxable_value": 139620.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 25131.6
+        }
+      ],
+      "total_taxable_value": 153277.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 27589.95,
+      "total_tax": 27589.95,
+      "invoice_total": 180867.45,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "MP39AK5736",
+      "consignment_ref": "CONS-KUL-KRI-260112-72455"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-72455",
+      "po_date": "2026-01-12",
+      "buyer_entity": "Krishna Trading Co.",
+      "vendor_code": "VND-6887",
+      "vendor_name": "Kulkarni Trading Co.",
+      "vendor_gstin": "23XQXPC4522O1Z6",
+      "items": [
+        {
+          "item_code": "ITEM-58897",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 54.63,
+          "line_total": 13657.5,
+          "expected_delivery": "2026-01-25"
+        },
+        {
+          "item_code": "ITEM-87695",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 116.35,
+          "line_total": 139620.0,
+          "expected_delivery": "2026-01-24"
+        }
+      ],
+      "po_subtotal": 153277.5,
+      "po_tax": 27589.95,
+      "po_total": 180867.45,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Sunita Patel",
+        "approved_at": "2026-01-12T13:34:00+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/72455"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-KUL-KRI-260112-72455"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-30149",
+      "thread_name": "CONS-KUL-KRI-260112-72455 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Khan",
+          "role": "driver",
+          "phone": "+91-80851-48297"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Kumar",
+          "role": "dispatcher",
+          "phone": "+91-80851-48297"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Patel",
+          "role": "warehouse",
+          "phone": "+91-90447-62246"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-19T18:47:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Khan",
+          "lang": "en",
+          "text": "Vehicle MP39AK5736 has left Mandideep.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-20T03:47:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Khan",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-20T06:47:37+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-20T12:47:37+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Kumar",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-74073",
+      "raised_at": "2026-01-21T12:21:37+05:30",
+      "raised_by": "Sunita Patel",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-12T11:34:00+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "ORD-2026-72455",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-12T13:34:00+05:30",
+      "actor": "Sunita Patel",
+      "doc_ref": "ORD-2026-72455",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-19T12:41:37+05:30",
+      "actor": "Kulkarni Trading Co.",
+      "doc_ref": "GST/2026-27/72455",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-01-19T18:47:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MP39AK5736",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-01-20T23:47:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MP39AK5736",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-01-21T01:47:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-KUL-KRI-260112-72455",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-01-21T04:21:37+05:30",
+      "actor": "Sunita Patel",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-KUL-KRI-260112-72455 before it moved?",
+  "question_lang": "en",
+  "gold_answer": "No — invoice GST/2026-27/72455 carries no e-way bill reference and none exists for consignment CONS-KUL-KRI-260112-72455 [INV], so the vehicle moved without a permit. The driver confirmed on the thread that the vehicle was stopped at the check post for exactly this reason [M-002].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/72455",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-KUL-KRI-260112-72455",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272455,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

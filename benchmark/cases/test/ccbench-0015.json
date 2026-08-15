@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0015",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/62270",
+      "issued_at": "2026-04-30T09:27:09+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Distributors",
+        "legal_name": "Kulkarni Distributors",
+        "gstin": "33ZZLPE8767M4ZQ",
+        "pan": "ZZLPE8767M",
+        "address": {
+          "line1": "Godown 81, MIDC",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "259499",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Banerjee",
+          "email": "meenab@kulkarni.in",
+          "phone": "+91-70649-79120"
+        }
+      },
+      "buyer": {
+        "name": "Agarwal Manufacturing Pvt. Ltd.",
+        "legal_name": "Agarwal Manufacturing Pvt. Ltd.",
+        "gstin": "24XQFCF8798X9ZM",
+        "pan": "XQFCF8798X",
+        "address": {
+          "line1": "Unit 174, Logistics Park",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "220964",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Iyer",
+          "email": "riyer@agarwal.com",
+          "phone": "+91-90335-76941"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 6587.82,
+          "taxable_value": 329391.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 92229.48
+        }
+      ],
+      "total_taxable_value": 329391.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 92229.48,
+      "total_tax": 92229.48,
+      "invoice_total": 421620.48,
+      "currency": "INR",
+      "eway_bill_ref": "270638844434",
+      "vehicle_no": "TN81SM9478",
+      "consignment_ref": "CONS-KUL-AGA-260418-62270"
+    },
+    "eway_bill": {
+      "ewb_no": "270638844434",
+      "generated_at": "2026-04-30T10:33:09+05:30",
+      "valid_until": "2026-05-04T10:33:09+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/62270",
+      "doc_date": "2026-04-30",
+      "from_gstin": "33ZZLPE8767M4ZQ",
+      "from_address": "Godown 81, MIDC, Ambattur, Ambattur, Tamil Nadu - 259499",
+      "to_gstin": "24XQFCF8798X9ZM",
+      "to_address": "Unit 174, Logistics Park, Rajkot, Rajkot, Gujarat - 220964",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "27RRZXP1732O1ZT",
+      "mode": "road",
+      "vehicle_no": "TN81SM9478",
+      "consignment_ref": "CONS-KUL-AGA-260418-62270",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 329391.0,
+      "total_invoice_value": 421620.48,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-62270",
+      "po_date": "2026-04-18",
+      "buyer_entity": "Agarwal Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-2013",
+      "vendor_name": "Kulkarni Distributors",
+      "vendor_gstin": "33ZZLPE8767M4ZQ",
+      "items": [
+        {
+          "item_code": "ITEM-19997",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 6587.82,
+          "line_total": 329391.0,
+          "expected_delivery": "2026-05-04"
+        }
+      ],
+      "po_subtotal": 329391.0,
+      "po_tax": 92229.48,
+      "po_total": 421620.48,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Iyer",
+        "approved_at": "2026-04-19T04:05:01+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/62270"
+      ],
+      "grn": {
+        "grn_no": "GRN-62270",
+        "received_at": "2026-05-01T21:45:09+05:30",
+        "received_by": "Rekha Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-19997",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-AGA-260418-62270"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-99000",
+      "thread_name": "CONS-KUL-AGA-260418-62270 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Yadav",
+          "role": "driver",
+          "phone": "+91-70649-79120"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70649-79120"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Iyer",
+          "role": "warehouse",
+          "phone": "+91-90335-76941"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Yadav",
+          "role": "accounts",
+          "phone": "+91-90335-76941"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-30T15:33:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "सर TN81SM9478 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-30T16:40:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-30T19:33:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-30T23:33:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Rajkot.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-01T03:33:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Rajkot warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-01T07:33:09+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Iyer",
+          "lang": "en",
+          "text": "Consignment received in full at our Rajkot warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-01T07:43:09+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-01T08:45:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-AGA-260418-62270_74.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-18T15:05:01+05:30",
+      "actor": "Agarwal Manufacturing Pvt. Ltd.",
+      "doc_ref": "PO-2026-62270",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-19T04:05:01+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "PO-2026-62270",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-30T09:27:09+05:30",
+      "actor": "Kulkarni Distributors",
+      "doc_ref": "TAX/2026-27/62270",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-30T10:33:09+05:30",
+      "actor": "Kulkarni Distributors",
+      "doc_ref": "270638844434",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-30T15:33:09+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN81SM9478",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-01T03:33:09+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN81SM9478",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-01T07:33:09+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-KUL-AGA-260418-62270",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-01T08:45:09+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-01T21:45:09+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "GRN-62270",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PO-2026-62270?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262270,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

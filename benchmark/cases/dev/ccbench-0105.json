@@ -1,0 +1,491 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0105",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/71000",
+      "issued_at": "2026-07-16T16:56:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Logistics Pvt. Ltd.",
+        "legal_name": "Reddy Logistics Pvt. Ltd.",
+        "gstin": "09ZZFPP4401D2ZF",
+        "pan": "ZZFPP4401D",
+        "address": {
+          "line1": "Shed 221, MIDC",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "271281",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Singh",
+          "email": "vsingh@reddy.com",
+          "phone": "+91-90460-94702"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Distributors",
+        "legal_name": "Reddy Distributors",
+        "gstin": "09ZZLCJ6928N2Z5",
+        "pan": "ZZLCJ6928N",
+        "address": {
+          "line1": "Warehouse 208, Industrial Area",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "634594",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Nair",
+          "email": "sameern@reddy.com",
+          "phone": "+91-80728-17299"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 10650.8,
+          "taxable_value": 266270.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 23964.3,
+          "sgst_amount": 23964.3,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 107.46,
+          "taxable_value": 10746.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 644.76,
+          "sgst_amount": 644.76,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 205.86,
+          "taxable_value": 82344.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 2058.6,
+          "sgst_amount": 2058.6,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 313.72,
+          "taxable_value": 15686.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 1411.74,
+          "sgst_amount": 1411.74,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 375046.0,
+      "total_cgst": 28079.4,
+      "total_sgst": 28079.4,
+      "total_igst": 0.0,
+      "total_tax": 56158.8,
+      "invoice_total": 431204.8,
+      "currency": "INR",
+      "eway_bill_ref": "000899135339",
+      "vehicle_no": "UP25KB9472",
+      "consignment_ref": "CONS-RED-RED-260711-71000"
+    },
+    "eway_bill": {
+      "ewb_no": "000899135339",
+      "generated_at": "2026-07-17T01:48:49+05:30",
+      "valid_until": "2026-07-28T01:48:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/71000",
+      "doc_date": "2026-07-16",
+      "from_gstin": "09ZZFPP4401D2ZF",
+      "from_address": "Shed 221, MIDC, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 271281",
+      "to_gstin": "09ZZLCJ6928N2Z5",
+      "to_address": "Warehouse 208, Industrial Area, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 634594",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "19QCFIZ4707F1ZT",
+      "mode": "road",
+      "vehicle_no": "UP25KB9472",
+      "consignment_ref": "CONS-RED-RED-260711-71000",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 100.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 375046.0,
+      "total_invoice_value": 431204.8,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-71000",
+      "po_date": "2026-07-11",
+      "buyer_entity": "Reddy Distributors",
+      "vendor_code": "VND-5318",
+      "vendor_name": "Reddy Logistics Pvt. Ltd.",
+      "vendor_gstin": "09ZZFPP4401D2ZF",
+      "items": [
+        {
+          "item_code": "ITEM-30482",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 10650.8,
+          "line_total": 266270.0,
+          "expected_delivery": "2026-07-21"
+        },
+        {
+          "item_code": "ITEM-91547",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 107.46,
+          "line_total": 10746.0,
+          "expected_delivery": "2026-07-21"
+        },
+        {
+          "item_code": "ITEM-49478",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 205.86,
+          "line_total": 82344.0,
+          "expected_delivery": "2026-07-25"
+        },
+        {
+          "item_code": "ITEM-75481",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 313.72,
+          "line_total": 15686.0,
+          "expected_delivery": "2026-07-24"
+        }
+      ],
+      "po_subtotal": 375046.0,
+      "po_tax": 56158.8,
+      "po_total": 431204.8,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sameer Nair",
+        "approved_at": "2026-07-11T16:12:21+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/71000"
+      ],
+      "grn": {
+        "grn_no": "GRN-71000",
+        "received_at": "2026-07-19T21:34:49+05:30",
+        "received_by": "Sameer Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-30482",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-91547",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-49478",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-75481",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-RED-260711-71000"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51182",
+      "thread_name": "CONS-RED-RED-260711-71000 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Khan",
+          "role": "driver",
+          "phone": "+91-90460-94702"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Singh",
+          "role": "dispatcher",
+          "phone": "+91-90460-94702"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Nair",
+          "role": "warehouse",
+          "phone": "+91-80728-17299"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Sharma",
+          "role": "accounts",
+          "phone": "+91-80728-17299"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-17T05:48:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "en",
+          "text": "Vehicle UP25KB9472 dispatched from Noida Sector 63. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-17T07:00:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-18T02:48:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-18T23:48:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Noida Sector 63 warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-19T01:48:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Nair",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-19T02:13:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Nair",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-19T03:34:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-RED-260711-71000_13.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-20T06:34:49+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ramesh Sharma",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/71000 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-11T12:12:21+05:30",
+      "actor": "Reddy Distributors",
+      "doc_ref": "PO-2026-71000",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-11T16:12:21+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "PO-2026-71000",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-16T16:56:49+05:30",
+      "actor": "Reddy Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/71000",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-17T01:48:49+05:30",
+      "actor": "Reddy Logistics Pvt. Ltd.",
+      "doc_ref": "000899135339",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-17T05:48:49+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP25KB9472",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-18T23:48:49+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP25KB9472",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-19T01:48:49+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-RED-RED-260711-71000",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-19T03:34:49+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-19T21:34:49+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "GRN-71000",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice INV/2026-27/71000 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy the buyer-side contact on invoice INV/2026-27/71000 may be quoted in full: Sameer Nair, sameern@reddy.com, +91-80728-17299 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "buyer.contact.name",
+      "value": "Sameer Nair",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "buyer.contact.email",
+      "value": "sameern@reddy.com",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "buyer.contact.phone",
+      "value": "+91-80728-17299",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271000,
+    "notes": "task=comp_contact defect=none"
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0006",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/61397",
+      "issued_at": "2026-03-02T16:56:55+05:30",
+      "revision_no": 1,
+      "supersedes": "INV/2026-27/6432",
+      "original_issued_at": "2026-02-28T16:56:55+05:30",
+      "seller": {
+        "name": "Deshmukh Distributors",
+        "legal_name": "Deshmukh Distributors",
+        "gstin": "19QQBCZ0487B8ZR",
+        "pan": "QQBCZ0487B",
+        "address": {
+          "line1": "Unit 161, MIDC",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "863435",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Singh",
+          "email": "msingh@deshmukh.com",
+          "phone": "+91-80183-36354"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Logistics P Ltd",
+        "legal_name": "Bhatia Logistics Pvt. Ltd.",
+        "gstin": "19ZZGPU7015Y3ZE",
+        "pan": "ZZGPU7015Y",
+        "address": {
+          "line1": "Godown 46, Phase II",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "422544",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Kumar",
+          "email": "deepa.kumar@bhatia.co.in",
+          "phone": "+91-70604-60530"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 12693.39,
+          "taxable_value": 3173347.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 285601.28,
+          "sgst_amount": 285601.27,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 102.72,
+          "taxable_value": 25680.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 1540.8,
+          "sgst_amount": 1540.8,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 225.19,
+          "taxable_value": 11259.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 1013.36,
+          "sgst_amount": 1013.35,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 3210287.0,
+      "total_cgst": 288155.44,
+      "total_sgst": 288155.42,
+      "total_igst": 0.0,
+      "total_tax": 576310.86,
+      "invoice_total": 3786597.86,
+      "currency": "INR",
+      "eway_bill_ref": "397400037616",
+      "vehicle_no": "WB68JK5952",
+      "consignment_ref": "CONS-DES-BHA-260224-61397"
+    },
+    "eway_bill": {
+      "ewb_no": "397400037616",
+      "generated_at": "2026-03-02T21:02:55+05:30",
+      "valid_until": "2026-03-10T21:02:55+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/61397",
+      "doc_date": "2026-03-02",
+      "from_gstin": "19QQBCZ0487B8ZR",
+      "from_address": "Unit 161, MIDC, Salt Lake, Salt Lake, West Bengal - 863435",
+      "to_gstin": "19ZZGPU7015Y3ZE",
+      "to_address": "Godown 46, Phase II, Dankuni, Dankuni, West Bengal - 422544",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "36SFQBM6188D1ZT",
+      "mode": "road",
+      "vehicle_no": "WB68JK5952",
+      "consignment_ref": "CONS-DES-BHA-260224-61397",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3210287.0,
+      "total_invoice_value": 3786597.86,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61397",
+      "po_date": "2026-02-24",
+      "buyer_entity": "Bhatia Logistics Pvt. Ltd.",
+      "vendor_code": "VND-1667",
+      "vendor_name": "Deshmukh Distributors",
+      "vendor_gstin": "19QQBCZ0487B8ZR",
+      "items": [
+        {
+          "item_code": "ITEM-99874",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 12693.39,
+          "line_total": 3173347.5,
+          "expected_delivery": "2026-03-10"
+        },
+        {
+          "item_code": "ITEM-69597",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 102.72,
+          "line_total": 25680.0,
+          "expected_delivery": "2026-03-05"
+        },
+        {
+          "item_code": "ITEM-42774",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 225.19,
+          "line_total": 11259.5,
+          "expected_delivery": "2026-03-11"
+        }
+      ],
+      "po_subtotal": 3210287.0,
+      "po_tax": 576310.86,
+      "po_total": 3786597.86,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Kumar",
+        "approved_at": "2026-02-24T12:41:40+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/61397"
+      ],
+      "grn": {
+        "grn_no": "GRN-61397",
+        "received_at": "2026-03-05T06:49:55+05:30",
+        "received_by": "Deepa Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-99874",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-69597",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-42774",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-BHA-260224-61397"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-72026",
+      "thread_name": "CONS-DES-BHA-260224-61397 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Yadav",
+          "role": "driver",
+          "phone": "+91-80183-36354"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Singh",
+          "role": "dispatcher",
+          "phone": "+91-80183-36354"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Kumar",
+          "role": "warehouse",
+          "phone": "+91-70604-60530"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sunita Joshi",
+          "role": "accounts",
+          "phone": "+91-70604-60530"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-02T22:02:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi",
+          "text": "सर WB68JK5952 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-04T11:02:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-04T11:26:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Kumar",
+          "lang": "hi-en",
+          "text": "Sunday ko warehse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-04T12:02:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "en",
+          "text": "Consignment received in full at our Dankuni warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-04T12:47:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Kumar",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-04T13:49:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-BHA-260224-61397_67.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-05T21:49:55+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sunita Joshi",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/61397 hai.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-24T09:41:40+05:30",
+      "actor": "Bhatia Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-61397",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-24T12:41:40+05:30",
+      "actor": "Deepa Kumar",
+      "doc_ref": "PUR-2026-61397",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-28T16:56:55+05:30",
+      "actor": "Deshmukh Distributors",
+      "doc_ref": "INV/2026-27/6432",
+      "note": "original issue"
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_revised",
+      "ts": "2026-03-02T16:56:55+05:30",
+      "actor": "Deshmukh Distributors",
+      "doc_ref": "INV/2026-27/61397",
+      "note": "supersedes INV/2026-27/6432"
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-03-02T21:02:55+05:30",
+      "actor": "Deshmukh Distributors",
+      "doc_ref": "397400037616",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "dispatched",
+      "ts": "2026-03-02T22:02:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "WB68JK5952",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-03-04T11:02:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "WB68JK5952",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-03-04T12:02:55+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-DES-BHA-260224-61397",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-03-04T13:49:55+05:30",
+      "actor": "Deepa Kumar",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-03-05T06:49:55+05:30",
+      "actor": "Deepa Kumar",
+      "doc_ref": "GRN-61397",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-DES-BHA-260224-61397 generated before or after the invoice was revised?",
+  "question_lang": "en",
+  "gold_answer": "Invoice INV/2026-27/61397 is revision 1, superseding INV/2026-27/6432 which was originally issued on 28 Feb 2026 at 16:56 [INV]. The revision was raised on 02 Mar 2026 at 16:56 [TIMELINE], and e-way bill 397400037616 was generated afterwards on 02 Mar 2026 at 21:02 [EWB], so the permit post-dates the revision.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "revision_no",
+      "value": "1",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "supersedes",
+      "value": "INV/2026-27/6432",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "original_issued_at",
+      "value": "2026-02-28T16:56:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-03-02T16:56:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-03-02T21:02:55+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261397,
+    "notes": "task=tmp_revision defect=none"
+  }
+}

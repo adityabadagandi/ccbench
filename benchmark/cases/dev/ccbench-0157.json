@@ -1,0 +1,430 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0157",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/76044",
+      "issued_at": "2026-04-02T09:41:44+05:30",
+      "revision_no": 1,
+      "supersedes": "INV/2026-27/1726",
+      "original_issued_at": "2026-03-31T09:41:44+05:30",
+      "seller": {
+        "name": "Mehta Brothers Enterprises",
+        "legal_name": "Mehta Brothers Enterprises",
+        "gstin": "24QQUCV1778O5ZF",
+        "pan": "QQUCV1778O",
+        "address": {
+          "line1": "Unit 168, MIDC",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "152195",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Iyer",
+          "email": "anita.iyer@mehta.com",
+          "phone": "+91-80353-42495"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Trading Co.",
+        "legal_name": "Kulkarni Trading Co.",
+        "gstin": "06ZZFPH6455M9ZL",
+        "pan": "ZZFPH6455M",
+        "address": {
+          "line1": "Godown 191, MIDC",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "651681",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Sharma",
+          "email": "asharma@kulkarni.in",
+          "phone": "+91-80685-56877"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 98.75,
+          "taxable_value": 4937.5,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 592.5
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 128.13,
+          "taxable_value": 6406.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1153.17
+        }
+      ],
+      "total_taxable_value": 11344.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1745.67,
+      "total_tax": 1745.67,
+      "invoice_total": 13089.67,
+      "currency": "INR",
+      "eway_bill_ref": "044112032498",
+      "vehicle_no": "GJ95FK8485",
+      "consignment_ref": "CONS-MEH-KUL-260328-76044"
+    },
+    "eway_bill": {
+      "ewb_no": "044112032498",
+      "generated_at": "2026-04-02T16:47:44+05:30",
+      "valid_until": "2026-04-10T16:47:44+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/76044",
+      "doc_date": "2026-04-02",
+      "from_gstin": "24QQUCV1778O5ZF",
+      "from_address": "Unit 168, MIDC, Vatva, Ahmedabad, Ahmedabad, Gujarat - 152195",
+      "to_gstin": "06ZZFPH6455M9ZL",
+      "to_address": "Godown 191, MIDC, Bahadurgarh, Bahadurgarh, Haryana - 651681",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "27QPKPY2286L1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ95FK8485",
+      "consignment_ref": "CONS-MEH-KUL-260328-76044",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 11344.0,
+      "total_invoice_value": 13089.67,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-76044",
+      "po_date": "2026-03-28",
+      "buyer_entity": "Kulkarni Trading Co.",
+      "vendor_code": "VND-6125",
+      "vendor_name": "Mehta Brothers Enterprises",
+      "vendor_gstin": "24QQUCV1778O5ZF",
+      "items": [
+        {
+          "item_code": "ITEM-20177",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 98.75,
+          "line_total": 4937.5,
+          "expected_delivery": "2026-04-04"
+        },
+        {
+          "item_code": "ITEM-15136",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 128.13,
+          "line_total": 6406.5,
+          "expected_delivery": "2026-04-05"
+        }
+      ],
+      "po_subtotal": 11344.0,
+      "po_tax": 1745.67,
+      "po_total": 13089.67,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Anita Sharma",
+        "approved_at": "2026-03-30T01:41:14+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/76044"
+      ],
+      "grn": {
+        "grn_no": "GRN-76044",
+        "received_at": "2026-04-04T23:34:44+05:30",
+        "received_by": "Anita Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-20177",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-15136",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-KUL-260328-76044"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-64906",
+      "thread_name": "CONS-MEH-KUL-260328-76044 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Kumar",
+          "role": "driver",
+          "phone": "+91-80353-42495"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Anita Iyer",
+          "role": "dispatcher",
+          "phone": "+91-80353-42495"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Sharma",
+          "role": "warehouse",
+          "phone": "+91-80685-56877"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-02T19:47:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "GJ95FK8485 dispatch ho gayi Ahmedabad se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-03T09:47:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-03T23:47:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Bahadurgarh warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-04T00:16:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Sharma",
+          "lang": "hi-en",
+          "text": "Sunday ko warehse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-04T02:47:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Sharma",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-04T03:10:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Sharma",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-04T03:34:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-KUL-260328-76044_66.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-28T19:41:14+05:30",
+      "actor": "Kulkarni Trading Co.",
+      "doc_ref": "ORD-2026-76044",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-30T01:41:14+05:30",
+      "actor": "Anita Sharma",
+      "doc_ref": "ORD-2026-76044",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-31T09:41:44+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "INV/2026-27/1726",
+      "note": "original issue"
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_revised",
+      "ts": "2026-04-02T09:41:44+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "INV/2026-27/76044",
+      "note": "supersedes INV/2026-27/1726"
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-04-02T16:47:44+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "044112032498",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "dispatched",
+      "ts": "2026-04-02T19:47:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ95FK8485",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-04-03T23:47:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ95FK8485",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-04-04T02:47:44+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-MEH-KUL-260328-76044",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-04-04T03:34:44+05:30",
+      "actor": "Anita Sharma",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-04-04T23:34:44+05:30",
+      "actor": "Anita Sharma",
+      "doc_ref": "GRN-76044",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-MEH-KUL-260328-76044 generated before or after the invoice was revised?",
+  "question_lang": "en",
+  "gold_answer": "Invoice INV/2026-27/76044 is revision 1, superseding INV/2026-27/1726 which was originally issued on 31 Mar 2026 at 09:41 [INV]. The revision was raised on 02 Apr 2026 at 09:41 [TIMELINE], and e-way bill 044112032498 was generated afterwards on 02 Apr 2026 at 16:47 [EWB], so the permit post-dates the revision.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "revision_no",
+      "value": "1",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "supersedes",
+      "value": "INV/2026-27/1726",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "original_issued_at",
+      "value": "2026-03-31T09:41:44+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-04-02T09:41:44+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-04-02T16:47:44+05:30",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276044,
+    "notes": "task=tmp_revision defect=none"
+  }
+}

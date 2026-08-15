@@ -1,0 +1,529 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0059",
+  "bucket": "multi-hop",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/66538",
+      "issued_at": "2026-05-04T17:41:57+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Trading Co.",
+        "legal_name": "Sharma Trading Co.",
+        "gstin": "27QQBPY1106E9ZA",
+        "pan": "QQBPY1106E",
+        "address": {
+          "line1": "Shed 14, MIDC",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "210071",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Desai",
+          "email": "dineshd@sharma.in",
+          "phone": "+91-90791-44516"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Distributors",
+        "legal_name": "Iyer Distributors",
+        "gstin": "24ZZJPG7491B4Z6",
+        "pan": "ZZJPG7491B",
+        "address": {
+          "line1": "Shed 192, Phase II",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "324089",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Desai",
+          "email": "kavitad@iyer.co.in",
+          "phone": "+91-90111-99552"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 3806.54,
+          "taxable_value": 2854905.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 799373.4
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 78.33,
+          "taxable_value": 1958.25,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 234.99
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 40.91,
+          "taxable_value": 49092.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8836.56
+        },
+        {
+          "line_no": 4,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 63.0,
+          "taxable_value": 63000.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7560.0
+        }
+      ],
+      "total_taxable_value": 2968955.25,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 816004.95,
+      "total_tax": 816004.95,
+      "invoice_total": 3784960.2,
+      "currency": "INR",
+      "eway_bill_ref": "538432131406",
+      "vehicle_no": "MH86CH3206",
+      "consignment_ref": "CONS-SHA-IYE-260429-66538"
+    },
+    "eway_bill": {
+      "ewb_no": "538432131406",
+      "generated_at": "2026-05-05T02:00:57+05:30",
+      "valid_until": "2026-05-11T02:00:57+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/66538",
+      "doc_date": "2026-05-04",
+      "from_gstin": "27QQBPY1106E9ZA",
+      "from_address": "Shed 14, MIDC, Thane, Thane, Maharashtra - 210071",
+      "to_gstin": "24ZZJPG7491B4Z6",
+      "to_address": "Shed 192, Phase II, Vatva, Ahmedabad, Ahmedabad, Gujarat - 324089",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "27TJYNN1331V1ZT",
+      "mode": "road",
+      "vehicle_no": "MH86CH3206",
+      "consignment_ref": "CONS-SHA-IYE-260429-66538",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1000.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 2968955.25,
+      "total_invoice_value": 378496.02,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-66538",
+      "po_date": "2026-04-29",
+      "buyer_entity": "Iyer Distributors",
+      "vendor_code": "VND-3008",
+      "vendor_name": "Sharma Trading Co.",
+      "vendor_gstin": "27QQBPY1106E9ZA",
+      "items": [
+        {
+          "item_code": "ITEM-99601",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 3806.54,
+          "line_total": 2854905.0,
+          "expected_delivery": "2026-05-12"
+        },
+        {
+          "item_code": "ITEM-51982",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 78.33,
+          "line_total": 1958.25,
+          "expected_delivery": "2026-05-13"
+        },
+        {
+          "item_code": "ITEM-23885",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 40.91,
+          "line_total": 49092.0,
+          "expected_delivery": "2026-05-07"
+        },
+        {
+          "item_code": "ITEM-34795",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 63.0,
+          "line_total": 63000.0,
+          "expected_delivery": "2026-05-13"
+        }
+      ],
+      "po_subtotal": 2968955.25,
+      "po_tax": 816004.95,
+      "po_total": 3784960.2,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Kavita Desai",
+        "approved_at": "2026-04-30T06:12:03+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/66538"
+      ],
+      "grn": {
+        "grn_no": "GRN-66538",
+        "received_at": "2026-05-06T20:57:57+05:30",
+        "received_by": "Kavita Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-99601",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-51982",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-23885",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-34795",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-IYE-260429-66538"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-32235",
+      "thread_name": "CONS-SHA-IYE-260429-66538 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-90791-44516"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Desai",
+          "role": "dispatcher",
+          "phone": "+91-90791-44516"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Desai",
+          "role": "warehouse",
+          "phone": "+91-90111-99552"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Farhan Singh",
+          "role": "accounts",
+          "phone": "+91-90111-99552"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-05T04:00:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Sir MH86CH3206 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-05T13:40:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-05T23:20:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Ahmedabad.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-06T09:00:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-06T13:00:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Consignment received in full at our Ahmedabad warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-06T13:24:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-06T13:57:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-IYE-260429-66538_99.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-7368.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-06T22:57:57+05:30",
+          "sender_id": "P4",
+          "sender_name": "Farhan Singh",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 378,496.02 likhi hai par invoice Rs. 3,784,960.20 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-60730",
+      "raised_at": "2026-05-07T04:57:57+05:30",
+      "raised_by": "Kavita Desai",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-29T12:12:03+05:30",
+      "actor": "Iyer Distributors",
+      "doc_ref": "PO-2026-66538",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-30T06:12:03+05:30",
+      "actor": "Kavita Desai",
+      "doc_ref": "PO-2026-66538",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-04T17:41:57+05:30",
+      "actor": "Sharma Trading Co.",
+      "doc_ref": "TAX/2026-27/66538",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-05T02:00:57+05:30",
+      "actor": "Sharma Trading Co.",
+      "doc_ref": "538432131406",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-05T04:00:57+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH86CH3206",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-06T09:00:57+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH86CH3206",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-06T13:00:57+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SHA-IYE-260429-66538",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-06T13:57:57+05:30",
+      "actor": "Kavita Desai",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-06T20:57:57+05:30",
+      "actor": "Kavita Desai",
+      "doc_ref": "GRN-66538",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-SHA-IYE-260429-66538?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice TAX/2026-27/66538 totals Rs. 3,784,960.20 [INV] but e-way bill 538432131406 declares Rs. 378,496.02 [EWB], a discrepancy of Rs. 3,406,464.18. The accounts team raised the same discrepancy on the delivery thread [M-008].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/66538",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "3784960.2",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "538432131406",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "378496.02",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-SHA-IYE-260429-66538",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-008.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 378,496.02 likhi hai par invoice Rs. 3,784,960.20 ka hai.",
+      "evidence": {
+        "ref_id": "M-008",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 378,496.02 likhi hai par invoice Rs. 3,784,960.20 ka hai",
+        "gloss_en": "the e-way bill states Rs. 378,496.02 but the invoice is for Rs. 3,784,960.20"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266538,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

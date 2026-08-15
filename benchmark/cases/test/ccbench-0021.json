@@ -1,0 +1,408 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0021",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/62852",
+      "issued_at": "2026-05-16T14:49:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Logistics Private Limited",
+        "legal_name": "Agarwal Logistics Pvt. Ltd.",
+        "gstin": "23QQSCQ8213F5Z8",
+        "pan": "QQSCQ8213F",
+        "address": {
+          "line1": "Godown 87, Export Zone",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "648187",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Sharma",
+          "email": "dinesh.sharma@agarwal.co.in",
+          "phone": "+91-80552-92866"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Distributors",
+        "legal_name": "Shree Ganesh Distributors",
+        "gstin": "33QQKPK4850R3ZC",
+        "pan": "QQKPK4850R",
+        "address": {
+          "line1": "Plot 43, Phase II",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "488619",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Gupta",
+          "email": "kgupta@shree.com",
+          "phone": "+91-80674-25678"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 32513.48,
+          "taxable_value": 8128370.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1463106.6
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 162.43,
+          "taxable_value": 64972.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 11694.96
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 270.97,
+          "taxable_value": 270970.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 48774.6
+        }
+      ],
+      "total_taxable_value": 8464312.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1523576.16,
+      "total_tax": 1523576.16,
+      "invoice_total": 9987888.16,
+      "currency": "INR",
+      "eway_bill_ref": "852110750022",
+      "vehicle_no": "MP83KT3458",
+      "consignment_ref": "CONS-AGA-SHR-260505-62852"
+    },
+    "eway_bill": {
+      "ewb_no": "852110750022",
+      "generated_at": "2026-05-16T19:22:49+05:30",
+      "valid_until": "2026-05-24T19:22:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/62852",
+      "doc_date": "2026-05-16",
+      "from_gstin": "23QQSCQ8213F5Z8",
+      "from_address": "Godown 87, Export Zone, Mandideep, Mandideep, Madhya Pradesh - 648187",
+      "to_gstin": "33QQKPK4850R3ZC",
+      "to_address": "Plot 43, Phase II, Hosur Road, Hosur Road, Tamil Nadu - 488619",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "06FLJEY7356J1ZT",
+      "mode": "road",
+      "vehicle_no": "MP83KT3458",
+      "consignment_ref": "CONS-AGA-SHR-260505-62852",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 8464312.0,
+      "total_invoice_value": 9987888.16,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-62852",
+      "po_date": "2026-05-05",
+      "buyer_entity": "Shree Ganesh Distributors",
+      "vendor_code": "VND-8914",
+      "vendor_name": "Agarwal Logistics Private Limited",
+      "vendor_gstin": "23QQSCQ8213F5Z8",
+      "items": [
+        {
+          "item_code": "ITEM-80144",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 32513.48,
+          "line_total": 8128370.0,
+          "expected_delivery": "2026-05-20"
+        },
+        {
+          "item_code": "ITEM-28898",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 162.43,
+          "line_total": 64972.0,
+          "expected_delivery": "2026-05-19"
+        },
+        {
+          "item_code": "ITEM-14414",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 270.97,
+          "line_total": 270970.0,
+          "expected_delivery": "2026-05-20"
+        }
+      ],
+      "po_subtotal": 8464312.0,
+      "po_tax": 1523576.16,
+      "po_total": 9987888.16,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Kavita Gupta",
+        "approved_at": "2026-05-06T02:05:19+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/62852"
+      ],
+      "grn": {
+        "grn_no": "GRN-62852",
+        "received_at": "2026-05-19T01:52:49+05:30",
+        "received_by": "Kavita Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-80144",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-28898",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-14414",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-SHR-260505-62852"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-62225",
+      "thread_name": "CONS-AGA-SHR-260505-62852 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-80552-92866"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Sharma",
+          "role": "dispatcher",
+          "phone": "+91-80552-92866"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Gupta",
+          "role": "warehouse",
+          "phone": "+91-80674-25678"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Arjun Rao",
+          "role": "accounts",
+          "phone": "+91-80674-25678"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-17T00:22:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi",
+          "text": "सर MP83KT3458 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-17T16:52:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-18T09:22:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-18T13:22:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Gupta",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-18T13:43:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Gupta",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-18T15:52:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-SHR-260505-62852_17.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-05T13:05:19+05:30",
+      "actor": "Shree Ganesh Distributors",
+      "doc_ref": "ORD-2026-62852",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-06T02:05:19+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "ORD-2026-62852",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-16T14:49:49+05:30",
+      "actor": "Agarwal Logistics Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/62852",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-16T19:22:49+05:30",
+      "actor": "Agarwal Logistics Pvt. Ltd.",
+      "doc_ref": "852110750022",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-17T00:22:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP83KT3458",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-18T09:22:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP83KT3458",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-18T13:22:49+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-AGA-SHR-260505-62852",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-18T15:52:49+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-19T01:52:49+05:30",
+      "actor": "Kavita Gupta",
+      "doc_ref": "GRN-62852",
+      "note": null
+    }
+  ],
+  "question": "Did anyone confirm in the delivery thread that consignment CONS-AGA-SHR-260505-62852 was actually received?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262852,
+    "notes": "task=xl_delivered defect=none"
+  }
+}

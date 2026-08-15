@@ -1,0 +1,496 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0180",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/78275",
+      "issued_at": "2026-02-16T18:34:42+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Enterprises",
+        "legal_name": "Krishna Enterprises",
+        "gstin": "19QQAPH2433G5ZC",
+        "pan": "QQAPH2433G",
+        "address": {
+          "line1": "Plot 200, MIDC",
+          "line2": "Dankuni",
+          "city": "Dankuni",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "249921",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Desai",
+          "email": "rajesh.desai@krishna.com",
+          "phone": "+91-80448-13358"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Trading Co.",
+        "legal_name": "Deshmukh Trading Co.",
+        "gstin": "27QQACM7042F5ZX",
+        "pan": "QQACM7042F",
+        "address": {
+          "line1": "Plot 55, Export Zone",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "219553",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Patel",
+          "email": "vijayp@deshmukh.co.in",
+          "phone": "+91-80107-57574"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 122.52,
+          "taxable_value": 30630.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5513.4
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 173.01,
+          "taxable_value": 173010.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8650.5
+        },
+        {
+          "line_no": 3,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 24929.74,
+          "taxable_value": 29915688.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5384823.84
+        },
+        {
+          "line_no": 4,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 71.17,
+          "taxable_value": 3558.5,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 427.02
+        }
+      ],
+      "total_taxable_value": 30122886.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5399414.76,
+      "total_tax": 5399414.76,
+      "invoice_total": 35522301.26,
+      "currency": "INR",
+      "eway_bill_ref": "275383320351",
+      "vehicle_no": "WB76GJ9041",
+      "consignment_ref": "CONS-KRI-DES-260208-78275"
+    },
+    "eway_bill": {
+      "ewb_no": "275383320351",
+      "generated_at": "2026-02-16T21:53:42+05:30",
+      "valid_until": "2026-02-20T21:53:42+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/78275",
+      "doc_date": "2026-02-16",
+      "from_gstin": "19QQAPH2433G5ZC",
+      "from_address": "Plot 200, MIDC, Dankuni, Dankuni, West Bengal - 249921",
+      "to_gstin": "27QQACM7042F5ZX",
+      "to_address": "Plot 55, Export Zone, Thane, Thane, Maharashtra - 219553",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "06MCACW2476U1ZT",
+      "mode": "road",
+      "vehicle_no": "WB76GJ9041",
+      "consignment_ref": "CONS-KRI-DES-260208-78275",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 30122886.5,
+      "total_invoice_value": 35522301.26,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-78275",
+      "po_date": "2026-02-08",
+      "buyer_entity": "Deshmukh Trading Co.",
+      "vendor_code": "VND-1386",
+      "vendor_name": "Krishna Enterprises",
+      "vendor_gstin": "19QQAPH2433G5ZC",
+      "items": [
+        {
+          "item_code": "ITEM-65943",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 122.52,
+          "line_total": 30630.0,
+          "expected_delivery": "2026-02-18"
+        },
+        {
+          "item_code": "ITEM-47539",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 173.01,
+          "line_total": 173010.0,
+          "expected_delivery": "2026-02-22"
+        },
+        {
+          "item_code": "ITEM-62814",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 24929.74,
+          "line_total": 29915688.0,
+          "expected_delivery": "2026-02-19"
+        },
+        {
+          "item_code": "ITEM-15495",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 71.17,
+          "line_total": 3558.5,
+          "expected_delivery": "2026-02-21"
+        }
+      ],
+      "po_subtotal": 30122886.5,
+      "po_tax": 5399414.76,
+      "po_total": 35522301.26,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Vijay Patel",
+        "approved_at": "2026-02-09T14:41:34+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/78275"
+      ],
+      "grn": {
+        "grn_no": "GRN-78275",
+        "received_at": "2026-02-18T10:03:42+05:30",
+        "received_by": "Vijay Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-65943",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-47539",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-62814",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-15495",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KRI-DES-260208-78275"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-92643",
+      "thread_name": "CONS-KRI-DES-260208-78275 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Khan",
+          "role": "driver",
+          "phone": "+91-80448-13358"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rajesh Desai",
+          "role": "dispatcher",
+          "phone": "+91-80448-13358"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Patel",
+          "role": "warehouse",
+          "phone": "+91-80107-57574"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-16T23:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "WB76GJ9041 dispatch ho gayi Dankuni se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-17T01:22:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-17T03:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-17T07:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-17T11:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Thane गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-17T12:32:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-17T13:53:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-17T14:18:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-02-17T15:03:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-008",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KRI-DES-260208-78275_62.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-08T15:41:34+05:30",
+      "actor": "Deshmukh Trading Co.",
+      "doc_ref": "PUR-2026-78275",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-09T14:41:34+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "PUR-2026-78275",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-16T18:34:42+05:30",
+      "actor": "Krishna Enterprises",
+      "doc_ref": "GST/2026-27/78275",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-16T21:53:42+05:30",
+      "actor": "Krishna Enterprises",
+      "doc_ref": "275383320351",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-16T23:53:42+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB76GJ9041",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-17T11:53:42+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB76GJ9041",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-17T13:53:42+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-KRI-DES-260208-78275",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-17T15:03:42+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-18T10:03:42+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "GRN-78275",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice GST/2026-27/78275 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy the buyer-side contact on invoice GST/2026-27/78275 may be quoted in full: Vijay Patel, vijayp@deshmukh.co.in, +91-80107-57574 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "buyer.contact.name",
+      "value": "Vijay Patel",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "buyer.contact.email",
+      "value": "vijayp@deshmukh.co.in",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "buyer.contact.phone",
+      "value": "+91-80107-57574",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278275,
+    "notes": "task=comp_contact defect=none"
+  }
+}

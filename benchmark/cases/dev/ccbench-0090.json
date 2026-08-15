@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0090",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/69545",
+      "issued_at": "2026-06-04T18:12:25+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Trading Co.",
+        "legal_name": "Kulkarni Trading Co.",
+        "gstin": "07XQPCW1697I4ZI",
+        "pan": "XQPCW1697I",
+        "address": {
+          "line1": "Warehouse 122, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "724199",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Yadav",
+          "email": "arjun.yadav@kulkarni.com",
+          "phone": "+91-80439-17245"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Logistics Pvt. Ltd.",
+        "legal_name": "Rastogi Logistics Pvt. Ltd.",
+        "gstin": "29QQXPG0386C8ZM",
+        "pan": "QQXPG0386C",
+        "address": {
+          "line1": "Unit 165, MIDC",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "586685",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Iyer",
+          "email": "rekha.iyer@rastogi.in",
+          "phone": "+91-80563-33781"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 3787.94,
+          "taxable_value": 3787940.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 681829.2
+        }
+      ],
+      "total_taxable_value": 3787940.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 681829.2,
+      "total_tax": 681829.2,
+      "invoice_total": 4469769.2,
+      "currency": "INR",
+      "eway_bill_ref": "545560812366",
+      "vehicle_no": "DL96ZZ7997",
+      "consignment_ref": "CONS-KUL-RAS-260529-69545"
+    },
+    "eway_bill": {
+      "ewb_no": "545560812366",
+      "generated_at": "2026-06-04T21:04:25+05:30",
+      "valid_until": "2026-06-05T21:04:25+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/69545",
+      "doc_date": "2026-06-04",
+      "from_gstin": "07XQPCW1697I4ZI",
+      "from_address": "Warehouse 122, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 724199",
+      "to_gstin": "29QQXPG0386C8ZM",
+      "to_address": "Unit 165, MIDC, Nelamangala, Nelamangala, Karnataka - 586685",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "09PWAZF7973H1ZT",
+      "mode": "road",
+      "vehicle_no": "DL96ZZ7997",
+      "consignment_ref": "CONS-KUL-RAS-260529-69545",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3787940.0,
+      "total_invoice_value": 4469769.2,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-69545",
+      "po_date": "2026-05-29",
+      "buyer_entity": "Rastogi Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5639",
+      "vendor_name": "Kulkarni Trading Co.",
+      "vendor_gstin": "07XQPCW1697I4ZI",
+      "items": [
+        {
+          "item_code": "ITEM-28867",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 3787.94,
+          "line_total": 3787940.0,
+          "expected_delivery": "2026-06-10"
+        }
+      ],
+      "po_subtotal": 3787940.0,
+      "po_tax": 681829.2,
+      "po_total": 4469769.2,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Iyer",
+        "approved_at": "2026-05-30T09:05:54+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/69545"
+      ],
+      "grn": {
+        "grn_no": "GRN-69545",
+        "received_at": "2026-06-05T19:55:25+05:30",
+        "received_by": "Rekha Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-28867",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-RAS-260529-69545"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-91409",
+      "thread_name": "CONS-KUL-RAS-260529-69545 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Reddy",
+          "role": "driver",
+          "phone": "+91-80439-17245"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Yadav",
+          "role": "dispatcher",
+          "phone": "+91-80439-17245"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Iyer",
+          "role": "warehouse",
+          "phone": "+91-80563-33781"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-04T23:04:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Sir DL96ZZ7997 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-05T02:04:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Nelamangala.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-05T05:04:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi-en",
+          "text": "Nelamangala warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-05T09:04:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Iyer",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-05T09:48:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Iyer",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-05T10:55:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-RAS-260529-69545_79.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-29T19:05:54+05:30",
+      "actor": "Rastogi Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-69545",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-30T09:05:54+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "PO-2026-69545",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-04T18:12:25+05:30",
+      "actor": "Kulkarni Trading Co.",
+      "doc_ref": "INV/2026-27/69545",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-04T21:04:25+05:30",
+      "actor": "Kulkarni Trading Co.",
+      "doc_ref": "545560812366",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-04T23:04:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "DL96ZZ7997",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-05T05:04:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "DL96ZZ7997",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-05T09:04:25+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-KUL-RAS-260529-69545",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-05T10:55:25+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-05T19:55:25+05:30",
+      "actor": "Rekha Iyer",
+      "doc_ref": "GRN-69545",
+      "note": null
+    }
+  ],
+  "question": "What payment terms were agreed on purchase order PO-2026-69545?",
+  "question_lang": "en",
+  "gold_answer": "Purchase order PO-2026-69545 carries payment terms of Net 15 days [ERP].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PO-2026-69545",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "erp_order",
+      "path": "payment_terms",
+      "value": "Net 15 days",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-80439-17245",
+    "+91-80563-33781",
+    "QQXPG0386C",
+    "XQPCW1697I",
+    "arjun.yadav@kulkarni.com",
+    "rekha.iyer@rastogi.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269545,
+    "notes": "task=lookup_terms defect=none"
+  }
+}

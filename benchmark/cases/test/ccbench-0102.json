@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0102",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/70709",
+      "issued_at": "2026-04-12T13:56:33+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Enterprises",
+        "legal_name": "Shree Ganesh Enterprises",
+        "gstin": "29ZZZPG8790Y3ZK",
+        "pan": "ZZZPG8790Y",
+        "address": {
+          "line1": "Warehouse 200, Industrial Area",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "376017",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Yadav",
+          "email": "zyadav@shree.co.in",
+          "phone": "+91-70427-80484"
+        }
+      },
+      "buyer": {
+        "name": "Nair Trading Co.",
+        "legal_name": "Nair Trading Co.",
+        "gstin": "29ZZKCP1318W5ZN",
+        "pan": "ZZKCP1318W",
+        "address": {
+          "line1": "Warehouse 228, MIDC",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "714363",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Singh",
+          "email": "meena.singh@nair.in",
+          "phone": "+91-80471-85912"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 156.71,
+          "taxable_value": 28207.8,
+          "tax_rate": 5.0,
+          "cgst_amount": 705.2,
+          "sgst_amount": 705.19,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 28.55,
+          "taxable_value": 2855.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 256.95,
+          "sgst_amount": 256.95,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 105.42,
+          "taxable_value": 105420.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 9487.8,
+          "sgst_amount": 9487.8,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 136482.8,
+      "total_cgst": 10449.95,
+      "total_sgst": 10449.94,
+      "total_igst": 0.0,
+      "total_tax": 20899.89,
+      "invoice_total": 157382.69,
+      "currency": "INR",
+      "eway_bill_ref": "709863421001",
+      "vehicle_no": "KA53SV5633",
+      "consignment_ref": "CONS-SHR-NAI-260409-70709"
+    },
+    "eway_bill": {
+      "ewb_no": "709863421001",
+      "generated_at": "2026-04-12T20:29:33+05:30",
+      "valid_until": "2026-04-17T20:29:33+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/70709",
+      "doc_date": "2026-04-12",
+      "from_gstin": "29ZZZPG8790Y3ZK",
+      "from_address": "Warehouse 200, Industrial Area, Peenya, Peenya, Karnataka - 376017",
+      "to_gstin": "29ZZKCP1318W5ZN",
+      "to_address": "Warehouse 228, MIDC, Nelamangala, Nelamangala, Karnataka - 714363",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "07ZHDYT9587E1ZT",
+      "mode": "road",
+      "vehicle_no": "KA53SV5633",
+      "consignment_ref": "CONS-SHR-NAI-260409-70709",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 136482.8,
+      "total_invoice_value": 157382.69,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-70709",
+      "po_date": "2026-04-09",
+      "buyer_entity": "Nair Trading Co.",
+      "vendor_code": "VND-8534",
+      "vendor_name": "Shree Ganesh Enterprises",
+      "vendor_gstin": "29ZZZPG8790Y3ZK",
+      "items": [
+        {
+          "item_code": "ITEM-79535",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 156.71,
+          "line_total": 28207.8,
+          "expected_delivery": "2026-04-15"
+        },
+        {
+          "item_code": "ITEM-11575",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 28.55,
+          "line_total": 2855.0,
+          "expected_delivery": "2026-04-21"
+        },
+        {
+          "item_code": "ITEM-64846",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 105.42,
+          "line_total": 105420.0,
+          "expected_delivery": "2026-04-20"
+        }
+      ],
+      "po_subtotal": 136482.8,
+      "po_tax": 20899.89,
+      "po_total": 157382.69,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Meena Singh",
+        "approved_at": "2026-04-10T05:49:16+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/70709"
+      ],
+      "grn": {
+        "grn_no": "GRN-70709",
+        "received_at": "2026-04-14T00:01:33+05:30",
+        "received_by": "Meena Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-79535",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-11575",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-64846",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-NAI-260409-70709"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-70437",
+      "thread_name": "CONS-SHR-NAI-260409-70709 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Gupta",
+          "role": "driver",
+          "phone": "+91-70427-80484"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Zoya Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70427-80484"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Singh",
+          "role": "warehouse",
+          "phone": "+91-80471-85912"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Deepa Kumar",
+          "role": "accounts",
+          "phone": "+91-80471-85912"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-12T21:29:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "सर KA53SV5633 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-13T06:59:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-13T16:29:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Nelamangala गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-13T16:52:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Singh",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-13T19:29:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-13T19:49:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Singh",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-13T20:01:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-NAI-260409-70709_52.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-09T09:49:16+05:30",
+      "actor": "Nair Trading Co.",
+      "doc_ref": "ORD-2026-70709",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-10T05:49:16+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "ORD-2026-70709",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-12T13:56:33+05:30",
+      "actor": "Shree Ganesh Enterprises",
+      "doc_ref": "GST/2026-27/70709",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-12T20:29:33+05:30",
+      "actor": "Shree Ganesh Enterprises",
+      "doc_ref": "709863421001",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-12T21:29:33+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA53SV5633",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-13T16:29:33+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA53SV5633",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-13T19:29:33+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-SHR-NAI-260409-70709",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-13T20:01:33+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-14T00:01:33+05:30",
+      "actor": "Meena Singh",
+      "doc_ref": "GRN-70709",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice GST/2026-27/70709 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270709,
+    "notes": "task=comp_fields defect=none"
+  }
+}

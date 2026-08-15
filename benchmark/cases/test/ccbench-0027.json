@@ -1,0 +1,387 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0027",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/63434",
+      "issued_at": "2026-02-17T11:05:33+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Logistics Pvt. Ltd.",
+        "legal_name": "Singh & Sons Logistics Pvt. Ltd.",
+        "gstin": "27QQVCK4418C2ZN",
+        "pan": "QQVCK4418C",
+        "address": {
+          "line1": "Shed 51, MIDC",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "686518",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Mishra",
+          "email": "sureshm@singh.com",
+          "phone": "+91-70697-79344"
+        }
+      },
+      "buyer": {
+        "name": "Singh & Sons Polymers Ltd",
+        "legal_name": "Singh & Sons Polymers Ltd.",
+        "gstin": "07ZZBPS5708M1ZE",
+        "pan": "ZZBPS5708M",
+        "address": {
+          "line1": "Plot 128, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "422420",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Desai",
+          "email": "rekhad@singh.in",
+          "phone": "+91-80898-15376"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 8484.91,
+          "taxable_value": 424245.5,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 118788.74
+        }
+      ],
+      "total_taxable_value": 424245.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 118788.74,
+      "total_tax": 118788.74,
+      "invoice_total": 543034.24,
+      "currency": "INR",
+      "eway_bill_ref": "434503357501",
+      "vehicle_no": "MH89SY7356",
+      "consignment_ref": "CONS-SIN-SIN-260210-63434"
+    },
+    "eway_bill": {
+      "ewb_no": "434503357501",
+      "generated_at": "2026-02-17T18:24:33+05:30",
+      "valid_until": "2026-02-28T18:24:33+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/63434",
+      "doc_date": "2026-02-17",
+      "from_gstin": "27QQVCK4418C2ZN",
+      "from_address": "Shed 51, MIDC, Andheri East, Andheri East, Maharashtra - 686518",
+      "to_gstin": "07ZZBPS5708M1ZE",
+      "to_address": "Plot 128, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 422420",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "29KSPDO1589C1ZT",
+      "mode": "road",
+      "vehicle_no": "MH89SY7356",
+      "consignment_ref": "CONS-SIN-SIN-260210-63434",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 424245.5,
+      "total_invoice_value": 543034.24,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-63434",
+      "po_date": "2026-02-10",
+      "buyer_entity": "Singh & Sons Polymers Ltd.",
+      "vendor_code": "VND-4823",
+      "vendor_name": "Singh & Sons Logistics Pvt. Ltd.",
+      "vendor_gstin": "27QQVCK4418C2ZN",
+      "items": [
+        {
+          "item_code": "ITEM-19332",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 8484.91,
+          "line_total": 424245.5,
+          "expected_delivery": "2026-02-23"
+        }
+      ],
+      "po_subtotal": 424245.5,
+      "po_tax": 118788.74,
+      "po_total": 543034.24,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Desai",
+        "approved_at": "2026-02-11T21:41:23+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/63434"
+      ],
+      "grn": {
+        "grn_no": "GRN-63434",
+        "received_at": "2026-02-20T17:00:33+05:30",
+        "received_by": "Rekha Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-19332",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-SIN-260210-63434"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-37018",
+      "thread_name": "CONS-SIN-SIN-260210-63434 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Reddy",
+          "role": "driver",
+          "phone": "+91-70697-79344"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Mishra",
+          "role": "dispatcher",
+          "phone": "+91-70697-79344"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Desai",
+          "role": "warehouse",
+          "phone": "+91-80898-15376"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ajay Kumar",
+          "role": "accounts",
+          "phone": "+91-80898-15376"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-17T19:24:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "en",
+          "text": "Vehicle MH89SY7356 dispatched from Andheri East. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-18T11:04:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-19T02:44:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_754.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-19T18:24:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Okhla Phase II गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-19T18:49:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Desai",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-19T19:24:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-19T19:56:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Desai",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-19T21:00:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-SIN-260210-63434_20.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-2900.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-02-21T05:00:33+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/63434 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-10T17:41:23+05:30",
+      "actor": "Singh & Sons Polymers Ltd.",
+      "doc_ref": "PUR-2026-63434",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-11T21:41:23+05:30",
+      "actor": "Rekha Desai",
+      "doc_ref": "PUR-2026-63434",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-17T11:05:33+05:30",
+      "actor": "Singh & Sons Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/63434",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-17T18:24:33+05:30",
+      "actor": "Singh & Sons Logistics Pvt. Ltd.",
+      "doc_ref": "434503357501",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-17T19:24:33+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH89SY7356",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-19T18:24:33+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MH89SY7356",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-19T19:24:33+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SIN-SIN-260210-63434",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-19T21:00:33+05:30",
+      "actor": "Rekha Desai",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-20T17:00:33+05:30",
+      "actor": "Rekha Desai",
+      "doc_ref": "GRN-63434",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice INV/2026-27/63434 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263434,
+    "notes": "task=comp_contact defect=none"
+  }
+}

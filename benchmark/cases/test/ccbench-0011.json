@@ -1,0 +1,441 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0011",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/61882",
+      "issued_at": "2026-06-29T19:41:51+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Industries",
+        "legal_name": "Mehta Brothers Industries",
+        "gstin": "19QQACA7910T3ZB",
+        "pan": "QQACA7910T",
+        "address": {
+          "line1": "Warehouse 84, Industrial Area",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "426799",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Desai",
+          "email": "adesai@mehta.com",
+          "phone": "+91-80970-38153"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Enterprises",
+        "legal_name": "Reddy Enterprises",
+        "gstin": "09ZZZPJ3436W6ZU",
+        "pan": "ZZZPJ3436W",
+        "address": {
+          "line1": "Warehouse 47, Industrial Area",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "356763",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Yadav",
+          "email": "rajesh.yadav@reddy.in",
+          "phone": "+91-90937-83571"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 77.91,
+          "taxable_value": 77910.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 14023.8
+        },
+        {
+          "line_no": 2,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 3769.78,
+          "taxable_value": 3769780.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 678560.4
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 193.92,
+          "taxable_value": 193920.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 9696.0
+        },
+        {
+          "line_no": 4,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 299.61,
+          "taxable_value": 74902.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 13482.45
+        }
+      ],
+      "total_taxable_value": 4116512.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 715762.65,
+      "total_tax": 715762.65,
+      "invoice_total": 4832275.15,
+      "currency": "INR",
+      "eway_bill_ref": "882980359421",
+      "vehicle_no": "WB13GE8051",
+      "consignment_ref": "CONS-MEH-RED-260623-61882"
+    },
+    "eway_bill": {
+      "ewb_no": "882980359421",
+      "generated_at": "2026-06-29T14:18:51+05:30",
+      "valid_until": "2026-07-05T14:18:51+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/61882",
+      "doc_date": "2026-06-29",
+      "from_gstin": "19QQACA7910T3ZB",
+      "from_address": "Warehouse 84, Industrial Area, Howrah, Howrah, West Bengal - 426799",
+      "to_gstin": "09ZZZPJ3436W6ZU",
+      "to_address": "Warehouse 47, Industrial Area, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 356763",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "24JIJLD2056J1ZT",
+      "mode": "road",
+      "vehicle_no": "WB13GE8051",
+      "consignment_ref": "CONS-MEH-RED-260623-61882",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 4116512.5,
+      "total_invoice_value": 4832275.15,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-61882",
+      "po_date": "2026-06-23",
+      "buyer_entity": "Reddy Enterprises",
+      "vendor_code": "VND-8180",
+      "vendor_name": "Mehta Brothers Industries",
+      "vendor_gstin": "19QQACA7910T3ZB",
+      "items": [
+        {
+          "item_code": "ITEM-80154",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 77.91,
+          "line_total": 77910.0,
+          "expected_delivery": "2026-07-01"
+        },
+        {
+          "item_code": "ITEM-28895",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 3769.78,
+          "line_total": 3769780.0,
+          "expected_delivery": "2026-07-01"
+        },
+        {
+          "item_code": "ITEM-93070",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 193.92,
+          "line_total": 193920.0,
+          "expected_delivery": "2026-07-05"
+        },
+        {
+          "item_code": "ITEM-91691",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 299.61,
+          "line_total": 74902.5,
+          "expected_delivery": "2026-07-01"
+        }
+      ],
+      "po_subtotal": 4116512.5,
+      "po_tax": 715762.65,
+      "po_total": 4832275.15,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Yadav",
+        "approved_at": "2026-06-24T08:18:04+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/61882"
+      ],
+      "grn": {
+        "grn_no": "GRN-61882",
+        "received_at": "2026-07-01T04:31:51+05:30",
+        "received_by": "Rajesh Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-80154",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-28895",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-93070",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-91691",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-RED-260623-61882"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-80026",
+      "thread_name": "CONS-MEH-RED-260623-61882 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Singh",
+          "role": "driver",
+          "phone": "+91-80970-38153"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Desai",
+          "role": "dispatcher",
+          "phone": "+91-80970-38153"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Yadav",
+          "role": "warehouse",
+          "phone": "+91-90937-83571"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-29T19:18:51+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "WB13GE8051 dispatch ho gayi Howrah se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-30T23:18:51+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-30T23:52:51+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-01T01:18:51+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "en",
+          "text": "Consignment received in full at our Noida Sector 63 warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-01T02:03:51+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-01T03:31:51+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-RED-260623-61882_88.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-77784",
+      "raised_at": "2026-07-01T05:31:51+05:30",
+      "raised_by": "Rajesh Yadav",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-23T17:18:04+05:30",
+      "actor": "Reddy Enterprises",
+      "doc_ref": "PO-2026-61882",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-24T08:18:04+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "PO-2026-61882",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-06-29T14:18:51+05:30",
+      "actor": "Mehta Brothers Industries",
+      "doc_ref": "882980359421",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-06-29T19:18:51+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB13GE8051",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-06-29T19:41:51+05:30",
+      "actor": "Mehta Brothers Industries",
+      "doc_ref": "TAX/2026-27/61882",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-30T23:18:51+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB13GE8051",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-01T01:18:51+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-MEH-RED-260623-61882",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-01T03:31:51+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-01T04:31:51+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "GRN-61882",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-MEH-RED-260623-61882 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261882,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

@@ -1,40 +1,47 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ccbench.org/schema/case-0.2.json",
   "title": "CCBenchCase",
+  "description": "A single CCBench case: a bundle of loosely-related enterprise documents, an event timeline, a question, and machine-checkable supervision. Schema version 0.2 (hard break from 0.1).",
   "type": "object",
   "required": [
+    "schema_version",
     "case_id",
     "bucket",
     "jurisdiction",
     "documents",
+    "events",
     "question",
+    "question_lang",
     "gold_answer",
     "gold_facts",
-    "gold_label"
+    "gold_label",
+    "difficulty",
+    "must_not_appear"
   ],
+  "additionalProperties": false,
   "properties": {
+    "schema_version": {"const": "0.2"},
     "case_id": {"type": "string", "pattern": "^ccbench-[0-9]{4}$"},
     "bucket": {
       "enum": ["lookup", "multi-hop", "temporal", "cross-lingual", "compliance"]
     },
     "jurisdiction": {"enum": ["IN", "EU"]},
-    "documents": {
-      "type": "object",
-      "required": ["invoice", "erp_order"],
-      "properties": {
-        "invoice": {"$ref": "#/definitions/invoice"},
-        "eway_bill": {"oneOf": [{"$ref": "#/definitions/eway_bill"}, {"type": "null"}]},
-        "erp_order": {"$ref": "#/definitions/erp_order"},
-        "whatsapp_pod": {"oneOf": [{"$ref": "#/definitions/whatsapp_pod"}, {"type": "null"}]},
-        "flag": {"type": ["object", "null"]}
-      }
+    "documents": {"$ref": "#/definitions/documents"},
+    "events": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"$ref": "#/definitions/event"},
+      "description": "Case-level timeline in ascending ts order. Makes temporal questions answerable structurally rather than by parsing prose."
     },
     "question": {"type": "string", "minLength": 1},
+    "question_lang": {"enum": ["en", "hi", "hi-en"]},
     "gold_answer": {"type": "string", "minLength": 1},
     "gold_facts": {
       "type": "array",
-      "items": {"type": "string", "minLength": 1},
-      "minItems": 1
+      "minItems": 1,
+      "items": {"$ref": "#/definitions/gold_fact"},
+      "description": "The minimal sufficient evidence for THIS question. Derived from the question, never from whatever documents happen to exist."
     },
     "gold_label": {
       "enum": [
@@ -48,167 +55,447 @@
     "difficulty": {"enum": ["easy", "medium", "hard"]},
     "must_not_appear": {
       "type": "array",
-      "items": {"type": "string"},
-      "default": []
-    }
+      "items": {"type": "string", "minLength": 1},
+      "description": "Literal strings that must not occur in the emitted context under this case's jurisdiction. Required non-empty when jurisdiction is EU."
+    },
+    "provenance": {"$ref": "#/definitions/provenance"}
   },
+  "allOf": [
+    {
+      "if": {"properties": {"jurisdiction": {"const": "EU"}}, "required": ["jurisdiction"]},
+      "then": {"properties": {"must_not_appear": {"minItems": 1}}},
+      "description": "Invariant: every EU case must declare at least one forbidden literal, so leakage is scoreable by byte-level search."
+    },
+    {
+      "if": {"properties": {"gold_label": {"const": "missing_ewb"}}, "required": ["gold_label"]},
+      "then": {
+        "properties": {
+          "documents": {"properties": {"eway_bill": {"type": "null"}}}
+        }
+      },
+      "description": "Invariant: the missing_ewb label must be realised in the documents."
+    }
+  ],
+
   "definitions": {
+    "documents": {
+      "type": "object",
+      "required": ["invoice", "erp_order"],
+      "additionalProperties": false,
+      "properties": {
+        "invoice": {"$ref": "#/definitions/invoice"},
+        "eway_bill": {"oneOf": [{"$ref": "#/definitions/eway_bill"}, {"type": "null"}]},
+        "erp_order": {"$ref": "#/definitions/erp_order"},
+        "whatsapp_pod": {"oneOf": [{"$ref": "#/definitions/whatsapp_pod"}, {"type": "null"}]},
+        "flag": {"oneOf": [{"$ref": "#/definitions/flag"}, {"type": "null"}]}
+      }
+    },
+
+    "party": {
+      "type": "object",
+      "required": ["name", "legal_name", "gstin", "pan", "address", "contact"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "description": "Trading name as printed; may drift across documents."},
+        "legal_name": {"type": "string", "description": "Registered name; the canonical identity."},
+        "gstin": {
+          "type": "string",
+          "pattern": "^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z][0-9A-Z]Z[0-9A-Z]$",
+          "description": "Business tax id. EU policy: mask to last 4."
+        },
+        "pan": {
+          "type": "string",
+          "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+          "description": "Personal tax id embedded in the GSTIN. EU policy: deny entirely."
+        },
+        "address": {"$ref": "#/definitions/address"},
+        "contact": {"$ref": "#/definitions/contact"}
+      }
+    },
+
+    "address": {
+      "type": "object",
+      "required": ["line1", "city", "state", "state_code", "pincode", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "line1": {"type": "string"},
+        "line2": {"type": ["string", "null"]},
+        "city": {"type": "string"},
+        "state": {"type": "string"},
+        "state_code": {"type": "string", "pattern": "^[0-9]{2}$"},
+        "pincode": {"type": "string", "pattern": "^[1-9][0-9]{5}$"},
+        "country": {"type": "string"}
+      }
+    },
+
+    "contact": {
+      "type": "object",
+      "required": ["name", "email", "phone"],
+      "additionalProperties": false,
+      "description": "A named natural person. This is the personal data that makes EU cases real.",
+      "properties": {
+        "name": {"type": "string"},
+        "email": {"type": "string", "format": "email"},
+        "phone": {"type": "string"}
+      }
+    },
+
     "invoice": {
       "type": "object",
       "required": [
-        "invoice_no", "date", "seller", "buyer", "items",
-        "total_taxable_value", "total_cgst", "total_sgst", "invoice_total",
-        "vehicle_no", "consignment_ref"
+        "invoice_no", "issued_at", "revision_no", "supersedes", "original_issued_at",
+        "seller", "buyer", "place_of_supply", "supply_type", "items",
+        "total_taxable_value", "total_cgst", "total_sgst", "total_igst",
+        "total_tax", "invoice_total", "currency",
+        "eway_bill_ref", "vehicle_no", "consignment_ref"
       ],
+      "additionalProperties": false,
       "properties": {
         "invoice_no": {"type": "string"},
-        "date": {"type": "string", "format": "date"},
+        "issued_at": {
+          "type": "string", "format": "date-time",
+          "description": "Full timestamp, not a bare date. Same-day ordering against eway_bill.generated_at must be decidable."
+        },
+        "revision_no": {"type": "integer", "minimum": 0},
+        "supersedes": {"type": ["string", "null"], "description": "invoice_no this revision replaces."},
+        "original_issued_at": {"type": ["string", "null"], "format": "date-time"},
         "seller": {"$ref": "#/definitions/party"},
         "buyer": {"$ref": "#/definitions/party"},
+        "place_of_supply": {"type": "string"},
+        "supply_type": {"enum": ["intra_state", "inter_state"]},
         "items": {
-          "type": "array",
-          "items": {"$ref": "#/definitions/invoice_item"},
-          "minItems": 1
+          "type": "array", "minItems": 1, "maxItems": 5,
+          "items": {"$ref": "#/definitions/invoice_item"}
         },
         "total_taxable_value": {"type": "number", "minimum": 0},
         "total_cgst": {"type": "number", "minimum": 0},
         "total_sgst": {"type": "number", "minimum": 0},
+        "total_igst": {"type": "number", "minimum": 0},
+        "total_tax": {"type": "number", "minimum": 0},
         "invoice_total": {"type": "number", "minimum": 0},
+        "currency": {"enum": ["INR"]},
         "eway_bill_ref": {"type": ["string", "null"]},
         "vehicle_no": {"type": "string"},
         "consignment_ref": {"type": "string"}
       }
     },
-    "party": {
-      "type": "object",
-      "required": ["name", "gstin", "address"],
-      "properties": {
-        "name": {"type": "string"},
-        "gstin": {"type": "string", "pattern": "^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z][0-9A-Z]{2}$"},
-        "address": {"type": "string"}
-      }
-    },
+
     "invoice_item": {
       "type": "object",
       "required": [
-        "description", "hsn_code", "quantity", "unit",
-        "rate_per_unit", "taxable_value", "cgst_rate", "sgst_rate",
-        "cgst_amount", "sgst_amount"
+        "line_no", "description", "hsn_code", "quantity", "unit",
+        "rate_per_unit", "taxable_value", "tax_rate",
+        "cgst_amount", "sgst_amount", "igst_amount"
       ],
+      "additionalProperties": false,
       "properties": {
+        "line_no": {"type": "integer", "minimum": 1},
         "description": {"type": "string"},
-        "hsn_code": {"type": "string"},
-        "quantity": {"type": "number", "minimum": 1},
+        "hsn_code": {"type": "string", "pattern": "^[0-9]{4,8}$"},
+        "quantity": {"type": "number", "exclusiveMinimum": 0},
         "unit": {"type": "string"},
         "rate_per_unit": {"type": "number", "minimum": 0},
         "taxable_value": {"type": "number", "minimum": 0},
-        "cgst_rate": {"type": "number"},
-        "sgst_rate": {"type": "number"},
+        "tax_rate": {"type": "number", "minimum": 0},
         "cgst_amount": {"type": "number", "minimum": 0},
-        "sgst_amount": {"type": "number", "minimum": 0}
+        "sgst_amount": {"type": "number", "minimum": 0},
+        "igst_amount": {"type": "number", "minimum": 0}
       }
     },
+
     "eway_bill": {
       "type": "object",
       "required": [
-        "ewb_no", "generation_date", "valid_until",
+        "ewb_no", "generated_at", "valid_until", "status", "extensions",
+        "doc_type", "doc_no", "doc_date",
         "from_gstin", "from_address", "to_gstin", "to_address",
-        "transporter", "vehicle_no", "consignment_ref",
-        "items", "total_value", "distance_km"
+        "transporter_name", "transporter_id", "mode", "vehicle_no",
+        "consignment_ref", "items", "taxable_value", "total_invoice_value",
+        "distance_km"
       ],
+      "additionalProperties": false,
       "properties": {
-        "ewb_no": {"type": "string"},
-        "generation_date": {"type": "string", "format": "date-time"},
+        "ewb_no": {"type": "string", "pattern": "^[0-9]{12}$"},
+        "generated_at": {"type": "string", "format": "date-time"},
         "valid_until": {"type": "string", "format": "date-time"},
+        "status": {"enum": ["active", "expired", "cancelled"]},
+        "extensions": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/ewb_extension"}
+        },
+        "doc_type": {"enum": ["Tax Invoice", "Bill of Supply", "Delivery Challan"]},
+        "doc_no": {"type": "string", "description": "The invoice_no this permit was raised against."},
+        "doc_date": {"type": "string", "format": "date"},
         "from_gstin": {"type": "string"},
         "from_address": {"type": "string"},
         "to_gstin": {"type": "string"},
         "to_address": {"type": "string"},
-        "transporter": {"type": "string"},
+        "transporter_name": {"type": "string"},
+        "transporter_id": {"type": "string"},
+        "mode": {"enum": ["road", "rail", "air", "ship"]},
         "vehicle_no": {"type": "string"},
         "consignment_ref": {"type": "string"},
         "items": {
-          "type": "array",
-          "items": {"$ref": "#/definitions/eway_item"},
-          "minItems": 1
+          "type": "array", "minItems": 1,
+          "items": {"$ref": "#/definitions/eway_item"}
         },
-        "total_value": {"type": "number", "minimum": 0},
+        "taxable_value": {"type": "number", "minimum": 0},
+        "total_invoice_value": {
+          "type": "number", "minimum": 0,
+          "description": "Tax-inclusive declared value. Comparable to invoice.invoice_total on a like-for-like basis, so clean vs value_mismatch is a real distinction."
+        },
         "distance_km": {"type": "number", "minimum": 0}
       }
     },
+
+    "ewb_extension": {
+      "type": "object",
+      "required": ["extended_at", "new_valid_until", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "extended_at": {"type": "string", "format": "date-time"},
+        "new_valid_until": {"type": "string", "format": "date-time"},
+        "reason": {"type": "string"}
+      }
+    },
+
     "eway_item": {
       "type": "object",
       "required": ["description", "hsn_code", "quantity", "unit"],
+      "additionalProperties": false,
       "properties": {
         "description": {"type": "string"},
         "hsn_code": {"type": "string"},
-        "quantity": {"type": "number", "minimum": 1},
+        "quantity": {"type": "number", "exclusiveMinimum": 0},
         "unit": {"type": "string"}
       }
     },
+
     "erp_order": {
       "type": "object",
       "required": [
-        "po_no", "po_date", "buyer", "vendor_code", "vendor_name",
-        "items", "po_total", "payment_terms", "status",
-        "invoice_refs", "consignment_ref"
+        "po_no", "po_date", "buyer_entity", "vendor_code", "vendor_name",
+        "vendor_gstin", "items", "po_subtotal", "po_tax", "po_total",
+        "currency", "payment_terms", "status", "approval",
+        "invoice_refs", "grn", "consignment_ref"
       ],
+      "additionalProperties": false,
       "properties": {
         "po_no": {"type": "string"},
         "po_date": {"type": "string", "format": "date"},
-        "buyer": {"type": "string"},
+        "buyer_entity": {"type": "string"},
         "vendor_code": {"type": "string"},
         "vendor_name": {"type": "string"},
+        "vendor_gstin": {"type": "string"},
         "items": {
-          "type": "array",
-          "items": {"$ref": "#/definitions/erp_item"},
-          "minItems": 1
+          "type": "array", "minItems": 1,
+          "items": {"$ref": "#/definitions/erp_item"}
         },
+        "po_subtotal": {"type": "number", "minimum": 0},
+        "po_tax": {"type": "number", "minimum": 0},
         "po_total": {"type": "number", "minimum": 0},
+        "currency": {"enum": ["INR"]},
         "payment_terms": {"type": "string"},
-        "status": {"enum": ["fulfilled", "partially_fulfilled", "pending"]},
+        "status": {"enum": ["fulfilled", "partially_fulfilled", "pending", "cancelled"]},
+        "approval": {"$ref": "#/definitions/approval"},
         "invoice_refs": {"type": "array", "items": {"type": "string"}},
+        "grn": {
+          "oneOf": [{"$ref": "#/definitions/grn"}, {"type": "null"}],
+          "description": "Goods receipt note. The only structured record of physical receipt."
+        },
         "consignment_ref": {"type": "string"}
       }
     },
+
+    "approval": {
+      "type": "object",
+      "required": ["approved_by", "approved_at"],
+      "additionalProperties": false,
+      "properties": {
+        "approved_by": {"type": "string"},
+        "approved_at": {"type": "string", "format": "date-time"}
+      }
+    },
+
+    "grn": {
+      "type": "object",
+      "required": ["grn_no", "received_at", "received_by", "lines"],
+      "additionalProperties": false,
+      "properties": {
+        "grn_no": {"type": "string"},
+        "received_at": {"type": "string", "format": "date-time"},
+        "received_by": {"type": "string"},
+        "lines": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["item_code", "quantity_received", "condition"],
+            "additionalProperties": false,
+            "properties": {
+              "item_code": {"type": "string"},
+              "quantity_received": {"type": "number", "minimum": 0},
+              "condition": {"enum": ["ok", "damaged", "short"]}
+            }
+          }
+        }
+      }
+    },
+
     "erp_item": {
       "type": "object",
       "required": [
         "item_code", "description", "quantity_ordered", "unit",
-        "unit_price", "total_value", "expected_delivery"
+        "unit_price", "line_total", "expected_delivery"
       ],
+      "additionalProperties": false,
       "properties": {
         "item_code": {"type": "string"},
         "description": {"type": "string"},
-        "quantity_ordered": {"type": "number", "minimum": 1},
+        "quantity_ordered": {"type": "number", "exclusiveMinimum": 0},
         "unit": {"type": "string"},
         "unit_price": {"type": "number", "minimum": 0},
-        "total_value": {"type": "number", "minimum": 0},
+        "line_total": {"type": "number", "minimum": 0},
         "expected_delivery": {"type": "string", "format": "date"}
       }
     },
+
     "whatsapp_pod": {
       "type": "object",
-      "required": ["thread_id", "driver_name", "driver_phone", "messages"],
+      "required": ["thread_id", "thread_name", "participants", "messages"],
+      "additionalProperties": false,
+      "description": "Operational chat. Deliberately carries NO derived delivery_confirmed / pod_signed_by flags: delivery status must be read out of the code-switched message text, which is what the cross-lingual bucket exists to test.",
       "properties": {
         "thread_id": {"type": "string"},
-        "driver_name": {"type": "string"},
-        "driver_phone": {"type": "string"},
-        "messages": {
-          "type": "array",
-          "items": {"$ref": "#/definitions/message"}
+        "thread_name": {"type": "string"},
+        "participants": {
+          "type": "array", "minItems": 2,
+          "items": {"$ref": "#/definitions/participant"}
         },
-        "delivery_confirmed": {"type": "boolean"},
-        "pod_signed_by": {"type": "string"}
+        "messages": {
+          "type": "array", "minItems": 1,
+          "items": {"$ref": "#/definitions/message"}
+        }
       }
     },
+
+    "participant": {
+      "type": "object",
+      "required": ["participant_id", "name", "role", "phone"],
+      "additionalProperties": false,
+      "properties": {
+        "participant_id": {"type": "string"},
+        "name": {"type": "string"},
+        "role": {"enum": ["driver", "dispatcher", "warehouse", "accounts", "transporter", "buyer_ops"]},
+        "phone": {"type": "string"}
+      }
+    },
+
     "message": {
       "type": "object",
-      "required": ["timestamp", "sender", "text"],
+      "required": ["msg_id", "ts", "sender_id", "sender_name", "lang", "text", "reply_to", "attachments", "edited"],
+      "additionalProperties": false,
       "properties": {
-        "timestamp": {"type": "string", "format": "date-time"},
-        "sender": {"type": "string"},
-        "text": {"type": "string"}
+        "msg_id": {"type": "string", "pattern": "^M-[0-9]{3}$", "description": "Stable id so gold_facts can cite an exact message."},
+        "ts": {"type": "string", "format": "date-time"},
+        "sender_id": {"type": "string"},
+        "sender_name": {"type": "string"},
+        "lang": {
+          "enum": ["en", "hi", "hi-en"],
+          "description": "Aligns the case schema with compiler Message.lang. 'hi' is Devanagari; 'hi-en' is romanised code-switching."
+        },
+        "text": {"type": "string", "minLength": 1},
+        "reply_to": {"type": ["string", "null"]},
+        "attachments": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/attachment"}
+        },
+        "edited": {"type": "boolean"}
+      }
+    },
+
+    "attachment": {
+      "type": "object",
+      "required": ["type", "filename", "caption"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"enum": ["image", "pdf", "voice_note", "location"]},
+        "filename": {"type": "string"},
+        "caption": {"type": ["string", "null"]},
+        "transcript": {"type": ["string", "null"], "description": "Present for voice_note; often code-switched."}
+      }
+    },
+
+    "flag": {
+      "type": "object",
+      "required": ["flag_id", "raised_at", "raised_by", "kind", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "flag_id": {"type": "string"},
+        "raised_at": {"type": "string", "format": "date-time"},
+        "raised_by": {"type": "string"},
+        "kind": {"enum": ["value_query", "compliance_hold", "docs_pending", "damage_claim"]},
+        "note": {"type": "string"}
+      }
+    },
+
+    "event": {
+      "type": "object",
+      "required": ["event_id", "type", "ts", "actor", "doc_ref"],
+      "additionalProperties": false,
+      "properties": {
+        "event_id": {"type": "string", "pattern": "^E-[0-9]{3}$"},
+        "type": {
+          "enum": [
+            "po_raised", "po_approved", "invoice_issued", "invoice_revised",
+            "ewb_generated", "ewb_extended", "ewb_cancelled",
+            "dispatched", "in_transit", "arrived", "delivered",
+            "pod_signed", "grn_recorded", "flag_raised", "payment_released"
+          ]
+        },
+        "ts": {"type": "string", "format": "date-time"},
+        "actor": {"type": "string"},
+        "doc_ref": {"type": ["string", "null"], "description": "Document or message id this event is evidenced by."},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+
+    "gold_fact": {
+      "type": "object",
+      "required": ["fact_id", "doc", "path", "value"],
+      "additionalProperties": false,
+      "description": "One unit of required evidence. Structured so Context Completeness is question-specific and cross-lingual evidence is citable.",
+      "properties": {
+        "fact_id": {"type": "string", "pattern": "^F[0-9]+$"},
+        "doc": {"enum": ["invoice", "eway_bill", "erp_order", "whatsapp_pod", "flag", "events"]},
+        "path": {"type": "string", "description": "Dotted/indexed path within the document, e.g. 'invoice_total' or 'messages[2].text'."},
+        "value": {"type": "string", "description": "Stringified expected value at that path."},
+        "evidence": {
+          "oneOf": [{"$ref": "#/definitions/evidence_span"}, {"type": "null"}]
+        }
+      }
+    },
+
+    "evidence_span": {
+      "type": "object",
+      "required": ["ref_id", "lang", "span"],
+      "additionalProperties": false,
+      "description": "Points at the exact clause carrying the evidence. Required whenever the fact rests on chat text, so a system that ignores non-English content cannot score.",
+      "properties": {
+        "ref_id": {"type": "string", "description": "msg_id or event_id."},
+        "lang": {"enum": ["en", "hi", "hi-en"]},
+        "span": {"type": "string", "description": "Verbatim substring of the cited text."},
+        "gloss_en": {"type": ["string", "null"], "description": "English gloss, for judge rubrics only. Never shown to a system under evaluation."}
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "required": ["generator_version", "seed"],
+      "additionalProperties": false,
+      "properties": {
+        "generator_version": {"type": "string"},
+        "seed": {"type": "integer"},
+        "notes": {"type": ["string", "null"]}
       }
     }
   }

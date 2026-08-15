@@ -1,0 +1,371 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0020",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/62755",
+      "issued_at": "2026-07-21T10:05:25+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Exports",
+        "legal_name": "Gupta Exports",
+        "gstin": "23XQYPT2187F6ZD",
+        "pan": "XQYPT2187F",
+        "address": {
+          "line1": "Plot 170, Export Zone",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "277084",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Banerjee",
+          "email": "sureshb@gupta.com",
+          "phone": "+91-90294-72943"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Manufacturing Private Limited",
+        "legal_name": "Rastogi Manufacturing Pvt. Ltd.",
+        "gstin": "36QQRPX9942N3Z9",
+        "pan": "QQRPX9942N",
+        "address": {
+          "line1": "Unit 162, Logistics Park",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "473709",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Singh",
+          "email": "anitas@rastogi.com",
+          "phone": "+91-80230-36463"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 422.52,
+          "taxable_value": 422520.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 76053.6
+        }
+      ],
+      "total_taxable_value": 422520.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 76053.6,
+      "total_tax": 76053.6,
+      "invoice_total": 498573.6,
+      "currency": "INR",
+      "eway_bill_ref": "755133601121",
+      "vehicle_no": "MP27EG9105",
+      "consignment_ref": "CONS-GUP-RAS-260710-62755"
+    },
+    "eway_bill": {
+      "ewb_no": "755133601121",
+      "generated_at": "2026-07-21T12:38:25+05:30",
+      "valid_until": "2026-07-22T12:38:25+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/62755",
+      "doc_date": "2026-07-21",
+      "from_gstin": "23XQYPT2187F6ZD",
+      "from_address": "Plot 170, Export Zone, Pithampur, Pithampur, Madhya Pradesh - 277084",
+      "to_gstin": "36QQRPX9942N3Z9",
+      "to_address": "Unit 162, Logistics Park, Patancheru, Patancheru, Telangana - 473709",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "09QCDSF3784C1ZT",
+      "mode": "road",
+      "vehicle_no": "MP27EG9105",
+      "consignment_ref": "CONS-GUP-RAS-260710-62755",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1000.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 422520.0,
+      "total_invoice_value": 498573.6,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-62755",
+      "po_date": "2026-07-10",
+      "buyer_entity": "Rastogi Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-5951",
+      "vendor_name": "Gupta Exports",
+      "vendor_gstin": "23XQYPT2187F6ZD",
+      "items": [
+        {
+          "item_code": "ITEM-61738",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 422.52,
+          "line_total": 422520.0,
+          "expected_delivery": "2026-07-28"
+        }
+      ],
+      "po_subtotal": 422520.0,
+      "po_tax": 76053.6,
+      "po_total": 498573.6,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Anita Singh",
+        "approved_at": "2026-07-10T19:49:28+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/62755"
+      ],
+      "grn": {
+        "grn_no": "GRN-62755",
+        "received_at": "2026-07-22T23:32:25+05:30",
+        "received_by": "Anita Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-61738",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-RAS-260710-62755"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-13878",
+      "thread_name": "CONS-GUP-RAS-260710-62755 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Gupta",
+          "role": "driver",
+          "phone": "+91-90294-72943"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90294-72943"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Singh",
+          "role": "warehouse",
+          "phone": "+91-80230-36463"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-21T15:38:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "Sir MP27EG9105 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-21T21:38:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Patancheru गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-22T00:38:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "en",
+          "text": "Consignment received in full at our Patancheru warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-22T01:03:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Singh",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-22T03:32:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-RAS-260710-62755_50.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-23T09:32:25+05:30",
+          "sender_id": "P2",
+          "sender_name": "Suresh Banerjee",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/62755 hai.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-10T11:49:28+05:30",
+      "actor": "Rastogi Manufacturing Pvt. Ltd.",
+      "doc_ref": "PO-2026-62755",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-10T19:49:28+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "PO-2026-62755",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-21T10:05:25+05:30",
+      "actor": "Gupta Exports",
+      "doc_ref": "GST/2026-27/62755",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-21T12:38:25+05:30",
+      "actor": "Gupta Exports",
+      "doc_ref": "755133601121",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-21T15:38:25+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP27EG9105",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-21T21:38:25+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MP27EG9105",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-22T00:38:25+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-GUP-RAS-260710-62755",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-22T03:32:25+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-22T23:32:25+05:30",
+      "actor": "Anita Singh",
+      "doc_ref": "GRN-62755",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-GUP-RAS-260710-62755 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "After, so the sequence is correct: invoice GST/2026-27/62755 was issued on 21 Jul 2026 at 10:05 [INV] and e-way bill 755133601121 was generated 2.5 hours later, on 21 Jul 2026 at 12:38, citing that invoice [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-07-21T10:05:25+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-07-21T12:38:25+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "GST/2026-27/62755",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-80230-36463",
+    "+91-90294-72943",
+    "QQRPX9942N",
+    "XQYPT2187F",
+    "anitas@rastogi.com",
+    "sureshb@gupta.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20262755,
+    "notes": "task=tmp_ok defect=none"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0179",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/78178",
+      "issued_at": "2026-06-03T15:49:50+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Supply Chain P Ltd",
+        "legal_name": "Rastogi Supply Chain Pvt. Ltd.",
+        "gstin": "29QQZPS2291Q1ZC",
+        "pan": "QQZPS2291Q",
+        "address": {
+          "line1": "Plot 204, Export Zone",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "365479",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Mishra",
+          "email": "sameerm@rastogi.in",
+          "phone": "+91-70675-31322"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Industries",
+        "legal_name": "Mehta Brothers Industries",
+        "gstin": "29QQIPT9096B3ZA",
+        "pan": "QQIPT9096B",
+        "address": {
+          "line1": "Unit 64, Logistics Park",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "267241",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Yadav",
+          "email": "sunitay@mehta.co.in",
+          "phone": "+91-70653-81780"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 2529.88,
+          "taxable_value": 1897410.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 170766.9,
+          "sgst_amount": 170766.9,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1897410.0,
+      "total_cgst": 170766.9,
+      "total_sgst": 170766.9,
+      "total_igst": 0.0,
+      "total_tax": 341533.8,
+      "invoice_total": 2238943.8,
+      "currency": "INR",
+      "eway_bill_ref": "178425710820",
+      "vehicle_no": "KA87PZ5234",
+      "consignment_ref": "CONS-RAS-MEH-260529-78178"
+    },
+    "eway_bill": {
+      "ewb_no": "178425710820",
+      "generated_at": "2026-06-03T22:55:50+05:30",
+      "valid_until": "2026-06-04T22:55:50+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/78178",
+      "doc_date": "2026-06-03",
+      "from_gstin": "29QQZPS2291Q1ZC",
+      "from_address": "Plot 204, Export Zone, Electronic City, Electronic City, Karnataka - 365479",
+      "to_gstin": "29QQIPT9096B3ZA",
+      "to_address": "Unit 64, Logistics Park, Peenya, Peenya, Karnataka - 267241",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "23OOMBL6849U1ZT",
+      "mode": "road",
+      "vehicle_no": "KA87PZ5234",
+      "consignment_ref": "CONS-RAS-MEH-260529-78178",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 750.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1897410.0,
+      "total_invoice_value": 2238943.8,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-78178",
+      "po_date": "2026-05-29",
+      "buyer_entity": "Mehta Brothers Industries",
+      "vendor_code": "VND-2425",
+      "vendor_name": "Rastogi Supply Chain P Ltd",
+      "vendor_gstin": "29QQZPS2291Q1ZC",
+      "items": [
+        {
+          "item_code": "ITEM-16861",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 2529.88,
+          "line_total": 1897410.0,
+          "expected_delivery": "2026-06-06"
+        }
+      ],
+      "po_subtotal": 1897410.0,
+      "po_tax": 341533.8,
+      "po_total": 2238943.8,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sunita Yadav",
+        "approved_at": "2026-05-30T13:41:18+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/78178"
+      ],
+      "grn": {
+        "grn_no": "GRN-78178",
+        "received_at": "2026-06-05T02:39:50+05:30",
+        "received_by": "Sunita Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-16861",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-MEH-260529-78178"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-38988",
+      "thread_name": "CONS-RAS-MEH-260529-78178 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Patel",
+          "role": "driver",
+          "phone": "+91-70675-31322"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sameer Mishra",
+          "role": "dispatcher",
+          "phone": "+91-70675-31322"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Yadav",
+          "role": "warehouse",
+          "phone": "+91-70653-81780"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rekha Mishra",
+          "role": "accounts",
+          "phone": "+91-70653-81780"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-04T01:55:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "en",
+          "text": "Vehicle KA87PZ5234 dispatched from Electronic City. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-04T04:55:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-04T07:55:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-04T09:55:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Yadav",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-04T10:05:50+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Yadav",
+          "lang": "hi-en",
+          "text": "Imran bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-04T11:39:50+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-MEH-260529-78178_69.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9283.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-29T14:41:18+05:30",
+      "actor": "Mehta Brothers Industries",
+      "doc_ref": "PO-2026-78178",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-30T13:41:18+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "PO-2026-78178",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-03T15:49:50+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/78178",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-03T22:55:50+05:30",
+      "actor": "Rastogi Supply Chain Pvt. Ltd.",
+      "doc_ref": "178425710820",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-04T01:55:50+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA87PZ5234",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-04T07:55:50+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA87PZ5234",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-04T09:55:50+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-RAS-MEH-260529-78178",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-04T11:39:50+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-05T02:39:50+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "GRN-78178",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice GST/2026-27/78178 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278178,
+    "notes": "task=comp_fields defect=none"
+  }
+}

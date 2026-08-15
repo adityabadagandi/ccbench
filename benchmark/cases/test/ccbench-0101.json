@@ -1,0 +1,353 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0101",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/70612",
+      "issued_at": "2026-02-26T10:49:47+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Exports",
+        "legal_name": "Rastogi Exports",
+        "gstin": "19ZZCCJ5094I7ZU",
+        "pan": "ZZCCJ5094I",
+        "address": {
+          "line1": "Unit 74, Export Zone",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "839785",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Rao",
+          "email": "vijay.rao@rastogi.co.in",
+          "phone": "+91-70232-36118"
+        }
+      },
+      "buyer": {
+        "name": "Sharma Supply Chain Pvt. Ltd",
+        "legal_name": "Sharma Supply Chain Pvt. Ltd.",
+        "gstin": "27XQUPS9496S2ZB",
+        "pan": "XQUPS9496S",
+        "address": {
+          "line1": "Warehouse 196, MIDC",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "116434",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Gupta",
+          "email": "imrang@sharma.com",
+          "phone": "+91-80517-18211"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 3555.82,
+          "taxable_value": 4266984.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 768057.12
+        }
+      ],
+      "total_taxable_value": 4266984.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 768057.12,
+      "total_tax": 768057.12,
+      "invoice_total": 5035041.12,
+      "currency": "INR",
+      "eway_bill_ref": "612814062701",
+      "vehicle_no": "WB24AY8029",
+      "consignment_ref": "CONS-RAS-SHA-260222-70612"
+    },
+    "eway_bill": {
+      "ewb_no": "612814062701",
+      "generated_at": "2026-02-26T17:41:47+05:30",
+      "valid_until": "2026-03-06T17:41:47+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/70612",
+      "doc_date": "2026-02-26",
+      "from_gstin": "19ZZCCJ5094I7ZU",
+      "from_address": "Unit 74, Export Zone, Durgapur, Durgapur, West Bengal - 839785",
+      "to_gstin": "27XQUPS9496S2ZB",
+      "to_address": "Warehouse 196, MIDC, Chakan, Chakan, Maharashtra - 116434",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "09AGNOP7337E1ZT",
+      "mode": "road",
+      "vehicle_no": "WB24AY8029",
+      "consignment_ref": "CONS-RAS-SHA-260222-70612",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 4266984.0,
+      "total_invoice_value": 5035041.12,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-70612",
+      "po_date": "2026-02-22",
+      "buyer_entity": "Sharma Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-1023",
+      "vendor_name": "Rastogi Exports",
+      "vendor_gstin": "19ZZCCJ5094I7ZU",
+      "items": [
+        {
+          "item_code": "ITEM-87402",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 3555.82,
+          "line_total": 4266984.0,
+          "expected_delivery": "2026-03-04"
+        }
+      ],
+      "po_subtotal": 4266984.0,
+      "po_tax": 768057.12,
+      "po_total": 5035041.12,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Imran Gupta",
+        "approved_at": "2026-02-23T18:27:24+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/70612"
+      ],
+      "grn": {
+        "grn_no": "GRN-70612",
+        "received_at": "2026-03-01T03:07:47+05:30",
+        "received_by": "Imran Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-87402",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-SHA-260222-70612"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-71891",
+      "thread_name": "CONS-RAS-SHA-260222-70612 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Reddy",
+          "role": "driver",
+          "phone": "+91-70232-36118"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Rao",
+          "role": "dispatcher",
+          "phone": "+91-70232-36118"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Gupta",
+          "role": "warehouse",
+          "phone": "+91-80517-18211"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Dinesh Kumar",
+          "role": "accounts",
+          "phone": "+91-80517-18211"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-26T19:41:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi-en",
+          "text": "WB24AY8029 dispatch ho gayi Durgapur se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-27T11:11:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Chakan.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-28T02:41:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Chakan गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-28T03:21:47+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Gupta",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-28T05:41:47+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-28T05:56:47+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-28T07:07:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-SHA-260222-70612_81.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-22T19:27:24+05:30",
+      "actor": "Sharma Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-70612",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-23T18:27:24+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "PO-2026-70612",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-26T10:49:47+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "TAX/2026-27/70612",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-26T17:41:47+05:30",
+      "actor": "Rastogi Exports",
+      "doc_ref": "612814062701",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-26T19:41:47+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB24AY8029",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-28T02:41:47+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "WB24AY8029",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-28T05:41:47+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-RAS-SHA-260222-70612",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-28T07:07:47+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-01T03:07:47+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "GRN-70612",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने पुष्टि की है कि खेप CONS-RAS-SHA-260222-70612 पहुँच गई?",
+  "question_lang": "hi",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270612,
+    "notes": "task=xl_delivered_hi defect=none"
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0042",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/64889",
+      "issued_at": "2026-06-08T09:41:10+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Pillai Distributors",
+        "legal_name": "Pillai Distributors",
+        "gstin": "29ZZQCT3202T1ZZ",
+        "pan": "ZZQCT3202T",
+        "address": {
+          "line1": "Plot 102, Phase II",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "828848",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Nair",
+          "email": "rajeshn@pillai.co.in",
+          "phone": "+91-90175-44621"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Supply Chain Pvt. Ltd",
+        "legal_name": "Pillai Supply Chain Pvt. Ltd.",
+        "gstin": "23ZZMCA4217O9Z0",
+        "pan": "ZZMCA4217O",
+        "address": {
+          "line1": "Plot 115, MIDC",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "313520",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Patel",
+          "email": "imranp@pillai.co.in",
+          "phone": "+91-80203-69470"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 34103.89,
+          "taxable_value": 1705194.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 306935.01
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 200.41,
+          "taxable_value": 50102.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 9018.45
+        }
+      ],
+      "total_taxable_value": 1755297.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 315953.46,
+      "total_tax": 315953.46,
+      "invoice_total": 2071250.46,
+      "currency": "INR",
+      "eway_bill_ref": "889912930993",
+      "vehicle_no": "KA17YJ2249",
+      "consignment_ref": "CONS-PIL-PIL-260528-64889"
+    },
+    "eway_bill": {
+      "ewb_no": "889912930993",
+      "generated_at": "2026-06-08T12:14:10+05:30",
+      "valid_until": "2026-06-14T12:14:10+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/64889",
+      "doc_date": "2026-06-08",
+      "from_gstin": "29ZZQCT3202T1ZZ",
+      "from_address": "Plot 102, Phase II, Peenya, Peenya, Karnataka - 828848",
+      "to_gstin": "23ZZMCA4217O9Z0",
+      "to_address": "Plot 115, MIDC, Pithampur, Pithampur, Madhya Pradesh - 313520",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "27FALAV7891T1ZT",
+      "mode": "road",
+      "vehicle_no": "KA17YJ2249",
+      "consignment_ref": "CONS-PIL-PIL-260528-64889",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1755297.0,
+      "total_invoice_value": 2071150.46,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-64889",
+      "po_date": "2026-05-28",
+      "buyer_entity": "Pillai Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-7842",
+      "vendor_name": "Pillai Distributors",
+      "vendor_gstin": "29ZZQCT3202T1ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-15021",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 34103.89,
+          "line_total": 1705194.5,
+          "expected_delivery": "2026-06-10"
+        },
+        {
+          "item_code": "ITEM-67347",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 200.41,
+          "line_total": 50102.5,
+          "expected_delivery": "2026-06-17"
+        }
+      ],
+      "po_subtotal": 1755297.0,
+      "po_tax": 315953.46,
+      "po_total": 2071250.46,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Imran Patel",
+        "approved_at": "2026-05-29T11:41:45+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/64889"
+      ],
+      "grn": {
+        "grn_no": "GRN-64889",
+        "received_at": "2026-06-10T02:29:10+05:30",
+        "received_by": "Imran Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-15021",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-67347",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PIL-PIL-260528-64889"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-46785",
+      "thread_name": "CONS-PIL-PIL-260528-64889 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Gupta",
+          "role": "driver",
+          "phone": "+91-90175-44621"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rajesh Nair",
+          "role": "dispatcher",
+          "phone": "+91-90175-44621"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Patel",
+          "role": "warehouse",
+          "phone": "+91-80203-69470"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-08T15:14:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "KA17YJ2249 dispatch ho gayi Peenya se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-09T04:14:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Pithampur.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-09T17:14:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi",
+          "text": "गाड़ी Pithampur गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-09T20:14:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-09T20:53:10+05:30",
+          "sender_id": "P3",
+          "sender_name": "Imran Patel",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-09T21:29:10+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PIL-PIL-260528-64889_10.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-10T05:29:10+05:30",
+          "sender_id": "P2",
+          "sender_name": "Rajesh Nair",
+          "lang": "en",
+          "text": "Flagging a mismatch: permit declares Rs. 2,071,150.46 against an invoice of Rs. 2,071,250.46. Please confirm which is correct.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-97742",
+      "raised_at": "2026-06-10T09:29:10+05:30",
+      "raised_by": "Imran Patel",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-28T09:41:45+05:30",
+      "actor": "Pillai Supply Chain Pvt. Ltd.",
+      "doc_ref": "PUR-2026-64889",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-29T11:41:45+05:30",
+      "actor": "Imran Patel",
+      "doc_ref": "PUR-2026-64889",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-08T09:41:10+05:30",
+      "actor": "Pillai Distributors",
+      "doc_ref": "GST/2026-27/64889",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-08T12:14:10+05:30",
+      "actor": "Pillai Distributors",
+      "doc_ref": "889912930993",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-08T15:14:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA17YJ2249",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-09T17:14:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA17YJ2249",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-09T20:14:10+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-PIL-PIL-260528-64889",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-09T21:29:10+05:30",
+      "actor": "Imran Patel",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-10T02:29:10+05:30",
+      "actor": "Imran Patel",
+      "doc_ref": "GRN-64889",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-PIL-PIL-260528-64889?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264889,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

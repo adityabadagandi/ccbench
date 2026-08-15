@@ -1,0 +1,434 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0079",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/68478",
+      "issued_at": "2026-06-24T13:49:55+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Industries",
+        "legal_name": "Iyer Industries",
+        "gstin": "09XQDPG7648B2Z2",
+        "pan": "XQDPG7648B",
+        "address": {
+          "line1": "Shed 208, Phase II",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "542358",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Singh",
+          "email": "vsingh@iyer.in",
+          "phone": "+91-70989-28368"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Engineering Works",
+        "legal_name": "Gupta Engineering Works",
+        "gstin": "09QQBCF0162Y2ZS",
+        "pan": "QQBCF0162Y",
+        "address": {
+          "line1": "Warehouse 225, Industrial Area",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "799846",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Desai",
+          "email": "mdesai@gupta.com",
+          "phone": "+91-70453-47115"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 345.21,
+          "taxable_value": 172605.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 15534.45,
+          "sgst_amount": 15534.45,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 172605.0,
+      "total_cgst": 15534.45,
+      "total_sgst": 15534.45,
+      "total_igst": 0.0,
+      "total_tax": 31068.9,
+      "invoice_total": 203673.9,
+      "currency": "INR",
+      "eway_bill_ref": "478290656178",
+      "vehicle_no": "UP66MR6988",
+      "consignment_ref": "CONS-IYE-GUP-260618-68478"
+    },
+    "eway_bill": {
+      "ewb_no": "478290656178",
+      "generated_at": "2026-06-24T14:55:55+05:30",
+      "valid_until": "2026-06-26T14:55:55+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/68478",
+      "doc_date": "2026-06-24",
+      "from_gstin": "09XQDPG7648B2Z2",
+      "from_address": "Shed 208, Phase II, Ghaziabad, Ghaziabad, Uttar Pradesh - 542358",
+      "to_gstin": "09QQBCF0162Y2ZS",
+      "to_address": "Warehouse 225, Industrial Area, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 799846",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "19SGSRS9022V1ZT",
+      "mode": "road",
+      "vehicle_no": "UP66MR6988",
+      "consignment_ref": "CONS-IYE-GUP-260618-68478",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 172605.0,
+      "total_invoice_value": 203673.9,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-68478",
+      "po_date": "2026-06-18",
+      "buyer_entity": "Gupta Engineering Works",
+      "vendor_code": "VND-2046",
+      "vendor_name": "Iyer Industries",
+      "vendor_gstin": "09XQDPG7648B2Z2",
+      "items": [
+        {
+          "item_code": "ITEM-56582",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 345.21,
+          "line_total": 172605.0,
+          "expected_delivery": "2026-07-01"
+        }
+      ],
+      "po_subtotal": 172605.0,
+      "po_tax": 31068.9,
+      "po_total": 203673.9,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Mahesh Desai",
+        "approved_at": "2026-06-18T23:49:15+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/68478"
+      ],
+      "grn": {
+        "grn_no": "GRN-68478",
+        "received_at": "2026-06-27T13:34:55+05:30",
+        "received_by": "Mahesh Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-56582",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-GUP-260618-68478"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-23282",
+      "thread_name": "CONS-IYE-GUP-260618-68478 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Yadav",
+          "role": "driver",
+          "phone": "+91-70989-28368"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Singh",
+          "role": "dispatcher",
+          "phone": "+91-70989-28368"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Mahesh Desai",
+          "role": "warehouse",
+          "phone": "+91-70453-47115"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-24T19:55:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi",
+          "text": "सर UP66MR6988 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-24T20:52:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-25T14:55:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-26T09:55:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-27T03:55:55+05:30",
+          "sender_id": "P2",
+          "sender_name": "Vijay Singh",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 26 Jun 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-27T04:55:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Noida Sector 63 गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-27T05:32:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Desai",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-27T07:55:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-06-27T08:27:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-010",
+          "ts": "2026-06-27T09:34:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-009",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-GUP-260618-68478_24.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-18T09:49:15+05:30",
+      "actor": "Gupta Engineering Works",
+      "doc_ref": "PO-2026-68478",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-18T23:49:15+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "PO-2026-68478",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-24T13:49:55+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "INV/2026-27/68478",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-24T14:55:55+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "478290656178",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-24T19:55:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "UP66MR6988",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-27T04:55:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "UP66MR6988",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-27T07:55:55+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-IYE-GUP-260618-68478",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-27T09:34:55+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "M-010",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-27T13:34:55+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "GRN-68478",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-IYE-GUP-260618-68478 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "gold_answer": "No — e-way bill 478290656178 was valid until 26 Jun 2026 at 14:55 and is now marked expired [EWB], but delivery is recorded at 27 Jun 2026 at 07:55, 17 hours after expiry [TIMELINE]. The lapse was noted on the delivery thread at the time [M-005].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "478290656178",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "valid_until",
+      "value": "2026-06-26T14:55:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "status",
+      "value": "expired",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-007.ts",
+      "value": "2026-06-27T07:55:55+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "whatsapp_pod",
+      "path": "M-005.text",
+      "value": "Sir e-way bill ki validity 26 Jun 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+      "evidence": {
+        "ref_id": "M-005",
+        "lang": "hi-en",
+        "span": "validity 26 Jun 2026 ko khatam ho gayi thi",
+        "gloss_en": "validity expired on 26 Jun 2026"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70453-47115",
+    "+91-70989-28368",
+    "QQBCF0162Y",
+    "XQDPG7648B",
+    "mdesai@gupta.com",
+    "vsingh@iyer.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268478,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

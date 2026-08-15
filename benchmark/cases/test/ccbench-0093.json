@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0093",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/69836",
+      "issued_at": "2026-04-17T10:12:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Distributors",
+        "legal_name": "Iyer Distributors",
+        "gstin": "36XQPCD4719V5ZX",
+        "pan": "XQPCD4719V",
+        "address": {
+          "line1": "Shed 89, Export Zone",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "858516",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Rao",
+          "email": "lakshmi.rao@iyer.co.in",
+          "phone": "+91-90399-76146"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Polymers Ltd.",
+        "legal_name": "Krishna Polymers Ltd.",
+        "gstin": "19ZZSCV5327W5ZM",
+        "pan": "ZZSCV5327W",
+        "address": {
+          "line1": "Unit 226, Export Zone",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "235222",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Reddy",
+          "email": "arjunr@krishna.co.in",
+          "phone": "+91-80150-89854"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 109.64,
+          "taxable_value": 54820.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2741.0
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 13488.7,
+          "taxable_value": 5395480.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 971186.4
+        }
+      ],
+      "total_taxable_value": 5450300.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 973927.4,
+      "total_tax": 973927.4,
+      "invoice_total": 6424227.4,
+      "currency": "INR",
+      "eway_bill_ref": "836897539231",
+      "vehicle_no": "TS84SC6035",
+      "consignment_ref": "CONS-IYE-KRI-260414-69836"
+    },
+    "eway_bill": {
+      "ewb_no": "836897539231",
+      "generated_at": "2026-04-17T17:45:17+05:30",
+      "valid_until": "2026-04-18T17:45:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/69836",
+      "doc_date": "2026-04-17",
+      "from_gstin": "36XQPCD4719V5ZX",
+      "from_address": "Shed 89, Export Zone, Patancheru, Patancheru, Telangana - 858516",
+      "to_gstin": "19ZZSCV5327W5ZM",
+      "to_address": "Unit 226, Export Zone, Salt Lake, Salt Lake, West Bengal - 235222",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "07LAYLS5403A1ZT",
+      "mode": "road",
+      "vehicle_no": "TS84SC6035",
+      "consignment_ref": "CONS-IYE-KRI-260414-69836",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 500.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 5450300.0,
+      "total_invoice_value": 6424227.4,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-69836",
+      "po_date": "2026-04-14",
+      "buyer_entity": "Krishna Polymers Ltd.",
+      "vendor_code": "VND-2293",
+      "vendor_name": "Iyer Distributors",
+      "vendor_gstin": "36XQPCD4719V5ZX",
+      "items": [
+        {
+          "item_code": "ITEM-96734",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 109.64,
+          "line_total": 54820.0,
+          "expected_delivery": "2026-04-20"
+        },
+        {
+          "item_code": "ITEM-87672",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 13488.7,
+          "line_total": 5395480.0,
+          "expected_delivery": "2026-04-25"
+        }
+      ],
+      "po_subtotal": 5450300.0,
+      "po_tax": 973927.4,
+      "po_total": 6424227.4,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Arjun Reddy",
+        "approved_at": "2026-04-15T04:27:55+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/69836"
+      ],
+      "grn": {
+        "grn_no": "GRN-69836",
+        "received_at": "2026-04-18T23:42:17+05:30",
+        "received_by": "Arjun Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-96734",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-87672",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-KRI-260414-69836"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-74241",
+      "thread_name": "CONS-IYE-KRI-260414-69836 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-90399-76146"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Rao",
+          "role": "dispatcher",
+          "phone": "+91-90399-76146"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Reddy",
+          "role": "warehouse",
+          "phone": "+91-80150-89854"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-17T21:45:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Vehicle TS84SC6035 dispatched from Patancheru. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-18T00:45:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Salt Lake pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_223.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-18T03:45:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Salt Lake warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-18T05:45:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Reddy",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-18T06:03:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Reddy",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-18T08:42:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-KRI-260414-69836_83.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-19T09:42:17+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Rao",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/69836 hain.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-14T18:27:55+05:30",
+      "actor": "Krishna Polymers Ltd.",
+      "doc_ref": "PUR-2026-69836",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-15T04:27:55+05:30",
+      "actor": "Arjun Reddy",
+      "doc_ref": "PUR-2026-69836",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-17T10:12:17+05:30",
+      "actor": "Iyer Distributors",
+      "doc_ref": "INV/2026-27/69836",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-17T17:45:17+05:30",
+      "actor": "Iyer Distributors",
+      "doc_ref": "836897539231",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-17T21:45:17+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS84SC6035",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-18T03:45:17+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS84SC6035",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-18T05:45:17+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-IYE-KRI-260414-69836",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-18T08:42:17+05:30",
+      "actor": "Arjun Reddy",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-18T23:42:17+05:30",
+      "actor": "Arjun Reddy",
+      "doc_ref": "GRN-69836",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice INV/2026-27/69836 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269836,
+    "notes": "task=comp_fields defect=none"
+  }
+}

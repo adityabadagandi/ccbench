@@ -1,0 +1,402 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0010",
+  "bucket": "compliance",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/61785",
+      "issued_at": "2026-05-28T14:05:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Polymers Ltd.",
+        "legal_name": "Singh & Sons Polymers Ltd.",
+        "gstin": "06XQQPQ4101U4ZU",
+        "pan": "XQQPQ4101U",
+        "address": {
+          "line1": "Godown 231, Export Zone",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "715304",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Banerjee",
+          "email": "farhan.banerjee@singh.com",
+          "phone": "+91-70826-40477"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Trading & Co.",
+        "legal_name": "Deshmukh Trading Co.",
+        "gstin": "07ZZGCT0371P5ZL",
+        "pan": "ZZGCT0371P",
+        "address": {
+          "line1": "Unit 62, Phase II",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "552812",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Joshi",
+          "email": "nikhilj@deshmukh.in",
+          "phone": "+91-70952-49234"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 252.27,
+          "taxable_value": 252270.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 45408.6
+        }
+      ],
+      "total_taxable_value": 252270.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 45408.6,
+      "total_tax": 45408.6,
+      "invoice_total": 297678.6,
+      "currency": "INR",
+      "eway_bill_ref": "785197129418",
+      "vehicle_no": "HR58GG2274",
+      "consignment_ref": "CONS-SIN-DES-260521-61785"
+    },
+    "eway_bill": {
+      "ewb_no": "785197129418",
+      "generated_at": "2026-05-28T20:24:49+05:30",
+      "valid_until": "2026-06-03T20:24:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/61785",
+      "doc_date": "2026-05-28",
+      "from_gstin": "06XQQPQ4101U4ZU",
+      "from_address": "Godown 231, Export Zone, Faridabad, Faridabad, Haryana - 715304",
+      "to_gstin": "07ZZGCT0371P5ZL",
+      "to_address": "Unit 62, Phase II, Okhla Phase II, Okhla Phase II, Delhi - 552812",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "19IZQIP1260O1ZT",
+      "mode": "road",
+      "vehicle_no": "HR58GG2274",
+      "consignment_ref": "CONS-SIN-DES-260521-61785",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 1000.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 252270.0,
+      "total_invoice_value": 297678.6,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61785",
+      "po_date": "2026-05-21",
+      "buyer_entity": "Deshmukh Trading Co.",
+      "vendor_code": "VND-9702",
+      "vendor_name": "Singh & Sons Polymers Ltd.",
+      "vendor_gstin": "06XQQPQ4101U4ZU",
+      "items": [
+        {
+          "item_code": "ITEM-52744",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 252.27,
+          "line_total": 252270.0,
+          "expected_delivery": "2026-06-03"
+        }
+      ],
+      "po_subtotal": 252270.0,
+      "po_tax": 45408.6,
+      "po_total": 297678.6,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Joshi",
+        "approved_at": "2026-05-22T00:12:03+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/61785"
+      ],
+      "grn": {
+        "grn_no": "GRN-61785",
+        "received_at": "2026-05-30T04:18:49+05:30",
+        "received_by": "Nikhil Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-52744",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-DES-260521-61785"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-74162",
+      "thread_name": "CONS-SIN-DES-260521-61785 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Yadav",
+          "role": "driver",
+          "phone": "+91-70826-40477"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70826-40477"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Joshi",
+          "role": "warehouse",
+          "phone": "+91-70952-49234"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Nair",
+          "role": "accounts",
+          "phone": "+91-70952-49234"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-28T23:24:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Yadav",
+          "lang": "en",
+          "text": "Vehicle HR58GG2274 dispatched from Faridabad. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-29T00:44:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Yadav",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-29T10:54:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Yadav",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Okhla Phase II.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-29T22:24:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Okhla Phase II गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-29T23:24:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "en",
+          "text": "Consignment received in full at our Okhla Phase II warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-30T00:01:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-30T01:18:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-DES-260521-61785_23.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-21T10:12:03+05:30",
+      "actor": "Deshmukh Trading Co.",
+      "doc_ref": "PUR-2026-61785",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-22T00:12:03+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "PUR-2026-61785",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-28T14:05:49+05:30",
+      "actor": "Singh & Sons Polymers Ltd.",
+      "doc_ref": "INV/2026-27/61785",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-28T20:24:49+05:30",
+      "actor": "Singh & Sons Polymers Ltd.",
+      "doc_ref": "785197129418",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-28T23:24:49+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR58GG2274",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-29T22:24:49+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR58GG2274",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-29T23:24:49+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SIN-DES-260521-61785",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-30T01:18:49+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-30T04:18:49+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "GRN-61785",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice INV/2026-27/61785 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "gold_answer": "Four categories must be restricted on invoice INV/2026-27/61785 [INV]. The seller's and buyer's PANs are denied outright and must not be emitted [INV]. Both GSTINs must be masked to their last four characters — the seller's as XXXXXXXXXXXU4ZU and the buyer's as XXXXXXXXXXXP5ZL [INV]. The named contacts' email addresses and phone numbers are personal data and must be withheld [INV]. Everything else — line items, HSN codes, quantities, the tax breakdown and the total of Rs. 297,678.60 — may be emitted unchanged [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/61785",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "XQQPQ4101U",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "06XQQPQ4101U4ZU",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "seller.contact.email",
+      "value": "farhan.banerjee@singh.com",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "buyer.pan",
+      "value": "ZZGCT0371P",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70826-40477",
+    "+91-70952-49234",
+    "XQQPQ4101U",
+    "ZZGCT0371P",
+    "farhan.banerjee@singh.com",
+    "nikhilj@deshmukh.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261785,
+    "notes": "task=comp_fields defect=none"
+  }
+}

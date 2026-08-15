@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0103",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/70806",
+      "issued_at": "2026-03-06T09:12:36+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Supply Chain Pvt. Limited",
+        "legal_name": "Gupta Supply Chain Pvt. Ltd.",
+        "gstin": "09XQJCZ3556H1ZY",
+        "pan": "XQJCZ3556H",
+        "address": {
+          "line1": "Godown 128, Phase II",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "563143",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Rao",
+          "email": "lakshmi.rao@gupta.in",
+          "phone": "+91-70727-35664"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Trading Company",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "09QQPPK4673J8ZL",
+        "pan": "QQPPK4673J",
+        "address": {
+          "line1": "Plot 124, Logistics Park",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "297136",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Rao",
+          "email": "vijayr@krishna.co.in",
+          "phone": "+91-80300-30717"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 4618.86,
+          "taxable_value": 4618860.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 646640.4,
+          "sgst_amount": 646640.4,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 45.17,
+          "taxable_value": 45170.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 4065.3,
+          "sgst_amount": 4065.3,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 238.43,
+          "taxable_value": 178822.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 16094.02,
+          "sgst_amount": 16094.029999999999,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 4842852.5,
+      "total_cgst": 666799.72,
+      "total_sgst": 666799.73,
+      "total_igst": 0.0,
+      "total_tax": 1333599.45,
+      "invoice_total": 6176451.95,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP74GT3154",
+      "consignment_ref": "CONS-GUP-KRI-260225-70806"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-70806",
+      "po_date": "2026-02-25",
+      "buyer_entity": "Krishna Trading Co.",
+      "vendor_code": "VND-6068",
+      "vendor_name": "Gupta Supply Chain Pvt. Limited",
+      "vendor_gstin": "09XQJCZ3556H1ZY",
+      "items": [
+        {
+          "item_code": "ITEM-18998",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 4618.86,
+          "line_total": 4618860.0,
+          "expected_delivery": "2026-03-14"
+        },
+        {
+          "item_code": "ITEM-88519",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 45.17,
+          "line_total": 45170.0,
+          "expected_delivery": "2026-03-11"
+        },
+        {
+          "item_code": "ITEM-20442",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 238.43,
+          "line_total": 178822.5,
+          "expected_delivery": "2026-03-09"
+        }
+      ],
+      "po_subtotal": 4842852.5,
+      "po_tax": 1333599.45,
+      "po_total": 6176451.95,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Vijay Rao",
+        "approved_at": "2026-02-25T22:34:25+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/70806"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-GUP-KRI-260225-70806"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-96896",
+      "thread_name": "CONS-GUP-KRI-260225-70806 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-70727-35664"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Rao",
+          "role": "dispatcher",
+          "phone": "+91-70727-35664"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Rao",
+          "role": "warehouse",
+          "phone": "+91-80300-30717"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-06T19:18:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "UP74GT3154 dispatch ho gayi Lucknow se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-07T02:18:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-07T05:18:36+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Rao",
+          "lang": "hi-en",
+          "text": "Ruko wahin. Main abhi portal se e-way bill generate karwata hoon.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-25T19:34:25+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "PO-2026-70806",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-25T22:34:25+05:30",
+      "actor": "Vijay Rao",
+      "doc_ref": "PO-2026-70806",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-06T09:12:36+05:30",
+      "actor": "Gupta Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/70806",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-03-06T19:18:36+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP74GT3154",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-03-08T17:18:36+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP74GT3154",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-03-08T20:18:36+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-GUP-KRI-260225-70806",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-03-08T21:26:36+05:30",
+      "actor": "Vijay Rao",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "What did the driver report about consignment CONS-GUP-KRI-260225-70806 while in transit?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270806,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0176",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77887",
+      "issued_at": "2026-02-17T16:41:03+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Engineering Works",
+        "legal_name": "Krishna Engineering Works",
+        "gstin": "29XQBCJ2744V3ZZ",
+        "pan": "XQBCJ2744V",
+        "address": {
+          "line1": "Warehouse 166, Export Zone",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "335425",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Desai",
+          "email": "kdesai@krishna.co.in",
+          "phone": "+91-90602-66723"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Logistics Pvt Ltd",
+        "legal_name": "Pillai Logistics Pvt. Ltd.",
+        "gstin": "33ZZFCL4264I3ZJ",
+        "pan": "ZZFCL4264I",
+        "address": {
+          "line1": "Shed 15, MIDC",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "494389",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Patel",
+          "email": "vijay.patel@pillai.com",
+          "phone": "+91-70247-91767"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 6753.75,
+          "taxable_value": 2701500.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 756420.0
+        },
+        {
+          "line_no": 2,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 4559.5,
+          "taxable_value": 4559500.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1276660.0
+        }
+      ],
+      "total_taxable_value": 7261000.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2033080.0,
+      "total_tax": 2033080.0,
+      "invoice_total": 9294080.0,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "KA37ZW8286",
+      "consignment_ref": "CONS-KRI-PIL-260209-77887"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PUR-2026-77887",
+      "po_date": "2026-02-09",
+      "buyer_entity": "Pillai Logistics Pvt. Ltd.",
+      "vendor_code": "VND-6251",
+      "vendor_name": "Krishna Engineering Works",
+      "vendor_gstin": "29XQBCJ2744V3ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-47891",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 6753.75,
+          "line_total": 2701500.0,
+          "expected_delivery": "2026-02-24"
+        },
+        {
+          "item_code": "ITEM-10867",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 4559.5,
+          "line_total": 4559500.0,
+          "expected_delivery": "2026-02-24"
+        }
+      ],
+      "po_subtotal": 7261000.0,
+      "po_tax": 2033080.0,
+      "po_total": 9294080.0,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Vijay Patel",
+        "approved_at": "2026-02-10T14:34:06+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77887"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-KRI-PIL-260209-77887"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-70221",
+      "thread_name": "CONS-KRI-PIL-260209-77887 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Yadav",
+          "role": "driver",
+          "phone": "+91-90602-66723"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Desai",
+          "role": "dispatcher",
+          "phone": "+91-90602-66723"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Patel",
+          "role": "warehouse",
+          "phone": "+91-70247-91767"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Imran Kumar",
+          "role": "accounts",
+          "phone": "+91-70247-91767"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-17T20:47:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi",
+          "text": "सर KA37ZW8286 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-17T21:59:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-18T01:47:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Inspector ne gaadi rok li. Bol rahe hain e-way bill ke bina aage nahi ja sakti.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-18T06:47:03+05:30",
+          "sender_id": "P2",
+          "sender_name": "Kavita Desai",
+          "lang": "hi-en",
+          "text": "Ruko wahin. Main abhi portal se e-way bill generate karwata hoon.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-86804",
+      "raised_at": "2026-02-20T03:02:03+05:30",
+      "raised_by": "Vijay Patel",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-09T15:34:06+05:30",
+      "actor": "Pillai Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-77887",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-10T14:34:06+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": "PUR-2026-77887",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-17T16:41:03+05:30",
+      "actor": "Krishna Engineering Works",
+      "doc_ref": "GST/2026-27/77887",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-02-17T20:47:03+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "KA37ZW8286",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-02-18T20:47:03+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "KA37ZW8286",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-02-18T22:47:03+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-KRI-PIL-260209-77887",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-02-19T00:02:03+05:30",
+      "actor": "Vijay Patel",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-KRI-PIL-260209-77887 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277887,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0144",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/74783",
+      "issued_at": "2026-07-17T10:18:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Bhatia Engineering Works",
+        "legal_name": "Bhatia Engineering Works",
+        "gstin": "06XQICU0584R9ZT",
+        "pan": "XQICU0584R",
+        "address": {
+          "line1": "Shed 214, Logistics Park",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "441378",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Singh",
+          "email": "lakshmi.singh@bhatia.in",
+          "phone": "+91-90908-69721"
+        }
+      },
+      "buyer": {
+        "name": "Verma Engineering Works",
+        "legal_name": "Verma Engineering Works",
+        "gstin": "09XQPPH9422Q4ZW",
+        "pan": "XQPPH9422Q",
+        "address": {
+          "line1": "Warehouse 21, Export Zone",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "862645",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Banerjee",
+          "email": "sunitab@verma.co.in",
+          "phone": "+91-80771-90827"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 120.74,
+          "taxable_value": 90555.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 16299.9
+        }
+      ],
+      "total_taxable_value": 90555.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 16299.9,
+      "total_tax": 16299.9,
+      "invoice_total": 106854.9,
+      "currency": "INR",
+      "eway_bill_ref": "783136200481",
+      "vehicle_no": "HR66LZ6832",
+      "consignment_ref": "CONS-BHA-VER-260710-74783"
+    },
+    "eway_bill": {
+      "ewb_no": "783136200481",
+      "generated_at": "2026-07-17T15:10:17+05:30",
+      "valid_until": "2026-07-23T15:10:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/74783",
+      "doc_date": "2026-07-17",
+      "from_gstin": "06XQICU0584R9ZT",
+      "from_address": "Shed 214, Logistics Park, Panipat, Panipat, Haryana - 441378",
+      "to_gstin": "09XQPPH9422Q4ZW",
+      "to_address": "Warehouse 21, Export Zone, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 862645",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "23PTOLJ9239Q1ZT",
+      "mode": "road",
+      "vehicle_no": "HR66LZ6832",
+      "consignment_ref": "CONS-BHA-VER-260710-74783",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 90555.0,
+      "total_invoice_value": 106854.9,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-74783",
+      "po_date": "2026-07-10",
+      "buyer_entity": "Verma Engineering Works",
+      "vendor_code": "VND-2551",
+      "vendor_name": "Bhatia Engineering Works",
+      "vendor_gstin": "06XQICU0584R9ZT",
+      "items": [
+        {
+          "item_code": "ITEM-80413",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 120.74,
+          "line_total": 90555.0,
+          "expected_delivery": "2026-07-26"
+        }
+      ],
+      "po_subtotal": 90555.0,
+      "po_tax": 16299.9,
+      "po_total": 106854.9,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sunita Banerjee",
+        "approved_at": "2026-07-10T20:12:47+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/74783"
+      ],
+      "grn": {
+        "grn_no": "GRN-74783",
+        "received_at": "2026-07-17T11:36:17+05:30",
+        "received_by": "Sunita Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-80413",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-BHA-VER-260710-74783"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-96132",
+      "thread_name": "CONS-BHA-VER-260710-74783 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-90908-69721"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Lakshmi Singh",
+          "role": "dispatcher",
+          "phone": "+91-90908-69721"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Banerjee",
+          "role": "warehouse",
+          "phone": "+91-80771-90827"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-17T06:10:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Noida Sector 63 गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-17T07:10:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Banerjee",
+          "lang": "en",
+          "text": "Consignment received in full at our Noida Sector 63 warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-17T07:36:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-BHA-VER-260710-74783_73.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-17T07:50:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Banerjee",
+          "lang": "hi-en",
+          "text": "Dinesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-17T11:10:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Noida Sector 63 pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_535.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-17T15:36:17+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Singh",
+          "lang": "en",
+          "text": "The POD timestamp precedes the dispatch timestamp. Please verify the entry.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-17T16:10:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Vehicle HR66LZ6832 dispatched from Panipat. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-18T00:36:17+05:30",
+          "sender_id": "P2",
+          "sender_name": "Lakshmi Singh",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/74783 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-25904",
+      "raised_at": "2026-07-17T13:36:17+05:30",
+      "raised_by": "Sunita Banerjee",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-10T14:12:47+05:30",
+      "actor": "Verma Engineering Works",
+      "doc_ref": "ORD-2026-74783",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-10T20:12:47+05:30",
+      "actor": "Sunita Banerjee",
+      "doc_ref": "ORD-2026-74783",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-07-17T06:10:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR66LZ6832",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-07-17T07:10:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-BHA-VER-260710-74783",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-07-17T07:36:17+05:30",
+      "actor": "Sunita Banerjee",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-07-17T10:18:17+05:30",
+      "actor": "Bhatia Engineering Works",
+      "doc_ref": "GST/2026-27/74783",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-07-17T11:36:17+05:30",
+      "actor": "Sunita Banerjee",
+      "doc_ref": "GRN-74783",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-07-17T15:10:17+05:30",
+      "actor": "Bhatia Engineering Works",
+      "doc_ref": "783136200481",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-07-17T16:10:17+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "HR66LZ6832",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-BHA-VER-260710-74783 internally consistent?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274783,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

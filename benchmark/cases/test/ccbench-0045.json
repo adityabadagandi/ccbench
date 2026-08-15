@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0045",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/65180",
+      "issued_at": "2026-04-22T13:12:35+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Industries",
+        "legal_name": "Agarwal Industries",
+        "gstin": "19QQQPS5515T6Z8",
+        "pan": "QQQPS5515T",
+        "address": {
+          "line1": "Unit 170, MIDC",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "841413",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Yadav",
+          "email": "rekhay@agarwal.in",
+          "phone": "+91-70962-33573"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Industries",
+        "legal_name": "Kulkarni Industries",
+        "gstin": "09QQOCN2326L5ZO",
+        "pan": "QQOCN2326L",
+        "address": {
+          "line1": "Unit 144, Phase II",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "770970",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Gupta",
+          "email": "dgupta@kulkarni.com",
+          "phone": "+91-80687-92352"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 163.53,
+          "taxable_value": 4088.25,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 204.41
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 180.0,
+          "unit": "KGS",
+          "rate_per_unit": 262.31,
+          "taxable_value": 47215.8,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8498.84
+        }
+      ],
+      "total_taxable_value": 51304.05,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 8703.25,
+      "total_tax": 8703.25,
+      "invoice_total": 60007.3,
+      "currency": "INR",
+      "eway_bill_ref": "180584329703",
+      "vehicle_no": "WB89JY6283",
+      "consignment_ref": "CONS-AGA-KUL-260415-65180"
+    },
+    "eway_bill": {
+      "ewb_no": "180584329703",
+      "generated_at": "2026-04-22T18:45:35+05:30",
+      "valid_until": "2026-04-24T18:45:35+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/65180",
+      "doc_date": "2026-04-22",
+      "from_gstin": "19QQQPS5515T6Z8",
+      "from_address": "Unit 170, MIDC, Howrah, Howrah, West Bengal - 841413",
+      "to_gstin": "09QQOCN2326L5ZO",
+      "to_address": "Unit 144, Phase II, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 770970",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "24IEOEO9962C1ZT",
+      "mode": "road",
+      "vehicle_no": "WB89JY6283",
+      "consignment_ref": "CONS-AGA-KUL-260415-65180",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 180.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 51304.05,
+      "total_invoice_value": 60007.3,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-65180",
+      "po_date": "2026-04-15",
+      "buyer_entity": "Kulkarni Industries",
+      "vendor_code": "VND-4344",
+      "vendor_name": "Agarwal Industries",
+      "vendor_gstin": "19QQQPS5515T6Z8",
+      "items": [
+        {
+          "item_code": "ITEM-81368",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 163.53,
+          "line_total": 4088.25,
+          "expected_delivery": "2026-04-24"
+        },
+        {
+          "item_code": "ITEM-63310",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 180.0,
+          "unit": "KGS",
+          "unit_price": 262.31,
+          "line_total": 47215.8,
+          "expected_delivery": "2026-04-30"
+        }
+      ],
+      "po_subtotal": 51304.05,
+      "po_tax": 8703.25,
+      "po_total": 60007.3,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Deepa Gupta",
+        "approved_at": "2026-04-16T03:56:26+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/65180"
+      ],
+      "grn": {
+        "grn_no": "GRN-65180",
+        "received_at": "2026-04-23T09:23:35+05:30",
+        "received_by": "Deepa Gupta",
+        "lines": [
+          {
+            "item_code": "ITEM-81368",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-63310",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-KUL-260415-65180"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-21562",
+      "thread_name": "CONS-AGA-KUL-260415-65180 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-70962-33573"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70962-33573"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Gupta",
+          "role": "warehouse",
+          "phone": "+91-80687-92352"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Gupta",
+          "role": "accounts",
+          "phone": "+91-80687-92352"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-22T19:45:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "en",
+          "text": "Vehicle WB89JY6283 dispatched from Howrah. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-22T21:45:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-22T23:45:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Noida Sector 63 pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-23T01:45:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Noida Sector 63 warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-23T03:45:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-23T04:13:35+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Gupta",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-23T05:23:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-KUL-260415-65180_87.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-15T10:56:26+05:30",
+      "actor": "Kulkarni Industries",
+      "doc_ref": "ORD-2026-65180",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-16T03:56:26+05:30",
+      "actor": "Deepa Gupta",
+      "doc_ref": "ORD-2026-65180",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-22T13:12:35+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "GST/2026-27/65180",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-22T18:45:35+05:30",
+      "actor": "Agarwal Industries",
+      "doc_ref": "180584329703",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-22T19:45:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB89JY6283",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-23T01:45:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "WB89JY6283",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-23T03:45:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-AGA-KUL-260415-65180",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-23T05:23:35+05:30",
+      "actor": "Deepa Gupta",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-23T09:23:35+05:30",
+      "actor": "Deepa Gupta",
+      "doc_ref": "GRN-65180",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice GST/2026-27/65180 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265180,
+    "notes": "task=comp_pan defect=none"
+  }
+}

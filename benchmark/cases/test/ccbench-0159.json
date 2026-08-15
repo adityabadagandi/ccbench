@@ -1,0 +1,442 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0159",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/76238",
+      "issued_at": "2026-03-03T10:34:37+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Polymers Limited",
+        "legal_name": "Deshmukh Polymers Ltd.",
+        "gstin": "09ZZGCA8671E3ZX",
+        "pan": "ZZGCA8671E",
+        "address": {
+          "line1": "Godown 125, Export Zone",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "251905",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Banerjee",
+          "email": "meena.banerjee@deshmukh.in",
+          "phone": "+91-90626-38546"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Logistics Pvt. Ltd.",
+        "legal_name": "Rastogi Logistics Pvt. Ltd.",
+        "gstin": "06ZZUPH9422G3ZY",
+        "pan": "ZZUPH9422G",
+        "address": {
+          "line1": "Godown 72, MIDC",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "414761",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Rao",
+          "email": "sameer.rao@rastogi.co.in",
+          "phone": "+91-70589-69756"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 7334.09,
+          "taxable_value": 183352.25,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 33003.4
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 270.13,
+          "taxable_value": 135065.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 24311.7
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 83.53,
+          "taxable_value": 33412.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1670.6
+        }
+      ],
+      "total_taxable_value": 351829.25,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 58985.7,
+      "total_tax": 58985.7,
+      "invoice_total": 410814.95,
+      "currency": "INR",
+      "eway_bill_ref": "238731431515",
+      "vehicle_no": "UP92LJ4464",
+      "consignment_ref": "CONS-DES-RAS-260223-76238"
+    },
+    "eway_bill": {
+      "ewb_no": "238731431515",
+      "generated_at": "2026-03-03T14:26:37+05:30",
+      "valid_until": "2026-03-09T14:26:37+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/76238",
+      "doc_date": "2026-03-03",
+      "from_gstin": "09ZZGCA8671E3ZX",
+      "from_address": "Godown 125, Export Zone, Ghaziabad, Ghaziabad, Uttar Pradesh - 251905",
+      "to_gstin": "06ZZUPH9422G3ZY",
+      "to_address": "Godown 72, MIDC, Manesar, Manesar, Haryana - 414761",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "07OPYMO6968B1ZT",
+      "mode": "road",
+      "vehicle_no": "UP92LJ4464",
+      "consignment_ref": "CONS-DES-RAS-260223-76238",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 351829.25,
+      "total_invoice_value": 410814.95,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-76238",
+      "po_date": "2026-02-23",
+      "buyer_entity": "Rastogi Logistics Pvt. Ltd.",
+      "vendor_code": "VND-9469",
+      "vendor_name": "Deshmukh Polymers Limited",
+      "vendor_gstin": "09ZZGCA8671E3ZX",
+      "items": [
+        {
+          "item_code": "ITEM-95404",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 7334.09,
+          "line_total": 183352.25,
+          "expected_delivery": "2026-03-08"
+        },
+        {
+          "item_code": "ITEM-58718",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 270.13,
+          "line_total": 135065.0,
+          "expected_delivery": "2026-03-05"
+        },
+        {
+          "item_code": "ITEM-91437",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 83.53,
+          "line_total": 33412.0,
+          "expected_delivery": "2026-03-11"
+        }
+      ],
+      "po_subtotal": 351829.25,
+      "po_tax": 58985.7,
+      "po_total": 410814.95,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sameer Rao",
+        "approved_at": "2026-02-24T04:49:05+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/76238"
+      ],
+      "grn": {
+        "grn_no": "GRN-76238",
+        "received_at": "2026-03-05T17:23:37+05:30",
+        "received_by": "Sameer Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-95404",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-58718",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-91437",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-RAS-260223-76238"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-71353",
+      "thread_name": "CONS-DES-RAS-260223-76238 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-90626-38546"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90626-38546"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Rao",
+          "role": "warehouse",
+          "phone": "+91-70589-69756"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Vijay Mishra",
+          "role": "accounts",
+          "phone": "+91-70589-69756"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-03T19:26:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "en",
+          "text": "Vehicle UP92LJ4464 dispatched from Ghaziabad. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-04T04:26:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-04T13:26:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Manesar pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_817.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-04T22:26:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "गाड़ी Manesar गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-04T23:00:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Rao",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-04T23:26:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-05T00:05:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Rao",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-05T02:23:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-RAS-260223-76238_20.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-1683.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-23T10:49:05+05:30",
+      "actor": "Rastogi Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-76238",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-24T04:49:05+05:30",
+      "actor": "Sameer Rao",
+      "doc_ref": "ORD-2026-76238",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-03T10:34:37+05:30",
+      "actor": "Deshmukh Polymers Ltd.",
+      "doc_ref": "INV/2026-27/76238",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-03T14:26:37+05:30",
+      "actor": "Deshmukh Polymers Ltd.",
+      "doc_ref": "238731431515",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-03T19:26:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP92LJ4464",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-04T22:26:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "UP92LJ4464",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-04T23:26:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-DES-RAS-260223-76238",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-05T02:23:37+05:30",
+      "actor": "Sameer Rao",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-05T17:23:37+05:30",
+      "actor": "Sameer Rao",
+      "doc_ref": "GRN-76238",
+      "note": null
+    }
+  ],
+  "question": "Kya thread mein kisi ne confirm kiya hai ki consignment CONS-DES-RAS-260223-76238 deliver ho gaya?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276238,
+    "notes": "task=xl_delivered_hi defect=none"
+  }
+}

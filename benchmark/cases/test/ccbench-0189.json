@@ -1,0 +1,348 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0189",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/79148",
+      "issued_at": "2026-06-10T17:18:34+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Enterprises",
+        "legal_name": "Shree Ganesh Enterprises",
+        "gstin": "06XQFPY7396I4Z1",
+        "pan": "XQFPY7396I",
+        "address": {
+          "line1": "Warehouse 197, Industrial Area",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "163615",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Patel",
+          "email": "rpatel@shree.in",
+          "phone": "+91-70978-30982"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Logistics Pvt. Ltd.",
+        "legal_name": "Shree Ganesh Logistics Pvt. Ltd.",
+        "gstin": "33ZZLPE9092B9ZN",
+        "pan": "ZZLPE9092B",
+        "address": {
+          "line1": "Warehouse 161, MIDC",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "480159",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Joshi",
+          "email": "deepaj@shree.co.in",
+          "phone": "+91-70397-38523"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 264.18,
+          "taxable_value": 66045.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 11888.1
+        }
+      ],
+      "total_taxable_value": 66045.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 11888.1,
+      "total_tax": 11888.1,
+      "invoice_total": 77933.1,
+      "currency": "INR",
+      "eway_bill_ref": "148648467666",
+      "vehicle_no": "HR70QN7705",
+      "consignment_ref": "CONS-SHR-SHR-260605-79148"
+    },
+    "eway_bill": {
+      "ewb_no": "148648467666",
+      "generated_at": "2026-06-11T00:10:34+05:30",
+      "valid_until": "2026-06-17T00:10:34+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/79148",
+      "doc_date": "2026-06-10",
+      "from_gstin": "06XQFPY7396I4Z1",
+      "from_address": "Warehouse 197, Industrial Area, Panipat, Panipat, Haryana - 163615",
+      "to_gstin": "33ZZLPE9092B9ZN",
+      "to_address": "Warehouse 161, MIDC, Ambattur, Ambattur, Tamil Nadu - 480159",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "07VGSKT6130J1ZT",
+      "mode": "road",
+      "vehicle_no": "HR70QN7705",
+      "consignment_ref": "CONS-SHR-SHR-260605-79148",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 66045.0,
+      "total_invoice_value": 77933.1,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-79148",
+      "po_date": "2026-06-05",
+      "buyer_entity": "Shree Ganesh Logistics Pvt. Ltd.",
+      "vendor_code": "VND-9849",
+      "vendor_name": "Shree Ganesh Enterprises",
+      "vendor_gstin": "06XQFPY7396I4Z1",
+      "items": [
+        {
+          "item_code": "ITEM-34608",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 264.18,
+          "line_total": 66045.0,
+          "expected_delivery": "2026-06-13"
+        }
+      ],
+      "po_subtotal": 66045.0,
+      "po_tax": 11888.1,
+      "po_total": 77933.1,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Joshi",
+        "approved_at": "2026-06-06T01:56:49+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/79148"
+      ],
+      "grn": {
+        "grn_no": "GRN-79148",
+        "received_at": "2026-06-13T07:46:34+05:30",
+        "received_by": "Deepa Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-34608",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-SHR-260605-79148"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-49749",
+      "thread_name": "CONS-SHR-SHR-260605-79148 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Kumar",
+          "role": "driver",
+          "phone": "+91-70978-30982"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rajesh Patel",
+          "role": "dispatcher",
+          "phone": "+91-70978-30982"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Joshi",
+          "role": "warehouse",
+          "phone": "+91-70397-38523"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Singh",
+          "role": "accounts",
+          "phone": "+91-70397-38523"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-11T05:10:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Kumar",
+          "lang": "hi-en",
+          "text": "Sir HR70QN7705 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-11T17:10:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-12T05:10:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Kumar",
+          "lang": "hi-en",
+          "text": "Ambattur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-12T09:10:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Joshi",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-12T09:41:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-12T11:46:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-SHR-260605-79148_67.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-6381.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-05T16:56:49+05:30",
+      "actor": "Shree Ganesh Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-79148",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-06T01:56:49+05:30",
+      "actor": "Deepa Joshi",
+      "doc_ref": "PUR-2026-79148",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-10T17:18:34+05:30",
+      "actor": "Shree Ganesh Enterprises",
+      "doc_ref": "GST/2026-27/79148",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-11T00:10:34+05:30",
+      "actor": "Shree Ganesh Enterprises",
+      "doc_ref": "148648467666",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-11T05:10:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR70QN7705",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-12T05:10:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR70QN7705",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-12T09:10:34+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-SHR-SHR-260605-79148",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-12T11:46:34+05:30",
+      "actor": "Deepa Joshi",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-13T07:46:34+05:30",
+      "actor": "Deepa Joshi",
+      "doc_ref": "GRN-79148",
+      "note": null
+    }
+  ],
+  "question": "Kya thread mein kisi ne confirm kiya hai ki consignment CONS-SHR-SHR-260605-79148 deliver ho gaya?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279148,
+    "notes": "task=xl_delivered defect=none"
+  }
+}

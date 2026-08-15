@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0131",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/73522",
+      "issued_at": "2026-04-02T19:56:36+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Polymers Ltd.",
+        "legal_name": "Shree Ganesh Polymers Ltd.",
+        "gstin": "06QQKCY3010F3ZI",
+        "pan": "QQKCY3010F",
+        "address": {
+          "line1": "Plot 47, Industrial Area",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "541681",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Yadav",
+          "email": "imran.yadav@shree.com",
+          "phone": "+91-80590-14431"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Manufacturing Pvt. Ltd.",
+        "legal_name": "Pillai Manufacturing Pvt. Ltd.",
+        "gstin": "07XQGCN3432I9ZP",
+        "pan": "XQGCN3432I",
+        "address": {
+          "line1": "Unit 77, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "758221",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Singh",
+          "email": "asingh@pillai.in",
+          "phone": "+91-80157-12734"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 112.77,
+          "taxable_value": 28192.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5074.65
+        }
+      ],
+      "total_taxable_value": 28192.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5074.65,
+      "total_tax": 5074.65,
+      "invoice_total": 33267.15,
+      "currency": "INR",
+      "eway_bill_ref": "522606024770",
+      "vehicle_no": "HR47JJ8684",
+      "consignment_ref": "CONS-SHR-PIL-260330-73522"
+    },
+    "eway_bill": {
+      "ewb_no": "522606024770",
+      "generated_at": "2026-04-03T04:29:36+05:30",
+      "valid_until": "2026-04-07T04:29:36+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/73522",
+      "doc_date": "2026-04-02",
+      "from_gstin": "06QQKCY3010F3ZI",
+      "from_address": "Plot 47, Industrial Area, Faridabad, Faridabad, Haryana - 541681",
+      "to_gstin": "07XQGCN3432I9ZP",
+      "to_address": "Unit 77, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 758221",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "06EVOUD4829J1ZT",
+      "mode": "road",
+      "vehicle_no": "HR47JJ8684",
+      "consignment_ref": "CONS-SHR-PIL-260330-73522",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 250.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 28192.5,
+      "total_invoice_value": 33267.15,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-73522",
+      "po_date": "2026-03-30",
+      "buyer_entity": "Pillai Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-4686",
+      "vendor_name": "Shree Ganesh Polymers Ltd.",
+      "vendor_gstin": "06QQKCY3010F3ZI",
+      "items": [
+        {
+          "item_code": "ITEM-59970",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 112.77,
+          "line_total": 28192.5,
+          "expected_delivery": "2026-04-10"
+        }
+      ],
+      "po_subtotal": 28192.5,
+      "po_tax": 5074.65,
+      "po_total": 33267.15,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ajay Singh",
+        "approved_at": "2026-03-31T12:56:10+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/73522"
+      ],
+      "grn": {
+        "grn_no": "GRN-73522",
+        "received_at": "2026-04-04T06:45:36+05:30",
+        "received_by": "Ajay Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-59970",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-PIL-260330-73522"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-69758",
+      "thread_name": "CONS-SHR-PIL-260330-73522 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Patel",
+          "role": "driver",
+          "phone": "+91-80590-14431"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Yadav",
+          "role": "dispatcher",
+          "phone": "+91-80590-14431"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Singh",
+          "role": "warehouse",
+          "phone": "+91-80157-12734"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-03T09:29:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "सर HR47JJ8684 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-04T00:29:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi",
+          "text": "गाड़ी Okhla Phase II गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-04T04:29:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "en",
+          "text": "Consignment received in full at our Okhla Phase II warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-04T04:47:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Singh",
+          "lang": "hi-en",
+          "text": "Rajesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-04T05:45:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Patel",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-PIL-260330-73522_14.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-30T18:56:10+05:30",
+      "actor": "Pillai Manufacturing Pvt. Ltd.",
+      "doc_ref": "PUR-2026-73522",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-31T12:56:10+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "PUR-2026-73522",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-02T19:56:36+05:30",
+      "actor": "Shree Ganesh Polymers Ltd.",
+      "doc_ref": "TAX/2026-27/73522",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-03T04:29:36+05:30",
+      "actor": "Shree Ganesh Polymers Ltd.",
+      "doc_ref": "522606024770",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-03T09:29:36+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR47JJ8684",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-04T00:29:36+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR47JJ8684",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-04T04:29:36+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-SHR-PIL-260330-73522",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-04T05:45:36+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-04T06:45:36+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "GRN-73522",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-SHR-PIL-260330-73522?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273522,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

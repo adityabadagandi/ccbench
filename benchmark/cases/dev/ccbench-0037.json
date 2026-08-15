@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0037",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/64404",
+      "issued_at": "2026-02-10T17:49:35+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Industries",
+        "legal_name": "Iyer Industries",
+        "gstin": "33ZZRPJ7734E5ZH",
+        "pan": "ZZRPJ7734E",
+        "address": {
+          "line1": "Plot 239, Export Zone",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "822201",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Khan",
+          "email": "suresh.khan@iyer.in",
+          "phone": "+91-70695-44935"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Enterprises",
+        "legal_name": "Rastogi Enterprises",
+        "gstin": "33QQICC4132H7ZM",
+        "pan": "QQICC4132H",
+        "address": {
+          "line1": "Shed 3, MIDC",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "676958",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Yadav",
+          "email": "deepay@rastogi.co.in",
+          "phone": "+91-70480-76960"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 4229.18,
+          "taxable_value": 1057295.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 148021.3,
+          "sgst_amount": 148021.3,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 192.9,
+          "taxable_value": 19290.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 482.25,
+          "sgst_amount": 482.25,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 1076585.0,
+      "total_cgst": 148503.55,
+      "total_sgst": 148503.55,
+      "total_igst": 0.0,
+      "total_tax": 297007.1,
+      "invoice_total": 1373592.1,
+      "currency": "INR",
+      "eway_bill_ref": "404790368006",
+      "vehicle_no": "TN93KM8108",
+      "consignment_ref": "CONS-IYE-RAS-260205-64404"
+    },
+    "eway_bill": {
+      "ewb_no": "404790368006",
+      "generated_at": "2026-02-10T23:55:35+05:30",
+      "valid_until": "2026-02-14T23:55:35+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/64404",
+      "doc_date": "2026-02-10",
+      "from_gstin": "33ZZRPJ7734E5ZH",
+      "from_address": "Plot 239, Export Zone, Hosur Road, Hosur Road, Tamil Nadu - 822201",
+      "to_gstin": "33QQICC4132H7ZM",
+      "to_address": "Shed 3, MIDC, Hosur Road, Hosur Road, Tamil Nadu - 676958",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "07YCMFE1605S1ZT",
+      "mode": "road",
+      "vehicle_no": "TN93KM8108",
+      "consignment_ref": "CONS-IYE-RAS-260205-64404",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 1076585.0,
+      "total_invoice_value": 1373592.1,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-64404",
+      "po_date": "2026-02-05",
+      "buyer_entity": "Rastogi Enterprises",
+      "vendor_code": "VND-1951",
+      "vendor_name": "Iyer Industries",
+      "vendor_gstin": "33ZZRPJ7734E5ZH",
+      "items": [
+        {
+          "item_code": "ITEM-82441",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 4229.18,
+          "line_total": 1057295.0,
+          "expected_delivery": "2026-02-15"
+        },
+        {
+          "item_code": "ITEM-53863",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 192.9,
+          "line_total": 19290.0,
+          "expected_delivery": "2026-02-17"
+        }
+      ],
+      "po_subtotal": 1076585.0,
+      "po_tax": 297007.1,
+      "po_total": 1373592.1,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Yadav",
+        "approved_at": "2026-02-05T17:41:58+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/64404"
+      ],
+      "grn": {
+        "grn_no": "GRN-64404",
+        "received_at": "2026-02-12T18:30:35+05:30",
+        "received_by": "Deepa Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-82441",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-53863",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-RAS-260205-64404"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-86636",
+      "thread_name": "CONS-IYE-RAS-260205-64404 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Kumar",
+          "role": "driver",
+          "phone": "+91-70695-44935"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Khan",
+          "role": "dispatcher",
+          "phone": "+91-70695-44935"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Yadav",
+          "role": "warehouse",
+          "phone": "+91-70480-76960"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-11T04:55:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Sir TN93KM8108 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-11T19:55:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-11T21:55:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-11T22:21:35+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Yadav",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-12T00:30:35+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-RAS-260205-64404_21.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-05T15:41:58+05:30",
+      "actor": "Rastogi Enterprises",
+      "doc_ref": "ORD-2026-64404",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-05T17:41:58+05:30",
+      "actor": "Deepa Yadav",
+      "doc_ref": "ORD-2026-64404",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-10T17:49:35+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "TAX/2026-27/64404",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-10T23:55:35+05:30",
+      "actor": "Iyer Industries",
+      "doc_ref": "404790368006",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-11T04:55:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TN93KM8108",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-11T19:55:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TN93KM8108",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-11T21:55:35+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-IYE-RAS-260205-64404",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-12T00:30:35+05:30",
+      "actor": "Deepa Yadav",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-12T18:30:35+05:30",
+      "actor": "Deepa Yadav",
+      "doc_ref": "GRN-64404",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice TAX/2026-27/64404 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy both tax identifiers may be disclosed in full: the seller Iyer Industries holds PAN ZZRPJ7734E and GSTIN 33ZZRPJ7734E5ZH [INV]. No masking is required for a domestic disclosure [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Iyer Industries",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "ZZRPJ7734E",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "33ZZRPJ7734E5ZH",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264404,
+    "notes": "task=comp_pan defect=none"
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0142",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/74589",
+      "issued_at": "2026-03-02T18:05:03+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Bhatia Industries",
+        "legal_name": "Bhatia Industries",
+        "gstin": "06ZZIPP4307Y9ZI",
+        "pan": "ZZIPP4307Y",
+        "address": {
+          "line1": "Unit 101, MIDC",
+          "line2": "Manesar",
+          "city": "Manesar",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "589972",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Banerjee",
+          "email": "mbanerjee@bhatia.com",
+          "phone": "+91-90430-43672"
+        }
+      },
+      "buyer": {
+        "name": "Singh & Sons Enterprises",
+        "legal_name": "Singh & Sons Enterprises",
+        "gstin": "27ZZGPB6108R1ZH",
+        "pan": "ZZGPB6108R",
+        "address": {
+          "line1": "Warehouse 164, MIDC",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "795153",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Mishra",
+          "email": "fmishra@singh.co.in",
+          "phone": "+91-90738-67303"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 55.43,
+          "taxable_value": 1385.75,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 249.44
+        }
+      ],
+      "total_taxable_value": 1385.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 249.44,
+      "total_tax": 249.44,
+      "invoice_total": 1635.19,
+      "currency": "INR",
+      "eway_bill_ref": "589854260886",
+      "vehicle_no": "HR80XW4253",
+      "consignment_ref": "CONS-BHA-SIN-260222-74589"
+    },
+    "eway_bill": {
+      "ewb_no": "589854260886",
+      "generated_at": "2026-03-03T02:24:03+05:30",
+      "valid_until": "2026-03-07T02:24:03+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/74589",
+      "doc_date": "2026-03-02",
+      "from_gstin": "06ZZIPP4307Y9ZI",
+      "from_address": "Unit 101, MIDC, Manesar, Manesar, Haryana - 589972",
+      "to_gstin": "27ZZGPB6108R1ZH",
+      "to_address": "Warehouse 164, MIDC, Chakan, Chakan, Maharashtra - 795153",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "29UQBRC3662B1ZT",
+      "mode": "road",
+      "vehicle_no": "HR80XW4253",
+      "consignment_ref": "CONS-BHA-SIN-260222-74589",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 1385.75,
+      "total_invoice_value": 1635.19,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-74589",
+      "po_date": "2026-02-22",
+      "buyer_entity": "Singh & Sons Enterprises",
+      "vendor_code": "VND-7988",
+      "vendor_name": "Bhatia Industries",
+      "vendor_gstin": "06ZZIPP4307Y9ZI",
+      "items": [
+        {
+          "item_code": "ITEM-13499",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 55.43,
+          "line_total": 1385.75,
+          "expected_delivery": "2026-03-05"
+        }
+      ],
+      "po_subtotal": 1385.75,
+      "po_tax": 249.44,
+      "po_total": 1635.19,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Farhan Mishra",
+        "approved_at": "2026-02-23T02:12:35+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/74589"
+      ],
+      "grn": {
+        "grn_no": "GRN-74589",
+        "received_at": "2026-03-04T17:02:03+05:30",
+        "received_by": "Farhan Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-13499",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-BHA-SIN-260222-74589"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-69331",
+      "thread_name": "CONS-BHA-SIN-260222-74589 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Reddy",
+          "role": "driver",
+          "phone": "+91-90430-43672"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90430-43672"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Mishra",
+          "role": "warehouse",
+          "phone": "+91-90738-67303"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-03T07:24:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi",
+          "text": "सर HR80XW4253 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-03T07:50:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-03T14:54:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Chakan pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-03T22:24:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Chakan warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-04T01:24:03+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Mishra",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-04T02:01:03+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Mishra",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-04T04:02:03+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-BHA-SIN-260222-74589_57.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-4821.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-22T18:12:35+05:30",
+      "actor": "Singh & Sons Enterprises",
+      "doc_ref": "PUR-2026-74589",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-23T02:12:35+05:30",
+      "actor": "Farhan Mishra",
+      "doc_ref": "PUR-2026-74589",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-02T18:05:03+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "GST/2026-27/74589",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-03T02:24:03+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "589854260886",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-03T07:24:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR80XW4253",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-03T22:24:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "HR80XW4253",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-04T01:24:03+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-BHA-SIN-260222-74589",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-04T04:02:03+05:30",
+      "actor": "Farhan Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-04T17:02:03+05:30",
+      "actor": "Farhan Mishra",
+      "doc_ref": "GRN-74589",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-BHA-SIN-260222-74589?",
+  "question_lang": "en",
+  "gold_answer": "Invoice GST/2026-27/74589 totals Rs. 1,635.19 [INV], comprising Rs. 1,385.75 taxable value and Rs. 249.44 GST [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/74589",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "1635.19",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "total_taxable_value",
+      "value": "1385.75",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "total_tax",
+      "value": "249.44",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274589,
+    "notes": "task=lookup_total defect=none"
+  }
+}

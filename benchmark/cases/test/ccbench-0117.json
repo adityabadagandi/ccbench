@@ -1,0 +1,414 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0117",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/72164",
+      "issued_at": "2026-03-12T16:56:57+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Supply Chain Pvt Ltd",
+        "legal_name": "Mehta Brothers Supply Chain Pvt. Ltd.",
+        "gstin": "27XQNCO5640A4ZD",
+        "pan": "XQNCO5640A",
+        "address": {
+          "line1": "Warehouse 239, Phase II",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "299283",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Singh",
+          "email": "psingh@mehta.com",
+          "phone": "+91-80968-84957"
+        }
+      },
+      "buyer": {
+        "name": "Verma Logistics Pvt. Ltd",
+        "legal_name": "Verma Logistics Pvt. Ltd.",
+        "gstin": "24QQKCN9968O2ZF",
+        "pan": "QQKCN9968O",
+        "address": {
+          "line1": "Shed 188, MIDC",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "750083",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Joshi",
+          "email": "priyaj@verma.in",
+          "phone": "+91-70257-87143"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 151.79,
+          "taxable_value": 3794.75,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 189.74
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 79.54,
+          "taxable_value": 79540.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3977.0
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 85.82,
+          "taxable_value": 85820.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 15447.6
+        }
+      ],
+      "total_taxable_value": 169154.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 19614.34,
+      "total_tax": 19614.34,
+      "invoice_total": 188769.09,
+      "currency": "INR",
+      "eway_bill_ref": "164146969458",
+      "vehicle_no": "MH41NX6508",
+      "consignment_ref": "CONS-MEH-VER-260309-72164"
+    },
+    "eway_bill": {
+      "ewb_no": "164146969458",
+      "generated_at": "2026-03-12T21:15:57+05:30",
+      "valid_until": "2026-03-21T21:15:57+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/72164",
+      "doc_date": "2026-03-12",
+      "from_gstin": "27XQNCO5640A4ZD",
+      "from_address": "Warehouse 239, Phase II, Thane, Thane, Maharashtra - 299283",
+      "to_gstin": "24QQKCN9968O2ZF",
+      "to_address": "Shed 188, MIDC, Sachin, Surat, Surat, Gujarat - 750083",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "29FQCWQ3587B1ZT",
+      "mode": "road",
+      "vehicle_no": "MH41NX6508",
+      "consignment_ref": "CONS-MEH-VER-260309-72164",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 169154.75,
+      "total_invoice_value": 18876.91,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-72164",
+      "po_date": "2026-03-09",
+      "buyer_entity": "Verma Logistics Pvt. Ltd.",
+      "vendor_code": "VND-4640",
+      "vendor_name": "Mehta Brothers Supply Chain Pvt Ltd",
+      "vendor_gstin": "27XQNCO5640A4ZD",
+      "items": [
+        {
+          "item_code": "ITEM-63629",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 151.79,
+          "line_total": 3794.75,
+          "expected_delivery": "2026-03-17"
+        },
+        {
+          "item_code": "ITEM-31523",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 79.54,
+          "line_total": 79540.0,
+          "expected_delivery": "2026-03-14"
+        },
+        {
+          "item_code": "ITEM-82096",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 85.82,
+          "line_total": 85820.0,
+          "expected_delivery": "2026-03-14"
+        }
+      ],
+      "po_subtotal": 169154.75,
+      "po_tax": 19614.34,
+      "po_total": 188769.09,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Priya Joshi",
+        "approved_at": "2026-03-10T08:34:40+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/72164"
+      ],
+      "grn": {
+        "grn_no": "GRN-72164",
+        "received_at": "2026-03-14T18:58:57+05:30",
+        "received_by": "Priya Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-63629",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-31523",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-82096",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-VER-260309-72164"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-96832",
+      "thread_name": "CONS-MEH-VER-260309-72164 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Singh",
+          "role": "driver",
+          "phone": "+91-80968-84957"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Singh",
+          "role": "dispatcher",
+          "phone": "+91-80968-84957"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Priya Joshi",
+          "role": "warehouse",
+          "phone": "+91-70257-87143"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Dinesh Desai",
+          "role": "accounts",
+          "phone": "+91-70257-87143"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-12T23:15:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Sir MH41NX6508 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-14T14:15:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Surat warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-14T15:15:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Joshi",
+          "lang": "en",
+          "text": "Consignment received in full at our Surat warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-14T15:58:57+05:30",
+          "sender_id": "P3",
+          "sender_name": "Priya Joshi",
+          "lang": "hi-en",
+          "text": "Suresh bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-14T15:58:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-VER-260309-72164_89.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-14T20:58:57+05:30",
+          "sender_id": "P4",
+          "sender_name": "Dinesh Desai",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 18,876.91 likhi hai par invoice Rs. 188,769.09 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-83234",
+      "raised_at": "2026-03-14T19:58:57+05:30",
+      "raised_by": "Priya Joshi",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-09T14:34:40+05:30",
+      "actor": "Verma Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-72164",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-10T08:34:40+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "ORD-2026-72164",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-12T16:56:57+05:30",
+      "actor": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/72164",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-12T21:15:57+05:30",
+      "actor": "Mehta Brothers Supply Chain Pvt. Ltd.",
+      "doc_ref": "164146969458",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-12T23:15:57+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH41NX6508",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-14T14:15:57+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH41NX6508",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-14T15:15:57+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-MEH-VER-260309-72164",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-14T15:58:57+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-14T18:58:57+05:30",
+      "actor": "Priya Joshi",
+      "doc_ref": "GRN-72164",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-MEH-VER-260309-72164?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272164,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

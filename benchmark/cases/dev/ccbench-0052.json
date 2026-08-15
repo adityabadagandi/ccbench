@@ -1,0 +1,397 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0052",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/65859",
+      "issued_at": "2026-01-19T18:18:59+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Industries",
+        "legal_name": "Shree Ganesh Industries",
+        "gstin": "36QQCPE5226I4ZR",
+        "pan": "QQCPE5226I",
+        "address": {
+          "line1": "Plot 90, Logistics Park",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "752287",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Mishra",
+          "email": "nikhilm@shree.com",
+          "phone": "+91-90506-29482"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Enterprises",
+        "legal_name": "Kulkarni Enterprises",
+        "gstin": "09XQZCQ8938R5Z5",
+        "pan": "XQZCQ8938R",
+        "address": {
+          "line1": "Unit 87, Logistics Park",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "891857",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Mishra",
+          "email": "kmishra@kulkarni.com",
+          "phone": "+91-70389-91446"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 7339.29,
+          "taxable_value": 1834822.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 330268.05
+        }
+      ],
+      "total_taxable_value": 1834822.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 330268.05,
+      "total_tax": 330268.05,
+      "invoice_total": 2165090.55,
+      "currency": "INR",
+      "eway_bill_ref": "859119663759",
+      "vehicle_no": "TS51HK2023",
+      "consignment_ref": "CONS-SHR-KUL-260116-65859"
+    },
+    "eway_bill": {
+      "ewb_no": "859119663759",
+      "generated_at": "2026-01-20T02:37:59+05:30",
+      "valid_until": "2026-01-24T02:37:59+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/65859",
+      "doc_date": "2026-01-19",
+      "from_gstin": "36QQCPE5226I4ZR",
+      "from_address": "Plot 90, Logistics Park, Patancheru, Patancheru, Telangana - 752287",
+      "to_gstin": "09XQZCQ8938R5Z5",
+      "to_address": "Unit 87, Logistics Park, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 891857",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "24AOMYD3128P1ZT",
+      "mode": "road",
+      "vehicle_no": "TS51HK2023",
+      "consignment_ref": "CONS-SHR-KUL-260116-65859",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 250.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 1834822.5,
+      "total_invoice_value": 2165090.55,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-65859",
+      "po_date": "2026-01-16",
+      "buyer_entity": "Kulkarni Enterprises",
+      "vendor_code": "VND-7049",
+      "vendor_name": "Shree Ganesh Industries",
+      "vendor_gstin": "36QQCPE5226I4ZR",
+      "items": [
+        {
+          "item_code": "ITEM-14011",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 7339.29,
+          "line_total": 1834822.5,
+          "expected_delivery": "2026-01-24"
+        }
+      ],
+      "po_subtotal": 1834822.5,
+      "po_tax": 330268.05,
+      "po_total": 2165090.55,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Kavita Mishra",
+        "approved_at": "2026-01-17T17:27:06+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/65859"
+      ],
+      "grn": {
+        "grn_no": "GRN-65859",
+        "received_at": "2026-01-20T19:31:59+05:30",
+        "received_by": "Kavita Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-14011",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-KUL-260116-65859"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-26125",
+      "thread_name": "CONS-SHR-KUL-260116-65859 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Singh",
+          "role": "driver",
+          "phone": "+91-90506-29482"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Mishra",
+          "role": "dispatcher",
+          "phone": "+91-90506-29482"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Mishra",
+          "role": "warehouse",
+          "phone": "+91-70389-91446"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-20T04:37:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "en",
+          "text": "Vehicle TS51HK2023 dispatched from Patancheru. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-20T05:06:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Bhai khana kha liya? Dhaba aa raha hai aage.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-20T08:37:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-20T12:37:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Noida Sector 63 pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-20T16:37:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hain. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-20T16:52:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Mishra",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-20T17:37:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-01-20T17:53:59+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Mishra",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-01-20T18:31:59+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-008",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-KUL-260116-65859_37.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-16T12:27:06+05:30",
+      "actor": "Kulkarni Enterprises",
+      "doc_ref": "PO-2026-65859",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-17T17:27:06+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "PO-2026-65859",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-19T18:18:59+05:30",
+      "actor": "Shree Ganesh Industries",
+      "doc_ref": "TAX/2026-27/65859",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-20T02:37:59+05:30",
+      "actor": "Shree Ganesh Industries",
+      "doc_ref": "859119663759",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-20T04:37:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS51HK2023",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-20T16:37:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "TS51HK2023",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-20T17:37:59+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-SHR-KUL-260116-65859",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-20T18:31:59+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-20T19:31:59+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "GRN-65859",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice TAX/2026-27/65859?",
+  "question_lang": "en",
+  "gold_answer": "The seller on invoice TAX/2026-27/65859, Shree Ganesh Industries, holds GSTIN 36QQCPE5226I4ZR [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/65859",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "36QQCPE5226I4ZR",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Shree Ganesh Industries",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20265859,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0168",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/77111",
+      "issued_at": "2026-06-05T10:41:28+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Engineering Works",
+        "legal_name": "Sharma Engineering Works",
+        "gstin": "24QQJPV9918M8ZF",
+        "pan": "QQJPV9918M",
+        "address": {
+          "line1": "Plot 105, MIDC",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "183672",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Patel",
+          "email": "dpatel@sharma.in",
+          "phone": "+91-80540-31634"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Engineering Works",
+        "legal_name": "Deshmukh Engineering Works",
+        "gstin": "19XQNCY6219X2Z2",
+        "pan": "XQNCY6219X",
+        "address": {
+          "line1": "Warehouse 113, Export Zone",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "776322",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Rao",
+          "email": "vijayr@deshmukh.co.in",
+          "phone": "+91-80778-77794"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 50027.25,
+          "taxable_value": 9004905.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1620882.9
+        }
+      ],
+      "total_taxable_value": 9004905.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1620882.9,
+      "total_tax": 1620882.9,
+      "invoice_total": 10625787.9,
+      "currency": "INR",
+      "eway_bill_ref": "111121553720",
+      "vehicle_no": "GJ12HG4248",
+      "consignment_ref": "CONS-SHA-DES-260524-77111"
+    },
+    "eway_bill": {
+      "ewb_no": "111121553720",
+      "generated_at": "2026-06-05T16:33:28+05:30",
+      "valid_until": "2026-06-11T16:33:28+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/77111",
+      "doc_date": "2026-06-05",
+      "from_gstin": "24QQJPV9918M8ZF",
+      "from_address": "Plot 105, MIDC, Vadodara, Vadodara, Gujarat - 183672",
+      "to_gstin": "19XQNCY6219X2Z2",
+      "to_address": "Warehouse 113, Export Zone, Durgapur, Durgapur, West Bengal - 776322",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "29EYTTA4285U1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ12HG4248",
+      "consignment_ref": "CONS-SHA-DES-260524-77111",
+      "items": [
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 180.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 9004905.0,
+      "total_invoice_value": 10625787.9,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-77111",
+      "po_date": "2026-05-24",
+      "buyer_entity": "Deshmukh Engineering Works",
+      "vendor_code": "VND-1304",
+      "vendor_name": "Sharma Engineering Works",
+      "vendor_gstin": "24QQJPV9918M8ZF",
+      "items": [
+        {
+          "item_code": "ITEM-89246",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 50027.25,
+          "line_total": 9004905.0,
+          "expected_delivery": "2026-06-13"
+        }
+      ],
+      "po_subtotal": 9004905.0,
+      "po_tax": 1620882.9,
+      "po_total": 10625787.9,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Vijay Rao",
+        "approved_at": "2026-05-24T18:27:19+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/77111"
+      ],
+      "grn": {
+        "grn_no": "GRN-77111",
+        "received_at": "2026-06-05T11:28:28+05:30",
+        "received_by": "Vijay Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-89246",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-DES-260524-77111"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-88276",
+      "thread_name": "CONS-SHA-DES-260524-77111 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Gupta",
+          "role": "driver",
+          "phone": "+91-80540-31634"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Patel",
+          "role": "dispatcher",
+          "phone": "+91-80540-31634"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Rao",
+          "role": "warehouse",
+          "phone": "+91-80778-77794"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-05T06:33:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Durgapur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-05T07:33:28+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Rao",
+          "lang": "en",
+          "text": "Consignment received in full at our Durgapur warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-05T08:13:28+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Rao",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-05T08:28:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-DES-260524-77111_73.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-05T17:28:28+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Patel",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-05T17:33:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "GJ12HG4248 dispatch ho gayi Vadodara se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-24T13:27:19+05:30",
+      "actor": "Deshmukh Engineering Works",
+      "doc_ref": "ORD-2026-77111",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-24T18:27:19+05:30",
+      "actor": "Vijay Rao",
+      "doc_ref": "ORD-2026-77111",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-06-05T06:33:28+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ12HG4248",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-06-05T07:33:28+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-SHA-DES-260524-77111",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-06-05T08:28:28+05:30",
+      "actor": "Vijay Rao",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-06-05T10:41:28+05:30",
+      "actor": "Sharma Engineering Works",
+      "doc_ref": "INV/2026-27/77111",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-06-05T11:28:28+05:30",
+      "actor": "Vijay Rao",
+      "doc_ref": "GRN-77111",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-06-05T16:33:28+05:30",
+      "actor": "Sharma Engineering Works",
+      "doc_ref": "111121553720",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-05T17:33:28+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ12HG4248",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-SHA-DES-260524-77111 internally consistent?",
+  "question_lang": "en",
+  "gold_answer": "No — delivery for consignment CONS-SHA-DES-260524-77111 [INV] is recorded at 05 Jun 2026 at 07:33 but dispatch only at 05 Jun 2026 at 17:33, 10 hours later [TIMELINE], so the goods are logged as delivered before they left the origin and the proof of delivery is backdated. The accounts team queried the same ordering on the delivery thread [M-006].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "events",
+      "path": "E-009.ts",
+      "value": "2026-06-05T17:33:28+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "events",
+      "path": "E-004.ts",
+      "value": "2026-06-05T07:33:28+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-SHA-DES-260524-77111",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-006.text",
+      "value": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+      "evidence": {
+        "ref_id": "M-006",
+        "lang": "hi-en",
+        "span": "POD ka time dispatch se pehle ka lag raha hai",
+        "gloss_en": "the POD time appears to precede dispatch"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277111,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

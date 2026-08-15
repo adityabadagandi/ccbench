@@ -1,0 +1,441 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0185",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/78760",
+      "issued_at": "2026-04-24T14:05:09+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Exports",
+        "legal_name": "Verma Exports",
+        "gstin": "07QQXCF0149M4ZZ",
+        "pan": "QQXCF0149M",
+        "address": {
+          "line1": "Godown 112, Logistics Park",
+          "line2": "Connaught Place",
+          "city": "Connaught Place",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "164034",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Rao",
+          "email": "anitar@verma.co.in",
+          "phone": "+91-90921-59239"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Distributors",
+        "legal_name": "Iyer Distributors",
+        "gstin": "09XQWCI5476H2ZL",
+        "pan": "XQWCI5476H",
+        "address": {
+          "line1": "Unit 173, Industrial Area",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "831500",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Joshi",
+          "email": "njoshi@iyer.co.in",
+          "phone": "+91-80156-58538"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 244.9,
+          "taxable_value": 122450.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 22041.0
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 22741.41,
+          "taxable_value": 27289692.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4912144.56
+        },
+        {
+          "line_no": 3,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 222.75,
+          "taxable_value": 167062.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 30071.25
+        }
+      ],
+      "total_taxable_value": 27579204.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 4964256.81,
+      "total_tax": 4964256.81,
+      "invoice_total": 32543461.31,
+      "currency": "INR",
+      "eway_bill_ref": "760719961816",
+      "vehicle_no": "DL55ZM4461",
+      "consignment_ref": "CONS-VER-IYE-260420-78760"
+    },
+    "eway_bill": {
+      "ewb_no": "760719961816",
+      "generated_at": "2026-04-24T19:38:09+05:30",
+      "valid_until": "2026-05-02T19:38:09+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/78760",
+      "doc_date": "2026-04-24",
+      "from_gstin": "07QQXCF0149M4ZZ",
+      "from_address": "Godown 112, Logistics Park, Connaught Place, Connaught Place, Delhi - 164034",
+      "to_gstin": "09XQWCI5476H2ZL",
+      "to_address": "Unit 173, Industrial Area, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 831500",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "19MOFCJ4361V1ZT",
+      "mode": "road",
+      "vehicle_no": "DL55ZM4461",
+      "consignment_ref": "CONS-VER-IYE-260420-78760",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 750.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 27579204.5,
+      "total_invoice_value": 32542961.31,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-78760",
+      "po_date": "2026-04-20",
+      "buyer_entity": "Iyer Distributors",
+      "vendor_code": "VND-1377",
+      "vendor_name": "Verma Exports",
+      "vendor_gstin": "07QQXCF0149M4ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-86389",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 244.9,
+          "line_total": 122450.0,
+          "expected_delivery": "2026-04-30"
+        },
+        {
+          "item_code": "ITEM-81484",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 22741.41,
+          "line_total": 27289692.0,
+          "expected_delivery": "2026-04-30"
+        },
+        {
+          "item_code": "ITEM-55135",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 222.75,
+          "line_total": 167062.5,
+          "expected_delivery": "2026-05-02"
+        }
+      ],
+      "po_subtotal": 27579204.5,
+      "po_tax": 4964256.81,
+      "po_total": 32543461.31,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Joshi",
+        "approved_at": "2026-04-21T16:27:49+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/78760"
+      ],
+      "grn": {
+        "grn_no": "GRN-78760",
+        "received_at": "2026-04-26T11:07:09+05:30",
+        "received_by": "Nikhil Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-86389",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-81484",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-55135",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-IYE-260420-78760"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-75016",
+      "thread_name": "CONS-VER-IYE-260420-78760 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Singh",
+          "role": "driver",
+          "phone": "+91-90921-59239"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Anita Rao",
+          "role": "dispatcher",
+          "phone": "+91-90921-59239"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Joshi",
+          "role": "warehouse",
+          "phone": "+91-80156-58538"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-24T23:38:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi",
+          "text": "सर DL55ZM4461 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-25T14:08:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Noida Sector 63.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-26T04:38:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "hi-en",
+          "text": "Noida Sector 63 warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-26T04:56:09+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-26T07:38:09+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "en",
+          "text": "Consignment received in full at our Noida Sector 63 warehse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-26T08:23:09+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Joshi",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-26T10:07:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Singh",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-IYE-260420-78760_49.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-26T14:07:09+05:30",
+          "sender_id": "P2",
+          "sender_name": "Anita Rao",
+          "lang": "en",
+          "text": "Flagging a mismatch: permit declares Rs. 32,542,961.31 against an invoice of Rs. 32,543,461.31. Please confirm which is correct.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-27T04:07:09+05:30",
+          "sender_id": "P2",
+          "sender_name": "Anita Rao",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/78760.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-52977",
+      "raised_at": "2026-04-26T22:07:09+05:30",
+      "raised_by": "Nikhil Joshi",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-20T16:27:49+05:30",
+      "actor": "Iyer Distributors",
+      "doc_ref": "ORD-2026-78760",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-21T16:27:49+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "ORD-2026-78760",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-24T14:05:09+05:30",
+      "actor": "Verma Exports",
+      "doc_ref": "GST/2026-27/78760",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-24T19:38:09+05:30",
+      "actor": "Verma Exports",
+      "doc_ref": "760719961816",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-24T23:38:09+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "DL55ZM4461",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-26T04:38:09+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "DL55ZM4461",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-26T07:38:09+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-VER-IYE-260420-78760",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-26T10:07:09+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-26T11:07:09+05:30",
+      "actor": "Nikhil Joshi",
+      "doc_ref": "GRN-78760",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-VER-IYE-260420-78760?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278760,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

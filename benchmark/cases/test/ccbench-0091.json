@@ -1,0 +1,449 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0091",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/69642",
+      "issued_at": "2026-01-28T14:56:36+05:30",
+      "revision_no": 1,
+      "supersedes": "GST/2026-27/2013",
+      "original_issued_at": "2026-01-25T14:56:36+05:30",
+      "seller": {
+        "name": "Bhatia Trading & Co.",
+        "legal_name": "Bhatia Trading Co.",
+        "gstin": "36ZZPPB8118G3ZP",
+        "pan": "ZZPPB8118G",
+        "address": {
+          "line1": "Godown 71, MIDC",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "731676",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Yadav",
+          "email": "farhan.yadav@bhatia.in",
+          "phone": "+91-80196-40525"
+        }
+      },
+      "buyer": {
+        "name": "Singh & Sons Logistics Pvt. Ltd.",
+        "legal_name": "Singh & Sons Logistics Pvt. Ltd.",
+        "gstin": "24XQHPX9421M7ZX",
+        "pan": "XQHPX9421M",
+        "address": {
+          "line1": "Plot 183, Export Zone",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "359669",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Desai",
+          "email": "farhand@singh.com",
+          "phone": "+91-90613-16366"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 104.15,
+          "taxable_value": 5207.5,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 624.9
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 134.38,
+          "taxable_value": 3359.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 604.71
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 79.36,
+          "taxable_value": 7936.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1428.48
+        },
+        {
+          "line_no": 4,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 88.04,
+          "taxable_value": 8804.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1584.72
+        }
+      ],
+      "total_taxable_value": 25307.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 4242.81,
+      "total_tax": 4242.81,
+      "invoice_total": 29549.81,
+      "currency": "INR",
+      "eway_bill_ref": "642106427722",
+      "vehicle_no": "TS45HU7062",
+      "consignment_ref": "CONS-BHA-SIN-260120-69642"
+    },
+    "eway_bill": {
+      "ewb_no": "642106427722",
+      "generated_at": "2026-01-28T18:48:36+05:30",
+      "valid_until": "2026-02-08T18:48:36+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/69642",
+      "doc_date": "2026-01-28",
+      "from_gstin": "36ZZPPB8118G3ZP",
+      "from_address": "Godown 71, MIDC, Patancheru, Patancheru, Telangana - 731676",
+      "to_gstin": "24XQHPX9421M7ZX",
+      "to_address": "Plot 183, Export Zone, Vadodara, Vadodara, Gujarat - 359669",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "24BDMDA5333Q1ZT",
+      "mode": "road",
+      "vehicle_no": "TS45HU7062",
+      "consignment_ref": "CONS-BHA-SIN-260120-69642",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 100.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 25307.0,
+      "total_invoice_value": 29549.81,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-69642",
+      "po_date": "2026-01-20",
+      "buyer_entity": "Singh & Sons Logistics Pvt. Ltd.",
+      "vendor_code": "VND-1660",
+      "vendor_name": "Bhatia Trading & Co.",
+      "vendor_gstin": "36ZZPPB8118G3ZP",
+      "items": [
+        {
+          "item_code": "ITEM-87583",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 104.15,
+          "line_total": 5207.5,
+          "expected_delivery": "2026-02-06"
+        },
+        {
+          "item_code": "ITEM-55936",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 134.38,
+          "line_total": 3359.5,
+          "expected_delivery": "2026-01-31"
+        },
+        {
+          "item_code": "ITEM-89912",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 79.36,
+          "line_total": 7936.0,
+          "expected_delivery": "2026-02-06"
+        },
+        {
+          "item_code": "ITEM-73395",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 88.04,
+          "line_total": 8804.0,
+          "expected_delivery": "2026-02-05"
+        }
+      ],
+      "po_subtotal": 25307.0,
+      "po_tax": 4242.81,
+      "po_total": 29549.81,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Farhan Desai",
+        "approved_at": "2026-01-21T18:27:51+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/69642"
+      ],
+      "grn": {
+        "grn_no": "GRN-69642",
+        "received_at": "2026-01-31T15:42:36+05:30",
+        "received_by": "Farhan Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-87583",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-55936",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-89912",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-73395",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-BHA-SIN-260120-69642"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-74786",
+      "thread_name": "CONS-BHA-SIN-260120-69642 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Kumar",
+          "role": "driver",
+          "phone": "+91-80196-40525"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Yadav",
+          "role": "dispatcher",
+          "phone": "+91-80196-40525"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Desai",
+          "role": "warehouse",
+          "phone": "+91-90613-16366"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Zoya Khan",
+          "role": "accounts",
+          "phone": "+91-90613-16366"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-28T23:48:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi",
+          "text": "सर TS45HU7062 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-30T15:48:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Vadodara गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-30T16:04:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Desai",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-30T17:48:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Desai",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-30T18:29:36+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-30T20:42:36+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Kumar",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-BHA-SIN-260120-69642_64.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-20T18:27:51+05:30",
+      "actor": "Singh & Sons Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-69642",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-21T18:27:51+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "PUR-2026-69642",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-25T14:56:36+05:30",
+      "actor": "Bhatia Trading Co.",
+      "doc_ref": "GST/2026-27/2013",
+      "note": "original issue"
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_revised",
+      "ts": "2026-01-28T14:56:36+05:30",
+      "actor": "Bhatia Trading Co.",
+      "doc_ref": "GST/2026-27/69642",
+      "note": "supersedes GST/2026-27/2013"
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-01-28T18:48:36+05:30",
+      "actor": "Bhatia Trading Co.",
+      "doc_ref": "642106427722",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "dispatched",
+      "ts": "2026-01-28T23:48:36+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS45HU7062",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "arrived",
+      "ts": "2026-01-30T15:48:36+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TS45HU7062",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "delivered",
+      "ts": "2026-01-30T17:48:36+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-BHA-SIN-260120-69642",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "pod_signed",
+      "ts": "2026-01-30T20:42:36+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-010",
+      "type": "grn_recorded",
+      "ts": "2026-01-31T15:42:36+05:30",
+      "actor": "Farhan Desai",
+      "doc_ref": "GRN-69642",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-BHA-SIN-260120-69642 generated before or after the invoice was revised?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269642,
+    "notes": "task=tmp_revision defect=none"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0089",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/69448",
+      "issued_at": "2026-05-18T14:05:02+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Industries",
+        "legal_name": "Rastogi Industries",
+        "gstin": "27ZZQCM9104B3Z8",
+        "pan": "ZZQCM9104B",
+        "address": {
+          "line1": "Warehouse 107, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "440852",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Banerjee",
+          "email": "priyab@rastogi.in",
+          "phone": "+91-80448-96208"
+        }
+      },
+      "buyer": {
+        "name": "Patel Manufacturing Private Limited",
+        "legal_name": "Patel Manufacturing Pvt. Ltd.",
+        "gstin": "33ZZBPV6412U9Z0",
+        "pan": "ZZBPV6412U",
+        "address": {
+          "line1": "Unit 117, Industrial Area",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "358368",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Patel",
+          "email": "rpatel@patel.in",
+          "phone": "+91-90914-80572"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 7315.19,
+          "taxable_value": 7315190.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1316734.2
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 79.68,
+          "taxable_value": 3984.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 717.12
+        },
+        {
+          "line_no": 3,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 4974.29,
+          "taxable_value": 124357.25,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 22384.31
+        }
+      ],
+      "total_taxable_value": 7443531.25,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1339835.63,
+      "total_tax": 1339835.63,
+      "invoice_total": 8783366.88,
+      "currency": "INR",
+      "eway_bill_ref": "448381164242",
+      "vehicle_no": "MH41DX4207",
+      "consignment_ref": "CONS-RAS-PAT-260513-69448"
+    },
+    "eway_bill": {
+      "ewb_no": "448381164242",
+      "generated_at": "2026-05-18T17:24:02+05:30",
+      "valid_until": "2026-05-23T17:24:02+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/69448",
+      "doc_date": "2026-05-18",
+      "from_gstin": "27ZZQCM9104B3Z8",
+      "from_address": "Warehouse 107, Industrial Area, Thane, Thane, Maharashtra - 440852",
+      "to_gstin": "33ZZBPV6412U9Z0",
+      "to_address": "Unit 117, Industrial Area, Sriperumbudur, Sriperumbudur, Tamil Nadu - 358368",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "19AYHTX7746L1ZT",
+      "mode": "road",
+      "vehicle_no": "MH41DX4207",
+      "consignment_ref": "CONS-RAS-PAT-260513-69448",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 7443531.25,
+      "total_invoice_value": 8783636.0,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-69448",
+      "po_date": "2026-05-13",
+      "buyer_entity": "Patel Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-8850",
+      "vendor_name": "Rastogi Industries",
+      "vendor_gstin": "27ZZQCM9104B3Z8",
+      "items": [
+        {
+          "item_code": "ITEM-69315",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 7315.19,
+          "line_total": 7315190.0,
+          "expected_delivery": "2026-05-26"
+        },
+        {
+          "item_code": "ITEM-81906",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 79.68,
+          "line_total": 3984.0,
+          "expected_delivery": "2026-05-21"
+        },
+        {
+          "item_code": "ITEM-92743",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 4974.29,
+          "line_total": 124357.25,
+          "expected_delivery": "2026-05-23"
+        }
+      ],
+      "po_subtotal": 7443531.25,
+      "po_tax": 1339835.63,
+      "po_total": 8783366.88,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Patel",
+        "approved_at": "2026-05-14T07:41:45+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/69448"
+      ],
+      "grn": {
+        "grn_no": "GRN-69448",
+        "received_at": "2026-05-20T09:36:02+05:30",
+        "received_by": "Rekha Patel",
+        "lines": [
+          {
+            "item_code": "ITEM-69315",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-81906",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-92743",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-PAT-260513-69448"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-71374",
+      "thread_name": "CONS-RAS-PAT-260513-69448 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Gupta",
+          "role": "driver",
+          "phone": "+91-80448-96208"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-80448-96208"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Patel",
+          "role": "warehouse",
+          "phone": "+91-90914-80572"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Vijay Joshi",
+          "role": "accounts",
+          "phone": "+91-90914-80572"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-18T19:24:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "en",
+          "text": "Vehicle MH41DX4207 dispatched from Thane. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-19T04:54:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-19T14:24:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "Sriperumbudur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-19T18:24:02+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Patel",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-19T19:09:02+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Patel",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-19T19:36:02+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-PAT-260513-69448_58.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-20T10:36:02+05:30",
+          "sender_id": "P4",
+          "sender_name": "Vijay Joshi",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 8,783,636.00 likhi hai par invoice Rs. 8,783,366.88 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-47742",
+      "raised_at": "2026-05-20T15:36:02+05:30",
+      "raised_by": "Rekha Patel",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-13T13:41:45+05:30",
+      "actor": "Patel Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-69448",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-14T07:41:45+05:30",
+      "actor": "Rekha Patel",
+      "doc_ref": "ORD-2026-69448",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-18T14:05:02+05:30",
+      "actor": "Rastogi Industries",
+      "doc_ref": "TAX/2026-27/69448",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-18T17:24:02+05:30",
+      "actor": "Rastogi Industries",
+      "doc_ref": "448381164242",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-18T19:24:02+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH41DX4207",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-19T14:24:02+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "MH41DX4207",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-19T18:24:02+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-RAS-PAT-260513-69448",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-19T19:36:02+05:30",
+      "actor": "Rekha Patel",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-20T09:36:02+05:30",
+      "actor": "Rekha Patel",
+      "doc_ref": "GRN-69448",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-RAS-PAT-260513-69448 ke paperwork pe koi objection uthaya thread mein? Aur kya wo sahi tha?",
+  "question_lang": "hi-en",
+  "gold_answer": "Yes, and it was justified: in message M-007, Vijay Joshi flagged that \"e-way bill pe value Rs. 8,783,636.00 likhi hai par invoice Rs. 8,783,366.88 ka hai\" [M-007]. The documents confirm it — invoice TAX/2026-27/69448 totals Rs. 8,783,366.88 [INV] while e-way bill 448381164242 declares Rs. 8,783,636.00 [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 8,783,636.00 likhi hai par invoice Rs. 8,783,366.88 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 8,783,636.00 likhi hai par invoice Rs. 8,783,366.88 ka hai",
+        "gloss_en": "the e-way bill states Rs. 8,783,636.00 but the invoice is for Rs. 8,783,366.88"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "8783366.88",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "8783636.0",
+      "evidence": null
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-80448-96208",
+    "+91-90914-80572",
+    "ZZBPV6412U",
+    "ZZQCM9104B",
+    "priyab@rastogi.in",
+    "rpatel@patel.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269448,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

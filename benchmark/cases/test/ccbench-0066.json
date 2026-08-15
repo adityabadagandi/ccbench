@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0066",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/67217",
+      "issued_at": "2026-02-08T12:18:37+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Engineering Works",
+        "legal_name": "Verma Engineering Works",
+        "gstin": "23ZZOPH3110B5ZB",
+        "pan": "ZZOPH3110B",
+        "address": {
+          "line1": "Plot 192, MIDC",
+          "line2": "Govindpura, Bhopal",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "583414",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Reddy",
+          "email": "ajayr@verma.in",
+          "phone": "+91-90577-94574"
+        }
+      },
+      "buyer": {
+        "name": "Verma Polymers Limited",
+        "legal_name": "Verma Polymers Ltd.",
+        "gstin": "36QQRCL7433P7Z2",
+        "pan": "QQRCL7433P",
+        "address": {
+          "line1": "Plot 35, MIDC",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "192808",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Mishra",
+          "email": "kavitam@verma.co.in",
+          "phone": "+91-70694-55875"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS",
+          "rate_per_unit": 88.35,
+          "taxable_value": 22087.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3975.75
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 94.5,
+          "taxable_value": 9450.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1701.0
+        }
+      ],
+      "total_taxable_value": 31537.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5676.75,
+      "total_tax": 5676.75,
+      "invoice_total": 37214.25,
+      "currency": "INR",
+      "eway_bill_ref": "217463922400",
+      "vehicle_no": "MP11GN5557",
+      "consignment_ref": "CONS-VER-VER-260128-67217"
+    },
+    "eway_bill": {
+      "ewb_no": "217463922400",
+      "generated_at": "2026-02-08T13:51:37+05:30",
+      "valid_until": "2026-02-09T13:51:37+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/67217",
+      "doc_date": "2026-02-08",
+      "from_gstin": "23ZZOPH3110B5ZB",
+      "from_address": "Plot 192, MIDC, Govindpura, Bhopal, Bhopal, Madhya Pradesh - 583414",
+      "to_gstin": "36QQRCL7433P7Z2",
+      "to_address": "Plot 35, MIDC, Jeedimetla, Jeedimetla, Telangana - 192808",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "36QMAJB5528Y1ZT",
+      "mode": "road",
+      "vehicle_no": "MP11GN5557",
+      "consignment_ref": "CONS-VER-VER-260128-67217",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 250.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 31537.5,
+      "total_invoice_value": 37214.25,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-67217",
+      "po_date": "2026-01-28",
+      "buyer_entity": "Verma Polymers Ltd.",
+      "vendor_code": "VND-2270",
+      "vendor_name": "Verma Engineering Works",
+      "vendor_gstin": "23ZZOPH3110B5ZB",
+      "items": [
+        {
+          "item_code": "ITEM-82339",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 250.0,
+          "unit": "NOS",
+          "unit_price": 88.35,
+          "line_total": 22087.5,
+          "expected_delivery": "2026-02-14"
+        },
+        {
+          "item_code": "ITEM-22516",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 94.5,
+          "line_total": 9450.0,
+          "expected_delivery": "2026-02-14"
+        }
+      ],
+      "po_subtotal": 31537.5,
+      "po_tax": 5676.75,
+      "po_total": 37214.25,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Kavita Mishra",
+        "approved_at": "2026-01-29T11:34:04+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/67217"
+      ],
+      "grn": {
+        "grn_no": "GRN-67217",
+        "received_at": "2026-02-09T16:01:37+05:30",
+        "received_by": "Kavita Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-82339",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-22516",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-VER-260128-67217"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-79048",
+      "thread_name": "CONS-VER-VER-260128-67217 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Gupta",
+          "role": "driver",
+          "phone": "+91-90577-94574"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ajay Reddy",
+          "role": "dispatcher",
+          "phone": "+91-90577-94574"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Kavita Mishra",
+          "role": "warehouse",
+          "phone": "+91-70694-55875"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Imran Kumar",
+          "role": "accounts",
+          "phone": "+91-70694-55875"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-08T18:51:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "MP11GN5557 dispatch ho gayi Bhopal se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-09T00:51:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "Jeedimetla warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-09T03:51:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-09T04:29:37+05:30",
+          "sender_id": "P3",
+          "sender_name": "Kavita Mishra",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-09T05:01:37+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-004",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-VER-260128-67217_43.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-28T12:34:04+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "ORD-2026-67217",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-29T11:34:04+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "ORD-2026-67217",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-08T12:18:37+05:30",
+      "actor": "Verma Engineering Works",
+      "doc_ref": "GST/2026-27/67217",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-08T13:51:37+05:30",
+      "actor": "Verma Engineering Works",
+      "doc_ref": "217463922400",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-08T18:51:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MP11GN5557",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-09T00:51:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "MP11GN5557",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-09T03:51:37+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-VER-VER-260128-67217",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-09T05:01:37+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "M-005",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-09T16:01:37+05:30",
+      "actor": "Kavita Mishra",
+      "doc_ref": "GRN-67217",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice GST/2026-27/67217 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267217,
+    "notes": "task=comp_contact defect=none"
+  }
+}

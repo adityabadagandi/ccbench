@@ -1,0 +1,414 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0135",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/73910",
+      "issued_at": "2026-02-13T17:41:20+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Engineering Works",
+        "legal_name": "Singh & Sons Engineering Works",
+        "gstin": "19ZZBCS5801B7ZY",
+        "pan": "ZZBCS5801B",
+        "address": {
+          "line1": "Warehouse 183, Logistics Park",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "275846",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Yadav",
+          "email": "sunitay@singh.in",
+          "phone": "+91-90309-93264"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Manufacturing Pvt. Ltd.",
+        "legal_name": "Bhatia Manufacturing Pvt. Ltd.",
+        "gstin": "36ZZZCE6856Z3Z1",
+        "pan": "ZZZCE6856Z",
+        "address": {
+          "line1": "Unit 212, Logistics Park",
+          "line2": "Jeedimetla",
+          "city": "Jeedimetla",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "167460",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Singh",
+          "email": "deepas@bhatia.co.in",
+          "phone": "+91-70951-80467"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 3534.11,
+          "taxable_value": 4240932.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 763367.76
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 60.52,
+          "taxable_value": 3026.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 363.12
+        }
+      ],
+      "total_taxable_value": 4243958.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 763730.88,
+      "total_tax": 763730.88,
+      "invoice_total": 5007688.88,
+      "currency": "INR",
+      "eway_bill_ref": "910713590029",
+      "vehicle_no": "WB51HA3403",
+      "consignment_ref": "CONS-SIN-BHA-260206-73910"
+    },
+    "eway_bill": {
+      "ewb_no": "910713590029",
+      "generated_at": "2026-02-13T22:14:20+05:30",
+      "valid_until": "2026-02-18T22:14:20+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/73910",
+      "doc_date": "2026-02-13",
+      "from_gstin": "19ZZBCS5801B7ZY",
+      "from_address": "Warehouse 183, Logistics Park, Howrah, Howrah, West Bengal - 275846",
+      "to_gstin": "36ZZZCE6856Z3Z1",
+      "to_address": "Unit 212, Logistics Park, Jeedimetla, Jeedimetla, Telangana - 167460",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "36XYHVX4662J1ZT",
+      "mode": "road",
+      "vehicle_no": "WB51HA3403",
+      "consignment_ref": "CONS-SIN-BHA-260206-73910",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 4243958.0,
+      "total_invoice_value": 5007688.88,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-73910",
+      "po_date": "2026-02-06",
+      "buyer_entity": "Bhatia Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-7078",
+      "vendor_name": "Singh & Sons Engineering Works",
+      "vendor_gstin": "19ZZBCS5801B7ZY",
+      "items": [
+        {
+          "item_code": "ITEM-51270",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 3534.11,
+          "line_total": 4240932.0,
+          "expected_delivery": "2026-02-20"
+        },
+        {
+          "item_code": "ITEM-52973",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 60.52,
+          "line_total": 3026.0,
+          "expected_delivery": "2026-02-21"
+        }
+      ],
+      "po_subtotal": 4243958.0,
+      "po_tax": 763730.88,
+      "po_total": 5007688.88,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Singh",
+        "approved_at": "2026-02-06T21:05:51+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/73910"
+      ],
+      "grn": {
+        "grn_no": "GRN-73910",
+        "received_at": "2026-02-15T17:30:20+05:30",
+        "received_by": "Deepa Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-51270",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-52973",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-BHA-260206-73910"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-97403",
+      "thread_name": "CONS-SIN-BHA-260206-73910 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Khan",
+          "role": "driver",
+          "phone": "+91-90309-93264"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Sunita Yadav",
+          "role": "dispatcher",
+          "phone": "+91-90309-93264"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Singh",
+          "role": "warehouse",
+          "phone": "+91-70951-80467"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sunita Iyer",
+          "role": "accounts",
+          "phone": "+91-70951-80467"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-14T00:14:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "WB51HA3403 dispatch ho gayi Howrah se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-14T01:04:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-14T09:44:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-14T19:14:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hain. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-14T22:14:20+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Singh",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-14T22:33:20+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Singh",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-15T00:30:20+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-BHA-260206-73910_94.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-06T11:05:51+05:30",
+      "actor": "Bhatia Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-73910",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-06T21:05:51+05:30",
+      "actor": "Deepa Singh",
+      "doc_ref": "ORD-2026-73910",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-13T17:41:20+05:30",
+      "actor": "Singh & Sons Engineering Works",
+      "doc_ref": "INV/2026-27/73910",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-13T22:14:20+05:30",
+      "actor": "Singh & Sons Engineering Works",
+      "doc_ref": "910713590029",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-14T00:14:20+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "WB51HA3403",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-14T19:14:20+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "WB51HA3403",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-14T22:14:20+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-SIN-BHA-260206-73910",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-15T00:30:20+05:30",
+      "actor": "Deepa Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-15T17:30:20+05:30",
+      "actor": "Deepa Singh",
+      "doc_ref": "GRN-73910",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice INV/2026-27/73910?",
+  "question_lang": "en",
+  "gold_answer": "Line 1 of invoice INV/2026-27/73910 declares HSN code 94033000, described as Wooden furniture of a kind used in offices [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/73910",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "items[0].hsn_code",
+      "value": "94033000",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].description",
+      "value": "Wooden furniture of a kind used in offices",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273910,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

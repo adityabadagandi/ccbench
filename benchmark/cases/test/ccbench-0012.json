@@ -1,0 +1,381 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0012",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/61979",
+      "issued_at": "2026-07-15T19:56:17+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Pillai Trading Co",
+        "legal_name": "Pillai Trading Co.",
+        "gstin": "29QQRCT4203O8Z6",
+        "pan": "QQRCT4203O",
+        "address": {
+          "line1": "Godown 212, Export Zone",
+          "line2": "Whitefield",
+          "city": "Whitefield",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "598483",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Banerjee",
+          "email": "abanerjee@pillai.co.in",
+          "phone": "+91-90638-67537"
+        }
+      },
+      "buyer": {
+        "name": "Verma Polymers Ltd.",
+        "legal_name": "Verma Polymers Ltd.",
+        "gstin": "19ZZYPY1633R6ZE",
+        "pan": "ZZYPY1633R",
+        "address": {
+          "line1": "Plot 121, MIDC",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "629469",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Yadav",
+          "email": "nikhily@verma.in",
+          "phone": "+91-80827-98303"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 4756.18,
+          "taxable_value": 237809.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 66586.52
+        }
+      ],
+      "total_taxable_value": 237809.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 66586.52,
+      "total_tax": 66586.52,
+      "invoice_total": 304395.52,
+      "currency": "INR",
+      "eway_bill_ref": "979655826974",
+      "vehicle_no": "KA64KD9165",
+      "consignment_ref": "CONS-PIL-VER-260703-61979"
+    },
+    "eway_bill": {
+      "ewb_no": "979655826974",
+      "generated_at": "2026-07-16T03:15:17+05:30",
+      "valid_until": "2026-07-27T03:15:17+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/61979",
+      "doc_date": "2026-07-15",
+      "from_gstin": "29QQRCT4203O8Z6",
+      "from_address": "Godown 212, Export Zone, Whitefield, Whitefield, Karnataka - 598483",
+      "to_gstin": "19ZZYPY1633R6ZE",
+      "to_address": "Plot 121, MIDC, Howrah, Howrah, West Bengal - 629469",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "24EUYTI1403A1ZT",
+      "mode": "road",
+      "vehicle_no": "KA64KD9165",
+      "consignment_ref": "CONS-PIL-VER-260703-61979",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 237809.0,
+      "total_invoice_value": 304395.52,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61979",
+      "po_date": "2026-07-03",
+      "buyer_entity": "Verma Polymers Ltd.",
+      "vendor_code": "VND-6886",
+      "vendor_name": "Pillai Trading Co",
+      "vendor_gstin": "29QQRCT4203O8Z6",
+      "items": [
+        {
+          "item_code": "ITEM-91591",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 4756.18,
+          "line_total": 237809.0,
+          "expected_delivery": "2026-07-23"
+        }
+      ],
+      "po_subtotal": 237809.0,
+      "po_tax": 66586.52,
+      "po_total": 304395.52,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Yadav",
+        "approved_at": "2026-07-04T22:41:24+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/61979"
+      ],
+      "grn": {
+        "grn_no": "GRN-61979",
+        "received_at": "2026-07-18T22:45:17+05:30",
+        "received_by": "Nikhil Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-91591",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PIL-VER-260703-61979"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-89611",
+      "thread_name": "CONS-PIL-VER-260703-61979 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Khan",
+          "role": "driver",
+          "phone": "+91-90638-67537"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-90638-67537"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Yadav",
+          "role": "warehouse",
+          "phone": "+91-80827-98303"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ajay Banerjee",
+          "role": "accounts",
+          "phone": "+91-80827-98303"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-16T08:15:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "en",
+          "text": "Vehicle KA64KD9165 dispatched from Whitefield. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-16T08:50:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hain, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-17T04:45:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-18T01:15:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-18T01:45:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Yadav",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-18T04:15:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Yadav",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-18T04:33:17+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Yadav",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-07-18T04:45:17+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PIL-VER-260703-61979_29.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-6655.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-07-19T14:45:17+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ajay Banerjee",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/61979 hai.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-03T18:41:24+05:30",
+      "actor": "Verma Polymers Ltd.",
+      "doc_ref": "PUR-2026-61979",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-04T22:41:24+05:30",
+      "actor": "Nikhil Yadav",
+      "doc_ref": "PUR-2026-61979",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-15T19:56:17+05:30",
+      "actor": "Pillai Trading Co.",
+      "doc_ref": "INV/2026-27/61979",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-16T03:15:17+05:30",
+      "actor": "Pillai Trading Co.",
+      "doc_ref": "979655826974",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-16T08:15:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "KA64KD9165",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-18T01:15:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "KA64KD9165",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-18T04:15:17+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-PIL-VER-260703-61979",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-18T04:45:17+05:30",
+      "actor": "Nikhil Yadav",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-18T22:45:17+05:30",
+      "actor": "Nikhil Yadav",
+      "doc_ref": "GRN-61979",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice INV/2026-27/61979 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261979,
+    "notes": "task=comp_pan defect=none"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0007",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/61494",
+      "issued_at": "2026-01-15T10:41:18+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Engineering Works",
+        "legal_name": "Agarwal Engineering Works",
+        "gstin": "29QQSCC7716W7ZV",
+        "pan": "QQSCC7716W",
+        "address": {
+          "line1": "Warehouse 3, Phase II",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "882631",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Banerjee",
+          "email": "abanerjee@agarwal.com",
+          "phone": "+91-70363-92722"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Exports",
+        "legal_name": "Bhatia Exports",
+        "gstin": "09ZZXCO2254B6ZD",
+        "pan": "ZZXCO2254B",
+        "address": {
+          "line1": "Warehouse 156, Logistics Park",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "423283",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Yadav",
+          "email": "dyadav@bhatia.in",
+          "phone": "+91-80100-69127"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 180.0,
+          "unit": "KGS",
+          "rate_per_unit": 245.13,
+          "taxable_value": 44123.4,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7942.21
+        }
+      ],
+      "total_taxable_value": 44123.4,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 7942.21,
+      "total_tax": 7942.21,
+      "invoice_total": 52065.61,
+      "currency": "INR",
+      "eway_bill_ref": "494435476441",
+      "vehicle_no": "KA92BD2013",
+      "consignment_ref": "CONS-AGA-BHA-260111-61494"
+    },
+    "eway_bill": {
+      "ewb_no": "494435476441",
+      "generated_at": "2026-01-15T17:47:18+05:30",
+      "valid_until": "2026-01-26T17:47:18+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/61494",
+      "doc_date": "2026-01-15",
+      "from_gstin": "29QQSCC7716W7ZV",
+      "from_address": "Warehouse 3, Phase II, Nelamangala, Nelamangala, Karnataka - 882631",
+      "to_gstin": "09ZZXCO2254B6ZD",
+      "to_address": "Warehouse 156, Logistics Park, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 423283",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "19NMXTE4853V1ZT",
+      "mode": "road",
+      "vehicle_no": "KA92BD2013",
+      "consignment_ref": "CONS-AGA-BHA-260111-61494",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 180.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 44123.4,
+      "total_invoice_value": 52065.61,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-61494",
+      "po_date": "2026-01-11",
+      "buyer_entity": "Bhatia Exports",
+      "vendor_code": "VND-4158",
+      "vendor_name": "Agarwal Engineering Works",
+      "vendor_gstin": "29QQSCC7716W7ZV",
+      "items": [
+        {
+          "item_code": "ITEM-27982",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 180.0,
+          "unit": "KGS",
+          "unit_price": 245.13,
+          "line_total": 44123.4,
+          "expected_delivery": "2026-01-23"
+        }
+      ],
+      "po_subtotal": 44123.4,
+      "po_tax": 7942.21,
+      "po_total": 52065.61,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Yadav",
+        "approved_at": "2026-01-12T19:05:23+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/61494"
+      ],
+      "grn": {
+        "grn_no": "GRN-61494",
+        "received_at": "2026-01-17T21:37:18+05:30",
+        "received_by": "Dinesh Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-27982",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-BHA-260111-61494"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-73522",
+      "thread_name": "CONS-AGA-BHA-260111-61494 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Sharma",
+          "role": "driver",
+          "phone": "+91-70363-92722"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ajay Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70363-92722"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Yadav",
+          "role": "warehouse",
+          "phone": "+91-80100-69127"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Priya Nair",
+          "role": "accounts",
+          "phone": "+91-80100-69127"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-15T19:47:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Vehicle KA92BD2013 dispatched from Nelamangala. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-16T17:17:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-17T14:47:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "Noida Sector 63 warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-17T16:47:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "en",
+          "text": "Consignment received in full at our Noida Sector 63 warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-17T17:32:18+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Yadav",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-17T17:37:18+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-BHA-260111-61494_79.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-8532.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-18T14:37:18+05:30",
+          "sender_id": "P4",
+          "sender_name": "Priya Nair",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number TAX/2026-27/61494 hai.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-11T14:05:23+05:30",
+      "actor": "Bhatia Exports",
+      "doc_ref": "PUR-2026-61494",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-12T19:05:23+05:30",
+      "actor": "Dinesh Yadav",
+      "doc_ref": "PUR-2026-61494",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-15T10:41:18+05:30",
+      "actor": "Agarwal Engineering Works",
+      "doc_ref": "TAX/2026-27/61494",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-15T17:47:18+05:30",
+      "actor": "Agarwal Engineering Works",
+      "doc_ref": "494435476441",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-15T19:47:18+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA92BD2013",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-17T14:47:18+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "KA92BD2013",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-17T16:47:18+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-AGA-BHA-260111-61494",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-17T17:37:18+05:30",
+      "actor": "Dinesh Yadav",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-17T21:37:18+05:30",
+      "actor": "Dinesh Yadav",
+      "doc_ref": "GRN-61494",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice TAX/2026-27/61494 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261494,
+    "notes": "task=comp_fields defect=none"
+  }
+}

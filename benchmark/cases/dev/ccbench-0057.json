@@ -1,0 +1,530 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0057",
+  "bucket": "compliance",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/66344",
+      "issued_at": "2026-04-03T09:56:30+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Iyer Logistics P Ltd",
+        "legal_name": "Iyer Logistics Pvt. Ltd.",
+        "gstin": "09XQIPX9710T3ZA",
+        "pan": "XQIPX9710T",
+        "address": {
+          "line1": "Plot 195, Export Zone",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "193682",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Reddy",
+          "email": "kavitar@iyer.com",
+          "phone": "+91-70539-36998"
+        }
+      },
+      "buyer": {
+        "name": "Mehta Brothers Polymers Limited",
+        "legal_name": "Mehta Brothers Polymers Ltd.",
+        "gstin": "19QQWCD9241N1ZN",
+        "pan": "QQWCD9241N",
+        "address": {
+          "line1": "Shed 137, Industrial Area",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "231828",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Joshi",
+          "email": "farhanj@mehta.com",
+          "phone": "+91-80566-63735"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 3573.55,
+          "taxable_value": 357355.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 64323.9
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 42.94,
+          "taxable_value": 21470.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 3864.6
+        },
+        {
+          "line_no": 3,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 91.1,
+          "taxable_value": 2277.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 409.95
+        },
+        {
+          "line_no": 4,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 82.77,
+          "taxable_value": 4138.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 744.93
+        }
+      ],
+      "total_taxable_value": 385241.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 69343.38,
+      "total_tax": 69343.38,
+      "invoice_total": 454584.38,
+      "currency": "INR",
+      "eway_bill_ref": "344452210784",
+      "vehicle_no": "UP31PN5203",
+      "consignment_ref": "CONS-IYE-MEH-260324-66344"
+    },
+    "eway_bill": {
+      "ewb_no": "344452210784",
+      "generated_at": "2026-04-03T15:02:30+05:30",
+      "valid_until": "2026-04-06T15:02:30+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/66344",
+      "doc_date": "2026-04-03",
+      "from_gstin": "09XQIPX9710T3ZA",
+      "from_address": "Plot 195, Export Zone, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 193682",
+      "to_gstin": "19QQWCD9241N1ZN",
+      "to_address": "Shed 137, Industrial Area, Howrah, Howrah, West Bengal - 231828",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "23GZXOS8761A1ZT",
+      "mode": "road",
+      "vehicle_no": "UP31PN5203",
+      "consignment_ref": "CONS-IYE-MEH-260324-66344",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 385241.0,
+      "total_invoice_value": 454584.38,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-66344",
+      "po_date": "2026-03-24",
+      "buyer_entity": "Mehta Brothers Polymers Ltd.",
+      "vendor_code": "VND-7923",
+      "vendor_name": "Iyer Logistics P Ltd",
+      "vendor_gstin": "09XQIPX9710T3ZA",
+      "items": [
+        {
+          "item_code": "ITEM-33527",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 3573.55,
+          "line_total": 357355.0,
+          "expected_delivery": "2026-04-08"
+        },
+        {
+          "item_code": "ITEM-13213",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 42.94,
+          "line_total": 21470.0,
+          "expected_delivery": "2026-04-07"
+        },
+        {
+          "item_code": "ITEM-25151",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 91.1,
+          "line_total": 2277.5,
+          "expected_delivery": "2026-04-09"
+        },
+        {
+          "item_code": "ITEM-23629",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 82.77,
+          "line_total": 4138.5,
+          "expected_delivery": "2026-04-07"
+        }
+      ],
+      "po_subtotal": 385241.0,
+      "po_tax": 69343.38,
+      "po_total": 454584.38,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Farhan Joshi",
+        "approved_at": "2026-03-25T09:49:02+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/66344"
+      ],
+      "grn": {
+        "grn_no": "GRN-66344",
+        "received_at": "2026-04-04T10:47:30+05:30",
+        "received_by": "Farhan Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-33527",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-13213",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-25151",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-23629",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-IYE-MEH-260324-66344"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-33346",
+      "thread_name": "CONS-IYE-MEH-260324-66344 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Khan",
+          "role": "driver",
+          "phone": "+91-70539-36998"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70539-36998"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Joshi",
+          "role": "warehouse",
+          "phone": "+91-80566-63735"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Nair",
+          "role": "accounts",
+          "phone": "+91-80566-63735"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-03T18:02:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "सर UP31PN5203 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-03T20:42:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_693.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-03T23:22:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_143.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-04T02:02:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Howrah गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-04T05:02:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Joshi",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-04T05:27:30+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Joshi",
+          "lang": "hi-en",
+          "text": "Mahesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-04T06:47:30+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-IYE-MEH-260324-66344_25.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-4348.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-05T03:47:30+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Nair",
+          "lang": "en",
+          "text": "Correction to my earlier message — pls read TAX/2026-27/66344.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-24T15:49:02+05:30",
+      "actor": "Mehta Brothers Polymers Ltd.",
+      "doc_ref": "PO-2026-66344",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-25T09:49:02+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "PO-2026-66344",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-03T09:56:30+05:30",
+      "actor": "Iyer Logistics Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/66344",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-03T15:02:30+05:30",
+      "actor": "Iyer Logistics Pvt. Ltd.",
+      "doc_ref": "344452210784",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-03T18:02:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "UP31PN5203",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-04T02:02:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "UP31PN5203",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-04T05:02:30+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-IYE-MEH-260324-66344",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-04T06:47:30+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-04T10:47:30+05:30",
+      "actor": "Farhan Joshi",
+      "doc_ref": "GRN-66344",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice TAX/2026-27/66344 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "gold_answer": "Four categories must be restricted on invoice TAX/2026-27/66344 [INV]. The seller's and buyer's PANs are denied outright and must not be emitted [INV]. Both GSTINs must be masked to their last four characters — the seller's as XXXXXXXXXXXT3ZA and the buyer's as XXXXXXXXXXXN1ZN [INV]. The named contacts' email addresses and phone numbers are personal data and must be withheld [INV]. Everything else — line items, HSN codes, quantities, the tax breakdown and the total of Rs. 454,584.38 — may be emitted unchanged [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/66344",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "XQIPX9710T",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "09XQIPX9710T3ZA",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "seller.contact.email",
+      "value": "kavitar@iyer.com",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "buyer.pan",
+      "value": "QQWCD9241N",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70539-36998",
+    "+91-80566-63735",
+    "QQWCD9241N",
+    "XQIPX9710T",
+    "farhanj@mehta.com",
+    "kavitar@iyer.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266344,
+    "notes": "task=comp_fields defect=none"
+  }
+}

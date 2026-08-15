@@ -1,0 +1,389 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0061",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/66732",
+      "issued_at": "2026-04-26T15:49:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Mehta Brothers Enterprises",
+        "legal_name": "Mehta Brothers Enterprises",
+        "gstin": "06QQBCJ1217P7ZQ",
+        "pan": "QQBCJ1217P",
+        "address": {
+          "line1": "Godown 53, Export Zone",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "132506",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Kumar",
+          "email": "dkumar@mehta.com",
+          "phone": "+91-90313-29036"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Logistics Pvt. Limited",
+        "legal_name": "Iyer Logistics Pvt. Ltd.",
+        "gstin": "27XQMCE1657I8ZM",
+        "pan": "XQMCE1657I",
+        "address": {
+          "line1": "Godown 159, Industrial Area",
+          "line2": "Chakan",
+          "city": "Chakan",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "783459",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Joshi",
+          "email": "meenaj@iyer.co.in",
+          "phone": "+91-90719-58581"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 151.1,
+          "taxable_value": 15110.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2719.8
+        }
+      ],
+      "total_taxable_value": 15110.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2719.8,
+      "total_tax": 2719.8,
+      "invoice_total": 17829.8,
+      "currency": "INR",
+      "eway_bill_ref": "732968703866",
+      "vehicle_no": "HR65GV7468",
+      "consignment_ref": "CONS-MEH-IYE-260421-66732"
+    },
+    "eway_bill": {
+      "ewb_no": "732968703866",
+      "generated_at": "2026-04-26T23:08:49+05:30",
+      "valid_until": "2026-05-02T23:08:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/66732",
+      "doc_date": "2026-04-26",
+      "from_gstin": "06QQBCJ1217P7ZQ",
+      "from_address": "Godown 53, Export Zone, Bahadurgarh, Bahadurgarh, Haryana - 132506",
+      "to_gstin": "27XQMCE1657I8ZM",
+      "to_address": "Godown 159, Industrial Area, Chakan, Chakan, Maharashtra - 783459",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "06BMCBT9607K1ZT",
+      "mode": "road",
+      "vehicle_no": "HR65GV7468",
+      "consignment_ref": "CONS-MEH-IYE-260421-66732",
+      "items": [
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 100.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 15110.0,
+      "total_invoice_value": 17829.8,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-66732",
+      "po_date": "2026-04-21",
+      "buyer_entity": "Iyer Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5384",
+      "vendor_name": "Mehta Brothers Enterprises",
+      "vendor_gstin": "06QQBCJ1217P7ZQ",
+      "items": [
+        {
+          "item_code": "ITEM-78596",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 151.1,
+          "line_total": 15110.0,
+          "expected_delivery": "2026-04-29"
+        }
+      ],
+      "po_subtotal": 15110.0,
+      "po_tax": 2719.8,
+      "po_total": 17829.8,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Meena Joshi",
+        "approved_at": "2026-04-22T16:27:50+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/66732"
+      ],
+      "grn": {
+        "grn_no": "GRN-66732",
+        "received_at": "2026-04-28T06:15:49+05:30",
+        "received_by": "Meena Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-78596",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-MEH-IYE-260421-66732"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-40861",
+      "thread_name": "CONS-MEH-IYE-260421-66732 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Singh",
+          "role": "driver",
+          "phone": "+91-90313-29036"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90313-29036"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Joshi",
+          "role": "warehouse",
+          "phone": "+91-90719-58581"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-27T01:08:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Sir HR65GV7468 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-27T02:12:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-27T13:08:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Chakan.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-28T01:08:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "गाड़ी Chakan गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-28T02:08:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Joshi",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-28T02:29:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Joshi",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-28T04:15:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-MEH-IYE-260421-66732_69.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-21T12:27:50+05:30",
+      "actor": "Iyer Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-66732",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-22T16:27:50+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "PUR-2026-66732",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-26T15:49:49+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "INV/2026-27/66732",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-26T23:08:49+05:30",
+      "actor": "Mehta Brothers Enterprises",
+      "doc_ref": "732968703866",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-27T01:08:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR65GV7468",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-28T01:08:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR65GV7468",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-28T02:08:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-MEH-IYE-260421-66732",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-28T04:15:49+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-28T06:15:49+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "GRN-66732",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under INV/2026-27/66732 the same as the quantity ordered on PUR-2026-66732?",
+  "question_lang": "en",
+  "gold_answer": "Yes, all 1 line(s) agree: 100 units were ordered on PUR-2026-66732 [ERP] and 100 units were invoiced on INV/2026-27/66732 [INV] for consignment CONS-MEH-IYE-260421-66732.",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "erp_order",
+      "path": "po_no",
+      "value": "PUR-2026-66732",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/66732",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].quantity",
+      "value": "100.0",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "erp_order",
+      "path": "items[0].quantity_ordered",
+      "value": "100.0",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-90313-29036",
+    "+91-90719-58581",
+    "QQBCJ1217P",
+    "XQMCE1657I",
+    "dkumar@mehta.com",
+    "meenaj@iyer.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20266732,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

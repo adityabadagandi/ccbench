@@ -1,0 +1,442 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0077",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/68284",
+      "issued_at": "2026-06-14T13:27:08+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Engineering Works",
+        "legal_name": "Patel Engineering Works",
+        "gstin": "24QQMPD9287W6ZT",
+        "pan": "QQMPD9287W",
+        "address": {
+          "line1": "Plot 151, Logistics Park",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "841899",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Desai",
+          "email": "kdesai@patel.in",
+          "phone": "+91-80414-99930"
+        }
+      },
+      "buyer": {
+        "name": "Deshmukh Distributors",
+        "legal_name": "Deshmukh Distributors",
+        "gstin": "06ZZNPY9607P2ZB",
+        "pan": "ZZNPY9607P",
+        "address": {
+          "line1": "Shed 134, Export Zone",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "288225",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Desai",
+          "email": "sunitad@deshmukh.com",
+          "phone": "+91-80231-92167"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 93.38,
+          "taxable_value": 16808.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 840.42
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 222.17,
+          "taxable_value": 111085.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 19995.3
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 308.81,
+          "taxable_value": 123524.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 22234.32
+        }
+      ],
+      "total_taxable_value": 251417.4,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 43070.04,
+      "total_tax": 43070.04,
+      "invoice_total": 294487.44,
+      "currency": "INR",
+      "eway_bill_ref": "284638737141",
+      "vehicle_no": "GJ16RY1392",
+      "consignment_ref": "CONS-PAT-DES-260602-68284"
+    },
+    "eway_bill": {
+      "ewb_no": "284638737141",
+      "generated_at": "2026-06-14T19:46:08+05:30",
+      "valid_until": "2026-06-20T19:46:08+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/68284",
+      "doc_date": "2026-06-14",
+      "from_gstin": "24QQMPD9287W6ZT",
+      "from_address": "Plot 151, Logistics Park, Vatva, Ahmedabad, Ahmedabad, Gujarat - 841899",
+      "to_gstin": "06ZZNPY9607P2ZB",
+      "to_address": "Shed 134, Export Zone, Bahadurgarh, Bahadurgarh, Haryana - 288225",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "29QPDHI7564J1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ16RY1392",
+      "consignment_ref": "CONS-PAT-DES-260602-68284",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 251417.4,
+      "total_invoice_value": 294487.44,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-68284",
+      "po_date": "2026-06-02",
+      "buyer_entity": "Deshmukh Distributors",
+      "vendor_code": "VND-2200",
+      "vendor_name": "Patel Engineering Works",
+      "vendor_gstin": "24QQMPD9287W6ZT",
+      "items": [
+        {
+          "item_code": "ITEM-77021",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 93.38,
+          "line_total": 16808.4,
+          "expected_delivery": "2026-06-22"
+        },
+        {
+          "item_code": "ITEM-67621",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 222.17,
+          "line_total": 111085.0,
+          "expected_delivery": "2026-06-17"
+        },
+        {
+          "item_code": "ITEM-60376",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 308.81,
+          "line_total": 123524.0,
+          "expected_delivery": "2026-06-18"
+        }
+      ],
+      "po_subtotal": 251417.4,
+      "po_tax": 43070.04,
+      "po_total": 294487.44,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Sunita Desai",
+        "approved_at": "2026-06-03T17:18:51+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/68284"
+      ],
+      "grn": {
+        "grn_no": "GRN-68284",
+        "received_at": "2026-06-14T21:47:08+05:30",
+        "received_by": "Sunita Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-77021",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-67621",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-60376",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-DES-260602-68284"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-69112",
+      "thread_name": "CONS-PAT-DES-260602-68284 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Khan",
+          "role": "driver",
+          "phone": "+91-80414-99930"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Desai",
+          "role": "dispatcher",
+          "phone": "+91-80414-99930"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Desai",
+          "role": "warehouse",
+          "phone": "+91-80231-92167"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ajay Khan",
+          "role": "accounts",
+          "phone": "+91-80231-92167"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-14T18:46:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "Bahadurgarh warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-14T19:46:08+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Desai",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-14T19:56:08+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-14T20:46:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-14T20:47:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-DES-260602-68284_83.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-8152.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-14T22:46:08+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Khan",
+          "lang": "hi-en",
+          "text": "GJ16RY1392 dispatch ho gayi Ahmedabad se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-15T01:47:08+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ajay Khan",
+          "lang": "en",
+          "text": "The POD timestamp precedes the dispatch timestamp. Please verify the entry.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-15T10:47:08+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ajay Khan",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read TAX/2026-27/68284.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-84562",
+      "raised_at": "2026-06-15T03:47:08+05:30",
+      "raised_by": "Sunita Desai",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-02T15:18:51+05:30",
+      "actor": "Deshmukh Distributors",
+      "doc_ref": "PUR-2026-68284",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-03T17:18:51+05:30",
+      "actor": "Sunita Desai",
+      "doc_ref": "PUR-2026-68284",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-14T13:27:08+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "TAX/2026-27/68284",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "arrived",
+      "ts": "2026-06-14T18:46:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "GJ16RY1392",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "ewb_generated",
+      "ts": "2026-06-14T19:46:08+05:30",
+      "actor": "Patel Engineering Works",
+      "doc_ref": "284638737141",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-06-14T19:46:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-PAT-DES-260602-68284",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-06-14T20:47:08+05:30",
+      "actor": "Sunita Desai",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-06-14T21:47:08+05:30",
+      "actor": "Sunita Desai",
+      "doc_ref": "GRN-68284",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-14T22:46:08+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "GJ16RY1392",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-PAT-DES-260602-68284 internally consistent?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268284,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

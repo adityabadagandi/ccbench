@@ -1,0 +1,463 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0134",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/73813",
+      "issued_at": "2026-01-07T16:41:22+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Distributors",
+        "legal_name": "Patel Distributors",
+        "gstin": "23QQGCD5081Z9ZS",
+        "pan": "QQGCD5081Z",
+        "address": {
+          "line1": "Unit 166, Industrial Area",
+          "line2": "Govindpura, Bhopal",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "345944",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Suresh Joshi",
+          "email": "suresh.joshi@patel.in",
+          "phone": "+91-70254-83112"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Trading & Co.",
+        "legal_name": "Rastogi Trading Co.",
+        "gstin": "24QQEPY7805U5Z5",
+        "pan": "QQEPY7805U",
+        "address": {
+          "line1": "Unit 94, MIDC",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "464915",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Desai",
+          "email": "rdesai@rastogi.in",
+          "phone": "+91-70121-71804"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 65.57,
+          "taxable_value": 26228.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4721.04
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 384.5,
+          "taxable_value": 96125.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 17302.5
+        },
+        {
+          "line_no": 3,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 3463.71,
+          "taxable_value": 2597782.5,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 727379.1
+        },
+        {
+          "line_no": 4,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 24167.42,
+          "taxable_value": 24167420.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4350135.6
+        }
+      ],
+      "total_taxable_value": 26887555.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 5099538.24,
+      "total_tax": 5099538.24,
+      "invoice_total": 31987093.74,
+      "currency": "INR",
+      "eway_bill_ref": "813927476613",
+      "vehicle_no": "MP46LN6943",
+      "consignment_ref": "CONS-PAT-RAS-260104-73813"
+    },
+    "eway_bill": {
+      "ewb_no": "813927476613",
+      "generated_at": "2026-01-08T01:00:22+05:30",
+      "valid_until": "2026-01-19T01:00:22+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/73813",
+      "doc_date": "2026-01-07",
+      "from_gstin": "23QQGCD5081Z9ZS",
+      "from_address": "Unit 166, Industrial Area, Govindpura, Bhopal, Bhopal, Madhya Pradesh - 345944",
+      "to_gstin": "24QQEPY7805U5Z5",
+      "to_address": "Unit 94, MIDC, Sachin, Surat, Surat, Gujarat - 464915",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "09TTXJE6621F1ZT",
+      "mode": "road",
+      "vehicle_no": "MP46LN6943",
+      "consignment_ref": "CONS-PAT-RAS-260104-73813",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 26887555.5,
+      "total_invoice_value": 31987093.74,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-73813",
+      "po_date": "2026-01-04",
+      "buyer_entity": "Rastogi Trading Co.",
+      "vendor_code": "VND-3815",
+      "vendor_name": "Patel Distributors",
+      "vendor_gstin": "23QQGCD5081Z9ZS",
+      "items": [
+        {
+          "item_code": "ITEM-55254",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 65.57,
+          "line_total": 26228.0,
+          "expected_delivery": "2026-01-15"
+        },
+        {
+          "item_code": "ITEM-87646",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 384.5,
+          "line_total": 96125.0,
+          "expected_delivery": "2026-01-12"
+        },
+        {
+          "item_code": "ITEM-76607",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 3463.71,
+          "line_total": 2597782.5,
+          "expected_delivery": "2026-01-09"
+        },
+        {
+          "item_code": "ITEM-34257",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 24167.42,
+          "line_total": 24167420.0,
+          "expected_delivery": "2026-01-13"
+        }
+      ],
+      "po_subtotal": 26887555.5,
+      "po_tax": 5099538.24,
+      "po_total": 31987093.74,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Desai",
+        "approved_at": "2026-01-05T05:12:59+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/73813"
+      ],
+      "grn": {
+        "grn_no": "GRN-73813",
+        "received_at": "2026-01-10T11:45:22+05:30",
+        "received_by": "Ramesh Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-55254",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-87646",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-76607",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-34257",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-RAS-260104-73813"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-71522",
+      "thread_name": "CONS-PAT-RAS-260104-73813 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Reddy",
+          "role": "driver",
+          "phone": "+91-70254-83112"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Suresh Joshi",
+          "role": "dispatcher",
+          "phone": "+91-70254-83112"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Desai",
+          "role": "warehouse",
+          "phone": "+91-70121-71804"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Singh",
+          "role": "accounts",
+          "phone": "+91-70121-71804"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-08T04:00:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Sir MP46LN6943 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-08T04:31:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-08T17:20:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-01-09T06:40:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-01-09T20:00:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi",
+          "text": "गाड़ी Surat गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-01-09T23:00:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-01-09T23:41:22+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Desai",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-01-10T01:45:22+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-RAS-260104-73813_23.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-04T18:12:59+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "ORD-2026-73813",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-05T05:12:59+05:30",
+      "actor": "Ramesh Desai",
+      "doc_ref": "ORD-2026-73813",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-07T16:41:22+05:30",
+      "actor": "Patel Distributors",
+      "doc_ref": "TAX/2026-27/73813",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-08T01:00:22+05:30",
+      "actor": "Patel Distributors",
+      "doc_ref": "813927476613",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-08T04:00:22+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "MP46LN6943",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-01-09T20:00:22+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "MP46LN6943",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-01-09T23:00:22+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-PAT-RAS-260104-73813",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-01-10T01:45:22+05:30",
+      "actor": "Ramesh Desai",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-01-10T11:45:22+05:30",
+      "actor": "Ramesh Desai",
+      "doc_ref": "GRN-73813",
+      "note": null
+    }
+  ],
+  "question": "What is the total invoice value for consignment CONS-PAT-RAS-260104-73813?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273813,
+    "notes": "task=lookup_total defect=none"
+  }
+}

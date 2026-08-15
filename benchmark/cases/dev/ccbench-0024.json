@@ -1,0 +1,316 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0024",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/63143",
+      "issued_at": "2026-02-15T18:56:57+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Exports",
+        "legal_name": "Reddy Exports",
+        "gstin": "09XQBCC9713Z4ZV",
+        "pan": "XQBCC9713Z",
+        "address": {
+          "line1": "Godown 207, Phase II",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "216174",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Mishra",
+          "email": "mmishra@reddy.co.in",
+          "phone": "+91-80273-72656"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Logistics Pvt. Ltd.",
+        "legal_name": "Iyer Logistics Pvt. Ltd.",
+        "gstin": "09QQVPC1543N7Z0",
+        "pan": "QQVPC1543N",
+        "address": {
+          "line1": "Unit 139, MIDC",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "730923",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Iyer",
+          "email": "imran.iyer@iyer.in",
+          "phone": "+91-90958-12237"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 118.76,
+          "taxable_value": 118760.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 10688.4,
+          "sgst_amount": 10688.4,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 118760.0,
+      "total_cgst": 10688.4,
+      "total_sgst": 10688.4,
+      "total_igst": 0.0,
+      "total_tax": 21376.8,
+      "invoice_total": 140136.8,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP16CD8361",
+      "consignment_ref": "CONS-RED-IYE-260203-63143"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-63143",
+      "po_date": "2026-02-03",
+      "buyer_entity": "Iyer Logistics Pvt. Ltd.",
+      "vendor_code": "VND-1986",
+      "vendor_name": "Reddy Exports",
+      "vendor_gstin": "09XQBCC9713Z4ZV",
+      "items": [
+        {
+          "item_code": "ITEM-65628",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 118.76,
+          "line_total": 118760.0,
+          "expected_delivery": "2026-02-24"
+        }
+      ],
+      "po_subtotal": 118760.0,
+      "po_tax": 21376.8,
+      "po_total": 140136.8,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Imran Iyer",
+        "approved_at": "2026-02-04T03:05:58+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/63143"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-RED-IYE-260203-63143"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-46584",
+      "thread_name": "CONS-RED-IYE-260203-63143 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Reddy",
+          "role": "driver",
+          "phone": "+91-80273-72656"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Mahesh Mishra",
+          "role": "dispatcher",
+          "phone": "+91-80273-72656"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Iyer",
+          "role": "warehouse",
+          "phone": "+91-90958-12237"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Yadav",
+          "role": "accounts",
+          "phone": "+91-90958-12237"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-15T22:15:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi-en",
+          "text": "UP16CD8361 loading complete sr, nikal rahe hain Kanpur se.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-15T22:43:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi-en",
+          "text": "Diesel bhar liya hai, paisa account mein daal dena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-16T07:15:57+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Reddy",
+          "lang": "hi-en",
+          "text": "Inspector ne gaadi rok li. Bol rahe hain e-way bill ke bina aage nahi ja sakti.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-16T11:15:57+05:30",
+          "sender_id": "P2",
+          "sender_name": "Mahesh Mishra",
+          "lang": "hi",
+          "text": "गाड़ी वहीं रोको। हम पोर्टल से ई-वे बिल बनवा रहे हैं।",
+          "reply_to": "M-003",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-16T19:15:57+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sameer Yadav",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-03T19:05:58+05:30",
+      "actor": "Iyer Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-63143",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-04T03:05:58+05:30",
+      "actor": "Imran Iyer",
+      "doc_ref": "ORD-2026-63143",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-15T18:56:57+05:30",
+      "actor": "Reddy Exports",
+      "doc_ref": "GST/2026-27/63143",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-02-15T22:15:57+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP16CD8361",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-02-17T18:15:57+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "UP16CD8361",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-02-17T20:15:57+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-RED-IYE-260203-63143",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-02-17T20:37:57+05:30",
+      "actor": "Imran Iyer",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-RED-IYE-260203-63143 before it moved?",
+  "question_lang": "en",
+  "gold_answer": "No — invoice GST/2026-27/63143 carries no e-way bill reference and none exists for consignment CONS-RED-IYE-260203-63143 [INV], so the vehicle moved without a permit. The driver confirmed on the thread that the vehicle was stopped at the check post for exactly this reason [M-003].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/63143",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-RED-IYE-260203-63143",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-003.text",
+      "value": "Inspector ne gaadi rok li. Bol rahe hain e-way bill ke bina aage nahi ja sakti.",
+      "evidence": {
+        "ref_id": "M-003",
+        "lang": "hi-en",
+        "span": "e-way bill ke bina aage nahi ja sakti",
+        "gloss_en": "cannot proceed without the e-way bill"
+      }
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-80273-72656",
+    "+91-90958-12237",
+    "QQVPC1543N",
+    "XQBCC9713Z",
+    "imran.iyer@iyer.in",
+    "mmishra@reddy.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263143,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

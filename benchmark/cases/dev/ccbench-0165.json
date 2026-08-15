@@ -1,0 +1,476 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0165",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/76820",
+      "issued_at": "2026-03-27T10:05:55+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Industries",
+        "legal_name": "Kulkarni Industries",
+        "gstin": "33QQUPO2065F5ZF",
+        "pan": "QQUPO2065F",
+        "address": {
+          "line1": "Godown 52, MIDC",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "894858",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Yadav",
+          "email": "dyadav@kulkarni.in",
+          "phone": "+91-70368-57445"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Distributors",
+        "legal_name": "Krishna Distributors",
+        "gstin": "09ZZYCY9046G2ZN",
+        "pan": "ZZYCY9046G",
+        "address": {
+          "line1": "Shed 109, MIDC",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "767270",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Singh",
+          "email": "maheshs@krishna.com",
+          "phone": "+91-70476-56317"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 84.34,
+          "taxable_value": 33736.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6072.48
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 7668.27,
+          "taxable_value": 7668270.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1380288.6
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 67.08,
+          "taxable_value": 67080.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 12074.4
+        }
+      ],
+      "total_taxable_value": 7769086.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 1398435.48,
+      "total_tax": 1398435.48,
+      "invoice_total": 9167521.48,
+      "currency": "INR",
+      "eway_bill_ref": "820348161004",
+      "vehicle_no": "TN19FB8915",
+      "consignment_ref": "CONS-KUL-KRI-260320-76820"
+    },
+    "eway_bill": {
+      "ewb_no": "820348161004",
+      "generated_at": "2026-03-27T15:24:55+05:30",
+      "valid_until": "2026-04-05T15:24:55+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/76820",
+      "doc_date": "2026-03-27",
+      "from_gstin": "33QQUPO2065F5ZF",
+      "from_address": "Godown 52, MIDC, Guindy, Guindy, Tamil Nadu - 894858",
+      "to_gstin": "09ZZYCY9046G2ZN",
+      "to_address": "Shed 109, MIDC, Kanpur, Kanpur, Uttar Pradesh - 767270",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "06ARVSF2986E1ZT",
+      "mode": "road",
+      "vehicle_no": "TN19FB8915",
+      "consignment_ref": "CONS-KUL-KRI-260320-76820",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 400.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 7769086.0,
+      "total_invoice_value": 6777902.61,
+      "distance_km": 1780.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-76820",
+      "po_date": "2026-03-20",
+      "buyer_entity": "Krishna Distributors",
+      "vendor_code": "VND-3080",
+      "vendor_name": "Kulkarni Industries",
+      "vendor_gstin": "33QQUPO2065F5ZF",
+      "items": [
+        {
+          "item_code": "ITEM-62871",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 84.34,
+          "line_total": 33736.0,
+          "expected_delivery": "2026-03-31"
+        },
+        {
+          "item_code": "ITEM-65367",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 7668.27,
+          "line_total": 7668270.0,
+          "expected_delivery": "2026-03-29"
+        },
+        {
+          "item_code": "ITEM-78950",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 67.08,
+          "line_total": 67080.0,
+          "expected_delivery": "2026-04-03"
+        }
+      ],
+      "po_subtotal": 7769086.0,
+      "po_tax": 1398435.48,
+      "po_total": 9167521.48,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Mahesh Singh",
+        "approved_at": "2026-03-21T11:56:34+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/76820"
+      ],
+      "grn": {
+        "grn_no": "GRN-76820",
+        "received_at": "2026-03-29T23:50:55+05:30",
+        "received_by": "Mahesh Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-62871",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-65367",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-78950",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-KRI-260320-76820"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-65029",
+      "thread_name": "CONS-KUL-KRI-260320-76820 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Yadav",
+          "role": "driver",
+          "phone": "+91-70368-57445"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Yadav",
+          "role": "dispatcher",
+          "phone": "+91-70368-57445"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Mahesh Singh",
+          "role": "warehouse",
+          "phone": "+91-70476-56317"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Kavita Desai",
+          "role": "accounts",
+          "phone": "+91-70476-56317"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-27T18:24:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "en",
+          "text": "Vehicle TN19FB8915 dispatched from Guindy. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-28T11:54:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hainn sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_373.json",
+              "caption": null
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-29T05:24:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Kanpur warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-29T09:24:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-29T09:40:55+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-29T11:50:55+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-KRI-260320-76820_49.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-30T06:50:55+05:30",
+          "sender_id": "P4",
+          "sender_name": "Kavita Desai",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 6,777,902.61 likhi hai par invoice Rs. 9,167,521.48 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-30T14:50:55+05:30",
+          "sender_id": "P4",
+          "sender_name": "Kavita Desai",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/76820 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-20T11:56:34+05:30",
+      "actor": "Krishna Distributors",
+      "doc_ref": "PO-2026-76820",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-21T11:56:34+05:30",
+      "actor": "Mahesh Singh",
+      "doc_ref": "PO-2026-76820",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-27T10:05:55+05:30",
+      "actor": "Kulkarni Industries",
+      "doc_ref": "INV/2026-27/76820",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-27T15:24:55+05:30",
+      "actor": "Kulkarni Industries",
+      "doc_ref": "820348161004",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-27T18:24:55+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN19FB8915",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-29T05:24:55+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN19FB8915",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-29T09:24:55+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-KUL-KRI-260320-76820",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-29T11:50:55+05:30",
+      "actor": "Mahesh Singh",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-29T23:50:55+05:30",
+      "actor": "Mahesh Singh",
+      "doc_ref": "GRN-76820",
+      "note": null
+    }
+  ],
+  "question": "क्या चैट में किसी ने खेप CONS-KUL-KRI-260320-76820 के कागज़ात पर सवाल उठाया था, और क्या वह सही था?",
+  "question_lang": "hi",
+  "gold_answer": "Yes, and it was justified: in message M-007, Kavita Desai flagged that \"e-way bill pe value Rs. 6,777,902.61 likhi hai par invoice Rs. 9,167,521.48 ka hai\" [M-007]. The documents confirm it — invoice INV/2026-27/76820 totals Rs. 9,167,521.48 [INV] while e-way bill 820348161004 declares Rs. 6,777,902.61 [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 6,777,902.61 likhi hai par invoice Rs. 9,167,521.48 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 6,777,902.61 likhi hai par invoice Rs. 9,167,521.48 ka hai",
+        "gloss_en": "the e-way bill states Rs. 6,777,902.61 but the invoice is for Rs. 9,167,521.48"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "9167521.48",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "6777902.61",
+      "evidence": null
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70368-57445",
+    "+91-70476-56317",
+    "QQUPO2065F",
+    "ZZYCY9046G",
+    "dyadav@kulkarni.in",
+    "maheshs@krishna.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276820,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

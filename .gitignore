@@ -16,6 +16,11 @@ htmlcov/
 coverage.xml
 *.cover
 
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
 # Virtual environments
 .venv/
 venv/
@@ -31,6 +36,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Benchmark data: dev split gold labels are public; test split is private.
-benchmark/cases/test/**/*.json
-!benchmark/cases/test/**/.gitkeep
+# Benchmark data (schema 0.2).
+# The dev split is public with gold labels. The test split is public but
+# redacted — documents and question only — so it IS committed. What must never
+# be committed is the answer key that scores it.
+benchmark/cases/test_gold.private.json
+*.private.json

@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0067",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/67314",
+      "issued_at": "2026-03-16T13:34:28+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Supply Chain Pvt Ltd",
+        "legal_name": "Chatterjee Supply Chain Pvt. Ltd.",
+        "gstin": "24ZZVCZ6817G6ZL",
+        "pan": "ZZVCZ6817G",
+        "address": {
+          "line1": "Unit 58, Export Zone",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "722503",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Joshi",
+          "email": "rekha.joshi@chatterjee.com",
+          "phone": "+91-70756-54468"
+        }
+      },
+      "buyer": {
+        "name": "Kulkarni Exports",
+        "legal_name": "Kulkarni Exports",
+        "gstin": "33XQDPK6902G6ZR",
+        "pan": "XQDPK6902G",
+        "address": {
+          "line1": "Shed 165, Export Zone",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "221522",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Nair",
+          "email": "snair@kulkarni.in",
+          "phone": "+91-80117-95054"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1200.0,
+          "unit": "NOS",
+          "rate_per_unit": 8112.59,
+          "taxable_value": 9735108.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2725830.24
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 88.9,
+          "taxable_value": 44450.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8001.0
+        }
+      ],
+      "total_taxable_value": 9779558.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2733831.24,
+      "total_tax": 2733831.24,
+      "invoice_total": 12513389.24,
+      "currency": "INR",
+      "eway_bill_ref": "314168765171",
+      "vehicle_no": "GJ82ND2585",
+      "consignment_ref": "CONS-CHA-KUL-260307-67314"
+    },
+    "eway_bill": {
+      "ewb_no": "314168765171",
+      "generated_at": "2026-03-16T15:07:28+05:30",
+      "valid_until": "2026-03-24T15:07:28+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/67314",
+      "doc_date": "2026-03-16",
+      "from_gstin": "24ZZVCZ6817G6ZL",
+      "from_address": "Unit 58, Export Zone, Sachin, Surat, Surat, Gujarat - 722503",
+      "to_gstin": "33XQDPK6902G6ZR",
+      "to_address": "Shed 165, Export Zone, Guindy, Guindy, Tamil Nadu - 221522",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "06CLFFM7248W1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ82ND2585",
+      "consignment_ref": "CONS-CHA-KUL-260307-67314",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 1200.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 500.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 9779558.0,
+      "total_invoice_value": 12513389.24,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-67314",
+      "po_date": "2026-03-07",
+      "buyer_entity": "Kulkarni Exports",
+      "vendor_code": "VND-5994",
+      "vendor_name": "Chatterjee Supply Chain Pvt Ltd",
+      "vendor_gstin": "24ZZVCZ6817G6ZL",
+      "items": [
+        {
+          "item_code": "ITEM-12957",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 1200.0,
+          "unit": "NOS",
+          "unit_price": 8112.59,
+          "line_total": 9735108.0,
+          "expected_delivery": "2026-03-25"
+        },
+        {
+          "item_code": "ITEM-66627",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 88.9,
+          "line_total": 44450.0,
+          "expected_delivery": "2026-03-23"
+        }
+      ],
+      "po_subtotal": 9779558.0,
+      "po_tax": 2733831.24,
+      "po_total": 12513389.24,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sameer Nair",
+        "approved_at": "2026-03-07T22:49:48+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/67314"
+      ],
+      "grn": {
+        "grn_no": "GRN-67314",
+        "received_at": "2026-03-16T17:00:28+05:30",
+        "received_by": "Sameer Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-12957",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-66627",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-KUL-260307-67314"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-21186",
+      "thread_name": "CONS-CHA-KUL-260307-67314 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Kumar",
+          "role": "driver",
+          "phone": "+91-70756-54468"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Joshi",
+          "role": "dispatcher",
+          "phone": "+91-70756-54468"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Nair",
+          "role": "warehouse",
+          "phone": "+91-80117-95054"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-16T11:07:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Guindy warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-16T12:07:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-16T12:47:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-16T12:49:28+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sameer Nair",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-16T13:00:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-KUL-260307-67314_51.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-16T14:27:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-16T16:07:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "en",
+          "text": "Vehicle GJ82ND2585 dispatched from Surat. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-16T16:32:28+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Kumar",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-03-16T18:00:28+05:30",
+          "sender_id": "P2",
+          "sender_name": "Rekha Joshi",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-010",
+          "ts": "2026-03-17T08:00:28+05:30",
+          "sender_id": "P2",
+          "sender_name": "Rekha Joshi",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/67314 hai.",
+          "reply_to": "M-009",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-75530",
+      "raised_at": "2026-03-16T23:00:28+05:30",
+      "raised_by": "Sameer Nair",
+      "kind": "value_query",
+      "note": "Proof of delivery timestamped before dispatch. Suspected backdated entry."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-07T15:49:48+05:30",
+      "actor": "Kulkarni Exports",
+      "doc_ref": "PO-2026-67314",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-07T22:49:48+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "PO-2026-67314",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-03-16T11:07:28+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "GJ82ND2585",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-03-16T12:07:28+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-CHA-KUL-260307-67314",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-03-16T13:00:28+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-03-16T13:34:28+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/67314",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "ewb_generated",
+      "ts": "2026-03-16T15:07:28+05:30",
+      "actor": "Chatterjee Supply Chain Pvt. Ltd.",
+      "doc_ref": "314168765171",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "dispatched",
+      "ts": "2026-03-16T16:07:28+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "GJ82ND2585",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-16T17:00:28+05:30",
+      "actor": "Sameer Nair",
+      "doc_ref": "GRN-67314",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread question the timeline for consignment CONS-CHA-KUL-260307-67314, and were they right?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267314,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

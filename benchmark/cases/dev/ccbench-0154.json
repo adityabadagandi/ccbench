@@ -1,0 +1,409 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0154",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/75753",
+      "issued_at": "2026-04-01T12:49:56+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Engineering Works",
+        "legal_name": "Verma Engineering Works",
+        "gstin": "24XQLPF0136R1ZM",
+        "pan": "XQLPF0136R",
+        "address": {
+          "line1": "Shed 98, Logistics Park",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "596884",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Nair",
+          "email": "priya.nair@verma.com",
+          "phone": "+91-90313-33219"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Manufacturing Pvt. Ltd.",
+        "legal_name": "Pillai Manufacturing Pvt. Ltd.",
+        "gstin": "33QQYPZ8172W5ZX",
+        "pan": "QQYPZ8172W",
+        "address": {
+          "line1": "Plot 116, Phase II",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "848450",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Rao",
+          "email": "mrao@pillai.com",
+          "phone": "+91-70127-28005"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 7565.96,
+          "taxable_value": 378298.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 105923.44
+        }
+      ],
+      "total_taxable_value": 378298.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 105923.44,
+      "total_tax": 105923.44,
+      "invoice_total": 484221.44,
+      "currency": "INR",
+      "eway_bill_ref": "753176177651",
+      "vehicle_no": "GJ25CY2029",
+      "consignment_ref": "CONS-VER-PIL-260325-75753"
+    },
+    "eway_bill": {
+      "ewb_no": "753176177651",
+      "generated_at": "2026-04-01T16:55:56+05:30",
+      "valid_until": "2026-04-03T16:55:56+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/75753",
+      "doc_date": "2026-04-01",
+      "from_gstin": "24XQLPF0136R1ZM",
+      "from_address": "Shed 98, Logistics Park, Vadodara, Vadodara, Gujarat - 596884",
+      "to_gstin": "33QQYPZ8172W5ZX",
+      "to_address": "Plot 116, Phase II, Ambattur, Ambattur, Tamil Nadu - 848450",
+      "transporter_name": "Rivigo Movers",
+      "transporter_id": "06DWSTB4498O1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ25CY2029",
+      "consignment_ref": "CONS-VER-PIL-260325-75753",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 378298.0,
+      "total_invoice_value": 484221.44,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-75753",
+      "po_date": "2026-03-25",
+      "buyer_entity": "Pillai Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-2229",
+      "vendor_name": "Verma Engineering Works",
+      "vendor_gstin": "24XQLPF0136R1ZM",
+      "items": [
+        {
+          "item_code": "ITEM-97899",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 7565.96,
+          "line_total": 378298.0,
+          "expected_delivery": "2026-04-09"
+        }
+      ],
+      "po_subtotal": 378298.0,
+      "po_tax": 105923.44,
+      "po_total": 484221.44,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Meena Rao",
+        "approved_at": "2026-03-25T19:05:59+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/75753"
+      ],
+      "grn": {
+        "grn_no": "GRN-75753",
+        "received_at": "2026-04-02T21:23:56+05:30",
+        "received_by": "Meena Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-97899",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-PIL-260325-75753"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-25619",
+      "thread_name": "CONS-VER-PIL-260325-75753 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Yadav",
+          "role": "driver",
+          "phone": "+91-90313-33219"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Nair",
+          "role": "dispatcher",
+          "phone": "+91-90313-33219"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Rao",
+          "role": "warehouse",
+          "phone": "+91-70127-28005"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-01T20:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "Vehicle GJ25CY2029 dispatched from Vadodara. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-01T22:03:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-01T22:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_489.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-02T00:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-02T02:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Ambattur warehouse pahunch gaye sir. Unloading start ho rahi hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-02T03:34:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Rao",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-02T06:55:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "Consignment received in full at our Ambattur warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-02T07:23:56+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-PIL-260325-75753_58.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-7421.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-02T07:25:56+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Rao",
+          "lang": "hi-en",
+          "text": "Rajesh bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-25T17:05:59+05:30",
+      "actor": "Pillai Manufacturing Pvt. Ltd.",
+      "doc_ref": "ORD-2026-75753",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-25T19:05:59+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "ORD-2026-75753",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-01T12:49:56+05:30",
+      "actor": "Verma Engineering Works",
+      "doc_ref": "GST/2026-27/75753",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-01T16:55:56+05:30",
+      "actor": "Verma Engineering Works",
+      "doc_ref": "753176177651",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-01T20:55:56+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "GJ25CY2029",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-02T02:55:56+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "GJ25CY2029",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-02T06:55:56+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-VER-PIL-260325-75753",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-02T07:23:56+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-02T21:23:56+05:30",
+      "actor": "Meena Rao",
+      "doc_ref": "GRN-75753",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 1 of invoice GST/2026-27/75753?",
+  "question_lang": "en",
+  "gold_answer": "Line 1 of invoice GST/2026-27/75753 declares HSN code 40111000, described as Pneumatic tyres of rubber, for motor cars [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/75753",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "items[0].hsn_code",
+      "value": "40111000",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[0].description",
+      "value": "Pneumatic tyres of rubber, for motor cars",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275753,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

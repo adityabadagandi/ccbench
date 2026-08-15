@@ -1,0 +1,380 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0023",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/63046",
+      "issued_at": "2026-03-04T11:18:16+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Enterprises",
+        "legal_name": "Verma Enterprises",
+        "gstin": "27QQSPM7710O4Z2",
+        "pan": "QQSPM7710O",
+        "address": {
+          "line1": "Plot 100, MIDC",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "260881",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Singh",
+          "email": "dineshs@verma.co.in",
+          "phone": "+91-90141-28015"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Trading Company",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "27ZZXCF6926L2ZS",
+        "pan": "ZZXCF6926L",
+        "address": {
+          "line1": "Godown 132, MIDC",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "693637",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Kumar",
+          "email": "zoyak@krishna.in",
+          "phone": "+91-90344-76539"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 180.0,
+          "unit": "NOS",
+          "rate_per_unit": 160.17,
+          "taxable_value": 28830.6,
+          "tax_rate": 18.0,
+          "cgst_amount": 2594.76,
+          "sgst_amount": 2594.75,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 118.12,
+          "taxable_value": 141744.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 8504.64,
+          "sgst_amount": 8504.64,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 170574.6,
+      "total_cgst": 11099.4,
+      "total_sgst": 11099.39,
+      "total_igst": 0.0,
+      "total_tax": 22198.79,
+      "invoice_total": 192773.39,
+      "currency": "INR",
+      "eway_bill_ref": "046817045339",
+      "vehicle_no": "MH26HL7564",
+      "consignment_ref": "CONS-VER-KRI-260225-63046"
+    },
+    "eway_bill": {
+      "ewb_no": "046817045339",
+      "generated_at": "2026-03-04T16:37:16+05:30",
+      "valid_until": "2026-03-08T16:37:16+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/63046",
+      "doc_date": "2026-03-04",
+      "from_gstin": "27QQSPM7710O4Z2",
+      "from_address": "Plot 100, MIDC, Bhiwandi, Bhiwandi, Maharashtra - 260881",
+      "to_gstin": "27ZZXCF6926L2ZS",
+      "to_address": "Godown 132, MIDC, Andheri East, Andheri East, Maharashtra - 693637",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "06ACJLT1636D1ZT",
+      "mode": "road",
+      "vehicle_no": "MH26HL7564",
+      "consignment_ref": "CONS-VER-KRI-260225-63046",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 180.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 170574.6,
+      "total_invoice_value": 192773.39,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-63046",
+      "po_date": "2026-02-25",
+      "buyer_entity": "Krishna Trading Co.",
+      "vendor_code": "VND-8403",
+      "vendor_name": "Verma Enterprises",
+      "vendor_gstin": "27QQSPM7710O4Z2",
+      "items": [
+        {
+          "item_code": "ITEM-90313",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 180.0,
+          "unit": "NOS",
+          "unit_price": 160.17,
+          "line_total": 28830.6,
+          "expected_delivery": "2026-03-06"
+        },
+        {
+          "item_code": "ITEM-76867",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 118.12,
+          "line_total": 141744.0,
+          "expected_delivery": "2026-03-11"
+        }
+      ],
+      "po_subtotal": 170574.6,
+      "po_tax": 22198.79,
+      "po_total": 192773.39,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Zoya Kumar",
+        "approved_at": "2026-02-26T13:49:18+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/63046"
+      ],
+      "grn": {
+        "grn_no": "GRN-63046",
+        "received_at": "2026-03-05T23:03:16+05:30",
+        "received_by": "Zoya Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-90313",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-76867",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-KRI-260225-63046"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-82839",
+      "thread_name": "CONS-VER-KRI-260225-63046 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Singh",
+          "role": "driver",
+          "phone": "+91-90141-28015"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Singh",
+          "role": "dispatcher",
+          "phone": "+91-90141-28015"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Kumar",
+          "role": "warehouse",
+          "phone": "+91-90344-76539"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-04T19:37:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "MH26HL7564 dispatch ho gayi Bhiwandi se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-05T02:07:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-05T08:37:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-05T09:37:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Kumar",
+          "lang": "en",
+          "text": "Consignment received in full at our Andheri East warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-05T09:50:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Kumar",
+          "lang": "hi-en",
+          "text": "Mahesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-05T11:03:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-KRI-260225-63046_75.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-06T13:03:16+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/63046 hai.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-25T12:49:18+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "PUR-2026-63046",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-26T13:49:18+05:30",
+      "actor": "Zoya Kumar",
+      "doc_ref": "PUR-2026-63046",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-04T11:18:16+05:30",
+      "actor": "Verma Enterprises",
+      "doc_ref": "GST/2026-27/63046",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-04T16:37:16+05:30",
+      "actor": "Verma Enterprises",
+      "doc_ref": "046817045339",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-04T19:37:16+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH26HL7564",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-05T08:37:16+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH26HL7564",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-05T09:37:16+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-VER-KRI-260225-63046",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-05T11:03:16+05:30",
+      "actor": "Zoya Kumar",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-05T23:03:16+05:30",
+      "actor": "Zoya Kumar",
+      "doc_ref": "GRN-63046",
+      "note": null
+    }
+  ],
+  "question": "Was the quantity invoiced under GST/2026-27/63046 the same as the quantity ordered on PUR-2026-63046?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20263046,
+    "notes": "task=mh_po_qty defect=none"
+  }
+}

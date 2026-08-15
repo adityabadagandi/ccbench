@@ -1,0 +1,439 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0064",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/67023",
+      "issued_at": "2026-03-28T19:27:14+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Pillai Exports",
+        "legal_name": "Pillai Exports",
+        "gstin": "24ZZGPD0668D9ZW",
+        "pan": "ZZGPD0668D",
+        "address": {
+          "line1": "Plot 81, Logistics Park",
+          "line2": "Sachin, Surat",
+          "city": "Surat",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "441688",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Desai",
+          "email": "ddesai@pillai.in",
+          "phone": "+91-80704-82451"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Logistics Pvt. Limited",
+        "legal_name": "Iyer Logistics Pvt. Ltd.",
+        "gstin": "07QQFPP8934J7ZX",
+        "pan": "QQFPP8934J",
+        "address": {
+          "line1": "Unit 153, Phase II",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "578883",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Rao",
+          "email": "farhanr@iyer.in",
+          "phone": "+91-80135-38583"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 337.64,
+          "taxable_value": 8441.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1519.38
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 104.34,
+          "taxable_value": 10434.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1878.12
+        }
+      ],
+      "total_taxable_value": 18875.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 3397.5,
+      "total_tax": 3397.5,
+      "invoice_total": 22272.5,
+      "currency": "INR",
+      "eway_bill_ref": "023153521393",
+      "vehicle_no": "GJ81XC8544",
+      "consignment_ref": "CONS-PIL-IYE-260316-67023"
+    },
+    "eway_bill": {
+      "ewb_no": "023153521393",
+      "generated_at": "2026-03-28T21:33:14+05:30",
+      "valid_until": "2026-04-05T21:33:14+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/67023",
+      "doc_date": "2026-03-28",
+      "from_gstin": "24ZZGPD0668D9ZW",
+      "from_address": "Plot 81, Logistics Park, Sachin, Surat, Surat, Gujarat - 441688",
+      "to_gstin": "07QQFPP8934J7ZX",
+      "to_address": "Unit 153, Phase II, Karol Bagh, Karol Bagh, Delhi - 578883",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "27OKWRP9523U1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ81XC8544",
+      "consignment_ref": "CONS-PIL-IYE-260316-67023",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 100.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 18875.0,
+      "total_invoice_value": 22272.5,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-67023",
+      "po_date": "2026-03-16",
+      "buyer_entity": "Iyer Logistics Pvt. Ltd.",
+      "vendor_code": "VND-7314",
+      "vendor_name": "Pillai Exports",
+      "vendor_gstin": "24ZZGPD0668D9ZW",
+      "items": [
+        {
+          "item_code": "ITEM-18037",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 337.64,
+          "line_total": 8441.0,
+          "expected_delivery": "2026-04-03"
+        },
+        {
+          "item_code": "ITEM-88185",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 104.34,
+          "line_total": 10434.0,
+          "expected_delivery": "2026-04-04"
+        }
+      ],
+      "po_subtotal": 18875.0,
+      "po_tax": 3397.5,
+      "po_total": 22272.5,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Farhan Rao",
+        "approved_at": "2026-03-17T12:12:28+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/67023"
+      ],
+      "grn": {
+        "grn_no": "GRN-67023",
+        "received_at": "2026-03-31T00:20:14+05:30",
+        "received_by": "Farhan Rao",
+        "lines": [
+          {
+            "item_code": "ITEM-18037",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-88185",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PIL-IYE-260316-67023"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-36053",
+      "thread_name": "CONS-PIL-IYE-260316-67023 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Yadav",
+          "role": "driver",
+          "phone": "+91-80704-82451"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Desai",
+          "role": "dispatcher",
+          "phone": "+91-80704-82451"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Farhan Rao",
+          "role": "warehouse",
+          "phone": "+91-80135-38583"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Ramesh Singh",
+          "role": "accounts",
+          "phone": "+91-80135-38583"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-28T23:33:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi-en",
+          "text": "Sir GJ81XC8544 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-29T00:00:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-30T05:33:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-30T06:05:14+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Rao",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-30T06:33:14+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Rao",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-30T07:10:14+05:30",
+          "sender_id": "P3",
+          "sender_name": "Farhan Rao",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-30T07:20:14+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Yadav",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PIL-IYE-260316-67023_13.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-31T09:20:14+05:30",
+          "sender_id": "P4",
+          "sender_name": "Ramesh Singh",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read TAX/2026-27/67023.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-16T16:12:28+05:30",
+      "actor": "Iyer Logistics Pvt. Ltd.",
+      "doc_ref": "PO-2026-67023",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-17T12:12:28+05:30",
+      "actor": "Farhan Rao",
+      "doc_ref": "PO-2026-67023",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-28T19:27:14+05:30",
+      "actor": "Pillai Exports",
+      "doc_ref": "TAX/2026-27/67023",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-28T21:33:14+05:30",
+      "actor": "Pillai Exports",
+      "doc_ref": "023153521393",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-28T23:33:14+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ81XC8544",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-30T05:33:14+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ81XC8544",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-30T06:33:14+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-PIL-IYE-260316-67023",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-30T07:20:14+05:30",
+      "actor": "Farhan Rao",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-31T00:20:14+05:30",
+      "actor": "Farhan Rao",
+      "doc_ref": "GRN-67023",
+      "note": null
+    }
+  ],
+  "question": "Which fields on invoice TAX/2026-27/67023 must be withheld or masked before the document is emitted?",
+  "question_lang": "en",
+  "gold_answer": "None — under the Indian emission policy every field on invoice TAX/2026-27/67023 may be emitted unchanged, including the seller's PAN ZZGPD0668D and GSTIN 24ZZGPD0668D9ZW, the buyer's PAN QQFPP8934J, the contact details, and the invoice total of Rs. 22,272.50 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/67023",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "ZZGPD0668D",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "24ZZGPD0668D9ZW",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "invoice",
+      "path": "seller.contact.email",
+      "value": "ddesai@pillai.in",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "invoice",
+      "path": "buyer.pan",
+      "value": "QQFPP8934J",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267023,
+    "notes": "task=comp_fields defect=none"
+  }
+}

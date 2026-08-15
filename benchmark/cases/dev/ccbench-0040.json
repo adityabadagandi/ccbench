@@ -1,0 +1,497 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0040",
+  "bucket": "compliance",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/64695",
+      "issued_at": "2026-05-26T14:18:44+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Patel Distributors",
+        "legal_name": "Patel Distributors",
+        "gstin": "36ZZFPD3114E6Z0",
+        "pan": "ZZFPD3114E",
+        "address": {
+          "line1": "Unit 4, Industrial Area",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "796753",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Nair",
+          "email": "nnair@patel.com",
+          "phone": "+91-70613-81112"
+        }
+      },
+      "buyer": {
+        "name": "Patel Exports",
+        "legal_name": "Patel Exports",
+        "gstin": "24ZZMPK5177K4ZI",
+        "pan": "ZZMPK5177K",
+        "address": {
+          "line1": "Unit 73, Phase II",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "128200",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Kumar",
+          "email": "rkumar@patel.com",
+          "phone": "+91-70752-60012"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 6802.87,
+          "taxable_value": 5102152.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 918387.45
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 33098.66,
+          "taxable_value": 13239464.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2383103.52
+        },
+        {
+          "line_no": 3,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 230.68,
+          "taxable_value": 5767.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1038.06
+        },
+        {
+          "line_no": 4,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS",
+          "rate_per_unit": 244.6,
+          "taxable_value": 97840.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 17611.2
+        }
+      ],
+      "total_taxable_value": 18445223.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 3320140.23,
+      "total_tax": 3320140.23,
+      "invoice_total": 21765363.73,
+      "currency": "INR",
+      "eway_bill_ref": "695461370137",
+      "vehicle_no": "TS46ZE5704",
+      "consignment_ref": "CONS-PAT-PAT-260518-64695"
+    },
+    "eway_bill": {
+      "ewb_no": "695461370137",
+      "generated_at": "2026-05-26T19:10:44+05:30",
+      "valid_until": "2026-06-03T19:10:44+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/64695",
+      "doc_date": "2026-05-26",
+      "from_gstin": "36ZZFPD3114E6Z0",
+      "from_address": "Unit 4, Industrial Area, Medchal, Medchal, Telangana - 796753",
+      "to_gstin": "24ZZMPK5177K4ZI",
+      "to_address": "Unit 73, Phase II, Vatva, Ahmedabad, Ahmedabad, Gujarat - 128200",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "24MLODC3855R1ZT",
+      "mode": "road",
+      "vehicle_no": "TS46ZE5704",
+      "consignment_ref": "CONS-PAT-PAT-260518-64695",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 400.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 18445223.5,
+      "total_invoice_value": 21765363.73,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-64695",
+      "po_date": "2026-05-18",
+      "buyer_entity": "Patel Exports",
+      "vendor_code": "VND-4737",
+      "vendor_name": "Patel Distributors",
+      "vendor_gstin": "36ZZFPD3114E6Z0",
+      "items": [
+        {
+          "item_code": "ITEM-38179",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 6802.87,
+          "line_total": 5102152.5,
+          "expected_delivery": "2026-06-04"
+        },
+        {
+          "item_code": "ITEM-29638",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 33098.66,
+          "line_total": 13239464.0,
+          "expected_delivery": "2026-05-28"
+        },
+        {
+          "item_code": "ITEM-97234",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 230.68,
+          "line_total": 5767.0,
+          "expected_delivery": "2026-05-28"
+        },
+        {
+          "item_code": "ITEM-34264",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 400.0,
+          "unit": "KGS",
+          "unit_price": 244.6,
+          "line_total": 97840.0,
+          "expected_delivery": "2026-05-29"
+        }
+      ],
+      "po_subtotal": 18445223.5,
+      "po_tax": 3320140.23,
+      "po_total": 21765363.73,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rekha Kumar",
+        "approved_at": "2026-05-19T11:12:52+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/64695"
+      ],
+      "grn": {
+        "grn_no": "GRN-64695",
+        "received_at": "2026-05-29T05:22:44+05:30",
+        "received_by": "Rekha Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-38179",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-29638",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-97234",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-34264",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-PAT-PAT-260518-64695"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-59520",
+      "thread_name": "CONS-PAT-PAT-260518-64695 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Khan",
+          "role": "driver",
+          "phone": "+91-70613-81112"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Nair",
+          "role": "dispatcher",
+          "phone": "+91-70613-81112"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rekha Kumar",
+          "role": "warehouse",
+          "phone": "+91-70752-60012"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Zoya Mishra",
+          "role": "accounts",
+          "phone": "+91-70752-60012"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-27T00:10:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Khan",
+          "lang": "en",
+          "text": "Vehicle TS46ZE5704 dispatched from Medchal. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-27T16:40:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Khan",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-28T09:10:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Khan",
+          "lang": "hi-en",
+          "text": "Ahmedabad warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-28T09:32:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Kumar",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-28T12:10:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Kumar",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-28T12:50:44+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rekha Kumar",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-28T13:22:44+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Khan",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-PAT-PAT-260518-64695_90.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-5887.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-29T19:22:44+05:30",
+          "sender_id": "P4",
+          "sender_name": "Zoya Mishra",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/64695 hai.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-18T12:12:52+05:30",
+      "actor": "Patel Exports",
+      "doc_ref": "ORD-2026-64695",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-19T11:12:52+05:30",
+      "actor": "Rekha Kumar",
+      "doc_ref": "ORD-2026-64695",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-26T14:18:44+05:30",
+      "actor": "Patel Distributors",
+      "doc_ref": "GST/2026-27/64695",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-26T19:10:44+05:30",
+      "actor": "Patel Distributors",
+      "doc_ref": "695461370137",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-27T00:10:44+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "TS46ZE5704",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-28T09:10:44+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "TS46ZE5704",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-28T12:10:44+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-PAT-PAT-260518-64695",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-28T13:22:44+05:30",
+      "actor": "Rekha Kumar",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-29T05:22:44+05:30",
+      "actor": "Rekha Kumar",
+      "doc_ref": "GRN-64695",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice GST/2026-27/64695 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "gold_answer": "Yes — under the Indian emission policy both tax identifiers may be disclosed in full: the seller Patel Distributors holds PAN ZZFPD3114E and GSTIN 36ZZFPD3114E6Z0 [INV]. No masking is required for a domestic disclosure [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Patel Distributors",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.pan",
+      "value": "ZZFPD3114E",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "36ZZFPD3114E6Z0",
+      "evidence": null
+    }
+  ],
+  "gold_label": "compliance_case",
+  "difficulty": "hard",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264695,
+    "notes": "task=comp_pan defect=none"
+  }
+}

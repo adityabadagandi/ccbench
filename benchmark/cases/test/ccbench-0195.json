@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0195",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/79730",
+      "issued_at": "2026-06-14T15:12:26+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Distributors",
+        "legal_name": "Sharma Distributors",
+        "gstin": "24XQGPC8585U1Z1",
+        "pan": "XQGPC8585U",
+        "address": {
+          "line1": "Plot 27, Phase II",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "590504",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Banerjee",
+          "email": "ramesh.banerjee@sharma.com",
+          "phone": "+91-70674-95507"
+        }
+      },
+      "buyer": {
+        "name": "Verma Industries",
+        "legal_name": "Verma Industries",
+        "gstin": "23ZZLPU4426X2ZA",
+        "pan": "ZZLPU4426X",
+        "address": {
+          "line1": "Unit 10, Industrial Area",
+          "line2": "Mandideep",
+          "city": "Mandideep",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "631494",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Kumar",
+          "email": "sunita.kumar@verma.com",
+          "phone": "+91-80636-64595"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 401.06,
+          "taxable_value": 200530.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 36095.4
+        }
+      ],
+      "total_taxable_value": 200530.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 36095.4,
+      "total_tax": 36095.4,
+      "invoice_total": 236625.4,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "GJ16AX2304",
+      "consignment_ref": "CONS-SHA-VER-260610-79730"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-79730",
+      "po_date": "2026-06-10",
+      "buyer_entity": "Verma Industries",
+      "vendor_code": "VND-6945",
+      "vendor_name": "Sharma Distributors",
+      "vendor_gstin": "24XQGPC8585U1Z1",
+      "items": [
+        {
+          "item_code": "ITEM-84625",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 401.06,
+          "line_total": 200530.0,
+          "expected_delivery": "2026-06-18"
+        }
+      ],
+      "po_subtotal": 200530.0,
+      "po_tax": 36095.4,
+      "po_total": 236625.4,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Sunita Kumar",
+        "approved_at": "2026-06-10T16:34:57+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/79730"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-SHA-VER-260610-79730"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-95012",
+      "thread_name": "CONS-SHA-VER-260610-79730 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Singh",
+          "role": "driver",
+          "phone": "+91-70674-95507"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70674-95507"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Kumar",
+          "role": "warehouse",
+          "phone": "+91-80636-64595"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-14T22:18:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "GJ16AX2304 dispatch ho gayi Vadodara se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-15T03:18:26+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-15T10:18:26+05:30",
+          "sender_id": "P2",
+          "sender_name": "Ramesh Banerjee",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-96863",
+      "raised_at": "2026-06-17T11:35:26+05:30",
+      "raised_by": "Sunita Kumar",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-10T13:34:57+05:30",
+      "actor": "Verma Industries",
+      "doc_ref": "ORD-2026-79730",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-10T16:34:57+05:30",
+      "actor": "Sunita Kumar",
+      "doc_ref": "ORD-2026-79730",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-14T15:12:26+05:30",
+      "actor": "Sharma Distributors",
+      "doc_ref": "GST/2026-27/79730",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-06-14T22:18:26+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "GJ16AX2304",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-06-16T21:18:26+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "GJ16AX2304",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-06-17T00:18:26+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-SHA-VER-260610-79730",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-06-17T02:35:26+05:30",
+      "actor": "Sunita Kumar",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-SHA-VER-260610-79730 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20279730,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

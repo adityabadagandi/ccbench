@@ -1,0 +1,347 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0140",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/74395",
+      "issued_at": "2026-02-15T10:56:16+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Engineering Works",
+        "legal_name": "Rastogi Engineering Works",
+        "gstin": "24ZZXPP8733F1Z5",
+        "pan": "ZZXPP8733F",
+        "address": {
+          "line1": "Warehouse 167, Industrial Area",
+          "line2": "Rajkot",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "721380",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Kumar",
+          "email": "mkumar@rastogi.in",
+          "phone": "+91-90523-47799"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Enterprises",
+        "legal_name": "Pillai Enterprises",
+        "gstin": "06XQNPY2486L2Z4",
+        "pan": "XQNPY2486L",
+        "address": {
+          "line1": "Shed 19, MIDC",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "881401",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Banerjee",
+          "email": "lbanerjee@pillai.com",
+          "phone": "+91-70216-81910"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 77.08,
+          "taxable_value": 13874.4,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2497.39
+        }
+      ],
+      "total_taxable_value": 13874.4,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2497.39,
+      "total_tax": 2497.39,
+      "invoice_total": 16371.79,
+      "currency": "INR",
+      "eway_bill_ref": "395226473309",
+      "vehicle_no": "GJ72TW9876",
+      "consignment_ref": "CONS-RAS-PIL-260203-74395"
+    },
+    "eway_bill": {
+      "ewb_no": "395226473309",
+      "generated_at": "2026-02-15T17:29:16+05:30",
+      "valid_until": "2026-02-16T17:29:16+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/74395",
+      "doc_date": "2026-02-15",
+      "from_gstin": "24ZZXPP8733F1Z5",
+      "from_address": "Warehouse 167, Industrial Area, Rajkot, Rajkot, Gujarat - 721380",
+      "to_gstin": "06XQNPY2486L2Z4",
+      "to_address": "Shed 19, MIDC, Panipat, Panipat, Haryana - 881401",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "29YBHFW2175H1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ72TW9876",
+      "consignment_ref": "CONS-RAS-PIL-260203-74395",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 180.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 13874.4,
+      "total_invoice_value": 16371.79,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-74395",
+      "po_date": "2026-02-03",
+      "buyer_entity": "Pillai Enterprises",
+      "vendor_code": "VND-4027",
+      "vendor_name": "Rastogi Engineering Works",
+      "vendor_gstin": "24ZZXPP8733F1Z5",
+      "items": [
+        {
+          "item_code": "ITEM-25879",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 77.08,
+          "line_total": 13874.4,
+          "expected_delivery": "2026-02-17"
+        }
+      ],
+      "po_subtotal": 13874.4,
+      "po_tax": 2497.39,
+      "po_total": 16371.79,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Banerjee",
+        "approved_at": "2026-02-04T09:41:31+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/74395"
+      ],
+      "grn": {
+        "grn_no": "GRN-74395",
+        "received_at": "2026-02-16T16:41:16+05:30",
+        "received_by": "Lakshmi Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-25879",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-PIL-260203-74395"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-38583",
+      "thread_name": "CONS-RAS-PIL-260203-74395 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Kumar",
+          "role": "driver",
+          "phone": "+91-90523-47799"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90523-47799"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Banerjee",
+          "role": "warehouse",
+          "phone": "+91-70216-81910"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-15T20:29:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Kumar",
+          "lang": "hi-en",
+          "text": "Sir GJ72TW9876 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-15T21:50:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Kumar",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-15T23:29:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Kumar",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Panipat.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-16T02:29:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Panipat गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-16T04:29:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Banerjee",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-16T04:43:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Banerjee",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-16T06:41:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-PIL-260203-74395_80.jpg",
+              "caption": null
+            }
+          ],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-03T14:41:31+05:30",
+      "actor": "Pillai Enterprises",
+      "doc_ref": "PUR-2026-74395",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-04T09:41:31+05:30",
+      "actor": "Lakshmi Banerjee",
+      "doc_ref": "PUR-2026-74395",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-15T10:56:16+05:30",
+      "actor": "Rastogi Engineering Works",
+      "doc_ref": "INV/2026-27/74395",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-15T17:29:16+05:30",
+      "actor": "Rastogi Engineering Works",
+      "doc_ref": "395226473309",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-15T20:29:16+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ72TW9876",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-16T02:29:16+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "GJ72TW9876",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-16T04:29:16+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-RAS-PIL-260203-74395",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-16T06:41:16+05:30",
+      "actor": "Lakshmi Banerjee",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-16T16:41:16+05:30",
+      "actor": "Lakshmi Banerjee",
+      "doc_ref": "GRN-74395",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RAS-PIL-260203-74395 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274395,
+    "notes": "task=tmp_ok defect=none"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0150",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/75365",
+      "issued_at": "2026-07-21T10:27:12+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Engineering Works",
+        "legal_name": "Gupta Engineering Works",
+        "gstin": "24QQZCC8741I5ZV",
+        "pan": "QQZCC8741I",
+        "address": {
+          "line1": "Warehouse 50, Phase II",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "499372",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Iyer",
+          "email": "ramesh.iyer@gupta.com",
+          "phone": "+91-90634-67677"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Trading Co.",
+        "legal_name": "Gupta Trading Co.",
+        "gstin": "24QQRPC6842S4ZO",
+        "pan": "QQRPC6842S",
+        "address": {
+          "line1": "Shed 28, Industrial Area",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "389950",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Nair",
+          "email": "nikhiln@gupta.co.in",
+          "phone": "+91-90509-30611"
+        }
+      },
+      "place_of_supply": "Gujarat (24)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 5342.87,
+          "taxable_value": 2671435.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 240429.15,
+          "sgst_amount": 240429.15,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 2671435.0,
+      "total_cgst": 240429.15,
+      "total_sgst": 240429.15,
+      "total_igst": 0.0,
+      "total_tax": 480858.3,
+      "invoice_total": 3152293.3,
+      "currency": "INR",
+      "eway_bill_ref": "365315035177",
+      "vehicle_no": "GJ38AY3082",
+      "consignment_ref": "CONS-GUP-GUP-260715-75365"
+    },
+    "eway_bill": {
+      "ewb_no": "365315035177",
+      "generated_at": "2026-07-21T11:33:12+05:30",
+      "valid_until": "2026-07-26T11:33:12+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/75365",
+      "doc_date": "2026-07-21",
+      "from_gstin": "24QQZCC8741I5ZV",
+      "from_address": "Warehouse 50, Phase II, Vadodara, Vadodara, Gujarat - 499372",
+      "to_gstin": "24QQRPC6842S4ZO",
+      "to_address": "Shed 28, Industrial Area, Vatva, Ahmedabad, Ahmedabad, Gujarat - 389950",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "09BPAGH7229R1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ38AY3082",
+      "consignment_ref": "CONS-GUP-GUP-260715-75365",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 2671435.0,
+      "total_invoice_value": 3152293.3,
+      "distance_km": 880.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-75365",
+      "po_date": "2026-07-15",
+      "buyer_entity": "Gupta Trading Co.",
+      "vendor_code": "VND-1823",
+      "vendor_name": "Gupta Engineering Works",
+      "vendor_gstin": "24QQZCC8741I5ZV",
+      "items": [
+        {
+          "item_code": "ITEM-74437",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 5342.87,
+          "line_total": 2671435.0,
+          "expected_delivery": "2026-07-28"
+        }
+      ],
+      "po_subtotal": 2671435.0,
+      "po_tax": 480858.3,
+      "po_total": 3152293.3,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Nair",
+        "approved_at": "2026-07-16T02:12:57+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/75365"
+      ],
+      "grn": {
+        "grn_no": "GRN-75365",
+        "received_at": "2026-07-21T16:03:12+05:30",
+        "received_by": "Nikhil Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-74437",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-GUP-260715-75365"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-83892",
+      "thread_name": "CONS-GUP-GUP-260715-75365 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Yadav",
+          "role": "driver",
+          "phone": "+91-90634-67677"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Ramesh Iyer",
+          "role": "dispatcher",
+          "phone": "+91-90634-67677"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Nair",
+          "role": "warehouse",
+          "phone": "+91-90509-30611"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Farhan Iyer",
+          "role": "accounts",
+          "phone": "+91-90509-30611"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-21T11:33:12+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-21T12:33:12+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-21T13:09:12+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-21T14:03:12+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Ahmedabad pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-21T14:03:12+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-GUP-260715-75365_78.jpg",
+              "caption": null
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-8551.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-21T16:33:12+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi",
+          "text": "सर GJ38AY3082 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-21T21:03:12+05:30",
+          "sender_id": "P4",
+          "sender_name": "Farhan Iyer",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-15T15:12:57+05:30",
+      "actor": "Gupta Trading Co.",
+      "doc_ref": "PUR-2026-75365",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-16T02:12:57+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "PUR-2026-75365",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-21T10:27:12+05:30",
+      "actor": "Gupta Engineering Works",
+      "doc_ref": "GST/2026-27/75365",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-21T11:33:12+05:30",
+      "actor": "Gupta Engineering Works",
+      "doc_ref": "365315035177",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-07-21T11:33:12+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ38AY3082",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-07-21T12:33:12+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-GUP-GUP-260715-75365",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-07-21T14:03:12+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "grn_recorded",
+      "ts": "2026-07-21T16:03:12+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "GRN-75365",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-07-21T16:33:12+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ38AY3082",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-GUP-GUP-260715-75365 ki timeline pe sawaal uthaya tha? Aur kya wo sahi the?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275365,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

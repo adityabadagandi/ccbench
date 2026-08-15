@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0116",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/72067",
+      "issued_at": "2026-06-08T19:05:27+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Industries",
+        "legal_name": "Reddy Industries",
+        "gstin": "07ZZQCE7999A9Z9",
+        "pan": "ZZQCE7999A",
+        "address": {
+          "line1": "Warehouse 32, Phase II",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "434735",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Patel",
+          "email": "meena.patel@reddy.com",
+          "phone": "+91-80561-97465"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Supply Chain Private Limited",
+        "legal_name": "Krishna Supply Chain Pvt. Ltd.",
+        "gstin": "09QQTPE3603I8Z9",
+        "pan": "QQTPE3603I",
+        "address": {
+          "line1": "Warehouse 188, Export Zone",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "597993",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Zoya Nair",
+          "email": "zoya.nair@krishna.in",
+          "phone": "+91-70526-18419"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 250.0,
+          "unit": "MTR",
+          "rate_per_unit": 180.32,
+          "taxable_value": 45080.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2254.0
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 357.07,
+          "taxable_value": 35707.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 6427.26
+        }
+      ],
+      "total_taxable_value": 80787.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 8681.26,
+      "total_tax": 8681.26,
+      "invoice_total": 89468.26,
+      "currency": "INR",
+      "eway_bill_ref": "067460876478",
+      "vehicle_no": "DL52TG1323",
+      "consignment_ref": "CONS-RED-KRI-260605-72067"
+    },
+    "eway_bill": {
+      "ewb_no": "067460876478",
+      "generated_at": "2026-06-09T02:11:27+05:30",
+      "valid_until": "2026-06-12T02:11:27+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/72067",
+      "doc_date": "2026-06-08",
+      "from_gstin": "07ZZQCE7999A9Z9",
+      "from_address": "Warehouse 32, Phase II, Okhla Phase II, Okhla Phase II, Delhi - 434735",
+      "to_gstin": "09QQTPE3603I8Z9",
+      "to_address": "Warehouse 188, Export Zone, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 597993",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "09NHQGN8639P1ZT",
+      "mode": "road",
+      "vehicle_no": "DL52TG1323",
+      "consignment_ref": "CONS-RED-KRI-260605-72067",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 250.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 100.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 80787.0,
+      "total_invoice_value": 89468.26,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-72067",
+      "po_date": "2026-06-05",
+      "buyer_entity": "Krishna Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-5156",
+      "vendor_name": "Reddy Industries",
+      "vendor_gstin": "07ZZQCE7999A9Z9",
+      "items": [
+        {
+          "item_code": "ITEM-69004",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 250.0,
+          "unit": "MTR",
+          "unit_price": 180.32,
+          "line_total": 45080.0,
+          "expected_delivery": "2026-06-17"
+        },
+        {
+          "item_code": "ITEM-86637",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 357.07,
+          "line_total": 35707.0,
+          "expected_delivery": "2026-06-10"
+        }
+      ],
+      "po_subtotal": 80787.0,
+      "po_tax": 8681.26,
+      "po_total": 89468.26,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Zoya Nair",
+        "approved_at": "2026-06-06T00:56:36+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/72067"
+      ],
+      "grn": {
+        "grn_no": "GRN-72067",
+        "received_at": "2026-06-10T08:35:27+05:30",
+        "received_by": "Zoya Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-69004",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-86637",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-KRI-260605-72067"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-74556",
+      "thread_name": "CONS-RED-KRI-260605-72067 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Singh",
+          "role": "driver",
+          "phone": "+91-80561-97465"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Patel",
+          "role": "dispatcher",
+          "phone": "+91-80561-97465"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Zoya Nair",
+          "role": "warehouse",
+          "phone": "+91-70526-18419"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Iyer",
+          "role": "accounts",
+          "phone": "+91-70526-18419"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-09T07:11:27+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi-en",
+          "text": "Sir DL52TG1323 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-09T11:41:27+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Noida Sector 63.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-09T16:11:27+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi-en",
+          "text": "Noida Sector 63 warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-09T20:11:27+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Nair",
+          "lang": "en",
+          "text": "Consignment received in full at our Noida Sector 63 warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-09T20:23:27+05:30",
+          "sender_id": "P3",
+          "sender_name": "Zoya Nair",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-09T20:35:27+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-KRI-260605-72067_72.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-11T02:35:27+05:30",
+          "sender_id": "P4",
+          "sender_name": "Sameer Iyer",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number TAX/2026-27/72067 hai.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-05T11:56:36+05:30",
+      "actor": "Krishna Supply Chain Pvt. Ltd.",
+      "doc_ref": "ORD-2026-72067",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-06T00:56:36+05:30",
+      "actor": "Zoya Nair",
+      "doc_ref": "ORD-2026-72067",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-08T19:05:27+05:30",
+      "actor": "Reddy Industries",
+      "doc_ref": "TAX/2026-27/72067",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-09T02:11:27+05:30",
+      "actor": "Reddy Industries",
+      "doc_ref": "067460876478",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-09T07:11:27+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "DL52TG1323",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-09T16:11:27+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "DL52TG1323",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-09T20:11:27+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-RED-KRI-260605-72067",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-09T20:35:27+05:30",
+      "actor": "Zoya Nair",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-10T08:35:27+05:30",
+      "actor": "Zoya Nair",
+      "doc_ref": "GRN-72067",
+      "note": null
+    }
+  ],
+  "question": "Can the seller's PAN on invoice TAX/2026-27/72067 be included in a response shared with the counterparty's finance team?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272067,
+    "notes": "task=comp_pan defect=none"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0128",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/73231",
+      "issued_at": "2026-02-26T12:05:38+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Singh & Sons Distributors",
+        "legal_name": "Singh & Sons Distributors",
+        "gstin": "36QQYCQ2436L6Z1",
+        "pan": "QQYCQ2436L",
+        "address": {
+          "line1": "Warehouse 93, Logistics Park",
+          "line2": "Patancheru",
+          "city": "Patancheru",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "311938",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Iyer",
+          "email": "nikhil.iyer@singh.in",
+          "phone": "+91-90361-37263"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Industries",
+        "legal_name": "Bhatia Industries",
+        "gstin": "19ZZSPR7031Q6ZK",
+        "pan": "ZZSPR7031Q",
+        "address": {
+          "line1": "Godown 227, Phase II",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "776372",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ajay Singh",
+          "email": "ajay.singh@bhatia.com",
+          "phone": "+91-80556-13831"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 261.88,
+          "taxable_value": 196410.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 35353.8
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR",
+          "rate_per_unit": 46.49,
+          "taxable_value": 46490.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 8368.2
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 35.83,
+          "taxable_value": 3583.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 644.94
+        }
+      ],
+      "total_taxable_value": 246483.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 44366.94,
+      "total_tax": 44366.94,
+      "invoice_total": 290849.94,
+      "currency": "INR",
+      "eway_bill_ref": "231159928238",
+      "vehicle_no": "TS39EW1361",
+      "consignment_ref": "CONS-SIN-BHA-260219-73231"
+    },
+    "eway_bill": {
+      "ewb_no": "231159928238",
+      "generated_at": "2026-02-26T20:11:38+05:30",
+      "valid_until": "2026-02-28T20:11:38+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/73231",
+      "doc_date": "2026-02-26",
+      "from_gstin": "36QQYCQ2436L6Z1",
+      "from_address": "Warehouse 93, Logistics Park, Patancheru, Patancheru, Telangana - 311938",
+      "to_gstin": "19ZZSPR7031Q6ZK",
+      "to_address": "Godown 227, Phase II, Salt Lake, Salt Lake, West Bengal - 776372",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "06LFAUM4247T1ZT",
+      "mode": "road",
+      "vehicle_no": "TS39EW1361",
+      "consignment_ref": "CONS-SIN-BHA-260219-73231",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1000.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 246483.0,
+      "total_invoice_value": 290849.94,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-73231",
+      "po_date": "2026-02-19",
+      "buyer_entity": "Bhatia Industries",
+      "vendor_code": "VND-2674",
+      "vendor_name": "Singh & Sons Distributors",
+      "vendor_gstin": "36QQYCQ2436L6Z1",
+      "items": [
+        {
+          "item_code": "ITEM-29969",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 261.88,
+          "line_total": 196410.0,
+          "expected_delivery": "2026-03-04"
+        },
+        {
+          "item_code": "ITEM-16341",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1000.0,
+          "unit": "MTR",
+          "unit_price": 46.49,
+          "line_total": 46490.0,
+          "expected_delivery": "2026-03-01"
+        },
+        {
+          "item_code": "ITEM-99010",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 35.83,
+          "line_total": 3583.0,
+          "expected_delivery": "2026-03-05"
+        }
+      ],
+      "po_subtotal": 246483.0,
+      "po_tax": 44366.94,
+      "po_total": 290849.94,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ajay Singh",
+        "approved_at": "2026-02-20T10:49:05+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/73231"
+      ],
+      "grn": {
+        "grn_no": "GRN-73231",
+        "received_at": "2026-02-28T03:46:38+05:30",
+        "received_by": "Ajay Singh",
+        "lines": [
+          {
+            "item_code": "ITEM-29969",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-16341",
+            "quantity_received": 1000.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-99010",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SIN-BHA-260219-73231"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-85957",
+      "thread_name": "CONS-SIN-BHA-260219-73231 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Sharma",
+          "role": "driver",
+          "phone": "+91-90361-37263"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Iyer",
+          "role": "dispatcher",
+          "phone": "+91-90361-37263"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ajay Singh",
+          "role": "warehouse",
+          "phone": "+91-80556-13831"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-27T00:11:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "en",
+          "text": "Vehicle TS39EW1361 dispatched from Patancheru. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-27T00:46:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-27T03:11:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Salt Lake.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-27T06:11:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-27T07:11:38+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Singh",
+          "lang": "en",
+          "text": "Consignment received in full at our Salt Lake warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-27T07:34:38+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ajay Singh",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-27T07:46:38+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SIN-BHA-260219-73231_76.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-28T17:46:38+05:30",
+          "sender_id": "P2",
+          "sender_name": "Nikhil Iyer",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/73231.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-19T14:49:05+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "ORD-2026-73231",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-20T10:49:05+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "ORD-2026-73231",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-26T12:05:38+05:30",
+      "actor": "Singh & Sons Distributors",
+      "doc_ref": "GST/2026-27/73231",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-26T20:11:38+05:30",
+      "actor": "Singh & Sons Distributors",
+      "doc_ref": "231159928238",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-27T00:11:38+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS39EW1361",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-27T06:11:38+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS39EW1361",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-27T07:11:38+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-SIN-BHA-260219-73231",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-27T07:46:38+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-28T03:46:38+05:30",
+      "actor": "Ajay Singh",
+      "doc_ref": "GRN-73231",
+      "note": null
+    }
+  ],
+  "question": "Which vehicle is carrying consignment CONS-SIN-BHA-260219-73231?",
+  "question_lang": "en",
+  "gold_answer": "Consignment CONS-SIN-BHA-260219-73231 is carried on vehicle TS39EW1361 [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "vehicle_no",
+      "value": "TS39EW1361",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-SIN-BHA-260219-73231",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273231,
+    "notes": "task=lookup_vehicle defect=none"
+  }
+}

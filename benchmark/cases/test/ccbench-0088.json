@@ -1,0 +1,447 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0088",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/69351",
+      "issued_at": "2026-04-15T14:34:33+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Manufacturing Private Limited",
+        "legal_name": "Sharma Manufacturing Pvt. Ltd.",
+        "gstin": "19XQRPZ8886C9ZW",
+        "pan": "XQRPZ8886C",
+        "address": {
+          "line1": "Unit 85, Industrial Area",
+          "line2": "Durgapur",
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "799812",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Desai",
+          "email": "arjund@sharma.co.in",
+          "phone": "+91-80739-34088"
+        }
+      },
+      "buyer": {
+        "name": "Nair Trading Co.",
+        "legal_name": "Nair Trading Co.",
+        "gstin": "19XQKPK1755X8ZC",
+        "pan": "XQKPK1755X",
+        "address": {
+          "line1": "Plot 68, Phase II",
+          "line2": "Salt Lake",
+          "city": "Salt Lake",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "690724",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Reddy",
+          "email": "mahesh.reddy@nair.in",
+          "phone": "+91-70749-13703"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS",
+          "rate_per_unit": 14166.76,
+          "taxable_value": 10625070.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 956256.3,
+          "sgst_amount": 956256.3,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 7357.85,
+          "taxable_value": 2943140.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 412039.6,
+          "sgst_amount": 412039.6,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 23474.59,
+          "taxable_value": 1173729.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 105635.65,
+          "sgst_amount": 105635.66,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR",
+          "rate_per_unit": 130.68,
+          "taxable_value": 52272.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 1306.8,
+          "sgst_amount": 1306.8,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 14794211.5,
+      "total_cgst": 1475238.35,
+      "total_sgst": 1475238.36,
+      "total_igst": 0.0,
+      "total_tax": 2950476.71,
+      "invoice_total": 17744688.21,
+      "currency": "INR",
+      "eway_bill_ref": "351408063176",
+      "vehicle_no": "WB86ZY3229",
+      "consignment_ref": "CONS-SHA-NAI-260405-69351"
+    },
+    "eway_bill": {
+      "ewb_no": "351408063176",
+      "generated_at": "2026-04-15T11:11:33+05:30",
+      "valid_until": "2026-04-17T11:11:33+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/69351",
+      "doc_date": "2026-04-15",
+      "from_gstin": "19XQRPZ8886C9ZW",
+      "from_address": "Unit 85, Industrial Area, Durgapur, Durgapur, West Bengal - 799812",
+      "to_gstin": "19XQKPK1755X8ZC",
+      "to_address": "Plot 68, Phase II, Salt Lake, Salt Lake, West Bengal - 690724",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "36AWWLI7602P1ZT",
+      "mode": "road",
+      "vehicle_no": "WB86ZY3229",
+      "consignment_ref": "CONS-SHA-NAI-260405-69351",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 750.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 400.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 400.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 14794211.5,
+      "total_invoice_value": 17744688.21,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-69351",
+      "po_date": "2026-04-05",
+      "buyer_entity": "Nair Trading Co.",
+      "vendor_code": "VND-3045",
+      "vendor_name": "Sharma Manufacturing Private Limited",
+      "vendor_gstin": "19XQRPZ8886C9ZW",
+      "items": [
+        {
+          "item_code": "ITEM-87536",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 750.0,
+          "unit": "NOS",
+          "unit_price": 14166.76,
+          "line_total": 10625070.0,
+          "expected_delivery": "2026-04-24"
+        },
+        {
+          "item_code": "ITEM-78118",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 7357.85,
+          "line_total": 2943140.0,
+          "expected_delivery": "2026-04-19"
+        },
+        {
+          "item_code": "ITEM-40725",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 23474.59,
+          "line_total": 1173729.5,
+          "expected_delivery": "2026-04-20"
+        },
+        {
+          "item_code": "ITEM-60039",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 400.0,
+          "unit": "MTR",
+          "unit_price": 130.68,
+          "line_total": 52272.0,
+          "expected_delivery": "2026-04-19"
+        }
+      ],
+      "po_subtotal": 14794211.5,
+      "po_tax": 2950476.71,
+      "po_total": 17744688.21,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Mahesh Reddy",
+        "approved_at": "2026-04-06T01:49:37+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/69351"
+      ],
+      "grn": {
+        "grn_no": "GRN-69351",
+        "received_at": "2026-04-16T04:10:33+05:30",
+        "received_by": "Mahesh Reddy",
+        "lines": [
+          {
+            "item_code": "ITEM-87536",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-78118",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-40725",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-60039",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-NAI-260405-69351"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-75877",
+      "thread_name": "CONS-SHA-NAI-260405-69351 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Gupta",
+          "role": "driver",
+          "phone": "+91-80739-34088"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Arjun Desai",
+          "role": "dispatcher",
+          "phone": "+91-80739-34088"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Mahesh Reddy",
+          "role": "warehouse",
+          "phone": "+91-70749-13703"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Anita Joshi",
+          "role": "accounts",
+          "phone": "+91-70749-13703"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-15T14:11:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Gupta",
+          "lang": "hi-en",
+          "text": "Sir WB86ZY3229 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-15T20:11:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-15T20:44:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Reddy",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-15T22:11:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-15T22:36:33+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Reddy",
+          "lang": "hi-en",
+          "text": "Dinesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-16T01:10:33+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-NAI-260405-69351_54.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-12396",
+      "raised_at": "2026-04-16T05:10:33+05:30",
+      "raised_by": "Mahesh Reddy",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-05T16:49:37+05:30",
+      "actor": "Nair Trading Co.",
+      "doc_ref": "ORD-2026-69351",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-06T01:49:37+05:30",
+      "actor": "Mahesh Reddy",
+      "doc_ref": "ORD-2026-69351",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-04-15T11:11:33+05:30",
+      "actor": "Sharma Manufacturing Pvt. Ltd.",
+      "doc_ref": "351408063176",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-04-15T14:11:33+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB86ZY3229",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "invoice_issued",
+      "ts": "2026-04-15T14:34:33+05:30",
+      "actor": "Sharma Manufacturing Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/69351",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-15T20:11:33+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "WB86ZY3229",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-15T22:11:33+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-SHA-NAI-260405-69351",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-16T01:10:33+05:30",
+      "actor": "Mahesh Reddy",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-16T04:10:33+05:30",
+      "actor": "Mahesh Reddy",
+      "doc_ref": "GRN-69351",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-SHA-NAI-260405-69351 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269351,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

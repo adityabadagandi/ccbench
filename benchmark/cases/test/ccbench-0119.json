@@ -1,0 +1,275 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0119",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/72358",
+      "issued_at": "2026-01-17T18:27:34+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Pillai Industries",
+        "legal_name": "Pillai Industries",
+        "gstin": "29QQQPT7112F9Z5",
+        "pan": "QQQPT7112F",
+        "address": {
+          "line1": "Plot 103, Logistics Park",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "198931",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Kumar",
+          "email": "rkumar@pillai.com",
+          "phone": "+91-90476-29645"
+        }
+      },
+      "buyer": {
+        "name": "Shree Ganesh Supply Chain Pvt Ltd",
+        "legal_name": "Shree Ganesh Supply Chain Pvt. Ltd.",
+        "gstin": "27ZZWPC5117I5Z9",
+        "pan": "ZZWPC5117I",
+        "address": {
+          "line1": "Plot 166, Industrial Area",
+          "line2": "Thane",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "272149",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Kumar",
+          "email": "arjunk@shree.com",
+          "phone": "+91-70889-45027"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 1000.0,
+          "unit": "KGS",
+          "rate_per_unit": 123.97,
+          "taxable_value": 123970.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 22314.6
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 308.09,
+          "taxable_value": 30809.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5545.62
+        }
+      ],
+      "total_taxable_value": 154779.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 27860.22,
+      "total_tax": 27860.22,
+      "invoice_total": 182639.22,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "KA10CZ3967",
+      "consignment_ref": "CONS-PIL-SHR-260111-72358"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PUR-2026-72358",
+      "po_date": "2026-01-11",
+      "buyer_entity": "Shree Ganesh Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-3378",
+      "vendor_name": "Pillai Industries",
+      "vendor_gstin": "29QQQPT7112F9Z5",
+      "items": [
+        {
+          "item_code": "ITEM-12754",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 1000.0,
+          "unit": "KGS",
+          "unit_price": 123.97,
+          "line_total": 123970.0,
+          "expected_delivery": "2026-01-22"
+        },
+        {
+          "item_code": "ITEM-91439",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 308.09,
+          "line_total": 30809.0,
+          "expected_delivery": "2026-01-22"
+        }
+      ],
+      "po_subtotal": 154779.0,
+      "po_tax": 27860.22,
+      "po_total": 182639.22,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Arjun Kumar",
+        "approved_at": "2026-01-12T03:34:35+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/72358"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-PIL-SHR-260111-72358"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-51129",
+      "thread_name": "CONS-PIL-SHR-260111-72358 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Sharma",
+          "role": "driver",
+          "phone": "+91-90476-29645"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90476-29645"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Kumar",
+          "role": "warehouse",
+          "phone": "+91-70889-45027"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Meena Gupta",
+          "role": "accounts",
+          "phone": "+91-70889-45027"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-17T22:19:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi",
+          "text": "सर KA10CZ3967 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-01-18T01:19:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Sharma",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-01-18T09:19:34+05:30",
+          "sender_id": "P2",
+          "sender_name": "Rekha Kumar",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-95442",
+      "raised_at": "2026-01-20T13:04:34+05:30",
+      "raised_by": "Arjun Kumar",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-11T17:34:35+05:30",
+      "actor": "Shree Ganesh Supply Chain Pvt. Ltd.",
+      "doc_ref": "PUR-2026-72358",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-12T03:34:35+05:30",
+      "actor": "Arjun Kumar",
+      "doc_ref": "PUR-2026-72358",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-17T18:27:34+05:30",
+      "actor": "Pillai Industries",
+      "doc_ref": "TAX/2026-27/72358",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-01-17T22:19:34+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA10CZ3967",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-01-19T05:19:34+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "KA10CZ3967",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-01-19T08:19:34+05:30",
+      "actor": "Rivigo Movers",
+      "doc_ref": "CONS-PIL-SHR-260111-72358",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-01-19T11:04:34+05:30",
+      "actor": "Arjun Kumar",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-PIL-SHR-260111-72358 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272358,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0147",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/75074",
+      "issued_at": "2026-04-13T18:05:11+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Deshmukh Engineering Works",
+        "legal_name": "Deshmukh Engineering Works",
+        "gstin": "36ZZEPE5289J6ZB",
+        "pan": "ZZEPE5289J",
+        "address": {
+          "line1": "Plot 73, Industrial Area",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "573540",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Gupta",
+          "email": "deepag@deshmukh.com",
+          "phone": "+91-80910-34526"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Polymers Limited",
+        "legal_name": "Gupta Polymers Ltd.",
+        "gstin": "36QQACD0684B5ZP",
+        "pan": "QQACD0684B",
+        "address": {
+          "line1": "Unit 193, Industrial Area",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "644221",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Desai",
+          "email": "mahesh.desai@gupta.co.in",
+          "phone": "+91-80888-55666"
+        }
+      },
+      "place_of_supply": "Telangana (36)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 9631.8,
+          "taxable_value": 240795.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 21671.55,
+          "sgst_amount": 21671.55,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 240795.0,
+      "total_cgst": 21671.55,
+      "total_sgst": 21671.55,
+      "total_igst": 0.0,
+      "total_tax": 43343.1,
+      "invoice_total": 284138.1,
+      "currency": "INR",
+      "eway_bill_ref": "074568862848",
+      "vehicle_no": "TS31WE8137",
+      "consignment_ref": "CONS-DES-GUP-260405-75074"
+    },
+    "eway_bill": {
+      "ewb_no": "074568862848",
+      "generated_at": "2026-04-13T21:57:11+05:30",
+      "valid_until": "2026-04-21T21:57:11+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/75074",
+      "doc_date": "2026-04-13",
+      "from_gstin": "36ZZEPE5289J6ZB",
+      "from_address": "Plot 73, Industrial Area, Medchal, Medchal, Telangana - 573540",
+      "to_gstin": "36QQACD0684B5ZP",
+      "to_address": "Unit 193, Industrial Area, Gachibowli, Gachibowli, Telangana - 644221",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "19BAWXL7577K1ZT",
+      "mode": "road",
+      "vehicle_no": "TS31WE8137",
+      "consignment_ref": "CONS-DES-GUP-260405-75074",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 240795.0,
+      "total_invoice_value": 284138.1,
+      "distance_km": 1420.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-75074",
+      "po_date": "2026-04-05",
+      "buyer_entity": "Gupta Polymers Ltd.",
+      "vendor_code": "VND-7632",
+      "vendor_name": "Deshmukh Engineering Works",
+      "vendor_gstin": "36ZZEPE5289J6ZB",
+      "items": [
+        {
+          "item_code": "ITEM-32784",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 9631.8,
+          "line_total": 240795.0,
+          "expected_delivery": "2026-04-21"
+        }
+      ],
+      "po_subtotal": 240795.0,
+      "po_tax": 43343.1,
+      "po_total": 284138.1,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Mahesh Desai",
+        "approved_at": "2026-04-05T18:34:51+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/75074"
+      ],
+      "grn": {
+        "grn_no": "GRN-75074",
+        "received_at": "2026-04-15T21:42:11+05:30",
+        "received_by": "Mahesh Desai",
+        "lines": [
+          {
+            "item_code": "ITEM-32784",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-DES-GUP-260405-75074"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-40263",
+      "thread_name": "CONS-DES-GUP-260405-75074 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Gupta",
+          "role": "driver",
+          "phone": "+91-80910-34526"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Gupta",
+          "role": "dispatcher",
+          "phone": "+91-80910-34526"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Mahesh Desai",
+          "role": "warehouse",
+          "phone": "+91-80888-55666"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Meena Patel",
+          "role": "accounts",
+          "phone": "+91-80888-55666"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-14T02:57:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "TS31WE8137 dispatch ho gayi Medchal se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-15T05:57:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Gachibowli warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-15T06:19:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Desai",
+          "lang": "hi",
+          "text": "बाकी गाड़ियों की लिस्ट कल भेज दूँगा।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-15T09:57:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-15T10:37:11+05:30",
+          "sender_id": "P3",
+          "sender_name": "Mahesh Desai",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-15T11:42:11+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-DES-GUP-260405-75074_37.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-05T11:34:51+05:30",
+      "actor": "Gupta Polymers Ltd.",
+      "doc_ref": "PUR-2026-75074",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-05T18:34:51+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "PUR-2026-75074",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-13T18:05:11+05:30",
+      "actor": "Deshmukh Engineering Works",
+      "doc_ref": "GST/2026-27/75074",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-13T21:57:11+05:30",
+      "actor": "Deshmukh Engineering Works",
+      "doc_ref": "074568862848",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-14T02:57:11+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TS31WE8137",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-15T05:57:11+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TS31WE8137",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-15T09:57:11+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-DES-GUP-260405-75074",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-15T11:42:11+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-15T21:42:11+05:30",
+      "actor": "Mahesh Desai",
+      "doc_ref": "GRN-75074",
+      "note": null
+    }
+  ],
+  "question": "Did anyone confirm in the delivery thread that consignment CONS-DES-GUP-260405-75074 was actually received?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20275074,
+    "notes": "task=xl_delivered defect=none"
+  }
+}

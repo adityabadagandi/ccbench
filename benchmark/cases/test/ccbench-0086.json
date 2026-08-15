@@ -1,0 +1,420 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0086",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/69157",
+      "issued_at": "2026-06-09T19:41:07+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Kulkarni Logistics Pvt Ltd",
+        "legal_name": "Kulkarni Logistics Pvt. Ltd.",
+        "gstin": "36XQMCJ5898B3ZC",
+        "pan": "XQMCJ5898B",
+        "address": {
+          "line1": "Warehouse 15, Export Zone",
+          "line2": "Gachibowli",
+          "city": "Gachibowli",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "480457",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Desai",
+          "email": "nikhil.desai@kulkarni.in",
+          "phone": "+91-90651-21063"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Industries",
+        "legal_name": "Bhatia Industries",
+        "gstin": "07QQUPW7229P7Z3",
+        "pan": "QQUPW7229P",
+        "address": {
+          "line1": "Plot 16, Logistics Park",
+          "line2": "Okhla Phase II",
+          "city": "Okhla Phase II",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "775469",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Joshi",
+          "email": "meena.joshi@bhatia.co.in",
+          "phone": "+91-70712-43599"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 7606.32,
+          "taxable_value": 190158.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 34228.44
+        },
+        {
+          "line_no": 2,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 6931.66,
+          "taxable_value": 173291.5,
+          "tax_rate": 28.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 48521.62
+        }
+      ],
+      "total_taxable_value": 363449.5,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 82750.06,
+      "total_tax": 82750.06,
+      "invoice_total": 446199.56,
+      "currency": "INR",
+      "eway_bill_ref": "157330125353",
+      "vehicle_no": "TS40EB2250",
+      "consignment_ref": "CONS-KUL-BHA-260529-69157"
+    },
+    "eway_bill": {
+      "ewb_no": "157330125353",
+      "generated_at": "2026-06-10T04:00:07+05:30",
+      "valid_until": "2026-06-12T04:00:07+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/69157",
+      "doc_date": "2026-06-09",
+      "from_gstin": "36XQMCJ5898B3ZC",
+      "from_address": "Warehouse 15, Export Zone, Gachibowli, Gachibowli, Telangana - 480457",
+      "to_gstin": "07QQUPW7229P7Z3",
+      "to_address": "Plot 16, Logistics Park, Okhla Phase II, Okhla Phase II, Delhi - 775469",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23HGJKV1540E1ZT",
+      "mode": "road",
+      "vehicle_no": "TS40EB2250",
+      "consignment_ref": "CONS-KUL-BHA-260529-69157",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 363449.5,
+      "total_invoice_value": 410525.11,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-69157",
+      "po_date": "2026-05-29",
+      "buyer_entity": "Bhatia Industries",
+      "vendor_code": "VND-1293",
+      "vendor_name": "Kulkarni Logistics Pvt Ltd",
+      "vendor_gstin": "36XQMCJ5898B3ZC",
+      "items": [
+        {
+          "item_code": "ITEM-17806",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 7606.32,
+          "line_total": 190158.0,
+          "expected_delivery": "2026-06-11"
+        },
+        {
+          "item_code": "ITEM-55027",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 6931.66,
+          "line_total": 173291.5,
+          "expected_delivery": "2026-06-17"
+        }
+      ],
+      "po_subtotal": 363449.5,
+      "po_tax": 82750.06,
+      "po_total": 446199.56,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Meena Joshi",
+        "approved_at": "2026-05-30T02:41:51+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/69157"
+      ],
+      "grn": {
+        "grn_no": "GRN-69157",
+        "received_at": "2026-06-10T21:32:07+05:30",
+        "received_by": "Meena Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-17806",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-55027",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KUL-BHA-260529-69157"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-48598",
+      "thread_name": "CONS-KUL-BHA-260529-69157 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Reddy",
+          "role": "driver",
+          "phone": "+91-90651-21063"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Desai",
+          "role": "dispatcher",
+          "phone": "+91-90651-21063"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Meena Joshi",
+          "role": "warehouse",
+          "phone": "+91-70712-43599"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-10T06:00:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "TS40EB2250 dispatch ho gayi Gachibowli se. Driver nikal chuka hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-10T08:00:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Okhla Phase II pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_754.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-10T10:00:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_879.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-10T12:00:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "Okhla Phase II warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-10T16:00:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "en",
+          "text": "Consignment received in full at our Okhla Phase II warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-10T16:33:07+05:30",
+          "sender_id": "P3",
+          "sender_name": "Meena Joshi",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-10T17:32:07+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KUL-BHA-260529-69157_73.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-11T00:32:07+05:30",
+          "sender_id": "P2",
+          "sender_name": "Nikhil Desai",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 410,525.11 likhi hai par invoice Rs. 446,199.56 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-06-11T09:32:07+05:30",
+          "sender_id": "P2",
+          "sender_name": "Nikhil Desai",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read GST/2026-27/69157.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-77123",
+      "raised_at": "2026-06-11T04:32:07+05:30",
+      "raised_by": "Meena Joshi",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-29T11:41:51+05:30",
+      "actor": "Bhatia Industries",
+      "doc_ref": "PUR-2026-69157",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-30T02:41:51+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "PUR-2026-69157",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-09T19:41:07+05:30",
+      "actor": "Kulkarni Logistics Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/69157",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-10T04:00:07+05:30",
+      "actor": "Kulkarni Logistics Pvt. Ltd.",
+      "doc_ref": "157330125353",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-10T06:00:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS40EB2250",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-10T12:00:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "TS40EB2250",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-10T16:00:07+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-KUL-BHA-260529-69157",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-10T17:32:07+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-10T21:32:07+05:30",
+      "actor": "Meena Joshi",
+      "doc_ref": "GRN-69157",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-KUL-BHA-260529-69157?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20269157,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

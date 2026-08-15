@@ -1,0 +1,441 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0167",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/77014",
+      "issued_at": "2026-04-06T14:56:41+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Supply Chain Pvt Ltd",
+        "legal_name": "Agarwal Supply Chain Pvt. Ltd.",
+        "gstin": "09QQECG7926R1ZX",
+        "pan": "QQECG7926R",
+        "address": {
+          "line1": "Godown 225, Phase II",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "463149",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Kumar",
+          "email": "imran.kumar@agarwal.com",
+          "phone": "+91-90814-45596"
+        }
+      },
+      "buyer": {
+        "name": "Reddy Industries",
+        "legal_name": "Reddy Industries",
+        "gstin": "06ZZYCO0970D6ZZ",
+        "pan": "ZZYCO0970D",
+        "address": {
+          "line1": "Plot 208, Export Zone",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "839419",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Anita Iyer",
+          "email": "aiyer@reddy.com",
+          "phone": "+91-70368-29385"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 177.26,
+          "taxable_value": 88630.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 15953.4
+        },
+        {
+          "line_no": 2,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 84.73,
+          "taxable_value": 2118.25,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 381.29
+        },
+        {
+          "line_no": 3,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 90.98,
+          "taxable_value": 2274.5,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 113.72
+        },
+        {
+          "line_no": 4,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 54117.8,
+          "taxable_value": 2705890.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 487060.2
+        }
+      ],
+      "total_taxable_value": 2798912.75,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 503508.61,
+      "total_tax": 503508.61,
+      "invoice_total": 3302421.36,
+      "currency": "INR",
+      "eway_bill_ref": "014498666593",
+      "vehicle_no": "UP23CX6275",
+      "consignment_ref": "CONS-AGA-RED-260325-77014"
+    },
+    "eway_bill": {
+      "ewb_no": "014498666593",
+      "generated_at": "2026-04-06T19:02:41+05:30",
+      "valid_until": "2026-04-12T19:02:41+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/77014",
+      "doc_date": "2026-04-06",
+      "from_gstin": "09QQECG7926R1ZX",
+      "from_address": "Godown 225, Phase II, Kanpur, Kanpur, Uttar Pradesh - 463149",
+      "to_gstin": "06ZZYCO0970D6ZZ",
+      "to_address": "Plot 208, Export Zone, Bahadurgarh, Bahadurgarh, Haryana - 839419",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "07QDKWC2822Y1ZT",
+      "mode": "road",
+      "vehicle_no": "UP23CX6275",
+      "consignment_ref": "CONS-AGA-RED-260325-77014",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 2798912.75,
+      "total_invoice_value": 3302421.36,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-77014",
+      "po_date": "2026-03-25",
+      "buyer_entity": "Reddy Industries",
+      "vendor_code": "VND-5094",
+      "vendor_name": "Agarwal Supply Chain Pvt Ltd",
+      "vendor_gstin": "09QQECG7926R1ZX",
+      "items": [
+        {
+          "item_code": "ITEM-94768",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 177.26,
+          "line_total": 88630.0,
+          "expected_delivery": "2026-04-09"
+        },
+        {
+          "item_code": "ITEM-15193",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 84.73,
+          "line_total": 2118.25,
+          "expected_delivery": "2026-04-10"
+        },
+        {
+          "item_code": "ITEM-58878",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 90.98,
+          "line_total": 2274.5,
+          "expected_delivery": "2026-04-09"
+        },
+        {
+          "item_code": "ITEM-89551",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 54117.8,
+          "line_total": 2705890.0,
+          "expected_delivery": "2026-04-13"
+        }
+      ],
+      "po_subtotal": 2798912.75,
+      "po_tax": 503508.61,
+      "po_total": 3302421.36,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Anita Iyer",
+        "approved_at": "2026-03-26T05:05:15+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/77014"
+      ],
+      "grn": {
+        "grn_no": "GRN-77014",
+        "received_at": "2026-04-08T12:31:41+05:30",
+        "received_by": "Anita Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-94768",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-15193",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-58878",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-89551",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-RED-260325-77014"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-97004",
+      "thread_name": "CONS-AGA-RED-260325-77014 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Rajesh Reddy",
+          "role": "driver",
+          "phone": "+91-90814-45596"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90814-45596"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Anita Iyer",
+          "role": "warehouse",
+          "phone": "+91-70368-29385"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Deepa Kumar",
+          "role": "accounts",
+          "phone": "+91-70368-29385"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-06T23:02:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "en",
+          "text": "Vehicle UP23CX6275 dispatched from Kanpur. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-07T12:02:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Bahadurgarh.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-08T01:02:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi-en",
+          "text": "Bahadurgarh warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-08T04:02:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Iyer",
+          "lang": "en",
+          "text": "Consignment received in full at our Bahadurgarh warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-08T04:31:41+05:30",
+          "sender_id": "P1",
+          "sender_name": "Rajesh Reddy",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-RED-260325-77014_99.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-08T04:34:41+05:30",
+          "sender_id": "P3",
+          "sender_name": "Anita Iyer",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-25T14:05:15+05:30",
+      "actor": "Reddy Industries",
+      "doc_ref": "ORD-2026-77014",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-26T05:05:15+05:30",
+      "actor": "Anita Iyer",
+      "doc_ref": "ORD-2026-77014",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-06T14:56:41+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "GST/2026-27/77014",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-06T19:02:41+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "014498666593",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-06T23:02:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "UP23CX6275",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-08T01:02:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "UP23CX6275",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-08T04:02:41+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-AGA-RED-260325-77014",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-08T04:31:41+05:30",
+      "actor": "Anita Iyer",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-08T12:31:41+05:30",
+      "actor": "Anita Iyer",
+      "doc_ref": "GRN-77014",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice GST/2026-27/77014 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20277014,
+    "notes": "task=comp_contact defect=none"
+  }
+}

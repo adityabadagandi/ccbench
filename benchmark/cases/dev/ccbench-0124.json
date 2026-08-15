@@ -1,0 +1,421 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0124",
+  "bucket": "lookup",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/72843",
+      "issued_at": "2026-06-18T14:41:04+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Engineering Works",
+        "legal_name": "Sharma Engineering Works",
+        "gstin": "29XQZPL7196K3ZZ",
+        "pan": "XQZPL7196K",
+        "address": {
+          "line1": "Shed 135, Export Zone",
+          "line2": "Peenya",
+          "city": "Peenya",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "874287",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Patel",
+          "email": "vijay.patel@sharma.in",
+          "phone": "+91-70835-77015"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Logistics P Ltd",
+        "legal_name": "Rastogi Logistics Pvt. Ltd.",
+        "gstin": "33XQSCI8808L4Z8",
+        "pan": "XQSCI8808L",
+        "address": {
+          "line1": "Plot 100, Industrial Area",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "885317",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Ramesh Banerjee",
+          "email": "rameshb@rastogi.com",
+          "phone": "+91-80451-31742"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS",
+          "rate_per_unit": 411.07,
+          "taxable_value": 493284.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 88791.12
+        },
+        {
+          "line_no": 2,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 208.89,
+          "taxable_value": 20889.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1044.45
+        }
+      ],
+      "total_taxable_value": 514173.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 89835.57,
+      "total_tax": 89835.57,
+      "invoice_total": 604008.57,
+      "currency": "INR",
+      "eway_bill_ref": "843929705733",
+      "vehicle_no": "KA88EW4669",
+      "consignment_ref": "CONS-SHA-RAS-260611-72843"
+    },
+    "eway_bill": {
+      "ewb_no": "843929705733",
+      "generated_at": "2026-06-18T16:14:04+05:30",
+      "valid_until": "2026-06-29T16:14:04+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/72843",
+      "doc_date": "2026-06-18",
+      "from_gstin": "29XQZPL7196K3ZZ",
+      "from_address": "Shed 135, Export Zone, Peenya, Peenya, Karnataka - 874287",
+      "to_gstin": "33XQSCI8808L4Z8",
+      "to_address": "Plot 100, Industrial Area, Sriperumbudur, Sriperumbudur, Tamil Nadu - 885317",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23WFOVG8421B1ZT",
+      "mode": "road",
+      "vehicle_no": "KA88EW4669",
+      "consignment_ref": "CONS-SHA-RAS-260611-72843",
+      "items": [
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 1200.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 514173.0,
+      "total_invoice_value": 604008.57,
+      "distance_km": 2100.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-72843",
+      "po_date": "2026-06-11",
+      "buyer_entity": "Rastogi Logistics Pvt. Ltd.",
+      "vendor_code": "VND-1302",
+      "vendor_name": "Sharma Engineering Works",
+      "vendor_gstin": "29XQZPL7196K3ZZ",
+      "items": [
+        {
+          "item_code": "ITEM-99181",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 1200.0,
+          "unit": "KGS",
+          "unit_price": 411.07,
+          "line_total": 493284.0,
+          "expected_delivery": "2026-06-26"
+        },
+        {
+          "item_code": "ITEM-46355",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 208.89,
+          "line_total": 20889.0,
+          "expected_delivery": "2026-06-23"
+        }
+      ],
+      "po_subtotal": 514173.0,
+      "po_tax": 89835.57,
+      "po_total": 604008.57,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Ramesh Banerjee",
+        "approved_at": "2026-06-12T23:05:46+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/72843"
+      ],
+      "grn": {
+        "grn_no": "GRN-72843",
+        "received_at": "2026-06-21T14:50:04+05:30",
+        "received_by": "Ramesh Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-99181",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-46355",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-RAS-260611-72843"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-29076",
+      "thread_name": "CONS-SHA-RAS-260611-72843 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Reddy",
+          "role": "driver",
+          "phone": "+91-70835-77015"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Patel",
+          "role": "dispatcher",
+          "phone": "+91-70835-77015"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Ramesh Banerjee",
+          "role": "warehouse",
+          "phone": "+91-80451-31742"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Meena Sharma",
+          "role": "accounts",
+          "phone": "+91-80451-31742"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-18T20:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "KA88EW4669 dispatch ho gayi Peenya se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-18T21:09:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi",
+          "text": "कल की गाड़ी का क्या हुआ?",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-19T18:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Sriperumbudur pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-20T16:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "Sriperumbudur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-20T18:14:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-20T18:37:04+05:30",
+          "sender_id": "P3",
+          "sender_name": "Ramesh Banerjee",
+          "lang": "hi-en",
+          "text": "Suresh bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-20T20:50:04+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-RAS-260611-72843_45.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-11T17:05:46+05:30",
+      "actor": "Rastogi Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-72843",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-12T23:05:46+05:30",
+      "actor": "Ramesh Banerjee",
+      "doc_ref": "ORD-2026-72843",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-06-18T14:41:04+05:30",
+      "actor": "Sharma Engineering Works",
+      "doc_ref": "GST/2026-27/72843",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-06-18T16:14:04+05:30",
+      "actor": "Sharma Engineering Works",
+      "doc_ref": "843929705733",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-18T20:14:04+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "KA88EW4669",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-20T16:14:04+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "KA88EW4669",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-20T18:14:04+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-SHA-RAS-260611-72843",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-20T20:50:04+05:30",
+      "actor": "Ramesh Banerjee",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-21T14:50:04+05:30",
+      "actor": "Ramesh Banerjee",
+      "doc_ref": "GRN-72843",
+      "note": null
+    }
+  ],
+  "question": "What HSN code is declared for line 2 of invoice GST/2026-27/72843?",
+  "question_lang": "en",
+  "gold_answer": "Line 2 of invoice GST/2026-27/72843 declares HSN code 52081290, described as Woven cotton fabrics, plain weave [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/72843",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "items[1].hsn_code",
+      "value": "52081290",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "items[1].description",
+      "value": "Woven cotton fabrics, plain weave",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [
+    "+91-70835-77015",
+    "+91-80451-31742",
+    "XQSCI8808L",
+    "XQZPL7196K",
+    "rameshb@rastogi.com",
+    "vijay.patel@sharma.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272843,
+    "notes": "task=lookup_hsn defect=none"
+  }
+}

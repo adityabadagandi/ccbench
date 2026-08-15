@@ -1,0 +1,453 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0118",
+  "bucket": "lookup",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/72261",
+      "issued_at": "2026-07-01T15:12:42+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Enterprises",
+        "legal_name": "Agarwal Enterprises",
+        "gstin": "33XQFCC2095H5ZJ",
+        "pan": "XQFCC2095H",
+        "address": {
+          "line1": "Shed 209, Export Zone",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "819957",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rekha Desai",
+          "email": "rekha.desai@agarwal.com",
+          "phone": "+91-80404-61790"
+        }
+      },
+      "buyer": {
+        "name": "Patel Manufacturing Pvt. Ltd.",
+        "legal_name": "Patel Manufacturing Pvt. Ltd.",
+        "gstin": "06QQVPK0111S1ZH",
+        "pan": "QQVPK0111S",
+        "address": {
+          "line1": "Shed 211, MIDC",
+          "line2": "Panipat",
+          "city": "Panipat",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "666323",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Kumar",
+          "email": "arjunk@patel.com",
+          "phone": "+91-70698-34313"
+        }
+      },
+      "place_of_supply": "Haryana (06)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 118.4,
+          "taxable_value": 88800.0,
+          "tax_rate": 12.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10656.0
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 81.18,
+          "taxable_value": 60885.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 10959.3
+        },
+        {
+          "line_no": 3,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR",
+          "rate_per_unit": 81.61,
+          "taxable_value": 40805.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 7344.9
+        }
+      ],
+      "total_taxable_value": 190490.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 28960.2,
+      "total_tax": 28960.2,
+      "invoice_total": 219450.2,
+      "currency": "INR",
+      "eway_bill_ref": "261788990582",
+      "vehicle_no": "TN67LQ1707",
+      "consignment_ref": "CONS-AGA-PAT-260619-72261"
+    },
+    "eway_bill": {
+      "ewb_no": "261788990582",
+      "generated_at": "2026-07-01T20:45:42+05:30",
+      "valid_until": "2026-07-02T20:45:42+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/72261",
+      "doc_date": "2026-07-01",
+      "from_gstin": "33XQFCC2095H5ZJ",
+      "from_address": "Shed 209, Export Zone, Hosur Road, Hosur Road, Tamil Nadu - 819957",
+      "to_gstin": "06QQVPK0111S1ZH",
+      "to_address": "Shed 211, MIDC, Panipat, Panipat, Haryana - 666323",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "24YIXAD5911Z1ZT",
+      "mode": "road",
+      "vehicle_no": "TN67LQ1707",
+      "consignment_ref": "CONS-AGA-PAT-260619-72261",
+      "items": [
+        {
+          "description": "Folding cartons and boxes of paperboard",
+          "hsn_code": "48192010",
+          "quantity": 750.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 750.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 500.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 190490.0,
+      "total_invoice_value": 219450.2,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-72261",
+      "po_date": "2026-06-19",
+      "buyer_entity": "Patel Manufacturing Pvt. Ltd.",
+      "vendor_code": "VND-8625",
+      "vendor_name": "Agarwal Enterprises",
+      "vendor_gstin": "33XQFCC2095H5ZJ",
+      "items": [
+        {
+          "item_code": "ITEM-69278",
+          "description": "Folding cartons and boxes of paperboard",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 118.4,
+          "line_total": 88800.0,
+          "expected_delivery": "2026-07-09"
+        },
+        {
+          "item_code": "ITEM-32244",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 81.18,
+          "line_total": 60885.0,
+          "expected_delivery": "2026-07-10"
+        },
+        {
+          "item_code": "ITEM-98104",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 500.0,
+          "unit": "MTR",
+          "unit_price": 81.61,
+          "line_total": 40805.0,
+          "expected_delivery": "2026-07-09"
+        }
+      ],
+      "po_subtotal": 190490.0,
+      "po_tax": 28960.2,
+      "po_total": 219450.2,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Arjun Kumar",
+        "approved_at": "2026-06-20T04:18:09+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/72261"
+      ],
+      "grn": {
+        "grn_no": "GRN-72261",
+        "received_at": "2026-07-03T08:06:42+05:30",
+        "received_by": "Arjun Kumar",
+        "lines": [
+          {
+            "item_code": "ITEM-69278",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-32244",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-98104",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-PAT-260619-72261"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-75764",
+      "thread_name": "CONS-AGA-PAT-260619-72261 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Patel",
+          "role": "driver",
+          "phone": "+91-80404-61790"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rekha Desai",
+          "role": "dispatcher",
+          "phone": "+91-80404-61790"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Kumar",
+          "role": "warehouse",
+          "phone": "+91-70698-34313"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-01T23:45:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Patel",
+          "lang": "hi-en",
+          "text": "TN67LQ1707 dispatch ho gayi Hosur Road se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-02T00:07:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Patel",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hain.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-02T02:45:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Patel",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Panipat pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_766.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-07-02T05:45:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Patel",
+          "lang": "hi",
+          "text": "गाड़ी Panipat गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-07-02T09:45:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Kumar",
+          "lang": "en",
+          "text": "Consignment received in full at our Panipat warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-07-02T10:00:42+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Kumar",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-07-02T12:06:42+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Patel",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-PAT-260619-72261_65.jpg",
+              "caption": "Signed challan"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-1311.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-06-19T19:18:09+05:30",
+      "actor": "Patel Manufacturing Pvt. Ltd.",
+      "doc_ref": "PO-2026-72261",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-06-20T04:18:09+05:30",
+      "actor": "Arjun Kumar",
+      "doc_ref": "PO-2026-72261",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-01T15:12:42+05:30",
+      "actor": "Agarwal Enterprises",
+      "doc_ref": "TAX/2026-27/72261",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-07-01T20:45:42+05:30",
+      "actor": "Agarwal Enterprises",
+      "doc_ref": "261788990582",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-07-01T23:45:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN67LQ1707",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-07-02T05:45:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "TN67LQ1707",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-07-02T09:45:42+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-AGA-PAT-260619-72261",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-07-02T12:06:42+05:30",
+      "actor": "Arjun Kumar",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-07-03T08:06:42+05:30",
+      "actor": "Arjun Kumar",
+      "doc_ref": "GRN-72261",
+      "note": null
+    }
+  ],
+  "question": "What is the seller's GSTIN on invoice TAX/2026-27/72261?",
+  "question_lang": "en",
+  "gold_answer": "The seller on invoice TAX/2026-27/72261, Agarwal Enterprises, holds GSTIN 33XQFCC2095H5ZJ [INV].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "TAX/2026-27/72261",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "seller.gstin",
+      "value": "33XQFCC2095H5ZJ",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "seller.legal_name",
+      "value": "Agarwal Enterprises",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "easy",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20272261,
+    "notes": "task=lookup_gstin defect=none"
+  }
+}

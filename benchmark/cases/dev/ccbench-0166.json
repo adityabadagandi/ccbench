@@ -1,0 +1,534 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0166",
+  "bucket": "temporal",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/76917",
+      "issued_at": "2026-01-29T15:56:16+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Supply Chain Private Limited",
+        "legal_name": "Agarwal Supply Chain Pvt. Ltd.",
+        "gstin": "36QQBCI8421U4Z6",
+        "pan": "QQBCI8421U",
+        "address": {
+          "line1": "Godown 30, MIDC",
+          "line2": "Medchal",
+          "city": "Medchal",
+          "state": "Telangana",
+          "state_code": "36",
+          "pincode": "511465",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Joshi",
+          "email": "priyaj@agarwal.co.in",
+          "phone": "+91-70536-76757"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Distributors",
+        "legal_name": "Krishna Distributors",
+        "gstin": "09XQBPD1349N6Z5",
+        "pan": "XQBPD1349N",
+        "address": {
+          "line1": "Plot 203, MIDC",
+          "line2": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "397058",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Yadav",
+          "email": "ryadav@krishna.com",
+          "phone": "+91-80522-59758"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR",
+          "rate_per_unit": 165.58,
+          "taxable_value": 29804.4,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1490.22
+        },
+        {
+          "line_no": 2,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 4600.64,
+          "taxable_value": 460064.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 82811.52
+        },
+        {
+          "line_no": 3,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 264.34,
+          "taxable_value": 66085.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 11895.3
+        },
+        {
+          "line_no": 4,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 105.59,
+          "taxable_value": 126708.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 22807.44
+        }
+      ],
+      "total_taxable_value": 682661.4,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 119004.48,
+      "total_tax": 119004.48,
+      "invoice_total": 801665.88,
+      "currency": "INR",
+      "eway_bill_ref": "917185960160",
+      "vehicle_no": "TS44MG1689",
+      "consignment_ref": "CONS-AGA-KRI-260124-76917"
+    },
+    "eway_bill": {
+      "ewb_no": "917185960160",
+      "generated_at": "2026-01-29T17:48:16+05:30",
+      "valid_until": "2026-02-02T17:48:16+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/76917",
+      "doc_date": "2026-01-29",
+      "from_gstin": "36QQBCI8421U4Z6",
+      "from_address": "Godown 30, MIDC, Medchal, Medchal, Telangana - 511465",
+      "to_gstin": "09XQBPD1349N6Z5",
+      "to_address": "Plot 203, MIDC, Ghaziabad, Ghaziabad, Uttar Pradesh - 397058",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "36DNPCC2323L1ZT",
+      "mode": "road",
+      "vehicle_no": "TS44MG1689",
+      "consignment_ref": "CONS-AGA-KRI-260124-76917",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 180.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 100.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 682661.4,
+      "total_invoice_value": 801665.88,
+      "distance_km": 620.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-76917",
+      "po_date": "2026-01-24",
+      "buyer_entity": "Krishna Distributors",
+      "vendor_code": "VND-7742",
+      "vendor_name": "Agarwal Supply Chain Private Limited",
+      "vendor_gstin": "36QQBCI8421U4Z6",
+      "items": [
+        {
+          "item_code": "ITEM-87531",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 180.0,
+          "unit": "MTR",
+          "unit_price": 165.58,
+          "line_total": 29804.4,
+          "expected_delivery": "2026-02-01"
+        },
+        {
+          "item_code": "ITEM-70029",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 4600.64,
+          "line_total": 460064.0,
+          "expected_delivery": "2026-02-02"
+        },
+        {
+          "item_code": "ITEM-49300",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 264.34,
+          "line_total": 66085.0,
+          "expected_delivery": "2026-02-06"
+        },
+        {
+          "item_code": "ITEM-80793",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 105.59,
+          "line_total": 126708.0,
+          "expected_delivery": "2026-02-06"
+        }
+      ],
+      "po_subtotal": 682661.4,
+      "po_tax": 119004.48,
+      "po_total": 801665.88,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Rajesh Yadav",
+        "approved_at": "2026-01-25T07:18:54+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/76917"
+      ],
+      "grn": {
+        "grn_no": "GRN-76917",
+        "received_at": "2026-02-04T20:25:16+05:30",
+        "received_by": "Rajesh Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-87531",
+            "quantity_received": 180.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-70029",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-49300",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-80793",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-KRI-260124-76917"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-30303",
+      "thread_name": "CONS-AGA-KRI-260124-76917 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Yadav",
+          "role": "driver",
+          "phone": "+91-70536-76757"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Joshi",
+          "role": "dispatcher",
+          "phone": "+91-70536-76757"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Rajesh Yadav",
+          "role": "warehouse",
+          "phone": "+91-80522-59758"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-01-29T21:48:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "TS44MG1689 dispatch ho gayi Medchal se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-01T12:18:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_851.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-04T01:48:16+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Joshi",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 02 Feb 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-04T02:48:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi",
+          "text": "गाड़ी Ghaziabad गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-04T03:28:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Yadav",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-04T06:48:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-04T07:06:16+05:30",
+          "sender_id": "P3",
+          "sender_name": "Rajesh Yadav",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-02-04T08:25:16+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Yadav",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-KRI-260124-76917_65.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-02-05T05:25:16+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Joshi",
+          "lang": "en",
+          "text": "Correction to my earlier message — pls read TAX/2026-27/76917.",
+          "reply_to": "M-008",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-69002",
+      "raised_at": "2026-02-04T23:25:16+05:30",
+      "raised_by": "Rajesh Yadav",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-24T18:18:54+05:30",
+      "actor": "Krishna Distributors",
+      "doc_ref": "PUR-2026-76917",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-25T07:18:54+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "PUR-2026-76917",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-01-29T15:56:16+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/76917",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-01-29T17:48:16+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "917185960160",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-01-29T21:48:16+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS44MG1689",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-04T02:48:16+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TS44MG1689",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-04T06:48:16+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-AGA-KRI-260124-76917",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-04T08:25:16+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-04T20:25:16+05:30",
+      "actor": "Rajesh Yadav",
+      "doc_ref": "GRN-76917",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-AGA-KRI-260124-76917 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "gold_answer": "No — e-way bill 917185960160 was valid until 02 Feb 2026 at 17:48 and is now marked expired [EWB], but delivery is recorded at 04 Feb 2026 at 06:48, 37 hours after expiry [TIMELINE]. The lapse was noted on the delivery thread at the time [M-003].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "917185960160",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "valid_until",
+      "value": "2026-02-02T17:48:16+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "status",
+      "value": "expired",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "events",
+      "path": "E-007.ts",
+      "value": "2026-02-04T06:48:16+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "whatsapp_pod",
+      "path": "M-003.text",
+      "value": "Sir e-way bill ki validity 02 Feb 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+      "evidence": {
+        "ref_id": "M-003",
+        "lang": "hi-en",
+        "span": "validity 02 Feb 2026 ko khatam ho gayi thi",
+        "gloss_en": "validity expired on 02 Feb 2026"
+      }
+    }
+  ],
+  "gold_label": "temporal_violation",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-70536-76757",
+    "+91-80522-59758",
+    "QQBCI8421U",
+    "XQBPD1349N",
+    "priyaj@agarwal.co.in",
+    "ryadav@krishna.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276917,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

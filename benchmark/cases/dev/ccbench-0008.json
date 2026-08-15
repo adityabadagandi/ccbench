@@ -1,0 +1,398 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0008",
+  "bucket": "cross-lingual",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/61591",
+      "issued_at": "2026-05-18T19:12:34+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Nair Exports",
+        "legal_name": "Nair Exports",
+        "gstin": "33XQDCK4722U2Z2",
+        "pan": "XQDCK4722U",
+        "address": {
+          "line1": "Shed 120, Logistics Park",
+          "line2": "Ambattur",
+          "city": "Ambattur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "780856",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Khan",
+          "email": "dineshk@nair.co.in",
+          "phone": "+91-90201-58520"
+        }
+      },
+      "buyer": {
+        "name": "Pillai Exports",
+        "legal_name": "Pillai Exports",
+        "gstin": "09XQLCD9034K9ZA",
+        "pan": "XQLCD9034K",
+        "address": {
+          "line1": "Shed 114, MIDC",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "772257",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Banerjee",
+          "email": "deepab@pillai.co.in",
+          "phone": "+91-90530-81723"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 313.3,
+          "taxable_value": 15665.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2819.7
+        }
+      ],
+      "total_taxable_value": 15665.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2819.7,
+      "total_tax": 2819.7,
+      "invoice_total": 18484.7,
+      "currency": "INR",
+      "eway_bill_ref": "591462051641",
+      "vehicle_no": "TN92BQ7832",
+      "consignment_ref": "CONS-NAI-PIL-260514-61591"
+    },
+    "eway_bill": {
+      "ewb_no": "591462051641",
+      "generated_at": "2026-05-19T03:04:34+05:30",
+      "valid_until": "2026-05-21T03:04:34+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/61591",
+      "doc_date": "2026-05-18",
+      "from_gstin": "33XQDCK4722U2Z2",
+      "from_address": "Shed 120, Logistics Park, Ambattur, Ambattur, Tamil Nadu - 780856",
+      "to_gstin": "09XQLCD9034K9ZA",
+      "to_address": "Shed 114, MIDC, Noida Sector 63, Noida Sector 63, Uttar Pradesh - 772257",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "36VNFRW8466U1ZT",
+      "mode": "road",
+      "vehicle_no": "TN92BQ7832",
+      "consignment_ref": "CONS-NAI-PIL-260514-61591",
+      "items": [
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 15665.0,
+      "total_invoice_value": 1848.47,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-61591",
+      "po_date": "2026-05-14",
+      "buyer_entity": "Pillai Exports",
+      "vendor_code": "VND-8139",
+      "vendor_name": "Nair Exports",
+      "vendor_gstin": "33XQDCK4722U2Z2",
+      "items": [
+        {
+          "item_code": "ITEM-37758",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 313.3,
+          "line_total": 15665.0,
+          "expected_delivery": "2026-05-22"
+        }
+      ],
+      "po_subtotal": 15665.0,
+      "po_tax": 2819.7,
+      "po_total": 18484.7,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Deepa Banerjee",
+        "approved_at": "2026-05-15T13:56:50+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/61591"
+      ],
+      "grn": {
+        "grn_no": "GRN-61591",
+        "received_at": "2026-05-19T21:18:34+05:30",
+        "received_by": "Deepa Banerjee",
+        "lines": [
+          {
+            "item_code": "ITEM-37758",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-NAI-PIL-260514-61591"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-99198",
+      "thread_name": "CONS-NAI-PIL-260514-61591 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ramesh Gupta",
+          "role": "driver",
+          "phone": "+91-90201-58520"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Dinesh Khan",
+          "role": "dispatcher",
+          "phone": "+91-90201-58520"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Banerjee",
+          "role": "warehouse",
+          "phone": "+91-90530-81723"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-05-19T04:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "Sir TN92BQ7832 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-05-19T07:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-05-19T10:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-05-19T12:04:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-05-19T12:22:34+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Banerjee",
+          "lang": "hi-en",
+          "text": "Ramesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-05-19T13:18:34+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ramesh Gupta",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-NAI-PIL-260514-61591_97.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-05-19T22:18:34+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 1,848.47 likhi hai par invoice Rs. 18,484.70 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-05-20T06:18:34+05:30",
+          "sender_id": "P2",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Correction to my earlier message — please read INV/2026-27/61591.",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-14T09:56:50+05:30",
+      "actor": "Pillai Exports",
+      "doc_ref": "PO-2026-61591",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-15T13:56:50+05:30",
+      "actor": "Deepa Banerjee",
+      "doc_ref": "PO-2026-61591",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-18T19:12:34+05:30",
+      "actor": "Nair Exports",
+      "doc_ref": "INV/2026-27/61591",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-05-19T03:04:34+05:30",
+      "actor": "Nair Exports",
+      "doc_ref": "591462051641",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-05-19T04:04:34+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN92BQ7832",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-05-19T10:04:34+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "TN92BQ7832",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-05-19T12:04:34+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-NAI-PIL-260514-61591",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-05-19T13:18:34+05:30",
+      "actor": "Deepa Banerjee",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-05-19T21:18:34+05:30",
+      "actor": "Deepa Banerjee",
+      "doc_ref": "GRN-61591",
+      "note": null
+    }
+  ],
+  "question": "Did anyone on the delivery thread raise a concern about the paperwork for consignment CONS-NAI-PIL-260514-61591, and was it justified?",
+  "question_lang": "en",
+  "gold_answer": "Yes, and it was justified: in message M-007, Dinesh Khan flagged that \"e-way bill pe value Rs. 1,848.47 likhi hai par invoice Rs. 18,484.70 ka hai\" [M-007]. The documents confirm it — invoice INV/2026-27/61591 totals Rs. 18,484.70 [INV] while e-way bill 591462051641 declares Rs. 1,848.47 [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 1,848.47 likhi hai par invoice Rs. 18,484.70 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 1,848.47 likhi hai par invoice Rs. 18,484.70 ka hai",
+        "gloss_en": "the e-way bill states Rs. 1,848.47 but the invoice is for Rs. 18,484.70"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "18484.7",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "1848.47",
+      "evidence": null
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "hard",
+  "must_not_appear": [
+    "+91-90201-58520",
+    "+91-90530-81723",
+    "XQDCK4722U",
+    "XQLCD9034K",
+    "deepab@pillai.co.in",
+    "dineshk@nair.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261591,
+    "notes": "task=xl_value defect=value_mismatch"
+  }
+}

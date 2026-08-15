@@ -1,0 +1,313 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0002",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/61009",
+      "issued_at": "2026-05-31T14:05:00+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Exports",
+        "legal_name": "Krishna Exports",
+        "gstin": "33QQGPZ3784D5ZQ",
+        "pan": "QQGPZ3784D",
+        "address": {
+          "line1": "Godown 237, Logistics Park",
+          "line2": "Sriperumbudur",
+          "city": "Sriperumbudur",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "761163",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Banerjee",
+          "email": "imranb@krishna.in",
+          "phone": "+91-70994-79301"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Supply Chain Private Limited",
+        "legal_name": "Bhatia Supply Chain Pvt. Ltd.",
+        "gstin": "33QQSPU5557R6ZM",
+        "pan": "QQSPU5557R",
+        "address": {
+          "line1": "Shed 211, Industrial Area",
+          "line2": "Hosur Road",
+          "city": "Hosur Road",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "472691",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Imran Gupta",
+          "email": "igupta@bhatia.in",
+          "phone": "+91-90463-66635"
+        }
+      },
+      "place_of_supply": "Tamil Nadu (33)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 285.76,
+          "taxable_value": 14288.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 1285.92,
+          "sgst_amount": 1285.92,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 93.93,
+          "taxable_value": 4696.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 422.69,
+          "sgst_amount": 422.68,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 214.98,
+          "taxable_value": 107490.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 9674.1,
+          "sgst_amount": 9674.1,
+          "igst_amount": 0.0
+        },
+        {
+          "line_no": 4,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 9378.38,
+          "taxable_value": 234459.5,
+          "tax_rate": 18.0,
+          "cgst_amount": 21101.35,
+          "sgst_amount": 21101.36,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 360934.0,
+      "total_cgst": 32484.06,
+      "total_sgst": 32484.06,
+      "total_igst": 0.0,
+      "total_tax": 64968.12,
+      "invoice_total": 425902.12,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "TN60RV4866",
+      "consignment_ref": "CONS-KRI-BHA-260526-61009"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "PO-2026-61009",
+      "po_date": "2026-05-26",
+      "buyer_entity": "Bhatia Supply Chain Pvt. Ltd.",
+      "vendor_code": "VND-8261",
+      "vendor_name": "Krishna Exports",
+      "vendor_gstin": "33QQGPZ3784D5ZQ",
+      "items": [
+        {
+          "item_code": "ITEM-64519",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 285.76,
+          "line_total": 14288.0,
+          "expected_delivery": "2026-06-02"
+        },
+        {
+          "item_code": "ITEM-11925",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 93.93,
+          "line_total": 4696.5,
+          "expected_delivery": "2026-06-04"
+        },
+        {
+          "item_code": "ITEM-75795",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 214.98,
+          "line_total": 107490.0,
+          "expected_delivery": "2026-06-04"
+        },
+        {
+          "item_code": "ITEM-55163",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 9378.38,
+          "line_total": 234459.5,
+          "expected_delivery": "2026-06-07"
+        }
+      ],
+      "po_subtotal": 360934.0,
+      "po_tax": 64968.12,
+      "po_total": 425902.12,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Imran Gupta",
+        "approved_at": "2026-05-27T15:12:18+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/61009"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-KRI-BHA-260526-61009"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-52531",
+      "thread_name": "CONS-KRI-BHA-260526-61009 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Gupta",
+          "role": "driver",
+          "phone": "+91-70994-79301"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Imran Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-70994-79301"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Imran Gupta",
+          "role": "warehouse",
+          "phone": "+91-90463-66635"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Sameer Desai",
+          "role": "accounts",
+          "phone": "+91-90463-66635"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-01T02:38:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi",
+          "text": "सर TN60RV4866 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-01T06:38:00+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Gupta",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-01T16:38:00+05:30",
+          "sender_id": "P2",
+          "sender_name": "Imran Banerjee",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-26T14:12:18+05:30",
+      "actor": "Bhatia Supply Chain Pvt. Ltd.",
+      "doc_ref": "PO-2026-61009",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-27T15:12:18+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": "PO-2026-61009",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-05-31T14:05:00+05:30",
+      "actor": "Krishna Exports",
+      "doc_ref": "GST/2026-27/61009",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-06-01T02:38:00+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN60RV4866",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-06-02T22:38:00+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "TN60RV4866",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-06-03T00:38:00+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-KRI-BHA-260526-61009",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-06-03T02:13:00+05:30",
+      "actor": "Imran Gupta",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Driver ne consignment CONS-KRI-BHA-260526-61009 ke baare mein kya bataya raaste mein?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20261009,
+    "notes": "task=xl_detained defect=missing_ewb"
+  }
+}

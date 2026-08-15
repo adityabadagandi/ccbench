@@ -1,0 +1,441 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0158",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/76141",
+      "issued_at": "2026-06-08T19:34:49+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Gupta Polymers Ltd",
+        "legal_name": "Gupta Polymers Ltd.",
+        "gstin": "33QQNPR9317E2Z0",
+        "pan": "QQNPR9317E",
+        "address": {
+          "line1": "Plot 169, Logistics Park",
+          "line2": "Guindy",
+          "city": "Guindy",
+          "state": "Tamil Nadu",
+          "state_code": "33",
+          "pincode": "697823",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Priya Reddy",
+          "email": "priyar@gupta.co.in",
+          "phone": "+91-70563-81916"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Engineering Works",
+        "legal_name": "Bhatia Engineering Works",
+        "gstin": "19XQXCJ3759H1ZY",
+        "pan": "XQXCJ3759H",
+        "address": {
+          "line1": "Shed 129, Logistics Park",
+          "line2": "Howrah",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "state_code": "19",
+          "pincode": "168255",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Lakshmi Nair",
+          "email": "lakshmi.nair@bhatia.in",
+          "phone": "+91-70366-40625"
+        }
+      },
+      "place_of_supply": "West Bengal (19)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR",
+          "rate_per_unit": 66.04,
+          "taxable_value": 3302.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 594.36
+        },
+        {
+          "line_no": 2,
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS",
+          "rate_per_unit": 161.0,
+          "taxable_value": 80500.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 14490.0
+        },
+        {
+          "line_no": 3,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS",
+          "rate_per_unit": 93.4,
+          "taxable_value": 4670.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 840.6
+        }
+      ],
+      "total_taxable_value": 88472.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 15924.96,
+      "total_tax": 15924.96,
+      "invoice_total": 104396.96,
+      "currency": "INR",
+      "eway_bill_ref": "141212863208",
+      "vehicle_no": "TN17ZJ7030",
+      "consignment_ref": "CONS-GUP-BHA-260528-76141"
+    },
+    "eway_bill": {
+      "ewb_no": "141212863208",
+      "generated_at": "2026-06-08T22:07:49+05:30",
+      "valid_until": "2026-06-09T22:07:49+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/76141",
+      "doc_date": "2026-06-08",
+      "from_gstin": "33QQNPR9317E2Z0",
+      "from_address": "Plot 169, Logistics Park, Guindy, Guindy, Tamil Nadu - 697823",
+      "to_gstin": "19XQXCJ3759H1ZY",
+      "to_address": "Shed 129, Logistics Park, Howrah, Howrah, West Bengal - 168255",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "29FPEDU4547U1ZT",
+      "mode": "road",
+      "vehicle_no": "TN17ZJ7030",
+      "consignment_ref": "CONS-GUP-BHA-260528-76141",
+      "items": [
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 50.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Threaded screws and bolts of iron or steel",
+          "hsn_code": "73181500",
+          "quantity": 500.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 50.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 88472.0,
+      "total_invoice_value": 104396.96,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-76141",
+      "po_date": "2026-05-28",
+      "buyer_entity": "Bhatia Engineering Works",
+      "vendor_code": "VND-8686",
+      "vendor_name": "Gupta Polymers Ltd",
+      "vendor_gstin": "33QQNPR9317E2Z0",
+      "items": [
+        {
+          "item_code": "ITEM-59696",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 50.0,
+          "unit": "MTR",
+          "unit_price": 66.04,
+          "line_total": 3302.0,
+          "expected_delivery": "2026-06-17"
+        },
+        {
+          "item_code": "ITEM-47070",
+          "description": "Threaded screws and bolts of iron or steel",
+          "quantity_ordered": 500.0,
+          "unit": "KGS",
+          "unit_price": 161.0,
+          "line_total": 80500.0,
+          "expected_delivery": "2026-06-14"
+        },
+        {
+          "item_code": "ITEM-55579",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 50.0,
+          "unit": "KGS",
+          "unit_price": 93.4,
+          "line_total": 4670.0,
+          "expected_delivery": "2026-06-10"
+        }
+      ],
+      "po_subtotal": 88472.0,
+      "po_tax": 15924.96,
+      "po_total": 104396.96,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Lakshmi Nair",
+        "approved_at": "2026-05-29T21:18:54+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/76141"
+      ],
+      "grn": {
+        "grn_no": "GRN-76141",
+        "received_at": "2026-06-08T16:21:49+05:30",
+        "received_by": "Lakshmi Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-59696",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-47070",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-55579",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-GUP-BHA-260528-76141"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-91938",
+      "thread_name": "CONS-GUP-BHA-260528-76141 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Dinesh Khan",
+          "role": "driver",
+          "phone": "+91-70563-81916"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Priya Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70563-81916"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Lakshmi Nair",
+          "role": "warehouse",
+          "phone": "+91-70366-40625"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-08T13:07:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "गाड़ी Howrah गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-08T13:15:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Nair",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-08T14:07:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Consignment received in full at our Howrah warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-08T14:26:49+05:30",
+          "sender_id": "P3",
+          "sender_name": "Lakshmi Nair",
+          "lang": "hi-en",
+          "text": "Dinesh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-06-08T15:21:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-GUP-BHA-260528-76141_36.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-08T18:07:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Howrah pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_429.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-06-08T22:21:49+05:30",
+          "sender_id": "P2",
+          "sender_name": "Priya Reddy",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-08T23:07:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "en",
+          "text": "Vehicle TN17ZJ7030 dispatched from Guindy. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-09T00:31:49+05:30",
+          "sender_id": "P1",
+          "sender_name": "Dinesh Khan",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-28T18:18:54+05:30",
+      "actor": "Bhatia Engineering Works",
+      "doc_ref": "PO-2026-76141",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-29T21:18:54+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "PO-2026-76141",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-06-08T13:07:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TN17ZJ7030",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-06-08T14:07:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-GUP-BHA-260528-76141",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-06-08T15:21:49+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "grn_recorded",
+      "ts": "2026-06-08T16:21:49+05:30",
+      "actor": "Lakshmi Nair",
+      "doc_ref": "GRN-76141",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "invoice_issued",
+      "ts": "2026-06-08T19:34:49+05:30",
+      "actor": "Gupta Polymers Ltd.",
+      "doc_ref": "INV/2026-27/76141",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-06-08T22:07:49+05:30",
+      "actor": "Gupta Polymers Ltd.",
+      "doc_ref": "141212863208",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-06-08T23:07:49+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "TN17ZJ7030",
+      "note": null
+    }
+  ],
+  "question": "Is the delivery timeline for consignment CONS-GUP-BHA-260528-76141 internally consistent?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276141,
+    "notes": "task=tmp_pod_first defect=pod_before_dispatch"
+  }
+}

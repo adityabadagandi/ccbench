@@ -1,0 +1,365 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0186",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/78857",
+      "issued_at": "2026-06-03T09:12:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Rastogi Industries",
+        "legal_name": "Rastogi Industries",
+        "gstin": "09ZZFPS1122Z8ZP",
+        "pan": "ZZFPS1122Z",
+        "address": {
+          "line1": "Plot 25, Industrial Area",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "398807",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Mahesh Reddy",
+          "email": "mreddy@rastogi.in",
+          "phone": "+91-90362-48073"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Logistics Pvt. Ltd.",
+        "legal_name": "Krishna Logistics Pvt. Ltd.",
+        "gstin": "09ZZIPB3160C3ZF",
+        "pan": "ZZIPB3160C",
+        "address": {
+          "line1": "Godown 116, MIDC",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "657528",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Mishra",
+          "email": "dmishra@krishna.co.in",
+          "phone": "+91-90611-81992"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 6399.76,
+          "taxable_value": 159994.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 14399.46,
+          "sgst_amount": 14399.46,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 159994.0,
+      "total_cgst": 14399.46,
+      "total_sgst": 14399.46,
+      "total_igst": 0.0,
+      "total_tax": 28798.92,
+      "invoice_total": 188792.92,
+      "currency": "INR",
+      "eway_bill_ref": "857798861738",
+      "vehicle_no": "UP63KE8687",
+      "consignment_ref": "CONS-RAS-KRI-260528-78857"
+    },
+    "eway_bill": {
+      "ewb_no": "857798861738",
+      "generated_at": "2026-06-03T06:01:21+05:30",
+      "valid_until": "2026-06-09T06:01:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/78857",
+      "doc_date": "2026-06-03",
+      "from_gstin": "09ZZFPS1122Z8ZP",
+      "from_address": "Plot 25, Industrial Area, Lucknow, Lucknow, Uttar Pradesh - 398807",
+      "to_gstin": "09ZZIPB3160C3ZF",
+      "to_address": "Godown 116, MIDC, Kanpur, Kanpur, Uttar Pradesh - 657528",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "27QSLTS8734I1ZT",
+      "mode": "road",
+      "vehicle_no": "UP63KE8687",
+      "consignment_ref": "CONS-RAS-KRI-260528-78857",
+      "items": [
+        {
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 159994.0,
+      "total_invoice_value": 188792.92,
+      "distance_km": 1150.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-78857",
+      "po_date": "2026-05-28",
+      "buyer_entity": "Krishna Logistics Pvt. Ltd.",
+      "vendor_code": "VND-9714",
+      "vendor_name": "Rastogi Industries",
+      "vendor_gstin": "09ZZFPS1122Z8ZP",
+      "items": [
+        {
+          "item_code": "ITEM-41356",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 6399.76,
+          "line_total": 159994.0,
+          "expected_delivery": "2026-06-12"
+        }
+      ],
+      "po_subtotal": 159994.0,
+      "po_tax": 28798.92,
+      "po_total": 188792.92,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Deepa Mishra",
+        "approved_at": "2026-05-29T04:27:21+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/78857"
+      ],
+      "grn": {
+        "grn_no": "GRN-78857",
+        "received_at": "2026-06-05T03:39:21+05:30",
+        "received_by": "Deepa Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-41356",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RAS-KRI-260528-78857"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-11812",
+      "thread_name": "CONS-RAS-KRI-260528-78857 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Balwinder Gupta",
+          "role": "driver",
+          "phone": "+91-90362-48073"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Mahesh Reddy",
+          "role": "dispatcher",
+          "phone": "+91-90362-48073"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Mishra",
+          "role": "warehouse",
+          "phone": "+91-90611-81992"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-06-03T11:01:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "UP63KE8687 dispatch ho gayi Lucknow se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-06-03T20:41:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Kanpur pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_887.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-06-04T06:21:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Highway pe hain sir. Thoda traffic mila par time pe pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-06-04T16:01:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-06-04T18:01:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-06-04T18:17:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Mishra",
+          "lang": "hi-en",
+          "text": "Balwinder bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-06-04T20:39:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Balwinder Gupta",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RAS-KRI-260528-78857_15.jpg",
+              "caption": "POD signed copy"
+            },
+            {
+              "type": "voice_note",
+              "filename": "AUD-9724.opus",
+              "caption": null,
+              "transcript": "Sir POD sign ho gaya hai, warehouse in-charge ne receive kiya."
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-18935",
+      "raised_at": "2026-06-05T09:39:21+05:30",
+      "raised_by": "Deepa Mishra",
+      "kind": "compliance_hold",
+      "note": "Permit generated ahead of the tax invoice it cites. Sequence under review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-05-28T11:27:21+05:30",
+      "actor": "Krishna Logistics Pvt. Ltd.",
+      "doc_ref": "ORD-2026-78857",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-05-29T04:27:21+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "ORD-2026-78857",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "ewb_generated",
+      "ts": "2026-06-03T06:01:21+05:30",
+      "actor": "Rastogi Industries",
+      "doc_ref": "857798861738",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "invoice_issued",
+      "ts": "2026-06-03T09:12:21+05:30",
+      "actor": "Rastogi Industries",
+      "doc_ref": "INV/2026-27/78857",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-06-03T11:01:21+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP63KE8687",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-06-04T16:01:21+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "UP63KE8687",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-06-04T18:01:21+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-RAS-KRI-260528-78857",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-06-04T20:39:21+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-06-05T03:39:21+05:30",
+      "actor": "Deepa Mishra",
+      "doc_ref": "GRN-78857",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RAS-KRI-260528-78857 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20278857,
+    "notes": "task=tmp_ewb_first defect=ewb_before_invoice"
+  }
+}

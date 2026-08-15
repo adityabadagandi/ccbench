@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0071",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/67702",
+      "issued_at": "2026-04-05T17:18:21+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Verma Logistics Pvt. Ltd",
+        "legal_name": "Verma Logistics Pvt. Ltd.",
+        "gstin": "06XQGCD7430O1Z1",
+        "pan": "XQGCD7430O",
+        "address": {
+          "line1": "Godown 105, Industrial Area",
+          "line2": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "568109",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Reddy",
+          "email": "dreddy@verma.co.in",
+          "phone": "+91-70236-50680"
+        }
+      },
+      "buyer": {
+        "name": "Bhatia Polymers Ltd",
+        "legal_name": "Bhatia Polymers Ltd.",
+        "gstin": "29XQQCN2424P1ZQ",
+        "pan": "XQQCN2424P",
+        "address": {
+          "line1": "Warehouse 157, Logistics Park",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "563491",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Mishra",
+          "email": "dmishra@bhatia.com",
+          "phone": "+91-80368-18292"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 22.88,
+          "taxable_value": 27456.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 4942.08
+        }
+      ],
+      "total_taxable_value": 27456.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 4942.08,
+      "total_tax": 4942.08,
+      "invoice_total": 32398.08,
+      "currency": "INR",
+      "eway_bill_ref": "702992889504",
+      "vehicle_no": "HR24TC5489",
+      "consignment_ref": "CONS-VER-BHA-260325-67702"
+    },
+    "eway_bill": {
+      "ewb_no": "702992889504",
+      "generated_at": "2026-04-05T19:51:21+05:30",
+      "valid_until": "2026-04-08T19:51:21+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/67702",
+      "doc_date": "2026-04-05",
+      "from_gstin": "06XQGCD7430O1Z1",
+      "from_address": "Godown 105, Industrial Area, Faridabad, Faridabad, Haryana - 568109",
+      "to_gstin": "29XQQCN2424P1ZQ",
+      "to_address": "Warehouse 157, Logistics Park, Nelamangala, Nelamangala, Karnataka - 563491",
+      "transporter_name": "Gati Roadlines",
+      "transporter_id": "27HRZLD2705G1ZT",
+      "mode": "road",
+      "vehicle_no": "HR24TC5489",
+      "consignment_ref": "CONS-VER-BHA-260325-67702",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 27456.0,
+      "total_invoice_value": 32398.08,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-67702",
+      "po_date": "2026-03-25",
+      "buyer_entity": "Bhatia Polymers Ltd.",
+      "vendor_code": "VND-3503",
+      "vendor_name": "Verma Logistics Pvt. Ltd",
+      "vendor_gstin": "06XQGCD7430O1Z1",
+      "items": [
+        {
+          "item_code": "ITEM-37354",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 22.88,
+          "line_total": 27456.0,
+          "expected_delivery": "2026-04-12"
+        }
+      ],
+      "po_subtotal": 27456.0,
+      "po_tax": 4942.08,
+      "po_total": 32398.08,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Dinesh Mishra",
+        "approved_at": "2026-03-26T11:34:07+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/67702"
+      ],
+      "grn": {
+        "grn_no": "GRN-67702",
+        "received_at": "2026-04-05T19:26:21+05:30",
+        "received_by": "Dinesh Mishra",
+        "lines": [
+          {
+            "item_code": "ITEM-37354",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-VER-BHA-260325-67702"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-81311",
+      "thread_name": "CONS-VER-BHA-260325-67702 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Kumar",
+          "role": "driver",
+          "phone": "+91-70236-50680"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Reddy",
+          "role": "dispatcher",
+          "phone": "+91-70236-50680"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Mishra",
+          "role": "warehouse",
+          "phone": "+91-80368-18292"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-05T11:51:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "Nelamangala warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-05T12:01:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Mishra",
+          "lang": "hi-en",
+          "text": "Next month se naya vendor portal use karna hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-05T12:51:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-05T13:26:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-VER-BHA-260325-67702_65.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-05T13:36:21+05:30",
+          "sender_id": "P3",
+          "sender_name": "Dinesh Mishra",
+          "lang": "hi-en",
+          "text": "Ajay bhain POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": true
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-05T15:31:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-05T19:11:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "Toll cross kar liya. Raat tak Nelamangala pahunch jayenge.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_315.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-05T22:51:21+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "en",
+          "text": "Vehicle HR24TC5489 dispatched from Faridabad. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-05T23:26:21+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Reddy",
+          "lang": "hi-en",
+          "text": "Ek gadbad hai — POD ka time dispatch se pehle ka lag raha hai. Check karo.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-010",
+          "ts": "2026-04-06T08:26:21+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Reddy",
+          "lang": "en",
+          "text": "Correction to my earlier message — pls read INV/2026-27/67702.",
+          "reply_to": "M-009",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-25T19:34:07+05:30",
+      "actor": "Bhatia Polymers Ltd.",
+      "doc_ref": "ORD-2026-67702",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-26T11:34:07+05:30",
+      "actor": "Dinesh Mishra",
+      "doc_ref": "ORD-2026-67702",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "arrived",
+      "ts": "2026-04-05T11:51:21+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR24TC5489",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "delivered",
+      "ts": "2026-04-05T12:51:21+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "CONS-VER-BHA-260325-67702",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "pod_signed",
+      "ts": "2026-04-05T13:26:21+05:30",
+      "actor": "Dinesh Mishra",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "invoice_issued",
+      "ts": "2026-04-05T17:18:21+05:30",
+      "actor": "Verma Logistics Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/67702",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "grn_recorded",
+      "ts": "2026-04-05T19:26:21+05:30",
+      "actor": "Dinesh Mishra",
+      "doc_ref": "GRN-67702",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "ewb_generated",
+      "ts": "2026-04-05T19:51:21+05:30",
+      "actor": "Verma Logistics Pvt. Ltd.",
+      "doc_ref": "702992889504",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "dispatched",
+      "ts": "2026-04-05T22:51:21+05:30",
+      "actor": "Gati Roadlines",
+      "doc_ref": "HR24TC5489",
+      "note": null
+    }
+  ],
+  "question": "Kya kisi ne consignment CONS-VER-BHA-260325-67702 ki timeline pe sawaal uthaya tha? Aur kya wo sahi the?",
+  "question_lang": "hi-en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20267702,
+    "notes": "task=xl_sequence defect=pod_before_dispatch"
+  }
+}

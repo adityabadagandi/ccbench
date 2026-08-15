@@ -1,0 +1,369 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0083",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/68866",
+      "issued_at": "2026-02-06T14:27:25+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Chatterjee Enterprises",
+        "legal_name": "Chatterjee Enterprises",
+        "gstin": "24QQYPY8491L1ZG",
+        "pan": "QQYPY8491L",
+        "address": {
+          "line1": "Shed 94, MIDC",
+          "line2": "Vatva, Ahmedabad",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "841280",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Rajesh Kumar",
+          "email": "rkumar@chatterjee.in",
+          "phone": "+91-90504-94017"
+        }
+      },
+      "buyer": {
+        "name": "Patel Industries",
+        "legal_name": "Patel Industries",
+        "gstin": "29QQBPP5204D8Z1",
+        "pan": "QQBPP5204D",
+        "address": {
+          "line1": "Shed 134, Phase II",
+          "line2": "Electronic City",
+          "city": "Electronic City",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "474782",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Joshi",
+          "email": "vijayj@patel.co.in",
+          "phone": "+91-80877-79696"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 154.68,
+          "taxable_value": 185616.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 9280.8
+        },
+        {
+          "line_no": 2,
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS",
+          "rate_per_unit": 410.32,
+          "taxable_value": 10258.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1846.44
+        }
+      ],
+      "total_taxable_value": 195874.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 11127.24,
+      "total_tax": 11127.24,
+      "invoice_total": 207001.24,
+      "currency": "INR",
+      "eway_bill_ref": "866928814210",
+      "vehicle_no": "GJ51EM3975",
+      "consignment_ref": "CONS-CHA-PAT-260130-68866"
+    },
+    "eway_bill": {
+      "ewb_no": "866928814210",
+      "generated_at": "2026-02-06T17:19:25+05:30",
+      "valid_until": "2026-02-08T17:19:25+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "TAX/2026-27/68866",
+      "doc_date": "2026-02-06",
+      "from_gstin": "24QQYPY8491L1ZG",
+      "from_address": "Shed 94, MIDC, Vatva, Ahmedabad, Ahmedabad, Gujarat - 841280",
+      "to_gstin": "29QQBPP5204D8Z1",
+      "to_address": "Shed 134, Phase II, Electronic City, Electronic City, Karnataka - 474782",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "19UGCXV5368Z1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ51EM3975",
+      "consignment_ref": "CONS-CHA-PAT-260130-68866",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Aluminium structures and parts",
+          "hsn_code": "76109010",
+          "quantity": 25.0,
+          "unit": "KGS"
+        }
+      ],
+      "taxable_value": 195874.0,
+      "total_invoice_value": 207001.24,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-68866",
+      "po_date": "2026-01-30",
+      "buyer_entity": "Patel Industries",
+      "vendor_code": "VND-8378",
+      "vendor_name": "Chatterjee Enterprises",
+      "vendor_gstin": "24QQYPY8491L1ZG",
+      "items": [
+        {
+          "item_code": "ITEM-45187",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 154.68,
+          "line_total": 185616.0,
+          "expected_delivery": "2026-02-14"
+        },
+        {
+          "item_code": "ITEM-12429",
+          "description": "Aluminium structures and parts",
+          "quantity_ordered": 25.0,
+          "unit": "KGS",
+          "unit_price": 410.32,
+          "line_total": 10258.0,
+          "expected_delivery": "2026-02-09"
+        }
+      ],
+      "po_subtotal": 195874.0,
+      "po_tax": 11127.24,
+      "po_total": 207001.24,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Vijay Joshi",
+        "approved_at": "2026-01-31T07:34:51+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/68866"
+      ],
+      "grn": {
+        "grn_no": "GRN-68866",
+        "received_at": "2026-02-07T13:43:25+05:30",
+        "received_by": "Vijay Joshi",
+        "lines": [
+          {
+            "item_code": "ITEM-45187",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-12429",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-CHA-PAT-260130-68866"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-24885",
+      "thread_name": "CONS-CHA-PAT-260130-68866 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Singh",
+          "role": "driver",
+          "phone": "+91-90504-94017"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Rajesh Kumar",
+          "role": "dispatcher",
+          "phone": "+91-90504-94017"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Vijay Joshi",
+          "role": "warehouse",
+          "phone": "+91-80877-79696"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-06T19:19:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "सर GJ51EM3975 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-06T22:19:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-07T01:19:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-07T02:19:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-07T02:32:25+05:30",
+          "sender_id": "P3",
+          "sender_name": "Vijay Joshi",
+          "lang": "hi-en",
+          "text": "Suresh bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-07T02:43:25+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Singh",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-CHA-PAT-260130-68866_99.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-30T18:34:51+05:30",
+      "actor": "Patel Industries",
+      "doc_ref": "PUR-2026-68866",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-31T07:34:51+05:30",
+      "actor": "Vijay Joshi",
+      "doc_ref": "PUR-2026-68866",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-06T14:27:25+05:30",
+      "actor": "Chatterjee Enterprises",
+      "doc_ref": "TAX/2026-27/68866",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-06T17:19:25+05:30",
+      "actor": "Chatterjee Enterprises",
+      "doc_ref": "866928814210",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-06T19:19:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ51EM3975",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-07T01:19:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ51EM3975",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-07T02:19:25+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-CHA-PAT-260130-68866",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-07T02:43:25+05:30",
+      "actor": "Vijay Joshi",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-07T13:43:25+05:30",
+      "actor": "Vijay Joshi",
+      "doc_ref": "GRN-68866",
+      "note": null
+    }
+  ],
+  "question": "May the buyer-side contact details on invoice TAX/2026-27/68866 be quoted when escalating this consignment externally?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20268866,
+    "notes": "task=comp_contact defect=none"
+  }
+}

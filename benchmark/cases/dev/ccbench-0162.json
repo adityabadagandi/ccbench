@@ -1,0 +1,379 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0162",
+  "bucket": "cross-lingual",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/76529",
+      "issued_at": "2026-04-02T16:56:58+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Agarwal Supply Chain P Ltd",
+        "legal_name": "Agarwal Supply Chain Pvt. Ltd.",
+        "gstin": "27QQLPZ5821M3ZO",
+        "pan": "QQLPZ5821M",
+        "address": {
+          "line1": "Plot 200, Logistics Park",
+          "line2": "Bhiwandi",
+          "city": "Bhiwandi",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "281611",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Sharma",
+          "email": "vsharma@agarwal.com",
+          "phone": "+91-70157-90388"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Exports",
+        "legal_name": "Chatterjee Exports",
+        "gstin": "27QQXPP7746S2ZR",
+        "pan": "QQXPP7746S",
+        "address": {
+          "line1": "Warehouse 221, MIDC",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "244673",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sunita Yadav",
+          "email": "sunitay@chatterjee.com",
+          "phone": "+91-70985-22720"
+        }
+      },
+      "place_of_supply": "Maharashtra (27)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS",
+          "rate_per_unit": 7079.01,
+          "taxable_value": 3539505.0,
+          "tax_rate": 28.0,
+          "cgst_amount": 495530.7,
+          "sgst_amount": 495530.7,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 3539505.0,
+      "total_cgst": 495530.7,
+      "total_sgst": 495530.7,
+      "total_igst": 0.0,
+      "total_tax": 991061.4,
+      "invoice_total": 4530566.4,
+      "currency": "INR",
+      "eway_bill_ref": "529276453611",
+      "vehicle_no": "MH99JS9764",
+      "consignment_ref": "CONS-AGA-CHA-260330-76529"
+    },
+    "eway_bill": {
+      "ewb_no": "529276453611",
+      "generated_at": "2026-04-02T22:02:58+05:30",
+      "valid_until": "2026-04-03T22:02:58+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/76529",
+      "doc_date": "2026-04-02",
+      "from_gstin": "27QQLPZ5821M3ZO",
+      "from_address": "Plot 200, Logistics Park, Bhiwandi, Bhiwandi, Maharashtra - 281611",
+      "to_gstin": "27QQXPP7746S2ZR",
+      "to_address": "Warehouse 221, MIDC, Andheri East, Andheri East, Maharashtra - 244673",
+      "transporter_name": "Delhivery Surface",
+      "transporter_id": "23WRGCG5017E1ZT",
+      "mode": "road",
+      "vehicle_no": "MH99JS9764",
+      "consignment_ref": "CONS-AGA-CHA-260330-76529",
+      "items": [
+        {
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "hsn_code": "40111000",
+          "quantity": 500.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 3539505.0,
+      "total_invoice_value": 4530566.4,
+      "distance_km": 180.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-76529",
+      "po_date": "2026-03-30",
+      "buyer_entity": "Chatterjee Exports",
+      "vendor_code": "VND-8236",
+      "vendor_name": "Agarwal Supply Chain P Ltd",
+      "vendor_gstin": "27QQLPZ5821M3ZO",
+      "items": [
+        {
+          "item_code": "ITEM-98595",
+          "description": "Pneumatic tyres of rubber, for motor cars",
+          "quantity_ordered": 500.0,
+          "unit": "NOS",
+          "unit_price": 7079.01,
+          "line_total": 3539505.0,
+          "expected_delivery": "2026-04-07"
+        }
+      ],
+      "po_subtotal": 3539505.0,
+      "po_tax": 991061.4,
+      "po_total": 4530566.4,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Sunita Yadav",
+        "approved_at": "2026-03-30T14:41:17+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/76529"
+      ],
+      "grn": {
+        "grn_no": "GRN-76529",
+        "received_at": "2026-04-04T05:19:58+05:30",
+        "received_by": "Sunita Yadav",
+        "lines": [
+          {
+            "item_code": "ITEM-98595",
+            "quantity_received": 500.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-AGA-CHA-260330-76529"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-22611",
+      "thread_name": "CONS-AGA-CHA-260330-76529 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Imran Khan",
+          "role": "driver",
+          "phone": "+91-70157-90388"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Sharma",
+          "role": "dispatcher",
+          "phone": "+91-70157-90388"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sunita Yadav",
+          "role": "warehouse",
+          "phone": "+91-70985-22720"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Rajesh Mishra",
+          "role": "accounts",
+          "phone": "+91-70985-22720"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-03T03:02:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "en",
+          "text": "Vehicle MH99JS9764 dispatched from Bhiwandi. Documents handed to driver.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-03T06:02:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Andheri East.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-03T09:02:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi-en",
+          "text": "Andheri East warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-03T10:02:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-03T10:13:58+05:30",
+          "sender_id": "P3",
+          "sender_name": "Sunita Yadav",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-03T11:19:58+05:30",
+          "sender_id": "P1",
+          "sender_name": "Imran Khan",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-AGA-CHA-260330-76529_76.jpg",
+              "caption": "Signed challan"
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-04T15:19:58+05:30",
+          "sender_id": "P4",
+          "sender_name": "Rajesh Mishra",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number INV/2026-27/76529 hai.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-30T09:41:17+05:30",
+      "actor": "Chatterjee Exports",
+      "doc_ref": "PO-2026-76529",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-30T14:41:17+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "PO-2026-76529",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-02T16:56:58+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "INV/2026-27/76529",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-02T22:02:58+05:30",
+      "actor": "Agarwal Supply Chain Pvt. Ltd.",
+      "doc_ref": "529276453611",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-03T03:02:58+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH99JS9764",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-03T09:02:58+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "MH99JS9764",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-03T10:02:58+05:30",
+      "actor": "Delhivery Surface",
+      "doc_ref": "CONS-AGA-CHA-260330-76529",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-03T11:19:58+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-04T05:19:58+05:30",
+      "actor": "Sunita Yadav",
+      "doc_ref": "GRN-76529",
+      "note": null
+    }
+  ],
+  "question": "Did anyone confirm in the delivery thread that consignment CONS-AGA-CHA-260330-76529 was actually received?",
+  "question_lang": "en",
+  "gold_answer": "Yes — in message M-004 on the thread for consignment CONS-AGA-CHA-260330-76529 [INV], Imran Khan states \"Delivery complete hai\", confirming the goods were received [M-004].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "whatsapp_pod",
+      "path": "M-004.text",
+      "value": "Sab maal receive kar liya humne. Delivery complete hai.",
+      "evidence": {
+        "ref_id": "M-004",
+        "lang": "hi-en",
+        "span": "Delivery complete hai",
+        "gloss_en": "delivery is complete"
+      }
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-AGA-CHA-260330-76529",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20276529,
+    "notes": "task=xl_delivered defect=none"
+  }
+}

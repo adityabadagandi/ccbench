@@ -1,0 +1,480 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0133",
+  "bucket": "temporal",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/73716",
+      "issued_at": "2026-04-22T12:56:53+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Reddy Engineering Works",
+        "legal_name": "Reddy Engineering Works",
+        "gstin": "24QQWCE3390W2ZX",
+        "pan": "QQWCE3390W",
+        "address": {
+          "line1": "Unit 124, Industrial Area",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "536559",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Kavita Desai",
+          "email": "kavitad@reddy.in",
+          "phone": "+91-90870-62273"
+        }
+      },
+      "buyer": {
+        "name": "Verma Enterprises",
+        "legal_name": "Verma Enterprises",
+        "gstin": "23ZZQPP3440I4ZL",
+        "pan": "ZZQPP3440I",
+        "address": {
+          "line1": "Shed 166, Logistics Park",
+          "line2": "Pithampur",
+          "city": "Pithampur",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "889463",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Iyer",
+          "email": "arjuni@verma.com",
+          "phone": "+91-90530-82352"
+        }
+      },
+      "place_of_supply": "Madhya Pradesh (23)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 750.0,
+          "unit": "KGS",
+          "rate_per_unit": 110.94,
+          "taxable_value": 83205.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 14976.9
+        },
+        {
+          "line_no": 2,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 26993.12,
+          "taxable_value": 674828.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 121469.04
+        },
+        {
+          "line_no": 3,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS",
+          "rate_per_unit": 28649.19,
+          "taxable_value": 11459676.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2062741.68
+        }
+      ],
+      "total_taxable_value": 12217709.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 2199187.62,
+      "total_tax": 2199187.62,
+      "invoice_total": 14416896.62,
+      "currency": "INR",
+      "eway_bill_ref": "716538679425",
+      "vehicle_no": "GJ36PM1844",
+      "consignment_ref": "CONS-RED-VER-260412-73716"
+    },
+    "eway_bill": {
+      "ewb_no": "716538679425",
+      "generated_at": "2026-04-22T15:48:53+05:30",
+      "valid_until": "2026-04-24T15:48:53+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/73716",
+      "doc_date": "2026-04-22",
+      "from_gstin": "24QQWCE3390W2ZX",
+      "from_address": "Unit 124, Industrial Area, Vadodara, Vadodara, Gujarat - 536559",
+      "to_gstin": "23ZZQPP3440I4ZL",
+      "to_address": "Shed 166, Logistics Park, Pithampur, Pithampur, Madhya Pradesh - 889463",
+      "transporter_name": "Blue Dart Surface",
+      "transporter_id": "24BWHOZ5813G1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ36PM1844",
+      "consignment_ref": "CONS-RED-VER-260412-73716",
+      "items": [
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 750.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 25.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 400.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 12217709.0,
+      "total_invoice_value": 14416896.62,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PO-2026-73716",
+      "po_date": "2026-04-12",
+      "buyer_entity": "Verma Enterprises",
+      "vendor_code": "VND-5854",
+      "vendor_name": "Reddy Engineering Works",
+      "vendor_gstin": "24QQWCE3390W2ZX",
+      "items": [
+        {
+          "item_code": "ITEM-69828",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 750.0,
+          "unit": "KGS",
+          "unit_price": 110.94,
+          "line_total": 83205.0,
+          "expected_delivery": "2026-04-24"
+        },
+        {
+          "item_code": "ITEM-46222",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 26993.12,
+          "line_total": 674828.0,
+          "expected_delivery": "2026-04-26"
+        },
+        {
+          "item_code": "ITEM-23286",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 400.0,
+          "unit": "NOS",
+          "unit_price": 28649.19,
+          "line_total": 11459676.0,
+          "expected_delivery": "2026-04-28"
+        }
+      ],
+      "po_subtotal": 12217709.0,
+      "po_tax": 2199187.62,
+      "po_total": 14416896.62,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Arjun Iyer",
+        "approved_at": "2026-04-13T14:05:54+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/73716"
+      ],
+      "grn": {
+        "grn_no": "GRN-73716",
+        "received_at": "2026-04-23T07:36:53+05:30",
+        "received_by": "Arjun Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-69828",
+            "quantity_received": 750.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-46222",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-23286",
+            "quantity_received": 400.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-RED-VER-260412-73716"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-35351",
+      "thread_name": "CONS-RED-VER-260412-73716 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Mahesh Sharma",
+          "role": "driver",
+          "phone": "+91-90870-62273"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Kavita Desai",
+          "role": "dispatcher",
+          "phone": "+91-90870-62273"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Iyer",
+          "role": "warehouse",
+          "phone": "+91-90530-82352"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-22T16:48:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi",
+          "text": "सर GJ36PM1844 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-22T17:46:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi-en",
+          "text": "Tyre change karwana padega wapsi mein.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-22T18:48:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-22T20:48:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Pithampur.",
+          "reply_to": null,
+          "attachments": [
+            {
+              "type": "location",
+              "filename": "location_233.json",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-22T22:48:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi-en",
+          "text": "Pithampur warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-22T23:00:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Iyer",
+          "lang": "en",
+          "text": "Adding accounts to this group for the billing follow-up.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-22T23:48:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi-en",
+          "text": "Delivery ho gayi sir. Poora maal utar gaya, kuch damage nahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-04-23T00:20:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Iyer",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-007",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-009",
+          "ts": "2026-04-23T01:36:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Mahesh Sharma",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sr, photo attach kar raha hoon.",
+          "reply_to": "M-008",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-RED-VER-260412-73716_50.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": true
+        },
+        {
+          "msg_id": "M-010",
+          "ts": "2026-04-24T02:36:53+05:30",
+          "sender_id": "P2",
+          "sender_name": "Kavita Desai",
+          "lang": "hi-en",
+          "text": "Sorry sir galat likh diya tha, sahi number GST/2026-27/73716 hain.",
+          "reply_to": "M-009",
+          "attachments": [],
+          "edited": true
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-12T13:05:54+05:30",
+      "actor": "Verma Enterprises",
+      "doc_ref": "PO-2026-73716",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-13T14:05:54+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "PO-2026-73716",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-22T12:56:53+05:30",
+      "actor": "Reddy Engineering Works",
+      "doc_ref": "GST/2026-27/73716",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-22T15:48:53+05:30",
+      "actor": "Reddy Engineering Works",
+      "doc_ref": "716538679425",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-22T16:48:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ36PM1844",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-22T22:48:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "GJ36PM1844",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-22T23:48:53+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-RED-VER-260412-73716",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-23T01:36:53+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "M-009",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-23T07:36:53+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "GRN-73716",
+      "note": null
+    }
+  ],
+  "question": "Was the e-way bill for consignment CONS-RED-VER-260412-73716 generated before or after the tax invoice was issued?",
+  "question_lang": "en",
+  "gold_answer": "After, so the sequence is correct: invoice GST/2026-27/73716 was issued on 22 Apr 2026 at 12:56 [INV] and e-way bill 716538679425 was generated 2.9 hours later, on 22 Apr 2026 at 15:48, citing that invoice [EWB].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "issued_at",
+      "value": "2026-04-22T12:56:53+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "eway_bill",
+      "path": "generated_at",
+      "value": "2026-04-22T15:48:53+05:30",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "doc_no",
+      "value": "GST/2026-27/73716",
+      "evidence": null
+    }
+  ],
+  "gold_label": "clean",
+  "difficulty": "medium",
+  "must_not_appear": [],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20273716,
+    "notes": "task=tmp_ok defect=none"
+  }
+}

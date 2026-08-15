@@ -1,0 +1,453 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0104",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/70903",
+      "issued_at": "2026-02-11T10:12:53+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Trading Co",
+        "legal_name": "Shree Ganesh Trading Co.",
+        "gstin": "24XQQPY9696F5ZW",
+        "pan": "XQQPY9696F",
+        "address": {
+          "line1": "Shed 61, MIDC",
+          "line2": "Vadodara",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "state_code": "24",
+          "pincode": "871937",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Iyer",
+          "email": "niyer@shree.co.in",
+          "phone": "+91-80848-82235"
+        }
+      },
+      "buyer": {
+        "name": "Chatterjee Logistics Pvt. Limited",
+        "legal_name": "Chatterjee Logistics Pvt. Ltd.",
+        "gstin": "07QQWCC9916D7Z9",
+        "pan": "QQWCC9916D",
+        "address": {
+          "line1": "Shed 211, Industrial Area",
+          "line2": "Karol Bagh",
+          "city": "Karol Bagh",
+          "state": "Delhi",
+          "state_code": "07",
+          "pincode": "797149",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Nikhil Nair",
+          "email": "nikhiln@chatterjee.in",
+          "phone": "+91-90980-31999"
+        }
+      },
+      "place_of_supply": "Delhi (07)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1200.0,
+          "unit": "MTR",
+          "rate_per_unit": 52.05,
+          "taxable_value": 62460.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 11242.8
+        },
+        {
+          "line_no": 2,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 98.58,
+          "taxable_value": 4929.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 887.22
+        }
+      ],
+      "total_taxable_value": 67389.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 12130.02,
+      "total_tax": 12130.02,
+      "invoice_total": 79519.02,
+      "currency": "INR",
+      "eway_bill_ref": "903736929683",
+      "vehicle_no": "GJ75MQ9762",
+      "consignment_ref": "CONS-SHR-CHA-260130-70903"
+    },
+    "eway_bill": {
+      "ewb_no": "903736929683",
+      "generated_at": "2026-02-11T15:18:53+05:30",
+      "valid_until": "2026-02-14T15:18:53+05:30",
+      "status": "active",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/70903",
+      "doc_date": "2026-02-11",
+      "from_gstin": "24XQQPY9696F5ZW",
+      "from_address": "Shed 61, MIDC, Vadodara, Vadodara, Gujarat - 871937",
+      "to_gstin": "07QQWCC9916D7Z9",
+      "to_address": "Shed 211, Industrial Area, Karol Bagh, Karol Bagh, Delhi - 797149",
+      "transporter_name": "Safexpress Logistics",
+      "transporter_id": "07NKITK3092F1ZT",
+      "mode": "road",
+      "vehicle_no": "GJ75MQ9762",
+      "consignment_ref": "CONS-SHR-CHA-260130-70903",
+      "items": [
+        {
+          "description": "Flexible tubes and hoses of plastics",
+          "hsn_code": "39173100",
+          "quantity": 1200.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 50.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 67389.0,
+      "total_invoice_value": 7951.9,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-70903",
+      "po_date": "2026-01-30",
+      "buyer_entity": "Chatterjee Logistics Pvt. Ltd.",
+      "vendor_code": "VND-5652",
+      "vendor_name": "Shree Ganesh Trading Co",
+      "vendor_gstin": "24XQQPY9696F5ZW",
+      "items": [
+        {
+          "item_code": "ITEM-97711",
+          "description": "Flexible tubes and hoses of plastics",
+          "quantity_ordered": 1200.0,
+          "unit": "MTR",
+          "unit_price": 52.05,
+          "line_total": 62460.0,
+          "expected_delivery": "2026-02-13"
+        },
+        {
+          "item_code": "ITEM-97024",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 98.58,
+          "line_total": 4929.0,
+          "expected_delivery": "2026-02-17"
+        }
+      ],
+      "po_subtotal": 67389.0,
+      "po_tax": 12130.02,
+      "po_total": 79519.02,
+      "currency": "INR",
+      "payment_terms": "Net 30 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Nikhil Nair",
+        "approved_at": "2026-01-30T22:41:27+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/70903"
+      ],
+      "grn": {
+        "grn_no": "GRN-70903",
+        "received_at": "2026-02-12T08:33:53+05:30",
+        "received_by": "Nikhil Nair",
+        "lines": [
+          {
+            "item_code": "ITEM-97711",
+            "quantity_received": 1200.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-97024",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHR-CHA-260130-70903"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-65412",
+      "thread_name": "CONS-SHR-CHA-260130-70903 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Kumar",
+          "role": "driver",
+          "phone": "+91-80848-82235"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Nikhil Iyer",
+          "role": "dispatcher",
+          "phone": "+91-80848-82235"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Nikhil Nair",
+          "role": "warehouse",
+          "phone": "+91-90980-31999"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Mahesh Mishra",
+          "role": "accounts",
+          "phone": "+91-90980-31999"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-02-11T17:18:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "Sir GJ75MQ9762 loading complete, nikal rahe hain abhi. E-way bill gaadi mein hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-02-12T03:18:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi",
+          "text": "गाड़ी Karol Bagh गोदाम पहुँच गई है। माल उतारा जा रहा है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-02-12T03:57:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "hi-en",
+          "text": "Sunday ko warehouse band rahega, plan kar lena.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-02-12T04:18:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi",
+          "text": "डिलीवरी हो गई है सर। पूरा माल सही सलामत उतर गया।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-02-12T04:59:53+05:30",
+          "sender_id": "P3",
+          "sender_name": "Nikhil Nair",
+          "lang": "hi",
+          "text": "कृपया साइन किया हुआ POD भेज दीजिए।",
+          "reply_to": "M-004",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-02-12T06:33:53+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "POD sign ho gaya sir, photo attach kar raha hoon.",
+          "reply_to": "M-005",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHR-CHA-260130-70903_26.jpg",
+              "caption": null
+            }
+          ],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-02-12T11:33:53+05:30",
+          "sender_id": "P4",
+          "sender_name": "Mahesh Mishra",
+          "lang": "hi-en",
+          "text": "Accounts se query aayi hai — e-way bill pe value Rs. 7,951.90 likhi hai par invoice Rs. 79,519.02 ka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-67232",
+      "raised_at": "2026-02-12T17:33:53+05:30",
+      "raised_by": "Nikhil Nair",
+      "kind": "value_query",
+      "note": "Declared value on the permit does not tie to the tax invoice. Held for accounts review."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-01-30T11:41:27+05:30",
+      "actor": "Chatterjee Logistics Pvt. Ltd.",
+      "doc_ref": "PUR-2026-70903",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-01-30T22:41:27+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "PUR-2026-70903",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-02-11T10:12:53+05:30",
+      "actor": "Shree Ganesh Trading Co.",
+      "doc_ref": "INV/2026-27/70903",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-02-11T15:18:53+05:30",
+      "actor": "Shree Ganesh Trading Co.",
+      "doc_ref": "903736929683",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-02-11T17:18:53+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ75MQ9762",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-02-12T03:18:53+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "GJ75MQ9762",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-02-12T04:18:53+05:30",
+      "actor": "Safexpress Logistics",
+      "doc_ref": "CONS-SHR-CHA-260130-70903",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-02-12T06:33:53+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "M-006",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-02-12T08:33:53+05:30",
+      "actor": "Nikhil Nair",
+      "doc_ref": "GRN-70903",
+      "note": null
+    }
+  ],
+  "question": "Does the value declared on the e-way bill match the invoice total for consignment CONS-SHR-CHA-260130-70903?",
+  "question_lang": "en",
+  "gold_answer": "No, they disagree: invoice INV/2026-27/70903 totals Rs. 79,519.02 [INV] but e-way bill 903736929683 declares Rs. 7,951.90 [EWB], a discrepancy of Rs. 71,567.12. The accounts team raised the same discrepancy on the delivery thread [M-007].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "INV/2026-27/70903",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "invoice_total",
+      "value": "79519.02",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "eway_bill",
+      "path": "ewb_no",
+      "value": "903736929683",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "eway_bill",
+      "path": "total_invoice_value",
+      "value": "7951.9",
+      "evidence": null
+    },
+    {
+      "fact_id": "F5",
+      "doc": "eway_bill",
+      "path": "consignment_ref",
+      "value": "CONS-SHR-CHA-260130-70903",
+      "evidence": null
+    },
+    {
+      "fact_id": "F6",
+      "doc": "whatsapp_pod",
+      "path": "M-007.text",
+      "value": "Accounts se query aayi hai — e-way bill pe value Rs. 7,951.90 likhi hai par invoice Rs. 79,519.02 ka hai.",
+      "evidence": {
+        "ref_id": "M-007",
+        "lang": "hi-en",
+        "span": "e-way bill pe value Rs. 7,951.90 likhi hai par invoice Rs. 79,519.02 ka hai",
+        "gloss_en": "the e-way bill states Rs. 7,951.90 but the invoice is for Rs. 79,519.02"
+      }
+    }
+  ],
+  "gold_label": "value_mismatch",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-80848-82235",
+    "+91-90980-31999",
+    "QQWCC9916D",
+    "XQQPY9696F",
+    "nikhiln@chatterjee.in",
+    "niyer@shree.co.in"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20270903,
+    "notes": "task=mh_mismatch defect=value_mismatch"
+  }
+}

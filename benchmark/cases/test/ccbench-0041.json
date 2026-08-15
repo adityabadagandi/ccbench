@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0041",
+  "jurisdiction": "IN",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/64792",
+      "issued_at": "2026-04-20T09:41:15+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Trading Company",
+        "legal_name": "Krishna Trading Co.",
+        "gstin": "23ZZECZ5444R1ZR",
+        "pan": "ZZECZ5444R",
+        "address": {
+          "line1": "Warehouse 78, Phase II",
+          "line2": "Dewas",
+          "city": "Dewas",
+          "state": "Madhya Pradesh",
+          "state_code": "23",
+          "pincode": "695006",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Vijay Nair",
+          "email": "vijay.nair@krishna.in",
+          "phone": "+91-90753-79077"
+        }
+      },
+      "buyer": {
+        "name": "Rastogi Trading Co",
+        "legal_name": "Rastogi Trading Co.",
+        "gstin": "09ZZJCL3443F5Z9",
+        "pan": "ZZJCL3443F",
+        "address": {
+          "line1": "Unit 181, Export Zone",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "492531",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Arjun Iyer",
+          "email": "arjuni@rastogi.co.in",
+          "phone": "+91-90149-85256"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR",
+          "rate_per_unit": 165.92,
+          "taxable_value": 4148.0,
+          "tax_rate": 5.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 207.4
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS",
+          "rate_per_unit": 130.98,
+          "taxable_value": 32745.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 5894.1
+        },
+        {
+          "line_no": 3,
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 25.0,
+          "unit": "NOS",
+          "rate_per_unit": 209.92,
+          "taxable_value": 5248.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 944.64
+        }
+      ],
+      "total_taxable_value": 42141.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 7046.14,
+      "total_tax": 7046.14,
+      "invoice_total": 49187.14,
+      "currency": "INR",
+      "eway_bill_ref": "792874743207",
+      "vehicle_no": "MP50BQ3120",
+      "consignment_ref": "CONS-KRI-RAS-260411-64792"
+    },
+    "eway_bill": {
+      "ewb_no": "792874743207",
+      "generated_at": "2026-04-20T16:47:15+05:30",
+      "valid_until": "2026-04-22T16:47:15+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "GST/2026-27/64792",
+      "doc_date": "2026-04-20",
+      "from_gstin": "23ZZECZ5444R1ZR",
+      "from_address": "Warehouse 78, Phase II, Dewas, Dewas, Madhya Pradesh - 695006",
+      "to_gstin": "09ZZJCL3443F5Z9",
+      "to_address": "Unit 181, Export Zone, Lucknow, Lucknow, Uttar Pradesh - 492531",
+      "transporter_name": "VRL Carriers",
+      "transporter_id": "27JHIFV3434L1ZT",
+      "mode": "road",
+      "vehicle_no": "MP50BQ3120",
+      "consignment_ref": "CONS-KRI-RAS-260411-64792",
+      "items": [
+        {
+          "description": "Woven cotton fabrics, plain weave",
+          "hsn_code": "52081290",
+          "quantity": 25.0,
+          "unit": "MTR"
+        },
+        {
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 250.0,
+          "unit": "KGS"
+        },
+        {
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "hsn_code": "39231090",
+          "quantity": 25.0,
+          "unit": "NOS"
+        }
+      ],
+      "taxable_value": 42141.0,
+      "total_invoice_value": 49187.14,
+      "distance_km": 240.0
+    },
+    "erp_order": {
+      "po_no": "PUR-2026-64792",
+      "po_date": "2026-04-11",
+      "buyer_entity": "Rastogi Trading Co.",
+      "vendor_code": "VND-6537",
+      "vendor_name": "Krishna Trading Company",
+      "vendor_gstin": "23ZZECZ5444R1ZR",
+      "items": [
+        {
+          "item_code": "ITEM-26476",
+          "description": "Woven cotton fabrics, plain weave",
+          "quantity_ordered": 25.0,
+          "unit": "MTR",
+          "unit_price": 165.92,
+          "line_total": 4148.0,
+          "expected_delivery": "2026-04-27"
+        },
+        {
+          "item_code": "ITEM-52368",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 250.0,
+          "unit": "KGS",
+          "unit_price": 130.98,
+          "line_total": 32745.0,
+          "expected_delivery": "2026-04-28"
+        },
+        {
+          "item_code": "ITEM-70285",
+          "description": "Plastic boxes and crates for conveyance of goods",
+          "quantity_ordered": 25.0,
+          "unit": "NOS",
+          "unit_price": 209.92,
+          "line_total": 5248.0,
+          "expected_delivery": "2026-04-29"
+        }
+      ],
+      "po_subtotal": 42141.0,
+      "po_tax": 7046.14,
+      "po_total": 49187.14,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "partially_fulfilled",
+      "approval": {
+        "approved_by": "Arjun Iyer",
+        "approved_at": "2026-04-11T20:34:50+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/64792"
+      ],
+      "grn": {
+        "grn_no": "GRN-64792",
+        "received_at": "2026-04-23T20:12:15+05:30",
+        "received_by": "Arjun Iyer",
+        "lines": [
+          {
+            "item_code": "ITEM-26476",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-52368",
+            "quantity_received": 250.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-70285",
+            "quantity_received": 25.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-KRI-RAS-260411-64792"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-68040",
+      "thread_name": "CONS-KRI-RAS-260411-64792 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Vijay Patel",
+          "role": "driver",
+          "phone": "+91-90753-79077"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Vijay Nair",
+          "role": "dispatcher",
+          "phone": "+91-90753-79077"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Arjun Iyer",
+          "role": "warehouse",
+          "phone": "+91-90149-85256"
+        },
+        {
+          "participant_id": "P4",
+          "name": "Lakshmi Gupta",
+          "role": "accounts",
+          "phone": "+91-90149-85256"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-04-20T19:47:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "MP50BQ3120 dispatch ho gayi Dewas se. Driver nikal chuka hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-04-20T20:59:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Network issue tha subah, ab theek hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-04-22T21:47:15+05:30",
+          "sender_id": "P4",
+          "sender_name": "Lakshmi Gupta",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 22 Apr 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-04-22T22:47:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "hi-en",
+          "text": "Lucknow warehouse pahunch gaye sir. Unloading start ho rahi hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-04-22T23:47:15+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Iyer",
+          "lang": "en",
+          "text": "Consignment received in full at our Lucknow warehouse. Delivery complete.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-04-23T00:00:15+05:30",
+          "sender_id": "P3",
+          "sender_name": "Arjun Iyer",
+          "lang": "hi-en",
+          "text": "Vijay bhai POD sign karwa ke photo bhej do please.",
+          "reply_to": "M-005",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-04-23T01:12:15+05:30",
+          "sender_id": "P1",
+          "sender_name": "Vijay Patel",
+          "lang": "en",
+          "text": "Signed POD attached. Received by warehouse in-charge.",
+          "reply_to": "M-006",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-KRI-RAS-260411-64792_66.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-04-11T09:34:50+05:30",
+      "actor": "Rastogi Trading Co.",
+      "doc_ref": "PUR-2026-64792",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-04-11T20:34:50+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "PUR-2026-64792",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-04-20T09:41:15+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "GST/2026-27/64792",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-04-20T16:47:15+05:30",
+      "actor": "Krishna Trading Co.",
+      "doc_ref": "792874743207",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-04-20T19:47:15+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP50BQ3120",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-04-22T22:47:15+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "MP50BQ3120",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-04-22T23:47:15+05:30",
+      "actor": "VRL Carriers",
+      "doc_ref": "CONS-KRI-RAS-260411-64792",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-04-23T01:12:15+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "M-007",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-04-23T20:12:15+05:30",
+      "actor": "Arjun Iyer",
+      "doc_ref": "GRN-64792",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-KRI-RAS-260411-64792 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264792,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

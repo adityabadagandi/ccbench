@@ -1,0 +1,397 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0038",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "INV/2026-27/64501",
+      "issued_at": "2026-03-20T09:05:31+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Sharma Trading Co.",
+        "legal_name": "Sharma Trading Co.",
+        "gstin": "06XQQPU5928B8ZN",
+        "pan": "XQQPU5928B",
+        "address": {
+          "line1": "Plot 183, Industrial Area",
+          "line2": "Bahadurgarh",
+          "city": "Bahadurgarh",
+          "state": "Haryana",
+          "state_code": "06",
+          "pincode": "788442",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Meena Banerjee",
+          "email": "mbanerjee@sharma.com",
+          "phone": "+91-80239-79699"
+        }
+      },
+      "buyer": {
+        "name": "Iyer Enterprises",
+        "legal_name": "Iyer Enterprises",
+        "gstin": "29XQVPN3059R1ZM",
+        "pan": "XQVPN3059R",
+        "address": {
+          "line1": "Unit 234, Export Zone",
+          "line2": "Nelamangala",
+          "city": "Nelamangala",
+          "state": "Karnataka",
+          "state_code": "29",
+          "pincode": "833600",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Sharma",
+          "email": "deepas@iyer.com",
+          "phone": "+91-70403-51241"
+        }
+      },
+      "place_of_supply": "Karnataka (29)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS",
+          "rate_per_unit": 2822.02,
+          "taxable_value": 141101.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 25398.18
+        },
+        {
+          "line_no": 2,
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR",
+          "rate_per_unit": 60.53,
+          "taxable_value": 6053.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 1089.54
+        }
+      ],
+      "total_taxable_value": 147154.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 26487.72,
+      "total_tax": 26487.72,
+      "invoice_total": 173641.72,
+      "currency": "INR",
+      "eway_bill_ref": "501747479250",
+      "vehicle_no": "HR92PB1625",
+      "consignment_ref": "CONS-SHA-IYE-260309-64501"
+    },
+    "eway_bill": {
+      "ewb_no": "501747479250",
+      "generated_at": "2026-03-20T17:57:31+05:30",
+      "valid_until": "2026-03-23T17:57:31+05:30",
+      "status": "expired",
+      "extensions": [],
+      "doc_type": "Tax Invoice",
+      "doc_no": "INV/2026-27/64501",
+      "doc_date": "2026-03-20",
+      "from_gstin": "06XQQPU5928B8ZN",
+      "from_address": "Plot 183, Industrial Area, Bahadurgarh, Bahadurgarh, Haryana - 788442",
+      "to_gstin": "29XQVPN3059R1ZM",
+      "to_address": "Unit 234, Export Zone, Nelamangala, Nelamangala, Karnataka - 833600",
+      "transporter_name": "TCI Freight",
+      "transporter_id": "27WFQUE4969S1ZT",
+      "mode": "road",
+      "vehicle_no": "HR92PB1625",
+      "consignment_ref": "CONS-SHA-IYE-260309-64501",
+      "items": [
+        {
+          "description": "Machines for reception/transmission of data",
+          "hsn_code": "85176290",
+          "quantity": 50.0,
+          "unit": "NOS"
+        },
+        {
+          "description": "Insulated electric conductors",
+          "hsn_code": "85444999",
+          "quantity": 100.0,
+          "unit": "MTR"
+        }
+      ],
+      "taxable_value": 147154.0,
+      "total_invoice_value": 173641.72,
+      "distance_km": 410.0
+    },
+    "erp_order": {
+      "po_no": "ORD-2026-64501",
+      "po_date": "2026-03-09",
+      "buyer_entity": "Iyer Enterprises",
+      "vendor_code": "VND-7689",
+      "vendor_name": "Sharma Trading Co.",
+      "vendor_gstin": "06XQQPU5928B8ZN",
+      "items": [
+        {
+          "item_code": "ITEM-29973",
+          "description": "Machines for reception/transmission of data",
+          "quantity_ordered": 50.0,
+          "unit": "NOS",
+          "unit_price": 2822.02,
+          "line_total": 141101.0,
+          "expected_delivery": "2026-03-26"
+        },
+        {
+          "item_code": "ITEM-40993",
+          "description": "Insulated electric conductors",
+          "quantity_ordered": 100.0,
+          "unit": "MTR",
+          "unit_price": 60.53,
+          "line_total": 6053.0,
+          "expected_delivery": "2026-03-25"
+        }
+      ],
+      "po_subtotal": 147154.0,
+      "po_tax": 26487.72,
+      "po_total": 173641.72,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "fulfilled",
+      "approval": {
+        "approved_by": "Deepa Sharma",
+        "approved_at": "2026-03-10T15:05:04+05:30"
+      },
+      "invoice_refs": [
+        "INV/2026-27/64501"
+      ],
+      "grn": {
+        "grn_no": "GRN-64501",
+        "received_at": "2026-03-26T02:43:31+05:30",
+        "received_by": "Deepa Sharma",
+        "lines": [
+          {
+            "item_code": "ITEM-29973",
+            "quantity_received": 50.0,
+            "condition": "ok"
+          },
+          {
+            "item_code": "ITEM-40993",
+            "quantity_received": 100.0,
+            "condition": "ok"
+          }
+        ]
+      },
+      "consignment_ref": "CONS-SHA-IYE-260309-64501"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-38982",
+      "thread_name": "CONS-SHA-IYE-260309-64501 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Gupta",
+          "role": "driver",
+          "phone": "+91-80239-79699"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Meena Banerjee",
+          "role": "dispatcher",
+          "phone": "+91-80239-79699"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Deepa Sharma",
+          "role": "warehouse",
+          "phone": "+91-70403-51241"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-20T20:57:31+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi",
+          "text": "सर HR92PB1625 की लोडिंग पूरी हो गई है, गाड़ी निकल रही है। ई-वे बिल साथ में है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-22T07:17:31+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "en",
+          "text": "Crossed the state border checkpost. On schedule for Nelamangala.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-23T17:37:31+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi",
+          "text": "अभी रास्ते में हैं। टोल पार कर लिया है।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-25T02:57:31+05:30",
+          "sender_id": "P2",
+          "sender_name": "Meena Banerjee",
+          "lang": "hi-en",
+          "text": "Sir e-way bill ki validity 23 Mar 2026 ko khatam ho gayi thi, gaadi uske baad pahunchi.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-005",
+          "ts": "2026-03-25T03:57:31+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi-en",
+          "text": "Gaadi gate pe lag gayi hai. Unloading shuru.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-006",
+          "ts": "2026-03-25T07:57:31+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Sharma",
+          "lang": "hi-en",
+          "text": "Sab maal receive kar liya humne. Delivery complete hai.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-007",
+          "ts": "2026-03-25T08:42:31+05:30",
+          "sender_id": "P3",
+          "sender_name": "Deepa Sharma",
+          "lang": "en",
+          "text": "Please share the signed POD before end of day.",
+          "reply_to": "M-006",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-008",
+          "ts": "2026-03-25T08:43:31+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Gupta",
+          "lang": "hi",
+          "text": "POD पर हस्ताक्षर हो गए हैं, फोटो भेज रहा हूँ।",
+          "reply_to": "M-007",
+          "attachments": [
+            {
+              "type": "image",
+              "filename": "POD_CONS-SHA-IYE-260309-64501_67.jpg",
+              "caption": "POD signed copy"
+            }
+          ],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-37310",
+      "raised_at": "2026-03-26T04:43:31+05:30",
+      "raised_by": "Deepa Sharma",
+      "kind": "compliance_hold",
+      "note": "Goods delivered against a lapsed e-way bill. Compliance sign-off required."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-03-09T14:05:04+05:30",
+      "actor": "Iyer Enterprises",
+      "doc_ref": "ORD-2026-64501",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-03-10T15:05:04+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "ORD-2026-64501",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-20T09:05:31+05:30",
+      "actor": "Sharma Trading Co.",
+      "doc_ref": "INV/2026-27/64501",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "ewb_generated",
+      "ts": "2026-03-20T17:57:31+05:30",
+      "actor": "Sharma Trading Co.",
+      "doc_ref": "501747479250",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "dispatched",
+      "ts": "2026-03-20T20:57:31+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR92PB1625",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "arrived",
+      "ts": "2026-03-25T03:57:31+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "HR92PB1625",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "delivered",
+      "ts": "2026-03-25T07:57:31+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-SHA-IYE-260309-64501",
+      "note": null
+    },
+    {
+      "event_id": "E-008",
+      "type": "pod_signed",
+      "ts": "2026-03-25T08:43:31+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "M-008",
+      "note": null
+    },
+    {
+      "event_id": "E-009",
+      "type": "grn_recorded",
+      "ts": "2026-03-26T02:43:31+05:30",
+      "actor": "Deepa Sharma",
+      "doc_ref": "GRN-64501",
+      "note": null
+    }
+  ],
+  "question": "Were the goods for consignment CONS-SHA-IYE-260309-64501 delivered while the e-way bill was still valid?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20264501,
+    "notes": "task=tmp_expiry defect=delivery_after_expiry"
+  }
+}

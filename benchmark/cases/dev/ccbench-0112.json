@@ -1,0 +1,288 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0112",
+  "bucket": "multi-hop",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "GST/2026-27/71679",
+      "issued_at": "2026-07-13T16:34:47+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Krishna Polymers Ltd",
+        "legal_name": "Krishna Polymers Ltd.",
+        "gstin": "09ZZCCR4475K7ZX",
+        "pan": "ZZCCR4475K",
+        "address": {
+          "line1": "Plot 179, MIDC",
+          "line2": "Lucknow",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "566635",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Deepa Singh",
+          "email": "dsingh@krishna.co.in",
+          "phone": "+91-90120-67171"
+        }
+      },
+      "buyer": {
+        "name": "Gupta Trading Co.",
+        "legal_name": "Gupta Trading Co.",
+        "gstin": "09XQGPU1441S4Z0",
+        "pan": "XQGPU1441S",
+        "address": {
+          "line1": "Godown 236, Export Zone",
+          "line2": "Noida Sector 63",
+          "city": "Noida Sector 63",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "648907",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Sameer Mishra",
+          "email": "smishra@gupta.com",
+          "phone": "+91-70729-71969"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "intra_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Wooden furniture of a kind used in offices",
+          "hsn_code": "94033000",
+          "quantity": 1000.0,
+          "unit": "NOS",
+          "rate_per_unit": 8298.06,
+          "taxable_value": 8298060.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 746825.4,
+          "sgst_amount": 746825.4,
+          "igst_amount": 0.0
+        }
+      ],
+      "total_taxable_value": 8298060.0,
+      "total_cgst": 746825.4,
+      "total_sgst": 746825.4,
+      "total_igst": 0.0,
+      "total_tax": 1493650.8,
+      "invoice_total": 9791710.8,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "UP97FW7729",
+      "consignment_ref": "CONS-KRI-GUP-260710-71679"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-71679",
+      "po_date": "2026-07-10",
+      "buyer_entity": "Gupta Trading Co.",
+      "vendor_code": "VND-7354",
+      "vendor_name": "Krishna Polymers Ltd",
+      "vendor_gstin": "09ZZCCR4475K7ZX",
+      "items": [
+        {
+          "item_code": "ITEM-13469",
+          "description": "Wooden furniture of a kind used in offices",
+          "quantity_ordered": 1000.0,
+          "unit": "NOS",
+          "unit_price": 8298.06,
+          "line_total": 8298060.0,
+          "expected_delivery": "2026-07-16"
+        }
+      ],
+      "po_subtotal": 8298060.0,
+      "po_tax": 1493650.8,
+      "po_total": 9791710.8,
+      "currency": "INR",
+      "payment_terms": "Net 45 days",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Sameer Mishra",
+        "approved_at": "2026-07-10T18:18:20+05:30"
+      },
+      "invoice_refs": [
+        "GST/2026-27/71679"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-KRI-GUP-260710-71679"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-98523",
+      "thread_name": "CONS-KRI-GUP-260710-71679 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Suresh Reddy",
+          "role": "driver",
+          "phone": "+91-90120-67171"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Deepa Singh",
+          "role": "dispatcher",
+          "phone": "+91-90120-67171"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Sameer Mishra",
+          "role": "warehouse",
+          "phone": "+91-70729-71969"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-07-13T22:07:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi-en",
+          "text": "UP97FW7729 loading complete sir, nikal rahe hain Lucknow se.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-07-14T04:07:47+05:30",
+          "sender_id": "P1",
+          "sender_name": "Suresh Reddy",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-07-14T08:07:47+05:30",
+          "sender_id": "P2",
+          "sender_name": "Deepa Singh",
+          "lang": "en",
+          "text": "Hold the vehicle there. We are raising the e-way bill on the portal now.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": null
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-07-10T10:18:20+05:30",
+      "actor": "Gupta Trading Co.",
+      "doc_ref": "ORD-2026-71679",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-07-10T18:18:20+05:30",
+      "actor": "Sameer Mishra",
+      "doc_ref": "ORD-2026-71679",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-07-13T16:34:47+05:30",
+      "actor": "Krishna Polymers Ltd.",
+      "doc_ref": "GST/2026-27/71679",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-07-13T22:07:47+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP97FW7729",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-07-15T18:07:47+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "UP97FW7729",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-07-15T19:07:47+05:30",
+      "actor": "TCI Freight",
+      "doc_ref": "CONS-KRI-GUP-260710-71679",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-07-15T21:41:47+05:30",
+      "actor": "Sameer Mishra",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-KRI-GUP-260710-71679 before it moved?",
+  "question_lang": "en",
+  "gold_answer": "No — invoice GST/2026-27/71679 carries no e-way bill reference and none exists for consignment CONS-KRI-GUP-260710-71679 [INV], so the vehicle moved without a permit. The driver confirmed on the thread that the vehicle was stopped at the check post for exactly this reason [M-002].",
+  "gold_facts": [
+    {
+      "fact_id": "F1",
+      "doc": "invoice",
+      "path": "invoice_no",
+      "value": "GST/2026-27/71679",
+      "evidence": null
+    },
+    {
+      "fact_id": "F2",
+      "doc": "invoice",
+      "path": "eway_bill_ref",
+      "value": "None",
+      "evidence": null
+    },
+    {
+      "fact_id": "F3",
+      "doc": "invoice",
+      "path": "consignment_ref",
+      "value": "CONS-KRI-GUP-260710-71679",
+      "evidence": null
+    },
+    {
+      "fact_id": "F4",
+      "doc": "whatsapp_pod",
+      "path": "M-002.text",
+      "value": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+      "evidence": {
+        "ref_id": "M-002",
+        "lang": "hi",
+        "span": "ई-वे बिल बना ही नहीं था",
+        "gloss_en": "the e-way bill was never generated at all"
+      }
+    }
+  ],
+  "gold_label": "missing_ewb",
+  "difficulty": "medium",
+  "must_not_appear": [
+    "+91-70729-71969",
+    "+91-90120-67171",
+    "XQGPU1441S",
+    "ZZCCR4475K",
+    "dsingh@krishna.co.in",
+    "smishra@gupta.com"
+  ],
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20271679,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}

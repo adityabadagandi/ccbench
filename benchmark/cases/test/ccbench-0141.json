@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.2",
+  "case_id": "ccbench-0141",
+  "jurisdiction": "EU",
+  "documents": {
+    "invoice": {
+      "invoice_no": "TAX/2026-27/74492",
+      "issued_at": "2026-03-02T17:41:09+05:30",
+      "revision_no": 0,
+      "supersedes": null,
+      "original_issued_at": null,
+      "seller": {
+        "name": "Shree Ganesh Supply Chain P Ltd",
+        "legal_name": "Shree Ganesh Supply Chain Pvt. Ltd.",
+        "gstin": "27QQOCZ4633P5Z1",
+        "pan": "QQOCZ4633P",
+        "address": {
+          "line1": "Godown 148, Export Zone",
+          "line2": "Andheri East",
+          "city": "Andheri East",
+          "state": "Maharashtra",
+          "state_code": "27",
+          "pincode": "825763",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Farhan Nair",
+          "email": "farhann@shree.co.in",
+          "phone": "+91-80512-77108"
+        }
+      },
+      "buyer": {
+        "name": "Krishna Polymers Ltd.",
+        "legal_name": "Krishna Polymers Ltd.",
+        "gstin": "09XQIPB3203V2ZA",
+        "pan": "XQIPB3203V",
+        "address": {
+          "line1": "Warehouse 159, Industrial Area",
+          "line2": "Kanpur",
+          "city": "Kanpur",
+          "state": "Uttar Pradesh",
+          "state_code": "09",
+          "pincode": "786482",
+          "country": "India"
+        },
+        "contact": {
+          "name": "Dinesh Rao",
+          "email": "drao@krishna.com",
+          "phone": "+91-80118-30627"
+        }
+      },
+      "place_of_supply": "Uttar Pradesh (09)",
+      "supply_type": "inter_state",
+      "items": [
+        {
+          "line_no": 1,
+          "description": "Automatic data processing machines",
+          "hsn_code": "84714110",
+          "quantity": 100.0,
+          "unit": "NOS",
+          "rate_per_unit": 32014.65,
+          "taxable_value": 3201465.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 576263.7
+        },
+        {
+          "line_no": 2,
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "hsn_code": "73043900",
+          "quantity": 100.0,
+          "unit": "KGS",
+          "rate_per_unit": 120.16,
+          "taxable_value": 12016.0,
+          "tax_rate": 18.0,
+          "cgst_amount": 0.0,
+          "sgst_amount": 0.0,
+          "igst_amount": 2162.88
+        }
+      ],
+      "total_taxable_value": 3213481.0,
+      "total_cgst": 0.0,
+      "total_sgst": 0.0,
+      "total_igst": 578426.58,
+      "total_tax": 578426.58,
+      "invoice_total": 3791907.58,
+      "currency": "INR",
+      "eway_bill_ref": null,
+      "vehicle_no": "MH93TG3189",
+      "consignment_ref": "CONS-SHR-KRI-260220-74492"
+    },
+    "eway_bill": null,
+    "erp_order": {
+      "po_no": "ORD-2026-74492",
+      "po_date": "2026-02-20",
+      "buyer_entity": "Krishna Polymers Ltd.",
+      "vendor_code": "VND-7498",
+      "vendor_name": "Shree Ganesh Supply Chain P Ltd",
+      "vendor_gstin": "27QQOCZ4633P5Z1",
+      "items": [
+        {
+          "item_code": "ITEM-93162",
+          "description": "Automatic data processing machines",
+          "quantity_ordered": 100.0,
+          "unit": "NOS",
+          "unit_price": 32014.65,
+          "line_total": 3201465.0,
+          "expected_delivery": "2026-03-04"
+        },
+        {
+          "item_code": "ITEM-22364",
+          "description": "Seamless tubes of iron or non-alloy steel",
+          "quantity_ordered": 100.0,
+          "unit": "KGS",
+          "unit_price": 120.16,
+          "line_total": 12016.0,
+          "expected_delivery": "2026-03-07"
+        }
+      ],
+      "po_subtotal": 3213481.0,
+      "po_tax": 578426.58,
+      "po_total": 3791907.58,
+      "currency": "INR",
+      "payment_terms": "Advance 50%",
+      "status": "pending",
+      "approval": {
+        "approved_by": "Dinesh Rao",
+        "approved_at": "2026-02-21T11:12:36+05:30"
+      },
+      "invoice_refs": [
+        "TAX/2026-27/74492"
+      ],
+      "grn": null,
+      "consignment_ref": "CONS-SHR-KRI-260220-74492"
+    },
+    "whatsapp_pod": {
+      "thread_id": "WA-95612",
+      "thread_name": "CONS-SHR-KRI-260220-74492 — Dispatch",
+      "participants": [
+        {
+          "participant_id": "P1",
+          "name": "Ajay Kumar",
+          "role": "driver",
+          "phone": "+91-80512-77108"
+        },
+        {
+          "participant_id": "P2",
+          "name": "Farhan Nair",
+          "role": "dispatcher",
+          "phone": "+91-80512-77108"
+        },
+        {
+          "participant_id": "P3",
+          "name": "Dinesh Rao",
+          "role": "warehouse",
+          "phone": "+91-80118-30627"
+        }
+      ],
+      "messages": [
+        {
+          "msg_id": "M-001",
+          "ts": "2026-03-03T02:14:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi-en",
+          "text": "MH93TG3189 loading complete sir, nikal rahe hain Andheri East se.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-002",
+          "ts": "2026-03-03T05:14:09+05:30",
+          "sender_id": "P1",
+          "sender_name": "Ajay Kumar",
+          "lang": "hi",
+          "text": "सर गाड़ी चेक पोस्ट पर रोक दी गई है। ई-वे बिल बना ही नहीं था।",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-003",
+          "ts": "2026-03-03T16:14:09+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Nair",
+          "lang": "hi-en",
+          "text": "Ruko wahin. Main abhi portal se e-way bill generate karwata hoon.",
+          "reply_to": "M-002",
+          "attachments": [],
+          "edited": false
+        },
+        {
+          "msg_id": "M-004",
+          "ts": "2026-03-03T23:14:09+05:30",
+          "sender_id": "P2",
+          "sender_name": "Farhan Nair",
+          "lang": "en",
+          "text": "Reminder: submit the fuel bills before the 5th.",
+          "reply_to": null,
+          "attachments": [],
+          "edited": false
+        }
+      ]
+    },
+    "flag": {
+      "flag_id": "FLG-21059",
+      "raised_at": "2026-03-05T11:46:09+05:30",
+      "raised_by": "Dinesh Rao",
+      "kind": "docs_pending",
+      "note": "Consignment moved without an e-way bill. Detained at check post pending documentation."
+    }
+  },
+  "events": [
+    {
+      "event_id": "E-001",
+      "type": "po_raised",
+      "ts": "2026-02-20T17:12:36+05:30",
+      "actor": "Krishna Polymers Ltd.",
+      "doc_ref": "ORD-2026-74492",
+      "note": null
+    },
+    {
+      "event_id": "E-002",
+      "type": "po_approved",
+      "ts": "2026-02-21T11:12:36+05:30",
+      "actor": "Dinesh Rao",
+      "doc_ref": "ORD-2026-74492",
+      "note": null
+    },
+    {
+      "event_id": "E-003",
+      "type": "invoice_issued",
+      "ts": "2026-03-02T17:41:09+05:30",
+      "actor": "Shree Ganesh Supply Chain Pvt. Ltd.",
+      "doc_ref": "TAX/2026-27/74492",
+      "note": null
+    },
+    {
+      "event_id": "E-004",
+      "type": "dispatched",
+      "ts": "2026-03-03T02:14:09+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH93TG3189",
+      "note": null
+    },
+    {
+      "event_id": "E-005",
+      "type": "arrived",
+      "ts": "2026-03-04T03:14:09+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "MH93TG3189",
+      "note": null
+    },
+    {
+      "event_id": "E-006",
+      "type": "delivered",
+      "ts": "2026-03-04T07:14:09+05:30",
+      "actor": "Blue Dart Surface",
+      "doc_ref": "CONS-SHR-KRI-260220-74492",
+      "note": null
+    },
+    {
+      "event_id": "E-007",
+      "type": "pod_signed",
+      "ts": "2026-03-04T09:46:09+05:30",
+      "actor": "Dinesh Rao",
+      "doc_ref": null,
+      "note": null
+    }
+  ],
+  "question": "Was an e-way bill raised for consignment CONS-SHR-KRI-260220-74492 before it moved?",
+  "question_lang": "en",
+  "provenance": {
+    "generator_version": "0.2.0",
+    "seed": 20274492,
+    "notes": "task=mh_no_ewb defect=missing_ewb"
+  }
+}
